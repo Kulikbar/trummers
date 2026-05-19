@@ -46,6 +46,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Can be made vegan by omitting the crema."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -114,6 +118,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy cream."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -180,6 +188,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Can be made vegan by removing goat cheese. Confirm balsamic dressing with kitchen."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -255,6 +267,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Confirm honey mustard vinaigrette is vegan with kitchen. Honey makes this not strictly vegan."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -324,6 +340,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Can be made vegan by removing goat cheese. Confirm shallot preparation with kitchen."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -397,6 +417,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -470,6 +494,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -534,6 +562,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains butter and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -608,6 +640,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy, eggs, and butter."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -677,6 +713,10 @@
       "vegan": {
         "status": "no",
         "note": "Beef product."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -747,6 +787,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains fish."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -817,6 +861,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains shellfish and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -888,6 +936,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains butter and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -951,6 +1003,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains butter and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1013,6 +1069,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1078,6 +1138,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains poultry and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1157,6 +1221,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains fish."
+      },
+      "peanuts": {
+        "status": "contains",
+        "note": "Contains peanuts. Cannot be modified."
       }
     },
     "key_terms": [
@@ -1225,6 +1293,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1302,6 +1374,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1370,6 +1446,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1438,6 +1518,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1506,6 +1590,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains fish and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1575,6 +1663,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains shellfish."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1645,6 +1737,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains seafood."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1718,6 +1814,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains fish and dairy."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1786,6 +1886,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -1863,6 +1967,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat and eggs."
+      },
+      "peanuts": {
+        "status": "check",
+        "note": "Goes through a fryer that may cook peanut products. Confirm with kitchen for severe allergies."
       }
     },
     "key_terms": [
@@ -1932,6 +2040,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains meat."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2007,6 +2119,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2077,6 +2193,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy cheese."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2149,6 +2269,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Can be made vegan by removing the tahini crema."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2213,6 +2337,10 @@
       "vegan": {
         "status": "modifiable",
         "note": "Can be made vegan by removing blue cheese. However, the fryer cooks animal products and is not suitable for strict vegans."
+      },
+      "peanuts": {
+        "status": "check",
+        "note": "Goes through a fryer that may cook peanut products. Confirm with kitchen for severe allergies."
       }
     },
     "key_terms": [
@@ -2272,6 +2400,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2337,6 +2469,10 @@
       "vegan": {
         "status": "check",
         "note": "Confirm butter use with kitchen."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2397,6 +2533,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "check",
+        "note": "Goes through a fryer that may cook peanut products. Confirm with kitchen for severe allergies."
       }
     },
     "key_terms": [
@@ -2458,6 +2598,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2537,6 +2681,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2616,6 +2764,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "contains",
+        "note": "Contains peanuts. Cannot be modified."
       }
     },
     "key_terms": [
@@ -2700,6 +2852,10 @@
       "vegan": {
         "status": "no",
         "note": "Contains dairy and eggs."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2782,6 +2938,10 @@
       "vegan": {
         "status": "no",
         "note": "It is cheese."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
@@ -2855,6 +3015,10 @@
       "vegan": {
         "status": "yes",
         "note": "Vegan. Confirm no honey or other animal products with kitchen."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [

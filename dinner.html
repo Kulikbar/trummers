@@ -246,6 +246,7 @@ const ALLERGENS = [
   { key: 'gluten',    label: '🌾 Gluten-free' },
   { key: 'eggs',      label: '🥚 Egg-free' },
   { key: 'soy',       label: '🫘 Soy-free' },
+  { key: 'peanuts',   label: '🥜 Peanut-free' },
   { key: 'vegetarian',label: '🌿 Vegetarian' },
   { key: 'vegan',     label: '🌱 Vegan' },
 ];
@@ -489,7 +490,7 @@ function render() {
 }
 
 function buildExpand(d) {
-  const allKeys = ['shellfish','dairy','nuts','gluten','eggs','soy','vegetarian','vegan'];
+  const allKeys = ['shellfish','dairy','nuts','gluten','eggs','soy','peanuts','vegetarian','vegan'];
   const allergenLabels = {
     shellfish:'🦐 Shellfish', dairy:'🥛 Dairy', nuts:'🌰 Nuts',
     gluten:'🌾 Gluten', eggs:'🥚 Eggs', soy:'🫘 Soy',

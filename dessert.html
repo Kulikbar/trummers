@@ -206,6 +206,7 @@ const ALLERGENS = [
   { key: 'gluten',    label: '🌾 Gluten-free' },
   { key: 'eggs',      label: '🥚 Egg-free' },
   { key: 'soy',       label: '🫘 Soy-free' },
+  { key: 'peanuts',   label: '🥜 Peanut-free' },
   { key: 'vegetarian',label: '🌿 Vegetarian' },
   { key: 'vegan',     label: '🌱 Vegan' },
 ];
@@ -213,7 +214,7 @@ const ALLERGENS = [
 const ALLERGEN_LABELS = {
   dairy:'🥛 Dairy', nuts:'🌰 Nuts',
   gluten:'🌾 Gluten', eggs:'🥚 Eggs', soy:'🫘 Soy',
-  vegetarian:'🌿 Vegetarian', vegan:'🌱 Vegan'
+  peanuts:'🥜 Peanuts', vegetarian:'🌿 Vegetarian', vegan:'🌱 Vegan'
 };
 
 const KEY_ALLERGENS = ['dairy','nuts','gluten'];
@@ -351,7 +352,7 @@ function render() {
 }
 
 function buildExpand(d) {
-  const allKeys = ['dairy','nuts','gluten','eggs','soy','vegetarian','vegan'];
+  const allKeys = ['dairy','nuts','gluten','eggs','soy','peanuts','vegetarian','vegan'];
 
   const allergenItems = allKeys.map(key => {
     const status = d.allergens?.[key]?.status || 'safe';
@@ -379,8 +380,11 @@ function buildExpand(d) {
         <div class="afters-pairing-cards">
           ${(d.afters_pairings||[]).map(p =>
             `<div class="afters-pairing-card" onclick="event.stopPropagation()">
-              <div class="afters-pairing-name">${p}</div>
-              <div class="afters-pairing-arrow">→</div>
+              <div style="flex:1;min-width:0;">
+                <div class="afters-pairing-name">${p.name || p}</div>
+                ${p.why ? `<div style="font-size:11px;color:var(--muted);margin-top:3px;line-height:1.5;">${p.why}</div>` : ''}
+              </div>
+              <div class="afters-pairing-arrow" style="flex-shrink:0;margin-left:8px;">→</div>
             </div>`
           ).join('')}
         </div>
