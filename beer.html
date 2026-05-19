@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beer & Cider — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+  .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.08) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); font-weight: 400; margin-bottom: 0.75rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
+  .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  .controls { padding: 0.75rem 1.25rem 0.75rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+  .search-wrap { position: relative; margin-bottom: 0.75rem; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
+  #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
+  #search::placeholder { color: var(--muted); }
+  #search:focus { border-color: var(--gold-dim); }
+  .filter-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 6px; }
+  .filter-row::-webkit-scrollbar { display: none; }
+  .icon-btn { flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; font-family: 'Outfit', sans-serif; }
+  .icon-btn:hover { border-color: var(--gold-dim); }
+  .icon-btn.active { background: var(--bg3); border-color: var(--gold); color: var(--cream); }
+  .active-summary { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 6px 0 0; }
+  .active-tag { display: flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 8px; border-radius: 12px; background: rgba(201,169,110,0.1); border: 1px solid var(--border2); color: var(--gold); }
+  .active-tag button { background: none; border: none; color: var(--gold-dim); cursor: pointer; font-size: 11px; padding: 0; line-height: 1; margin-left: 2px; }
+  .clear-all { font-size: 11px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 3px 6px; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; }
+
+  .legend { margin: 0.75rem 1.25rem 0; padding: 10px 14px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); }
+  .legend-title { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; }
+  .legend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 12px; }
+  .legend-item { font-size: 11px; color: var(--muted); }
+
+  .result-count { font-size: 11px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
+
+  .beer-list { padding: 0 1rem 5rem; }
+  .empty { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--gold-dim); }
+  .section-head { padding: 1.75rem 1.25rem 0.4rem; }
+  .section-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--gold); display: block; margin-bottom: 0.3rem; }
+  .section-intro { font-size: 13px; color: var(--muted); line-height: 1.6; font-family: 'Cormorant Garamond', serif; font-style: italic; }
+
+  .beer-card { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--card); overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
+  .beer-card:hover { border-color: var(--border2); }
+  .beer-card.open { border-color: var(--gold-dim); }
+  .beer-card-top { display: flex; align-items: flex-start; padding: 14px 16px; gap: 12px; }
+  .beer-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold-dim); flex-shrink: 0; margin-top: 7px; }
+  .beer-main { flex: 1; min-width: 0; }
+  .beer-detail { font-size: 10px; letter-spacing: 0.12em; color: var(--gold-dim); margin-bottom: 2px; }
+  .beer-producer { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 500; color: var(--cream); line-height: 1.2; }
+  .beer-icons { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 6px; align-items: center; }
+  .beer-icon-badge { font-size: 14px; line-height: 1; }
+  .local-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(90,154,106,0.12); border: 1px solid rgba(90,154,106,0.3); color: #7ab87a; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .beer-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+  .beer-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
+  .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
+  .beer-card.open .chevron { transform: rotate(180deg); }
+
+  .beer-expand { display: none; padding: 0 16px 16px; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
+  .beer-card.open .beer-expand { display: block; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+  .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 4px; }
+  .detail-block.full { grid-column: 1 / -1; }
+  .detail-label { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
+  .note-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .note-pill { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold); background: rgba(201,169,110,0.05); }
+  .pairing-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pairing-tag { font-size: 11px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
+  .expand-section { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
+  .expand-section-title { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; }
+  .expand-section-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+  .trivia-item { display: flex; gap: 10px; margin-bottom: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .trivia-bullet { color: var(--gold-dim); flex-shrink: 0; }
+
+  .loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 4rem 2rem; }
+  .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; flex-shrink: 0; }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-title">Beer &amp; Cider</div>
+  <div class="header-subtitle">Local, Belgian, German &amp; beyond</div>
+  <div class="header-nav">
+    <a href="bar.html">← Bar Guide</a>
+    <a href="spirits.html">← Spirits</a>
+    <a href="cocktails.html">← Cocktails</a>
+    <a href="afters.html">← Afters</a>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input id="search" type="search" placeholder="Search by name, brewery, style, flavor…" autocomplete="off" oninput="render()">
+  </div>
+  <div class="filter-row" id="icon-filters"></div>
+  <div class="active-summary" id="active-summary"></div>
+</div>
+
+<div class="legend" style="margin:0.75rem 1.25rem 0;">
+  <div class="legend-title">Style Guide</div>
+  <div class="legend-grid">
+    <div class="legend-item">🌾 Wheat &amp; Hefe</div>
+    <div class="legend-item">🍺 Pale Ale &amp; IPA</div>
+    <div class="legend-item">🌑 Dark &amp; Stout</div>
+    <div class="legend-item">🍋 Sour</div>
+    <div class="legend-item">⛪ Trappist &amp; Abbey</div>
+    <div class="legend-item">🌿 Farmhouse &amp; Saison</div>
+    <div class="legend-item">🍎 Cider</div>
+    <div class="legend-item">🍾 Large Format</div>
+  </div>
+</div>
+
+<div class="result-count" id="result-count"></div>
+<div class="beer-list" id="beer-list">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading beer &amp; cider…</div>
+  </div>
+</div>
+
+<script>
+let BEERS = [];
+let activeIcons = new Set();
+let openId = null;
+
+const LOCAL_PRODUCERS = ['ANXO', 'Right Proper', 'Crooked Run', 'Solace Brewing', 'Honor Brewing', 'Evolution'];
+
+const ICON_LABELS = {
+  '🌾': 'Wheat & Hefe',
+  '🍺': 'Pale Ale & IPA',
+  '🌑': 'Dark & Stout',
+  '🍋': 'Sour',
+  '⛪': 'Trappist',
+  '🌿': 'Farmhouse',
+  '🍎': 'Cider',
+  '🍾': 'Large Format'
+};
+
+const SECTION_INTRO = "A deliberately curated list — local DC and Virginia breweries alongside some of the world's finest Belgian and German producers. The range runs from Weihenstephaner's thousand-year-old Hefeweizen to Fantôme's eccentric Belgian farmhouse ale. Know the stories behind these beers and they sell themselves.";
+
+function buildFilters() {
+  const iconEl = document.getElementById('icon-filters');
+  iconEl.innerHTML = Object.entries(ICON_LABELS).map(([emoji, label]) =>
+    `<button class="icon-btn${activeIcons.has(emoji) ? ' active' : ''}" onclick="toggleIcon('${emoji}')">${emoji} ${label}</button>`
+  ).join('');
+}
+
+function toggleIcon(emoji) {
+  if (activeIcons.has(emoji)) activeIcons.delete(emoji);
+  else activeIcons.add(emoji);
+  openId = null;
+  buildFilters();
+  render();
+}
+
+function clearAll() {
+  activeIcons.clear();
+  openId = null;
+  document.getElementById('search').value = '';
+  buildFilters();
+  render();
+}
+
+function updateActiveSummary() {
+  const tags = [];
+  for (const ic of activeIcons) tags.push({ label: `${ic} ${ICON_LABELS[ic]}`, clear: () => { activeIcons.delete(ic); buildFilters(); render(); } });
+  const s = document.getElementById('active-summary');
+  if (!tags.length) { s.innerHTML = ''; return; }
+  window._clearTag = tags.map(t => t.clear);
+  s.innerHTML = tags.map((t, i) =>
+    `<span class="active-tag">${t.label}<button onclick="window._clearTag[${i}]()">✕</button></span>`
+  ).join('') + `<button class="clear-all" onclick="clearAll()">Clear all</button>`;
+}
+
+function normalize(str) {
+  return str.toLowerCase().replace(/[^a-z0-9\s]/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function isLocal(producer) {
+  return LOCAL_PRODUCERS.some(l => producer.includes(l));
+}
+
+function render() {
+  const q = normalize(document.getElementById('search').value);
+
+  const filtered = BEERS.filter(b => {
+    if (activeIcons.size > 0) { for (const ic of activeIcons) { if (!b.icons.includes(ic)) return false; } }
+    if (q) {
+      const blob = normalize([
+        b.producer, b.name, b.detail,
+        b.notes.join(' '), b.tableside, b.story,
+        (b.trivia || []).join(' ')
+      ].join(' '));
+      if (!blob.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const countEl = document.getElementById('result-count');
+  countEl.textContent = filtered.length === BEERS.length
+    ? `${BEERS.length} beers &amp; ciders`
+    : `${filtered.length} of ${BEERS.length} beers &amp; ciders`;
+
+  const list = document.getElementById('beer-list');
+  if (!filtered.length) {
+    list.innerHTML = '<div class="empty">No beers match your selection.</div>';
+    updateActiveSummary();
+    return;
+  }
+
+  let html = `<div class="section-head">
+    <span class="section-name">Beer &amp; Cider</span>
+    <div class="section-intro">${SECTION_INTRO}</div>
+  </div>`;
+
+  filtered.forEach(b => {
+    const isOpen = openId === b.id;
+    const fullName = [b.producer, b.name].filter(Boolean).join(' ');
+    const local = isLocal(b.producer);
+    html += `<div class="beer-card${isOpen ? ' open' : ''}" id="card-${b.id}" onclick="toggleCard('${b.id}')">
+      <div class="beer-card-top">
+        <div class="beer-dot"></div>
+        <div class="beer-main">
+          <div class="beer-detail">${b.detail}</div>
+          <div class="beer-producer">${fullName}</div>
+          <div class="beer-icons">
+            ${b.icons.map(i => `<span class="beer-icon-badge">${i}</span>`).join('')}
+            ${local ? `<span class="local-badge">📍 Local</span>` : ''}
+          </div>
+        </div>
+        <div class="beer-right">
+          <div class="beer-price">$${b.price}</div>
+          <div class="chevron">▾</div>
+        </div>
+      </div>
+      ${isOpen ? `<div class="beer-expand">
+        <div class="tableside-line">${b.tableside}</div>
+        <div class="detail-grid">
+          <div class="detail-block full">
+            <div class="detail-label">Flavor Notes</div>
+            <div class="note-pills">${b.notes.map(n => `<span class="note-pill">${n}</span>`).join('')}</div>
+          </div>
+          <div class="detail-block full">
+            <div class="detail-label">Food Pairings</div>
+            <div class="pairing-tags">${b.pairings.map(p => `<span class="pairing-tag">${p}</span>`).join('')}</div>
+          </div>
+        </div>
+        <div class="expand-section">
+          <div class="expand-section-title" onclick="toggleSec(event,'${b.id}-story')">The Story <span id="arr-${b.id}-story">▾</span></div>
+          <div class="expand-section-body" id="sec-${b.id}-story">${b.story}</div>
+        </div>
+        <div class="expand-section">
+          <div class="expand-section-title" onclick="toggleSec(event,'${b.id}-trivia')">Trivia &amp; Context <span id="arr-${b.id}-trivia">▾</span></div>
+          <div class="expand-section-body" id="sec-${b.id}-trivia">
+            ${(b.trivia || []).map(t => `<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}
+          </div>
+        </div>
+      </div>` : ''}
+    </div>`;
+  });
+
+  list.innerHTML = html;
+  updateActiveSummary();
+}
+
+function toggleCard(id) {
+  openId = openId === id ? null : id;
+  render();
+  if (openId) {
+    setTimeout(() => {
+      const el = document.getElementById('card-' + id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 50);
+  }
+}
+
+function toggleSec(e, secId) {
+  e.stopPropagation();
+  const sec = document.getElementById('sec-' + secId);
+  const arr = document.getElementById('arr-' + secId);
+  if (!sec) return;
+  const hidden = sec.style.display === 'none';
+  sec.style.display = hidden ? '' : 'none';
+  if (arr) arr.textContent = hidden ? '▾' : '▸';
+}
+
+fetch('bar.json')
+  .then(r => r.json())
+  .then(data => {
+    BEERS = data.filter(b => b.cat === 'Beer & Cider');
+    buildFilters();
+    render();
+  })
+  .catch(err => {
+    console.error('Could not load bar.json:', err);
+    document.getElementById('beer-list').innerHTML =
+      '<p style="color:#8a7e6e;padding:2rem;text-align:center;">Could not load bar.json. Make sure it is in the same folder as this file.</p>';
+  });
+</script>
+</body>
+</html>

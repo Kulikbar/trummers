@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sparkling & Rosé — Wine Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+  .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(201,169,110,0.06) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); font-weight: 400; margin-bottom: 0.75rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
+  .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .controls { padding: 1rem 1.25rem 0.75rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+  .search-wrap { position: relative; margin-bottom: 0.75rem; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
+  #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
+  #search::placeholder { color: var(--muted); }
+  #search:focus { border-color: var(--gold-dim); }
+  .filter-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 6px; }
+  .filter-row::-webkit-scrollbar { display: none; }
+
+  .filter-btn { flex-shrink: 0; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .filter-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .filter-btn.active { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+  .icon-btn { flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; font-family: 'Outfit', sans-serif; }
+  .icon-btn:hover { border-color: var(--gold-dim); }
+  .icon-btn.active { background: var(--bg3); border-color: var(--gold); color: var(--cream); }
+  .price-section { margin-top: 2px; }
+  .price-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .price-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); }
+  .price-display { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold); }
+  .price-presets { display: flex; gap: 5px; margin-bottom: 8px; }
+  .preset-btn { flex: 1; padding: 5px 4px; border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; cursor: pointer; transition: all 0.15s; text-align: center; white-space: nowrap; }
+  .preset-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
+  .preset-btn.active { background: rgba(201,169,110,0.12); border-color: var(--gold); color: var(--gold2); }
+  .active-summary { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 6px 0 0; }
+  .active-tag { display: flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 8px; border-radius: 12px; background: rgba(201,169,110,0.1); border: 1px solid var(--border2); color: var(--gold); }
+  .active-tag button { background: none; border: none; color: var(--gold-dim); cursor: pointer; font-size: 11px; padding: 0; line-height: 1; margin-left: 2px; }
+  .clear-all { font-size: 11px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 3px 6px; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; }
+  .legend { margin: 0.75rem 1.25rem 0; padding: 10px 14px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); }
+  .legend-title { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; }
+  .legend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 12px; }
+  .legend-item { font-size: 11px; color: var(--muted); }
+  .toc-pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 0.75rem 1.25rem 0; border-bottom: 1px solid var(--border); }
+  .toc-pills::-webkit-scrollbar { display: none; }
+  .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; cursor: pointer; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
+  .toc-pill:hover { border-color: var(--gold-dim); color: var(--gold); } font-size: 11px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
+  .wine-list { padding: 0 1rem 5rem; }
+  .empty { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--gold-dim); }
+  .section-head { padding: 1.75rem 1.25rem 0.4rem; }
+  .section-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--gold); display: block; margin-bottom: 0.3rem; }
+  .section-intro { font-size: 13px; color: var(--muted); line-height: 1.6; font-family: 'Cormorant Garamond', serif; font-style: italic; }
+  .wine-card { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--card); overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
+  .wine-card:hover { border-color: var(--border2); }
+  .wine-card.open { border-color: var(--gold-dim); }
+  .wine-card-top { display: flex; align-items: flex-start; padding: 14px 16px; gap: 12px; }
+  .wine-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
+  .wine-main { flex: 1; min-width: 0; }
+  .wine-number { font-size: 10px; letter-spacing: 0.12em; color: var(--gold-dim); margin-bottom: 2px; }
+  .wine-producer { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 500; color: var(--cream); line-height: 1.2; }
+  .wine-name-line { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .wine-icons { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 6px; align-items: center; }
+  .wine-icon-badge { font-size: 14px; line-height: 1; }
+  .cert-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(90,138,90,0.15); border: 1px solid rgba(90,138,90,0.3); color: #7ab87a; margin-left: 2px; }
+  .btg-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: #c9a96e; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .wine-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
+  .wine-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
+  .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
+  .wine-card.open .chevron { transform: rotate(180deg); }
+  .wine-expand { display: none; padding: 0 16px 16px; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
+  .wine-card.open .wine-expand { display: block; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+  .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+  .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 4px; }
+  .detail-block.full { grid-column: 1 / -1; }
+  .detail-label { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
+  .note-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .note-pill { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold); background: rgba(201,169,110,0.05); }
+  .pairing-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pairing-tag { font-size: 11px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
+  .expand-section { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
+  .expand-section-title { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none; }
+  .expand-section-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+  .expand-section-body p { margin-bottom: 8px; }
+  .expand-section-body p:last-child { margin-bottom: 0; }
+  .trivia-item { display: flex; gap: 10px; margin-bottom: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .trivia-bullet { color: var(--gold-dim); flex-shrink: 0; }
+  .result-count { font-size: 11px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
+  .loading { display: flex; flex-direction: column; align-items: center;
+    justify-content: center; padding: 4rem 2rem; gap: 16px; }
+  .loading-spinner { width: 28px; height: 28px; border: 2px solid var(--border2);
+    border-top-color: var(--gold); border-radius: 50%;
+    animation: spin 0.8s linear infinite; }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic;
+    font-size: 1rem; color: var(--muted); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .price-slider-wrap { padding: 4px 2px 0; }
+  .price-slider-row { display: flex; align-items: center; gap: 10px; }
+  .price-slider { -webkit-appearance: none; appearance: none; width: 100%; height: 3px;
+    background: var(--border2); border-radius: 2px; outline: none; cursor: pointer; }
+  .price-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px;
+    border-radius: 50%; background: var(--gold); border: 2px solid var(--bg);
+    cursor: pointer; box-shadow: 0 0 0 1px var(--gold-dim); }
+  .price-slider::-webkit-slider-thumb:hover { background: var(--gold2); }
+  .price-slider::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%;
+    background: var(--gold); border: 2px solid var(--bg); cursor: pointer; }
+  .price-slider-label { font-size: 11px; color: var(--gold); white-space: nowrap;
+    font-family: 'Outfit', sans-serif; min-width: 52px; text-align: right; }
+  [id^='sec-'] { scroll-margin-top: 280px; }
+  [id^='card-'] { scroll-margin-top: 280px; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-title">Sparkling & Rosé</div>
+  <div class="header-subtitle">Champagne · Other Bubbles · Rosé</div>
+  <div style="margin-top:1rem;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
+    <a href="wines.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">← Home</a>
+    <a href="whites.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">White Wines →</a>
+    <a href="reds.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">Red Wines →</a>
+  </div>
+</header>
+
+<nav class="toc-pills">
+  <a class="toc-pill" href="#sec-champagne">Champagne</a>
+  <a class="toc-pill" href="#sec-bubbles">Other Bubbles</a>
+  <a class="toc-pill" href="#sec-rose">Rosé</a>
+  <a class="toc-pill" href="#sec-largeformat">Large Format</a>
+</nav>
+
+<div class="controls">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input id="search" type="text" placeholder="Search producer, grape, region, descriptor…" oninput="render()">
+  </div>
+  <div class="filter-row" id="cat-filters"></div>
+  <div class="filter-row" id="icon-filters"></div>
+  <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button></div>
+  <div class="price-section">
+    <div class="price-header">
+      <span class="price-label">Price Range</span>
+      <span class="price-display" id="price-display">All prices</span>
+    </div>
+    <div class="price-presets">
+      <button class="preset-btn" data-min="0" data-max="100" onclick="setPreset(this)">Under $100</button>
+      <button class="preset-btn" data-min="100" data-max="150" onclick="setPreset(this)">$100–150</button>
+      <button class="preset-btn" data-min="150" data-max="200" onclick="setPreset(this)">$150–200</button>
+      <button class="preset-btn" data-min="200" data-max="9999" onclick="setPreset(this)">$200+</button>
+    </div>
+      <div class="price-slider-wrap">
+        <div class="price-slider-row">
+          <input type="range" class="price-slider" id="price-max-slider"
+            min="0" max="800" step="10" value="800" oninput="onMaxSlider(this.value)">
+          <span class="price-slider-label" id="price-max-label">All</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="active-summary" id="active-summary"></div>
+</div>
+
+<div class="legend">
+  <div class="legend-title">Icon Key</div>
+  <div class="legend-grid">
+    <div class="legend-item">☁️ Light / delicate</div><div class="legend-item">⚖️ Medium-bodied</div>
+    <div class="legend-item">💪 Rich / full</div><div class="legend-item">🦴 Bone dry</div>
+    <div class="legend-item">🍋 High acidity</div><div class="legend-item">🍑 Fruit-forward</div>
+    <div class="legend-item">🥐 Toasty / brioche</div><div class="legend-item">🧈 Creamy mousse</div>
+    <div class="legend-item">🌸 Floral</div><div class="legend-item">🧂 Minerality</div>
+    <div class="legend-item">🏺 Large format</div><div class="legend-item" style="color:var(--gold);font-size:11px;font-weight:500;">🍷 = Available by the glass</div>
+  </div>
+</div>
+
+<div class="result-count" id="result-count"></div>
+<div class="wine-list" id="wine-list"><div class="loading" id="loading-indicator">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Loading wines…</div>
+</div></div>
+<script>
+const SECTION_INTROS = {
+  "Champagne": "The real thing. Every bottle in this section is from the Champagne appellation in northeastern France, the only place in the world legally permitted to call itself Champagne. Method, terroir, and house style vary enormously. Know the differences and you'll be able to steer any guest to exactly what they want.",
+  "Other Bubbles": "Sparkling wine made everywhere else. Austria, Italy, Oregon, Virginia, Brazil, each with its own grape, method, and personality. These aren't consolation prizes for guests who can't afford Champagne. Several are extraordinary on their own terms and worth championing.",
+  "Rosé": "Three rosés, three completely different styles. Oregon Pinot, California Grenache, Sicilian Nero d'Avola, and two Austrian options. None of them are sweet. None of them are interchangeable. Know which guest gets which bottle.",
+  "Large Format": "Magnums and beyond. Large format bottles age more slowly than 750ml, as the reduced ratio of oxygen to wine produces finer, more complex development over time. Every bottle here turns a table into an occasion. Worth mentioning proactively for celebrations before guests think to ask."
+};
+
+let WINES = [];
+
+
+const CATS = ["All","Champagne","Other Bubbles","Rosé","Large Format"];
+const CAT_ANCHORS = {
+  "Champagne":"sec-champagne","Other Bubbles":"sec-bubbles",
+  "Rosé":"sec-rose","Large Format":"sec-largeformat"
+};
+const ICONS = ["☁️","⚖️","💪","🦴","🍋","🍑","🥐","🧈","🌸","🧂","🏺"];
+const ICON_LABELS = {"☁️":"Light/delicate","⚖️":"Medium-bodied","💪":"Rich/full","🦴":"Bone dry","🍋":"High acidity","🍑":"Fruit-forward","🥐":"Toasty/brioche","🧈":"Creamy mousse","🌸":"Floral","🧂":"Minerality","🏺":"Large format"};
+const PRICE_MAX = 800;
+let activeCat = "All", activeIcons = new Set(), openId = null, btgOnly = false;
+let priceMin = 0, priceMax = PRICE_MAX, activePreset = null;
+
+
+function normalize(str) {
+  return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g,'ss').toLowerCase();
+}
+
+
+function onMaxSlider(val) {
+  const v = parseInt(val);
+  priceMax = v >= 800 ? PRICE_MAX : v;
+  activePreset = null;
+  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('price-max-label').textContent = v >= 600 ? 'All' : 'Under $' + v;
+  buildSummary(); render();
+}
+function updateSliderUI() {
+  const slider = document.getElementById('price-max-slider');
+  const label = document.getElementById('price-max-label');
+  if (!slider) return;
+  const val = priceMax >= PRICE_MAX ? 800 : priceMax;
+  slider.value = val;
+  label.textContent = priceMax >= PRICE_MAX ? 'All' : 'Under $' + priceMax;
+}
+function buildFilters() {
+  document.getElementById('cat-filters').innerHTML = CATS.map((c,idx) =>
+    `<button class="filter-btn${activeCat===c?' active':''}" onclick="setCat(CATS[${idx}])">${c}</button>`).join('');
+  document.getElementById('icon-filters').innerHTML = ICONS.map(ic =>
+    `<button class="icon-btn${activeIcons.has(ic)?' active':''}" onclick="toggleIcon('${ic}')">${ic} ${ICON_LABELS[ic]}</button>`).join('');
+  const btgBtn = document.getElementById('btg-filter');
+  if(btgBtn) btgBtn.className = 'icon-btn' + (btgOnly ? ' active' : '');
+  buildSummary();
+}
+
+function setCat(c) { activeCat=c; openId=null; buildFilters(); render(); }
+function toggleBtg() { btgOnly=!btgOnly; buildFilters(); render(); }
+function toggleIcon(ic) { activeIcons.has(ic)?activeIcons.delete(ic):activeIcons.add(ic); buildFilters(); render(); }
+
+function setPreset(btn) {
+  const min=parseInt(btn.dataset.min), max=parseInt(btn.dataset.max);
+  if (activePreset===btn) { activePreset=null; priceMin=0; priceMax=PRICE_MAX; }
+  else { priceMin=min; priceMax=max>=9999?PRICE_MAX:max; activePreset=btn; }
+  document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));
+  if(activePreset) activePreset.classList.add('active');
+  updateSliderUI(); buildSummary(); render();
+}
+
+function buildSummary() {
+  const tags=[];
+  if(activeCat!=='All') tags.push({label:activeCat,clear:()=>{activeCat='All';buildFilters();render();}});
+  activeIcons.forEach(ic=>tags.push({label:`${ic} ${ICON_LABELS[ic]}`,clear:()=>{activeIcons.delete(ic);buildFilters();render();}}));
+  const isPriceActive=priceMin>0||priceMax<PRICE_MAX;
+  if(isPriceActive){const pl=priceMax>=PRICE_MAX?`$${priceMin}+`:`$${priceMin}–$${priceMax}`;tags.push({label:pl,clear:()=>{priceMin=0;priceMax=PRICE_MAX;activePreset=null;document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));updateSliderUI();buildSummary();render();}});}
+  if(btgOnly) tags.push({label:'🍷 By the Glass',clear:()=>{btgOnly=false;buildFilters();render();}});
+  const s=document.getElementById('active-summary');
+  if(!tags.length){s.innerHTML='';return;}
+  s.innerHTML=tags.map((t,i)=>{window._clearTag=window._clearTag||[];window._clearTag[i]=t.clear;return `<span class="active-tag">${t.label}<button onclick="window._clearTag[${i}]()">✕</button></span>`;}).join('')+`<button class="clear-all" onclick="clearAll()">Clear all</button>`;
+}
+
+function clearAll(){activeCat='All';activeIcons.clear();priceMin=0;priceMax=PRICE_MAX;activePreset=null;openId=null;document.getElementById('search').value='';document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));updateSliderUI();buildFilters();render();}
+
+function render() {
+  const q=normalize(document.getElementById('search').value);
+  const filtered=WINES.filter(w=>{
+    if(btgOnly&&!w.btg)return false;
+    if(activeCat!=='All'&&w.cat!==activeCat)return false;
+    if(activeIcons.size>0){for(const ic of activeIcons){if(!w.icons.includes(ic))return false;}}
+    if(w.price<priceMin||(priceMax<PRICE_MAX&&w.price>priceMax))return false;
+    if(q){const blob=normalize([w.id,w.producer,w.name,w.cat,w.region,w.notes.join(' '),w.tableside,w.story,(w.trivia||[]).join(' ')].join(' '));if(!blob.includes(q))return false;}
+    return true;
+  });
+  document.getElementById('result-count').textContent=filtered.length===WINES.length?`${WINES.length} wines`:`${filtered.length} of ${WINES.length} wines`;
+  const list=document.getElementById('wine-list');
+  if(!filtered.length){list.innerHTML=`<div class="empty">No wines match your selection.</div>`;return;}
+  const grouped={};
+  filtered.forEach(w=>{if(!grouped[w.cat])grouped[w.cat]=[];grouped[w.cat].push(w);});
+  let html='';
+  for(const[cat,wines]of Object.entries(grouped)){
+    const anchor=CAT_ANCHORS[cat]||'';
+    html+=`<div class="section-head">${anchor?`<span id="${anchor}" style="display:block;position:relative;top:0;visibility:hidden;"></span>`:''}<span class="section-name">${cat}</span>${SECTION_INTROS[cat]?`<div class="section-intro">${SECTION_INTROS[cat]}</div>`:''}</div>`;
+    wines.forEach(w=>{
+      const isOpen=openId===w.id;
+      const dc=w.type==='red'?'#8b2020':w.cat==='Champagne'||w.cat==='Other Bubbles'?'#5a8fa8':w.cat==='Rosé'?'#b85a7a':w.cat==='Natural & Orange'?'#5a8a5a':'#c9a96e';
+      html+=`<div class="wine-card${isOpen?' open':''}" id="card-${w.id}" onclick="toggleCard('${w.id}')">
+        <div class="wine-card-top">
+          <div class="wine-dot" style="background:${dc}"></div>
+          <div class="wine-main">
+            <div class="wine-number">${w.id} · ${w.vintage} · ${w.abv}</div>
+            <div class="wine-producer">${w.producer}</div>
+            <div class="wine-name-line">${w.name}</div>
+            <div class="wine-name-line" style="font-size:11px;margin-top:1px;">${w.region}</div>
+            <div class="wine-icons">${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}${w.cert?`<span class="cert-badge">${w.cert==='Co/b'?'Organic/Bio':w.cert==='CS'?'Sustainable':'Practicing'}</span>`:''}${w.btg?'<span class="btg-badge">🍷</span>':''}</div>
+          </div>
+          <div class="wine-right"><div class="wine-price">$${w.price}</div><div class="chevron">▾</div></div>
+        </div>
+        ${isOpen?`<div class="wine-expand">
+          <div class="tableside-line">${w.tableside}</div>
+          <div class="detail-grid">
+            <div class="detail-block full"><div class="detail-label">Tasting Notes</div><div class="note-pills">${w.notes.map(n=>`<span class="note-pill">${n}</span>`).join('')}</div></div>
+            <div class="detail-block full"><div class="detail-label">Food Pairings</div><div class="pairing-tags">${w.pairings.map(p=>`<span class="pairing-tag">${p}</span>`).join('')}</div></div>
+          </div>
+          <div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${w.id}-story')">The Story <span id="arr-${w.id}-story">▾</span></div><div class="expand-section-body" id="sec-${w.id}-story"><p>${w.story}</p></div></div>
+          <div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${w.id}-trivia')">Trivia & Context <span id="arr-${w.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${w.id}-trivia">${(w.trivia||[]).map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>
+        </div>`:''}
+      </div>`;
+    });
+  }
+  list.innerHTML=html;
+}
+
+function toggleCard(id){openId=openId===id?null:id;render();if(openId)setTimeout(()=>{const el=document.getElementById('card-'+id);if(el)el.scrollIntoView({behavior:'smooth',block:'nearest'});},50);}
+function toggleSec(e,secId){e.stopPropagation();const sec=document.getElementById('sec-'+secId),arr=document.getElementById('arr-'+secId);if(!sec)return;const hidden=sec.style.display==='none';sec.style.display=hidden?'':'none';if(arr)arr.textContent=hidden?'▾':'▸';}
+
+
+
+
+
+function scrollToHash() {
+  if (!window.location.hash) return;
+  const id = window.location.hash.slice(1);
+  if (!id) return;
+  // If it's a wine card, open it and scroll after render completes
+  if (id.startsWith('card-')) {
+    const wineId = id.replace('card-', '');
+    openId = wineId;
+    render();
+    setTimeout(() => {
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 300);
+  } else {
+    const el = document.getElementById(id);
+    if (!el) return;
+    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 150);
+  }
+}
+fetch('wines.json')
+  .then(r => r.json())
+  .then(data => {
+    WINES = data.filter(w => w.file === 'sparkling');
+    const li = document.getElementById('loading-indicator');
+    if(li) li.remove();
+    buildFilters();
+    render();
+    scrollToHash();
+  })
+  .catch(err => {
+    console.error('Could not load wines.json:', err);
+    document.getElementById('wine-list').innerHTML = '<p style="color:#8a7e6e;padding:2rem;text-align:center">Could not load wine data. Make sure wines.json is in the same folder.</p>';
+  });
+
+</script>
+</body>
+</html>

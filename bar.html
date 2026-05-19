@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bar Guide — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --card: #1a1612; --card2: #1e1a15;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #7a6e5e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3); --border3: rgba(201,169,110,0.08);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; color: var(--cream); }
+  .wrap { max-width: 420px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; padding-bottom: 3rem; }
+
+  /* ── HEADER ── */
+  .header { padding: 3rem 1.5rem 2rem; text-align: center; position: relative; overflow: hidden; }
+  .header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(201,169,110,0.08), transparent 65%); pointer-events: none; }
+  .eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
+  .title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 11vw, 3.8rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.4rem; }
+  .subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; color: var(--gold-dim); font-style: italic; margin-bottom: 1rem; }
+  .count-badge { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; padding: 5px 14px; border-radius: 20px; background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); font-family: 'Outfit', sans-serif; letter-spacing: 0.05em; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  /* ── SEARCH ── */
+  .search-section { padding: 1.25rem 1rem 0; }
+  .search-wrap { position: relative; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 16px; pointer-events: none; }
+  .search-input { width: 100%; background: var(--card); border: 1px solid var(--border2); border-radius: 12px; padding: 13px 16px 13px 40px; font-family: 'Outfit', sans-serif; font-size: 13px; font-weight: 300; color: var(--cream); outline: none; transition: border-color 0.2s; -webkit-appearance: none; }
+  .search-input::placeholder { color: var(--muted); }
+  .search-input:focus { border-color: var(--gold-dim); }
+  .search-meta { font-size: 11px; color: var(--muted); padding: 0.5rem 0.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; min-height: 1.4em; }
+
+  /* ── SEARCH RESULTS ── */
+  .results-container { padding: 0.5rem 1rem 0; display: flex; flex-direction: column; gap: 6px; }
+  .result-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1.1rem; text-decoration: none; color: inherit; display: block; transition: border-color 0.2s; }
+  .result-card:hover { border-color: var(--border2); }
+  .result-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .result-producer { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-weight: 500; color: var(--cream); line-height: 1.2; }
+  .result-price { font-size: 12px; color: var(--gold); white-space: nowrap; font-weight: 400; flex-shrink: 0; }
+  .result-name { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .result-meta { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .result-tag { font-size: 10px; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--border); color: var(--gold-dim); }
+  .result-section { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); }
+  .no-results { text-align: center; padding: 2rem 1rem; color: var(--muted); font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1rem; }
+
+  /* ── DIVIDER ── */
+  .divider { height: 1px; background: var(--border); margin: 1.75rem 1.5rem 0; }
+  .section-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); padding: 1.25rem 1.5rem 0.75rem; }
+
+  /* ── SECTION CARDS ── */
+  .cards { padding: 0 1rem; display: flex; flex-direction: column; gap: 10px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; text-decoration: none; display: block; color: inherit; transition: border-color 0.2s; }
+  .card:hover { border-color: var(--border2); }
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.5rem; }
+  .card-meta { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.35rem; font-weight: 400; }
+  .dot-row { display: flex; align-items: center; gap: 5px; margin-bottom: 0.4rem; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--cream); line-height: 1.1; }
+  .card-arrow { color: var(--gold-dim); font-size: 22px; margin-top: 2px; flex-shrink: 0; }
+  .card-quote { font-family: 'Cormorant Garamond', serif; font-size: 13px; font-style: italic; color: var(--muted); line-height: 1.6; margin-bottom: 0.75rem; }
+  .card-quote-attr { font-style: normal; font-size: 11px; letter-spacing: 0.05em; color: var(--gold-dim); }
+  .card-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pill { font-size: 10px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border); color: var(--gold-dim); }
+  .pill-count { background: rgba(201,169,110,0.08); border-color: var(--border2); color: var(--gold); }
+
+  /* ── QUICK ACCESS ── */
+  .quick-cards { padding: 0 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .quick-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 0.9rem 1rem; text-decoration: none; color: inherit; display: block; transition: border-color 0.2s; }
+  .quick-card:hover { border-color: var(--border2); }
+  .quick-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.3rem; }
+  .quick-title { font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; color: var(--cream); }
+
+  /* ── FOOTER ── */
+  .footer { padding: 2rem 1.5rem 1rem; text-align: center; margin-top: auto; }
+  .footer-text { font-size: 11px; color: var(--gold-dim); font-style: italic; font-family: 'Cormorant Garamond', serif; line-height: 1.8; }
+
+  /* ── HIDE/SHOW ── */
+  .browse-section { transition: opacity 0.2s; }
+  .browse-section.hidden { display: none; }
+  .loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 2rem; }
+  .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; flex-shrink: 0; }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div class="eyebrow">Staff Reference</div>
+    <div class="title">The Bar</div>
+    <div class="subtitle">Search across all bar sections</div>
+    <div class="count-badge" id="count-badge">166 selections &nbsp;·&nbsp; 4 sections</div>
+    <div class="header-nav">
+      <a href="index.html">← Home</a>
+    </div>
+  </div>
+
+  <div class="search-section">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input class="search-input" id="search" type="text" placeholder="Distillery, style, region, flavor…" oninput="handleSearch()">
+    </div>
+    <div class="search-meta" id="search-meta"></div>
+  </div>
+
+  <div class="results-container" id="results"></div>
+
+  <div class="browse-section" id="browse-section">
+
+    <div class="divider"></div>
+    <div class="section-label">Browse by Section</div>
+    <div class="cards">
+
+      <a class="card" href="whisky.html">
+        <div class="card-meta">Whiskey &amp; Spirits</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#c9a96e"></div>
+              <div class="dot" style="background:#8a6e42"></div>
+              <div class="dot" style="background:#e8c98a"></div>
+            </div>
+            <div class="card-title">Spirits</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-quote">"Too much of anything is bad, but too much good whiskey is barely enough." <span class="card-quote-attr">— Mark Twain</span></div>
+        <div class="card-pills">
+          <span class="pill">Bourbon</span>
+          <span class="pill">Rye</span>
+          <span class="pill">Scotch</span>
+          <span class="pill">Irish</span>
+          <span class="pill pill-count">128 spirits</span>
+        </div>
+      </a>
+
+      <a class="card" href="cocktails.html">
+        <div class="card-meta">Cocktails</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#7aafca"></div>
+              <div class="dot" style="background:#b85a7a"></div>
+              <div class="dot" style="background:#5a9a6a"></div>
+            </div>
+            <div class="card-title">Cocktails</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-quote">"I am a firm believer in the people. If given the truth, they can be depended upon to meet any national crisis. The great point is to bring them the right cocktail." <span class="card-quote-attr">— Abraham Lincoln, apocryphally</span></div>
+        <div class="card-pills">
+          <span class="pill">Cocktails</span>
+          <span class="pill">Alcohol Free</span>
+          <span class="pill pill-count">Coming soon</span>
+        </div>
+      </a>
+
+      <a class="card" href="beer.html">
+        <div class="card-meta">Beer &amp; Cider</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#c9a050"></div>
+              <div class="dot" style="background:#5a8a5a"></div>
+              <div class="dot" style="background:#8a6030"></div>
+            </div>
+            <div class="card-title">Beer &amp; Cider</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-quote">"Beer is proof that God loves us and wants us to be happy." <span class="card-quote-attr">— Benjamin Franklin, also apocryphally</span></div>
+        <div class="card-pills">
+          <span class="pill">Local DC &amp; VA</span>
+          <span class="pill">Belgian</span>
+          <span class="pill">German</span>
+          <span class="pill pill-count">11 selections</span>
+        </div>
+      </a>
+
+      <a class="card" href="afters.html">
+        <div class="card-meta">Digestivo &amp; Afters</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#7a4a8a"></div>
+              <div class="dot" style="background:#8a3030"></div>
+              <div class="dot" style="background:#c9a96e"></div>
+            </div>
+            <div class="card-title">Afters</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-quote">"After dinner, rest a while; after supper, walk a mile." <span class="card-quote-attr">— English proverb</span></div>
+        <div class="card-pills">
+          <span class="pill">Amaro</span>
+          <span class="pill">Vermouth</span>
+          <span class="pill">Port</span>
+          <span class="pill">Brandy</span>
+          <span class="pill pill-count">27 selections</span>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-label">Quick Access</div>
+    <div class="quick-cards">
+      <a class="quick-card" href="whisky.html#sec-sbp">
+        <div class="quick-label">Rare &amp; Sought-After</div>
+        <div class="quick-title">Allocated Spirits</div>
+      </a>
+      <a class="quick-card" href="afters.html#sec-port">
+        <div class="quick-label">Graham's Range</div>
+        <div class="quick-title">Tawny Port</div>
+      </a>
+      <a class="quick-card" href="beer.html">
+        <div class="quick-label">DC &amp; Virginia</div>
+        <div class="quick-title">Local Breweries</div>
+      </a>
+      <a class="quick-card" href="whisky.html#sec-scotch">
+        <div class="quick-label">Islay &amp; Speyside</div>
+        <div class="quick-title">Single Malt Scotch</div>
+      </a>
+      <a class="quick-card" href="afters.html#sec-amaro">
+        <div class="quick-label">Lightest to Boldest</div>
+        <div class="quick-title">Amaro Guide</div>
+      </a>
+      <a class="quick-card" href="whisky.html#sec-rye">
+        <div class="quick-label">America's Original</div>
+        <div class="quick-title">Rye Whiskey</div>
+      </a>
+    </div>
+
+    <div class="footer">
+      <div class="footer-text">
+        Search above reaches across all bar sections.<br>
+        Each section has its own filters, icons, and detail views.
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+let ALL_BAR = [];
+
+fetch('bar.json')
+  .then(r => r.json())
+  .then(data => {
+    ALL_BAR = data;
+    const badge = document.getElementById('count-badge');
+    if (badge) badge.textContent = ALL_BAR.length + ' selections · 4 sections';
+  })
+  .catch(err => {
+    const meta = document.getElementById('search-meta');
+    if (meta) meta.textContent = 'Could not load bar data — check your connection.';
+  });
+
+const SECTION_URLS = {
+  'Bourbon': 'whisky.html',
+  'Single Barrel & Barrel Proof': 'whisky.html',
+  'Rye': 'whisky.html',
+  'Single Malt Scotch': 'whisky.html',
+  'Irish': 'whisky.html',
+  'Other': 'whisky.html',
+  'Beer & Cider': 'beer.html',
+  'Afters': 'afters.html'
+};
+
+const SECTION_LABELS = {
+  'Bourbon': 'Spirits · Bourbon',
+  'Single Barrel & Barrel Proof': 'Spirits · Single Barrel',
+  'Rye': 'Spirits · Rye',
+  'Single Malt Scotch': 'Spirits · Scotch',
+  'Irish': 'Spirits · Irish',
+  'Other': 'Spirits · Other',
+  'Beer & Cider': 'Beer & Cider',
+  'Afters': 'Afters'
+};
+
+function normalize(str) {
+  return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g, 'ss').toLowerCase();
+}
+
+function handleSearch() {
+  const q = document.getElementById('search').value.trim();
+  const browse = document.getElementById('browse-section');
+  const results = document.getElementById('results');
+  const meta = document.getElementById('search-meta');
+
+  if (!q) {
+    browse.classList.remove('hidden');
+    results.innerHTML = '';
+    meta.textContent = '';
+    return;
+  }
+
+  browse.classList.add('hidden');
+
+  if (ALL_BAR.length === 0) {
+    results.innerHTML = '<div class="loading"><div class="loading-spinner"></div><div class="loading-text">Loading…</div></div>';
+    return;
+  }
+
+  const terms = normalize(q).split(/\s+/).filter(Boolean);
+  const matches = ALL_BAR.filter(item => {
+    const haystack = normalize([
+      item.producer, item.name, item.cat, item.detail, item.type,
+      (item.notes || []).join(' '), item.tableside, item.story,
+      (item.trivia || []).join(' ')
+    ].join(' '));
+    return terms.every(t => haystack.includes(t));
+  });
+
+  if (!matches.length) {
+    results.innerHTML = '<div class="no-results">Nothing found for "' + q + '"</div>';
+    meta.textContent = '';
+    return;
+  }
+
+  meta.textContent = matches.length + ' result' + (matches.length !== 1 ? 's' : '') + ' found';
+
+  results.innerHTML = matches.map(item => {
+    const baseUrl = SECTION_URLS[item.cat] || 'whisky.html';
+    const url = baseUrl + '#card-' + item.id;
+    const fullName = [item.producer, item.name].filter(Boolean).join(' ');
+    const sectionLabel = SECTION_LABELS[item.cat] || item.cat;
+    return `<a class="result-card" href="${url}">
+      <div class="result-top">
+        <div class="result-producer">${fullName}</div>
+        <div class="result-price">$${item.price}</div>
+      </div>
+      <div class="result-name">${item.detail || ''}</div>
+      <div class="result-meta">
+        <span class="result-section">${sectionLabel}</span>
+        ${item.allocated ? '<span class="result-tag" style="color:var(--gold);border-color:var(--border2);">⭐ Allocated</span>' : ''}
+        ${item.type ? `<span class="result-tag">${item.type}</span>` : ''}
+      </div>
+    </a>`;
+  }).join('');
+}
+</script>
+</body>
+</html>

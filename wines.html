@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wine Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --card: #1a1612; --card2: #1e1a15;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #7a6e5e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3); --border3: rgba(201,169,110,0.08);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); font-family: "Outfit", sans-serif; font-weight: 300;
+    min-height: 100vh; -webkit-font-smoothing: antialiased; color: var(--cream); }
+  .wrap { max-width: 420px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; padding-bottom: 3rem; }
+
+  /* ── HEADER ── */
+  .header { padding: 3rem 1.5rem 2rem; text-align: center; position: relative; overflow: hidden; }
+  .header::before { content: ""; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% 0%, rgba(201,169,110,0.08), transparent 65%);
+    pointer-events: none; }
+  .eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+    color: var(--gold-dim); margin-bottom: 0.75rem; }
+  .title { font-family: "Cormorant Garamond", serif;
+    font-size: clamp(2.4rem, 11vw, 3.8rem); font-weight: 300; color: var(--cream);
+    line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.4rem; }
+  .subtitle { font-family: "Cormorant Garamond", serif; font-size: 1.05rem;
+    color: var(--gold-dim); font-style: italic; margin-bottom: 1rem; }
+  .wine-count-badge { display: inline-flex; align-items: center; gap: 8px;
+    font-size: 11px; padding: 5px 14px; border-radius: 20px;
+    background: rgba(201,169,110,0.08); border: 1px solid var(--border2);
+    color: var(--gold); font-family: "Outfit", sans-serif; letter-spacing: 0.05em; }
+
+  /* ── SEARCH ── */
+  .search-section { padding: 1.25rem 1rem 0; }
+  .search-wrap { position: relative; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--gold-dim); font-size: 16px; pointer-events: none; }
+  .search-input { width: 100%; background: var(--card); border: 1px solid var(--border2);
+    border-radius: 12px; padding: 13px 16px 13px 40px; font-family: "Outfit", sans-serif;
+    font-size: 13px; font-weight: 300; color: var(--cream); outline: none;
+    transition: border-color 0.2s; -webkit-appearance: none; }
+  .search-input::placeholder { color: var(--muted); }
+  .search-input:focus { border-color: var(--gold-dim); }
+  .search-meta { font-size: 11px; color: var(--muted); padding: 0.5rem 0.25rem 0;
+    font-style: italic; font-family: "Cormorant Garamond", serif; min-height: 1.4em; }
+
+  /* ── SEARCH RESULTS ── */
+  .results-container { padding: 0.5rem 1rem 0; display: flex; flex-direction: column; gap: 6px; }
+  .result-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 0.9rem 1.1rem; text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s; }
+  .result-card:hover { border-color: var(--border2); }
+  .result-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .result-producer { font-family: "Cormorant Garamond", serif; font-size: 1.1rem;
+    font-weight: 500; color: var(--cream); line-height: 1.2; }
+  .result-price { font-size: 12px; color: var(--gold); white-space: nowrap;
+    font-weight: 400; flex-shrink: 0; }
+  .result-name { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .result-meta { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
+  .result-tag { font-size: 10px; padding: 2px 8px; border-radius: 10px;
+    border: 1px solid var(--border); color: var(--gold-dim); }
+  .result-file { font-size: 10px; padding: 2px 8px; border-radius: 10px;
+    background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); }
+  .no-results { text-align: center; padding: 2rem 1rem; color: var(--muted);
+    font-family: "Cormorant Garamond", serif; font-style: italic; font-size: 1rem; }
+
+  /* ── DIVIDER ── */
+  .divider { height: 1px; background: var(--border); margin: 1.75rem 1.5rem 0; }
+  .section-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+    color: var(--gold-dim); padding: 1.25rem 1.5rem 0.75rem; }
+
+  /* ── SECTION CARDS ── */
+  .cards { padding: 0 1rem; display: flex; flex-direction: column; gap: 10px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 1.25rem 1.5rem; text-decoration: none; display: block; color: inherit;
+    transition: border-color 0.2s; }
+  .card:hover { border-color: var(--border2); }
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.5rem; }
+  .card-meta { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--gold-dim); margin-bottom: 0.35rem; font-weight: 400; }
+  .dot-row { display: flex; align-items: center; gap: 5px; margin-bottom: 0.4rem; }
+  .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .card-title { font-family: "Cormorant Garamond", serif; font-size: 1.5rem;
+    font-weight: 400; color: var(--cream); line-height: 1.1; }
+  .card-arrow { color: var(--gold-dim); font-size: 22px; margin-top: 2px; flex-shrink: 0; }
+  .card-desc { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 0.75rem; }
+  .card-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pill { font-size: 10px; padding: 3px 10px; border-radius: 20px;
+    border: 1px solid var(--border); color: var(--gold-dim); }
+  .pill-count { background: rgba(201,169,110,0.08); border-color: var(--border2); color: var(--gold); }
+
+  /* ── QUICK ACCESS ── */
+  .quick-cards { padding: 0 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .quick-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    padding: 0.9rem 1rem; text-decoration: none; color: inherit; display: block;
+    transition: border-color 0.2s; }
+  .quick-card:hover { border-color: var(--border2); }
+  .quick-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--gold-dim); margin-bottom: 0.3rem; }
+  .quick-title { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; color: var(--cream); }
+
+  /* ── FOOTER ── */
+  .footer { padding: 2rem 1.5rem 1rem; text-align: center; margin-top: auto; }
+  .footer-text { font-size: 11px; color: var(--gold-dim); font-style: italic;
+    font-family: "Cormorant Garamond", serif; line-height: 1.8; }
+  .icon-hint { display: flex; flex-wrap: wrap; justify-content: center;
+    gap: 8px; margin-top: 0.75rem; }
+  .icon-hint-item { font-size: 10px; color: var(--muted); }
+
+  /* ── HIDE/SHOW ── */
+  .browse-section { transition: opacity 0.2s; }
+  .browse-section.hidden { display: none; }
+  .loading { display: flex; align-items: center; justify-content: center;
+    gap: 10px; padding: 2rem; }
+  .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2);
+    border-top-color: var(--gold); border-radius: 50%;
+    animation: spin 0.8s linear infinite; flex-shrink: 0; }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic;
+    font-size: 0.95rem; color: var(--muted); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="header">
+    <div class="eyebrow">Staff Reference Guide</div>
+    <div class="title">The Wine List</div>
+    <div class="subtitle">Search across all sections</div>
+    <div class="wine-count-badge" id="wine-count-badge">383 wines &nbsp;·&nbsp; 3 sections</div>
+  </div>
+
+  <div class="search-section">
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input class="search-input" id="search" type="text"
+        placeholder="Producer, grape, region, style…" oninput="handleSearch()">
+    </div>
+    <div class="search-meta" id="search-meta"></div>
+  </div>
+
+  <div class="results-container" id="results"></div>
+
+  <div class="browse-section" id="browse-section">
+
+    <div class="divider"></div>
+    <div class="section-label">Browse by Section</div>
+    <div class="cards">
+
+      <a class="card" href="sparkling.html">
+        <div class="card-meta">Sparkling &amp; Rosé</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#5a8fa8"></div>
+              <div class="dot" style="background:#7aafca"></div>
+              <div class="dot" style="background:#b85a7a"></div>
+            </div>
+            <div class="card-title">Sparkling &amp; Rosé</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-desc">The list starts here. Bubbles from Champagne's greatest addresses, serious Austrian Sekt, and rosé worth asking about.</div>
+        <div class="card-pills">
+          <span class="pill">Champagne</span>
+          <span class="pill">Austrian Sekt</span>
+          <span class="pill">Rosé</span>
+          <span class="pill">Large Format</span>
+          <span class="pill pill-count">45 wines</span>
+        </div>
+      </a>
+
+      <a class="card" href="whites.html">
+        <div class="card-meta">White Wines</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#c9a96e"></div>
+              <div class="dot" style="background:#d4b88a"></div>
+              <div class="dot" style="background:#5a8a5a"></div>
+            </div>
+            <div class="card-title">White Wines</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-desc">The most ambitious section on the list. Austrian whites that age like Burgundy, Burgundy that ages like nothing else, and natural wines that change the conversation entirely.</div>
+        <div class="card-pills">
+          <span class="pill">Grüner Veltliner</span>
+          <span class="pill">Riesling</span>
+          <span class="pill">Chardonnay</span>
+          <span class="pill">Natural &amp; Orange</span>
+          <span class="pill pill-count">154 wines</span>
+        </div>
+      </a>
+
+      <a class="card" href="reds.html">
+        <div class="card-meta">Red Wines</div>
+        <div class="card-top">
+          <div>
+            <div class="dot-row">
+              <div class="dot" style="background:#8b2020"></div>
+              <div class="dot" style="background:#6b1818"></div>
+              <div class="dot" style="background:#a03030"></div>
+            </div>
+            <div class="card-title">Red Wines</div>
+          </div>
+          <div class="card-arrow">›</div>
+        </div>
+        <div class="card-desc">The widest section. Burgundy and Barolo for the traditionalist, Napa Cabernet for the guest with a number in mind, Austrian Blaufränkisch for the one who wants to be surprised.</div>
+        <div class="card-pills">
+          <span class="pill">Pinot Noir</span>
+          <span class="pill">Blaufränkisch</span>
+          <span class="pill">Cabernet</span>
+          <span class="pill">Barolo</span>
+          <span class="pill pill-count">178 wines</span>
+        </div>
+      </a>
+
+    </div>
+
+    <div class="divider"></div>
+    <div class="section-label">Quick Access</div>
+    <div class="quick-cards">
+      <a class="quick-card" href="sparkling.html#sec-champagne">
+        <div class="quick-label">Celebration</div>
+        <div class="quick-title">Champagne</div>
+      </a>
+      <a class="quick-card" href="whites.html#sec-gruner">
+        <div class="quick-label">Most Requested</div>
+        <div class="quick-title">Austrian Whites</div>
+      </a>
+      <a class="quick-card" href="reds.html#sec-virginia">
+        <div class="quick-label">Local Pride</div>
+        <div class="quick-title">Virginia Reds</div>
+      </a>
+      <a class="quick-card" href="whites.html#sec-natural">
+        <div class="quick-label">The Unexpected</div>
+        <div class="quick-title">Natural &amp; Orange</div>
+      </a>
+    </div>
+
+    <div class="footer">
+      <div class="footer-text">
+        Filters, icons, and price sliders available within each section.<br>
+        Use the search above to find any wine across the full list.
+      </div>
+      <div class="icon-hint">
+        <span class="icon-hint-item">☕ Firm tannins</span>
+        <span class="icon-hint-item">🧈 Silky tannins</span>
+        <span class="icon-hint-item">🦴 Bone dry</span>
+        <span class="icon-hint-item">🧂 Mineral</span>
+        <span class="icon-hint-item">🍄 Earthy</span>
+        <span class="icon-hint-item">🏺 Large format</span>
+        <span class="icon-hint-item">🍷 By the glass</span>
+      </div>
+    </div>
+
+  </div><!-- end browse-section -->
+
+</div><!-- end wrap -->
+<script>
+let ALL_WINES = [];
+fetch('wines.json')
+  .then(r => r.json())
+  .then(data => {
+    ALL_WINES = data;
+    const badge = document.getElementById('wine-count-badge');
+    if(badge) badge.textContent = ALL_WINES.length + ' wines · 3 sections';
+  })
+  .catch(err => {
+    const meta = document.getElementById('search-meta');
+    if(meta) meta.textContent = 'Could not load wine data — check your connection.';
+  });
+
+const FILE_LABELS = {sparkling:'Sparkling & Rosé', whites:'White Wines', reds:'Red Wines'};
+const FILE_URLS = {sparkling:'sparkling.html', whites:'whites.html', reds:'reds.html'};
+
+let currentQuery = '';
+
+
+function normalize(str) {
+  return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g,'ss').toLowerCase();
+}
+
+function handleSearch() {
+  const q = document.getElementById('search').value.trim();
+  currentQuery = q;
+  const browse = document.getElementById('browse-section');
+  const results = document.getElementById('results');
+  const meta = document.getElementById('search-meta');
+
+  if (ALL_WINES.length === 0) {
+    document.getElementById('results').innerHTML = '<div class="loading"><div class="loading-spinner"></div><div class="loading-text">Loading wines…</div></div>';
+    return;
+  }
+  if (!q) {
+    browse.classList.remove('hidden');
+    results.innerHTML = '';
+    meta.textContent = '';
+    return;
+  }
+
+  browse.classList.add('hidden');
+
+  const terms = normalize(q).split(/\s+/).filter(Boolean);
+  const matches = ALL_WINES.filter(w => {
+    const haystack = normalize([w.id, w.producer, w.name, w.cat, w.region, w.vintage, w.file, FILE_LABELS[w.file]].join(' '));
+    return terms.every(t => haystack.includes(t));
+  });
+
+  if (matches.length === 0) {
+    results.innerHTML = '<div class="no-results">No wines found for "' + q + '"</div>';
+    meta.textContent = '';
+    return;
+  }
+
+  meta.textContent = matches.length + ' wine' + (matches.length !== 1 ? 's' : '') + ' found';
+
+  results.innerHTML = matches.map(w => {
+    const url = FILE_URLS[w.file] + '#card-' + w.id;
+    return `<a class="result-card" href="${url}">
+      <div class="result-top">
+        <div class="result-producer">${w.producer}</div>
+        <div class="result-price">$${w.price}</div>
+      </div>
+      <div class="result-name">${w.name}</div>
+      <div class="result-meta">
+        <span class="result-tag" style="color:var(--gold);border-color:var(--border2);">Bin ${w.id}</span>
+        <span class="result-tag">${w.cat}</span>
+        <span class="result-tag">${w.vintage}</span>
+        <span class="result-file">${FILE_LABELS[w.file]}</span>
+      </div>
+    </a>`;
+  }).join('');
+}
+</script>
+</body>
+</html>

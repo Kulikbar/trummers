@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "d1",
+    "menu": "dinner",
+    "cat": "Soups & Salads",
+    "name": "Green Goddess Gazpacho",
+    "price": 12,
+    "description": "Whipped crema, lemon oil, quick pickles",
+    "tableside": "A cold soup built for the season — bright, herbaceous, and refreshing. The whipped crema adds richness and the quick pickles cut right through it. A great lighter starter for a guest who wants something clean before a heavier main.",
+    "ingredients": [
+      "Green vegetables",
+      "Whipped crema",
+      "Lemon oil",
+      "Quick pickles",
+      "Fresh herbs"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Whipped crema contains dairy. Can be omitted on request."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs in the crema."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Can be made vegan by omitting the crema."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Gazpacho",
+        "definition": "A cold Spanish soup traditionally made from raw blended vegetables. Originally from Andalusia, it is served chilled and works as a palate opener before a rich meal."
+      },
+      {
+        "term": "Green Goddess",
+        "definition": "A classic American dressing style from the 1920s, traditionally made with tarragon, chives, parsley, and mayonnaise. This version focuses on the herbal, green character."
+      },
+      {
+        "term": "Quick Pickles",
+        "definition": "Vegetables briefly cured in vinegar and salt rather than fermented. Bright, acidic, and crunchy. They provide contrast to the smooth, rich gazpacho base."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Served chilled. Worth mentioning to guests who may be surprised by a cold soup.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d2",
+    "menu": "dinner",
+    "cat": "Soups & Salads",
+    "name": "Cream of Carrot Soup",
+    "price": 12,
+    "description": "Chipotle cream, ginger spiced croutons, arugula",
+    "tableside": "A classic cream soup with real backbone. Chipotle adds smokiness and warmth, ginger croutons add crunch and aromatics, arugula on top brings bitterness to balance it out. Warming and satisfying without being heavy.",
+    "ingredients": [
+      "Carrot",
+      "Chipotle cream",
+      "Ginger spiced croutons",
+      "Arugula"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains cream. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Croutons contain gluten. Can be omitted for a GF version."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy cream."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Chipotle",
+        "definition": "A smoked, dried jalapeno pepper. Chipotle has a deep, smoky heat that sits differently from fresh jalapeno. It adds warmth and complexity without overwhelming spice."
+      },
+      {
+        "term": "Ginger Spiced Croutons",
+        "definition": "House-made croutons seasoned with ginger. They add textural contrast and an aromatic warmth that plays off both the carrot's sweetness and the chipotle's smoke."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Croutons can be removed for gluten-free guests. The soup itself is GF without them.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d3",
+    "menu": "dinner",
+    "cat": "Soups & Salads",
+    "name": "Gem Lettuce",
+    "price": 14,
+    "description": "Herbed goat cheese, red onion, candied pecans, Rubyfrost apples, creamy balsamic",
+    "tableside": "A composed salad built around contrasts. The creamy goat cheese against crisp lettuce, sweet candied pecans against tart balsamic, and Rubyfrost apple adding brightness throughout. Straightforward and well balanced.",
+    "ingredients": [
+      "Gem lettuce",
+      "Herbed goat cheese",
+      "Red onion",
+      "Candied pecans",
+      "Rubyfrost apples",
+      "Creamy balsamic vinaigrette"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Contains goat cheese. Can be removed to make dairy-free."
+      },
+      "nuts": {
+        "status": "modifiable",
+        "note": "Contains candied pecans. Can be removed to make nut-free."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Can be made vegan by removing goat cheese. Confirm balsamic dressing with kitchen."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Gem Lettuce",
+        "definition": "A cross between butter lettuce and romaine. Smaller and more compact, with the crispness of romaine and the sweetness of butter lettuce. Sturdy enough to hold a creamy dressing without wilting."
+      },
+      {
+        "term": "Goat Cheese vs Cow's Milk Cheese",
+        "definition": "Goat cheese is tangier, lighter, and more crumbly than most cow's milk cheeses. The higher acidity gives it a bright, grassy quality that pairs naturally with sweet elements like apple or balsamic. Guests who think they don't like strong cheese are often surprised by how approachable goat cheese is in a salad context."
+      },
+      {
+        "term": "Vinaigrette",
+        "definition": "A salad dressing made by emulsifying an acid with oil. A creamy balsamic vinaigrette uses balsamic vinegar as the acid base and adds a creamy element for body and coating. The result is richer and more coating than a standard vinaigrette."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Rubyfrost Apple",
+        "description": "A trademarked variety developed through Cornell University's apple breeding program in New York. Known for exceptional crispness and a balanced sweet-tart flavor, it holds up well in composed salads without browning quickly."
+      }
+    ],
+    "chef_notes": "Goat cheese and candied pecans can be removed independently. The salad works well without either.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d4",
+    "menu": "dinner",
+    "cat": "Soups & Salads",
+    "name": "Arugula Salad",
+    "price": 14,
+    "description": "Shaved asparagus, radish, pecans, puffed quinoa, honey mustard vinaigrette",
+    "tableside": "A textural salad that earns its place. Peppery arugula, crunchy puffed quinoa, shaved asparagus for freshness, radish for bite, pecans for richness. The honey mustard vinaigrette ties everything together with just enough sweetness and acid.",
+    "ingredients": [
+      "Arugula",
+      "Shaved asparagus",
+      "Radish",
+      "Pecans",
+      "Puffed quinoa",
+      "Honey mustard vinaigrette"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy."
+      },
+      "nuts": {
+        "status": "modifiable",
+        "note": "Contains pecans. Can be removed to make nut-free."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "Quinoa is naturally gluten-free."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs in the honey mustard vinaigrette."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Confirm honey mustard vinaigrette is vegan with kitchen. Honey makes this not strictly vegan."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Arugula",
+        "definition": "A peppery salad green native to the Mediterranean. Its bitter, slightly spicy character pairs naturally with sweet and acidic dressings. A honey mustard vinaigrette is a classic complement."
+      },
+      {
+        "term": "Puffed Quinoa",
+        "definition": "Quinoa heated until the grains expand and become light and crispy, similar to puffed rice. Adds crunch and a nutty flavor while being naturally gluten-free and high in protein."
+      },
+      {
+        "term": "Shaved Asparagus",
+        "definition": "Asparagus ribboned thin with a peeler and served raw. A fresher, more delicate preparation that adds crunch and a grassy flavor without the softness of cooked asparagus."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Pecans can be removed. The salad is naturally gluten-free and dairy-free without modification.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d5",
+    "menu": "dinner",
+    "cat": "Soups & Salads",
+    "name": "Spinach Salad",
+    "price": 15,
+    "description": "Roasted badger flame beets, goat cheese, fried shallots, lemon vinaigrette",
+    "tableside": "Built around the Badger Flame beet, a yellow and red striped variety that's sweeter and milder than standard beets. Goat cheese for creaminess, fried shallots for crunch and savory depth, lemon vinaigrette to keep it bright.",
+    "ingredients": [
+      "Baby spinach",
+      "Roasted Badger Flame beets",
+      "Goat cheese",
+      "Fried shallots",
+      "Lemon vinaigrette"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Contains goat cheese. Can be removed to make dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "check",
+        "note": "Fried shallots may be dusted in flour. Check with kitchen for GF guests."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Can be made vegan by removing goat cheese. Confirm shallot preparation with kitchen."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Goat Cheese vs Cow's Milk Cheese",
+        "definition": "Goat cheese is tangier, lighter, and more crumbly than most cow's milk cheeses. The higher acidity gives it a bright, grassy quality that pairs well with earthy beets and acidic vinaigrette."
+      },
+      {
+        "term": "Vinaigrette",
+        "definition": "A dressing made by emulsifying an acid with oil. A lemon vinaigrette uses lemon juice as the acid, producing a clean, bright dressing that lifts the earthy beet and rich goat cheese without overpowering either."
+      },
+      {
+        "term": "Fried Shallots",
+        "definition": "Thinly sliced shallots fried until crispy. They add a savory, caramelized crunch that differs from raw onion. A classic garnish in French and Southeast Asian cooking."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Badger Flame Beet",
+        "description": "A specialty variety developed through the University of Wisconsin's plant breeding program. Sweeter and milder than standard red beets with striking striped flesh. Worth describing to guests who might otherwise pass on a beet salad."
+      }
+    ],
+    "chef_notes": "Worth mentioning the Badger Flame beet by name. Guests who claim not to like beets are often surprised by how mild and sweet this variety is.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d6",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Carrot Hummus",
+    "price": 14,
+    "description": "Wild boar ragu, marinated feta, toasted pita",
+    "tableside": "Not your standard hummus. Carrot as the base instead of chickpea, topped with a wild boar ragu and marinated feta. The sweetness of the carrot, the richness of the game meat, and the saltiness of the feta all working together. An unexpected combination worth talking up.",
+    "ingredients": [
+      "Carrot hummus",
+      "Wild boar ragu",
+      "Marinated feta",
+      "Toasted pita"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Contains feta cheese. Can be omitted on request."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Toasted pita contains gluten. Cannot be substituted — without the pita this is simply a dip."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains wild boar ragu."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Hummus",
+        "definition": "A Middle Eastern dip or spread traditionally made from cooked chickpeas blended with tahini, lemon, and garlic. This version uses carrot as the base, producing a sweeter and more delicate result."
+      },
+      {
+        "term": "Wild Boar Ragu",
+        "definition": "A slow-cooked Italian-style meat sauce made from wild boar, a leaner and more intensely flavored meat than domestic pork. Braised low and slow until it becomes a rich, savory topping."
+      },
+      {
+        "term": "Marinated Feta",
+        "definition": "Feta cheese cured in olive oil with herbs and aromatics. Softer and more complex than plain feta, with additional herbal flavor from the marinade."
+      },
+      {
+        "term": "Pita",
+        "definition": "A round flatbread from the Middle East, leavened with yeast and baked at high heat to create a soft, slightly chewy texture. Toasted pita gains a light crunch on the exterior while staying soft inside."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Lead with the carrot base when describing this dish. Guests expecting standard chickpea hummus need that framing first. The wild boar ragu is the standout element.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d7",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Loaded Pierogies",
+    "price": 18,
+    "description": "Cheddar, bacon crumble, dill crema, crispy shallots",
+    "tableside": "Chef's Ukrainian heritage comes through here. Pierogies loaded with cheddar, topped with bacon crumble, crispy shallots, and dill crema. Rich, satisfying, and crowd-pleasing. Bacon can be omitted to make it vegetarian.",
+    "ingredients": [
+      "Pierogies",
+      "Cheddar",
+      "Bacon crumble",
+      "Dill crema",
+      "Crispy shallots"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains cheddar and crema. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Pierogi dough contains gluten. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Pierogi dough contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "modifiable",
+        "note": "Bacon can be removed to make this vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Pierogi",
+        "definition": "Boiled or fried dumplings from Eastern Europe, most commonly associated with Polish and Ukrainian cooking. Traditionally filled with potato, cheese, or meat. The dough is soft and slightly chewy, similar to fresh pasta."
+      },
+      {
+        "term": "Dill Crema",
+        "definition": "A soured cream sauce infused with fresh dill. The herb's bright, slightly anise-like flavor cuts through the richness of the cheese and potato filling."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Chef uses this dish as a nod to his Ukrainian heritage. Worth mentioning when guests ask about the inspiration behind the menu. One of the most reliably loved starters.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d8",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Poached White Asparagus",
+    "price": 22,
+    "description": "Mousseline, marinated salmon roe, bourbon truffle salt",
+    "tableside": "White asparagus is a European delicacy, more tender and subtly sweet than green, with none of the bitterness. The mousseline is a luxurious butter sauce, the salmon roe adds brininess and pop, and the bourbon truffle salt ties it together. One of the most considered starters on the menu.",
+    "ingredients": [
+      "White asparagus",
+      "Mousseline sauce",
+      "Marinated salmon roe",
+      "Bourbon truffle salt"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "Salmon roe is fish roe, not shellfish. Safe for shellfish allergies."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Mousseline contains butter and egg yolks. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Mousseline sauce is made with egg yolks."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "modifiable",
+        "note": "Salmon roe can be removed to make this vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains butter and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Mousseline",
+        "definition": "A hollandaise sauce lightened with whipped cream. Airier and more delicate than standard hollandaise, while retaining the rich butter and egg yolk base. A classic French sauce for asparagus."
+      },
+      {
+        "term": "Salmon Roe",
+        "definition": "The cured eggs of salmon. Large, bright orange pearls that burst with a clean briny flavor. Distinct from sturgeon caviar but luxurious in presentation and texture."
+      },
+      {
+        "term": "Bourbon Truffle Salt",
+        "definition": "A finishing salt infused with truffle and bourbon. The truffle adds earthy depth, the bourbon adds subtle sweetness. A house-made condiment that ties the dish together."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "White Asparagus",
+        "description": "Grown underground or covered to block sunlight, preventing chlorophyll from developing. More tender and sweeter than green asparagus, with a slightly nutty quality. A springtime delicacy in European cuisine, particularly in Germany and France."
+      }
+    ],
+    "chef_notes": "Worth explaining white asparagus to guests who haven't encountered it. Strong bottle pairing opportunity. Gruner Veltliner and white asparagus is one of the great classic pairings in Austrian cuisine.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d9",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Baked Brie",
+    "price": 17,
+    "description": "Cherry jam, candied pecans, wrapped in puff pastry, served with crostini",
+    "tableside": "This has been on the menu for over eight years and remains one of the most ordered starters we have. Brie wrapped in puff pastry and baked until the pastry is golden and the cheese is molten inside, paired with cherry jam and candied pecans. The kind of dish that makes tables happy.",
+    "ingredients": [
+      "Brie cheese",
+      "Puff pastry",
+      "Cherry jam",
+      "Candied pecans",
+      "Crostini"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "It is brie."
+      },
+      "nuts": {
+        "status": "modifiable",
+        "note": "Contains candied pecans. Can be removed to make nut-free."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Puff pastry and crostini contain gluten. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Puff pastry typically contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy, eggs, and butter."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Brie",
+        "definition": "A soft-ripened French cheese made from cow's milk, known for its creamy interior and edible white rind. When baked, the interior melts completely while the puff pastry holds its shape, creating a vessel of warm, flowing cheese."
+      },
+      {
+        "term": "Puff Pastry",
+        "definition": "A light, flaky pastry made by repeatedly folding butter into dough. When baked at high heat, the layers separate and puff dramatically, creating a golden, crispy exterior that contrasts with the molten cheese inside."
+      },
+      {
+        "term": "Pecan",
+        "definition": "A rich, buttery nut native to North America. When candied, the natural sugars caramelize and create a crunchy, sweet coating. They add textural contrast and sweetness against the savory cheese and tart jam."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "This dish has a longer than average prep time. Set expectations with the table when ordering, especially on busy nights. Pecans can be removed.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d10",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "BBQ Bone Marrow",
+    "price": 19,
+    "description": "Apricot jam, mint gremolata, ciabatta",
+    "tableside": "Think of it as the most indulgent spread you've ever put on bread. Bone marrow is silky, deeply savory beef fat that you scrape from the bone and spread on ciabatta. The apricot jam cuts through the fat with sweetness, the gremolata keeps it bright. For adventurous guests, it's one of the highlights.",
+    "ingredients": [
+      "Bone marrow",
+      "BBQ seasoning",
+      "Apricot jam",
+      "Mint gremolata",
+      "Ciabatta"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "Bone marrow is beef fat, not dairy."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Ciabatta contains gluten. Cannot be substituted for this dish."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Bone marrow is beef."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Beef product."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Bone Marrow",
+        "definition": "The soft, fatty tissue found inside beef leg bones. When roasted, it becomes silky and liquid. The flavor is intensely savory and rich, like concentrated beef fat. Spread on bread, it melts into every bite."
+      },
+      {
+        "term": "Gremolata",
+        "definition": "An Italian condiment made from parsley, garlic, and lemon zest. Bright and herbal, it cuts through rich dishes like braised meats and bone marrow, keeping each bite from feeling too heavy."
+      },
+      {
+        "term": "Ciabatta",
+        "definition": "An Italian flatbread with an open, airy crumb and a crust sturdy enough to hold the marrow without disintegrating. Its mild flavor lets the marrow and condiments take center stage."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Guests who haven't had bone marrow before are often hesitant. Lead with the spreading motion on the bread. After the marrow is scraped clean, offer the Bone Luge: a shot of bourbon poured down the hollow bone and sipped from the end. A fun tableside moment and a natural bar program connection.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d11",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Salmon Belly",
+    "price": 16,
+    "description": "Bourbon cured and baked, apple vinegar, radish, arugula, mustard seed gastrique",
+    "tableside": "The fattiest, richest cut of the salmon, cured in bourbon before baking. The apple vinegar and mustard seed gastrique provide the acidity and sharpness that fatty fish needs. A starter that shows real technique.",
+    "ingredients": [
+      "Salmon belly",
+      "Bourbon cure",
+      "Apple vinegar",
+      "Radish",
+      "Arugula",
+      "Mustard seed gastrique"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "Salmon is a fin fish, not a shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains fish."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Salmon Belly",
+        "definition": "The ventral cut of the salmon, the fattiest part of the fish. The fat distributes through the flesh as it cooks, keeping it exceptionally moist with a rich, full flavor."
+      },
+      {
+        "term": "Bourbon Cure",
+        "definition": "A curing mixture incorporating bourbon. The whiskey's sweetness and vanilla character infuse into the salmon during curing, adding depth beyond a standard salt-sugar cure."
+      },
+      {
+        "term": "Gastrique",
+        "definition": "A French sauce made by reducing sugar and vinegar together into a sweet-sour syrup. The mustard seeds add texture and a gentle heat to the sweet-acid base."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The bourbon cure is a house preparation. A natural bridge to the bar program for guests who appreciate provenance.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d12",
+    "menu": "dinner",
+    "cat": "Starters",
+    "name": "Shrimp and Grits",
+    "price": 18,
+    "description": "Whiskey cream, spinach, caramelized onion, aleppo chili crisp",
+    "tableside": "A Southern classic done with intention. The whiskey cream adds depth and sweetness to the sauce, the aleppo chili crisp brings warm, fruity heat. Can be made into an entree-sized serving by doubling the order and price.",
+    "ingredients": [
+      "Shrimp",
+      "Anson Mills grits",
+      "Whiskey cream sauce",
+      "Spinach",
+      "Caramelized onion",
+      "Aleppo chili crisp"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "contains",
+        "note": "Contains shrimp. Cannot be modified."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Grits and cream sauce contain dairy. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains shrimp."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains shellfish and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Grits",
+        "definition": "Ground corn cooked into a porridge, a staple of Southern American cuisine. Stone-ground grits have more corn flavor and texture than quick-cook versions. They become creamy and rich when cooked with butter and dairy."
+      },
+      {
+        "term": "Aleppo Chili Crisp",
+        "definition": "A condiment made from Aleppo pepper, a Syrian chili known for moderate heat, fruity flavor, and a slightly oily texture. Milder and more complex than standard chili flakes, with notes of cumin and dried fruit."
+      },
+      {
+        "term": "Whiskey Cream Sauce",
+        "definition": "A cream sauce built on a whiskey reduction. The alcohol burns off during cooking, leaving the grain sweetness and vanilla character of the whiskey as a flavor base for the cream."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Anson Mills Grits",
+        "description": "Anson Mills is a heritage grain mill based in South Carolina, widely regarded as producing the finest stone-ground grits in America. Their grits are made from heirloom corn varieties that were nearly extinct before the mill's founder Glenn Roberts began reviving them in the 1990s. Used by some of the most acclaimed restaurants in the country."
+      }
+    ],
+    "chef_notes": "Clarify shellfish allergy immediately. Can be made into an entree-sized serving by doubling the order and price.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d13",
+    "menu": "dinner",
+    "cat": "Bread Service",
+    "name": "Parker House Rolls",
+    "price": 8,
+    "description": "With ramp butter",
+    "tableside": "House-baked Parker House rolls with ramp butter. Ramps are wild spring onions with a garlicky, chive-like flavor that only appear for a few weeks each spring. Soft, pillowy, and worth ordering.",
+    "ingredients": [
+      "Parker House rolls",
+      "Ramp butter"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains butter."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Bread contains gluten. For GF guests, see the GF Skillet Cornbread."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Parker House rolls contain eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains butter and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Parker House Roll",
+        "definition": "A classic American dinner roll originating from the Parker House hotel in Boston in the 1870s. Soft, slightly sweet, and folded before baking for the distinctive pull-apart shape."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Ramps",
+        "description": "A wild spring onion (Allium tricoccum) native to eastern North America and one of the first plants to emerge after winter. They taste like a cross between garlic and green onion, with a more complex and pungent character. Highly seasonal, foraged rather than farmed, and available for only a few weeks each spring."
+      }
+    ],
+    "chef_notes": "Ramps are highly seasonal. When on the menu, worth mentioning to guests who appreciate local and foraged ingredients.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d14",
+    "menu": "dinner",
+    "cat": "Bread Service",
+    "name": "GF Skillet Cornbread",
+    "price": 10,
+    "description": "With pear butter",
+    "tableside": "House-baked gluten-free cornbread served in a skillet with pear butter. Good enough to stand on its own merits, not just because it happens to be GF.",
+    "ingredients": [
+      "Gluten-free cornbread",
+      "Pear butter"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains butter."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "Gluten-free."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Cornbread contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains butter and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Pear Butter",
+        "definition": "A fruit butter made by cooking pears down to a thick, spreadable consistency. Sweeter and more delicate than apple butter, with a floral quality that pairs well with savory cornbread."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The go-to recommendation for GF guests who want bread service.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d15",
+    "menu": "dinner",
+    "cat": "Spit Roasted",
+    "name": "Butcher Salad",
+    "price": 25,
+    "description": "Creme fraiche vinaigrette, tomato, cucumber, lardons, spit roasted chicken and steak",
+    "tableside": "The spit roasted meat served over a salad. Typically shredded chicken and steak from the rotisserie on top of a composed salad with creme fraiche vinaigrette, tomato, cucumber, and lardons. A lighter way to experience the rotisserie program.",
+    "ingredients": [
+      "Mixed lettuces",
+      "Creme fraiche vinaigrette or substitute",
+      "Tomato",
+      "Cucumber",
+      "Lardons",
+      "Spit roasted chicken and steak"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Creme fraiche vinaigrette contains dairy. Can be swapped for another dressing on request."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains lardons and rotisserie meat."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Creme Fraiche",
+        "definition": "French for fresh cream. A cultured cream with a nutty, tangy flavor and a higher fat content than sour cream. Rich but not heavy, it makes an excellent vinaigrette base."
+      },
+      {
+        "term": "Lardons",
+        "definition": "Small cubes of fatty bacon, a French culinary term. Rendered until crispy, they add savory richness, smokiness, and textural contrast."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The meat on this salad reflects what is on the rotisserie. It has consistently been shredded chicken and steak but is subject to change. Know what is on the spit and communicate it when describing this dish.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d16",
+    "menu": "dinner",
+    "cat": "Spit Roasted",
+    "name": "Joyce Farm Chicken",
+    "price": 29,
+    "description": "Truffle orzo mac and cheese, glazed carrots, garlic honey jus — half $29 / whole $58",
+    "tableside": "Joyce Farm heritage breed chicken from North Carolina, cooked on the rotisserie with a Peruvian-inspired rub that reflects the roots of our kitchen team. The truffle orzo mac and cheese comes out in a cast iron alongside glazed carrots. Available as half or whole.",
+    "ingredients": [
+      "Joyce Farm heritage chicken",
+      "Peruvian spice rub",
+      "Truffle orzo mac and cheese",
+      "Glazed carrots",
+      "Garlic honey jus"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Truffle mac and cheese contains dairy. Orzo can be omitted to make dairy-free. Talk with kitchen about a replacement."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "modifiable",
+        "note": "Orzo is wheat pasta. Can be omitted to make gluten-free. Talk with kitchen about a replacement."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains chicken."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains poultry and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Rotisserie",
+        "definition": "A cooking method where meat is mounted on a rotating spit. The constant rotation bastes the meat in its own juices and fat, producing even cooking throughout and a deep, caramelized exterior."
+      },
+      {
+        "term": "Heritage Breed",
+        "definition": "Chicken breeds that predate industrial farming. Slower-growing, with more time to develop flavor and more complex muscle structure than commercial birds. The difference is immediately noticeable in taste and texture."
+      },
+      {
+        "term": "Orzo",
+        "definition": "A rice-shaped pasta, small enough to behave like rice but with the texture and chew of pasta. Used here in a truffle mac and cheese preparation served in a cast iron."
+      },
+      {
+        "term": "Garlic Honey Jus",
+        "definition": "A pan sauce made from the roasting juices of the chicken, enriched with garlic and honey. Sweet, savory, and deeply aromatic."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Joyce Farms",
+        "description": "A family-owned farm and agricultural operation in North Carolina specializing in heritage breed poultry. Their chickens are pasture raised with open outdoor access after six weeks of age, antibiotic-free, and grown to full natural maturity before processing. The result is significantly more flavor and better texture than commercially raised birds. Used by acclaimed restaurants throughout the Mid-Atlantic and Southeast."
+      }
+    ],
+    "chef_notes": "Confirm half or whole before ordering. The Peruvian rub is inspired by the background of our kitchen staff. Orzo can be omitted for dairy or gluten-free guests with kitchen coordination.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d17",
+    "menu": "dinner",
+    "cat": "Spit Roasted",
+    "name": "Whole Roasted Fish",
+    "price": 42,
+    "description": "Carrot, ginger, red pepper, peanut & coconut curry, peanut, smoked cashews",
+    "tableside": "A whole fish on the rotisserie, typically branzino. The coconut peanut curry is bold and aromatic, the smoked cashews add crunch and depth. A dramatic and flavorful centerpiece for a table that wants to commit. Always confirm what fish is on that evening.",
+    "ingredients": [
+      "Whole roasted fish (typically branzino)",
+      "Carrot",
+      "Ginger",
+      "Red pepper",
+      "Peanut and coconut curry",
+      "Smoked cashews"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish. Fin fish only."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy. Coconut milk is not dairy."
+      },
+      "nuts": {
+        "status": "contains",
+        "note": "Contains peanuts and cashews. Cannot be made nut-free."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "check",
+        "note": "Curry preparation may contain soy. Confirm with kitchen."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains fish."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Branzino",
+        "definition": "A European sea bass found throughout the Mediterranean. Known for its mild, clean flavor, delicate white flesh, and thin skin that crisps beautifully when roasted. Chef's preferred choice for this dish, though the fish can change based on availability."
+      },
+      {
+        "term": "Coconut Curry",
+        "definition": "A sauce built on coconut milk and curry spices. Aromatic, slightly sweet, with warmth from the spice blend. Southeast Asian in character, it pairs naturally with delicate fish."
+      },
+      {
+        "term": "Smoked Cashews",
+        "definition": "Cashews cold or hot smoked to add a woody, aromatic depth to their natural buttery flavor. They add both texture and complexity as a garnish."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Always confirm which fish is being served that evening before describing the dish. Chef prefers branzino but it can change. Confirm nut allergies before ordering.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d18",
+    "menu": "dinner",
+    "cat": "Daily Offerings",
+    "name": "Iberico Rack of Pork",
+    "price": 0,
+    "day": "Tuesday",
+    "description": "With aleppo chili crisp - Served with duck fat potatoes - Limited availability",
+    "tableside": "Iberico pork is not regular pork. It comes from the Black Iberian pig of Spain and Portugal, whose diet of acorns gives the fat an extraordinary nutty, complex character. The rack comes off the rotisserie and the aleppo chili crisp alongside it has a warm, fruity heat. Note for guests with spice sensitivity: the crisp does have a kick.",
+    "ingredients": [
+      "Iberico rack of pork",
+      "Aleppo chili crisp",
+      "Duck fat potatoes"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy."
+      },
+      "nuts": {
+        "status": "contains",
+        "note": "Aleppo chili crisp contains pine nuts. Cannot be made nut-free without removing the crisp."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains pork."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Iberico",
+        "definition": "Refers to the Black Iberian pig, native to the Iberian Peninsula. Iberico pork is renowned for its intramuscular fat. The pigs' diet of acorns (bellota) during the finishing period infuses the fat with oleic acid and complex aromatic compounds that produce a flavor unlike any other pork. Nutritionally, the fat is similar to olive oil."
+      },
+      {
+        "term": "Bellota",
+        "definition": "Spanish for acorn. The defining element of premium Iberico production. Pigs with access to acorn pasture during the montanera season develop the distinctive fat composition that makes Iberico pork extraordinary."
+      },
+      {
+        "term": "Aleppo Chili",
+        "definition": "A Syrian chili pepper with moderate heat, fruity flavor, and a slightly oily, jammy texture when dried and flaked. Milder and more complex than cayenne, with notes of cumin and dried fruit. The crisp includes pine nuts — worth flagging for nut allergy guests."
+      },
+      {
+        "term": "Duck Fat Potatoes",
+        "definition": "Potatoes roasted in rendered duck fat. The fat produces a remarkable crispness on the exterior while keeping the interior fluffy. Duck fat has a higher smoke point than butter and a rich, savory flavor."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Iberico Pork",
+        "description": "The Black Iberian pig is found in the dehesa, the oak woodland pastures of southwestern Spain and Portugal. Pigs classified as bellota spend their final months grazing freely on acorns, producing a fat with exceptional nutritional and flavor qualities. Serving it as a spit-roasted rack is an unusually dramatic preparation of an already extraordinary ingredient."
+      }
+    ],
+    "chef_notes": "Limited availability. Know when it is running low and communicate proactively. Flag pine nuts in the aleppo crisp for nut allergy guests. Strong bottle pairing opportunity.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d19",
+    "menu": "dinner",
+    "cat": "Daily Offerings",
+    "name": "Rack of Lamb",
+    "price": 0,
+    "day": "Wednesday",
+    "description": "With basil & pine nut-arugula pesto - Served with duck fat potatoes - Limited availability",
+    "tableside": "A full rack of lamb from the rotisserie. The basil and pine nut pesto cuts through the richness of the lamb with brightness and herbal freshness. Duck fat potatoes alongside, roasted in rendered duck fat for a crispness that regular roasting simply cannot match.",
+    "ingredients": [
+      "Rack of lamb",
+      "Basil and pine nut-arugula pesto",
+      "Duck fat potatoes"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "Pesto may contain Parmesan. Confirm with kitchen."
+      },
+      "nuts": {
+        "status": "contains",
+        "note": "Pesto contains pine nuts. Cannot be made nut-free without removing the pesto."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains lamb."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Rack of Lamb",
+        "definition": "A premium cut consisting of the rib section of the lamb, with individual chops still attached to the rack bone. Presents dramatically at the table and is considered one of the finest cuts available."
+      },
+      {
+        "term": "Pesto",
+        "definition": "A classic Ligurian sauce made from basil, pine nuts, garlic, Parmesan, and olive oil. This version adds arugula, contributing a peppery bitterness that complements the richness of the lamb."
+      },
+      {
+        "term": "Duck Fat Potatoes",
+        "definition": "Potatoes roasted in rendered duck fat. The fat produces remarkable exterior crispness while keeping the inside fluffy and rich. Duck fat has a higher smoke point than butter and a deeply savory flavor."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Confirm pine nut allergy before ordering. Limited availability. Strong wine pairing opportunity.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d20",
+    "menu": "dinner",
+    "cat": "Daily Offerings",
+    "name": "Tomahawk Ribeye",
+    "price": 0,
+    "day": "Thursday",
+    "description": "With salsa verde - Served with duck fat potatoes - Limited availability",
+    "tableside": "A full tomahawk ribeye with the long bone intact, prepared in the kitchen and brought to the table. The salsa verde provides herbal brightness and acidity against the richness of the beef. This requires rest time after cooking so there is a longer pickup time. Set expectations with the table.",
+    "ingredients": [
+      "Tomahawk ribeye",
+      "Salsa verde",
+      "Duck fat potatoes"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains beef."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Tomahawk Ribeye",
+        "definition": "A bone-in ribeye steak with an extended rib bone left intact, typically 6 to 8 inches long. The bone adds flavor during cooking and creates a dramatic presentation. One of the most prized beef cuts for both flavor and spectacle."
+      },
+      {
+        "term": "Salsa Verde",
+        "definition": "An Italian green herb sauce made from parsley, capers, anchovies, garlic, and olive oil. The acid and brightness cut through the richness of fatty meats. Not to be confused with Mexican salsa verde, which is cooked and tomato-based."
+      },
+      {
+        "term": "Duck Fat Potatoes",
+        "definition": "Potatoes roasted in rendered duck fat. The fat produces remarkable exterior crispness while keeping the inside fluffy and rich."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Not carved tableside. Prepared and portioned in the kitchen. Has a longer pickup time due to required resting after cooking. Let the table know when ordering. Highest bottle pairing potential of any dish on Thursday nights.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d21",
+    "menu": "dinner",
+    "cat": "Daily Offerings",
+    "name": "Prime Rib",
+    "price": 0,
+    "day": "Friday & Saturday",
+    "description": "With horseradish cream - Served with duck fat potatoes - Limited availability - 10 oz $45 / 16 oz $60",
+    "tableside": "The weekend anchor. Prime rib from the rotisserie, served with horseradish cream and duck fat potatoes. Available in two sizes: 10 oz at $45 or 16 oz at $60. Ask the table which they would prefer when they order.",
+    "ingredients": [
+      "Prime rib",
+      "Horseradish cream",
+      "Duck fat potatoes"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Horseradish cream contains dairy. Can be served without the cream on request."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains beef."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Prime Rib",
+        "definition": "A standing rib roast, a large bone-in cut from the primal rib section, slow roasted to develop a deep crust while maintaining a juicy, pink interior. Prime refers to the cut's position on the animal rather than the USDA quality grade."
+      },
+      {
+        "term": "Horseradish Cream",
+        "definition": "A condiment made from grated horseradish root folded into cream. Pungent, sharp, and bright, it provides the acid and heat contrast that fatty roast beef needs."
+      },
+      {
+        "term": "Duck Fat Potatoes",
+        "definition": "Potatoes roasted in rendered duck fat. The fat produces remarkable exterior crispness while keeping the inside fluffy and rich."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Available in two sizes: 10 oz at $45 or 16 oz at $60. Always confirm which the guest wants. Limited availability. Horseradish cream can be omitted for dairy-free guests.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d22",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Pan Seared Salmon",
+    "price": 34,
+    "description": "Cauliflower puree, braised cauliflower, pickled cauliflower",
+    "tableside": "Three preparations of cauliflower: puree for richness, braised for depth, pickled for brightness. The salmon is pan seared for a crispy skin. Chef's preference is medium rare. If a guest is not a cauliflower fan, Chef has been known to swap in the rotisserie carrots from the sides instead.",
+    "ingredients": [
+      "Loch Duart salmon",
+      "Cauliflower puree",
+      "Braised cauliflower",
+      "Pickled cauliflower"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "Salmon is a fin fish, not a shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Cauliflower puree contains butter or cream. Can be omitted to make dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains fish and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Pan Seared",
+        "definition": "Cooking protein in a very hot pan to develop a browned, caramelized crust. For salmon, pan searing creates a crispy skin while leaving the center moist and tender."
+      },
+      {
+        "term": "Cauliflower Three Ways",
+        "definition": "The same vegetable prepared three distinct ways: puree for richness and creaminess, braised for depth and softness, pickled for acidity and crunch."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Loch Duart Salmon",
+        "description": "Loch Duart is a Scottish salmon farm in the northwest Highlands, regarded as one of the finest salmon producers in the world. Their fish are raised at low density in cold, clean waters with room to swim and develop natural muscle tone. The result is salmon with a firmer texture, richer color, and deeper flavor than most farmed Atlantic salmon. Used by Michelin-starred restaurants throughout the UK and US."
+      }
+    ],
+    "chef_notes": "Chef's preference is medium rare. Always confirm temperature with the guest. Dairy-free modification available by omitting the cauliflower puree. If a guest has cauliflower sensitivity, check with chef about substituting the rotisserie carrots.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d23",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Pan Seared U12 Scallops",
+    "price": 38,
+    "description": "Blood orange risotto, savoy spinach, sesame",
+    "tableside": "Large, premium scallops pan seared hard for a caramelized crust, served over blood orange risotto that is bright and slightly sweet. Each guest receives 6 oz of scallops, with the count depending on the size of the individual scallops that day.",
+    "ingredients": [
+      "U12 scallops",
+      "Blood orange risotto",
+      "Savoy spinach",
+      "Sesame"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "contains",
+        "note": "Scallops are shellfish. Cannot be modified."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "Risotto is dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains shellfish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains shellfish."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "U12 Scallops",
+        "definition": "A size designation meaning under 12 scallops per pound. Larger scallops sear more effectively because they develop a better crust before the center overcooks. Each guest receives 6 oz regardless of the exact count."
+      },
+      {
+        "term": "Blood Orange",
+        "definition": "A citrus variety with dark red flesh caused by anthocyanin pigments. More complex than standard oranges, with berry and raspberry notes alongside the citrus character."
+      },
+      {
+        "term": "Sesame",
+        "definition": "Sesame became a federally recognized major food allergen in 2023, separate from tree nuts and peanuts. Guests with sesame allergies should be flagged when this dish is ordered."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Flag shellfish allergy immediately. Sesame is a separate federally recognized allergen as of 2023. Each guest receives 6 oz of scallops regardless of count.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d24",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Waterzooi",
+    "price": 34,
+    "description": "PEI mussels, shrimp, market fish, potatoes, leeks",
+    "tableside": "A Belgian-style seafood stew. PEI mussels, shrimp, and whatever the market fish is tonight in a broth built from the shellfish themselves. Potatoes and leeks make it complete and warming.",
+    "ingredients": [
+      "PEI mussels",
+      "Shrimp",
+      "Market fish",
+      "Potatoes",
+      "Leeks",
+      "Broth"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "contains",
+        "note": "Contains mussels and shrimp. Cannot be modified."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "Broth preparation may include butter. Confirm with kitchen."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains shellfish and fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains seafood."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Waterzooi",
+        "definition": "A traditional Belgian stew originating in Ghent. Historically made with fish or chicken in a rich broth with vegetables. The name means 'watery mess' in Flemish. We reference the name for staff knowledge but keep it off the printed menu to avoid confusion."
+      },
+      {
+        "term": "PEI Mussels",
+        "definition": "Mussels from Prince Edward Island, Canada. Farm-raised on ropes in clean, cold Atlantic waters. Consistently sweet, plump, and clean with virtually no grit."
+      },
+      {
+        "term": "Leeks",
+        "definition": "A mild, sweet member of the allium family. They break down during cooking to add body and sweetness to broth-based dishes."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "PEI Mussels",
+        "description": "Prince Edward Island produces some of the world's finest mussels. The cold, clean Atlantic waters and rope-farming method yield mussels that are consistently sweet, plump, and free of the grit common in wild-harvested shellfish."
+      }
+    ],
+    "chef_notes": "Ask the kitchen what the market fish is each evening. Flag shellfish allergy immediately.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d25",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Pan Seared Rockfish",
+    "price": 37,
+    "description": "Butter braised turnips, pee wee potatoes, dill crema",
+    "tableside": "Rockfish is a regional Mid-Atlantic fish with firm, white flesh and a clean, mild flavor. Butter braised turnips add earthiness and richness, pee wee potatoes for heartiness, dill crema to brighten the plate.",
+    "ingredients": [
+      "Rockfish",
+      "Butter braised turnips",
+      "Pee wee potatoes",
+      "Dill crema"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "Rockfish is a fin fish, not a shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Butter and dill crema contain dairy. Can be modified. Check with kitchen."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains fish and dairy."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Rockfish",
+        "definition": "A saltwater fish native to the Atlantic Coast of North America, essentially a regional variant of striped bass. The two names are used interchangeably in Mid-Atlantic markets. Firm white flesh with a clean, mild flavor. The official state fish of Maryland and Virginia."
+      },
+      {
+        "term": "Pee Wee Potatoes",
+        "definition": "Extra-small potatoes, typically under one inch in diameter. They cook quickly, have thin skin that crisps well, and can be served whole for a clean presentation."
+      },
+      {
+        "term": "Butter Braised",
+        "definition": "Cooking vegetables in butter with a small amount of liquid over gentle heat. Turnips braised this way become tender and sweet, losing their raw sharpness."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Worth mentioning the regional connection. Rockfish is a local Mid-Atlantic species.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d26",
+    "menu": "dinner",
+    "cat": "Land",
+    "name": "Braised Demkota Short Rib",
+    "price": 38,
+    "description": "Garlic mashed cauliflower, blistered broccolini, truffle madeira jus",
+    "tableside": "Trummer's short rib is one of the dishes we are known for. Demkota beef, braised until the collagen breaks down completely and the meat becomes fork-tender, served with a truffle Madeira jus that is deeply savory and aromatic.",
+    "ingredients": [
+      "Demkota short rib",
+      "Garlic mashed cauliflower",
+      "Blistered broccolini",
+      "Truffle Madeira jus"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "Garlic mashed cauliflower may contain butter. Confirm with kitchen about dairy-free modification."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten in the jus."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains beef."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Braising",
+        "definition": "A combination cooking method where meat is first seared at high heat, then cooked low and slow in liquid. The collagen in tough cuts like short rib breaks down over time into gelatin, thickening the liquid into a rich sauce and making the meat extraordinarily tender."
+      },
+      {
+        "term": "Short Rib",
+        "definition": "A richly marbled cut from the beef chuck or plate. The marbling and connective tissue make it ideal for braising, which transforms the tough collagen into silky gelatin. One of the most flavorful beef cuts when properly prepared."
+      },
+      {
+        "term": "Madeira",
+        "definition": "A fortified wine from the Portuguese island of the same name. In sauces, it adds depth, dried fruit notes, and acidity that enhances beef-based jus significantly."
+      },
+      {
+        "term": "Truffle",
+        "definition": "A prized underground fungus with an intensely earthy, musky aroma. Used in small quantities as a finishing element, it adds depth and richness to the Madeira jus."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Demkota Ranch Beef",
+        "description": "Demkota Ranch in South Dakota produces premium beef known for consistent marbling and superior flavor. A step above commodity beef in quality and traceability."
+      }
+    ],
+    "chef_notes": "The short rib is already braised before service, so pickup time is not significantly longer than other dishes. Trummer's has built a real reputation around this dish. Check with kitchen on dairy modification for the cauliflower. Strong bottle pairing opportunity.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d27",
+    "menu": "dinner",
+    "cat": "Land",
+    "name": "Wienerschnitzel from Pork",
+    "price": 22,
+    "description": "Dill potato salad, lingonberry jam",
+    "tableside": "Our owner is Austrian, so this has to pass a very high bar. Traditional schnitzel made here with pork, pounded thin, breaded, and pan-fried until golden. The lingonberry jam is the key — its tartness is exactly what cuts through the richness of the fried pork.",
+    "ingredients": [
+      "Pork schnitzel",
+      "Breadcrumb crust",
+      "Dill potato salad",
+      "Lingonberry jam"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "check",
+        "note": "The fryer may cook shellfish products. Confirm with kitchen for severe allergies."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "No dairy in the dish itself."
+      },
+      "nuts": {
+        "status": "check",
+        "note": "The fryer may cook nut-containing products. Confirm with kitchen."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Breadcrumb crust contains gluten. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Schnitzel breading uses egg wash."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains pork."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Wienerschnitzel",
+        "definition": "A traditional Austrian dish of thin, breaded, pan-fried cutlets. The name means Viennese cutlet. Our owner being Austrian means this dish is held to a genuinely high standard."
+      },
+      {
+        "term": "Lingonberry",
+        "definition": "A small, tart red berry native to Scandinavian and northern European forests. Similar to cranberry but smaller and more intensely sour. A traditional accompaniment to fried and game meats, where its tartness cuts the richness cleanly."
+      },
+      {
+        "term": "Dill Potato Salad",
+        "definition": "A European-style potato salad dressed with vinegar and dill rather than mayonnaise. Lighter and more acidic than the American style, it complements both the potato and the schnitzel."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Fryer cross-contamination is an important flag for shellfish and nut allergy guests. Always confirm with the kitchen.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d28",
+    "menu": "dinner",
+    "cat": "Land",
+    "name": "Green Hill Pork Loin",
+    "price": 28,
+    "description": "Smoked puttanesca, kalamata olives, barley risotto, basil",
+    "tableside": "A leaner cut than the short rib, with a smoked puttanesca that brings intensity and brininess from the olives and capers. The barley risotto underneath is heartier and nuttier than standard risotto.",
+    "ingredients": [
+      "Green Hill pork loin",
+      "Smoked puttanesca",
+      "Kalamata olives",
+      "Barley risotto",
+      "Fresh basil"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "Barley risotto may contain Parmesan. Confirm with kitchen."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Barley contains gluten. Cannot be made GF without removing the risotto."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Contains pork."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains meat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Puttanesca",
+        "definition": "An Italian sauce originating in Naples, made with tomatoes, olives, capers, garlic, and chili. Bold, briny, and intensely savory. Here it is smoked, adding another layer of depth."
+      },
+      {
+        "term": "Barley Risotto (Orzotto)",
+        "definition": "Risotto made with pearl barley instead of Arborio rice. The barley has more fiber and a nuttier, earthier flavor than standard risotto rice, giving the dish a more substantial character."
+      },
+      {
+        "term": "Kalamata Olives",
+        "definition": "A Greek olive variety from the Kalamata region. Large, dark purple-black, and intensely flavored with a meaty texture and rich, briny taste. Significantly more complex than standard black olives."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Green Hill",
+        "description": "A regional pork supplier. Sourcing details pending confirmation with the kitchen."
+      }
+    ],
+    "chef_notes": "Confirm with kitchen whether the puttanesca contains anchovies. Relevant for vegetarian guests. Barley contains gluten and cannot be removed without losing the risotto entirely.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d29",
+    "menu": "dinner",
+    "cat": "Pasta & Rice",
+    "name": "Spring Chicken Cavatelli",
+    "price": 29,
+    "description": "Asparagus, English peas, radish, cured egg yolk",
+    "tableside": "A spring pasta with real depth. Cavatelli with fresh asparagus, English peas, and radish, finished with a cured egg yolk that adds richness and a silky quality when broken into the pasta. Can be made vegetarian without the chicken.",
+    "ingredients": [
+      "Cavatelli pasta",
+      "Chicken",
+      "Asparagus",
+      "English peas",
+      "Radish",
+      "Cured egg yolk"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains dairy. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Cavatelli is wheat pasta. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "modifiable",
+        "note": "Contains cured egg yolk. Can be removed on request."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "modifiable",
+        "note": "Can be made vegetarian by omitting the chicken."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Cavatelli",
+        "definition": "A small Italian pasta shaped like a tiny hot dog bun. The rolled shape captures sauce inside the curl. Originally from southern Italy, typically made with semolina and water."
+      },
+      {
+        "term": "Cured Egg Yolk",
+        "definition": "An egg yolk cured in a salt and sugar mixture until it firms up to a texture similar to hard cheese. It can then be grated or sliced over dishes, adding a concentrated, rich, umami flavor."
+      },
+      {
+        "term": "Spring Chicken",
+        "definition": "Refers to young, tender chicken raised during the spring season. Leaner and more delicate than a full-grown bird, with a milder flavor that pairs well with fresh spring vegetables."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Chicken can be omitted to make this vegetarian. Cured egg yolk can be removed on request. Dairy is built into the pasta preparation and cannot be removed.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d30",
+    "menu": "dinner",
+    "cat": "Pasta & Rice",
+    "name": "Basil Pesto Risotto",
+    "price": 28,
+    "description": "Pecorino, tomato confit, asparagus, garlic chips",
+    "tableside": "Chef's background in Italian cuisine shows here. Basil pesto risotto with Pecorino, slow-cooked tomato confit, asparagus, and crispy garlic chips. For a larger table this also works as a premium shared side alongside one of the spit roasted mains.",
+    "ingredients": [
+      "Arborio rice",
+      "Basil pesto",
+      "Pecorino Romano",
+      "Tomato confit",
+      "Asparagus",
+      "Garlic chips"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains Pecorino Romano. Cannot be made dairy-free without losing the core character of the dish."
+      },
+      "nuts": {
+        "status": "check",
+        "note": "Basil pesto traditionally contains pine nuts. Confirm with kitchen."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "Rice is gluten-free. Confirm no wheat-based thickeners with kitchen."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy cheese."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Risotto",
+        "definition": "An Italian rice dish cooked by gradually adding warm stock to short-grain rice while stirring continuously. The starch released from the rice creates a creamy consistency without added cream."
+      },
+      {
+        "term": "Tomato Confit",
+        "definition": "Tomatoes slow-cooked in olive oil at low temperature for an extended period. They become intensely concentrated, sweet, and jammy, losing their raw acidity."
+      },
+      {
+        "term": "Pecorino Romano",
+        "definition": "A hard Italian cheese made from sheep's milk. Sharper, saltier, and more pungent than Parmesan, with a tangy quality that pairs well with basil and vegetable-based dishes."
+      },
+      {
+        "term": "Garlic Chips",
+        "definition": "Thinly sliced garlic cloves fried until golden and crispy. They add a savory, caramelized crunch and intense garlic flavor as a garnish."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Confirm pine nut presence in the pesto for nut allergy guests. Works well as a premium shared side for larger tables alongside the spit roasted mains.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d31",
+    "menu": "dinner",
+    "cat": "To Accompany",
+    "name": "Rotisserie Carrots",
+    "price": 12,
+    "description": "Tahini crema, pine nuts, aleppo chili crisp",
+    "tableside": "Carrots cooked on the rotisserie. The fat from the meats above bastes them as they roast, giving them a depth of flavor that a conventional oven simply cannot match. Pine nuts and aleppo crisp can be removed to make this nut-free. Vegan and dairy-free without the crema.",
+    "ingredients": [
+      "Rotisserie carrots",
+      "Tahini crema",
+      "Pine nuts",
+      "Aleppo chili crisp"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Tahini crema may contain dairy. Can be removed to make dairy-free and vegan."
+      },
+      "nuts": {
+        "status": "modifiable",
+        "note": "Pine nuts can be removed. The aleppo chili crisp also contains pine nuts — both would need to be removed for a nut-free version."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Can be made vegan by removing the tahini crema."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Tahini",
+        "definition": "A paste made from ground sesame seeds. Nutty, slightly bitter, and rich. When emulsified with lemon and water it becomes a creamy, versatile sauce."
+      },
+      {
+        "term": "Aleppo Chili Crisp",
+        "definition": "A condiment made from Aleppo pepper, a Syrian chili with moderate heat, fruity flavor, and a slight oiliness. Contains pine nuts. Flag for nut allergy guests."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The rotisserie preparation is worth mentioning. Both the pine nuts and the aleppo crisp contain pine nuts and must both be removed for nut allergy guests.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d32",
+    "menu": "dinner",
+    "cat": "To Accompany",
+    "name": "Crispy Brussels Sprouts",
+    "price": 12,
+    "description": "Smoked blue cheese, fried shallots, honey mustard vinaigrette",
+    "tableside": "Brussels sprouts that will change minds. Fried until genuinely crispy, tossed in honey mustard vinaigrette, topped with smoked blue cheese and fried shallots. The smoked blue cheese is the move here. Goes through a fryer that cooks animal products.",
+    "ingredients": [
+      "Brussels sprouts",
+      "Smoked blue cheese",
+      "Fried shallots",
+      "Honey mustard vinaigrette"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "check",
+        "note": "The fryer cooks animal products including potential shellfish. Confirm with kitchen for severe allergies."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Smoked blue cheese can be removed to make dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts in the dish itself."
+      },
+      "gluten": {
+        "status": "check",
+        "note": "The fryer may be used for breaded items containing gluten. Confirm with kitchen."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "modifiable",
+        "note": "Can be made vegan by removing blue cheese. However, the fryer cooks animal products and is not suitable for strict vegans."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Smoked Blue Cheese",
+        "definition": "Blue cheese that has been cold-smoked. The smoke adds a woody, aromatic depth to the already pungent, funky character of the blue. Particularly effective against sweet or acidic elements like honey mustard."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Multiple fryer cross-contamination concerns. Always check with kitchen for allergy guests. Blue cheese can be removed for dairy-free. Not suitable for strict vegans even without the cheese due to the fryer.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d33",
+    "menu": "dinner",
+    "cat": "To Accompany",
+    "name": "Buttermilk Spatzle",
+    "price": 12,
+    "description": "Cheese, caramelized onion",
+    "tableside": "German egg noodle dumplings made with buttermilk, tossed with cheese and caramelized onion. Think of it as the Austrian version of mac and cheese. Pairs naturally with the Wienerschnitzel or the short rib.",
+    "ingredients": [
+      "Buttermilk spatzle",
+      "Cheese",
+      "Caramelized onion"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains buttermilk and cheese. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Spatzle is a wheat-based pasta. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Spatzle dough contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Spatzle",
+        "definition": "A German egg noodle or dumpling made by pressing soft dough through a colander directly into boiling water. The irregular shape and chewy texture are characteristic. The name means little sparrows in Swabian German dialect."
+      },
+      {
+        "term": "Buttermilk",
+        "definition": "The acidic liquid left after churning butter from cream. Its acidity tenderizes dough and adds a subtle tang. In spatzle, buttermilk produces a more tender dumpling than water alone."
+      },
+      {
+        "term": "Caramelized Onion",
+        "definition": "Onions cooked slowly over low heat for 30 to 45 minutes until their natural sugars develop into deep sweetness. Completely different from sauteed or raw onion."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "A natural pairing alongside the Wienerschnitzel. Also excellent with the short rib.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d34",
+    "menu": "dinner",
+    "cat": "To Accompany",
+    "name": "Fingerling Potatoes",
+    "price": 10,
+    "description": "Simply prepared",
+    "tableside": "Fingerling potatoes, simply prepared. One of the most frequently requested sides. A clean, unfussy option alongside a richer main.",
+    "ingredients": [
+      "Fingerling potatoes"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "May be finished with butter. Confirm with kitchen."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "check",
+        "note": "Confirm butter use with kitchen."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Fingerling Potatoes",
+        "definition": "A category of small, elongated potato varieties named for their finger-like shape. Thin-skinned with a waxy, moist flesh that holds together well when roasted or sauteed. Their small size and creamy interior make them a clean, unfussy side."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Frequently requested. Good default recommendation when a guest asks for something simple.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "d35",
+    "menu": "dinner",
+    "cat": "To Accompany",
+    "name": "Truffle Fries",
+    "price": 12,
+    "description": "Parmesan, chives, truffle mayonnaise",
+    "tableside": "A fan favorite. Fries topped with Parmesan and chives, served with truffle mayonnaise on the side. One of those dishes that tables order once and keep ordering.",
+    "ingredients": [
+      "Fries",
+      "Parmesan",
+      "Chives",
+      "Truffle mayonnaise"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "check",
+        "note": "Goes through a fryer that may cook shellfish products. Confirm with kitchen for severe allergies."
+      },
+      "dairy": {
+        "status": "modifiable",
+        "note": "Contains Parmesan. Can be removed to make dairy-free."
+      },
+      "nuts": {
+        "status": "check",
+        "note": "Fryer may cook nut-containing products. Confirm with kitchen."
+      },
+      "gluten": {
+        "status": "check",
+        "note": "Fryer may be used for breaded items. Confirm with kitchen for GF guests."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Truffle mayonnaise contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Truffle Mayonnaise",
+        "definition": "A mayonnaise infused with truffle. The truffle's earthy, intensely aromatic character elevates the aioli from a standard dipping sauce into something genuinely luxurious."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "One of the most popular sides on the menu. Parmesan can be removed. Fryer cross-contamination applies.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
+    "id": "ds1",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Brookie Sundae",
+    "price": 14,
+    "description": "Chocolate raspberry ice cream, espresso meringue, hot fudge, whipped cream",
+    "tableside": "A brookie is a brownie and cookie combined in one base. Topped with chocolate raspberry ice cream, espresso meringue, hot fudge, and whipped cream. The espresso meringue is the detail worth mentioning — airy and slightly bitter, it keeps the whole thing from tipping into overly sweet.",
+    "ingredients": [
+      "Brookie base",
+      "Chocolate raspberry ice cream",
+      "Espresso meringue",
+      "Hot fudge",
+      "Whipped cream"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains ice cream, whipped cream, and hot fudge. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Brookie base contains gluten. Cannot be made GF."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Meringue is made from egg whites. Brookie likely contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Brookie",
+        "definition": "A hybrid baked good combining brownie and cookie in one. Typically layered or swirled so both textures are present in each bite."
+      },
+      {
+        "term": "Espresso Meringue",
+        "definition": "Meringue — whipped egg whites and sugar — flavored with espresso. Light and airy with a slightly bitter coffee character that cuts through the sweetness of the sundae."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The espresso meringue is the detail worth calling out.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Nonino Amaro",
+        "why": "The grappa base and honey character of Nonino complement the dark chocolate and espresso without competing with them. A more complex choice than a standard dessert wine for guests who want something to sip alongside."
+      },
+      {
+        "name": "Hennessy VS",
+        "why": "The light fruit and vanilla of Hennessy VS echoes the ice cream and hot fudge. Easy, approachable, and a natural after-dinner pour for guests who want something simple."
+      },
+      {
+        "name": "Graham's 10 Year Tawny",
+        "why": "The dried fruit and caramel notes of the 10 Year Tawny mirror the dark chocolate and coffee elements in the sundae. A classic dessert pairing."
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds2",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Berry Heart",
+    "price": 13,
+    "description": "Strawberry & white chocolate mousse, vanilla sponge cake, raspberry gel, blueberry-lavender sorbet",
+    "tableside": "The most delicate dessert on the menu. Strawberry and white chocolate mousse, vanilla sponge cake, raspberry gel, and blueberry-lavender sorbet. A composed plate with a lot going on, and a standout presentation.",
+    "ingredients": [
+      "Strawberry mousse",
+      "White chocolate mousse",
+      "Vanilla sponge cake",
+      "Raspberry gel",
+      "Blueberry-lavender sorbet"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains white chocolate and mousse components. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Sponge cake contains gluten."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Mousse and sponge cake contain eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Mousse",
+        "definition": "A light, airy preparation made by folding whipped cream or egg whites into a flavored base. The incorporated air creates the characteristic light texture."
+      },
+      {
+        "term": "Raspberry Gel",
+        "definition": "A concentrated raspberry puree set with a gelling agent. More intense and clean in flavor than a sauce, with a firm, glossy texture."
+      },
+      {
+        "term": "Blueberry-Lavender Sorbet",
+        "definition": "A dairy-free frozen dessert made from fruit puree and sugar. Blueberry and lavender is a classic pairing — the floral herb complements the berry's sweetness without overpowering it."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The lightest dessert on the menu. Ideal for guests who say they don't want anything too heavy. The presentation is particularly striking.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Di Majo Norante Apianae Moscato",
+        "why": "The Moscato's floral peach and apricot character mirrors the berry and lavender in the dessert. Light and sweet without overwhelming the delicate mousse."
+      },
+      {
+        "name": "Dolin Blanc",
+        "why": "The soft sweetness and floral vanilla notes of the Dolin Blanc complement the white chocolate mousse while the light herbal character echoes the lavender in the sorbet."
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds3",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "S'mores Chocolate Torte",
+    "price": 15,
+    "description": "Toasted meringue, smoked chocolate cremeux, devil's food, peanut butter, smoked salt",
+    "tableside": "A composed take on s'mores. Toasted meringue, smoked chocolate cremeux, devil's food cake, peanut butter, and smoked salt. Every component is intentional and the smoked salt is the detail that makes the chocolate more intense and the sweetness more balanced.",
+    "ingredients": [
+      "Toasted meringue",
+      "Smoked chocolate cremeux",
+      "Devil's food cake",
+      "Peanut butter",
+      "Smoked salt"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains chocolate and cremeux. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "contains",
+        "note": "Contains peanut butter. Cannot be made nut-free."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Devil's food cake contains gluten."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Meringue and cremeux contain eggs."
+      },
+      "soy": {
+        "status": "check",
+        "note": "Chocolate may contain soy lecithin. Confirm with kitchen for soy allergies."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Cremeux",
+        "definition": "A smooth, dense, creamy pastry preparation made from cream, egg yolks, and chocolate. Richer than mousse and less set than ganache. The texture is like the inside of a very good truffle."
+      },
+      {
+        "term": "Smoked Chocolate",
+        "definition": "Chocolate cold-smoked to add a subtle woody character. The smoke enhances the chocolate's bitter notes and adds complexity."
+      },
+      {
+        "term": "Devil's Food",
+        "definition": "An intensely chocolatey American cake. Darker, moister, and more deeply flavored than standard chocolate cake, typically made with hot water or coffee to bloom the cocoa."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Peanut allergy is non-negotiable. Cannot be modified. Confirm before ordering.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Ardbeg Uigeadail",
+        "why": "The peated Scotch against smoked chocolate is one of the more unexpected and genuinely impressive pairings on the menu. The peat and smoke echo each other, while Uigeadail's dark fruit and sherry notes play off the torte's sweetness. For adventurous guests only."
+      },
+      {
+        "name": "Fernet Branca",
+        "why": "The intense herbal bitterness of Fernet cuts through the richness of the chocolate and peanut butter, refreshing the palate between bites. A classic digestivo pairing for heavy chocolate desserts."
+      },
+      {
+        "name": "Hennessy VSOP",
+        "why": "The warm spice and dried fruit of the VSOP complement the smoked chocolate and meringue. A more approachable pairing for guests who want something familiar."
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds4",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Black Forest Strudel",
+    "price": 16,
+    "description": "Mascarpone, port cherry reduction, Callebaut chocolate, chantilly, Luxardo cherries",
+    "tableside": "A refined take on Black Forest in strudel form. Mascarpone filling, port cherry reduction, Callebaut chocolate, chantilly cream, and Luxardo cherries — the real ones, dark and intense, not the artificially colored kind.",
+    "ingredients": [
+      "Strudel pastry",
+      "Mascarpone",
+      "Port cherry reduction",
+      "Callebaut chocolate",
+      "Chantilly cream",
+      "Luxardo cherries"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Contains mascarpone and chantilly cream. Cannot be made dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Strudel pastry contains gluten."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Strudel pastry and chantilly contain eggs."
+      },
+      "soy": {
+        "status": "check",
+        "note": "Callebaut chocolate may contain soy lecithin. Confirm for soy allergies."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Mascarpone",
+        "definition": "An Italian fresh cream cheese from Lombardy. Extraordinarily rich and creamy with a mild, slightly sweet flavor. The base of tiramisu and a classic pastry filling."
+      },
+      {
+        "term": "Chantilly",
+        "definition": "The French term for lightly sweetened, vanilla-flavored whipped cream. Named after the Chateau de Chantilly near Paris."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Callebaut Chocolate",
+        "description": "A Belgian chocolate manufacturer founded in 1850, considered one of the world's finest producers. Their chocolate is used by professional pastry chefs globally for its consistent quality and complex flavor profile."
+      },
+      {
+        "name": "Luxardo Cherries",
+        "description": "Produced by the Luxardo distillery in Torreglia, Italy. Made from Marasca cherries preserved in the distillery's own syrup. Intensely flavored, dark, and not artificially colored. Completely different from American-style maraschino cherries."
+      }
+    ],
+    "chef_notes": "Worth mentioning both Callebaut and Luxardo by name to guests who notice quality ingredients.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Graham's 20 Year Tawny Port",
+        "why": "The 20 Year's dried fruit, walnut, and orange peel character mirrors the port cherry reduction in the strudel. A natural pairing — the same flavor language on both sides of the plate."
+      },
+      {
+        "name": "Nonino Amaro",
+        "why": "The honey, saffron, and dried fruit of the Nonino complement the cherry and chocolate without competing. A lighter, more aromatic choice than port for guests who want complexity without additional sweetness."
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds5",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Cheese Board",
+    "price": 18,
+    "description": "Chef's selection of three cheeses, seasonal jam, crostini",
+    "tableside": "Three cheeses selected by Pastry Chef Amanda Siever, with seasonal jam and crostini. The selection rotates based on what's best at the moment. Always ask the kitchen for tonight's cheeses before describing the board. The pairing with Sauternes is one of the great classics on this menu.",
+    "ingredients": [
+      "Three house-selected cheeses",
+      "Seasonal jam",
+      "Crostini"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "It is a cheese board."
+      },
+      "nuts": {
+        "status": "check",
+        "note": "Some accompaniments may include nuts. Confirm tonight's selection with kitchen."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Crostini contains gluten. No GF cracker substitute available."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "It is cheese."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Crostini",
+        "definition": "Small slices of toasted or grilled bread, lighter and crispier than bruschetta. Used as a vehicle for cheese and accompaniments. No GF substitute is available."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Always check with the kitchen for tonight's cheese selection before describing this dish. No GF cracker substitute available.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Doisey-Vedrines Sauternes",
+        "why": "Sauternes with cheese board is one of the great classic pairings in all of gastronomy. The botrytized sweetness and acidity cuts through the richness of the cheese while honey and apricot notes complement aged and blue varieties especially well."
+      },
+      {
+        "name": "Graham's 20 Year Tawny Port",
+        "why": "Tawny port and cheese is a classic British pairing. The 20 Year's dried fruit and nut character works with a wide range of cheese styles, from aged cheddar to blue."
+      },
+      {
+        "name": "Montenegro Amaro",
+        "why": "A lighter, more unexpected choice. The orange and floral character of Montenegro acts as a palate cleanser between cheese varieties and keeps the course feeling fresh rather than heavy."
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds6",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Sorbet Trio",
+    "price": 11,
+    "description": "Pineapple-watermelon, mango & passion fruit, strawberry-apricot",
+    "tableside": "Three sorbets: pineapple-watermelon, mango and passion fruit, and strawberry-apricot. Light, refreshing, and dairy-free. The only fully vegan dessert option on the menu.",
+    "ingredients": [
+      "Pineapple-watermelon sorbet",
+      "Mango and passion fruit sorbet",
+      "Strawberry-apricot sorbet"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "safe",
+        "note": "Sorbet is dairy-free."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "safe",
+        "note": "No gluten."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "No eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "yes",
+        "note": "Vegan. Confirm no honey or other animal products with kitchen."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Sorbet",
+        "definition": "A frozen dessert made from fruit puree and sugar syrup. No dairy, no eggs. The absence of fat means the fruit flavor comes through directly and cleanly."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "The only fully vegan and dairy-free dessert option. Know this and offer it proactively to guests with dietary restrictions.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Di Majo Norante Apianae Moscato",
+        "why": "The Moscato's tropical peach and orange blossom character mirrors the mango and pineapple sorbets. Light, sweet, and dairy-free — works on every level for this pairing."
+      },
+      {
+        "name": "Montenegro Amaro",
+        "why": "The orange and light bitterness of Montenegro acts as a digestive bridge between the sweet sorbet and the end of the meal. A gentle, approachable finish."
+      }
+    ],
+    "file": "dessert"
+  }
+]
