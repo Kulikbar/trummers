@@ -29,6 +29,8 @@
   .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
   .toc-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
   .controls { padding: 0.75rem 1.25rem 0.75rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+  [id^='sec-'] { scroll-margin-top: 280px; }
+  [id^='card-'] { scroll-margin-top: 280px; }
   .search-wrap { position: relative; margin-bottom: 0.75rem; }
   .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
   #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
@@ -71,7 +73,6 @@
   .cocktail-icon-badge { font-size: 14px; line-height: 1; }
   .na-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); margin-left: 2px; font-weight: 500; }
   .star-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: var(--gold2); margin-left: 2px; font-weight: 500; }
-  .wip-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(138,110,66,0.15); border: 1px solid rgba(138,110,66,0.3); color: var(--gold-dim); margin-left: 2px; }
   .cocktail-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
   .cocktail-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
   .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
@@ -80,7 +81,6 @@
   .cocktail-card.open .cocktail-expand { display: block; }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
   .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
-  .tableside-pending { font-family: 'Cormorant Garamond', serif; font-size: 15px; font-style: italic; color: var(--muted); padding: 12px 0; opacity: 0.5; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
   .detail-label { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
   .ingredient-pills { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
   .ingredient-pill { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold); background: rgba(201,169,110,0.05); }
@@ -89,23 +89,14 @@
   .expand-section-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
   .trivia-item { display: flex; gap: 10px; margin-bottom: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
   .trivia-bullet { color: var(--gold-dim); flex-shrink: 0; }
-  .classic-card { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--card); overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
-  .classic-card:hover { border-color: var(--border2); }
-  .classic-card.open { border-color: var(--gold-dim); }
-  .classic-card-top { display: flex; align-items: flex-start; padding: 14px 16px; gap: 12px; }
-  .classic-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gold-dim); flex-shrink: 0; margin-top: 7px; }
-  .classic-main { flex: 1; min-width: 0; }
-  .classic-category { font-size: 10px; letter-spacing: 0.12em; color: var(--gold-dim); margin-bottom: 2px; }
-  .classic-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 500; color: var(--cream); line-height: 1.2; }
-  .classic-tagline { font-size: 12px; color: var(--muted); margin-top: 3px; font-style: italic; }
-  .classic-expand { display: none; padding: 0 16px 16px; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
-  .classic-card.open .classic-expand { display: block; }
   .classic-recipe { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin: 14px 0 4px; }
   .classic-recipe-title { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; }
   .classic-recipe-parts { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--cream); line-height: 1.8; }
   .classic-recipe-note { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
-  .trummers-connection { padding: 10px 12px; background: rgba(201,169,110,0.05); border-radius: 8px; border: 1px solid var(--border2); font-size: 12px; color: var(--muted); line-height: 1.6; margin-top: 10px; }
-  .trummers-label { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 4px; }
+  .loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 4rem 2rem; }
+  .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; flex-shrink: 0; }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); }
+  @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -115,10 +106,9 @@
   <div class="header-subtitle">House cocktails · Classics · Alcohol Free</div>
   <div class="header-nav">
     <a href="bar.html">← Bar Guide</a>
-    <a href="whisky.html">← Whisky</a>
-    <a href="spirits.html">← Spirits</a>
-    <a href="beer.html">← Beer &amp; Cider</a>
-    <a href="afters.html">← Afters</a>
+    <a href="whisky.html">Whisky →</a>
+    <a href="beer.html">Beer &amp; Cider →</a>
+    <a href="afters.html">Afters →</a>
   </div>
 </div>
 <nav class="toc-pills">
@@ -129,7 +119,7 @@
 </nav>
 <div class="controls">
   <div class="search-wrap">
-    <span class="search-icon">&#9906;</span>
+    <span class="search-icon">⌕</span>
     <input id="search" type="search" placeholder="Search cocktails, ingredients, flavors…" autocomplete="off" oninput="render()">
   </div>
   <div class="filter-row" id="cat-filters"></div>
@@ -152,62 +142,93 @@
   </div>
 </div>
 <div class="result-count" id="result-count"></div>
-<div class="main-list" id="main-list"></div>
+<div class="main-list" id="main-list">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading cocktails…</div>
+  </div>
+</div>
 <script>
-const HOUSE_COCKTAILS=[{id:'c1',cat:'House Cocktails',type:'Cocktail',name:'The Titanic',price:15,ingredients:['Muddled grapes','Ciroc vodka','Elderflower syrup','Prosecco sorbet','Prosecco'],icons:['🍓','🌸'],glass:'Martini glass',na:false,wip:false,star:true,tableside:"This is the signature cocktail. Ciroc vodka shaken with muddled grapes and elderflower syrup, served in a martini glass over a prosecco sorbet, then topped with prosecco. The sorbet melts slowly and changes the drink as you sip it. On the sweeter side — worth mentioning for guests who prefer drier drinks.",story:"The Titanic is the drink Trummer's is known for. The prosecco sorbet is the element that makes it memorable — it keeps the drink cold while gradually transforming its texture and sweetness as it melts. The elderflower bridges the grape and the prosecco without being heavy. A genuinely fun and theatrical cocktail that photographs well and surprises guests who haven't had it.",trivia:["The prosecco sorbet is made in house and is what separates the Titanic from a standard vodka elderflower cocktail. The melting sorbet creates a slowly evolving drink — the first sip and the last taste genuinely different.","Ciroc is one of the only major vodka brands made from grapes rather than grain — Ciroc uses French Mauzac Blanc and Ugni Blanc grapes from the Gaillac region. This makes it a natural fit alongside muddled grapes and prosecco.","Elderflower has been used in European cordials and liqueurs for centuries. The delicate floral flavor comes from Sambucus nigra flowers, which bloom briefly in late spring and must be harvested quickly."]},{id:'c2',cat:'House Cocktails',type:'Cocktail',name:'Main Street',price:14,ingredients:['Bourbon','House-pressed lime juice','House-made honey syrup','House-made cinnamon syrup'],icons:['🍯','🍋'],glass:'Coupe',na:false,wip:false,star:false,tableside:"Bourbon shaken with fresh-pressed lime juice and our house-made honey and cinnamon syrups, served in a coupe. Garnished with a piece of cinnamon stick on top. On the sweeter side — worth flagging for guests who want something drier.",story:"Named after Trummer's address on Main Street in Clifton. The bourbon provides depth and warmth, the honey and cinnamon syrups are made in house, and the lime keeps it from tipping into cloying. The cinnamon garnish is a piece of actual cinnamon stick, not powder.",trivia:["Both the honey and cinnamon syrups in Main Street are house-made. The cinnamon syrup uses whole cinnamon sticks steeped in simple syrup rather than ground cinnamon, which produces a cleaner, more aromatic flavor.","Fresh-pressed lime juice behaves differently from bottled lime juice in cocktails — it has more volatile aromatic compounds that evaporate quickly, which is why freshly pressed citrus is considered non-negotiable in serious cocktail programs.","Bourbon's sweetness comes primarily from the corn mash bill and the vanilla and caramel compounds extracted from new charred oak barrels. It pairs naturally with honey and cinnamon because those flavors echo what's already in the spirit."]},{id:'c3',cat:'House Cocktails',type:'Cocktail',name:"Trummer's Sour",price:15,ingredients:['Jägermeister','Strawberry vermouth','Glühwein reduction','Egg white'],icons:['🥚','🍓'],glass:'Coupe',na:false,wip:false,star:false,tableside:"An egg white sour built around Jägermeister. The strawberry vermouth and house-made glühwein reduction serve as the sweetener — warm spice and red fruit rather than simple sugar. Served in a coupe with the silky foam top that an egg white gives.",story:"The sour template — spirit, citrus, sweetener — is one of the oldest structures in cocktail making. Trummer's Sour takes that template and swaps in Jägermeister as the spirit and the glühwein reduction as the sweetener, which gives it a deeply herbal, wintery character unlike a standard sour.",trivia:["Jägermeister is made from 56 herbs, fruits, roots, and spices including cinnamon bark, star anise, ginger root, and bitter orange peel. It is aged in oak for a year before bottling.","The glühwein reduction is made in house by reducing spiced red wine — removing the alcohol while concentrating the warm spice, red fruit, and body of mulled wine into a syrup.","Dry shaking — shaking without ice before adding ice — is the technique used to build foam in egg white cocktails. The absence of ice means the egg white gets more mechanical agitation, producing a denser, more stable foam."]},{id:'c4',cat:'House Cocktails',type:'Cocktail',name:'Sage',price:14,ingredients:['Boodles gin','Fresh-pressed lime juice','Elderflower syrup','Fresh sage leaves'],icons:['🌸','🍋'],glass:'Coupe',na:false,wip:false,star:false,tableside:"Inspired by a gimlet. Boodles gin shaken with fresh lime, elderflower syrup, and fresh sage leaves thrown into the tin with everything else. Poured into a coupe and garnished with a sage leaf. The most balanced cocktail on the menu — not too sweet, not too citrus-forward. My go-to recommendation when someone wants something elegant and not too sweet.",story:"The sage goes into the shaker with everything else, which means the oils from the leaves infuse into the drink rather than just sitting on top as garnish. Boodles is an English gin that lets the botanicals do the work without an aggressive juniper-forward character.",trivia:["A gimlet is traditionally gin and lime cordial — the use of fresh-pressed lime juice and the addition of elderflower and sage makes this a contemporary riff on the classic rather than a strict interpretation.","Boodles British Gin is one of the few major gins that contains no citrus peel in its botanical recipe — the rounder, softer profile works particularly well with fresh citrus.","Sage contains volatile oils including camphor, cineole, and thujone that are released when the leaves are agitated in a shaker. The result is herbal without being sharp."]},{id:'c5',cat:'House Cocktails',type:'Cocktail',name:'Ye Who Enter Here',price:22,ingredients:['Buffalo Trace bourbon','Di9Dante Inferno Rosso vermouth','Don Ciccio Don Fernet'],icons:['🥃'],glass:'Martini glass',na:false,wip:false,star:false,tableside:"A house Manhattan served up. Buffalo Trace stirred with Di9Dante Inferno Rosso and Don Ciccio Don Fernet — both of which are also on the Afters menu. Dark, complex, spirit-forward. Named after the inscription above the gate of Hell in Dante's Inferno.",story:"The Di9Dante Inferno Rosso vermouth references Dante's Divine Comedy directly. As a house Manhattan, it takes the classic structure — bourbon, sweet vermouth, bitters — and uses two intensely bitter, herbal Italian products in place of standard sweet vermouth and Angostura. The result is darker and more challenging than a standard Manhattan.",trivia:["Di9Dante Inferno Rosso is the most intensely bitter sweet red vermouth on the Afters list — named after the first canticle of Dante's Divine Comedy. Both it and the Don Fernet appear independently on the Afters menu.","Don Ciccio Don Fernet is made in Washington DC by Francesco Amodeo, a Neapolitan distiller who brought traditional Italian liqueur-making techniques to the American capital.","The Manhattan cocktail was reportedly created at the Manhattan Club in New York City in the 1870s and is one of the oldest American cocktails still widely ordered."]},{id:'c6',cat:'House Cocktails',type:'Cocktail',name:'Floral Smoke',price:16,ingredients:['Tequila','Mezcal','Lavender','Orange'],icons:['🏔️','🌸','🍋'],glass:'TBC',na:false,wip:true,star:false,tableside:'',story:'',trivia:[]},{id:'c7',cat:'House Cocktails',type:'Cocktail',name:'Pain and Pleasure',price:16,ingredients:['Blanco tequila','Fresh lime juice','Dry curaçao','Hibiscus syrup','Jalapeño and cilantro ice sphere','Candied orange peel'],icons:['🌶️','🍋','🌸'],glass:'Rocks glass',na:false,wip:false,star:false,tableside:"Blanco tequila, lime, dry curaçao, and hibiscus syrup, poured tableside over a jalapeño and cilantro ice sphere topped with candied orange peel. The drink gets spicier as the ice melts into it — the heat builds slowly throughout. One of the more theatrical pours on the menu.",story:"The jalapeño and cilantro ice sphere is made in house. The heat and herbal character are locked inside the ice and release gradually into the drink as it melts, which means no two sips are the same. Structurally it follows the Margarita template — blanco tequila, lime, orange liqueur — but the tableside pour and the evolving heat make it genuinely unique.",trivia:["Dry curaçao is made from dried bitter orange peel from the island of Curaçao in the Dutch Caribbean. More complex and less sweet than standard triple sec, it adds orange depth and a slight bitterness that prevents the drink from tipping into sweetness.","Blanco tequila is unaged or minimally aged — the agave flavor comes through most cleanly in blanco expressions because it hasn't been modified by oak.","Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly — which produces immediate, hard-to-control heat — the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."]}];
-const NA_COCKTAILS=[{id:'na1',cat:'Alcohol Free',type:'Mocktail',name:'The Berry Manilow',price:10,ingredients:['Mixed berry puree','Fresh lime juice','Ginger beer'],icons:['🍓','🍋'],glass:'Tom Collins glass',na:true,wip:false,star:false,tableside:"Fresh mixed berry puree with lime juice, topped with ginger beer and served in a Tom Collins glass. The ginger beer gives it a gentle heat and fizz. The most straightforward mocktail on the menu.",story:'',trivia:[]},{id:'na2',cat:'Alcohol Free',type:'Mocktail',name:'Pineapple Mojo',price:10,ingredients:['Pineapple','Mint','Lime','Clove','Club soda'],icons:['🍓','🍋','🌸'],glass:'TBC',na:true,wip:true,star:false,tableside:'',story:'',trivia:[]},{id:'na3',cat:'Alcohol Free',type:'Mocktail',name:'Hot to Trot',price:10,ingredients:['DHOS Bittersweet','Yuzu','Jalapeño'],icons:['🌶️','🍋'],glass:'TBC',na:true,wip:true,star:false,tableside:'',story:'',trivia:[]},{id:'na4',cat:'Alcohol Free',type:'Mocktail',name:'Green Giant',price:10,ingredients:['Elderflower syrup','Fresh sage leaves','Club soda'],icons:['🌸'],glass:'Coupe',na:true,wip:false,star:false,tableside:"The alcohol-free version of the Sage cocktail. Elderflower syrup shaken with fresh sage leaves and topped with club soda, served in a coupe. Floral and herbal — a sophisticated mocktail for guests who want something that doesn't feel like a juice drink.",story:"The Green Giant mirrors the Sage cocktail without the gin. The sage leaves still go into the shaker so the herbal oils infuse into the drink.",trivia:["Elderflower syrup is made from the flowers of Sambucus nigra, the same plant used to make St-Germain liqueur. The flowers bloom for a short window in late spring and have a delicate, almost honeyed floral aroma.","Non-alcoholic cocktails that use fresh herbs and botanicals rather than juice alone have become a defining category in contemporary bar programs."]},{id:'na5',cat:'Alcohol Free',type:'Mocktail',name:'Iceberg',price:10,ingredients:['Muddled grapes','Elderflower syrup','Crushed ice','Club soda'],icons:['🍓','🌸'],glass:'Coupe',na:true,wip:false,star:false,tableside:"The alcohol-free version of the Titanic. Muddled grapes and elderflower syrup poured over crushed ice in a coupe and topped with club soda. Lighter and more refreshing than the original — a good option for guests at a table ordering Titanics who want to stay alcohol-free.",story:"The Iceberg follows the same flavor logic as the Titanic — grape, elderflower, bubbles — without the vodka and prosecco sorbet. The crushed ice gives it a different texture and presentation than a standard mocktail.",trivia:["Muddling grapes releases both juice and the volatile aromatic compounds in the grape skin, producing a fresher, more complex flavor than using grape juice from a bottle.","Crushed ice melts faster than cubed ice, which means the drink dilutes more quickly. For a mocktail this is a feature — the water integration happens naturally as you drink."]},{id:'na6',cat:'Alcohol Free',type:'Non-Alcoholic Wine',name:'Nozeco',price:42,ingredients:['Non-alcoholic sparkling wine','France','750mL','0.0% ABV'],icons:['🍾'],glass:'Flute or coupe',na:true,wip:false,star:false,tableside:"A French non-alcoholic sparkling wine produced using the same winemaking process as traditional sparkling wine, then gently de-alcoholized at low temperatures to preserve the aromatics. Pale straw, fine bubbles, white flowers and pear on the nose. Vegan, gluten-free, and under 0.5% ABV. Sold as a 750mL bottle.",story:"Nozeco is produced by Les Grands Chais de France, the largest private wine producer in France. After traditional winemaking, the wine is de-alcoholized through vacuum distillation at temperatures below 30 degrees Celsius — preserving the aromatic compounds that heat would destroy.",trivia:["De-alcoholization by vacuum distillation works by lowering the boiling point of alcohol through reduced pressure, allowing it to evaporate without heat damage to the delicate aromas.","Les Grands Chais de France manages over 3,760 hectares of vineyards across multiple French regions — making it one of the largest wine operations in the country.","Nozeco contains less than 0.5% ABV. For context, ripe bananas contain up to 0.6% ABV from natural fermentation of their sugars."]},{id:'na7',cat:'Alcohol Free',type:'Non-Alcoholic Wine',name:'Hans Baer Riesling',price:42,ingredients:['Non-alcoholic Riesling','Rheinhessen, Germany','750mL','Under 0.5% ABV'],icons:['🍾'],glass:'White wine glass',na:true,wip:false,star:false,tableside:"A German non-alcoholic Riesling from the Rheinhessen wine region. De-alcoholized through vacuum distillation using a spinning cones column — a precision process that preserves the typical Riesling character. Yellow stone fruits, mineral freshness, and a hint of residual sweetness. For guests who want to experience the wine program without alcohol. Sold as a 750mL bottle.",story:"Produced by Weinkellerei Hechtsheim in Mainz, Germany. The Rheinhessen is Germany's largest wine region, known for Riesling with particularly expressive mineral and stone fruit character. The spinning cones column de-alcoholization method does not require heat or added chemicals, preserving the Riesling character more faithfully than older methods.",trivia:["Rheinhessen is Germany's largest wine-growing region at over 26,000 hectares of vineyards and has become one of Germany's most dynamic wine regions in recent years.","The spinning cones column uses centrifugal force to create a thin film of wine over cone-shaped surfaces in a vacuum, stripping alcohol without the heat damage of conventional distillation.","Riesling's hallmark qualities — high acidity, mineral character, and aromatic complexity — survive the de-alcoholization process better than most grape varieties."]}];
-const DESSERT_COCKTAILS=[{id:'dc1',cat:'Dessert Cocktails',type:'Cocktail',name:'Espresso Martini',price:14,ingredients:['Stoli Vanilla vodka','Kahlúa','Grand Marnier','Fresh espresso'],icons:['☕'],glass:'Martini glass',na:false,wip:false,star:false,tableside:"Stoli Vanilla, Kahlúa, Grand Marnier, and fresh espresso shaken hard and served in a martini glass. The thick foam on top comes from the coffee oils emulsifying when shaken — no egg white involved. The Grand Marnier is the detail that lifts it above the standard version.",story:"The Espresso Martini was created by Dick Bradsell in London in 1983, reportedly at the request of a model who asked for something to wake her up. It became one of the most iconic cocktails of the late 20th century and has experienced a massive global revival over the past five years.",trivia:["Dick Bradsell is also credited with creating the Bramble, making him one of the most influential bartenders in modern cocktail history. He developed the Espresso Martini at the Soho Brasserie in London.","The thick foam on top comes from the emulsification of coffee oils when shaken vigorously — no added egg white or cream.","Grand Marnier is made from a blend of Cognac and bitter orange liqueur, which gives it a depth and warmth that standard orange liqueurs don't have."]},{id:'dc2',cat:'Dessert Cocktails',type:'Cocktail',name:'Irish Coffee',price:14,ingredients:['Jameson Irish Whiskey','Sugar in the Raw','Coffee','Fresh whipped cream'],icons:['☕','🥃'],glass:'Irish Coffee glass',na:false,wip:false,star:false,tableside:"The Sugar in the Raw and Jameson are set on fire at the table, caramelizing the sugar before the coffee is added. Topped with fresh whipped cream. A theatrical moment and one of the most satisfying dessert cocktails on the menu.",story:"Irish Coffee was invented by Joe Sheridan at Foynes Airport in Ireland in 1943 to warm passengers forced to turn back due to bad weather. Brought to the US by travel writer Stanton Delaplane, who introduced it to San Francisco's Buena Vista Café in 1952.",trivia:["The Buena Vista Café in San Francisco has served over 30 million Irish Coffees since Stanton Delaplane introduced the recipe in 1952.","The flambé caramelizes the sugar before the coffee is added, creating a richer, more complex sweetness than simply dissolving sugar in hot coffee. The alcohol burns off completely.","Jameson is triple-distilled, producing a notably smooth character compared to Scotch or bourbon. The smoothness is what makes it work in a coffee cocktail where the spirit is not meant to dominate."]},{id:'dc3',cat:'Dessert Cocktails',type:'Cocktail',name:"Daddy's Home",price:14,ingredients:['Scotch','Amaretto','Heavy cream','Cinnamon','Brandied cherry'],icons:['☕','🥃'],glass:'Rocks glass over a large ice cube',na:false,wip:false,star:false,tableside:"Scotch, amaretto, and heavy cream poured over a large rock, finished with cinnamon and a brandied cherry. A personal creation from Tony, one of our bartenders. Rich, warming, and a little indulgent.",story:"Daddy's Home is Tony's cocktail — one of our bartenders who brought this recipe with him. The scotch and amaretto combination has a long history in classic drinks, most famously the Godfather cocktail, but the addition of cream and the brandied cherry finish push it firmly into dessert territory.",trivia:["The Godfather cocktail — scotch and amaretto in equal parts — was named after the 1972 Coppola film and became one of the most popular two-ingredient cocktails of the 1970s. Daddy's Home takes that base and adds cream and warm spice.","Amaretto is an Italian almond-flavored liqueur typically made from almonds, apricot pits, or both. The name means 'a little bitter' in Italian.","Brandied cherries are preserved in brandy or Cognac — richer and more complex than standard maraschino cherries, adding a quiet luxury to any cocktail they appear in."]}];
-const CLASSICS=[{id:'cl1',name:'The Old Fashioned',category:'Spirit-Forward · The Original Template',tagline:'The oldest cocktail in the book — spirit, sugar, bitters, ice.',recipe:{parts:['2 oz bourbon or rye','1 sugar cube (or ½ tsp simple syrup)','2 dashes Angostura bitters','Orange peel for garnish'],method:'Muddle sugar and bitters. Add spirit and ice. Stir. Express orange peel over the glass.'},description:"The Old Fashioned is arguably America's oldest cocktail, with recipes dating to the early 1800s. It's the purest expression of spirit-forward cocktail making — the goal is to enhance the whiskey without masking it. The sugar softens the proof, the bitters add complexity, and the orange oil adds aromatic lift. Everything else is a variation on this template.",trummers:"Main Street follows Old Fashioned logic — bourbon modified with sweetener and aromatics. Understanding the Old Fashioned helps explain why Main Street is built the way it is.",trivia:["The word cocktail was first defined in print in 1806 as a stimulating liquor composed of spirits, sugar, water, and bitters — which is essentially the Old Fashioned recipe.","The Old Fashioned experienced a major revival after being featured prominently in the TV series Mad Men, which introduced a generation to classic cocktail culture."]},{id:'cl2',name:'The Manhattan',category:'Spirit-Forward · Whiskey & Vermouth',tagline:'Rye or bourbon, sweet vermouth, bitters — stirred, never shaken.',recipe:{parts:['2 oz rye or bourbon','1 oz sweet red vermouth','2 dashes Angostura bitters','Cherry garnish'],method:'Stir all ingredients with ice until cold. Strain into a chilled coupe or rocks glass.'},description:"The Manhattan is where whiskey and European wine culture meet. The sweet vermouth transforms the whiskey into something more complex and aromatic without fighting it. Understanding the Manhattan helps explain why a good sweet vermouth like Di9Dante Inferno Rosso is worth drinking on its own.",trummers:"Ye Who Enter Here is a house Manhattan served up — Di9Dante Inferno Rosso and Don Ciccio Don Fernet in place of standard sweet vermouth and Angostura. Understanding the Manhattan makes Ye Who Enter Here immediately explainable.",trivia:["The Manhattan was reportedly created at the Manhattan Club in New York City in the 1870s.","The debate between rye and bourbon Manhattans is genuine: rye produces a drier, spicier drink while bourbon produces a sweeter, rounder one. Both are correct."]},{id:'cl3',name:'The Negroni',category:'Spirit-Forward · Gin, Vermouth & Campari',tagline:'Equal parts. The most satisfying ratio in cocktail history.',recipe:{parts:['1 oz gin','1 oz sweet red vermouth','1 oz Campari','Orange peel garnish'],method:'Stir with ice. Strain into rocks glass over a large ice cube. Express orange peel.'},description:"Equal parts gin, sweet vermouth, and Campari. Simultaneously sweet, bitter, and aromatic. The Negroni teaches the fundamental lesson that bitterness is a flavor, not a flaw.",trummers:"The amaro and vermouth section of Afters lives in Negroni territory. Guests who love Negronis will respond to Campari-adjacent conversation — Montenegro, Cynar, and Di9Dante all occupy similar flavor space.",trivia:["The Negroni was created in Florence in 1919 when Count Camillo Negroni asked his bartender to strengthen his Americano by replacing the soda water with gin.","The Negroni Sbagliato — mistaken Negroni — substitutes Prosecco for gin. It was created accidentally by a bartender who grabbed the wrong bottle and went viral in 2022."]},{id:'cl4',name:'The Sour',category:'Sour Template · Spirit + Citrus + Sweetener',tagline:'The three-part template that explains half the cocktail menu.',recipe:{parts:['2 oz spirit (any)','¾ oz fresh citrus juice (lemon or lime)','¾ oz simple syrup','Optional: egg white for foam'],method:'Shake with ice (dry shake first if using egg white). Strain.'},description:"Spirit, citrus, sweetener. Once you understand this ratio you can explain almost any citrus-forward cocktail on the menu. The key principle: citrus provides acid and brightness, sweetener provides balance, spirit provides character.",trummers:"Trummer's Sour is a direct expression of this template. Pain and Pleasure is also a sour. Sage follows sour logic without egg white. Understanding the template makes all three explainable in one sentence each.",trivia:["The Whiskey Sour is the most commonly ordered sour-template cocktail globally and predates the Margarita, Daiquiri, and Cosmopolitan by decades.","The egg white in a sour adds no flavor — only texture and foam. Guests with egg allergies can request it without and the drink tastes identical."]},{id:'cl5',name:'The Margarita',category:'Sour Template · Tequila',tagline:"The world's most ordered cocktail. Learn it cold.",recipe:{parts:['2 oz blanco tequila','1 oz fresh lime juice','¾ oz triple sec or dry curaçao','Salt rim optional'],method:'Shake with ice. Strain into a rimmed glass.'},description:"The Margarita is the sour template applied to tequila and the most ordered cocktail in America. Blanco tequila, lime, and orange liqueur. Understanding the Margarita makes Pain and Pleasure immediately explainable — same base, same structure, different modifiers.",trummers:"Pain and Pleasure is a Margarita with hibiscus syrup in place of simple sugar and a jalapeño and cilantro ice sphere for a theatrical, evolving heat.",trivia:["Dry curaçao, which appears in Pain and Pleasure, uses dried bitter orange peel from the island of Curaçao. More complex and less sweet than standard triple sec.","The origin of the Margarita is disputed between several bartenders in Mexico and the US in the 1930s and 40s. No single inventor has been definitively established."]},{id:'cl6',name:'The Martini',category:'Spirit-Forward · Gin & Vermouth',tagline:'Two ingredients, infinite opinions.',recipe:{parts:['2½ oz gin (or vodka)','½ oz dry vermouth','Lemon twist or olive garnish'],method:'Stir with ice until very cold. Strain into chilled coupe. The debate about shaking is settled: stir.'},description:"The most argued-about cocktail in existence. The original Martini was much wetter — more vermouth — than the bone-dry versions popular today. Understanding the Martini helps sell the vermouth section as more than just a cocktail ingredient.",trummers:"The Sage cocktail shares Martini DNA — gin-forward, floral and herbal, served up without citrus juice dominating.",trivia:["James Bond's shaken not stirred preference is technically incorrect — shaking dilutes the drink more than stirring. It exists as a character quirk, not cocktail wisdom.","Winston Churchill reportedly made his Martinis by pouring gin into a glass while glancing at a bottle of vermouth across the room."]},{id:'cl7',name:'The Daiquiri',category:'Sour Template · Rum',tagline:'Three ingredients. The purest test of technique.',recipe:{parts:['2 oz white rum','¾ oz fresh lime juice','¾ oz simple syrup'],method:'Shake hard with ice. Double strain into chilled coupe.'},description:"The Daiquiri is the sour template at its most transparent — three ingredients, nothing to hide behind. A well-made Daiquiri reveals the quality of every component. The gateway to understanding rum as a serious spirit category.",trummers:"No direct Daiquiri on the current menu, but the template teaches the principle that fresh citrus is non-negotiable. Berry Manilow follows similar light, fruit-forward, citrus-balanced logic.",trivia:["The Daiquiri was named after the Cuban mining town of Daiquirí, where American engineer Jennings Cox reportedly invented it in 1898.","Ernest Hemingway's preferred version at El Floridita in Havana used grapefruit juice, twice the rum, and no sugar — a drink the bar named the Papa Doble."]}];
+let ALL_DATA = [];
+let activeCat = 'All', activeIcons = new Set(), openId = null;
 
-let activeCat='All',activeIcons=new Set(),openId=null;
-const ICON_LABELS={'🍋':'Citrus','🌸':'Floral','🌶️':'Spicy','🍓':'Fruity','🏔️':'Smoky','🥃':'Spirit-Forward','🥚':'Egg White','🍾':'Large Format','☕':'Rich & Coffee','🍯':'Honey & Sweet'};
-const ALL_COCKTAILS=[...HOUSE_COCKTAILS,...NA_COCKTAILS,...DESSERT_COCKTAILS];
+const ICON_LABELS = {'🍋':'Citrus','🌸':'Floral','🌶️':'Spicy','🍓':'Fruity','🏔️':'Smoky','🥃':'Spirit-Forward','🥚':'Egg White','🍾':'Large Format','☕':'Rich & Coffee','🍯':'Honey & Sweet'};
 
-function buildFilters(){
-  document.getElementById('cat-filters').innerHTML=['All','Cocktails','Alcohol Free'].map(c=>`<button class="filter-btn${activeCat===c?' active':''}" onclick="setCat('${c}')">${c}</button>`).join('');
-  document.getElementById('icon-filters').innerHTML=Object.entries(ICON_LABELS).map(([e,l])=>`<button class="icon-btn${activeIcons.has(e)?' active':''}" onclick="toggleIcon('${e}')">${e} ${l}</button>`).join('');
+const SECTION_ORDER = ['House Cocktails','Alcohol Free','Dessert Cocktails','Classic Cocktails'];
+const SECTION_ANCHORS = {'House Cocktails':'sec-house','Alcohol Free':'sec-na','Dessert Cocktails':'sec-dessert','Classic Cocktails':'sec-classics'};
+const SECTION_INTROS = {
+  'House Cocktails': "Seven house cocktails plus the Titanic at the top. Know the tableside line for each cold. The Titanic is the signature drink and the first recommendation for any table that asks.",
+  'Alcohol Free': "Three mocktails and two non-alcoholic wines. The Green Giant and Iceberg mirror the Sage and Titanic — useful for tables where some guests are drinking and some aren't. The NA wines are 750mL bottles, a different conversation than a single mocktail.",
+  'Dessert Cocktails': "Three cocktails served at the dessert course. The Irish Coffee is the most theatrical — know the flambé presentation and set expectations before the table orders it.",
+  'Classic Cocktails': "Seven foundational cocktails — all orderable. Understanding these makes explaining the house menu significantly easier. Each card includes the recipe and background."
+};
+
+function buildFilters() {
+  document.getElementById('cat-filters').innerHTML = ['All','Cocktails','Alcohol Free'].map(c =>
+    `<button class="filter-btn${activeCat===c?' active':''}" onclick="setCat('${c}')">${c}</button>`
+  ).join('');
+  document.getElementById('icon-filters').innerHTML = Object.entries(ICON_LABELS).map(([e,l]) =>
+    `<button class="icon-btn${activeIcons.has(e)?' active':''}" onclick="toggleIcon('${e}')">${e} ${l}</button>`
+  ).join('');
 }
-function setCat(c){activeCat=c;openId=null;buildFilters();render();}
-function toggleIcon(e){activeIcons.has(e)?activeIcons.delete(e):activeIcons.add(e);openId=null;buildFilters();render();}
-function clearAll(){activeCat='All';activeIcons.clear();openId=null;document.getElementById('search').value='';buildFilters();render();}
-function updateActiveSummary(){
-  const tags=[];
-  if(activeCat!=='All')tags.push({label:activeCat,clear:()=>{activeCat='All';buildFilters();render();}});
-  for(const ic of activeIcons)tags.push({label:`${ic} ${ICON_LABELS[ic]}`,clear:()=>{activeIcons.delete(ic);buildFilters();render();}});
-  const s=document.getElementById('active-summary');
-  if(!tags.length){s.innerHTML='';return;}
-  window._ct=tags.map(t=>t.clear);
-  s.innerHTML=tags.map((t,i)=>`<span class="active-tag">${t.label}<button onclick="window._ct[${i}]()">✕</button></span>`).join('')+`<button class="clear-all" onclick="clearAll()">Clear all</button>`;
+
+function setCat(c) { activeCat = c; openId = null; buildFilters(); render(); }
+function toggleIcon(e) { activeIcons.has(e) ? activeIcons.delete(e) : activeIcons.add(e); openId = null; buildFilters(); render(); }
+function clearAll() { activeCat = 'All'; activeIcons.clear(); openId = null; document.getElementById('search').value = ''; buildFilters(); render(); }
+
+function updateActiveSummary() {
+  const tags = [];
+  if (activeCat !== 'All') tags.push({ label: activeCat, clear: () => { activeCat='All'; buildFilters(); render(); } });
+  for (const ic of activeIcons) tags.push({ label: `${ic} ${ICON_LABELS[ic]}`, clear: () => { activeIcons.delete(ic); buildFilters(); render(); } });
+  const s = document.getElementById('active-summary');
+  if (!tags.length) { s.innerHTML = ''; return; }
+  window._ct = tags.map(t => t.clear);
+  s.innerHTML = tags.map((t,i) => `<span class="active-tag">${t.label}<button onclick="window._ct[${i}]()">✕</button></span>`).join('') + `<button class="clear-all" onclick="clearAll()">Clear all</button>`;
 }
-function normalize(s){return(s||'').toLowerCase().replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,' ').trim();}
-function passesFilter(c){
-  if(activeCat==='Cocktails'&&c.na)return false;
-  if(activeCat==='Alcohol Free'&&!c.na)return false;
-  if(activeIcons.size>0){for(const ic of activeIcons){if(!(c.icons||[]).includes(ic))return false;}}
+
+function normalize(s) { return (s||'').toLowerCase().replace(/[^a-z0-9\s]/g,'').replace(/\s+/g,' ').trim(); }
+
+function passesFilter(c) {
+  if (activeCat === 'Cocktails' && c.na) return false;
+  if (activeCat === 'Alcohol Free' && !c.na) return false;
+  if (activeIcons.size > 0) { for (const ic of activeIcons) { if (!(c.icons||[]).includes(ic)) return false; } }
   return true;
 }
-function render(){
-  const q=normalize(document.getElementById('search').value);
-  const filtering=activeCat!=='All'||activeIcons.size>0;
-  const match=item=>{if(!q)return true;return normalize([item.name,item.cat||'',item.type||'',(item.ingredients||[]).join(' '),item.tableside||'',item.story||'',(item.trivia||[]).join(' '),item.description||'',item.tagline||''].join(' ')).includes(q);};
-  const house=HOUSE_COCKTAILS.filter(c=>passesFilter(c)&&match(c));
-  const na=NA_COCKTAILS.filter(c=>passesFilter(c)&&match(c));
-  const dessert=DESSERT_COCKTAILS.filter(c=>passesFilter(c)&&match(c));
-  const classics=CLASSICS.filter(c=>match(c));
-  const total=house.length+na.length+dessert.length;
-  document.getElementById('result-count').textContent=filtering||q?`${total} cocktail${total!==1?'s':''} found`:`${ALL_COCKTAILS.length} cocktails · ${CLASSICS.length} classics`;
-  let html='';
-  if(house.length){html+=`<div class="section-head"><span id="sec-house" style="display:block;visibility:hidden;"></span><span class="section-name">House Cocktails</span><div class="section-intro">Seven house cocktails plus the Titanic at the top. Know the tableside line for each cold. The Titanic is the signature drink and the first recommendation for any table that asks.</div></div>`;house.forEach(c=>{html+=buildCC(c);});}
-  if(na.length){html+=`<div class="section-head"><span id="sec-na" style="display:block;visibility:hidden;"></span><span class="section-name">Alcohol Free</span><div class="section-intro">Three mocktails and two non-alcoholic wines. The Green Giant and Iceberg mirror the Sage and Titanic — useful for tables where some guests are drinking and some aren't. The NA wines are 750mL bottles, a different conversation than a single mocktail.</div></div>`;na.forEach(c=>{html+=buildCC(c);});}
-  if(dessert.length){html+=`<div class="section-head"><span id="sec-dessert" style="display:block;visibility:hidden;"></span><span class="section-name">Dessert Cocktails</span><div class="section-intro">Three cocktails served at the dessert course. The Irish Coffee is the most theatrical — know the flambé presentation and set expectations before the table orders it.</div></div>`;dessert.forEach(c=>{html+=buildCC(c);});}
-  if(!filtering&&classics.length){html+=`<div class="section-head"><span id="sec-classics" style="display:block;visibility:hidden;"></span><span class="section-name">Classic Cocktails</span><div class="section-intro">Seven foundational cocktails — all orderable. Understanding these makes explaining the house menu significantly easier. Each card includes the recipe, background, and a direct connection to something on our menu.</div></div>`;CLASSICS.forEach(c=>{html+=buildCL(c);});}
-  if(!html)html='<div class="empty">No cocktails match your selection.</div>';
-  document.getElementById('main-list').innerHTML=html;
+
+function matches(c, q) {
+  if (!q) return true;
+  return normalize([c.name, c.cat, c.type, (c.ingredients||[]).join(' '), c.tableside||'', c.story||'', (c.trivia||[]).join(' '), c.tagline||''].join(' ')).includes(q);
+}
+
+function render() {
+  const q = normalize(document.getElementById('search').value);
+  const filtering = activeCat !== 'All' || activeIcons.size > 0;
+  const isClassicHidden = activeCat === 'Cocktails' || activeCat === 'Alcohol Free';
+
+  let html = '';
+  let total = 0;
+
+  for (const sec of SECTION_ORDER) {
+    if (sec === 'Classic Cocktails' && (filtering || isClassicHidden)) continue;
+    const items = ALL_DATA.filter(c => c.cat === sec && passesFilter(c) && matches(c, q));
+    if (!items.length) continue;
+    total += sec !== 'Classic Cocktails' ? items.length : 0;
+    const anchor = SECTION_ANCHORS[sec];
+    html += `<div class="section-head"><span id="${anchor}" style="display:block;visibility:hidden;"></span><span class="section-name">${sec}</span><div class="section-intro">${SECTION_INTROS[sec]}</div></div>`;
+    items.forEach(c => { html += sec === 'Classic Cocktails' ? buildClassic(c) : buildCard(c); });
+  }
+
+  const countLabel = filtering || q
+    ? `${total} cocktail${total!==1?'s':''} found`
+    : `${ALL_DATA.filter(c=>c.cat!=='Classic Cocktails').length} cocktails · ${ALL_DATA.filter(c=>c.cat==='Classic Cocktails').length} classics`;
+  document.getElementById('result-count').textContent = countLabel;
+  document.getElementById('main-list').innerHTML = html || '<div class="empty">No cocktails match your selection.</div>';
   updateActiveSummary();
 }
-function buildCC(c){
-  const isOpen=openId===c.id;
-  return`<div class="cocktail-card${isOpen?' open':''}${c.star?' star':''}" id="card-${c.id}" onclick="toggleCard('${c.id}')">
+
+function buildCard(c) {
+  const isOpen = openId === c.id;
+  return `<div class="cocktail-card${isOpen?' open':''}${c.star?' star':''}" id="card-${c.id}" onclick="toggleCard('${c.id}')">
     <div class="cocktail-card-top">
       <div class="cocktail-dot${c.star?' gold':''}"></div>
       <div class="cocktail-main">
@@ -219,47 +240,84 @@ function buildCC(c){
           ${c.star?'<span class="star-badge">★ Signature</span>':''}
           ${c.na&&c.type==='Mocktail'?'<span class="na-badge">🌿 Alcohol Free</span>':''}
           ${c.type==='Non-Alcoholic Wine'?'<span class="na-badge">🍾 Non-Alcoholic Wine</span>':''}
-          ${c.wip?'<span class="wip-badge">Work in Progress</span>':''}
         </div>
       </div>
-      <div class="cocktail-right"><div class="cocktail-price">$${c.price}</div><div class="chevron">▾</div></div>
+      <div class="cocktail-right">
+        <div class="cocktail-price">${c.price?'$'+c.price:''}</div>
+        <div class="chevron">▾</div>
+      </div>
     </div>
-    ${isOpen?buildCE(c):''}
+    ${isOpen ? buildExpand(c) : ''}
   </div>`;
 }
-function buildCE(c){
-  const ht=c.tableside&&c.tableside.length>0;
-  return`<div class="cocktail-expand">
-    ${ht?`<div class="tableside-line">${c.tableside}</div>`:`<div class="tableside-pending">Tableside line coming soon.</div>`}
+
+function buildExpand(c) {
+  return `<div class="cocktail-expand">
+    ${c.tableside ? `<div class="tableside-line">${c.tableside}</div>` : ''}
     <div class="detail-label">Ingredients</div>
     <div class="ingredient-pills">${(c.ingredients||[]).map(i=>`<span class="ingredient-pill">${i}</span>`).join('')}</div>
-    ${c.story?`<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-story')">The Story <span id="arr-${c.id}-story">▾</span></div><div class="expand-section-body" id="sec-${c.id}-story">${c.story}</div></div>`:''}
-    ${c.trivia&&c.trivia.length?`<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-trivia')">Trivia <span id="arr-${c.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${c.id}-trivia">${c.trivia.map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>`:''}
+    ${c.story ? `<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-story')">The Story <span id="arr-${c.id}-story">▾</span></div><div class="expand-section-body" id="sec-${c.id}-story">${c.story}</div></div>` : ''}
+    ${(c.trivia||[]).length ? `<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-trivia')">Trivia <span id="arr-${c.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${c.id}-trivia">${c.trivia.map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>` : ''}
   </div>`;
 }
-function buildCL(c){
-  const isOpen=openId===c.id;
-  return`<div class="classic-card${isOpen?' open':''}" id="card-${c.id}" onclick="toggleCard('${c.id}')">
-    <div class="classic-card-top">
-      <div class="classic-dot"></div>
-      <div class="classic-main">
-        <div class="classic-category">${c.category}</div>
-        <div class="classic-name">${c.name}</div>
-        <div class="classic-tagline">${c.tagline}</div>
+
+function buildClassic(c) {
+  const isOpen = openId === c.id;
+  return `<div class="cocktail-card${isOpen?' open':''}" id="card-${c.id}" onclick="toggleCard('${c.id}')">
+    <div class="cocktail-card-top">
+      <div class="cocktail-dot"></div>
+      <div class="cocktail-main">
+        <div class="cocktail-type">${c.detail||''}</div>
+        <div class="cocktail-name">${c.name}</div>
+        <div class="cocktail-ingredients">${c.tagline||''}</div>
       </div>
       <div class="chevron">▾</div>
     </div>
-    ${isOpen?`<div class="classic-expand">
-      <div class="classic-recipe"><div class="classic-recipe-title">The Recipe</div><div class="classic-recipe-parts">${c.recipe.parts.join('<br>')}</div><div class="classic-recipe-note">${c.recipe.method}</div></div>
-      <div style="font-size:13px;color:var(--muted);line-height:1.7;margin-top:12px;">${c.description}</div>
-      <div class="trummers-connection"><div class="trummers-label">Trummer's Connection</div>${c.trummers}</div>
-      <div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-trivia')">Trivia <span id="arr-${c.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${c.id}-trivia">${c.trivia.map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>
-    </div>`:''}
+    ${isOpen ? `<div class="cocktail-expand">
+      <div class="classic-recipe">
+        <div class="classic-recipe-title">The Recipe</div>
+        <div class="classic-recipe-parts">${(c.ingredients||[]).join('<br>')}</div>
+        <div class="classic-recipe-note">${c.recipe_method||''}</div>
+      </div>
+      <div style="font-size:13px;color:var(--muted);line-height:1.7;margin-top:12px;">${c.story||''}</div>
+      ${(c.trivia||[]).length ? `<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-trivia')">Trivia <span id="arr-${c.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${c.id}-trivia">${c.trivia.map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>` : ''}
+    </div>` : ''}
   </div>`;
 }
-function toggleCard(id){openId=openId===id?null:id;render();if(openId){setTimeout(()=>{const el=document.getElementById('card-'+id);if(el)el.scrollIntoView({behavior:'smooth',block:'nearest'});},50);}}
-function toggleSec(e,secId){e.stopPropagation();const sec=document.getElementById('sec-'+secId);const arr=document.getElementById('arr-'+secId);if(!sec)return;const hidden=sec.style.display==='none';sec.style.display=hidden?'':'none';if(arr)arr.textContent=hidden?'▾':'▸';}
-buildFilters();render();
+
+function toggleCard(id) {
+  openId = openId === id ? null : id;
+  render();
+  if (openId) {
+    setTimeout(() => {
+      const el = document.getElementById('card-'+id);
+      if (el) el.scrollIntoView({ behavior:'smooth', block:'nearest' });
+    }, 50);
+  }
+}
+
+function toggleSec(e, secId) {
+  e.stopPropagation();
+  const sec = document.getElementById('sec-'+secId);
+  const arr = document.getElementById('arr-'+secId);
+  if (!sec) return;
+  const hidden = sec.style.display === 'none';
+  sec.style.display = hidden ? '' : 'none';
+  if (arr) arr.textContent = hidden ? '▾' : '▸';
+}
+
+fetch('bar.json')
+  .then(r => r.json())
+  .then(data => {
+    ALL_DATA = data.filter(d => d.file === 'cocktails');
+    buildFilters();
+    render();
+  })
+  .catch(err => {
+    console.error('Could not load bar.json:', err);
+    document.getElementById('main-list').innerHTML =
+      '<p style="color:#8a7e6e;padding:2rem;text-align:center;">Could not load bar.json. Make sure it is in the same folder as this file.</p>';
+  });
 </script>
 </body>
 </html>

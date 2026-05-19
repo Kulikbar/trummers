@@ -38,6 +38,8 @@
 
   /* ── CONTROLS ── */
   .controls { padding: 0.75rem 1.25rem 0.5rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+  [id^='sec-'] { scroll-margin-top: 290px; }
+  [id^='card-'] { scroll-margin-top: 290px; }
   .search-wrap { position: relative; margin-bottom: 0.6rem; }
   .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
   #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
@@ -174,7 +176,7 @@
   <div class="header-chef">Executive Chef: Zack Ridenour &nbsp;·&nbsp; Pastry Chef: Amanda Siever</div>
   <div class="header-nav">
     <a href="index.html">← Home</a>
-    <a href="brunch.html">Brunch →</a>
+    <a href="food.html">← Kitchen</a>
     <a href="dessert.html">Dessert →</a>
   </div>
 </div>
@@ -278,7 +280,7 @@ const DAILY_FEATURES = {
   6: { name: 'Prime Rib', detail: 'with horseradish cream', id: 'd21' }
 };
 
-const ALLERGEN_LABELS = { shellfish:'🦐', dairy:'🥛', nuts:'🌰', gluten:'🌾', eggs:'🥚', soy:'🫘' };
+const ALLERGEN_LABELS = { shellfish:'🦐', dairy:'🥛', nuts:'🌰', gluten:'🌾', eggs:'🥚', soy:'🫘', peanuts:'🥜', vegetarian:'🌿', vegan:'🌱' };
 
 // ── TONIGHT BANNER ──────────────────────────────────────────────────────────
 function buildBanner() {
@@ -593,6 +595,16 @@ fetch('food.json')
     buildBanner();
     buildFilters();
     render();
+    // Measure actual controls height and update scroll-margin-top to match
+    requestAnimationFrame(() => {
+      const h = document.querySelector('.controls')?.offsetHeight;
+      if (h) {
+        const px = (h + 16) + 'px';
+        document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
+          el.style.scrollMarginTop = px;
+        });
+      }
+    });
   })
   .catch(err => {
     console.error('Could not load food.json:', err);

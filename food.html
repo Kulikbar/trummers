@@ -158,25 +158,6 @@
         </div>
       </a>
 
-      <a class="card" href="brunch.html">
-        <div class="card-meta">Brunch &amp; Lunch Service</div>
-        <div class="card-top">
-          <div>
-            <div class="dot-row">
-              <div class="dot" style="background:#c9a050;"></div>
-              <div class="dot" style="background:#8a7040;"></div>
-              <div class="dot" style="background:#e8b870;"></div>
-            </div>
-            <div class="card-title">Brunch</div>
-          </div>
-          <div class="card-arrow">›</div>
-        </div>
-        <div class="card-desc">The daytime menu — covers both brunch and lunch service. Coming soon as the menu is finalized.</div>
-        <div class="card-pills">
-          <span class="pill pill-count">Coming soon</span>
-        </div>
-      </a>
-
       <a class="card" href="dessert.html">
         <div class="card-meta">Dessert Service</div>
         <div class="card-top">
@@ -251,7 +232,7 @@ const DAILY_FEATURES = {
   6: { name: 'Prime Rib', detail: 'with horseradish cream', id: 'd21' }
 };
 
-const MENU_LABELS = { dinner: 'Dinner', dessert: 'Dessert', brunch: 'Brunch' };
+const MENU_LABELS = { dinner: 'Dinner', dessert: 'Dessert' };
 
 function buildBanner() {
   const day = new Date().getDay();
@@ -352,7 +333,7 @@ function handleSearch() {
 
   meta.textContent = `${matches.length} result${matches.length!==1?'s':''} found`;
 
-  const pageUrls = { dinner: 'dinner.html', dessert: 'dessert.html', brunch: 'brunch.html' };
+  const pageUrls = { dinner: 'dinner.html', dessert: 'dessert.html' };
 
   results.innerHTML = matches.map(item => {
     const baseUrl = pageUrls[item.menu] || 'dinner.html';
