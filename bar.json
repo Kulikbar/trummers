@@ -6655,34 +6655,35 @@
     "type": "Non-Alcoholic Wine",
     "producer": "Nozeco",
     "name": "Mimosa",
-    "detail": "France · 0.0% · 750mL",
-    "abv": 0,
+    "detail": "France · Under 0.5% · 750mL",
+    "abv": 0.4,
     "price": 42,
     "allocated": false,
     "na": true,
     "star": false,
     "glass": "Flute or coupe",
     "ingredients": [
-      "Non-alcoholic sparkling wine",
+      "De-alcoholized white wine",
+      "Natural orange flavoring",
       "France",
       "750mL",
-      "0.0% ABV"
+      "Under 0.5% ABV"
     ],
     "icons": [
       "🍾"
     ],
     "notes": [
-      "White flowers",
-      "Pear",
+      "Orange citrus",
       "Fine bubbles",
-      "Clean"
+      "Fruity",
+      "Refreshing"
     ],
-    "tableside": "A French non-alcoholic sparkling wine produced using the same winemaking process as traditional sparkling wine, then gently de-alcoholized at low temperatures to preserve the aromatics. Pale straw, fine bubbles, white flowers and pear on the nose. Vegan, gluten-free, and under 0.5% ABV. Sold as a 750mL bottle.",
-    "story": "Nozeco is produced by Les Grands Chais de France, the largest private wine producer in France. After traditional winemaking, the wine is de-alcoholized through vacuum distillation at temperatures below 30 degrees Celsius — preserving the aromatic compounds that heat would destroy.",
+    "tableside": "A French non-alcoholic mimosa in a bottle — de-alcoholized white wine blended with natural orange flavoring and fine bubbles. Bright yellow with a slight cloudiness, intense citrus on the nose. Under 0.5% ABV, vegan, and gluten-free. Sold as a 750mL bottle — a different conversation than a single mocktail.",
+    "story": "The Nozeco Mimosa is a pre-bottled non-alcoholic take on the classic brunch cocktail. Rather than mixing sparkling wine with orange juice tableside, Nozeco blends de-alcoholized white wine with natural orange flavoring and fine bubbles in a single bottle. The result captures the color, fizz, and citrus character of a mimosa without any alcohol — produced in France by Les Grands Chais de France, one of the country's largest wine producers.",
     "trivia": [
-      "De-alcoholization by vacuum distillation works by lowering the boiling point of alcohol through reduced pressure, allowing it to evaporate without heat damage to the delicate aromas.",
-      "Les Grands Chais de France manages over 3,760 hectares of vineyards across multiple French regions — making it one of the largest wine operations in the country.",
-      "Nozeco contains less than 0.5% ABV. For context, ripe bananas contain up to 0.6% ABV from natural fermentation of their sugars."
+      "The Nozeco Mimosa contains under 0.5% ABV — the same threshold used across the European Union to classify a drink as non-alcoholic. For reference, ripe bananas naturally contain up to 0.6% ABV.",
+      "Les Grands Chais de France, the producer behind Nozeco, manages over 3,700 hectares of vineyards across multiple French regions and is one of the largest private wine producers in the country.",
+      "De-alcoholized wine retains the aromatic compounds from the original fermentation but has the alcohol removed through vacuum distillation — preserving flavor at low temperature without heat damage."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6715,12 +6716,12 @@
       "Floral",
       "Off-dry"
     ],
-    "tableside": "A German non-alcoholic Riesling from the Rheinhessen wine region. De-alcoholized through vacuum distillation using a spinning cones column — a precision process that preserves the typical Riesling character. Yellow stone fruits, mineral freshness, and a hint of residual sweetness. For guests who want to experience the wine program without alcohol. Sold as a 750mL bottle.",
-    "story": "Produced by Weinkellerei Hechtsheim in Mainz, Germany. The Rheinhessen is Germany's largest wine region, known for Riesling with particularly expressive mineral and stone fruit character. The spinning cones column de-alcoholization method does not require heat or added chemicals, preserving the Riesling character more faithfully than older methods.",
+    "tableside": "A German non-alcoholic Riesling from the Rheinhessen wine region. De-alcoholized through vacuum distillation using a spinning cones column — a precision process that strips the alcohol at low pressure without heat, preserving the Riesling character. Yellow stone fruits, mineral freshness, and a hint of residual sweetness. For guests who want to experience the wine program without alcohol. Sold as a 750mL bottle.",
+    "story": "Produced by Weinkellerei Hechtsheim in Mainz, Germany. The Rheinhessen is Germany's largest wine region, known for Riesling with expressive mineral and stone fruit character. After traditional winemaking and aging on fine lees, the wine is de-alcoholized using the spinning cones column method — centrifugal force creates a thin film of wine over cone-shaped surfaces in a vacuum, stripping alcohol without the heat damage of conventional distillation.",
     "trivia": [
-      "Rheinhessen is Germany's largest wine-growing region at over 26,000 hectares of vineyards and has become one of Germany's most dynamic wine regions in recent years.",
-      "The spinning cones column uses centrifugal force to create a thin film of wine over cone-shaped surfaces in a vacuum, stripping alcohol without the heat damage of conventional distillation.",
-      "Riesling's hallmark qualities — high acidity, mineral character, and aromatic complexity — survive the de-alcoholization process better than most grape varieties."
+      "Rheinhessen is Germany's largest wine-growing region at over 26,000 hectares and is home to some of the country's most expressive Riesling vineyards.",
+      "The spinning cones column de-alcoholization method uses centrifugal force and a vacuum to strip alcohol at low temperatures — more gentle than older heat-based methods, and it doesn't require added chemicals beyond standard wine preservatives.",
+      "Riesling's hallmark qualities — high acidity, mineral character, and aromatic complexity — survive the de-alcoholization process better than most grape varieties, making it one of the most successful styles in the non-alcoholic wine category."
     ],
     "pairings": [],
     "file": "cocktails"
