@@ -233,7 +233,7 @@ function buildCard(c) {
       <div class="cocktail-dot${c.star?' gold':''}"></div>
       <div class="cocktail-main">
         <div class="cocktail-type">${c.type}${c.glass?' · '+c.glass:''}</div>
-        <div class="cocktail-name">${c.name}</div>
+        <div class="cocktail-name">${[c.producer, c.name].filter(Boolean).join(' ')}</div>
         <div class="cocktail-ingredients">${(c.ingredients||[]).join(', ')}</div>
         <div class="cocktail-icons">
           ${(c.icons||[]).map(i=>`<span class="cocktail-icon-badge">${i}</span>`).join('')}
