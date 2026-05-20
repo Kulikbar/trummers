@@ -172,9 +172,19 @@ function buildFilters() {
   ).join('');
 }
 
-function setCat(c) { activeCat = c; openId = null; buildFilters(); render(); }
-function toggleIcon(e) { activeIcons.has(e) ? activeIcons.delete(e) : activeIcons.add(e); openId = null; buildFilters(); render(); }
-function clearAll() { activeCat = 'All'; activeIcons.clear(); openId = null; document.getElementById('search').value = ''; buildFilters(); render(); }
+function applyScrollMargins() {
+  const h = document.querySelector('.controls')?.offsetHeight;
+  if (h) {
+    const px = (h + 24) + 'px';
+    document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
+      el.style.scrollMarginTop = px;
+    });
+  }
+}
+
+function setCat(c) { activeCat = c; openId = null; buildFilters(); render(); requestAnimationFrame(applyScrollMargins); }
+function toggleIcon(e) { activeIcons.has(e) ? activeIcons.delete(e) : activeIcons.add(e); openId = null; buildFilters(); render(); requestAnimationFrame(applyScrollMargins); }
+function clearAll() { activeCat = 'All'; activeIcons.clear(); openId = null; document.getElementById('search').value = ''; buildFilters(); render(); requestAnimationFrame(applyScrollMargins); }
 
 function updateActiveSummary() {
   const tags = [];
@@ -284,12 +294,15 @@ function buildClassic(c) {
 function toggleCard(id) {
   openId = openId === id ? null : id;
   render();
-  if (openId) {
-    setTimeout(() => {
-      const el = document.getElementById('card-'+id);
-      if (el) el.scrollIntoView({ behavior:'smooth', block:'nearest' });
-    }, 50);
-  }
+  requestAnimationFrame(() => {
+    applyScrollMargins();
+    if (openId) {
+      setTimeout(() => {
+        const el = document.getElementById('card-'+id);
+        if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+      }, 50);
+    }
+  });
 }
 
 function toggleSec(e, secId) {
@@ -308,17 +321,23 @@ fetch('bar.json')
     ALL_DATA = data.filter(d => d.file === 'cocktails');
     buildFilters();
     render();
-    // Auto-open card from URL param e.g. ?open=167
-    const params = new URLSearchParams(window.location.search);
-    const openParam = params.get('open');
-    if (openParam) {
-      openId = openParam;
-      render();
-      setTimeout(() => {
-        const el = document.getElementById('card-' + openParam);
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }, 100);
-    }
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      const params = new URLSearchParams(window.location.search);
+      const openParam = params.get('open');
+      if (openParam) {
+        openId = openParam;
+        render();
+        requestAnimationFrame(() => {
+          applyScrollMargins();
+          setTimeout(() => {
+            const el = document.getElementById('card-' + openParam);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 100);
+        });
+      }
+    });
+  })
   })
   .catch(err => {
     console.error('Could not load bar.json:', err);

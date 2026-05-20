@@ -254,11 +254,22 @@ function buildFilters() {
   `<button class="icon-btn${allocatedOnly ? ' active' : ''}" onclick="toggleAllocated()">⭐ Allocated</button>`;
 }
 
+function applyScrollMargins() {
+  const h = document.querySelector('.controls')?.offsetHeight;
+  if (h) {
+    const px = (h + 24) + 'px';
+    document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
+      el.style.scrollMarginTop = px;
+    });
+  }
+}
+
 function setCat(cat) {
   activeCat = cat;
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function toggleIcon(emoji) {
@@ -267,6 +278,7 @@ function toggleIcon(emoji) {
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function toggleAllocated() {
@@ -274,6 +286,7 @@ function toggleAllocated() {
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function setPreset(btn) {
@@ -284,6 +297,7 @@ function setPreset(btn) {
   openId = null;
   render();
   updateActiveSummary();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function clearAll() {
@@ -298,6 +312,7 @@ function clearAll() {
   document.querySelector('.preset-btn[data-min="0"][data-max="9999"]').classList.add('active');
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function updateActiveSummary() {
@@ -422,12 +437,15 @@ function render() {
 function toggleCard(id) {
   openId = openId === id ? null : id;
   render();
-  if (openId) {
-    setTimeout(() => {
-      const el = document.getElementById('card-' + id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }, 50);
-  }
+  requestAnimationFrame(() => {
+    applyScrollMargins();
+    if (openId) {
+      setTimeout(() => {
+        const el = document.getElementById('card-' + id);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    }
+  });
 }
 
 function toggleSec(e, secId) {
@@ -449,10 +467,13 @@ function scrollToHash() {
     const spiritId = id.replace('card-', '');
     openId = spiritId;
     render();
-    setTimeout(() => {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 300);
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 150);
+    });
   } else {
     const el = document.getElementById(id);
     if (!el) return;
@@ -467,7 +488,10 @@ fetch('bar.json')
     SPIRITS = data.filter(s => s.file === 'spirits');
     buildFilters();
     render();
-    scrollToHash();
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      scrollToHash();
+    });
   })
   .catch(err => {
     console.error('Could not load bar.json:', err);

@@ -230,11 +230,22 @@ function buildFilters() {
     ).join('');
 }
 
+function applyScrollMargins() {
+  const h = document.querySelector('.controls')?.offsetHeight;
+  if (h) {
+    const px = (h + 24) + 'px';
+    document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
+      el.style.scrollMarginTop = px;
+    });
+  }
+}
+
 function setCat(cat) {
   activeCat = cat;
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function toggleIcon(emoji) {
@@ -243,6 +254,7 @@ function toggleIcon(emoji) {
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function clearAll() {
@@ -252,6 +264,7 @@ function clearAll() {
   document.getElementById('search').value = '';
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function updateActiveSummary() {
@@ -366,12 +379,15 @@ function render() {
 function toggleCard(id) {
   openId = openId === id ? null : id;
   render();
-  if (openId) {
-    setTimeout(() => {
-      const el = document.getElementById('card-' + id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    }, 50);
-  }
+  requestAnimationFrame(() => {
+    applyScrollMargins();
+    if (openId) {
+      setTimeout(() => {
+        const el = document.getElementById('card-' + id);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 50);
+    }
+  });
 }
 
 function toggleSec(e, secId) {
@@ -392,10 +408,13 @@ function scrollToHash() {
     const afterId = id.replace('card-', '');
     openId = afterId;
     render();
-    setTimeout(() => {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }, 300);
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 150);
+    });
   } else {
     const el = document.getElementById(id);
     if (!el) return;
@@ -409,7 +428,10 @@ fetch('bar.json')
     AFTERS = data.filter(a => a.cat === 'Afters');
     buildFilters();
     render();
-    scrollToHash();
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      scrollToHash();
+    });
   })
   .catch(err => {
     console.error('Could not load bar.json:', err);

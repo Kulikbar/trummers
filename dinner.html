@@ -333,6 +333,7 @@ function setCat(cat) {
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function cycleAllergen(btn, key) {
@@ -341,6 +342,7 @@ function cycleAllergen(btn, key) {
   openId = null;
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function clearAll() {
@@ -350,6 +352,7 @@ function clearAll() {
   document.getElementById('search').value = '';
   buildFilters();
   render();
+  requestAnimationFrame(applyScrollMargins);
 }
 
 function updateActiveSummary() {
@@ -562,12 +565,15 @@ function buildExpand(d) {
 function toggleCard(id) {
   openId = openId === id ? null : id;
   render();
-  if (openId) {
-    setTimeout(() => {
-      const el = document.getElementById('card-'+id);
-      if (el) el.scrollIntoView({ behavior:'smooth', block:'nearest' });
-    }, 50);
-  }
+  requestAnimationFrame(() => {
+    applyScrollMargins();
+    if (openId) {
+      setTimeout(() => {
+        const el = document.getElementById('card-'+id);
+        if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
+      }, 50);
+    }
+  });
 }
 
 function toggleSec(e, secId) {
@@ -588,6 +594,16 @@ function toggleLegend() {
   arr.textContent = isOpen ? '▸' : '▾';
 }
 
+function applyScrollMargins() {
+  const h = document.querySelector('.controls')?.offsetHeight;
+  if (h) {
+    const px = (h + 24) + 'px';
+    document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
+      el.style.scrollMarginTop = px;
+    });
+  }
+}
+
 fetch('food.json')
   .then(r => r.json())
   .then(data => {
@@ -595,25 +611,21 @@ fetch('food.json')
     buildBanner();
     buildFilters();
     render();
-    // Measure actual controls height and update scroll-margin-top to match
     requestAnimationFrame(() => {
-      const h = document.querySelector('.controls')?.offsetHeight;
-      if (h) {
-        const px = (h + 16) + 'px';
-        document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
-          el.style.scrollMarginTop = px;
-        });
-      }
+      applyScrollMargins();
       // Auto-open card from URL param e.g. ?open=d21
       const params = new URLSearchParams(window.location.search);
       const openParam = params.get('open');
       if (openParam) {
         openId = openParam;
         render();
-        setTimeout(() => {
-          const el = document.getElementById('card-' + openParam);
-          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 100);
+        requestAnimationFrame(() => {
+          applyScrollMargins();
+          setTimeout(() => {
+            const el = document.getElementById('card-' + openParam);
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 100);
+        });
       }
     });
   })
