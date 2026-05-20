@@ -158,10 +158,12 @@
   .chef-note { padding: 10px 12px; background: rgba(201,169,110,0.05); border-radius: 8px; border: 1px solid var(--border2); font-size: 12px; color: var(--muted); line-height: 1.6; }
   .chef-note-label { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 4px; }
   .afters-pairing-row { display: flex; flex-wrap: wrap; gap: 5px; }
-  .pairing-item { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
-  .pairing-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-  .pairing-item-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold2); margin-bottom: 3px; }
-  .pairing-item-note { font-size: 12px; color: var(--muted); line-height: 1.6; }
+  .pairing-cards { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+  .pairing-item { display: flex; align-items: flex-start; justify-content: space-between; padding: 10px 12px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); text-decoration: none; color: inherit; transition: border-color 0.15s; }
+  .pairing-item:hover { border-color: var(--border2); }
+  .pairing-item-name { font-family: 'Cormorant Garamond', serif; font-size: 14px; color: var(--cream); margin-bottom: 3px; }
+  .pairing-item-note { font-size: 11px; color: var(--muted); line-height: 1.5; }
+  .pairing-item-price { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold); flex-shrink: 0; margin-left: 12px; }
   .afters-tag { font-size: 11px; padding: 3px 10px; border-radius: 6px; background: rgba(201,169,110,0.06); border: 1px solid var(--border2); color: var(--gold); }
 
   /* ── LOADING ── */
@@ -543,22 +545,40 @@ function buildExpand(d) {
       <div id="sec-${d.id}-wine">
         ${btgPairings.length ? `
           <div class="detail-label" style="margin-bottom:6px;">By the Glass</div>
-          ${btgPairings.map(p => `<div class="pairing-item">
-            <div class="pairing-item-name">${p.name}</div>
-            <div class="pairing-item-note">${p.note}</div>
-          </div>`).join('')}` : ''}
+          <div class="pairing-cards">${btgPairings.map(p => `
+            <div class="pairing-item" onclick="event.stopPropagation()">
+              <div style="flex:1;min-width:0;">
+                <div class="pairing-item-name">${p.name}</div>
+                <div class="pairing-item-note">${p.note}</div>
+              </div>
+              ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+            </div>`).join('')}</div>` : ''}
         ${bottlePairings.length ? `
-          <div class="detail-label" style="margin-top:12px;margin-bottom:6px;">Bottle</div>
-          ${bottlePairings.map(p => `<div class="pairing-item">
-            <div class="pairing-item-name">${p.name}</div>
-            <div class="pairing-item-note">${p.note}</div>
-          </div>`).join('')}` : ''}
+          <div class="detail-label" style="margin-top:10px;margin-bottom:6px;">Bottle</div>
+          <div class="pairing-cards">${bottlePairings.map(p => `
+            <div class="pairing-item" onclick="event.stopPropagation()">
+              <div style="flex:1;min-width:0;">
+                <div class="pairing-item-name">${p.name}</div>
+                <div class="pairing-item-note">${p.note}</div>
+              </div>
+              ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+            </div>`).join('')}</div>` : ''}
         ${whiskyPairings.length ? `
-          <div class="detail-label" style="margin-top:12px;margin-bottom:6px;">Whisky</div>
-          ${whiskyPairings.map(p => `<div class="pairing-item">
-            <div class="pairing-item-name">${p.name}</div>
-            <div class="pairing-item-note">${p.note}</div>
-          </div>`).join('')}` : ''}
+          <div class="detail-label" style="margin-top:10px;margin-bottom:6px;">Whisky</div>
+          <div class="pairing-cards">${whiskyPairings.map(p => {
+            const tag = p.whisky_id ? 'a' : 'div';
+            const href = p.whisky_id ? `href="whisky.html#card-${p.whisky_id}"` : '';
+            return `<${tag} class="pairing-item" ${href} onclick="event.stopPropagation()" style="${p.whisky_id ? 'text-decoration:none;cursor:pointer;' : ''}">
+              <div style="flex:1;min-width:0;">
+                <div class="pairing-item-name">${p.name}</div>
+                <div class="pairing-item-note">${p.note}</div>
+              </div>
+              <div style="flex-shrink:0;margin-left:12px;text-align:right;">
+                ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+                ${p.whisky_id ? `<div style="font-size:10px;color:var(--gold-dim);margin-top:2px;">Whisky →</div>` : ''}
+              </div>
+            </${tag}>`;
+          }).join('')}</div>` : ''}
       </div>
     </div>` : '';
 
