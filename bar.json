@@ -34,7 +34,8 @@
       "Lincoln Henderson was the master distiller behind Woodford Reserve and Gentleman Jack before founding Angel's Envy in retirement.",
       "The distillery on Main Street in Louisville is open for tours and is one of the most visited on the Urban Bourbon Trail."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "2",
@@ -70,7 +71,8 @@
       "The high-rye mash bill used in Basil Hayden's is the same recipe used in Old Grand-Dad, another Beam product.",
       "At 40% ABV, Basil Hayden's is one of the lowest proof bourbons on the list — a deliberate choice to maximize approachability."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "63% corn, 27% rye, 10% malted barley"
   },
   {
     "id": "3",
@@ -107,7 +109,8 @@
       "Despite the extra aging, Basil Hayden's 10 Year maintains the same 40% ABV as the standard expression — a deliberate choice to preserve the brand's lighter character.",
       "Limited annual releases make this one of the harder Basil Hayden's expressions to find outside of allocated accounts."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "63% corn, 27% rye, 10% malted barley"
   },
   {
     "id": "4",
@@ -145,7 +148,8 @@
       "Sherry cask finishing adds esters and tannins from the fortified wine residue left in the wood, contributing dried fruit and nutty complexity.",
       "Belle Meade is named after a historic antebellum plantation near Nashville that was famous for its thoroughbred horse breeding."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "64% corn, 30% rye, 6% malted barley"
   },
   {
     "id": "5",
@@ -183,7 +187,8 @@
       "Blood Oath releases a new Pact number each year, with a different finishing cask each time — making collecting the series a popular pursuit.",
       "Lux Row Distillers, which produces Blood Oath, is located in Bardstown, Kentucky — often called the 'Bourbon Capital of the World.'"
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed blend — sourced from multiple distilleries"
   },
   {
     "id": "6",
@@ -221,7 +226,8 @@
       "Wine cask finishes are trickier than port or sherry finishes because wine barrels are thinner and impart flavor more quickly, requiring careful monitoring.",
       "Each Blood Oath Pact is blended from bourbons of different ages and mash bills before finishing, giving the master blender more complexity to work with."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed blend — sourced from multiple distilleries"
   },
   {
     "id": "7",
@@ -259,7 +265,8 @@
       "The agave plant used to make tequila takes 7–10 years to mature before harvest, making it one of the slowest raw materials in the spirits world.",
       "Blood Oath Pact 11 is the first in the series to use a tequila cask, opening a new direction for future releases."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed blend — sourced from multiple distilleries"
   },
   {
     "id": "8",
@@ -296,7 +303,8 @@
       "The distillery operated under many names — Ancient Age, George T. Stagg, and Schenley — before taking the Buffalo Trace name in 1999.",
       "By law, bourbon must be made from at least 51% corn, aged in new charred oak containers, and entered into the barrel at no more than 125 proof."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "9",
@@ -332,7 +340,8 @@
       "Augustus Bulleit reportedly disappeared while transporting a shipment of whiskey from Louisville to New Orleans in the 1860s — his fate was never determined.",
       "Bulleit is produced at the Shelby County Distillery in Shelbyville, Kentucky, a Diageo facility that also produces other major brands."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "68% corn, 28% rye, 4% malted barley"
   },
   {
     "id": "10",
@@ -369,7 +378,8 @@
       "The 'single barrel' designation on some Eagle Rare bottles means every bottle in that batch came from one specific aging barrel, meaning no two batches taste exactly alike.",
       "Eagle Rare consistently wins awards at international spirits competitions, often beating expressions that cost three to five times as much."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "11",
@@ -406,7 +416,8 @@
       "E.H. Taylor Jr. also built the Old Taylor Distillery, now known as Castle & Key, which was restored and reopened in 2018.",
       "At 100 proof (50% ABV), Bottled-in-Bond bourbons often show more intensity and complexity than lower-proof expressions of similar age."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "12",
@@ -444,7 +455,8 @@
       "Heaven Hill owns more aging bourbon than almost any other producer, with warehouses holding millions of barrels across Bardstown.",
       "The Shapira family has operated Heaven Hill for over 85 years without ever selling to a corporate parent — a rarity in the consolidated spirits industry."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "78% corn, 10% rye, 12% malted barley"
   },
   {
     "id": "13",
@@ -481,7 +493,8 @@
       "Vermouth barrels retain botanicals and wine residue that impart herbal, floral notes distinctly different from wine or spirit cask finishes.",
       "High West was acquired by Constellation Brands in 2016 but continues to operate with the same blending philosophy established by founder David Perkins."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend of MGP bourbons: 75% corn, 21% rye, 4% malted barley"
   },
   {
     "id": "14",
@@ -518,7 +531,8 @@
       "Heaven Hill's house style — rich caramel, approachable sweetness, good oak — runs consistently across its many labels from Elijah Craig to Evan Williams to Johnnie Drum.",
       "At $17, Johnnie Drum Private Stock represents one of the best value propositions among allocated bourbons anywhere in Virginia."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "15",
@@ -556,7 +570,8 @@
       "Armagnac is a French brandy from Gascony, older than Cognac and known for its deeper, earthier character due to continuous-still distillation.",
       "Triple cask finishing — using three different barrel types simultaneously or sequentially — is rare in bourbon production and requires careful blending to avoid any one flavor dominating."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed MGP sourced blend"
   },
   {
     "id": "16",
@@ -594,7 +609,8 @@
       "Blended bourbon — combining bourbons of different ages, mashbills, or distilleries — is a legitimate and skilled craft, though it carries less prestige than single barrel expressions in current market culture.",
       "Joseph Magnus sources its base whiskey from MGP in Indiana, one of the most respected contract distilleries in the US, before applying its finishing program."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed MGP sourced blend"
   },
   {
     "id": "17",
@@ -631,7 +647,8 @@
       "Fred Noe, who oversees Knob Creek, is the great-grandson of James B. Beam, making him the seventh generation of the Beam family in the whiskey business.",
       "At 100 proof and 9 years old, Knob Creek represents a sweet spot in bourbon production where age and proof work together to maximize complexity without harshness."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "18",
@@ -668,7 +685,8 @@
       "The allocated status of Knob Creek 12 Year is partly a function of math: aging three more years reduces yield as barrels shrink from evaporation, the 'angel's share.'",
       "Knob Creek 12 Year is bottled at the same 100 proof as the 9 Year, allowing direct comparison of how time alone changes the spirit."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "19",
@@ -704,7 +722,8 @@
       "The red wax dipping that seals every Maker's Mark bottle is still done by hand at the distillery, making each bottle slightly unique.",
       "Maker's Mark was the first bourbon distillery to be designated a National Historic Landmark by the US Department of the Interior, in 1980."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "70% corn, 16% winter wheat, 14% malted barley"
   },
   {
     "id": "20",
@@ -742,7 +761,8 @@
       "Batch Proof releases are bottled without chill filtration or dilution, preserving every compound that developed during aging.",
       "The BEP experiment is part of Maker's Mark's broader Wood Finishing Series program, which explores how different barrel treatments change their wheated bourbon base."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "70% corn, 16% winter wheat, 14% malted barley"
   },
   {
     "id": "21",
@@ -780,7 +800,8 @@
       "At nearly 60% ABV, Cellar Aged 2024 is among the highest proof expressions in the Maker's Mark portfolio, a significant departure from the brand's historically approachable positioning.",
       "The 'cellar aged' designation refers to barrels stored in specific warehouse locations that age more slowly, allowing the distillery to build older stock without over-oaking."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "70% corn, 16% winter wheat, 14% malted barley"
   },
   {
     "id": "22",
@@ -817,7 +838,8 @@
       "The Fort Nelson Distillery in Louisville, which Michter's restored and opened in 2019, is housed in a building listed on the National Register of Historic Places.",
       "Michter's ages its barrels in climate-controlled warehouses, a deliberate choice to slow maturation and develop more consistent flavor across batches."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Kentucky rye bourbon, approximately 79% corn, 11% rye, 10% malted barley"
   },
   {
     "id": "23",
@@ -855,7 +877,8 @@
       "Double-barreled finishing was pioneered by producers looking to add complexity without waiting additional years in standard barrels — a time-efficient way to develop new flavor profiles.",
       "Michter's uses custom-specified barrels from independent cooperages, allowing them to control toast and char levels more precisely than most producers."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Kentucky rye bourbon, approximately 79% corn, 11% rye, 10% malted barley"
   },
   {
     "id": "24",
@@ -892,7 +915,8 @@
       "Chinkapin oak, used in some Old Charter Oak releases, produces higher levels of certain wood sugars than white oak, contributing noticeable sweetness.",
       "Buffalo Trace's experimental releases — including Old Charter Oak — are part of their Experimental Collection program, one of the most ambitious research projects in American whiskey."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "25",
@@ -930,7 +954,8 @@
       "Heaven Hill releases Old Fitzgerald twice a year in Spring and Fall, with each release featuring a different age statement and decanter design.",
       "The wheated mashbill used in Old Fitzgerald produces a softer, more approachable spirit than rye-forward bourbons, making it popular with guests who find most bourbon too aggressive."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "68% corn, 20% wheat, 12% malted barley (Heaven Hill wheated)"
   },
   {
     "id": "26",
@@ -968,7 +993,8 @@
       "The ornate decanter bottles used for Old Fitzgerald are designed to reference the brand's mid-century packaging, when decorative decanters were a premium bourbon presentation standard.",
       "Heaven Hill's aging warehouses in Bardstown, Kentucky hold some of the oldest and most valuable bourbon stocks in the industry — Old Fitzgerald draws from that deep inventory."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "68% corn, 20% wheat, 12% malted barley (Heaven Hill wheated)"
   },
   {
     "id": "27",
@@ -1005,7 +1031,8 @@
       "Brown-Forman, which produces Old Forester, is one of the few remaining family-controlled companies in the Fortune 500 — the Brown family has maintained control since the company's founding.",
       "The Bottled-in-Bond Act of 1897, which the 1897 expression commemorates, was the first federal consumer protection law for food and drink in US history."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "28",
@@ -1043,7 +1070,8 @@
       "Old Forester's Whiskey Row series is named for the block of Main Street in Louisville where many historic bourbon producers had their offices in the late 1800s.",
       "At 10 years old and 100 proof, the 1924 sits in a sweet spot for Kentucky bourbon aging — old enough for real complexity, young enough to avoid over-oaking."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "29",
@@ -1081,7 +1109,8 @@
       "The September 2nd release date honors George Garvin Brown, who founded Brown-Forman and began producing Old Forester in 1870.",
       "Each Birthday Bourbon vintage is selected from a single day's production, meaning every bottle shares the same distillation date — an unusual level of specificity in bourbon provenance."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "30",
@@ -1119,7 +1148,8 @@
       "Penelope Bourbon was founded in 2019 and grew rapidly on the strength of its innovative finishing program, which includes several unusual wood and barrel combinations.",
       "The combination of honey barrel and Amburana finishing is designed to layer sweetness — the honey barrel adds sugar compounds, while Amburana adds spice and exotic wood character."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed sourced blend — MGP high rye recipe"
   },
   {
     "id": "31",
@@ -1157,7 +1187,8 @@
       "The Van Winkle wheated mashbill — using wheat instead of rye as the secondary grain — is the same recipe used for W.L. Weller and Old Fitzgerald, all descendants of the Stitzel-Weller tradition.",
       "Julian Van Winkle III is said to have told his distillery workers that he wanted to make bourbon 'the old fashioned, time-honored way' — a philosophy that prioritizes aging over volume."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)"
   },
   {
     "id": "32",
@@ -1195,7 +1226,8 @@
       "Maple syrup barrel finishing is rare in bourbon production — most finished bourbons use wine, spirit, or beer barrels rather than food-grade commodity barrels.",
       "The Widow Jane name references the Widow Jane Mine in Rosendale, New York, from which the distillery sources its water."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — sourced from multiple distilleries"
   },
   {
     "id": "33",
@@ -1231,7 +1263,8 @@
       "William Larue Weller is believed to have been among the first distillers to use wheat instead of rye as the secondary grain in bourbon, establishing the wheated style in the 1840s.",
       "Despite being allocated, Weller Special Reserve is one of the lower-priced allocated bourbons in the state — a function of Buffalo Trace's commitment to keeping entry-level expressions accessible."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)"
   },
   {
     "id": "34",
@@ -1268,7 +1301,8 @@
       "Buffalo Trace collected input from tens of thousands of Weller enthusiasts during the C.Y.B.P. development process, making it one of the most democratically produced bourbons in history.",
       "The 47.5% ABV proof point was selected through the crowdsourcing process — slightly above the standard Weller Special Reserve but below barrel proof, reflecting a preference for balance."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)"
   },
   {
     "id": "35",
@@ -1306,7 +1340,8 @@
       "Weller Antique 107 was one of the first Weller expressions to gain significant collector attention, predating the current wheated bourbon craze by nearly a decade.",
       "At 10 years old, Weller Antique 107 has spent more time in the barrel than many of its allocated counterparts at higher price points."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)"
   },
   {
     "id": "36",
@@ -1344,7 +1379,8 @@
       "Appleton Estate is Jamaica's oldest sugar estate and distillery, producing rum since 1749 — the casks carry centuries of Caribbean spirit tradition into Kentucky bourbon.",
       "Wild Turkey uses a higher char level on their barrels than most Kentucky distilleries, which contributes to the brand's distinctively bold, tannic character that stands up to exotic cask finishes."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "37",
@@ -1381,7 +1417,8 @@
       "The Woodford Reserve Distillery uses copper pot stills for triple distillation, a method more common in Scotch whisky production than Kentucky bourbon.",
       "The distillery site in Versailles has been producing whiskey since 1812, making it one of the oldest continuously operated distillery sites in the United States."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "38",
@@ -1419,7 +1456,8 @@
       "At over 62% ABV, Woodford Batch Proof qualifies as 'cask strength' — a designation that means nothing has been added or removed since the barrel was emptied.",
       "Adding a few drops of water to high-proof bourbon is a legitimate tasting technique that releases aromatic compounds and softens the alcohol burn, often revealing more flavor complexity."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "39",
@@ -1457,7 +1495,8 @@
       "Woodford Reserve has released a Master's Collection expression every year since 2005, each one exploring a different aspect of bourbon production or finishing.",
       "Pinot Noir cask finishing is unusual in bourbon because the grape produces relatively delicate wine — the cask influence is subtler than Cabernet or Merlot, adding nuance rather than boldness."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "40",
@@ -1495,7 +1534,8 @@
       "Madeira's unique flavor comes partly from intentional oxidation and heat exposure during production, called 'estufagem,' which caramelizes sugars and creates complex dried fruit notes.",
       "The 20th Master's Collection marks two decades of the Woodford Reserve annual limited release program — one of the longest-running whiskey innovation series in American bourbon."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "41",
@@ -1533,7 +1573,8 @@
       "Different oak species contain varying levels of vanillin, lactones, and tannins — the specific compounds that give whiskey its wood-derived flavors of vanilla, coconut, and astringency.",
       "Buffalo Trace also experiments with Chinkapin oak in their Old Charter Oak series, making it possible to compare how different distilleries interpret the same unusual wood species."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "42",
@@ -1570,7 +1611,8 @@
       "The Virginia ABC select barrel program sends buyers to distilleries to hand-select individual barrels, which are then bottled and distributed exclusively through Virginia ABC stores.",
       "Barton 1792 Distillery is one of the few remaining distilleries in Bardstown to operate its own on-site cooperage, allowing precise control over barrel specifications."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 15% rye, 10% malted barley"
   },
   {
     "id": "43",
@@ -1608,7 +1650,8 @@
       "Port cask finishing adds anthocyanins from the wine residue, which contributes to the darker color and dried fruit character distinguishing single barrel Angel's Envy from the standard release.",
       "Virginia's ABC select barrel program is one of the most active in the country, with buyers visiting dozens of distilleries annually to hand-select exclusive single barrels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "44",
@@ -1646,7 +1689,8 @@
       "The oxidative aging that defines tawny port produces rancio character — a complex, nutty, aged quality found in long-aged wines and spirits that is highly prized by connoisseurs.",
       "At $38, the Tawny Cask sits $8 above the Port Cask VA Select — a premium that reflects both the more complex cask and the rarity of tawny port barrels available for finishing."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley"
   },
   {
     "id": "45",
@@ -1684,7 +1728,8 @@
       "The 'sour' in sour mash refers to the pH-lowering effect of the spent mash, which inhibits bacterial growth during fermentation and promotes consistent yeast activity.",
       "Belle Meade's limited release program has grown significantly in recent years as Nelson's Green Brier Distillery builds its own aged inventory to complement sourced whiskey."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "64% corn, 30% rye, 6% malted barley"
   },
   {
     "id": "46",
@@ -1721,7 +1766,8 @@
       "The eight collectible stopper designs — each a horse and jockey in a different racing pose — spell out B-L-A-N-T-O-N-S when arranged in sequence.",
       "Blanton's was originally marketed almost exclusively in Japan, where single malt Scotch had created strong demand for premium, provenance-driven spirits before American consumers caught on."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~87% corn, ~9% rye, ~4% malted barley (BT Mash Bill #2, undisclosed)"
   },
   {
     "id": "47",
@@ -1759,7 +1805,8 @@
       "The difference between Blanton's Original and Gold is primarily proof — the same single barrel selection process and Warehouse H sourcing applies to both expressions.",
       "Blanton's Gold is sometimes easier to find than the Original despite its higher price, as it attracts slightly less frenzied collector attention."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~87% corn, ~9% rye, ~4% malted barley (BT Mash Bill #2, undisclosed)"
   },
   {
     "id": "48",
@@ -1797,7 +1844,8 @@
       "At cask strength, bourbon retains aromatic compounds — esters, lactones, and higher alcohols — that are partially lost when water is added for dilution, making high-proof expressions more aromatic.",
       "Each bottle of Blanton's Straight from the Barrel displays the exact ABV of that specific barrel, which can vary by several percentage points from barrel to barrel."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~87% corn, ~9% rye, ~4% malted barley (BT Mash Bill #2, undisclosed)"
   },
   {
     "id": "49",
@@ -1835,7 +1883,8 @@
       "Each Booker's batch name is chosen personally by Fred Noe, Booker's son and current master distiller, to honor people and moments significant to the Beam family.",
       "Booker's recommends adding a small amount of water to their bourbon — an unusual suggestion from a distillery, but one that genuinely improves the tasting experience at these proof levels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "50",
@@ -1873,7 +1922,8 @@
       "Little Book chapters are released annually and often sell out within days, driven by Freddie Noe's growing reputation as an innovative blender in his own right.",
       "Chapter 9's name 'None For Granted' reflects a philosophy Freddie has spoken about publicly — that in a family with such deep whiskey heritage, the pressure to honor that legacy requires constant humility."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "51",
@@ -1911,7 +1961,8 @@
       "Barrel proof bourbon has become significantly more popular in recent years as consumers have grown more comfortable with high-proof spirits and more interested in unfiltered, uncompromised whiskey.",
       "At 60.9% ABV, Bulleit Barrel Proof is among the highest-proof offerings from any major bourbon brand — a significant departure from the 45% of the standard expression."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "68% corn, 28% rye, 4% malted barley"
   },
   {
     "id": "52",
@@ -1948,7 +1999,8 @@
       "The historical Clyde May was known for adding dried apples to his moonshine barrels, a practice that gave the whiskey a distinctive fruity character that the modern brand references in its standard expression.",
       "Clyde May's is now produced in Kentucky while maintaining its Alabama identity and story — a common arrangement for craft spirits brands with regional heritage but national production needs."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — sourced and aged by Clyde May's"
   },
   {
     "id": "53",
@@ -1986,7 +2038,8 @@
       "Virginia ABC select barrel programs often choose multiple expressions from the same distillery to allow direct comparison, as with these two Clyde May's single barrels.",
       "The 0.9% ABV difference between the 5 Year and 6 Year reflects natural barrel variation — each barrel reaches its own proof level through the aging process without human intervention."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — sourced and aged by Clyde May's"
   },
   {
     "id": "54",
@@ -2023,7 +2076,8 @@
       "The combination of BIB and single barrel is relatively rare — most BIB bourbons are batched from multiple barrels to ensure the consistent flavor profile required by the designation.",
       "Buffalo Trace selects E.H. Taylor Single Barrel releases from its oldest and most well-positioned warehouses, where temperature variation and aging conditions are most favorable."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "55",
@@ -2061,7 +2115,8 @@
       "Chill filtration, which removes oils and compounds that can cause cloudiness at low temperatures, is deliberately omitted from barrel proof releases — preserving full flavor at the cost of cosmetic clarity.",
       "At 65.5%, E.H. Taylor Barrel Proof is among the highest-proof expressions in the Buffalo Trace lineup, second only to the George T. Stagg in some years."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "56",
@@ -2099,7 +2154,8 @@
       "Heaven Hill's Elijah Craig line has won more awards at international spirits competitions than almost any other American whiskey at its price point.",
       "The VA Select designation means Virginia ABC buyers tasted through available barrels and chose this one specifically for Virginia distribution — a genuine curation process."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "78% corn, 10% rye, 12% malted barley"
   },
   {
     "id": "57",
@@ -2137,7 +2193,8 @@
       "Heaven Hill's ability to release 18-year bourbon at a relatively accessible price reflects the distillery's enormous aging inventory, which includes barrels laid down across multiple decades.",
       "Elijah Craig 18 Year was originally released as part of the standard lineup before transitioning to a limited single barrel release — a shift that reflects both rising demand and the challenges of maintaining an 18-year supply."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "78% corn, 10% rye, 12% malted barley"
   },
   {
     "id": "58",
@@ -2174,7 +2231,8 @@
       "Lee worked at Buffalo Trace for over four decades, overseeing production through multiple ownership changes and the broader decline of American whiskey in the 1970s and 80s.",
       "The Elmer T. Lee expression is released in very limited quantities and has become increasingly allocated since his passing, driven by collector demand and genuine appreciation for his legacy."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~87% corn, ~9% rye, ~4% malted barley (BT Mash Bill #2, undisclosed)"
   },
   {
     "id": "59",
@@ -2212,7 +2270,8 @@
       "The two Four Roses mashbills are OBSO (low rye, 60% corn) and OBSK (high rye, 75% corn) — combined with five yeasts, these produce the ten recipes that define the distillery's output.",
       "Four Roses was sold to Seagram's in the 1940s and its bourbon was redirected entirely to export markets for decades — American consumers couldn't buy Four Roses bourbon domestically until 2004."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "60% corn, 35% rye, 5% malted barley (Four Roses B mash bill)"
   },
   {
     "id": "60",
@@ -2250,7 +2309,8 @@
       "Master distiller Brent Elliott tastes hundreds of individual barrel samples before selecting the specific recipe-barrel combinations that make the final Limited Edition blend.",
       "The annual Limited Edition is considered one of the benchmark releases in American whiskey, consistently earning high scores from critics and strong secondary market interest from collectors."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend of Four Roses B and E mash bills"
   },
   {
     "id": "61",
@@ -2288,7 +2348,8 @@
       "Four Roses deliberately varies the recipe composition of each Limited Edition, meaning the 2025 may use entirely different yeast-mashbill combinations than the 2024.",
       "Comparing consecutive vintages of the same expression is a practice more common in wine culture than spirits — Four Roses' consistent annual Limited Edition makes it one of the few American whiskies where vintage comparison is genuinely meaningful."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend of Four Roses B and E mash bills"
   },
   {
     "id": "62",
@@ -2325,7 +2386,8 @@
       "Henry McKenna was an Irish immigrant who established a distillery in Fairfield, Kentucky in 1855 — his brand was acquired by Heaven Hill in 1941.",
       "At $30 for a BIB single barrel with a 10-year age statement, Henry McKenna remains one of the objectively best value propositions in allocated American whiskey."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "78% corn, 10% rye, 12% malted barley"
   },
   {
     "id": "63",
@@ -2362,7 +2424,8 @@
       "The double distillation process used for John J. Bowman — once at Buffalo Trace, once at A. Smith Bowman — is unusual in American whiskey production and produces a notably cleaner, lighter distillate.",
       "Virginia's distilling history predates Kentucky's — George Washington operated one of the largest whiskey distilleries in the young nation at Mount Vernon in the 1790s."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend of BT Mash Bill #1 and #2, triple distilled at A. Smith Bowman"
   },
   {
     "id": "64",
@@ -2400,7 +2463,8 @@
       "Maker's Mark describes the Keeper's Release as the bottles set aside by distillery staff for their own enjoyment before the main allocation goes to market — a nod to the tradition of cellar masters keeping the best barrels.",
       "The stave insert technique was developed by Maker's Mark master distiller Greg Davis as a way to add wood complexity without the risk of over-oaking that comes with a full secondary barrel finish."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "70% corn, 16% winter wheat, 14% malted barley"
   },
   {
     "id": "65",
@@ -2438,7 +2502,8 @@
       "Michter's 10 Year Single Barrel has won the title of 'World Whisky of the Year' from multiple major publications, placing it in the company of elite Scotch expressions.",
       "Each bottle of Michter's 10 Year displays the barrel number it came from — a transparency that allows enthusiasts to identify and compare their experiences across different barrels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Kentucky rye bourbon, approximately 79% corn, 11% rye, 10% malted barley"
   },
   {
     "id": "66",
@@ -2476,7 +2541,8 @@
       "The four grains in the 4 Grain expression — wheat, corn, rye, and malted barley — are the same four grains used in traditional American bourbon production, but in unusual proportions that distinguish it from standard mashbills.",
       "In-bottle aging is a legitimate continuation of the same extraction chemistry that occurs in barrels — wood compounds including vanillin, lactones, and tannins migrate into the spirit through direct contact."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Four grain: corn, rye, wheat, malted barley (undisclosed percentages)"
   },
   {
     "id": "67",
@@ -2514,7 +2580,8 @@
       "Wild Turkey uses a higher char level on their barrels than most Kentucky distilleries and ages at a lower barrel entry proof, which contributes to the brand's distinctively bold, robust character.",
       "Russell's Reserve was originally created as a 10-year expression specifically for Eddie Russell, who wanted a bourbon that reflected his own palate — richer and more structured than the standard Wild Turkey lineup."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "68",
@@ -2552,7 +2619,8 @@
       "Russell's Reserve Barrel Proof releases are designated by season — Spring and Fall — reflecting the distillery's practice of releasing limited expressions on a seasonal schedule.",
       "At 61.8% ABV, Russell's Reserve 13 Year Barrel Proof requires careful sipping or a few drops of water to fully appreciate — the concentration of compounds at this proof level rewards patience."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "69",
@@ -2590,7 +2658,8 @@
       "Stagg batch numbers follow a system where the first two digits indicate the year and the letter indicates the sequential batch within that year — 25D means the fourth batch released in 2025.",
       "At over 63% ABV, Stagg is one of the highest-proof bourbons commercially available in the United States — only a handful of annual releases from Buffalo Trace reach higher proof levels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~75% corn, ~13% rye, ~12% malted barley (BT Mash Bill #1, undisclosed)"
   },
   {
     "id": "70",
@@ -2628,7 +2697,8 @@
       "Full proof bottling — matching the bottling proof to the barrel entry proof — is a conceptually interesting approach that links the bottle's character directly to the distillation decisions made years earlier.",
       "Weller Full Proof is often cited as the best entry point into high-proof wheated bourbon for guests already familiar with the standard Weller expressions."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)"
   },
   {
     "id": "71",
@@ -2665,7 +2735,8 @@
       "Jimmy Russell is known for personally tasting through potential Kentucky Spirit barrels, applying the same palate he has developed across seven decades of whiskey production.",
       "Wild Turkey's rick houses age barrels on multiple floors, with upper floors experiencing more heat and producing bolder, more intense whiskey — lower floors age more slowly and gently."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "75% corn, 13% rye, 12% malted barley"
   },
   {
     "id": "72",
@@ -2703,7 +2774,8 @@
       "Caribbean rum casks carry residue from molasses-based rum production, contributing the distinctive tropical fruit and sugar cane sweetness that differentiates this rye from any other on the list.",
       "Rye whiskey must contain at least 51% rye grain in the mashbill — the high rye content creates the spicy, dry backbone that makes cask finishing particularly dramatic by contrast."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "95% rye, 5% malted barley"
   },
   {
     "id": "73",
@@ -2739,7 +2811,8 @@
       "A 95% rye mashbill is near the practical maximum for rye whiskey production — higher rye content makes fermentation increasingly difficult due to the grain's sticky beta-glucan compounds.",
       "Rye whiskey was America's original dominant whiskey style before Prohibition — bourbon's rise to dominance came afterward, when many rye distilleries in the Northeast and Mid-Atlantic never reopened."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "95% rye, 5% malted barley"
   },
   {
     "id": "74",
@@ -2776,7 +2849,8 @@
       "Buffalo Trace produces relatively small quantities of rye compared to their bourbon output, making E.H. Taylor Rye significantly harder to find than its bourbon counterpart.",
       "The pre-Prohibition American whiskey landscape was dominated by rye from Maryland and Pennsylvania distilleries — bourbon's rise to prominence came after many of those operations never reopened."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% rye, 0% corn (rye and malted barley only, BT recipe)"
   },
   {
     "id": "75",
@@ -2814,7 +2888,8 @@
       "Toasted barrel finishing adds different wood compounds than charred barrel aging — toast caramelizes wood sugars without creating the carbon filter layer that char produces, resulting in sweeter, less smoky wood influence.",
       "The rye whiskey category has grown faster than any other American whiskey segment over the past decade, driven partly by the craft cocktail renaissance that put rye back in Manhattan and Old Fashioned recipes."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "51% rye, 35% corn, 14% malted barley"
   },
   {
     "id": "76",
@@ -2852,7 +2927,8 @@
       "The Rendezvous Rye base used for Midwinter's Night Dram blends ryes of different ages and mashbills — typically a 16-year Barton rye and a younger MGP rye — before the finishing program begins.",
       "High West releases Midwinter's Night Dram in October, timed for the beginning of the holiday season, and it typically sells out within days of release."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend: 95% rye/5% barley (MGP) + 80% rye/20% malted rye (High West)"
   },
   {
     "id": "77",
@@ -2890,7 +2966,8 @@
       "Kentucky Owl was originally founded in 1935 by C.M. Dedman after Prohibition ended — the brand was revived by his great-grandson Dixon Dedman in 2015 after the family rediscovered the historical records.",
       "Louisiana has a small but growing rum production industry tied to its sugarcane agriculture — the XO rum casks used for this expression represent genuine regional American craft rather than imported Caribbean barrels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed blend — sourced from multiple distilleries, 11 year"
   },
   {
     "id": "78",
@@ -2928,7 +3005,8 @@
       "The lower rye percentage in Knob Creek's mashbill allows more corn sweetness to balance the rye spice, creating a more approachable profile than pure high-rye expressions despite the high proof.",
       "Virginia ABC select barrel programs for rye are less common than for bourbon, making VA Select rye expressions like this one particularly noteworthy for Virginia whiskey enthusiasts."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "51% rye, 37% corn, 12% malted barley"
   },
   {
     "id": "79",
@@ -2965,7 +3043,8 @@
       "At 42.4% ABV, Michter's US*1 Rye is one of the lower-proof ryes on the list — a deliberate choice to emphasize grain character over alcohol intensity.",
       "Michter's has been named 'American Whiskey Producer of the Year' multiple times by Whisky Advocate magazine, with the consistent quality of expressions like US*1 Rye cited as a primary factor."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Kentucky rye, approximately 51% rye minimum"
   },
   {
     "id": "80",
@@ -3003,7 +3082,8 @@
       "The 12.85% ABV difference between Michter's US*1 Rye and the Barrel Proof version represents a significant concentration of flavor compounds — roughly speaking, there is proportionally more of everything in the higher-proof expression.",
       "Michter's does not chill filter their barrel proof expressions, preserving oils and compounds that contribute to texture and mouthfeel at the cost of potential cloudiness at low temperatures."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Kentucky rye, approximately 51% rye minimum"
   },
   {
     "id": "81",
@@ -3041,7 +3121,8 @@
       "Michter's 10 Year Rye is released without a fixed schedule — the distillery waits until barrels have developed to their standard rather than pulling at a predetermined date.",
       "The 10-year age statement on Michter's Rye represents a minimum — individual barrels within the release may have aged longer if they were deemed not yet ready at the 10-year mark."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — approximately 53% rye, 33% corn, 14% malted barley (rumored Brown-Forman recipe)"
   },
   {
     "id": "82",
@@ -3079,7 +3160,8 @@
       "At 64.15% ABV, Old Forester Rye Barrel Proof is among the highest-proof commercial rye expressions available in the US market — only a handful of limited releases exceed this level.",
       "Brown-Forman's decision to release a barrel proof rye reflects the company's recognition that rye drinkers skew toward high-proof, uncompromising expressions more than the average bourbon consumer."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "72% corn, 18% rye, 10% malted barley (Old Forester rye uses same distillery recipe)"
   },
   {
     "id": "83",
@@ -3117,7 +3199,8 @@
       "Parker Beam represented the seventh generation of the Beam family in whiskey, a lineage that has shaped American bourbon more profoundly than any other family in the industry's history.",
       "Heaven Hill's ability to release a 10-year barrel proof rye reflects their extraordinary aging inventory — one of the deepest and most varied in American whiskey production."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Heaven Hill wheated recipe variant"
   },
   {
     "id": "84",
@@ -3153,7 +3236,8 @@
       "Pennsylvania rye whiskey was America's most prestigious whiskey style before Prohibition — the Monongahela rye tradition produced dry, spicy expressions that defined the category for generations.",
       "Rittenhouse Square in Philadelphia, for which the whiskey is named, was laid out by William Penn in 1682 as one of five original squares in the city's founding plan."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "51% rye, 37% corn, 12% malted barley"
   },
   {
     "id": "85",
@@ -3191,7 +3275,8 @@
       "Thomas H. Handy acquired the Sazerac Coffee House in New Orleans in 1869, where he served and popularized the cocktail that now bears his name — Buffalo Trace honors this legacy with their most prized rye.",
       "The Buffalo Trace Antique Collection is released in the fall of each year and allocated through a lottery system in most states — finding Thomas Handy at retail requires significant luck or relationships."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "~55% rye, ~41% corn, ~4% malted barley (BT rye mash bill, undisclosed)"
   },
   {
     "id": "86",
@@ -3229,7 +3314,8 @@
       "Wild Turkey's rye mashbill uses a higher percentage of rye than their bourbon — the exact recipe is proprietary, but the resulting spice character is noticeably more intense than the bourbon's rye contribution.",
       "Eddie Russell, who oversees Wild Turkey's production alongside his father Jimmy, has been particularly involved in developing the distillery's rye program as the category has grown."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "51% rye, 37% corn, 12% malted barley"
   },
   {
     "id": "87",
@@ -3267,7 +3353,8 @@
       "The rye whiskey category's resurgence since 2010 has been partly driven by Whistlepig's success in positioning aged rye as a premium, terroir-driven spirit comparable to fine Scotch.",
       "Vermont's cooler climate means aging proceeds more slowly than in Kentucky — 15 years in Vermont may produce similar wood extraction to 10–12 years in a Kentucky rick house."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% rye (sourced from Alberta Distillers, Canada)"
   },
   {
     "id": "88",
@@ -3305,7 +3392,8 @@
       "Whistlepig sources its aged rye from Alberta, Canada, where the Alberta Distillers Ltd. has maintained stocks of very old rye that are among the rarest aged grain spirits in North America.",
       "The price premium between Whistlepig 15 Year and 18 Year reflects both the rarity of 18-year rye inventory and the additional three years of warehouse carrying costs, evaporation losses, and capital tied up in aging barrels."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "79% rye, 15% malted rye, 6% malted barley (Alberta Distillers, Canada)"
   },
   {
     "id": "89",
@@ -3342,7 +3430,8 @@
       "For decades, Willet operated primarily as a non-distillery producer, sourcing and bottling other distilleries' whiskey under the Willet name — a practice that built their reputation before their own distillate came of age.",
       "The Family Estate designation on Willet bottles guarantees that the whiskey was produced entirely at the Bardstown distillery from grain through bottling — a significant commitment in a state where sourcing is common."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — distilled at Willet, pot still single barrel rye"
   },
   {
     "id": "90",
@@ -3379,7 +3468,8 @@
       "Woodford's triple distillation approach applied to rye grain creates a noticeably different flavor profile than column-still ryes, with more delicate grain character and less aggressive spice.",
       "Virginia ABC select barrel programs have expanded significantly in recent years, with state buyers now visiting dozens of distilleries annually to curate exclusive single barrels across bourbon, rye, and other categories."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "53% rye, 33% corn, 14% malted barley"
   },
   {
     "id": "91",
@@ -3416,7 +3506,8 @@
       "Irish whiskey law requires triple distillation in copper pot stills for single malt expressions, producing a lighter, more delicate spirit than the typically double-distilled Scotch single malt.",
       "The Old Bushmills Distillery sits on the banks of the Saint Columb's Rill, a tributary of the River Bush — the local water source that has defined the whiskey's character for centuries."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (single malt, triple distilled at Bushmills)"
   },
   {
     "id": "92",
@@ -3454,7 +3545,8 @@
       "The combination of ex-bourbon and ex-sherry maturation is common in Irish whiskey production, reflecting both the availability of these cask types and their complementary flavor contributions.",
       "Bushmills 12 Year is produced in relatively larger quantities than the older expressions in the lineup, making it the most accessible age-stated Bushmills expression for most markets."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (single malt, triple distilled at Bushmills)"
   },
   {
     "id": "93",
@@ -3492,7 +3584,8 @@
       "At 16 years, Bushmills has aged longer than most Irish whiskeys on the market — the category has historically favored younger expressions compared to Scotch, making this an outlier in age terms.",
       "The three-cask maturation process — bourbon, sherry, port — used for Bushmills 16 Year is one of the more complex aging programs in Irish whiskey production."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (single malt, triple distilled at Bushmills)"
   },
   {
     "id": "94",
@@ -3530,7 +3623,8 @@
       "Bushmills 21 Year is bottled at 46% rather than the 40% of younger expressions — a proof point chosen to preserve the full complexity developed over two decades of aging.",
       "The combination of triple distillation and Madeira finishing creates a whiskey that occupies a unique stylistic space — lighter than Scotch but more complex than younger Irish expressions, with European wine characteristics that make it accessible to non-whiskey drinkers."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (single malt, triple distilled at Bushmills)"
   },
   {
     "id": "95",
@@ -3567,7 +3661,8 @@
       "Green Spot was historically matured exclusively in sherry and bourbon barrels supplied by Mitchell & Son, a Dublin wine and spirits merchant who has been selling the whiskey since the 1800s.",
       "The 'Spot' whiskies — Green, Yellow, Red, and Blue — are named after the spots of colored paint that Mitchell & Son used to mark barrels of different ages in their bonded warehouse."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Single pot still: minimum 30% malted barley, 30% unmalted barley, remainder mixed grain (Midleton)"
   },
   {
     "id": "96",
@@ -3605,7 +3700,8 @@
       "The 51.4% ABV of Gold Spot is a natural cask strength — the whiskey is bottled without dilution at the proof the barrels produced after nine years of aging.",
       "Mitchell & Son, the Dublin merchant behind the Spot Whiskey range, has been in business since 1805 — making it one of the oldest wine and spirits merchants in Ireland."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Single pot still: minimum 30% malted barley, 30% unmalted barley, remainder mixed grain (Midleton)"
   },
   {
     "id": "97",
@@ -3641,7 +3737,8 @@
       "John Jameson, a Scottish lawyer, founded his Dublin distillery in 1780 — his family's whiskey became so successful that the distillery eventually merged with others to form Irish Distillers, which Pernod Ricard acquired in 1988.",
       "Jameson's triple distillation process removes congeners that contribute to harsh flavors in other whiskey styles — the result is a spirit smooth enough to drink neat, on the rocks, or in cocktails without the grain character dominating."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended: single pot still and grain whiskey (Midleton Distillery, Cork)"
   },
   {
     "id": "98",
@@ -3678,7 +3775,8 @@
       "Islay's peat bogs contain decomposed plant matter including seaweed and moss, which contributes the distinctive maritime, medicinal quality to Islay peated whisky that is absent from mainland peated expressions.",
       "Ardbeg 10 Year is bottled at 46% and without chill filtration — preserving the oily mouthfeel and full aromatic complexity that chill filtration would partially remove."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (heavily peated, ~55 PPM, distilled at Ardbeg, Islay)"
   },
   {
     "id": "99",
@@ -3716,7 +3814,8 @@
       "Oloroso sherry is a dry, oxidatively aged sherry that has been exposed to air throughout maturation — the resulting complex dried fruit, nut, and dark spice character makes it the most commonly used sherry cask type in Scotch whisky production.",
       "Loch Uigeadail sits in remote moorland above the distillery — the water that flows from it through peat bogs picks up the same compounds that define Islay's whisky character before it reaches the distillery."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (heavily peated, ~55 PPM, distilled at Ardbeg, Islay)"
   },
   {
     "id": "100",
@@ -3754,7 +3853,8 @@
       "The Ardbeg Spectacular name is a departure from the distillery's usual naming conventions — most Ardbeg expressions are named after geographical features of Islay or Gaelic terms related to the distillery.",
       "Ardbeg releases several annual limited editions alongside the core range, and Spectacular represents a newer addition to the permanent lineup after beginning as a limited release."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (heavily peated, ~55 PPM, distilled at Ardbeg, Islay)"
   },
   {
     "id": "101",
@@ -3791,7 +3891,8 @@
       "William Grant built Glenfiddich Distillery largely by hand with his sons, reportedly hauling stones from a nearby field — the family has maintained ownership for over 135 years.",
       "Glenfiddich means 'Valley of the Deer' in Scottish Gaelic — the stag that appears on the label is a direct reference to the distillery's name and the wildlife of Speyside."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (unpeated, distilled at Glenfiddich, Speyside)"
   },
   {
     "id": "102",
@@ -3828,7 +3929,8 @@
       "The legal battle over the name 'Glenlivet' resulted in a court ruling that only George Smith's distillery could use 'The Glenlivet' — other Speyside producers who had been using the name had to add a hyphenated prefix.",
       "King George IV visited Scotland in 1822 and specifically requested to drink Highland whisky — reportedly Glenlivet — helping legitimize the category after decades of government suppression."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (unpeated, distilled at Glenlivet, Speyside)"
   },
   {
     "id": "103",
@@ -3865,7 +3967,8 @@
       "The distillery maintains traditional floor maltings where barley is spread and turned by hand — a labor-intensive process largely abandoned by most distilleries in favor of industrial maltsters.",
       "Laphroaig's 'Friends of Laphroaig' program allows whisky enthusiasts to 'own' a square foot of Islay land near the distillery — over 700,000 people have joined, receiving a rent of one dram per year on visits."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (heavily peated, ~40-45 PPM, distilled at Laphroaig, Islay)"
   },
   {
     "id": "104",
@@ -3903,7 +4006,8 @@
       "A bottle of The Macallan 60 Year sold at auction in 2019 for £1.5 million — the highest price ever paid for a single bottle of whisky at the time.",
       "The Easter Elchies estate where Macallan is produced has been associated with distilling since 1824, when the first legal license was granted — the manor house that appears on the label dates to 1700."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (unpeated, distilled at Macallan, Speyside)"
   },
   {
     "id": "105",
@@ -3941,7 +4045,8 @@
       "The Orphan Barrel project has rescued aged whiskey and whisky from multiple countries, including the US, Canada, and Scotland — aging inventory that was either forgotten or produced by distilleries that have since closed.",
       "At 25 years old, Muckety Muck is the oldest expression on the Scotch list — and one of the oldest spirits poured by the glass anywhere in the region at its price point."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% malted barley (distilled at Strathmill, Speyside — 25 year orphan barrel release)"
   },
   {
     "id": "106",
@@ -3977,7 +4082,8 @@
       "Virginia has a long history of corn whiskey production dating to the colonial era, when corn was the most abundant grain available to distillers in the mid-Atlantic region.",
       "The absence of barrel aging in Bo and Ivy means the color, aroma, and flavor come entirely from the grain and the distillation process — a transparency that reveals the distiller's craft without wood to mask imperfections."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed American whiskey blend"
   },
   {
     "id": "107",
@@ -4014,7 +4120,8 @@
       "The Lincoln County Process — filtering through charcoal before aging — is what legally distinguishes Tennessee whiskey from bourbon, though the two styles are otherwise produced similarly.",
       "George Dickel's cold charcoal mellowing process runs the new spirit through charcoal at temperatures near freezing, which the distillery claims produces a distinctly smoother result than Jack Daniel's warmer process."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "84% corn, 8% rye, 8% malted barley"
   },
   {
     "id": "108",
@@ -4051,7 +4158,8 @@
       "Fifteen years in Tennessee's climate produces significant evaporation — the angel's share — which concentrates the remaining whiskey and increases proof naturally before bottling.",
       "George Dickel's distillery in Cascade Hollow, Tennessee was closed between 1999 and 2003, meaning there is a gap in their aging inventory that makes expressions like the 15 Year particularly valuable."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "84% corn, 8% rye, 8% malted barley"
   },
   {
     "id": "109",
@@ -4089,7 +4197,8 @@
       "At 47% ABV, the 17 Year is lower proof than many barrel proof expressions — a reflection of Tennessee's climate and the natural evaporation that occurs over seventeen years, concentrating some compounds while reducing overall volume.",
       "George Dickel has received significantly less collector attention than Kentucky bourbon producers despite producing whiskey of comparable quality — creating one of the better value opportunities in aged American whiskey."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "84% corn, 8% rye, 8% malted barley"
   },
   {
     "id": "110",
@@ -4125,7 +4234,8 @@
       "Jack Daniel's is technically not bourbon under Tennessee law, despite meeting all federal bourbon requirements, because the Lincoln County Process is considered an additional step that differentiates it from Kentucky-style production.",
       "The Jack Daniel's distillery in Lynchburg, Tennessee is in a dry county — Moore County prohibits alcohol sales — making it one of the more ironic tourism destinations in American whiskey country."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "80% corn, 8% rye, 12% malted barley (Jack Daniel's charcoal mellowed)"
   },
   {
     "id": "111",
@@ -4163,7 +4273,8 @@
       "Heaven Hill's ability to release a prestige wheat whiskey reflects their extraordinary aging inventory, which includes barrels of rare grain combinations laid down across decades of production.",
       "The Heritage Collection was established to honor Parker Beam's legacy and raises funds for ALS research — making the 2025 wheat whiskey both a rare spirit purchase and a contribution to a meaningful cause."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "78% corn, 10% rye, 12% malted barley (Heaven Hill)"
   },
   {
     "id": "112",
@@ -4200,7 +4311,8 @@
       "High West's blending philosophy is inspired by the Scottish tradition of blending different whisky styles to achieve complexity beyond what any single component can produce.",
       "Bourye is made from several different aged bourbons and ryes sourced from multiple distilleries — the exact blend composition changes slightly based on barrel availability each year."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend: 75% corn/21% rye/4% barley (MGP bourbon) + 95% rye/5% barley (MGP rye)"
   },
   {
     "id": "113",
@@ -4238,7 +4350,8 @@
       "High West imports the peated Scotch component of Campfire from Scotland specifically for this blend — the distillery evaluates multiple Scotch expressions before selecting the one with the right smoke level to complement without dominating.",
       "The concept of blending Scotch with American whiskey was nearly unheard of before High West introduced Campfire — it has since inspired other producers to explore cross-national blending."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blend: bourbon, rye, and Scotch malt whisky from multiple sources"
   },
   {
     "id": "114",
@@ -4274,7 +4387,8 @@
       "The 'Old No. 7' designation's origin is disputed — various theories include a reference to a federal distillery registration number, a lucky number, or a girlfriend — the distillery maintains it doesn't know for certain.",
       "Jack Daniel's is produced in Moore County, Tennessee — a dry county that prohibits alcohol sales — meaning the world's most famous whiskey is made in a place where you can't legally buy a drink."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "80% corn, 8% rye, 12% malted barley (charcoal mellowed, Jack Daniel's)"
   },
   {
     "id": "115",
@@ -4312,7 +4426,8 @@
       "The significant proof difference between standard Jack Daniel's (40%) and the Barrel Proof (64.05%) reflects how much water is added during normal production — the barrel proof version shows the undiluted Tennessee distillate.",
       "Jack Daniel's Single Barrel program allows private barrel selection for individuals and accounts — the distillery's 'barrel selector' program has produced thousands of unique single barrel releases for restaurants, retailers, and private buyers."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "80% corn, 8% rye, 12% malted barley (charcoal mellowed, Jack Daniel's)"
   },
   {
     "id": "116",
@@ -4349,7 +4464,8 @@
       "The category has remained extremely obscure — very few producers have made significant quantities of American Light Whiskey, and aged examples like Jacob's Pardon 18 Year are extraordinarily rare.",
       "At 71.35% ABV, Jacob's Pardon Batch #3 is the highest-proof spirit on the list — a proof level that requires careful handling and small pours, with water almost obligatory for safe enjoyment."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — 18 year sourced blend, multiple distilleries"
   },
   {
     "id": "117",
@@ -4386,7 +4502,8 @@
       "Michter's US*1 Unblended American is bottled from individual barrels rather than batches — each release reflects one specific barrel's development, creating natural variation between releases.",
       "The American Whiskey category is one of the broadest in federal spirits law — it simply requires that the spirit be distilled from a grain mash in the United States and aged in oak, without the specific constraints that define bourbon or rye."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed American whiskey — not classified as bourbon or rye"
   },
   {
     "id": "118",
@@ -4423,7 +4540,8 @@
       "The pork belly smoke infusion technique used for Smokehouse is proprietary to Murlarkey — no other commercial distillery has used animal fat-smoked wood as a finishing element in American whiskey.",
       "Virginia is one of the fastest-growing craft distilling states in the country, with over 100 licensed distilleries operating as of 2024 — a dramatic increase from fewer than ten a decade ago."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — American whiskey with smoked elements"
   },
   {
     "id": "119",
@@ -4461,7 +4579,8 @@
       "Old Elk's master distiller, Greg Metze, spent 38 years at MGP Distillery in Indiana before moving to Colorado — bringing significant expertise in grain whiskey production to the craft distilling space.",
       "Wheated bourbon aged at barrel proof is relatively uncommon — most wheated expressions are released at lower proof to emphasize the style's natural softness, making 'The Beast' an unusual combination of style and intensity."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed wheated bourbon — Old Elk, Colorado"
   },
   {
     "id": "120",
@@ -4499,7 +4618,8 @@
       "The flavor difference between wheated bourbon and straight wheat whiskey is primarily about grain dominance — in wheated bourbon, corn provides the base sweetness while wheat softens; in straight wheat, wheat is the primary character driver.",
       "Old Elk's decision to produce both wheated bourbon and straight wheat whiskey at comparable specifications allows for one of the clearest grain comparison opportunities available in American craft whiskey."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "100% wheat whiskey"
   },
   {
     "id": "121",
@@ -4537,7 +4657,8 @@
       "Cognac barrels come from France's Charente region, where they held grape brandy for years before being emptied and repurposed for whiskey finishing — the wine and brandy residue contributes dried fruit and grape spirit character.",
       "The 18th Edition of Parker's Heritage represents 18 consecutive years of annual limited releases honoring Parker Beam — each edition explores a different aspect of American whiskey production."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Heaven Hill limited Heritage release"
   },
   {
     "id": "122",
@@ -4575,7 +4696,8 @@
       "At 61.25% ABV, the 19th Edition is among the highest-proof expressions in the Parker's Heritage series — a deliberate choice to showcase the full intensity of Heaven Hill's distillate without dilution.",
       "Parker Beam was known throughout the industry for his preference for high-proof, uncompromising whiskey — releasing barrel proof expressions in his honor reflects both his personal taste and his distilling philosophy."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Heaven Hill limited Heritage release"
   },
   {
     "id": "123",
@@ -4613,7 +4735,8 @@
       "Uncle Nearest is the fastest-growing American whiskey brand in history, reaching sales milestones in years that took other brands decades — driven by both the story and the quality of the whiskey.",
       "The Uncle Nearest Premium Whiskey Foundation provides scholarships to descendants of Nearest Green — connecting the brand's commercial success directly to the education of the man's family."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Undisclosed — Tennessee whiskey, Lincoln County process"
   },
   {
     "id": "124",
@@ -4649,7 +4772,8 @@
       "Canadian whisky law allows up to 9.09% of the blend to consist of other spirits — including bourbon, sherry, or wine — which gives Canadian blenders significant flexibility that American distillers don't have.",
       "The purple velvet bag that wraps each Crown Royal bottle was originally part of the royal presentation and has become one of the most recognizable packaging elements in spirits — many consumers keep and repurpose the bags."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended Canadian whisky — proprietary blend of corn and rye whiskies (Crown Royal)"
   },
   {
     "id": "125",
@@ -4686,7 +4810,8 @@
       "The Chivas Brothers company began as a grocery and provisions store in Aberdeen in the 1800s before transitioning to whisky production and blending.",
       "Chivas Regal became closely associated with American luxury consumption in the 1950s and 60s — it was the Scotch of choice in advertising and popular culture as a symbol of arrived sophistication."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended Scotch whisky — grain and malt whiskies (Chivas Regal)"
   },
   {
     "id": "126",
@@ -4723,7 +4848,8 @@
       "John Dewar founded his whisky business in Perth, Scotland in 1846 — his sons Tommy and John Jr. expanded the brand internationally, with Tommy Dewar becoming one of the most celebrated whisky ambassadors of his era.",
       "Dewar's is now owned by Bacardi, which has invested significantly in the double maturation program and the brand's premium positioning since acquiring it in 1998."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended Scotch whisky — grain and malt whiskies (Dewar's)"
   },
   {
     "id": "127",
@@ -4760,7 +4886,8 @@
       "The iconic diagonal label on Johnnie Walker bottles was a practical innovation — tilting the label 24 degrees allows more text to be read while the bottle is at a natural viewing angle.",
       "John Walker, a grocer in Kilmarnock, Scotland, began blending whiskies in the 1820s to create consistency for his customers — his family continued refining the blends for generations after his death."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended Scotch whisky — grain and malt whiskies (Johnnie Walker)"
   },
   {
     "id": "128",
@@ -4798,7 +4925,8 @@
       "The four malts in Johnnie Walker Green — Talisker, Linkwood, Cragganmore, and Caol Ila — represent Highland, Speyside, and Islay regional characters, creating genuine breadth in a single glass.",
       "Green Label was discontinued in 2012 due to declining sales before being relaunched in 2016 following strong demand from whisky enthusiasts who recognized its quality — one of the more successful product revivals in Scotch history."
     ],
-    "file": "spirits"
+    "file": "spirits",
+    "mash_bill": "Blended malt Scotch whisky — 100% malt whiskies, no grain (Johnnie Walker Green)"
   },
   {
     "id": "129",
