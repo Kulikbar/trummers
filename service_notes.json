@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-21",
+  "updated": "4:45pm",
+  "rotisserie_note": "10 oz only tonight — 16 oz sold out",
+  "notes": [
+    {
+      "type": "86",
+      "title": "Whole Roasted Branzino",
+      "detail": "Not available tonight. Suggest Seared Scallops or Atlantic Salmon as alternatives.",
+      "active": true
+    },
+    {
+      "type": "86",
+      "title": "Ibérico Rack of Pork",
+      "detail": "Two portions remaining | First come first served | Flag the kitchen before you ring it in",
+      "active": true
+    },
+    {
+      "type": "86",
+      "title": "Ardbeg Uigeadail",
+      "detail": "Last bottle sold. Suggest Ardbeg 10 Year or Laphroaig 10 Year for a similar smoky profile.",
+      "active": true
+    },
+    {
+      "type": "special",
+      "title": "Mushroom Velouté",
+      "detail": "Chef's addition tonight. Wild mushroom velouté with truffle oil and chive. $16. Available as a starter, limited quantity.",
+      "active": true
+    },
+    {
+      "type": "vip",
+      "title": "Table 12 · 7:30pm · Party of 4",
+      "detail": "Anniversary dinner. Bottle of Billecart-Salmon Brut on arrival, pre-authorized. Do not mention the occasion unless they bring it up first.",
+      "active": true
+    },
+    {
+      "type": "vip",
+      "title": "Table 6 · 8:00pm · Party of 2",
+      "detail": "Regular guests. Severe shellfish allergy on one guest — flag for kitchen on every order. They typically order the Rack of Lamb and a Grüner Veltliner.",
+      "active": true
+    },
+    {
+      "type": "note",
+      "title": "From the Manager",
+      "detail": "Full house tonight. First turn at 5:30, second at 8:00. Push the Rack of Lamb and the Cheese Board with Sauternes pairing. Graham's 20 Year Tawny has been moving well this week — keep mentioning it at the dessert course.",
+      "active": true
+    }
+  ]
+}

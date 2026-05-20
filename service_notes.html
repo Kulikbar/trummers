@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Notes — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e;
+    --border: rgba(201,169,110,0.15); --border2: rgba(201,169,110,0.3);
+    --green: #5a9a6a; --green-dim: rgba(90,154,106,0.12);
+    --red: #c94a4a; --red-dim: rgba(201,74,74,0.12);
+    --yellow: #c9a020; --yellow-dim: rgba(201,160,32,0.12);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+  /* HEADER */
+  .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.08) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
+  .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  /* DATE BAR */
+  .date-bar { display: flex; align-items: center; justify-content: space-between; padding: 10px 1.25rem; background: var(--bg2); border-bottom: 1px solid var(--border); }
+  .date-left { display: flex; flex-direction: column; gap: 1px; }
+  .date-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); }
+  .date-value { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold); }
+  .updated-label { font-size: 10px; color: var(--muted); font-style: italic; }
+  .service-pill { font-size: 10px; padding: 3px 10px; border-radius: 20px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); letter-spacing: 0.05em; }
+
+  /* ROTISSERIE */
+  .rotisserie-strip { display: flex; align-items: flex-start; gap: 10px; margin: 0.75rem 1rem 0; padding: 12px 16px; background: rgba(201,169,110,0.06); border: 1px solid var(--border2); border-radius: 10px; }
+  .rot-pulse { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; margin-top: 5px; animation: pulse 2s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
+  .rot-text { flex: 1; }
+  .rot-eyebrow { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 2px; }
+  .rot-name { font-family: 'Cormorant Garamond', serif; font-size: 17px; color: var(--gold2); line-height: 1.3; }
+  .rot-detail { font-size: 12px; color: var(--muted); margin-top: 2px; font-style: italic; }
+  .rot-variance { font-size: 12px; color: var(--yellow); margin-top: 5px; padding-top: 5px; border-top: 1px solid rgba(201,169,110,0.15); }
+
+  /* MAIN */
+  .main { padding: 0 1rem 5rem; }
+
+  /* SECTION */
+  .section-head { padding: 1.5rem 0.25rem 0.5rem; }
+  .section-name { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 400; color: var(--gold); display: block; }
+
+  /* NOTE CARDS */
+  .note-card { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--card); padding: 14px 16px; }
+  .note-card.type-86 { border-color: rgba(201,74,74,0.4); background: linear-gradient(135deg, var(--card), rgba(201,74,74,0.03)); }
+  .note-card.type-vip { border-color: rgba(201,169,110,0.4); background: linear-gradient(135deg, var(--card), rgba(201,169,110,0.03)); }
+  .note-card.type-special { border-color: rgba(90,154,106,0.35); background: linear-gradient(135deg, var(--card), rgba(90,154,106,0.03)); }
+  .note-card.type-note { border-color: rgba(201,160,32,0.3); background: linear-gradient(135deg, var(--card), rgba(201,160,32,0.03)); }
+
+  .note-top { display: flex; align-items: flex-start; gap: 10px; }
+  .note-tag { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; padding: 3px 8px; border-radius: 10px; flex-shrink: 0; margin-top: 2px; font-weight: 500; }
+  .tag-86 { background: var(--red-dim); color: var(--red); border: 1px solid rgba(201,74,74,0.3); }
+  .tag-vip { background: rgba(201,169,110,0.12); color: var(--gold2); border: 1px solid rgba(201,169,110,0.3); }
+  .tag-special { background: var(--green-dim); color: var(--green); border: 1px solid rgba(90,154,106,0.3); }
+  .tag-note { background: var(--yellow-dim); color: var(--yellow); border: 1px solid rgba(201,160,32,0.3); }
+
+  .note-body { flex: 1; }
+  .note-title { font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 500; color: var(--cream); line-height: 1.3; margin-bottom: 4px; }
+  .note-detail { font-size: 12px; color: var(--muted); line-height: 1.6; }
+
+  /* EMPTY */
+  .empty { text-align: center; padding: 3rem 2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; font-style: italic; color: var(--gold-dim); }
+
+  /* LOADING */
+  .loading { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 4rem 2rem; }
+  .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); }
+
+  /* DIVIDER */
+  .section-divider { height: 1px; background: var(--border); margin: 0.25rem 0; }
+
+  /* NO FEATURE */
+  .no-feature { margin: 0.75rem 1rem 0; padding: 10px 16px; background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; font-size: 12px; color: var(--muted); font-style: italic; }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-title">Service Notes</div>
+  <div class="header-subtitle">Updated before each service</div>
+  <div class="header-nav">
+    <a href="index.html">← Home</a>
+  </div>
+</div>
+
+<div class="date-bar" id="date-bar">
+  <div class="date-left">
+    <div class="date-label">Tonight</div>
+    <div class="date-value" id="date-value">Loading...</div>
+    <div class="updated-label" id="updated-label"></div>
+  </div>
+  <div class="service-pill" id="day-pill">Dinner Service</div>
+</div>
+
+<div id="rotisserie-wrap"></div>
+
+<div class="main" id="main">
+  <div class="loading">
+    <div class="loading-spinner"></div>
+    <div class="loading-text">Loading service notes...</div>
+  </div>
+</div>
+
+<script>
+const DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+
+const DAILY_FEATURES = {
+  2: { name: 'Ibérico Rack of Pork', detail: 'aleppo chili crisp · duck fat potatoes · limited availability' },
+  3: { name: 'Rack of Lamb', detail: 'basil and pine nut-arugula pesto · duck fat potatoes · limited availability' },
+  4: { name: 'Tomahawk Ribeye', detail: 'salsa verde · duck fat potatoes · limited availability' },
+  5: { name: 'Prime Rib', detail: 'horseradish cream · duck fat potatoes · limited availability' },
+  6: { name: 'Prime Rib', detail: 'horseradish cream · duck fat potatoes · limited availability' }
+};
+
+const TAG_LABELS = {
+  '86': '86',
+  'special': 'Special',
+  'vip': 'VIP',
+  'note': 'Note'
+};
+
+const SECTION_ORDER = ['86', 'special', 'vip', 'note'];
+const SECTION_NAMES = {
+  '86': "86'd Tonight",
+  'special': 'Tonight\'s Additions',
+  'vip': 'VIP & Reservations',
+  'note': 'From the Manager'
+};
+
+function formatDate(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const date = new Date(y, m - 1, d);
+  return `${DAYS[date.getDay()]}, ${MONTHS[date.getMonth()]} ${d}`;
+}
+
+function buildRotisserie(variance) {
+  const day = new Date().getDay();
+  const feature = DAILY_FEATURES[day];
+  const wrap = document.getElementById('rotisserie-wrap');
+
+  if (!feature) {
+    wrap.innerHTML = `<div class="no-feature">No rotisserie feature tonight. Sunday and Monday — regular menu only.</div>`;
+    return;
+  }
+
+  wrap.innerHTML = `
+    <div class="rotisserie-strip">
+      <div class="rot-pulse"></div>
+      <div class="rot-text">
+        <div class="rot-eyebrow">Tonight from the Rotisserie</div>
+        <div class="rot-name">${feature.name}</div>
+        <div class="rot-detail">${feature.detail}</div>
+        ${variance ? `<div class="rot-variance">⚠ ${variance}</div>` : ''}
+      </div>
+    </div>`;
+}
+
+function buildNotes(notes) {
+  const active = notes.filter(n => n.active);
+  const grouped = {};
+  SECTION_ORDER.forEach(t => { grouped[t] = []; });
+  active.forEach(n => { if (grouped[n.type]) grouped[n.type].push(n); });
+
+  let html = '';
+  for (const type of SECTION_ORDER) {
+    const items = grouped[type];
+    if (!items.length) continue;
+    html += `<div class="section-head"><span class="section-name">${SECTION_NAMES[type]}</span></div>`;
+    items.forEach(n => {
+      html += `
+        <div class="note-card type-${n.type}">
+          <div class="note-top">
+            <div class="note-tag tag-${n.type}">${TAG_LABELS[n.type]}</div>
+            <div class="note-body">
+              <div class="note-title">${n.title}</div>
+              ${n.detail ? `<div class="note-detail">${n.detail.includes('|') ? '<ul style="padding-left:14px;margin-top:4px;">' + n.detail.split('|').map(s => `<li style="margin-bottom:3px;">${s.trim()}</li>`).join('') + '</ul>' : n.detail}</div>` : ''}
+            </div>
+          </div>
+        </div>`;
+    });
+  }
+
+  if (!html) html = `<div class="empty">No service notes for tonight.</div>`;
+  return html;
+}
+
+fetch('service_notes.json')
+  .then(r => r.json())
+  .then(data => {
+    // Date bar
+    document.getElementById('date-value').textContent = formatDate(data.date);
+    if (data.updated) {
+      document.getElementById('updated-label').textContent = `Updated ${data.updated}`;
+    }
+
+    // Day pill
+    const day = new Date().getDay();
+    const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    document.getElementById('day-pill').textContent = `${dayNames[day]} Service`;
+
+    // Rotisserie
+    buildRotisserie(data.rotisserie_note || '');
+
+    // Notes
+    document.getElementById('main').innerHTML = buildNotes(data.notes || []);
+  })
+  .catch(err => {
+    console.error('Could not load service_notes.json:', err);
+    document.getElementById('main').innerHTML =
+      '<p style="color:#8a7e6e;padding:2rem;text-align:center;font-style:italic;font-family:\'Cormorant Garamond\',serif;">Could not load service notes. Make sure service_notes.json is in the same folder as this file.</p>';
+  });
+</script>
+</body>
+</html>
