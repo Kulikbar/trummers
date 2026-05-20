@@ -158,6 +158,10 @@
   .chef-note { padding: 10px 12px; background: rgba(201,169,110,0.05); border-radius: 8px; border: 1px solid var(--border2); font-size: 12px; color: var(--muted); line-height: 1.6; }
   .chef-note-label { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 4px; }
   .afters-pairing-row { display: flex; flex-wrap: wrap; gap: 5px; }
+  .pairing-item { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+  .pairing-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .pairing-item-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold2); margin-bottom: 3px; }
+  .pairing-item-note { font-size: 12px; color: var(--muted); line-height: 1.6; }
   .afters-tag { font-size: 11px; padding: 3px 10px; border-radius: 6px; background: rgba(201,169,110,0.06); border: 1px solid var(--border2); color: var(--gold); }
 
   /* ── LOADING ── */
@@ -529,6 +533,35 @@ function buildExpand(d) {
         </div>
       </div>` : '';
 
+  const btgPairings = d.wine_pairings_btg || [];
+  const bottlePairings = d.wine_pairings_bottle || [];
+  const whiskyPairings = d.wine_pairings_whisky || [];
+
+  const winePairingsHtml = (btgPairings.length || bottlePairings.length || whiskyPairings.length) ? `
+    <div class="expand-section">
+      <div class="expand-section-title" onclick="toggleSec(event,'${d.id}-wine')">Wine &amp; Drink Pairings <span id="arr-${d.id}-wine">▾</span></div>
+      <div id="sec-${d.id}-wine">
+        ${btgPairings.length ? `
+          <div class="detail-label" style="margin-bottom:6px;">By the Glass</div>
+          ${btgPairings.map(p => `<div class="pairing-item">
+            <div class="pairing-item-name">${p.name}</div>
+            <div class="pairing-item-note">${p.note}</div>
+          </div>`).join('')}` : ''}
+        ${bottlePairings.length ? `
+          <div class="detail-label" style="margin-top:12px;margin-bottom:6px;">Bottle</div>
+          ${bottlePairings.map(p => `<div class="pairing-item">
+            <div class="pairing-item-name">${p.name}</div>
+            <div class="pairing-item-note">${p.note}</div>
+          </div>`).join('')}` : ''}
+        ${whiskyPairings.length ? `
+          <div class="detail-label" style="margin-top:12px;margin-bottom:6px;">Whisky</div>
+          ${whiskyPairings.map(p => `<div class="pairing-item">
+            <div class="pairing-item-name">${p.name}</div>
+            <div class="pairing-item-note">${p.note}</div>
+          </div>`).join('')}` : ''}
+      </div>
+    </div>` : '';
+
   return `<div class="dish-expand">
     <div class="tableside-line">${d.tableside||''}</div>
 
@@ -558,6 +591,7 @@ function buildExpand(d) {
       </div></div>
     </div>` : ''}
 
+    ${winePairingsHtml}
     ${aftersHtml}
   </div>`;
 }

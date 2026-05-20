@@ -68,8 +68,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Served chilled. Worth mentioning to guests who may be surprised by a cold soup.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "The herbaceous, citrus character of Loire Sauvignon Blanc mirrors the green goddess profile and cuts through the crema cleanly."
+      },
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Grüner's signature white pepper and green herb notes are a natural match for a cold vegetable soup with lemon oil."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "309",
+        "name": "Strauss/Tscherne '18,' Südsteiermark DAC 2024",
+        "note": "A lively Styrian Sauvignon Blanc with the green and citrus character to echo the soup without overpowering it."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -136,8 +153,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Croutons can be removed for gluten-free guests. The soup itself is GF without them.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Grüner Veltliner's stone fruit and mineral character pairs well with root vegetable soups, and the wine's natural acidity cuts the cream base."
+      },
+      {
+        "id": "BTG-004",
+        "name": "The Vice Chardonnay, Napa Valley",
+        "note": "The body and oak of a Napa Chardonnay complements the richness of the chipotle cream while holding up to the ginger spice."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "435",
+        "name": "The Calling Chardonnay, Sonoma Coast 2019",
+        "note": "Sonoma Chardonnay with enough weight for a cream soup and enough acidity to keep the pairing from feeling heavy."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -215,8 +249,25 @@
       }
     ],
     "chef_notes": "Goat cheese and candied pecans can be removed independently. The salad works well without either.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "Sauvignon Blanc's herbaceous, citrus-driven character is a classic match for goat cheese and vinaigrette-dressed salads."
+      },
+      {
+        "id": "BTG-011",
+        "name": "Hillinger Secco Pinot Noir Rosé",
+        "note": "The candied pecans and creamy balsamic call for something with light fruit — a dry rosé works well without overwhelming the delicate gem lettuce."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "317",
+        "name": "Tement Ried Zieregg, Südsteiermark 2018",
+        "note": "One of the finest Sauvignon Blancs on the list, with enough complexity to elevate the goat cheese and apple combination."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -289,7 +340,18 @@
     ],
     "sourcing": [],
     "chef_notes": "Pecans can be removed. The salad is naturally gluten-free and dairy-free without modification.",
-    "wine_pairings_btg": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "The bitter arugula and honey mustard vinaigrette find a natural counterpart in Loire Sauvignon Blanc's bright acidity and herbal edge."
+      },
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Grüner's peppery, mineral character is a textbook pairing for arugula and shaved asparagus."
+      }
+    ],
     "wine_pairings_bottle": [],
     "file": "dinner"
   },
@@ -367,7 +429,18 @@
       }
     ],
     "chef_notes": "Worth mentioning the Badger Flame beet by name. Guests who claim not to like beets are often surprised by how mild and sweet this variety is.",
-    "wine_pairings_btg": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-012",
+        "name": "Tegernseerhof Zweigelt Rosé 2024",
+        "note": "Roasted beets and goat cheese call for a wine with red fruit character and enough acidity to match the lemon vinaigrette — a dry Austrian rosé does this well."
+      },
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "Another strong option if the guest prefers white — the citrus and herb notes in Loire Sauvignon Blanc complement both the beets and the goat cheese."
+      }
+    ],
     "wine_pairings_bottle": [],
     "file": "dinner"
   },
@@ -443,8 +516,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Lead with the carrot base when describing this dish. Guests expecting standard chickpea hummus need that framing first. The wild boar ragu is the standout element.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "The wild boar ragu and marinated feta are bold enough to need a wine with presence — Grüner Veltliner's spice and minerality hold up without fighting the dish."
+      },
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "If the guest wants red, a lighter Rioja works with the boar ragu without overwhelming the hummus base."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "803",
+        "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC 2022",
+        "note": "A premier cru Grüner Veltliner with the depth to match the complexity of wild boar and marinated feta."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -512,7 +602,18 @@
     ],
     "sourcing": [],
     "chef_notes": "Chef uses this dish as a nod to his Ukrainian heritage. Worth mentioning when guests ask about the inspiration behind the menu. One of the most reliably loved starters.",
-    "wine_pairings_btg": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "The potato and cheddar filling with bacon crumble calls for something with acidity to cut the richness — Grüner is the natural Austrian answer for a dish with Central European roots."
+      },
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "A light red works if the guest prefers red — the bacon crumble gives the dish enough weight to handle a medium-bodied wine."
+      }
+    ],
     "wine_pairings_bottle": [],
     "file": "dinner"
   },
@@ -589,8 +690,25 @@
       }
     ],
     "chef_notes": "Worth explaining white asparagus to guests who haven't encountered it. Strong bottle pairing opportunity. Gruner Veltliner and white asparagus is one of the great classic pairings in Austrian cuisine.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "White asparagus and Grüner Veltliner is one of the great classic pairings in Austrian cuisine. The wine's white pepper and mineral notes are made for this dish."
+      },
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "Lugana's delicate stone fruit and mineral character works beautifully with mousseline sauce and the subtle salinity of the salmon roe."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "875",
+        "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC 2023",
+        "note": "A benchmark Grüner Veltliner from one of Kamptal's greatest producers. This is the bottle pairing for the white asparagus."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -662,8 +780,25 @@
     ],
     "sourcing": [],
     "chef_notes": "This dish has a longer than average prep time. Set expectations with the table when ordering, especially on busy nights. Pecans can be removed.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-001",
+        "name": "Szigeti Blanc de Blancs, Burgenland NV",
+        "note": "Sparkling wine with baked brie in puff pastry is a classic — the bubbles cut the richness and the fruit complements the cherry jam."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "A lighter Loire Pinot Noir with fresh red fruit is an excellent red option for brie — enough structure for the pastry, light enough not to fight the cheese."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "7025",
+        "name": "Bründlmayer Pinot Noir, Langenlois 2020",
+        "note": "An Austrian Pinot with elegance and precision — the red fruit and silky tannins are a refined match for baked brie with cherry jam."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -735,9 +870,37 @@
     ],
     "sourcing": [],
     "chef_notes": "Guests who haven't had bone marrow before are often hesitant. Lead with the spreading motion on the bread. After the marrow is scraped clean, offer the Bone Luge: a shot of bourbon poured down the hollow bone and sipped from the end. A fun tableside moment and a natural bar program connection.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The richness of bone marrow needs a wine with tannin and structure to cut through it — a Super Tuscan blend is the right call."
+      },
+      {
+        "id": "BTG-010",
+        "name": "Black Stallion Cabernet, North Coast",
+        "note": "Cabernet's tannin structure and dark fruit character is a natural match for the fat and richness of BBQ bone marrow with apricot jam."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "2500",
+        "name": "DAOU 'Sequentis,' Merlot, Paso Robles 2020",
+        "note": "The plush, approachable tannins of Paso Merlot complement the unctuousness of bone marrow without the austerity of a bigger Cabernet."
+      },
+      {
+        "id": "3043",
+        "name": "Château Haut-Colombier, Blaye 2022",
+        "note": "A right bank Bordeaux blend with the fruit and structure to handle the boldness of BBQ-sauced marrow."
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Weller Antique 107",
+        "note": "High-proof wheated bourbon alongside bone marrow is a genuinely great combination — the sweetness of the wheat matches the richness of the marrow, and the proof cuts the fat."
+      }
+    ]
   },
   {
     "id": "d11",
@@ -809,8 +972,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Salmon belly is fattier and richer than a standard salmon fillet. Guests unfamiliar with it may not know what to expect. A quick description goes a long way.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "The apple vinegar and mustard seed gastrique in this dish call for something with crisp acidity — Loire Sauvignon Blanc is a natural match."
+      },
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "Lugana's delicate minerality and stone fruit complement the cured salmon belly without fighting the bourbon cure or the gastrique."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "330",
+        "name": "Strauss Ried Gamlitzberg, Südsteiermark 2022",
+        "note": "A Styrian Sauvignon Blanc with the precision and acidity to complement bourbon-cured salmon belly and mustard seed gastrique."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -888,8 +1068,25 @@
       }
     ],
     "chef_notes": "One of the most frequently ordered starters. The grits are made in house. Ask the kitchen for any daily modifications.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-004",
+        "name": "The Vice Chardonnay, Napa Valley",
+        "note": "The whiskey cream and caramelized onion in this dish are rich enough to need a wine with body — Napa Chardonnay has the weight and the fruit to match."
+      },
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "A lighter white option — Lugana's mineral and stone fruit character complements the shrimp without fighting the aleppo chili crisp."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "459",
+        "name": "Bergström 'Old Stones,' Chardonnay, Willamette Valley 2020",
+        "note": "Oregon Chardonnay with the richness to handle whiskey cream and grits and the acidity to keep the pairing from feeling heavy."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1087,7 +1284,18 @@
     ],
     "sourcing": [],
     "chef_notes": "The meat on this salad reflects what is on the rotisserie. It has consistently been shredded chicken and steak but is subject to change. Know what is on the spit and communicate it when describing this dish.",
-    "wine_pairings_btg": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "Spit roasted chicken and steak with creme fraiche dressing calls for a versatile, medium-bodied red — Loire Pinot is the natural choice."
+      },
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "If the guest wants more structure, a Rioja blend with the bacon lardons and steak elements works well."
+      }
+    ],
     "wine_pairings_bottle": [],
     "file": "dinner"
   },
@@ -1169,8 +1377,30 @@
       }
     ],
     "chef_notes": "Confirm half or whole before ordering. The Peruvian rub is inspired by the background of our kitchen staff. Orzo can be omitted for dairy or gluten-free guests with kitchen coordination.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Rotisserie chicken with truffle orzo and garlic honey jus is a natural for Grüner Veltliner — the wine's minerality and spice are made for poultry dishes with herbal elements."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "A light red works beautifully with rotisserie chicken — the fruit and earthiness of Loire Pinot complement the garlic honey jus without overpowering the bird."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "7025",
+        "name": "Bründlmayer Pinot Noir, Langenlois 2020",
+        "note": "Austrian Pinot Noir with the precision and elegance to complement a whole rotisserie chicken without fighting the truffle orzo."
+      },
+      {
+        "id": "809",
+        "name": "Bründlmayer Ried Loiserberg Grüner Veltliner 2022",
+        "note": "A premier cru Grüner from one of Kamptal's iconic producers — the bottle choice for a whole Joyce Farm Chicken."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1243,8 +1473,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Always confirm which fish is being served that evening before describing the dish. Chef prefers branzino but it can change. Confirm nut allergies before ordering.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "The coconut curry and ginger in this preparation call for something with aromatic character and body — Lugana handles the spice without being overwhelmed."
+      },
+      {
+        "id": "BTG-004",
+        "name": "The Vice Chardonnay, Napa Valley",
+        "note": "A fuller-bodied white that can stand up to the richness of peanut and coconut curry alongside a whole roasted fish."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "413",
+        "name": "Château Montelena Chardonnay, Calistoga 2023",
+        "note": "A classic Napa Chardonnay with the body and complexity to hold its own against a boldly spiced whole fish preparation."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1324,8 +1571,30 @@
       }
     ],
     "chef_notes": "Limited availability. Know when it is running low and communicate proactively. Flag pine nuts in the aleppo crisp for nut allergy guests. Strong bottle pairing opportunity.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "Ibérico pork and Spanish Tempranillo is one of the great natural pairings — the wine's red fruit and earthiness complement the pork's exceptional marbling."
+      },
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The aleppo chili crisp gives this dish enough spice to need a wine with some structure — a Super Tuscan blend holds up well."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "8021",
+        "name": "Vega Sicilia 'Alión,' Tempranillo, Ribera del Duero 2015",
+        "note": "One of Spain's great Tempranillos alongside Spain's finest breed of pork — a pairing with real logic and real luxury behind it."
+      },
+      {
+        "id": "8023",
+        "name": "Bodegas Elias Mora Tempranillo, Crianza, Toro 2019",
+        "note": "A more accessible Spanish red option — the Toro region produces bold, structured Tempranillo that stands up to Ibérico's fat and flavor."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1396,9 +1665,37 @@
     ],
     "sourcing": [],
     "chef_notes": "Confirm pine nut allergy before ordering. Limited availability. Strong wine pairing opportunity.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The basil and pine nut pesto alongside rotisserie lamb calls for a wine with herbal notes and enough structure to match the richness of the meat — a Super Tuscan is the natural choice."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "Loire Pinot Noir with rack of lamb is a classic French pairing — the earthiness and red fruit of the wine complement the pesto without competing with the lamb."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "5047",
+        "name": "Castello di Verduno Nebbiolo, Monvigliero Reserva, Barolo DOCG 2019",
+        "note": "Barolo with rack of lamb is one of the great red meat pairings in all of wine — the tannin, acidity, and complexity of Nebbiolo are made for this."
+      },
+      {
+        "id": "7039",
+        "name": "Heidi Schröck Blaufränkisch, Ried Kulm 2023",
+        "note": "An Austrian Blaufränkisch with the structure and dark fruit to complement rotisserie lamb with arugula pesto."
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Russell's Reserve 13 Year",
+        "note": "A bold, aged Wild Turkey rye alongside rack of lamb is an unexpected but genuinely excellent pairing — the rye spice echoes the herbal pesto and the proof stands up to the richness of the lamb."
+      }
+    ]
   },
   {
     "id": "d20",
@@ -1468,9 +1765,41 @@
     ],
     "sourcing": [],
     "chef_notes": "32 oz cut. Best positioned as a sharing dish for two, or for a single guest with a serious appetite. Does not require tableside carving. The salsa verde is served on the side.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-010",
+        "name": "Black Stallion Cabernet, North Coast",
+        "note": "A 32 oz ribeye off the rotisserie needs tannin and structure — Cabernet Sauvignon is the instinctive choice and it delivers."
+      },
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The salsa verde introduces herbal brightness that the Sangiovese-based Super Tuscan handles particularly well alongside beef."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "2009",
+        "name": "Château Montelena Cabernet, Calistoga 2022",
+        "note": "One of Napa's most historic producers, producing structured Cabernet that is built for aged beef. The right bottle for a tomahawk."
+      },
+      {
+        "id": "2005",
+        "name": "Acumen 'Mountainside,' Atlas Peak 2019",
+        "note": "Atlas Peak Cabernet with the elevation-driven freshness and tannic backbone to match a 32 oz bone-in ribeye."
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Stagg Batch 25D",
+        "note": "George T. Stagg alongside a tomahawk ribeye is one of the most serious pairings on the menu — the full-proof, unfiltered bourbon's intensity matches the boldness of the cut."
+      },
+      {
+        "name": "Thomas Handy Sazerac",
+        "note": "The most allocated rye on the list alongside the most dramatic cut of beef — both are rare, both are worth the conversation."
+      }
+    ]
   },
   {
     "id": "d21",
@@ -1540,9 +1869,37 @@
     ],
     "sourcing": [],
     "chef_notes": "Available in two sizes: 10 oz at $45 or 16 oz at $60. Always confirm which the guest wants. Limited availability. Horseradish cream can be omitted for dairy-free guests.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-010",
+        "name": "Black Stallion Cabernet, North Coast",
+        "note": "Prime rib with horseradish cream is a Cabernet pairing — the tannin structure of the wine cuts the fat of the slow-roasted beef."
+      },
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "A lighter red option — Rioja's earthy, red-fruit character complements slow-roasted beef without the grip of a full Cabernet."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "2061",
+        "name": "Black Stallion Winery 'Sam Jasper,' Napa Valley 2019",
+        "note": "The premium expression from the same producer as the BTG option — a step up in complexity and depth for a 16 oz prime rib."
+      },
+      {
+        "id": "3007",
+        "name": "Château Grand-Puy Ducasse, Pauillac 2016",
+        "note": "A classified Pauillac Bordeaux with the structure and longevity to make a prime rib service feel genuinely special."
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Eagle Rare 10 Year",
+        "note": "One of the best value bourbons on the list alongside one of the most straightforward beef preparations — clean, approachable, and genuinely complementary."
+      }
+    ]
   },
   {
     "id": "d22",
@@ -1613,8 +1970,30 @@
       }
     ],
     "chef_notes": "Chef's preference is medium rare. Always confirm temperature with the guest before ordering. The cauliflower puree has developed a following , guests frequently mention it.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-004",
+        "name": "The Vice Chardonnay, Napa Valley",
+        "note": "The cauliflower puree and pan sauce call for a wine with body — Napa Chardonnay has the weight and fruit to complement salmon without being overwhelmed."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "Salmon is one of the few fish that genuinely works with a light red — the earthiness of Loire Pinot complements the richness of the fish without fighting it."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "459",
+        "name": "Bergström 'Old Stones,' Chardonnay, Willamette Valley 2020",
+        "note": "Oregon Chardonnay is a classic salmon pairing — the minerality and acidity of Willamette Valley Chardonnay complements pan-seared salmon with cauliflower beautifully."
+      },
+      {
+        "id": "950",
+        "name": "Babs 'Dial Tone,' Pinot Noir, Sta. Rita Hills 2021",
+        "note": "Santa Barbara Pinot Noir with salmon is a natural — the lighter body and red fruit work with the richness of the fish."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1685,8 +2064,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Each guest receives 6 oz regardless of individual scallop count. Sesame is a seed with a distinct allergenic profile separate from tree nuts and peanuts , guests with sesame allergies will typically know to ask.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-001",
+        "name": "Szigeti Blanc de Blancs, Burgenland NV",
+        "note": "Sparkling wine with seared scallops is a classic pairing — the bubbles and acidity cut through the richness of the blood orange risotto."
+      },
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "Lugana's delicate mineral and stone fruit character is a precise match for seared scallops with blood orange and sesame."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "611",
+        "name": "Bründlmayer Heiligenstein 1ÖTW 'Lyra' Reserve Riesling 2015",
+        "note": "A grand cru Kamptal Riesling with the acidity, minerality, and complexity to elevate seared scallops with blood orange risotto to a genuinely special pairing."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1764,8 +2160,30 @@
       }
     ],
     "chef_notes": "Ask the kitchen what the market fish is each evening.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "A seafood stew with mussels, shrimp, and market fish needs a wine with body and minerality — Lugana is built for this kind of Mediterranean preparation."
+      },
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Grüner Veltliner's mineral backbone and herbal notes work excellently with a broth-based seafood stew — a classic Central European pairing logic."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "803",
+        "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC 2022",
+        "note": "A premier cru Grüner Veltliner with enough depth and minerality to stand alongside a rich Belgian seafood stew."
+      },
+      {
+        "id": "639",
+        "name": "Schloss Gobelsburg Heiligenstein 1ÖTW, Riesling 2015",
+        "note": "Aged Kamptal Riesling with the complexity and mineral precision to complement the layered flavors of a Waterzooi."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1836,8 +2254,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Worth mentioning the regional connection. Rockfish is a local Mid-Atlantic species.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "The butter-braised turnips and dill crema call for something fresh and citrus-driven — Loire Sauvignon Blanc is a natural for delicate white fish with cream-based accompaniments."
+      },
+      {
+        "id": "BTG-003",
+        "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
+        "note": "Lugana's gentle mineral and stone fruit character complements rockfish with root vegetables and dill without overwhelming the delicacy of the fish."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "317",
+        "name": "Tement Ried Zieregg, Südsteiermark 2018",
+        "note": "A serious Styrian Sauvignon Blanc with the precision and depth to elevate butter-braised turnips and dill crema alongside seared rockfish."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -1917,9 +2352,37 @@
       }
     ],
     "chef_notes": "Check with kitchen on dairy modification for the cauliflower. Strong bottle pairing opportunity.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-010",
+        "name": "Black Stallion Cabernet, North Coast",
+        "note": "The truffle Madeira jus and braised short rib call for a wine with tannin and dark fruit — Cabernet is the instinctive and correct choice."
+      },
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The Madeira in the jus has an Italian complexity that the Super Tuscan mirrors well — a more nuanced red option for guests who want structure without the full weight of Cabernet."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "2500",
+        "name": "DAOU 'Sequentis,' Merlot, Paso Robles 2020",
+        "note": "The plush tannins of Paso Merlot are a natural match for braised short rib — enough structure to complement the truffle Madeira jus without austerity."
+      },
+      {
+        "id": "5047",
+        "name": "Castello di Verduno Nebbiolo, Monvigliero Reserva, Barolo DOCG 2019",
+        "note": "Barolo's tannin, acidity, and complexity make it one of the great pairings for braised short rib — the wine's structure evolves alongside the richness of the dish."
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Michter's 10 Year",
+        "note": "A decade-aged Michter's rye alongside braised short rib with truffle Madeira jus is a genuinely exceptional pairing — the dried fruit and leather complexity of an aged rye echoes the jus without competing with it."
+      }
+    ]
   },
   {
     "id": "d27",
@@ -1989,8 +2452,30 @@
     ],
     "sourcing": [],
     "chef_notes": "Fryer cross-contamination is an important flag for shellfish and nut allergy guests. Always confirm with the kitchen.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Wienerschnitzel and Grüner Veltliner is one of the iconic Austrian pairings. The wine's white pepper and mineral character cut through the fried pork cleanly and the match feels completely natural."
+      },
+      {
+        "id": "BTG-012",
+        "name": "Tegernseerhof Zweigelt Rosé 2024",
+        "note": "An Austrian rosé with schnitzel is a lighter, equally authentic pairing — the red fruit and acidity complement the lingonberry jam and the richness of the fried cutlet."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "875",
+        "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC 2023",
+        "note": "The finest Grüner Veltliner on the BTG list elevated to bottle format — the right choice for a table that wants to experience the full Austrian pairing tradition."
+      },
+      {
+        "id": "7041",
+        "name": "Erich Sattler Zweigelt Reserve 2020",
+        "note": "An Austrian Zweigelt with the red fruit and lightness to complement schnitzel without overwhelming it — the red wine answer to the Grüner pairing."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -2067,8 +2552,25 @@
       }
     ],
     "chef_notes": "Barley contains gluten and cannot be removed from this dish. For GF guests, this is not a viable option.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha, Rioja",
+        "note": "The smoked puttanesca and kalamata olives give this dish a Mediterranean boldness that pairs naturally with a Spanish red — Rioja handles the brine and smoke without being overwhelmed."
+      },
+      {
+        "id": "BTG-008",
+        "name": "Cantina Super Tuscan, Tuscany",
+        "note": "The Italian-inspired preparation with olives and basil calls for a Tuscan-adjacent wine — the Super Tuscan blend echoes the puttanesca character of the dish."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "5021",
+        "name": "Capolino Aglianico 'Talento' 2015",
+        "note": "Southern Italian Aglianico with the dark fruit and structure to match a smoked puttanesca and kalamata olive preparation."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -2141,8 +2643,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Chicken can be omitted to make this vegetarian. Cured egg yolk can be removed on request. Dairy is built into the pasta preparation and cannot be removed.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "The asparagus, English peas, and cured egg yolk in this dish are fresh spring flavors that work beautifully with Loire Sauvignon Blanc's citrus and herbal character."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "A light Loire Pinot Noir works with chicken cavatelli if the guest prefers red — the earthiness of the wine complements the spring vegetables without overpowering the pasta."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "309",
+        "name": "Strauss/Tscherne '18,' Südsteiermark DAC 2024",
+        "note": "A fresh, precise Styrian Sauvignon Blanc with the green character to match asparagus and English peas in a spring pasta."
+      }
+    ],
     "file": "dinner"
   },
   {
@@ -2219,8 +2738,25 @@
     ],
     "sourcing": [],
     "chef_notes": "Confirm pine nut presence in the pesto for nut allergy guests. Works well as a premium shared side for larger tables alongside the spit roasted mains.",
-    "wine_pairings_btg": [],
-    "wine_pairings_bottle": [],
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Kamptal",
+        "note": "Basil pesto risotto with Pecorino and tomato confit is an herbaceous, rich dish — Grüner Veltliner's white pepper and mineral character is one of the best white wine matches for herb-forward Italian preparations."
+      },
+      {
+        "id": "BTG-007",
+        "name": "Maison de la Villette Pinot Noir, Loire Valley",
+        "note": "The tomato confit and basil give the risotto enough savory depth for a light red — Loire Pinot Noir is the natural choice."
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "5053",
+        "name": "Ceretto Nebbiolo, Barbaresco DOCG 2020",
+        "note": "Barbaresco with risotto is a classic Piedmontese pairing — the wine's earthy, floral complexity complements the pesto and Pecorino without fighting the delicacy of the rice."
+      }
+    ],
     "file": "dinner"
   },
   {
