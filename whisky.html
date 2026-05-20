@@ -413,6 +413,10 @@ function render() {
               <div class="detail-label">Mash Bill</div>
               <div style="font-size:13px;color:var(--muted);line-height:1.6;">${s.mash_bill}</div>
             </div>` : ''}
+            ${s.why ? `<div class="detail-block full">
+              <div class="detail-label">Why This Bottle</div>
+              <div style="font-size:13px;color:var(--muted);line-height:1.6;">${s.why}</div>
+            </div>` : ''}
             <div class="detail-block full">
               <div class="detail-label">Food Pairings</div>
               <div class="pairing-tags">${s.pairings.map(p => `<span class="pairing-tag">${p}</span>`).join('')}</div>
