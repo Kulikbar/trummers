@@ -232,8 +232,8 @@ const SECTION_INTROS = {
 };
 
 const ICON_LABELS = {
-  '🌶️': 'Spice', '🔥': 'High Proof', '🏔️': 'Smoky', '🍞': 'Malty',
-  '🍯': 'Sweet', '🍎': 'Fruit', '🍫': 'Dark', '🪵': 'Oak', '🛢️': 'Cask Finish'
+  '🌶️': 'Spice', '🔥': 'High Proof', '🍯': 'Sweet', '🏔️': 'Smoky',
+  '🍎': 'Fruit', '🍞': 'Malty', '🍫': 'Dark', '🪵': 'Oak', '🛢️': 'Cask Finish'
 };
 
 // ── FILTERS ──────────────────────────────────────────────────────────────────
@@ -333,9 +333,7 @@ function render() {
     if (s.price < priceMin || s.price > priceMax) return false;
     if (q) {
       const blob = normalize([
-        s.producer, s.name, s.cat, s.detail,
-        s.notes.join(' '), s.tableside, s.story,
-        (s.trivia || []).join(' ')
+        s.producer, s.name, s.cat, s.detail
       ].join(' '));
       if (!blob.includes(q)) return false;
     }
@@ -344,8 +342,8 @@ function render() {
 
   const countEl = document.getElementById('result-count');
   countEl.textContent = filtered.length === SPIRITS.length
-    ? `${SPIRITS.length} spirits`
-    : `${filtered.length} of ${SPIRITS.length} spirits`;
+    ? `${SPIRITS.length} whiskies`
+    : `${filtered.length} of ${SPIRITS.length} whiskies`;
 
   const list = document.getElementById('spirit-list');
   if (!filtered.length) {

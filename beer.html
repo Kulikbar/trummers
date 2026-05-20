@@ -154,7 +154,8 @@ const ICON_LABELS = {
   '⛪': 'Trappist',
   '🌿': 'Farmhouse',
   '🍎': 'Cider',
-  '🍾': 'Large Format'
+  '🍾': 'Large Format',
+  '📍': 'Local'
 };
 
 const SECTION_INTRO = "A deliberately curated list — local DC and Virginia breweries alongside some of the world's finest Belgian and German producers. The range runs from Weihenstephaner's thousand-year-old Hefeweizen to Fantôme's eccentric Belgian farmhouse ale. Know the stories behind these beers and they sell themselves.";
@@ -205,13 +206,14 @@ function render() {
   const q = normalize(document.getElementById('search').value);
 
   const filtered = BEERS.filter(b => {
-    if (activeIcons.size > 0) { for (const ic of activeIcons) { if (!b.icons.includes(ic)) return false; } }
+    if (activeIcons.size > 0) {
+      for (const ic of activeIcons) {
+        if (ic === '📍') { if (!isLocal(b.producer)) return false; }
+        else if (!b.icons.includes(ic)) return false;
+      }
+    }
     if (q) {
-      const blob = normalize([
-        b.producer, b.name, b.detail,
-        b.notes.join(' '), b.tableside, b.story,
-        (b.trivia || []).join(' ')
-      ].join(' '));
+      const blob = normalize([b.producer, b.name, b.detail].join(' '));
       if (!blob.includes(q)) return false;
     }
     return true;
@@ -311,6 +313,17 @@ fetch('bar.json')
     BEERS = data.filter(b => b.cat === 'Beer & Cider');
     buildFilters();
     render();
+    // Auto-open card from URL param e.g. ?open=123
+    const params = new URLSearchParams(window.location.search);
+    const openParam = params.get('open');
+    if (openParam) {
+      openId = openParam;
+      render();
+      setTimeout(() => {
+        const el = document.getElementById('card-' + openParam);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
   })
   .catch(err => {
     console.error('Could not load bar.json:', err);

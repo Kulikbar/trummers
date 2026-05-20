@@ -28,16 +28,6 @@
   .divider-ornament::before, .divider-ornament::after { content: ''; flex: 1; max-width: 60px; height: 1px; background: var(--border2); }
   .divider-ornament-dot { width: 4px; height: 4px; border-radius: 50%; background: var(--gold-dim); }
 
-  /* ── TONIGHT STRIP ── */
-  .tonight-strip { margin: 0 1rem 0; padding: 11px 16px; background: rgba(201,169,110,0.06); border: 1px solid var(--border2); border-radius: 10px; display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; transition: border-color 0.15s; }
-  .tonight-strip:hover { border-color: var(--gold-dim); }
-  .tonight-pulse { width: 6px; height: 6px; border-radius: 50%; background: var(--gold); flex-shrink: 0; animation: pulse 2s ease-in-out infinite; }
-  @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
-  .tonight-text { flex: 1; }
-  .tonight-eyebrow { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); }
-  .tonight-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold2); line-height: 1.3; margin-top: 1px; }
-  .tonight-arrow { color: var(--gold-dim); font-size: 14px; flex-shrink: 0; }
-
   /* ── MAIN CARDS ── */
   .divider { height: 1px; background: var(--border); margin: 1.75rem 1.5rem 0; }
   .section-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); padding: 1.25rem 1.5rem 0.75rem; }
@@ -55,7 +45,6 @@
   .main-card-pills { display: flex; flex-wrap: wrap; gap: 5px; }
   .pill { font-size: 10px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border); color: var(--gold-dim); }
   .pill-hl { background: rgba(201,169,110,0.08); border-color: var(--border2); color: var(--gold); }
-  .pill-tonight { background: rgba(201,169,110,0.12); border-color: rgba(201,169,110,0.4); color: var(--gold2); }
 
   /* Color accent bars */
   .main-card-bar { height: 2px; }
@@ -90,15 +79,6 @@
     </div>
   </div>
 
-  <a class="tonight-strip" href="dinner.html#sec-daily" id="tonight-strip">
-    <div class="tonight-pulse"></div>
-    <div class="tonight-text">
-      <div class="tonight-eyebrow">Tonight from the Rotisserie</div>
-      <div class="tonight-name" id="tonight-name">Loading…</div>
-    </div>
-    <div class="tonight-arrow">›</div>
-  </a>
-
   <div class="divider"></div>
   <div class="section-label">The Programs</div>
   <div class="main-cards">
@@ -112,8 +92,8 @@
           <div class="main-card-arrow">›</div>
         </div>
         <div class="main-card-quote">
-          "The vine makes the wine, but the soil makes the vine."
-          <div class="main-card-quote-attr">— Burgundian proverb</div>
+          "Wine is bottled poetry."
+          <div class="main-card-quote-attr">— Robert Louis Stevenson</div>
         </div>
         <div class="main-card-pills">
           <span class="pill">Sparkling &amp; Rosé</span>
@@ -133,8 +113,8 @@
           <div class="main-card-arrow">›</div>
         </div>
         <div class="main-card-quote">
-          "Too much of anything is bad, but too much good whiskey is barely enough."
-          <div class="main-card-quote-attr">— Mark Twain</div>
+          "Here's to alcohol, the cause of, and solution to, all of life's problems."
+          <div class="main-card-quote-attr">— Homer Simpson</div>
         </div>
         <div class="main-card-pills">
           <span class="pill">Whisky</span>
@@ -160,10 +140,9 @@
         </div>
         <div class="main-card-pills">
           <span class="pill">Dinner</span>
-          <span class="pill">Brunch</span>
+          <span class="pill">Dinner</span>
           <span class="pill">Dessert</span>
-          <span class="pill pill-hl" id="food-count">39 dishes</span>
-          <span class="pill pill-tonight" id="tonight-pill" style="display:none;"></span>
+          <span class="pill pill-hl" id="food-count">41 dishes</span>
         </div>
       </div>
     </a>
@@ -177,9 +156,9 @@
       <div class="quick-label">Rare &amp; Sought-After</div>
       <div class="quick-title">Allocated Whisky</div>
     </a>
-    <a class="quick-card" href="dinner.html#sec-daily" id="qa-tonight">
-      <div class="quick-label">Tonight's Rotisserie</div>
-      <div class="quick-title" id="qa-tonight-name">Daily Feature</div>
+    <a class="quick-card" href="dinner.html#sec-daily">
+      <div class="quick-label">Spit Roasted</div>
+      <div class="quick-title">Daily Offerings</div>
     </a>
     <a class="quick-card" href="wines.html">
       <div class="quick-label">By the Glass</div>
@@ -209,33 +188,5 @@
 
 </div>
 
-<script>
-const DAILY_FEATURES = {
-  2: { name: 'Ibérico Rack of Pork', detail: 'with aleppo chili crisp' },
-  3: { name: 'Rack of Lamb', detail: 'with basil & pine nut-arugula pesto' },
-  4: { name: 'Tomahawk Ribeye', detail: 'with salsa verde' },
-  5: { name: 'Prime Rib', detail: 'with horseradish cream' },
-  6: { name: 'Prime Rib', detail: 'with horseradish cream' }
-};
-
-const day = new Date().getDay();
-const feature = DAILY_FEATURES[day];
-const nameEl = document.getElementById('tonight-name');
-const qaEl = document.getElementById('qa-tonight-name');
-const pillEl = document.getElementById('tonight-pill');
-
-if (feature) {
-  if (nameEl) nameEl.textContent = `${feature.name} · ${feature.detail}`;
-  if (qaEl) qaEl.textContent = feature.name;
-  if (pillEl) { pillEl.textContent = `⭐ ${feature.name}`; pillEl.style.display = ''; }
-} else {
-  const strip = document.getElementById('tonight-strip');
-  if (strip) {
-    strip.querySelector('.tonight-pulse').style.cssText = 'background:var(--muted);animation:none;';
-    if (nameEl) nameEl.textContent = 'No feature tonight — Sunday & Monday';
-    if (qaEl) qaEl.textContent = 'No feature tonight';
-  }
-}
-</script>
 </body>
 </html>

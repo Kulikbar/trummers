@@ -123,7 +123,7 @@
   <div class="search-section">
     <div class="search-wrap">
       <span class="search-icon">⌕</span>
-      <input class="search-input" id="search" type="text" placeholder="Dish, ingredient, technique, allergen…" oninput="handleSearch()">
+      <input class="search-input" id="search" type="text" placeholder="Dish name or section…" oninput="handleSearch()">
     </div>
     <div class="search-meta" id="search-meta"></div>
   </div>
@@ -149,7 +149,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-desc">Soups, salads, starters, bread, spit roasted mains, daily rotisserie features, sea, land, pasta & rice, and sides. The full evening program.</div>
+        <div class="card-desc">"Food had power. It could inspire, astonish, shock, excite, delight and impress." <span style="font-style:normal;font-size:11px;letter-spacing:0.05em;color:var(--gold-dim);">— Anthony Bourdain, Kitchen Confidential</span></div>
         <div class="card-pills" id="dinner-pills">
           <span class="pill">Spit Roasted</span>
           <span class="pill">Sea & Land</span>
@@ -171,7 +171,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-desc">Six desserts from Pastry Chef Amanda Siever, each with bar and afters pairings. The moment where the kitchen and bar programs meet.</div>
+        <div class="card-desc">"My policy on cake is pro having it and pro eating it." <span style="font-style:normal;font-size:11px;letter-spacing:0.05em;color:var(--gold-dim);">— Boris Johnson</span></div>
         <div class="card-pills">
           <span class="pill">Cheese Board</span>
           <span class="pill">Sorbets</span>
@@ -245,7 +245,7 @@ function buildBanner() {
         <div class="tonight-label">Tonight from the Rotisserie</div>
         <div class="tonight-name">${feature.name}</div>
         <div class="tonight-detail">${feature.detail} · served with duck fat potatoes · limited availability</div>
-        <a class="tonight-link" href="dinner.html#card-${feature.id}">View dish details →</a>
+        <a class="tonight-link" href="dinner.html?open=${feature.id}">View dish details →</a>
       </div>
     </div>`;
 
@@ -314,13 +314,7 @@ function handleSearch() {
   const terms = normalize(q).split(/\s+/).filter(Boolean);
   const matches = ALL_FOOD.filter(item => {
     const haystack = normalize([
-      item.name, item.cat, item.menu, item.description,
-      (item.ingredients||[]).join(' '),
-      item.tableside||'', item.chef_notes||'',
-      (item.key_terms||[]).map(t=>t.term+' '+t.definition).join(' '),
-      (item.sourcing||[]).map(s=>s.name+' '+s.description).join(' '),
-      // Also search allergen notes
-      Object.values(item.allergens||{}).map(a=>a.note||'').join(' ')
+      item.name, item.cat, item.menu
     ].join(' '));
     return terms.every(t => haystack.includes(t));
   });
@@ -337,7 +331,7 @@ function handleSearch() {
 
   results.innerHTML = matches.map(item => {
     const baseUrl = pageUrls[item.menu] || 'dinner.html';
-    const url = `${baseUrl}#card-${item.id}`;
+    const url = `${baseUrl}?open=${item.id}`;
     const menuLabel = MENU_LABELS[item.menu] || item.menu;
     const veg = item.allergens?.vegetarian?.status;
     const vegan = item.allergens?.vegan?.status;

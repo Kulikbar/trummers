@@ -39,7 +39,7 @@
   #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
   #search::placeholder { color: var(--muted); }
   #search:focus { border-color: var(--gold-dim); }
-  .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 4px; }
+  .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-top: 5px; padding-bottom: 2px; margin-bottom: 4px; }
   .allergen-row::-webkit-scrollbar { display: none; }
   .allergen-btn { position: relative; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
   .allergen-btn.strict { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 500; }
@@ -168,7 +168,7 @@
 
 <div class="pairing-callout" style="margin:0.75rem 1rem 0;">
   <div class="pairing-callout-title">Pairing Moment</div>
-  <div class="pairing-callout-text">The dessert course is where the bar program meets the kitchen. The <strong>Cheese Board with Sauternes</strong> is one of the great classic pairings on the menu. The <strong>Graham's Tawny Port range</strong> pairs with almost everything here. Know it and use it.</div>
+  <div class="pairing-callout-text">The dessert course is your best opening to sell after dinner drinks. Most tables won't ask on their own, so you have to bring it up. The Cheese Board with Sauternes is one of the great classic pairings on the menu. The Graham's Tawny Port is a natural with anything chocolate.</div>
 </div>
 
 <div class="allergen-legend" style="margin:0.75rem 1.25rem 0;">
@@ -379,15 +379,21 @@ function buildExpand(d) {
       <div class="expand-section-title" onclick="toggleSec(event,'${d.id}-afters')">Bar &amp; Afters Pairings <span id="arr-${d.id}-afters">▾</span></div>
       <div id="sec-${d.id}-afters">
         <div class="afters-pairing-cards">
-          ${(d.afters_pairings||[]).map(p =>
-            `<div class="afters-pairing-card" onclick="event.stopPropagation()">
+          ${(d.afters_pairings||[]).map(p => {
+            const tag = p.afters_id ? 'a' : 'div';
+            const page = p.afters_page || 'afters.html';
+            const href = p.afters_id ? `href="${page}#card-${p.afters_id}"` : '';
+            return `<${tag} class="afters-pairing-card" ${href} onclick="event.stopPropagation()" style="${p.afters_id ? 'text-decoration:none;' : ''}">
               <div style="flex:1;min-width:0;">
                 <div class="afters-pairing-name">${p.name || p}</div>
                 ${p.why ? `<div style="font-size:11px;color:var(--muted);margin-top:3px;line-height:1.5;">${p.why}</div>` : ''}
               </div>
-              <div class="afters-pairing-arrow" style="flex-shrink:0;margin-left:8px;">→</div>
-            </div>`
-          ).join('')}
+              <div style="flex-shrink:0;margin-left:12px;text-align:right;">
+                ${p.price ? `<div style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--gold);">$${p.price}</div>` : ''}
+                ${p.afters_id ? `<div style="font-size:10px;color:var(--gold-dim);margin-top:2px;">${page === 'whisky.html' ? 'Whisky →' : 'Afters →'}</div>` : ''}
+              </div>
+            </${tag}>`;
+          }).join('')}
         </div>
         <div style="font-size:11px;color:var(--muted);margin-top:8px;font-style:italic;font-family:'Cormorant Garamond',serif;">
           Find these on the <a href="afters.html" style="color:var(--gold);text-decoration:none;" onclick="event.stopPropagation()">Afters page →</a>
@@ -463,6 +469,17 @@ fetch('food.json')
     DISHES = data.filter(d => d.menu === 'dessert');
     buildFilters();
     render();
+    // Auto-open card from URL param e.g. ?open=ds1
+    const params = new URLSearchParams(window.location.search);
+    const openParam = params.get('open');
+    if (openParam) {
+      openId = openParam;
+      render();
+      setTimeout(() => {
+        const el = document.getElementById('card-' + openParam);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
   })
   .catch(err => {
     console.error('Could not load food.json:', err);

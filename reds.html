@@ -20,6 +20,9 @@
   .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); font-weight: 400; margin-bottom: 0.75rem; }
   .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
   .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
   .toc-pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 0.75rem 1.25rem 0; border-bottom: 1px solid var(--border); }
   .toc-pills::-webkit-scrollbar { display: none; }
   .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; cursor: pointer; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
@@ -126,10 +129,10 @@
   <div class="header-eyebrow">Staff Reference</div>
   <div class="header-title">Red Wines</div>
   <div class="header-subtitle">Austrian · Pinot Noir · Cabernet · French · Spanish · Italian · Virginia</div>
-  <div style="margin-top:1rem;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
-    <a href="wines.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">← Home</a>
-    <a href="sparkling.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">← Sparkling</a>
-    <a href="whites.html" style="font-size:11px;padding:4px 14px;border-radius:20px;border:1px solid rgba(201,169,110,0.3);color:#8a6e42;text-decoration:none;font-family:Outfit,sans-serif;">← Whites</a>
+  <div class="header-nav">
+    <a href="wines.html">← Home</a>
+    <a href="sparkling.html">← Sparkling</a>
+    <a href="whites.html">← Whites</a>
   </div>
 </header>
 

@@ -106,7 +106,7 @@
   <div class="search-section">
     <div class="search-wrap">
       <span class="search-icon">⌕</span>
-      <input class="search-input" id="search" type="text" placeholder="Distillery, style, region, flavor…" oninput="handleSearch()">
+      <input class="search-input" id="search" type="text" placeholder="Distillery, spirit, category…" oninput="handleSearch()">
     </div>
     <div class="search-meta" id="search-meta"></div>
   </div>
@@ -132,7 +132,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-quote">"Too much of anything is bad, but too much good whiskey is barely enough." <span class="card-quote-attr">— Mark Twain</span></div>
+        <div class="card-quote">"The water was not fit to drink. To make it palatable, we had to add whisky. By diligent effort, I learned to like it." <span class="card-quote-attr">— Winston Churchill</span></div>
         <div class="card-pills">
           <span class="pill">Bourbon</span>
           <span class="pill">Rye</span>
@@ -155,7 +155,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-quote">"I am a firm believer in the people. If given the truth, they can be depended upon to meet any national crisis. The great point is to bring them the right cocktail." <span class="card-quote-attr">— Abraham Lincoln, apocryphally</span></div>
+        <div class="card-quote">"I drink to make other people more interesting." <span class="card-quote-attr">— Ernest Hemingway</span></div>
         <div class="card-pills">
           <span class="pill">Cocktails</span>
           <span class="pill">Alcohol Free</span>
@@ -176,7 +176,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-quote">"Beer is proof that God loves us and wants us to be happy." <span class="card-quote-attr">— Benjamin Franklin, also apocryphally</span></div>
+        <div class="card-quote">"Beer is proof that God loves us and wants us to be happy." <span class="card-quote-attr">— Benjamin Franklin</span></div>
         <div class="card-pills">
           <span class="pill">Local DC &amp; VA</span>
           <span class="pill">Belgian</span>
@@ -273,7 +273,11 @@ const SECTION_URLS = {
   'Irish': 'whisky.html',
   'Other': 'whisky.html',
   'Beer & Cider': 'beer.html',
-  'Afters': 'afters.html'
+  'Afters': 'afters.html',
+  'House Cocktails': 'cocktails.html',
+  'Alcohol Free': 'cocktails.html',
+  'Dessert Cocktails': 'cocktails.html',
+  'Classic Cocktails': 'cocktails.html'
 };
 
 const SECTION_LABELS = {
@@ -284,7 +288,11 @@ const SECTION_LABELS = {
   'Irish': 'Whisky · Irish',
   'Other': 'Whisky · Other',
   'Beer & Cider': 'Beer & Cider',
-  'Afters': 'Afters'
+  'Afters': 'Afters',
+  'House Cocktails': 'Cocktails · House',
+  'Alcohol Free': 'Cocktails · Alcohol Free',
+  'Dessert Cocktails': 'Cocktails · Dessert',
+  'Classic Cocktails': 'Cocktails · Classics'
 };
 
 function normalize(str) {
@@ -314,9 +322,7 @@ function handleSearch() {
   const terms = normalize(q).split(/\s+/).filter(Boolean);
   const matches = ALL_BAR.filter(item => {
     const haystack = normalize([
-      item.producer, item.name, item.cat, item.detail, item.type,
-      (item.notes || []).join(' '), item.tableside, item.story,
-      (item.trivia || []).join(' ')
+      item.producer, item.name, item.cat, item.type
     ].join(' '));
     return terms.every(t => haystack.includes(t));
   });
@@ -331,7 +337,8 @@ function handleSearch() {
 
   results.innerHTML = matches.map(item => {
     const baseUrl = SECTION_URLS[item.cat] || 'whisky.html';
-    const url = baseUrl + '#card-' + item.id;
+    const usesParam = baseUrl === 'cocktails.html' || baseUrl === 'beer.html';
+    const url = usesParam ? `${baseUrl}?open=${item.id}` : `${baseUrl}#card-${item.id}`;
     const fullName = [item.producer, item.name].filter(Boolean).join(' ');
     const sectionLabel = SECTION_LABELS[item.cat] || item.cat;
     return `<a class="result-card" href="${url}">

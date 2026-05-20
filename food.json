@@ -2621,15 +2621,21 @@
     "afters_pairings": [
       {
         "name": "Nonino Amaro",
-        "why": "The grappa base and honey character of Nonino complement the dark chocolate and espresso without competing with them. A more complex choice than a standard dessert wine for guests who want something to sip alongside."
+        "why": "The grappa base and honey character of Nonino complement the dark chocolate and espresso without competing with them. A more complex choice than a standard dessert wine for guests who want something to sip alongside.",
+        "price": 20,
+        "afters_id": "141"
       },
       {
         "name": "Hennessy VS",
-        "why": "The light fruit and vanilla of Hennessy VS echoes the ice cream and hot fudge. Easy, approachable, and a natural after-dinner pour for guests who want something simple."
+        "why": "The light fruit and vanilla of Hennessy VS echoes the ice cream and hot fudge. Easy, approachable, and a natural after-dinner pour for guests who want something simple.",
+        "price": 12,
+        "afters_id": "164"
       },
       {
         "name": "Graham's 10 Year Tawny",
-        "why": "The dried fruit and caramel notes of the 10 Year Tawny mirror the dark chocolate and coffee elements in the sundae. A classic dessert pairing."
+        "why": "The dried fruit and caramel notes of the 10 Year Tawny mirror the dark chocolate and coffee elements in the sundae. A classic dessert pairing.",
+        "price": 12,
+        "afters_id": "160"
       }
     ],
     "file": "dessert"
@@ -2708,11 +2714,15 @@
     "afters_pairings": [
       {
         "name": "Di Majo Norante Apianae Moscato",
-        "why": "The Moscato's floral peach and apricot character mirrors the berry and lavender in the dessert. Light and sweet without overwhelming the delicate mousse."
+        "why": "The Moscato's floral peach and apricot character mirrors the berry and lavender in the dessert. Light and sweet without overwhelming the delicate mousse.",
+        "price": 14,
+        "afters_id": "158"
       },
       {
         "name": "Dolin Blanc",
-        "why": "The soft sweetness and floral vanilla notes of the Dolin Blanc complement the white chocolate mousse while the light herbal character echoes the lavender in the sorbet."
+        "why": "The soft sweetness and floral vanilla notes of the Dolin Blanc complement the white chocolate mousse while the light herbal character echoes the lavender in the sorbet.",
+        "price": 9,
+        "afters_id": "149"
       }
     ],
     "file": "dessert"
@@ -2791,15 +2801,22 @@
     "afters_pairings": [
       {
         "name": "Ardbeg Uigeadail",
-        "why": "The peated Scotch against smoked chocolate is one of the more unexpected and genuinely impressive pairings on the menu. The peat and smoke echo each other, while Uigeadail's dark fruit and sherry notes play off the torte's sweetness. For adventurous guests only."
+        "why": "The peated Scotch against smoked chocolate is one of the more unexpected and genuinely impressive pairings on the menu. The peat and smoke echo each other, while Uigeadail's dark fruit and sherry notes play off the torte's sweetness. For adventurous guests only.",
+        "price": 27,
+        "afters_id": "99",
+        "afters_page": "whisky.html"
       },
       {
         "name": "Fernet Branca",
-        "why": "The intense herbal bitterness of Fernet cuts through the richness of the chocolate and peanut butter, refreshing the palate between bites. A classic digestivo pairing for heavy chocolate desserts."
+        "why": "The intense herbal bitterness of Fernet cuts through the richness of the chocolate and peanut butter, refreshing the palate between bites. A classic digestivo pairing for heavy chocolate desserts.",
+        "price": 10,
+        "afters_id": "146"
       },
       {
         "name": "Hennessy VSOP",
-        "why": "The warm spice and dried fruit of the VSOP complement the smoked chocolate and meringue. A more approachable pairing for guests who want something familiar."
+        "why": "The warm spice and dried fruit of the VSOP complement the smoked chocolate and meringue. A more approachable pairing for guests who want something familiar.",
+        "price": 20,
+        "afters_id": "165"
       }
     ],
     "file": "dessert"
@@ -2884,11 +2901,15 @@
     "afters_pairings": [
       {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "The 20 Year's dried fruit, walnut, and orange peel character mirrors the port cherry reduction in the strudel. A natural pairing — the same flavor language on both sides of the plate."
+        "why": "The 20 Year's dried fruit, walnut, and orange peel character mirrors the port cherry reduction in the strudel. A natural pairing — the same flavor language on both sides of the plate.",
+        "price": 19,
+        "afters_id": "161"
       },
       {
         "name": "Nonino Amaro",
-        "why": "The honey, saffron, and dried fruit of the Nonino complement the cherry and chocolate without competing. A lighter, more aromatic choice than port for guests who want complexity without additional sweetness."
+        "why": "The honey, saffron, and dried fruit of the Nonino complement the cherry and chocolate without competing. A lighter, more aromatic choice than port for guests who want complexity without additional sweetness.",
+        "price": 20,
+        "afters_id": "141"
       }
     ],
     "file": "dessert"
@@ -2957,15 +2978,21 @@
     "afters_pairings": [
       {
         "name": "Doisey-Vedrines Sauternes",
-        "why": "Sauternes with cheese board is one of the great classic pairings in all of gastronomy. The botrytized sweetness and acidity cuts through the richness of the cheese while honey and apricot notes complement aged and blue varieties especially well."
+        "why": "Sauternes with cheese board is one of the great classic pairings in all of gastronomy. The botrytized sweetness and acidity cuts through the richness of the cheese while honey and apricot notes complement aged and blue varieties especially well.",
+        "price": 17,
+        "afters_id": "159"
       },
       {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "Tawny port and cheese is a classic British pairing. The 20 Year's dried fruit and nut character works with a wide range of cheese styles, from aged cheddar to blue."
+        "why": "Tawny port and cheese is a classic British pairing. The 20 Year's dried fruit and nut character works with a wide range of cheese styles, from aged cheddar to blue.",
+        "price": 19,
+        "afters_id": "161"
       },
       {
         "name": "Montenegro Amaro",
-        "why": "A lighter, more unexpected choice. The orange and floral character of Montenegro acts as a palate cleanser between cheese varieties and keeps the course feeling fresh rather than heavy."
+        "why": "A lighter, more unexpected choice. The orange and floral character of Montenegro acts as a palate cleanser between cheese varieties and keeps the course feeling fresh rather than heavy.",
+        "price": 13,
+        "afters_id": "140"
       }
     ],
     "file": "dessert"
@@ -3034,11 +3061,15 @@
     "afters_pairings": [
       {
         "name": "Di Majo Norante Apianae Moscato",
-        "why": "The Moscato's tropical peach and orange blossom character mirrors the mango and pineapple sorbets. Light, sweet, and dairy-free — works on every level for this pairing."
+        "why": "The Moscato's tropical peach and orange blossom character mirrors the mango and pineapple sorbets. Light, sweet, and dairy-free — works on every level for this pairing.",
+        "price": 14,
+        "afters_id": "158"
       },
       {
         "name": "Montenegro Amaro",
-        "why": "The orange and light bitterness of Montenegro acts as a digestive bridge between the sweet sorbet and the end of the meal. A gentle, approachable finish."
+        "why": "The orange and light bitterness of Montenegro acts as a digestive bridge between the sweet sorbet and the end of the meal. A gentle, approachable finish.",
+        "price": 13,
+        "afters_id": "140"
       }
     ],
     "file": "dessert"

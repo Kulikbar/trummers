@@ -54,7 +54,7 @@
   .filter-btn.active { background: var(--gold); border-color: var(--gold); color: var(--bg); }
 
   /* Allergen filter */
-  .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 4px; }
+  .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-top: 5px; padding-bottom: 2px; margin-bottom: 4px; }
   .allergen-row::-webkit-scrollbar { display: none; }
   .allergen-btn { position: relative; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 12px; cursor: pointer; transition: all 0.2s; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
   .allergen-btn.strict { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 500; }
@@ -288,12 +288,13 @@ function buildBanner() {
   const wrap = document.getElementById('tonight-banner-wrap');
   const feature = DAILY_FEATURES[day];
   if (feature) {
-    wrap.innerHTML = `<div class="tonight-banner" style="margin:0.75rem 1rem 0;">
+    wrap.innerHTML = `<div class="tonight-banner" style="margin:0.75rem 1rem 0;cursor:pointer;" onclick="toggleCard('${feature.id}')">
       <div class="tonight-dot"></div>
       <div>
         <div class="tonight-label">Tonight from the Rotisserie</div>
         <div class="tonight-name">${feature.name}</div>
         <div class="tonight-detail">${feature.detail} · served with duck fat potatoes · limited availability</div>
+        <div class="tonight-link" style="font-size:11px;color:var(--gold-dim);margin-top:3px;">View dish details →</div>
       </div>
     </div>`;
   } else {
@@ -437,8 +438,7 @@ function render() {
     const dishes = grouped[cat];
     if (!dishes || !dishes.length) continue;
     const anchor = CAT_ANCHORS[cat] || '';
-    html += `<div class="section-head">
-      ${anchor ? `<span id="${anchor}" style="display:block;position:relative;top:0;visibility:hidden;"></span>` : ''}
+    html += `${anchor ? `<span id="${anchor}" style="display:block;visibility:hidden;height:0;"></span>` : ''}<div class="section-head">
       <span class="section-name">${cat}</span>
       ${SECTION_INTROS[cat] ? `<div class="section-intro">${SECTION_INTROS[cat]}</div>` : ''}
     </div>`;
@@ -603,6 +603,17 @@ fetch('food.json')
         document.querySelectorAll('[id^="sec-"], [id^="card-"]').forEach(el => {
           el.style.scrollMarginTop = px;
         });
+      }
+      // Auto-open card from URL param e.g. ?open=d21
+      const params = new URLSearchParams(window.location.search);
+      const openParam = params.get('open');
+      if (openParam) {
+        openId = openParam;
+        render();
+        setTimeout(() => {
+          const el = document.getElementById('card-' + openParam);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
       }
     });
   })

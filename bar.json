@@ -5202,7 +5202,7 @@
     "type": "amaro",
     "producer": "Montenegro",
     "name": "",
-    "detail": "Italy · 23% · Amaro · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 23% · Amaro",
     "abv": 23,
     "price": 13,
     "allocated": false,
@@ -5217,7 +5217,7 @@
       "Floral",
       "Gentle spice"
     ],
-    "tableside": "Montenegro is the gateway amaro — the lightest and most approachable on the list. Sweet orange, vanilla, floral notes, with just enough bitterness to be interesting. If a guest has never had amaro, this is where to start. Best on the rocks with a lemon twist.",
+    "tableside": "Montenegro is the gateway amaro — the lightest and most approachable on the list. Sweet orange, vanilla, floral notes, with just enough bitterness to be interesting. If a guest has never had amaro, this is where to start.",
     "pairings": [
       "Light citrus desserts",
       "Vanilla gelato",
@@ -5238,7 +5238,7 @@
     "type": "amaro",
     "producer": "Nonino",
     "name": "",
-    "detail": "Italy · 35% · Amaro · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 35% · Amaro",
     "abv": 35,
     "price": 20,
     "allocated": false,
@@ -5275,7 +5275,7 @@
     "type": "amaro",
     "producer": "Artmesia Farms",
     "name": "Nocino",
-    "detail": "USA · 30% · Walnut Liqueur · Recommended on the rocks with lemon twist",
+    "detail": "USA · 30% · Walnut Liqueur",
     "abv": 30,
     "price": 10,
     "allocated": false,
@@ -5311,7 +5311,7 @@
     "type": "amaro",
     "producer": "Amaro y Aroro",
     "name": "",
-    "detail": "USA · 30% · Amaro · Recommended on the rocks with lemon twist",
+    "detail": "USA · 30% · Amaro",
     "abv": 30,
     "price": 12,
     "allocated": false,
@@ -5347,7 +5347,7 @@
     "type": "amaro",
     "producer": "Cynar",
     "name": "",
-    "detail": "Italy · 16.5% · Artichoke Amaro · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 16.5% · Artichoke Amaro",
     "abv": 16.5,
     "price": 11,
     "allocated": false,
@@ -5383,7 +5383,7 @@
     "type": "amaro",
     "producer": "Don Ciccio",
     "name": "Don Fernet",
-    "detail": "Washington DC · 40% · Fernet-Style Amaro · Recommended on the rocks with lemon twist",
+    "detail": "Washington DC · 40% · Fernet-Style Amaro",
     "abv": 40,
     "price": 14,
     "allocated": false,
@@ -5419,7 +5419,7 @@
     "type": "amaro",
     "producer": "Fernet Branca",
     "name": "",
-    "detail": "Italy · 39% · Fernet · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 39% · Fernet",
     "abv": 39,
     "price": 10,
     "allocated": false,
@@ -5455,7 +5455,7 @@
     "type": "vermouth",
     "producer": "Di9Dante",
     "name": "Purgatorio Extra-Dry",
-    "detail": "Italy · 18% · Extra-Dry Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 18% · Extra-Dry Vermouth",
     "abv": 18,
     "price": 9,
     "allocated": false,
@@ -5470,7 +5470,7 @@
       "Light citrus",
       "Clean"
     ],
-    "tableside": "Di9Dante Purgatorio is an Italian extra-dry vermouth — bone dry, herbal, and floral. Great as a standalone digestivo on the rocks with a lemon twist, and it's the vermouth that appears in the Ye Who Enter Here cocktail. For guests who enjoy dry martinis, this is the conversation to have.",
+    "tableside": "Di9Dante Purgatorio is an Italian extra-dry vermouth, bone dry, herbal, and floral. One of the more interesting standalone digestivos on the list, and the vermouth that appears in the Ye Who Enter Here cocktail. For guests who enjoy dry martinis, this is the conversation to have.",
     "pairings": [
       "Olives",
       "Mild seafood",
@@ -5491,7 +5491,7 @@
     "type": "vermouth",
     "producer": "Dolin",
     "name": "Dry",
-    "detail": "France · 17.5% · Dry Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "France · 17.5% · Dry Vermouth",
     "abv": 17.5,
     "price": 9,
     "allocated": false,
@@ -5527,7 +5527,7 @@
     "type": "vermouth",
     "producer": "Dolin",
     "name": "Blanc",
-    "detail": "France · 17.5% · Blanc Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "France · 17.5% · Blanc Vermouth",
     "abv": 17.5,
     "price": 9,
     "allocated": false,
@@ -5563,7 +5563,7 @@
     "type": "vermouth",
     "producer": "Alois & Manfred",
     "name": "Alfred Semi-Dry",
-    "detail": "Austria · 18% · Semi-Dry Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Austria · 18% · Semi-Dry Vermouth",
     "abv": 18,
     "price": 11,
     "allocated": false,
@@ -5599,7 +5599,7 @@
     "type": "vermouth",
     "producer": "Poli",
     "name": "Bianco",
-    "detail": "Italy · 16% · Bianco Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 16% · Bianco Vermouth",
     "abv": 16,
     "price": 8,
     "allocated": false,
@@ -5635,7 +5635,7 @@
     "type": "vermouth",
     "producer": "Furlani",
     "name": "Bianco",
-    "detail": "Italy · 17% · Bianco Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 17% · Bianco Vermouth",
     "abv": 17,
     "price": 13,
     "allocated": false,
@@ -5672,7 +5672,7 @@
     "type": "vermouth",
     "producer": "Vittore",
     "name": "Blanc",
-    "detail": "Spain · 15% · Blanc Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Spain · 15% · Blanc Vermouth",
     "abv": 15,
     "price": 7,
     "allocated": false,
@@ -5708,7 +5708,7 @@
     "type": "vermouth",
     "producer": "Rockwell",
     "name": "Amber",
-    "detail": "USA · 18% · Amber Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "USA · 18% · Amber Vermouth",
     "abv": 18,
     "price": 8,
     "allocated": false,
@@ -5744,7 +5744,7 @@
     "type": "vermouth",
     "producer": "Dolin",
     "name": "Rouge",
-    "detail": "France · 16% · Sweet Red Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "France · 16% · Sweet Red Vermouth",
     "abv": 16,
     "price": 9,
     "allocated": false,
@@ -5781,7 +5781,7 @@
     "type": "vermouth",
     "producer": "Poli",
     "name": "Rosso",
-    "detail": "Italy · 16% · Sweet Red Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 16% · Sweet Red Vermouth",
     "abv": 16,
     "price": 8,
     "allocated": false,
@@ -5818,7 +5818,7 @@
     "type": "vermouth",
     "producer": "Di9Dante",
     "name": "Inferno Rosso",
-    "detail": "Italy · 18% · Sweet Red Vermouth · Recommended on the rocks with lemon twist",
+    "detail": "Italy · 18% · Sweet Red Vermouth",
     "abv": 18,
     "price": 9,
     "allocated": false,
@@ -6062,7 +6062,7 @@
       "Dried fig",
       "Profound complexity"
     ],
-    "tableside": "The pinnacle of the Graham's range — 40 years of oxidative aging in small oak barrels. This is the most contemplative pour in the restaurant. Not for the casual guest, but for someone who appreciates what time and craft can produce. A once-in-a-visit experience at $52.",
+    "tableside": "The pinnacle of the Graham's range. Forty years of oxidative aging in small oak barrels. The complexity here is genuinely different from the 30 Year — rancio character, dried orange peel, ancient wood. Not for every table, but for someone who appreciates what time produces. At $52 a glass, worth bringing up when the moment is right.",
     "pairings": [
       "Cheese Board",
       "Espresso",
@@ -6217,11 +6217,11 @@
       "Prosecco",
       "Lightly sweet"
     ],
-    "tableside": "This is the signature cocktail. Ciroc vodka shaken with muddled grapes and elderflower syrup, served in a martini glass over a prosecco sorbet, then topped with prosecco. The sorbet melts slowly and changes the drink as you sip it. On the sweeter side — worth mentioning for guests who prefer drier drinks.",
-    "story": "The Titanic is the drink Trummer's is known for. The prosecco sorbet is the element that makes it memorable — it keeps the drink cold while gradually transforming its texture and sweetness as it melts. The elderflower bridges the grape and the prosecco without being heavy. A genuinely fun and theatrical cocktail that photographs well and surprises guests who haven't had it.",
+    "tableside": "This is the signature cocktail. Ciroc vodka shaken with muddled grapes and elderflower syrup, served in a martini glass over a prosecco sorbet, then topped with prosecco. The sorbet melts slowly and changes the drink as you sip it. On the sweeter side - worth mentioning for guests who prefer a more balanced cocktail.",
+    "story": "The Titanic is the drink Trummer's is known for. The prosecco sorbet is the element that makes it memorable - it keeps the drink cold while gradually transforming its texture and sweetness as it melts. The elderflower bridges the grape and the prosecco without being heavy. A genuinely fun and theatrical cocktail that photographs well and surprises guests who haven't had it.",
     "trivia": [
-      "The prosecco sorbet is made in house and is what separates the Titanic from a standard vodka elderflower cocktail. The melting sorbet creates a slowly evolving drink — the first sip and the last taste genuinely different.",
-      "Ciroc is one of the only major vodka brands made from grapes rather than grain — Ciroc uses French Mauzac Blanc and Ugni Blanc grapes from the Gaillac region. This makes it a natural fit alongside muddled grapes and prosecco.",
+      "The prosecco sorbet is made in house and is what separates the Titanic from a standard vodka elderflower cocktail. The melting sorbet creates a slowly evolving drink - the first sip and the last taste genuinely different.",
+      "Ciroc is one of the only major vodka brands made from grapes rather than grain - Ciroc uses French Mauzac Blanc and Ugni Blanc grapes from the Gaillac region. This makes it a natural fit alongside muddled grapes and prosecco.",
       "Elderflower has been used in European cordials and liqueurs for centuries. The delicate floral flavor comes from Sambucus nigra flowers, which bloom briefly in late spring and must be harvested quickly."
     ],
     "pairings": [],
@@ -6256,11 +6256,11 @@
       "Citrus",
       "Warm spice"
     ],
-    "tableside": "Bourbon shaken with fresh-pressed lime juice and our house-made honey and cinnamon syrups, served in a coupe. Garnished with a piece of cinnamon stick on top. On the sweeter side — worth flagging for guests who want something drier.",
+    "tableside": "Bourbon shaken with fresh-pressed lime juice and our house-made honey and cinnamon syrups, served in a coupe. Garnished with a piece of cinnamon stick on top. On the sweeter side - worth flagging for guests who prefer a more balanced cocktail.",
     "story": "Named after Trummer's address on Main Street in Clifton. The bourbon provides depth and warmth, the honey and cinnamon syrups are made in house, and the lime keeps it from tipping into cloying. The cinnamon garnish is a piece of actual cinnamon stick, not powder.",
     "trivia": [
       "Both the honey and cinnamon syrups in Main Street are house-made. The cinnamon syrup uses whole cinnamon sticks steeped in simple syrup rather than ground cinnamon, which produces a cleaner, more aromatic flavor.",
-      "Fresh-pressed lime juice behaves differently from bottled lime juice in cocktails — it has more volatile aromatic compounds that evaporate quickly, which is why freshly pressed citrus is considered non-negotiable in serious cocktail programs.",
+      "Fresh-pressed lime juice behaves differently from bottled lime juice in cocktails - it has more volatile aromatic compounds that evaporate quickly, which is why freshly pressed citrus is considered non-negotiable in serious cocktail programs.",
       "Bourbon's sweetness comes primarily from the corn mash bill and the vanilla and caramel compounds extracted from new charred oak barrels. It pairs naturally with honey and cinnamon because those flavors echo what's already in the spirit."
     ],
     "pairings": [],
@@ -6295,12 +6295,12 @@
       "Warm spice",
       "Silky foam"
     ],
-    "tableside": "An egg white sour built around Jägermeister. The strawberry vermouth and house-made glühwein reduction serve as the sweetener — warm spice and red fruit rather than simple sugar. Served in a coupe with the silky foam top that an egg white gives.",
-    "story": "The sour template — spirit, citrus, sweetener — is one of the oldest structures in cocktail making. Trummer's Sour takes that template and swaps in Jägermeister as the spirit and the glühwein reduction as the sweetener, which gives it a deeply herbal, wintery character unlike a standard sour.",
+    "tableside": "An egg white sour built around Jägermeister. The strawberry vermouth and house-made glühwein reduction serve as the sweetener - warm spice and red fruit rather than simple sugar. Served in a coupe with the silky foam top that an egg white gives.",
+    "story": "The sour template - spirit, citrus, sweetener - is one of the oldest structures in cocktail making. The Trummer's Sour takes that template and swaps in Jägermeister as the spirit and the glühwein reduction as the sweetener, which gives it a deeply herbal, wintery character unlike a standard sour.",
     "trivia": [
       "Jägermeister is made from 56 herbs, fruits, roots, and spices including cinnamon bark, star anise, ginger root, and bitter orange peel. It is aged in oak for a year before bottling.",
-      "The glühwein reduction is made in house by reducing spiced red wine — removing the alcohol while concentrating the warm spice, red fruit, and body of mulled wine into a syrup.",
-      "Dry shaking — shaking without ice before adding ice — is the technique used to build foam in egg white cocktails. The absence of ice means the egg white gets more mechanical agitation, producing a denser, more stable foam."
+      "The glühwein reduction is made in house by reducing spiced red wine - removing the alcohol while concentrating the warm spice, red fruit, and body of mulled wine into a syrup.",
+      "Dry shaking - shaking without ice before adding ice - is the technique used to build foam in egg white cocktails. The absence of ice means the egg white gets more mechanical agitation, producing a denser, more stable foam."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6334,11 +6334,11 @@
       "Citrus",
       "Balanced"
     ],
-    "tableside": "Inspired by a gimlet. Boodles gin shaken with fresh lime, elderflower syrup, and fresh sage leaves thrown into the tin with everything else. Poured into a coupe and garnished with a sage leaf. The most balanced cocktail on the menu — not too sweet, not too citrus-forward. My go-to recommendation when someone wants something elegant and not too sweet.",
+    "tableside": "Boodles gin shaken with fresh lime, elderflower syrup, and fresh sage leaves thrown into the tin with everything else. Poured into a coupe and garnished with a sage leaf. Similar in structure to a gimlet but more floral and herbal. The most balanced cocktail on the menu - a good recommendation when someone wants something not too sweet.",
     "story": "The sage goes into the shaker with everything else, which means the oils from the leaves infuse into the drink rather than just sitting on top as garnish. Boodles is an English gin that lets the botanicals do the work without an aggressive juniper-forward character.",
     "trivia": [
-      "A gimlet is traditionally gin and lime cordial — the use of fresh-pressed lime juice and the addition of elderflower and sage makes this a contemporary riff on the classic rather than a strict interpretation.",
-      "Boodles British Gin is one of the few major gins that contains no citrus peel in its botanical recipe — the rounder, softer profile works particularly well with fresh citrus.",
+      "A gimlet is traditionally gin and lime cordial - the use of fresh-pressed lime juice and the addition of elderflower and sage makes this a contemporary take on that structure.",
+      "Boodles British Gin is one of the few major gins that contains no citrus peel in its botanical recipe - the rounder, softer profile works particularly well with fresh citrus.",
       "Sage contains volatile oils including camphor, cineole, and thujone that are released when the leaves are agitated in a shaker. The result is herbal without being sharp."
     ],
     "pairings": [],
@@ -6371,10 +6371,10 @@
       "Herbal",
       "Spirit-forward"
     ],
-    "tableside": "A house Manhattan served up. Buffalo Trace stirred with Di9Dante Inferno Rosso and Don Ciccio Don Fernet — both of which are also on the Afters menu. Dark, complex, spirit-forward. Named after the inscription above the gate of Hell in Dante's Inferno.",
-    "story": "The Di9Dante Inferno Rosso vermouth references Dante's Divine Comedy directly. As a house Manhattan, it takes the classic structure — bourbon, sweet vermouth, bitters — and uses two intensely bitter, herbal Italian products in place of standard sweet vermouth and Angostura. The result is darker and more challenging than a standard Manhattan.",
+    "tableside": "A house Manhattan served up. Buffalo Trace stirred with Di9Dante Inferno Rosso and Don Ciccio Don Fernet in place of standard sweet vermouth and bitters. Dark, complex, spirit-forward. Named after the inscription above the gate of Hell in Dante's Inferno.",
+    "story": "The Di9Dante Inferno Rosso vermouth references Dante's Divine Comedy directly. As a house Manhattan, it takes the classic structure - bourbon, sweet vermouth, bitters - and uses two intensely bitter, herbal Italian products in place of the standard versions. The result is darker and more challenging than a standard Manhattan.",
     "trivia": [
-      "Di9Dante Inferno Rosso is the most intensely bitter sweet red vermouth on the Afters list — named after the first canticle of Dante's Divine Comedy. Both it and the Don Fernet appear independently on the Afters menu.",
+      "Di9Dante Inferno Rosso is the most intensely bitter sweet red vermouth on the menu, named after the first canticle of Dante's Divine Comedy.",
       "Don Ciccio Don Fernet is made in Washington DC by Francesco Amodeo, a Neapolitan distiller who brought traditional Italian liqueur-making techniques to the American capital.",
       "The Manhattan cocktail was reportedly created at the Manhattan Club in New York City in the 1870s and is one of the oldest American cocktails still widely ordered."
     ],
@@ -6403,7 +6403,8 @@
     "icons": [
       "🏔️",
       "🌸",
-      "🍋"
+      "🍋",
+      "🥃"
     ],
     "notes": [
       "Smoky",
@@ -6411,11 +6412,11 @@
       "Citrus",
       "Spirit-forward"
     ],
-    "tableside": "Equal parts orange-infused tequila and mezcal, lavender simple syrup, and Angostura bitters, stirred and served on a large rock. The tequila is infused in house with orange peel. Floral and smoky at the same time — the lavender comes through on the nose, the mezcal on the finish.",
-    "story": "Floral Smoke sits in Old Fashioned territory — spirit-forward, stirred, served on a single large rock. The 50/50 split between orange-infused tequila and mezcal means neither dominates. The tequila carries the citrus and brightness, the mezcal brings smoke and depth, and the lavender syrup ties them together without making the drink feel sweet.",
+    "tableside": "Equal parts orange-infused tequila and mezcal, lavender simple syrup, and Angostura bitters, stirred and served on a large rock. The tequila is infused in house with orange peel. Floral and smoky at the same time - the lavender comes through on the nose, the mezcal on the finish.",
+    "story": "Floral Smoke sits in Old Fashioned territory - spirit-forward, stirred, served on a single large rock. The 50/50 split between orange-infused tequila and mezcal means neither dominates. The tequila carries the citrus and brightness, the mezcal brings smoke and depth, and the lavender syrup ties them together without making the drink feel sweet.",
     "trivia": [
-      "Orange-infused tequila is made by macerating orange peel directly in blanco tequila — the oils from the peel extract into the spirit over time, adding citrus character without adding juice or sweetness.",
-      "Lavender simple syrup is made by steeping dried lavender flowers in warm simple syrup. The key is restraint — too long and the floral note tips from elegant to soapy.",
+      "Orange-infused tequila is made by macerating orange peel directly in blanco tequila - the oils from the peel extract into the spirit over time, adding citrus character without adding juice or sweetness.",
+      "Lavender simple syrup is made by steeping dried lavender flowers in warm simple syrup. The key is restraint - too long and the floral note tips from elegant to soapy.",
       "Angostura bitters were created in 1824 in Venezuela by Dr. Johann Gottlieb Benjamin Siegert. Despite containing over 40 botanicals, the exact recipe remains a closely held family secret."
     ],
     "pairings": [],
@@ -6438,7 +6439,7 @@
       "Blanco tequila",
       "Fresh lime juice",
       "Dry curaçao",
-      "Hibiscus syrup",
+      "Hibiscus",
       "Jalapeño and cilantro ice sphere",
       "Candied orange peel"
     ],
@@ -6453,12 +6454,12 @@
       "Building heat",
       "Theatrical"
     ],
-    "tableside": "Blanco tequila, lime, dry curaçao, and hibiscus syrup, poured tableside over a jalapeño and cilantro ice sphere topped with candied orange peel. The drink gets spicier as the ice melts into it — the heat builds slowly throughout. One of the more theatrical pours on the menu.",
-    "story": "The jalapeño and cilantro ice sphere is made in house. The heat and herbal character are locked inside the ice and release gradually into the drink as it melts, which means no two sips are the same. Structurally it follows the Margarita template — blanco tequila, lime, orange liqueur — but the tableside pour and the evolving heat make it genuinely unique.",
+    "tableside": "Blanco tequila, lime, dry curaçao, and hibiscus, poured tableside over a jalapeño and cilantro ice sphere topped with candied orange peel. The drink gets spicier as the ice melts into it - the heat builds slowly throughout. One of the more theatrical pours on the menu.",
+    "story": "The jalapeño and cilantro ice sphere is made in house. The heat and herbal character are locked inside the ice and release gradually into the drink as it melts, which means no two sips are the same. Structurally it follows the Margarita template - blanco tequila, lime, orange liqueur - but the tableside pour and the evolving heat make it genuinely unique.",
     "trivia": [
       "Dry curaçao is made from dried bitter orange peel from the island of Curaçao in the Dutch Caribbean. More complex and less sweet than standard triple sec, it adds orange depth and a slight bitterness that prevents the drink from tipping into sweetness.",
-      "Blanco tequila is unaged or minimally aged — the agave flavor comes through most cleanly in blanco expressions because it hasn't been modified by oak.",
-      "Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly — which produces immediate, hard-to-control heat — the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."
+      "Blanco tequila is unaged or minimally aged - the agave flavor comes through most cleanly in blanco expressions because it hasn't been modified by oak.",
+      "Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly - which produces immediate, hard-to-control heat - the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6510,7 +6511,7 @@
     "star": false,
     "glass": "Collins glass",
     "ingredients": [
-      "Fresh pineapple",
+      "Pineapple juice",
       "Mint",
       "Fresh lime juice",
       "Clove syrup",
@@ -6527,12 +6528,12 @@
       "Warm spice",
       "Bright"
     ],
-    "tableside": "Fresh pineapple and mint muddled together, shaken with lime and house-made clove syrup, then topped with club soda and served in a Collins glass. Tropical and bright with a warm spice finish from the clove. One of the more interesting mocktails on the menu.",
-    "story": "The clove syrup is what separates this from a standard pineapple mint cooler. Clove adds a depth and warmth that makes the drink feel more considered — it reads tropical on the top and quietly spiced underneath. The mint goes in the shaker rather than just as garnish, so the herbal note is built into the drink.",
+    "tableside": "Pineapple juice and mint shaken with lime and house-made clove syrup, then topped with club soda and served in a Collins glass. Tropical and bright with a warm spice finish from the clove. One of the more interesting mocktails on the menu.",
+    "story": "The clove syrup is what separates this from a standard pineapple mint cooler. Clove adds a depth and warmth that makes the drink feel more considered - it reads tropical on the top and quietly spiced underneath. The mint goes in the shaker rather than just as garnish, so the herbal note is built into the drink.",
     "trivia": [
-      "Clove is one of the most aromatic spices in the world — its primary compound, eugenol, is also used in dentistry as a natural analgesic. A small amount in a syrup adds warmth without bitterness.",
-      "Pineapple contains bromelain, an enzyme that breaks down proteins. When muddled, the fresh juice integrates differently than bottled pineapple juice, which has been heat-treated and no longer contains active bromelain.",
-      "The mojito template — muddled herb, citrus, sweetener, soda — is one of the oldest mocktail-friendly structures in bartending because it relies on fresh ingredients rather than spirit to carry the flavor."
+      "Clove is one of the most aromatic spices in the world - its primary compound, eugenol, is also used in dentistry as a natural analgesic. A small amount in a syrup adds warmth without bitterness.",
+      "Pineapple juice carries the tropical brightness and natural sweetness of the fruit in a consistent, ready-to-shake form - the clove syrup provides the counterweight that keeps the drink from reading as simple fruit punch.",
+      "The mojito template - muddled herb, citrus, sweetener, soda - is one of the oldest mocktail-friendly structures in bartending because it relies on fresh ingredients rather than spirit to carry the flavor."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6565,12 +6566,12 @@
       "Spice",
       "Complex"
     ],
-    "tableside": "DHOS Bittersweet with yuzu and jalapeño, served on the rocks. Bitter, citrusy, and spicy — this is the mocktail for the guest who would otherwise order a Negroni. Not sweet, not fruity. More complex than most alcohol-free options.",
-    "story": "Hot to Trot is built around DHOS Bittersweet, a non-alcoholic botanical spirit designed specifically to replicate the bitter, aromatic profile of classic aperitivo spirits. The yuzu — a Japanese citrus fruit with more complexity than lemon — provides acid and brightness, and the jalapeño adds a clean, direct heat. The result is genuinely spirit-forward for a non-alcoholic drink.",
+    "tableside": "DHOS Bittersweet with yuzu and jalapeño, served on the rocks. Bitter, citrusy, and spicy - this is the mocktail for the guest who would otherwise order a Negroni. Not sweet, not fruity. More complex than most alcohol-free options.",
+    "story": "Hot to Trot is built around DHOS Bittersweet, a non-alcoholic botanical spirit designed specifically to replicate the bitter, aromatic profile of classic aperitivo spirits. The yuzu - a Japanese citrus fruit with more complexity than lemon - provides acid and brightness, and the jalapeño adds a clean, direct heat. The result is genuinely spirit-forward for a non-alcoholic drink.",
     "trivia": [
       "DHOS stands for Drink Healthy, Outstanding Spirits. The Bittersweet expression uses gentian root, bitter orange peel, and other botanicals to replicate aperitivo character without alcohol.",
-      "Yuzu is a citrus fruit used widely in Japanese and Korean cooking. The juice has more aromatic complexity than lemon or lime — closer to a cross between grapefruit, mandarin, and lemon — which makes it particularly effective in drinks where citrus needs to do heavy lifting.",
-      "Capsaicin, the compound responsible for jalapeño heat, binds to pain receptors rather than taste receptors — which is why heat from a cocktail is felt as a physical sensation rather than a flavor in the traditional sense."
+      "Yuzu is a citrus fruit used widely in Japanese and Korean cooking. The juice has more aromatic complexity than lemon or lime - closer to a cross between grapefruit, mandarin, and lemon - which makes it particularly effective in drinks where citrus needs to do heavy lifting.",
+      "Capsaicin, the compound responsible for jalapeño heat, binds to pain receptors rather than taste receptors - which is why heat from a cocktail is felt as a physical sensation rather than a flavor in the traditional sense."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6602,7 +6603,7 @@
       "Light",
       "Elegant"
     ],
-    "tableside": "The alcohol-free version of the Sage cocktail. Elderflower syrup shaken with fresh sage leaves and topped with club soda, served in a coupe. Floral and herbal — a sophisticated mocktail for guests who want something that doesn't feel like a juice drink.",
+    "tableside": "The alcohol-free version of the Sage cocktail. Elderflower syrup shaken with fresh sage leaves and topped with club soda, served in a coupe. Floral and herbal - more sophisticated than most mocktail options.",
     "story": "The Green Giant mirrors the Sage cocktail without the gin. The sage leaves still go into the shaker so the herbal oils infuse into the drink.",
     "trivia": [
       "Elderflower syrup is made from the flowers of Sambucus nigra, the same plant used to make St-Germain liqueur. The flowers bloom for a short window in late spring and have a delicate, almost honeyed floral aroma.",
@@ -6640,11 +6641,11 @@
       "Light",
       "Refreshing"
     ],
-    "tableside": "The alcohol-free version of the Titanic. Muddled grapes and elderflower syrup poured over crushed ice in a coupe and topped with club soda. Lighter and more refreshing than the original — a good option for guests at a table ordering Titanics who want to stay alcohol-free.",
-    "story": "The Iceberg follows the same flavor logic as the Titanic — grape, elderflower, bubbles — without the vodka and prosecco sorbet. The crushed ice gives it a different texture and presentation than a standard mocktail.",
+    "tableside": "The alcohol-free version of the Titanic. Muddled grapes and elderflower syrup poured over crushed ice in a coupe and topped with club soda. Lighter and more refreshing than the original - the same grape and elderflower flavors without the vodka and sorbet.",
+    "story": "The Iceberg follows the same flavor logic as the Titanic - grape, elderflower, bubbles - without the vodka and prosecco sorbet. The crushed ice gives it a different texture and presentation than a standard mocktail.",
     "trivia": [
       "Muddling grapes releases both juice and the volatile aromatic compounds in the grape skin, producing a fresher, more complex flavor than using grape juice from a bottle.",
-      "Crushed ice melts faster than cubed ice, which means the drink dilutes more quickly. For a mocktail this is a feature — the water integration happens naturally as you drink."
+      "Crushed ice melts faster than cubed ice, which means the drink dilutes more quickly. For a mocktail this is a feature - the water integration happens naturally as you drink."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6678,12 +6679,12 @@
       "Fruity",
       "Refreshing"
     ],
-    "tableside": "A French non-alcoholic mimosa in a bottle — de-alcoholized white wine blended with natural orange flavoring and fine bubbles. Bright yellow with a slight cloudiness, intense citrus on the nose. Under 0.5% ABV, vegan, and gluten-free. Sold as a 750mL bottle — a different conversation than a single mocktail.",
-    "story": "The Nozeco Mimosa is a pre-bottled non-alcoholic take on the classic brunch cocktail. Rather than mixing sparkling wine with orange juice tableside, Nozeco blends de-alcoholized white wine with natural orange flavoring and fine bubbles in a single bottle. The result captures the color, fizz, and citrus character of a mimosa without any alcohol — produced in France by Les Grands Chais de France, one of the country's largest wine producers.",
+    "tableside": "A French non-alcoholic mimosa in a bottle - de-alcoholized white wine blended with natural orange flavoring and fine bubbles. Bright yellow with a slight cloudiness, intense citrus on the nose. Under 0.5% ABV, vegan, and gluten-free. Sold as a 750mL bottle - a different conversation than a single mocktail.",
+    "story": "The Nozeco Mimosa is a pre-bottled non-alcoholic take on the classic brunch cocktail. Rather than mixing sparkling wine with orange juice tableside, Nozeco blends de-alcoholized white wine with natural orange flavoring and fine bubbles in a single bottle. The result captures the color, fizz, and citrus character of a mimosa without any alcohol - produced in France by Les Grands Chais de France, one of the country's largest wine producers.",
     "trivia": [
-      "The Nozeco Mimosa contains under 0.5% ABV — the same threshold used across the European Union to classify a drink as non-alcoholic. For reference, ripe bananas naturally contain up to 0.6% ABV.",
+      "The Nozeco Mimosa contains under 0.5% ABV - the same threshold used across the European Union to classify a drink as non-alcoholic. For reference, ripe bananas naturally contain up to 0.6% ABV.",
       "Les Grands Chais de France, the producer behind Nozeco, manages over 3,700 hectares of vineyards across multiple French regions and is one of the largest private wine producers in the country.",
-      "De-alcoholized wine retains the aromatic compounds from the original fermentation but has the alcohol removed through vacuum distillation — preserving flavor at low temperature without heat damage."
+      "De-alcoholized wine retains the aromatic compounds from the original fermentation but has the alcohol removed through vacuum distillation - preserving flavor at low temperature without heat damage."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6716,12 +6717,12 @@
       "Floral",
       "Off-dry"
     ],
-    "tableside": "A German non-alcoholic Riesling from the Rheinhessen wine region. De-alcoholized through vacuum distillation using a spinning cones column — a precision process that strips the alcohol at low pressure without heat, preserving the Riesling character. Yellow stone fruits, mineral freshness, and a hint of residual sweetness. For guests who want to experience the wine program without alcohol. Sold as a 750mL bottle.",
-    "story": "Produced by Weinkellerei Hechtsheim in Mainz, Germany. The Rheinhessen is Germany's largest wine region, known for Riesling with expressive mineral and stone fruit character. After traditional winemaking and aging on fine lees, the wine is de-alcoholized using the spinning cones column method — centrifugal force creates a thin film of wine over cone-shaped surfaces in a vacuum, stripping alcohol without the heat damage of conventional distillation.",
+    "tableside": "A German non-alcoholic Riesling from the Rheinhessen wine region. De-alcoholized through vacuum distillation using a spinning cones column - a precision process that strips the alcohol at low pressure without heat, preserving the Riesling character. Yellow stone fruits, mineral freshness, and a hint of residual sweetness. For guests who want to experience the wine program without alcohol. Sold as a 750mL bottle.",
+    "story": "Produced by Weinkellerei Hechtsheim in Mainz, Germany. The Rheinhessen is Germany's largest wine region, known for Riesling with expressive mineral and stone fruit character. After traditional winemaking and aging on fine lees, the wine is de-alcoholized using the spinning cones column method - centrifugal force creates a thin film of wine over cone-shaped surfaces in a vacuum, stripping alcohol without the heat damage of conventional distillation.",
     "trivia": [
       "Rheinhessen is Germany's largest wine-growing region at over 26,000 hectares and is home to some of the country's most expressive Riesling vineyards.",
-      "The spinning cones column de-alcoholization method uses centrifugal force and a vacuum to strip alcohol at low temperatures — more gentle than older heat-based methods, and it doesn't require added chemicals beyond standard wine preservatives.",
-      "Riesling's hallmark qualities — high acidity, mineral character, and aromatic complexity — survive the de-alcoholization process better than most grape varieties, making it one of the most successful styles in the non-alcoholic wine category."
+      "The spinning cones column de-alcoholization method uses centrifugal force and a vacuum to strip alcohol at low temperatures - more gentle than older heat-based methods, and it doesn't require added chemicals beyond standard wine preservatives.",
+      "Riesling's hallmark qualities - high acidity, mineral character, and aromatic complexity - survive the de-alcoholization process better than most grape varieties, making it one of the most successful styles in the non-alcoholic wine category."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6754,11 +6755,11 @@
       "Orange",
       "Rich foam"
     ],
-    "tableside": "Stoli Vanilla, Kahlúa, Grand Marnier, and fresh espresso shaken hard and served in a martini glass. The thick foam on top comes from the coffee oils emulsifying when shaken — no egg white involved. The Grand Marnier is the detail that lifts it above the standard version.",
+    "tableside": "Stoli Vanilla, Kahlúa, Grand Marnier, and fresh espresso shaken hard and served in a martini glass. The thick foam on top comes from the coffee oils emulsifying when shaken - no egg white involved. The Grand Marnier is the detail that lifts it above the standard version.",
     "story": "The Espresso Martini was created by Dick Bradsell in London in 1983, reportedly at the request of a model who asked for something to wake her up. It became one of the most iconic cocktails of the late 20th century and has experienced a massive global revival over the past five years.",
     "trivia": [
-      "Dick Bradsell is also credited with creating the Bramble, making him one of the most influential bartenders in modern cocktail history. He developed the Espresso Martini at the Soho Brasserie in London.",
-      "The thick foam on top comes from the emulsification of coffee oils when shaken vigorously — no added egg white or cream.",
+      "Dick Bradsell is credited with creating the Espresso Martini at the Soho Brasserie in London in 1983 and is widely considered one of the most influential bartenders in modern cocktail history.",
+      "The thick foam on top comes from the emulsification of coffee oils when shaken vigorously - no added egg white or cream.",
       "Grand Marnier is made from a blend of Cognac and bitter orange liqueur, which gives it a depth and warmth that standard orange liqueurs don't have."
     ],
     "pairings": [],
@@ -6834,11 +6835,11 @@
       "Warm spice"
     ],
     "tableside": "Scotch, amaretto, and heavy cream poured over a large rock, finished with cinnamon and a brandied cherry. A personal creation from Tony, one of our bartenders. Rich, warming, and a little indulgent.",
-    "story": "Daddy's Home is Tony's cocktail — one of our bartenders who brought this recipe with him. The scotch and amaretto combination has a long history in classic drinks, most famously the Godfather cocktail, but the addition of cream and the brandied cherry finish push it firmly into dessert territory.",
+    "story": "Daddy's Home is Tony's cocktail - one of our bartenders who brought this recipe with him. The scotch and amaretto combination has a long history in classic drinks, most famously the Godfather cocktail, but the addition of cream and the brandied cherry finish push it firmly into dessert territory.",
     "trivia": [
-      "The Godfather cocktail — scotch and amaretto in equal parts — was named after the 1972 Coppola film and became one of the most popular two-ingredient cocktails of the 1970s. Daddy's Home takes that base and adds cream and warm spice.",
+      "The Godfather cocktail - scotch and amaretto in equal parts - was named after the 1972 Coppola film and became one of the most popular two-ingredient cocktails of the 1970s. Daddy's Home takes that base and adds cream and warm spice.",
       "Amaretto is an Italian almond-flavored liqueur typically made from almonds, apricot pits, or both. The name means 'a little bitter' in Italian.",
-      "Brandied cherries are preserved in brandy or Cognac — richer and more complex than standard maraschino cherries, adding a quiet luxury to any cocktail they appear in."
+      "Brandied cherries are preserved in brandy or Cognac - richer and more complex than standard maraschino cherries, adding a quiet luxury to any cocktail they appear in."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6872,15 +6873,16 @@
       "Classic"
     ],
     "tableside": "Muddle sugar and bitters. Add spirit and ice. Stir. Express orange peel over the glass.",
-    "tagline": "The oldest cocktail in the book — spirit, sugar, bitters, ice.",
+    "tagline": "The oldest cocktail in the book - spirit, sugar, bitters, ice.",
     "recipe_method": "Muddle sugar and bitters. Add spirit and ice. Stir. Express orange peel over the glass.",
-    "story": "The Old Fashioned is arguably America's oldest cocktail, with recipes dating to the early 1800s. It's the purest expression of spirit-forward cocktail making — the goal is to enhance the whiskey without masking it. The sugar softens the proof, the bitters add complexity, and the orange oil adds aromatic lift.",
+    "story": "The Old Fashioned is arguably America's oldest cocktail, with recipes dating to the early 1800s. It's the purest expression of spirit-forward cocktail making - the goal is to enhance the whiskey without masking it. The sugar softens the proof, the bitters add complexity, and the orange oil adds aromatic lift.",
     "trivia": [
-      "The word cocktail was first defined in print in 1806 as a stimulating liquor composed of spirits, sugar, water, and bitters — which is essentially the Old Fashioned recipe.",
+      "The word cocktail was first defined in print in 1806 as a stimulating liquor composed of spirits, sugar, water, and bitters - which is essentially the Old Fashioned recipe.",
       "The Old Fashioned experienced a major revival after being featured prominently in the TV series Mad Men, which introduced a generation to classic cocktail culture."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Bourbon or rye, sugar, Angostura bitters. Stirred on ice, expressed orange peel."
   },
   {
     "id": "185",
@@ -6911,15 +6913,16 @@
       "Stirred"
     ],
     "tableside": "Stir all ingredients with ice until cold. Strain into a chilled coupe or rocks glass.",
-    "tagline": "Rye or bourbon, sweet vermouth, bitters — stirred, never shaken.",
+    "tagline": "Rye or bourbon, sweet vermouth, bitters - stirred, never shaken.",
     "recipe_method": "Stir all ingredients with ice until cold. Strain into a chilled coupe or rocks glass.",
-    "story": "The Manhattan is where whiskey and European wine culture meet. The sweet vermouth transforms the whiskey into something more complex and aromatic without fighting it. Understanding the Manhattan is the fastest way to explain Ye Who Enter Here — same structure, different ingredients.",
+    "story": "The Manhattan is where whiskey and European wine culture meet. The sweet vermouth transforms the whiskey into something more complex and aromatic without fighting it. Understanding the Manhattan is the fastest way to explain Ye Who Enter Here - same structure, different ingredients.",
     "trivia": [
       "The Manhattan was reportedly created at the Manhattan Club in New York City in the 1870s.",
       "The debate between rye and bourbon Manhattans is genuine: rye produces a drier, spicier drink while bourbon produces a sweeter, rounder one. Both are correct."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Rye or bourbon, sweet vermouth, Angostura bitters. Stirred and strained, cherry garnish."
   },
   {
     "id": "186",
@@ -6952,13 +6955,14 @@
     "tableside": "Stir with ice. Strain into rocks glass over a large ice cube. Express orange peel.",
     "tagline": "Equal parts. The most satisfying ratio in cocktail history.",
     "recipe_method": "Stir with ice. Strain into rocks glass over a large ice cube. Express orange peel.",
-    "story": "Equal parts gin, sweet vermouth, and Campari. Simultaneously sweet, bitter, and aromatic. The Negroni teaches the fundamental lesson that bitterness is a flavor, not a flaw. Guests who order one know what they want — don't talk them out of it.",
+    "story": "Equal parts gin, sweet vermouth, and Campari. Simultaneously sweet, bitter, and aromatic. The Negroni teaches the fundamental lesson that bitterness is a flavor, not a flaw. Guests who order one know what they want - don't talk them out of it.",
     "trivia": [
       "The Negroni was created in Florence in 1919 when Count Camillo Negroni asked his bartender to strengthen his Americano by replacing the soda water with gin.",
-      "The Negroni Sbagliato — mistaken Negroni — substitutes Prosecco for gin. It was created accidentally by a bartender who grabbed the wrong bottle and went viral in 2022."
+      "The Negroni Sbagliato - mistaken Negroni - substitutes Prosecco for gin. It was created accidentally by a bartender who grabbed the wrong bottle and went viral in 2022."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Equal parts gin, sweet vermouth, Campari. Stirred, orange peel."
   },
   {
     "id": "187",
@@ -6994,10 +6998,11 @@
     "story": "Spirit, citrus, sweetener. Once you understand this ratio you can explain almost any citrus-forward cocktail on the menu. Trummer's Sour, Pain and Pleasure, and Sage all follow this logic in different ways. The egg white version adds foam and texture but no flavor.",
     "trivia": [
       "The Whiskey Sour is the most commonly ordered sour-template cocktail globally and predates the Margarita, Daiquiri, and Cosmopolitan by decades.",
-      "The egg white in a sour adds no flavor — only texture and foam. Guests with egg allergies can request it without and the drink tastes identical."
+      "The egg white in a sour adds no flavor - only texture and foam. Guests with egg allergies can request it without and the drink tastes identical."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Spirit, citrus, simple syrup. Optional egg white for foam. Shaken."
   },
   {
     "id": "188",
@@ -7028,15 +7033,16 @@
       "Balanced"
     ],
     "tableside": "Shake with ice. Strain into a rimmed glass.",
-    "tagline": "The world's most ordered cocktail. Learn it cold.",
+    "tagline": "The world's most ordered cocktail.",
     "recipe_method": "Shake with ice. Strain into a rimmed glass.",
-    "story": "The Margarita is the sour template applied to tequila — the most ordered cocktail in the US. Blanco tequila, lime, and orange liqueur. Pain and Pleasure follows the same base but adds hibiscus syrup and the jalapeño-cilantro ice sphere.",
+    "story": "The Margarita is the sour template applied to tequila - the most ordered cocktail in the US. Blanco tequila, lime, and orange liqueur. Pain and Pleasure follows the same base but adds hibiscus syrup and the jalapeño-cilantro ice sphere.",
     "trivia": [
       "Dry curaçao, which appears in Pain and Pleasure, uses dried bitter orange peel from the island of Curaçao. More complex and less sweet than standard triple sec.",
       "The origin of the Margarita is disputed between several bartenders in Mexico and the US in the 1930s and 40s. No single inventor has been definitively established."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Blanco tequila, lime, triple sec or dry curaçao. Optional salt rim. Shaken."
   },
   {
     "id": "189",
@@ -7068,13 +7074,14 @@
     "tableside": "Stir with ice until very cold. Strain into chilled coupe. The debate about shaking is settled: stir.",
     "tagline": "Two ingredients, infinite opinions.",
     "recipe_method": "Stir with ice until very cold. Strain into chilled coupe. The debate about shaking is settled: stir.",
-    "story": "The most argued-about cocktail in existence. The original Martini was much wetter — more vermouth — than the bone-dry versions popular today. When a guest orders one, confirm their spirit preference, their ratio preference, and their garnish before you walk away.",
+    "story": "The most argued-about cocktail in existence. The original Martini was much wetter - more vermouth - than the bone-dry versions popular today. When a guest orders one, confirm their spirit preference, their ratio preference, and their garnish before you walk away.",
     "trivia": [
-      "James Bond's shaken not stirred preference is technically incorrect — shaking dilutes the drink more than stirring. It exists as a character quirk, not cocktail wisdom.",
+      "James Bond's shaken not stirred preference is technically incorrect - shaking dilutes the drink more than stirring. It exists as a character quirk, not cocktail wisdom.",
       "Winston Churchill reportedly made his Martinis by pouring gin into a glass while glancing at a bottle of vermouth across the room."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "Gin or vodka, dry vermouth. Stirred until very cold. Lemon twist or olive."
   },
   {
     "id": "190",
@@ -7106,12 +7113,13 @@
     "tableside": "Shake hard with ice. Double strain into chilled coupe.",
     "tagline": "Three ingredients. The purest test of technique.",
     "recipe_method": "Shake hard with ice. Double strain into chilled coupe.",
-    "story": "The Daiquiri is the sour template at its most transparent — three ingredients, nothing to hide behind. A well-made Daiquiri reveals the quality of every component. The gateway to understanding rum as a serious spirit.",
+    "story": "The Daiquiri is the sour template at its most transparent - three ingredients, nothing to hide behind. A well-made Daiquiri reveals the quality of every component. The gateway to understanding rum as a serious spirit.",
     "trivia": [
       "The Daiquiri was named after the Cuban mining town of Daiquirí, where American engineer Jennings Cox reportedly invented it in 1898.",
-      "Ernest Hemingway's preferred version at El Floridita in Havana used grapefruit juice, twice the rum, and no sugar — a drink the bar named the Papa Doble."
+      "Ernest Hemingway's preferred version at El Floridita in Havana used grapefruit juice, twice the rum, and no sugar - a drink the bar named the Papa Doble."
     ],
     "pairings": [],
-    "file": "cocktails"
+    "file": "cocktails",
+    "one_liner": "White rum, lime, simple syrup. Shaken and double strained."
   }
 ]

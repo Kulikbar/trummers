@@ -158,9 +158,9 @@ const SECTION_ORDER = ['House Cocktails','Alcohol Free','Dessert Cocktails','Cla
 const SECTION_ANCHORS = {'House Cocktails':'sec-house','Alcohol Free':'sec-na','Dessert Cocktails':'sec-dessert','Classic Cocktails':'sec-classics'};
 const SECTION_INTROS = {
   'House Cocktails': "Seven house cocktails plus the Titanic at the top. Know the tableside line for each cold. The Titanic is the signature drink and the first recommendation for any table that asks.",
-  'Alcohol Free': "Three mocktails and two non-alcoholic wines. The Green Giant and Iceberg mirror the Sage and Titanic — useful for tables where some guests are drinking and some aren't. The NA wines are 750mL bottles, a different conversation than a single mocktail.",
-  'Dessert Cocktails': "Three cocktails served at the dessert course. The Irish Coffee is the most theatrical — know the flambé presentation and set expectations before the table orders it.",
-  'Classic Cocktails': "Seven foundational cocktails — all orderable. Understanding these makes explaining the house menu significantly easier. Each card includes the recipe and background."
+  'Alcohol Free': "Three mocktails and two non-alcoholic wines. The Green Giant and Iceberg mirror the Sage and Titanic, useful for tables where some guests are drinking and some aren't. The NA wines are 750mL bottles, a different conversation than a single mocktail.",
+  'Dessert Cocktails': "Three cocktails served at the dessert course. The Irish Coffee is the most theatrical. Know the flambé presentation and set expectations before the table orders it.",
+  'Classic Cocktails': "Seven foundational cocktails, all orderable. Understanding these makes explaining the house menu significantly easier. Each card includes the recipe and background."
 };
 
 function buildFilters() {
@@ -214,7 +214,7 @@ function render() {
     if (!items.length) continue;
     total += sec !== 'Classic Cocktails' ? items.length : 0;
     const anchor = SECTION_ANCHORS[sec];
-    html += `<div class="section-head"><span id="${anchor}" style="display:block;visibility:hidden;"></span><span class="section-name">${sec}</span><div class="section-intro">${SECTION_INTROS[sec]}</div></div>`;
+    html += `${anchor ? `<span id="${anchor}" style="display:block;visibility:hidden;height:0;"></span>` : ''}<div class="section-head"><span class="section-name">${sec}</span><div class="section-intro">${SECTION_INTROS[sec]}</div></div>`;
     items.forEach(c => { html += sec === 'Classic Cocktails' ? buildClassic(c) : buildCard(c); });
   }
 
@@ -274,12 +274,8 @@ function buildClassic(c) {
       <div class="chevron">▾</div>
     </div>
     ${isOpen ? `<div class="cocktail-expand">
-      <div class="classic-recipe">
-        <div class="classic-recipe-title">The Recipe</div>
-        <div class="classic-recipe-parts">${(c.ingredients||[]).join('<br>')}</div>
-        <div class="classic-recipe-note">${c.recipe_method||''}</div>
-      </div>
-      <div style="font-size:13px;color:var(--muted);line-height:1.7;margin-top:12px;">${c.story||''}</div>
+      <div class="tableside-line">${c.one_liner||''}</div>
+      <div style="font-size:13px;color:var(--muted);line-height:1.7;margin-top:4px;">${c.story||''}</div>
       ${(c.trivia||[]).length ? `<div class="expand-section"><div class="expand-section-title" onclick="toggleSec(event,'${c.id}-trivia')">Trivia <span id="arr-${c.id}-trivia">▾</span></div><div class="expand-section-body" id="sec-${c.id}-trivia">${c.trivia.map(t=>`<div class="trivia-item"><span class="trivia-bullet">◆</span><span>${t}</span></div>`).join('')}</div></div>` : ''}
     </div>` : ''}
   </div>`;
@@ -312,6 +308,17 @@ fetch('bar.json')
     ALL_DATA = data.filter(d => d.file === 'cocktails');
     buildFilters();
     render();
+    // Auto-open card from URL param e.g. ?open=167
+    const params = new URLSearchParams(window.location.search);
+    const openParam = params.get('open');
+    if (openParam) {
+      openId = openParam;
+      render();
+      setTimeout(() => {
+        const el = document.getElementById('card-' + openParam);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
   })
   .catch(err => {
     console.error('Could not load bar.json:', err);
