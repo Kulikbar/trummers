@@ -5138,7 +5138,7 @@
     "price": 12,
     "allocated": false,
     "icons": [
-      "🍺"
+      "🍂"
     ],
     "notes": [
       "Floral hops",
@@ -5245,8 +5245,7 @@
     "price": 12,
     "allocated": false,
     "icons": [
-      "⛪",
-      "🔥"
+      "⛪"
     ],
     "notes": [
       "Fruity yeast",
@@ -5427,7 +5426,7 @@
     "price": 8,
     "allocated": false,
     "icons": [
-      "🍺"
+      "🫧"
     ],
     "notes": [
       "Light grain",
