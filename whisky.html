@@ -494,6 +494,8 @@ fetch('bar.json')
   .then(r => r.json())
   .then(data => {
     SPIRITS = data.filter(s => s.file === 'spirits');
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('allocated') === 'true') allocatedOnly = true;
     buildFilters();
     render();
     requestAnimationFrame(() => {

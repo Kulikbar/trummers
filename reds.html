@@ -426,9 +426,10 @@ fetch('wines.json')
     WINES = data.filter(w => w.file === 'reds');
     const li = document.getElementById('loading-indicator');
     if(li) li.remove();
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('coravin') === 'true') coravinOnly = true;
     buildFilters();
     render();
-    const params = new URLSearchParams(window.location.search);
     const openParam = params.get('open');
     if (openParam) {
       openId = openParam;

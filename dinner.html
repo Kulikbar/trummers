@@ -685,6 +685,9 @@ fetch('food.json')
   .then(data => {
     DISHES = data.filter(d => d.menu === 'dinner');
     buildBanner();
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('filter') === 'gluten-free') allergenStates['gluten'] = 'strict';
+    if (params.get('filter') === 'vegetarian') allergenStates['vegetarian'] = 'strict';
     buildFilters();
     render();
     requestAnimationFrame(() => {

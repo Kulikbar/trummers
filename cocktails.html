@@ -335,6 +335,9 @@ fetch('bar.json')
           applyScrollMargins();
           setTimeout(() => { scrollToEl(document.getElementById('card-' + openParam)); }, 100);
         });
+      } else if (window.location.hash) {
+        const id = window.location.hash.slice(1);
+        setTimeout(() => { scrollToEl(document.getElementById(id)); }, 150);
       }
     });
   })
