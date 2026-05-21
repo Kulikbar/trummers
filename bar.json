@@ -5169,21 +5169,21 @@
     "type": "beer",
     "producer": "Right Proper",
     "name": "Big Tomorrow IPA",
-    "detail": "Washington DC · 5.4% · IPA",
-    "abv": 5.4,
+    "detail": "Washington DC · 7.2% · West Coast IPA",
+    "abv": 7.2,
     "price": 10,
     "allocated": false,
     "icons": [
       "🍺"
     ],
     "notes": [
-      "Citrus",
-      "Tropical fruit",
-      "Light pine",
-      "Moderate bitterness",
-      "Clean"
+      "Grapefruit",
+      "Lime zest",
+      "Pine",
+      "Stone fruit",
+      "Firm bitterness"
     ],
-    "tableside": "Right Proper is one of DC's best breweries — Big Tomorrow is their flagship IPA, sessionable at 5.4% but with full hop character. Citrus and tropical fruit forward, clean finish. The local IPA for guests who want something familiar and well-made.",
+    "tableside": "Right Proper is one of DC's best breweries — Big Tomorrow is their flagship West Coast IPA, brewed with Centennial, Cashmere, and Cryo-Mosaic hops. Grapefruit, lime zest, pine, and a clean bitter finish. 7.2% with real hop presence. The local IPA for guests who want something well-made and unfussy.",
     "pairings": [
       "Burgers",
       "Spicy food",
@@ -5194,8 +5194,8 @@
     "story": "Right Proper Brewing Company opened in Shaw, Washington DC in 2013 and has become one of the most respected craft breweries in the Mid-Atlantic. The brewery is named after a DC colloquialism , 'right proper' meaning genuinely good, done correctly , which reflects their commitment to well-crafted, approachable beer rooted in British brewing tradition adapted for American tastes. Big Tomorrow is their IPA flagship: balanced, drinkable, and representative of the modern American IPA style without the aggressive bitterness that can alienate casual drinkers.",
     "trivia": [
       "Right Proper's original location in the historic Blagden Alley neighborhood of Shaw, DC helped anchor the area's transformation into one of the city's most vibrant dining and drinking destinations.",
-      "The brewery takes inspiration from British pub culture — their taproom in Shaw is designed to feel like a neighborhood local rather than a destination craft beer bar, which reflects their philosophy of making beer that's part of daily life.",
-      "Big Tomorrow's 5.4% ABV puts it in the 'session IPA' range — a style that prioritizes drinkability and hop flavor over alcohol intensity, making it one of the more food-friendly beers on the list."
+      "Big Tomorrow is brewed with Cryo-Mosaic hops — a concentrated form of Mosaic that delivers intense hop aroma without adding extra vegetal bitterness, which is why the beer reads bright and clean rather than heavy.",
+      "The brewery takes inspiration from British pub culture — their taproom in Shaw is designed to feel like a neighborhood local rather than a destination craft beer bar, which reflects their philosophy of making beer that's part of daily life."
     ],
     "file": "bar"
   },
@@ -5264,8 +5264,8 @@
     ],
     "story": "The Abbey of Our Lady of the Sacred Heart in Malle, Belgium is one of only a handful of Trappist monasteries in the world that brew beer commercially , and Westmalle is among the most revered of all. The Tripel style was literally invented at Westmalle in 1934, when the monks developed a stronger, golden version of their existing ales to serve as a more substantial drink. The recipe has barely changed since. Today Westmalle Tripel is considered the benchmark Trappist Tripel against which all others are measured , complex, spicy, and dangerously smooth for its 9.5% ABV.",
     "trivia": [
-      "Trappist beer can only be legally called 'Trappist' if it is brewed within the walls of a Trappist monastery, under the supervision of monks, with profits primarily going to the monastery or charitable causes — there are only 14 authenticated Trappist breweries in the world.",
-      "Westmalle Tripel's golden color was revolutionary when introduced in 1934 — most Belgian abbey ales of the era were dark, and the idea of a strong, pale, highly carbonated beer was genuinely new.",
+      "To legally carry the 'Authentic Trappist Product' designation, a beer must be brewed within the walls of a Trappist monastery, under the supervision of monks, with profits going to the monastery or charitable causes — fewer than a dozen breweries worldwide qualify.",
+      "Westmalle first brewed this strong pale ale in 1934 to celebrate the opening of their new brewery hall — it was among the first golden strong ales of its kind, at a time when most Belgian abbey beers were dark. The recipe was refined and named Tripel in 1956 and has been essentially unchanged since.",
       "The yeast strain used by Westmalle is proprietary and closely guarded — it produces the distinctive fruity and spicy ester profile that defines the Tripel style and has never been commercially released."
     ],
     "file": "bar"
