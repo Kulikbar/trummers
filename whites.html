@@ -77,6 +77,7 @@
   .wine-icon-badge { font-size: 14px; line-height: 1; }
   .cert-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(90,138,90,0.15); border: 1px solid rgba(90,138,90,0.3); color: #7ab87a; margin-left: 2px; }
   .btg-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: #c9a96e; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .coravin-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(160,120,200,0.15); border: 1px solid rgba(160,120,200,0.4); color: #b894e0; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
   .wine-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
   .wine-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
   .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
@@ -153,7 +154,7 @@
   </div>
   <div class="filter-row" id="cat-filters"></div>
   <div class="filter-row" id="icon-filters"></div>
-  <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button></div>
+  <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button><button id="coravin-filter" class="icon-btn" onclick="toggleCoravin()">⚗️ Coravin</button></div>
   <div class="price-section">
     <div class="price-header">
       <span class="price-label">Price Range</span>
@@ -220,7 +221,7 @@ const CAT_ANCHORS = {
 const ICONS = ["☁️","⚖️","💪","🍋","🍑","🌿","🧂","🍄","🪵","🧈","🌸","🍊","🏺"];
 const ICON_LABELS = {"☁️":"Light-bodied","⚖️":"Medium-bodied","💪":"Full-bodied","🍋":"High acidity","🍑":"Fruit-forward","🌿":"Herbal/savory","🧂":"Minerality","🍄":"Earthy","🪵":"Oak/toasty","🧈":"Creamy/rich","🌸":"Floral","🍊":"Natural/orange","🏺":"Large format"};
 const PRICE_MAX = 600;
-let activeCat = "All", activeIcons = new Set(), openId = null, btgOnly = false;
+let activeCat = "All", activeIcons = new Set(), openId = null, btgOnly = false, coravinOnly = false;
 let priceMin = 0, priceMax = PRICE_MAX, activePreset = null;
 
 
@@ -252,11 +253,14 @@ function buildFilters() {
     `<button class="icon-btn${activeIcons.has(ic)?' active':''}" onclick="toggleIcon('${ic}')">${ic} ${ICON_LABELS[ic]}</button>`).join('');
   const btgBtn = document.getElementById('btg-filter');
   if(btgBtn) btgBtn.className = 'icon-btn' + (btgOnly ? ' active' : '');
+  const coravinBtn = document.getElementById('coravin-filter');
+  if(coravinBtn) coravinBtn.className = 'icon-btn' + (coravinOnly ? ' active' : '');
   buildSummary();
 }
 
 function setCat(c) { activeCat=c; openId=null; buildFilters(); render(); }
 function toggleBtg() { btgOnly=!btgOnly; buildFilters(); render(); }
+function toggleCoravin() { coravinOnly=!coravinOnly; buildFilters(); render(); }
 function toggleIcon(ic) { activeIcons.has(ic)?activeIcons.delete(ic):activeIcons.add(ic); buildFilters(); render(); }
 
 function setPreset(btn) {
@@ -285,6 +289,7 @@ function render() {
   const q=normalize(document.getElementById('search').value);
   const filtered=WINES.filter(w=>{
     if(btgOnly&&!w.btg)return false;
+    if(coravinOnly&&!w.coravin)return false;
     if(activeCat!=='All'&&w.cat!==activeCat)return false;
     if(activeIcons.size>0){for(const ic of activeIcons){if(!w.icons.includes(ic))return false;}}
     if(w.price<priceMin||(priceMax<PRICE_MAX&&w.price>priceMax))return false;
@@ -311,7 +316,7 @@ function render() {
             <div class="wine-producer">${w.producer}</div>
             <div class="wine-name-line">${w.name}</div>
             <div class="wine-name-line" style="font-size:11px;margin-top:1px;">${w.region}</div>
-            <div class="wine-icons">${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}${w.cert?`<span class="cert-badge">${w.cert==='Co/b'?'Organic/Bio':w.cert==='CS'?'Sustainable':'Practicing'}</span>`:''}${w.btg?'<span class="btg-badge">🍷</span>':''}</div>
+            <div class="wine-icons">${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}${w.cert?`<span class="cert-badge">${w.cert==='Co/b'?'Organic/Bio':w.cert==='CS'?'Sustainable':'Practicing'}</span>`:''}${w.btg?'<span class="btg-badge">🍷</span>':''}${w.coravin?'<span class="coravin-badge">⚗️ Coravin</span>':''}</div>
           </div>
           <div class="wine-right">${w.btg && w.bottle_price ? `
             <div>
@@ -319,6 +324,12 @@ function render() {
               <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">glass</div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold-dim);margin-top:3px;">$${w.bottle_price}</div>
               <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">bottle</div>
+            </div>` : w.coravin ? `
+            <div>
+              <div class="wine-price">$${w.price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">bottle</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:#b894e0;margin-top:3px;">$${w.coravin_price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">glass</div>
             </div>` : `<div class="wine-price">$${w.btg_price || w.price}</div>`}
           <div class="chevron">▾</div></div>
         </div>

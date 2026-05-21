@@ -77,6 +77,7 @@
   .wine-icon-badge { font-size: 14px; line-height: 1; }
   .cert-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(90,138,90,0.15); border: 1px solid rgba(90,138,90,0.3); color: #7ab87a; margin-left: 2px; }
   .btg-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: #c9a96e; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .coravin-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(160,120,200,0.15); border: 1px solid rgba(160,120,200,0.4); color: #b894e0; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
   .wine-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
   .wine-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
   .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
@@ -162,7 +163,7 @@
   </div>
   <div class="filter-row" id="cat-filters"></div>
   <div class="filter-row" id="icon-filters"></div>
-  <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button></div>
+  <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button><button id="coravin-filter" class="icon-btn" onclick="toggleCoravin()">⚗️ Coravin</button></div>
   <div class="price-section">
     <div class="price-header">
       <span class="price-label">Price Range</span>
@@ -208,7 +209,7 @@
 
 <script>
 const PRICE_MAX = 900;
-let activeCat='All', activeIcons=new Set(), priceMin=0, priceMax=PRICE_MAX, activePreset=null, openId=null, btgOnly=false;
+let activeCat='All', activeIcons=new Set(), priceMin=0, priceMax=PRICE_MAX, activePreset=null, openId=null, btgOnly=false, coravinOnly=false;
 
 const ICON_LABELS = {'☁️':'Light-bodied','⚖️':'Medium-bodied','💪':'Full-bodied','🍒':'Red fruit','🍑':'Ripe/fruit-forward','🌿':'Herbal/savory','🧂':'Minerality','🍄':'Earthy','🪵':'Oak/vanilla','🌶️':'Spice','🌸':'Floral','☕':'Firm tannins','🧈':'Silky tannins','🏺':'Large format'};
 
@@ -279,11 +280,14 @@ function buildFilters() {
   ).join('');
   let btgBtn = document.getElementById('btg-filter');
   if(btgBtn) btgBtn.className = 'icon-btn' + (btgOnly ? ' active' : '');
+  const coravinBtn = document.getElementById('coravin-filter');
+  if(coravinBtn) coravinBtn.className = 'icon-btn' + (coravinOnly ? ' active' : '');
 
   buildSummary();
 }
 
 function toggleBtg() { btgOnly=!btgOnly; buildFilters(); render(); }
+function toggleCoravin() { coravinOnly=!coravinOnly; buildFilters(); render(); }
 function setCat(c) { activeCat=c; buildFilters(); render(); }
 function toggleIcon(i) { activeIcons.has(i)?activeIcons.delete(i):activeIcons.add(i); buildFilters(); render(); }
 
@@ -302,12 +306,13 @@ function buildSummary() {
   const isPriceActive=priceMin>0||priceMax<PRICE_MAX;
   if(isPriceActive){const pl=priceMax>=PRICE_MAX?`$${priceMin}+`:`$${priceMin}–$${priceMax}`;tags.push({label:pl,clear:()=>{priceMin=0;priceMax=PRICE_MAX;activePreset=null;document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));updateSliderUI();buildSummary();render();}});}
   if(btgOnly) tags.push({label:'🍷 By the Glass',clear:()=>{btgOnly=false;buildFilters();render();}});
+  if(coravinOnly) tags.push({label:'⚗️ Coravin',clear:()=>{coravinOnly=false;buildFilters();render();}});
   const s=document.getElementById('active-summary');
   if(!tags.length){s.innerHTML='';return;}
   s.innerHTML=tags.map((t,i)=>{window._clearTag=window._clearTag||[];window._clearTag[i]=t.clear;return `<span class="active-tag">${t.label}<button onclick="window._clearTag[${i}]()">✕</button></span>`;}).join('')+`<button class="clear-all" onclick="clearAll()">Clear all</button>`;
 }
 
-function clearAll(){activeCat='All';btgOnly=false;activeIcons.clear();priceMin=0;priceMax=PRICE_MAX;activePreset=null;openId=null;document.getElementById('search').value='';document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));updateSliderUI();buildFilters();render();}
+function clearAll(){activeCat='All';btgOnly=false;coravinOnly=false;activeIcons.clear();priceMin=0;priceMax=PRICE_MAX;activePreset=null;openId=null;document.getElementById('search').value='';document.querySelectorAll('.preset-btn').forEach(b=>b.classList.remove('active'));updateSliderUI();buildFilters();render();}
 
 function dotColor(cat) {
   const map={'Austrian Reds':'#7a1a2a','Pinot Noir':'#9b3040','Merlot':'#7b2020','Syrah/Shiraz':'#5a1818','Zinfandel':'#8a2828','Cabernet':'#6b1010','Meritage & Bordeaux Blends':'#8b2020','Other Red Blends':'#a03030','Other Reds':'#b04030','Virginia Reds':'#7a2438','French Reds':'#6b1c30','Spanish Reds':'#8a2010','Italian Reds':'#9b2818','Last Chance':'#6a6a6a'};
@@ -320,6 +325,7 @@ function render() {
   const q=normalize(document.getElementById('search').value);
   const filtered=WINES.filter(w=>{
     if(btgOnly&&!w.btg)return false;
+    if(coravinOnly&&!w.coravin)return false;
     if(activeCat!=='All'&&w.cat!==activeCat)return false;
     if(activeIcons.size>0){for(const ic of activeIcons){if(!w.icons.includes(ic))return false;}}
     if(w.price<priceMin||(priceMax<PRICE_MAX&&w.price>priceMax))return false;
@@ -351,7 +357,7 @@ function render() {
             <div class="wine-icons">
               ${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}
               ${w.cert?`<span class="cert-badge">${certLabel(w.cert)}</span>`:''}
-              ${w.btg?'<span class="btg-badge">🍷</span>':''}
+              ${w.btg?'<span class="btg-badge">🍷</span>':''}${w.coravin?'<span class="coravin-badge">⚗️ Coravin</span>':''}
             </div>
           </div>
           <div class="wine-right">${w.btg && w.bottle_price ? `
@@ -360,6 +366,12 @@ function render() {
               <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">glass</div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold-dim);margin-top:3px;">$${w.bottle_price}</div>
               <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">bottle</div>
+            </div>` : w.coravin ? `
+            <div>
+              <div class="wine-price">$${w.price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">bottle</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:#b894e0;margin-top:3px;">$${w.coravin_price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">glass</div>
             </div>` : `<div class="wine-price">$${w.price}</div>`}
           <div class="chevron">▾</div></div>
         </div>

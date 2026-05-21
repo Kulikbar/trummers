@@ -1831,7 +1831,9 @@
       "The 1ÖTW classification requires vineyards to have maintained exceptional quality for at least 25 consecutive years — fewer than 100 qualify in all of Austria.",
       "Practicing sustainable viticulture (PR) means Bründlmayer follows organic and sustainable principles without pursuing formal certification — common among top European estates."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 26
   },
   {
     "id": "883",
@@ -4123,7 +4125,9 @@
       "The 2025 vintage is the most recent on the entire list — these wines were harvested barely months before landing on the table.",
       "Sancerre's reputation was built almost entirely in the second half of the 20th century."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 23
   },
   {
     "id": "327",
@@ -4628,7 +4632,9 @@
       "Kistler ferments in small French oak barrels and ages on the lees for up to eighteen months — techniques borrowed directly from Burgundy that add the hazelnut and brioche complexity that defines the house style.",
       "The Sonoma Mountain AVA sits above the fog line on the eastern slope of Sonoma Mountain — warmer than the Sonoma Coast but cooler than the Valley floor, which gives Kistler's wines from this site their particular richness."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 39
   },
   {
     "id": "405",
@@ -5213,7 +5219,9 @@
       "Familie Reinisch is the leading proponent of the Tattendorf sub-appellation within the Thermenregion — a small area they have worked to establish as a distinct identity within the broader region.",
       "The Thermenregion is one of the few Austrian regions where indigenous varieties like Zierfandler and Rotgipfler are grown — varieties found almost nowhere else in the world."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 29
   },
   {
     "id": "553",
@@ -5444,7 +5452,9 @@
       "Rust, where Heidi Schröck farms, is one of Austria's most historic wine towns — it has been a free royal city since 1681, when the town paid the Habsburg emperor 60,000 guilders and 30,000 liters of wine for the privilege of putting the letter R on its barrels.",
       "Schröck is one of the few producers who has successfully built an international reputation for both natural wines and conventionally made wines under the same label."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 24
   },
   {
     "id": "731",
@@ -5599,7 +5609,9 @@
       "The variety's name is believed to derive from the French word for 'rust' — rousse — a reference to the reddish-brown color the grape skins develop at full maturity.",
       "Roussanne is notoriously prone to oxidation and difficult to work with in the cellar, which is part of why so few California producers attempt it."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 26
   },
   {
     "id": "737",
@@ -6132,7 +6144,9 @@
       "Mary Delany was an 18th century botanical artist who created extraordinarily detailed paper flower mosaics — Botanica named their wine range after her as a tribute to botanical art.",
       "The Citrusdal Mountains receive significantly more rainfall than Stellenbosch or Franschhoek, which allows dry farming without irrigation — a key factor in the concentration of old bush vine fruit."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 28
   },
   {
     "id": "115",
@@ -6591,7 +6605,9 @@
       "The egg shape of modern concrete vats is believed to create a natural convection current that keeps the lees in constant gentle motion — acting as a natural bâtonnage without the winemaker needing to stir the lees manually.",
       "Concrete is porous enough to allow micro-oxygenation — similar to large neutral oak casks — but does not impart flavor the way oak does, making it ideal for producers who want texture without oakiness."
     ],
-    "file": "whites"
+    "file": "whites",
+    "coravin": true,
+    "coravin_price": 25
   },
   {
     "id": "053",
@@ -7339,7 +7355,9 @@
       "Burgenland's warm Pannonian climate makes it Austria's warmest and driest wine region, ideal for red varieties.",
       "Austria was considered a white-wine country by most drinkers until the 1990s, when Burgenland producers began proving the region could make serious reds."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 22
   },
   {
     "id": "7039",
@@ -7699,7 +7717,9 @@
       "The Carnuntum DAC appellation was established in 2019, recognizing the distinct terroir between Vienna and the Slovak border.",
       "Certified biodynamic viticulture (Co/b) requires moon-based planting calendars, horn manure preparations, and documented organic farming practices verified by an independent body."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 27
   },
   {
     "id": "7001",
@@ -9167,7 +9187,9 @@
       "The 2021 Oregon vintage was complicated by a late June heat dome event. Producers in cooler sub-appellations fared better, and Green sources from some of the coolest sites available.",
       "Oregon requires that wines labeled with a specific appellation contain at least 95% of their fruit from that appellation — stricter than California's 85% minimum."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 32
   },
   {
     "id": "1519",
@@ -9941,7 +9963,9 @@
       "Volcanic soils have a different mineral composition from valley floor sedimentary soils — higher in magnesium, potassium, and various trace minerals.",
       "Atlas Peak AVA was established in 1992 and covers just over 11,000 acres — but very little is planted, due to the rugged terrain and difficulty of vineyard establishment."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 43
   },
   {
     "id": "2067",
@@ -12706,7 +12730,9 @@
       "Montefalco Sagrantino DOCG requires a minimum of 37 months aging before release — 12 months in oak, the rest in bottle. This is one of Italy's longest mandatory aging requirements.",
       "Sagrantino was historically a sweet wine (Sagrantino Passito) used for religious purposes — 'Sagrantino' is thought to derive from 'sacrament.' The dry version we know today became dominant only in the late 20th century."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 29
   },
   {
     "id": "5067",
@@ -13187,7 +13213,9 @@
       "Having two vintages of the same Bordeaux estate on a restaurant list is rare enough to be worth flagging to guests — it's an implicit invitation to compare what vintage does to a wine without changing the producer or the terroir.",
       "Graves (the broader appellation that encompasses Pessac-Léognan) takes its name from the gravelly soils that define the region — 'graves' simply means 'gravel' in French."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 29
   },
   {
     "id": "3013",
@@ -13703,7 +13731,9 @@
       "The trend toward lighter, more elegant Côtes du Rhône — sometimes called the 'Burgundy style' of the Southern Rhône — reflects a broader shift in consumer preferences away from extracted, high-alcohol wines toward fresher, more food-friendly expressions.",
       "The 2023 vintage in the Southern Rhône was fresh and aromatic — a relief after the extreme heat of 2022. Wines from 2023 tend to be lighter and more elegant than the previous year."
     ],
-    "file": "reds"
+    "file": "reds",
+    "coravin": true,
+    "coravin_price": 42
   },
   {
     "id": "3029",
