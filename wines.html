@@ -23,7 +23,7 @@
   .header::before { content: ""; position: absolute; inset: 0;
     background: radial-gradient(ellipse at 50% 0%, rgba(201,169,110,0.08), transparent 65%);
     pointer-events: none; }
-  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase;
+  .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase;
     color: var(--gold-dim); margin-bottom: 0.75rem; }
   .header-title { font-family: "Cormorant Garamond", serif;
     font-size: clamp(2.4rem, 11vw, 3.8rem); font-weight: 300; color: var(--cream);
@@ -31,10 +31,10 @@
   .header-subtitle { font-family: "Cormorant Garamond", serif; font-size: 1.05rem;
     color: var(--gold-dim); font-style: italic; margin-bottom: 1rem; }
   .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
-  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
   .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
   .wine-count-badge { display: inline-flex; align-items: center; gap: 8px;
-    font-size: 11px; padding: 5px 14px; border-radius: 20px;
+    font-size: 15px; padding: 5px 14px; border-radius: 20px;
     background: rgba(201,169,110,0.08); border: 1px solid var(--border2);
     color: var(--gold); font-family: "Outfit", sans-serif; letter-spacing: 0.05em; }
 
@@ -45,11 +45,11 @@
     color: var(--gold-dim); font-size: 16px; pointer-events: none; }
   .search-input { width: 100%; background: var(--card); border: 1px solid var(--border2);
     border-radius: 12px; padding: 13px 16px 13px 40px; font-family: "Outfit", sans-serif;
-    font-size: 13px; font-weight: 300; color: var(--cream); outline: none;
+    font-size: 15px; font-weight: 300; color: var(--cream); outline: none;
     transition: border-color 0.2s; -webkit-appearance: none; }
   .search-input::placeholder { color: var(--muted); }
   .search-input:focus { border-color: var(--gold-dim); }
-  .search-meta { font-size: 11px; color: var(--muted); padding: 0.5rem 0.25rem 0;
+  .search-meta { font-size: 15px; color: var(--muted); padding: 0.5rem 0.25rem 0;
     font-style: italic; font-family: "Cormorant Garamond", serif; min-height: 1.4em; }
 
   /* ── SEARCH RESULTS ── */
@@ -61,20 +61,20 @@
   .result-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
   .result-producer { font-family: "Cormorant Garamond", serif; font-size: 1.1rem;
     font-weight: 500; color: var(--cream); line-height: 1.2; }
-  .result-price { font-size: 12px; color: var(--gold); white-space: nowrap;
+  .result-price { font-size: 15px; color: var(--gold); white-space: nowrap;
     font-weight: 400; flex-shrink: 0; }
-  .result-name { font-size: 11px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .result-name { font-size: 15px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
   .result-meta { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
-  .result-tag { font-size: 10px; padding: 2px 8px; border-radius: 10px;
+  .result-tag { font-size: 15px; padding: 2px 8px; border-radius: 10px;
     border: 1px solid var(--border); color: var(--gold-dim); }
-  .result-file { font-size: 10px; padding: 2px 8px; border-radius: 10px;
+  .result-file { font-size: 15px; padding: 2px 8px; border-radius: 10px;
     background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); }
   .no-results { text-align: center; padding: 2rem 1rem; color: var(--muted);
     font-family: "Cormorant Garamond", serif; font-style: italic; font-size: 1rem; }
 
   /* ── DIVIDER ── */
   .divider { height: 1px; background: var(--border); margin: 1.75rem 1.5rem 0; }
-  .section-label { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
+  .section-label { font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase;
     color: var(--gold-dim); padding: 1.25rem 1.5rem 0.75rem; }
 
   /* ── SECTION CARDS ── */
@@ -84,16 +84,16 @@
     transition: border-color 0.2s; }
   .card:hover { border-color: var(--border2); }
   .card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 0.5rem; }
-  .card-meta { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+  .card-meta { font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase;
     color: var(--gold-dim); margin-bottom: 0.35rem; font-weight: 400; }
   .dot-row { display: flex; align-items: center; gap: 5px; margin-bottom: 0.4rem; }
   .dot { width: 7px; height: 7px; border-radius: 50%; }
   .card-title { font-family: "Cormorant Garamond", serif; font-size: 1.5rem;
     font-weight: 400; color: var(--cream); line-height: 1.1; }
   .card-arrow { color: var(--gold-dim); font-size: 22px; margin-top: 2px; flex-shrink: 0; }
-  .card-desc { font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 0.75rem; }
+  .card-desc { font-size: 15px; color: var(--muted); line-height: 1.6; margin-bottom: 0.75rem; }
   .card-pills { display: flex; flex-wrap: wrap; gap: 5px; }
-  .pill { font-size: 10px; padding: 3px 10px; border-radius: 20px;
+  .pill { font-size: 13px; padding: 3px 10px; border-radius: 20px;
     border: 1px solid var(--border); color: var(--gold-dim); }
   .pill-count { background: rgba(201,169,110,0.08); border-color: var(--border2); color: var(--gold); }
 
@@ -103,17 +103,17 @@
     padding: 0.9rem 1rem; text-decoration: none; color: inherit; display: block;
     transition: border-color 0.2s; }
   .quick-card:hover { border-color: var(--border2); }
-  .quick-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
+  .quick-label { font-size: 15px; letter-spacing: 0.12em; text-transform: uppercase;
     color: var(--gold-dim); margin-bottom: 0.3rem; }
   .quick-title { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; color: var(--cream); }
 
   /* ── FOOTER ── */
   .footer { padding: 2rem 1.5rem 1rem; text-align: center; margin-top: auto; }
-  .footer-text { font-size: 11px; color: var(--gold-dim); font-style: italic;
+  .footer-text { font-size: 15px; color: var(--gold-dim); font-style: italic;
     font-family: "Cormorant Garamond", serif; line-height: 1.8; }
   .icon-hint { display: flex; flex-wrap: wrap; justify-content: center;
     gap: 8px; margin-top: 0.75rem; }
-  .icon-hint-item { font-size: 10px; color: var(--muted); }
+  .icon-hint-item { font-size: 15px; color: var(--muted); }
 
   /* ── HIDE/SHOW ── */
   .browse-section { transition: opacity 0.2s; }
@@ -171,7 +171,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:13px;">&ldquo;In victory, you deserve Champagne. In defeat, you need it.&rdquo;<div style="font-style:normal;font-size:11px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Napoleon Bonaparte</div></div>
+        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:15px;">&ldquo;In victory, you deserve Champagne. In defeat, you need it.&rdquo;<div style="font-style:normal;font-size:15px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Napoleon Bonaparte</div></div>
         <div class="card-pills">
           <span class="pill">Champagne</span>
           <span class="pill">Austrian Sekt</span>
@@ -194,7 +194,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:13px;">&ldquo;Wine is a living thing, a piece of history, a reflection of the earth and the people who made it.&rdquo;<div style="font-style:normal;font-size:11px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Karen MacNeil</div></div>
+        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:15px;">&ldquo;Wine is a living thing, a piece of history, a reflection of the earth and the people who made it.&rdquo;<div style="font-style:normal;font-size:15px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Karen MacNeil</div></div>
         <div class="card-pills">
           <span class="pill">Grüner Veltliner</span>
           <span class="pill">Riesling</span>
@@ -217,7 +217,7 @@
           </div>
           <div class="card-arrow">›</div>
         </div>
-        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:13px;">&ldquo;The vine makes the wine, but the soil makes the vine.&rdquo;<div style="font-style:normal;font-size:11px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Burgundian proverb</div></div>
+        <div class="card-desc" style="font-style:italic;font-family:'Cormorant Garamond',serif;font-size:15px;">&ldquo;The vine makes the wine, but the soil makes the vine.&rdquo;<div style="font-style:normal;font-size:15px;letter-spacing:0.05em;color:var(--gold-dim);margin-top:4px;">— Burgundian proverb</div></div>
         <div class="card-pills">
           <span class="pill">Pinot Noir</span>
           <span class="pill">Blaufränkisch</span>

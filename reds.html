@@ -17,70 +17,70 @@
   body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
   .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
   .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,32,32,0.08) 0%, transparent 70%); pointer-events: none; }
-  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); font-weight: 400; margin-bottom: 0.75rem; }
+  .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); font-weight: 400; margin-bottom: 0.75rem; }
   .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
   .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
   .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
-  .header-nav a { font-size: 11px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
+  .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; font-family: 'Outfit', sans-serif; transition: all 0.15s; }
   .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
   .toc-pills { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 0.75rem 1.25rem 0; border-bottom: 1px solid var(--border); }
   .toc-pills::-webkit-scrollbar { display: none; }
-  .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; cursor: pointer; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
+  .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 13px; cursor: pointer; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
   .toc-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
   .controls { padding: 0.75rem 1.25rem 0.75rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
   .search-wrap { position: relative; margin-bottom: 0.75rem; }
-  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
-  #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 13px; pointer-events: none; }
+  #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 300; outline: none; transition: border-color 0.2s; }
   #search::placeholder { color: var(--muted); }
   #search:focus { border-color: var(--gold-dim); }
   .filter-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; margin-bottom: 6px; }
   .filter-row::-webkit-scrollbar { display: none; }
 
-  .filter-btn { flex-shrink: 0; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
+  .filter-btn { flex-shrink: 0; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 13px; cursor: pointer; transition: all 0.15s; white-space: nowrap; }
   .filter-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
   .filter-btn.active { background: var(--gold); border-color: var(--gold); color: var(--bg); }
-  .icon-btn { flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: 12px; cursor: pointer; transition: all 0.15s; white-space: nowrap; font-family: 'Outfit', sans-serif; }
+  .icon-btn { flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-size: 13px; cursor: pointer; transition: all 0.15s; white-space: nowrap; font-family: 'Outfit', sans-serif; }
   .icon-btn:hover { border-color: var(--gold-dim); }
   .icon-btn.active { background: var(--bg3); border-color: var(--gold); color: var(--cream); }
   .price-section { margin-top: 2px; }
   .price-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
-  .price-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); }
+  .price-label { font-size: 15px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); }
   .price-display { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold); }
   .price-presets { display: flex; gap: 5px; margin-bottom: 8px; }
-  .preset-btn { flex: 1; padding: 5px 4px; border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; cursor: pointer; transition: all 0.15s; text-align: center; white-space: nowrap; }
+  .preset-btn { flex: 1; padding: 5px 4px; border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 13px; cursor: pointer; transition: all 0.15s; text-align: center; white-space: nowrap; }
   .preset-btn:hover { border-color: var(--gold-dim); color: var(--gold); }
   .preset-btn.active { background: rgba(201,169,110,0.12); border-color: var(--gold); color: var(--gold2); }
   .active-summary { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 6px 0 0; }
-  .active-tag { display: flex; align-items: center; gap: 4px; font-size: 11px; padding: 3px 8px; border-radius: 12px; background: rgba(201,169,110,0.1); border: 1px solid var(--border2); color: var(--gold); }
-  .active-tag button { background: none; border: none; color: var(--gold-dim); cursor: pointer; font-size: 11px; padding: 0; line-height: 1; margin-left: 2px; }
-  .clear-all { font-size: 11px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 3px 6px; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; }
+  .active-tag { display: flex; align-items: center; gap: 4px; font-size: 13px; padding: 3px 8px; border-radius: 12px; background: rgba(201,169,110,0.1); border: 1px solid var(--border2); color: var(--gold); }
+  .active-tag button { background: none; border: none; color: var(--gold-dim); cursor: pointer; font-size: 13px; padding: 0; line-height: 1; margin-left: 2px; }
+  .clear-all { font-size: 13px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 3px 6px; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; }
   .legend { margin: 0.75rem 1.25rem 0; padding: 10px 14px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); }
-  .legend-title { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; }
+  .legend-title { font-size: 15px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; }
   .legend-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 12px; }
-  .legend-item { font-size: 11px; color: var(--muted); }
-  .result-count { font-size: 11px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
+  .legend-item { font-size: 13px; color: var(--muted); }
+  .result-count { font-size: 13px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
   .wine-list { padding: 0 1rem 5rem; }
   .empty { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--gold-dim); }
   .section-head { padding: 1.75rem 1.25rem 0.4rem; }
   .section-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 400; color: var(--gold); display: block; margin-bottom: 0.3rem; }
-  .section-intro { font-size: 13px; color: var(--muted); line-height: 1.6; font-family: 'Cormorant Garamond', serif; font-style: italic; }
+  .section-intro { font-size: 15px; color: var(--muted); line-height: 1.6; font-family: 'Cormorant Garamond', serif; font-style: italic; }
   .wine-card { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px; background: var(--card); overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
   .wine-card:hover { border-color: var(--border2); }
   .wine-card.open { border-color: var(--gold-dim); }
   .wine-card-top { display: flex; align-items: flex-start; padding: 14px 16px; gap: 12px; }
   .wine-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
   .wine-main { flex: 1; min-width: 0; }
-  .wine-number { font-size: 10px; letter-spacing: 0.12em; color: var(--gold-dim); margin-bottom: 2px; }
-  .wine-producer { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 500; color: var(--cream); line-height: 1.2; }
-  .wine-name-line { font-size: 12px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
+  .wine-number { font-size: 15px; letter-spacing: 0.12em; color: var(--gold-dim); margin-bottom: 2px; }
+  .wine-producer { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.2; }
+  .wine-name-line { font-size: 15px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
   .wine-icons { display: flex; gap: 3px; flex-wrap: wrap; margin-top: 6px; align-items: center; }
-  .wine-icon-badge { font-size: 14px; line-height: 1; }
-  .cert-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(90,138,90,0.15); border: 1px solid rgba(90,138,90,0.3); color: #7ab87a; margin-left: 2px; }
-  .btg-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: #c9a96e; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
-  .coravin-badge { font-size: 10px; padding: 2px 8px; border-radius: 10px; background: rgba(160,120,200,0.15); border: 1px solid rgba(160,120,200,0.4); color: #b894e0; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .wine-icon-badge { font-size: 15px; line-height: 1; }
+  .cert-badge { font-size: 15px; padding: 2px 8px; border-radius: 10px; background: rgba(90,138,90,0.15); border: 1px solid rgba(90,138,90,0.3); color: #7ab87a; margin-left: 2px; }
+  .btg-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.15); border: 1px solid rgba(201,169,110,0.4); color: #c9a96e; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
+  .coravin-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: rgba(160,120,200,0.15); border: 1px solid rgba(160,120,200,0.4); color: #b894e0; margin-left: 2px; font-weight: 500; letter-spacing: 0.05em; }
   .wine-right { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex-shrink: 0; }
   .wine-price { font-family: 'Cormorant Garamond', serif; font-size: 18px; color: var(--gold); }
-  .chevron { color: var(--gold-dim); font-size: 12px; transition: transform 0.25s; }
+  .chevron { color: var(--gold-dim); font-size: 13px; transition: transform 0.25s; }
   .wine-card.open .chevron { transform: rotate(180deg); }
   .wine-expand { display: none; padding: 0 16px 16px; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
   .wine-card.open .wine-expand { display: block; }
@@ -88,17 +88,17 @@
   .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
   .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 4px; }
   .detail-block.full { grid-column: 1 / -1; }
-  .detail-label { font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
+  .detail-label { font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
   .note-pills { display: flex; flex-wrap: wrap; gap: 5px; }
-  .note-pill { font-size: 11px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold); background: rgba(201,169,110,0.05); }
+  .note-pill { font-size: 15px; padding: 3px 10px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold); background: rgba(201,169,110,0.05); }
   .pairing-tags { display: flex; flex-wrap: wrap; gap: 5px; }
-  .pairing-tag { font-size: 11px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
+  .pairing-tag { font-size: 15px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
   .expand-section { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
-  .expand-section-title { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none; }
-  .expand-section-body { font-size: 13px; color: var(--muted); line-height: 1.7; }
+  .expand-section-title { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; user-select: none; }
+  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.7; }
   .expand-section-body p { margin-bottom: 8px; }
   .expand-section-body p:last-child { margin-bottom: 0; }
-  .trivia-item { display: flex; gap: 10px; margin-bottom: 8px; font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .trivia-item { display: flex; gap: 10px; margin-bottom: 8px; font-size: 15px; color: var(--muted); line-height: 1.6; }
   .trivia-bullet { color: var(--gold-dim); flex-shrink: 0; }
   .loading { display: flex; flex-direction: column; align-items: center;
     justify-content: center; padding: 4rem 2rem; gap: 16px; }
@@ -118,7 +118,7 @@
   .price-slider::-webkit-slider-thumb:hover { background: var(--gold2); }
   .price-slider::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%;
     background: var(--gold); border: 2px solid var(--bg); cursor: pointer; }
-  .price-slider-label { font-size: 11px; color: var(--gold); white-space: nowrap;
+  .price-slider-label { font-size: 15px; color: var(--gold); white-space: nowrap;
     font-family: 'Outfit', sans-serif; min-width: 52px; text-align: right; }
   [id^='sec-'] { scroll-margin-top: 360px; }
   [id^='card-'] { scroll-margin-top: 360px; }
@@ -197,7 +197,7 @@
     <div class="legend-item">🪵 Oak / vanilla</div><div class="legend-item">🌶️ Spice</div>
     <div class="legend-item">🌸 Floral</div><div class="legend-item">☕ Firm tannins</div>
     <div class="legend-item">🧈 Silky tannins</div><div class="legend-item">🏺 Large format</div>
-    <div class="legend-item" style="grid-column:1/-1;margin-top:4px;color:var(--gold);font-size:11px;font-weight:500;">🍷 = Available by the glass</div>
+    <div class="legend-item" style="grid-column:1/-1;margin-top:4px;color:var(--gold);font-size:15px;font-weight:500;">🍷 = Available by the glass</div>
   </div>
 </div>
 
@@ -353,7 +353,7 @@ function render() {
             <div class="wine-number">${w.id} · ${w.vintage} · ${w.abv}</div>
             <div class="wine-producer">${w.producer}</div>
             <div class="wine-name-line">${w.name}</div>
-            <div class="wine-name-line" style="font-size:11px;margin-top:1px;">${w.region}</div>
+            <div class="wine-name-line" style="font-size:15px;margin-top:1px;">${w.region}</div>
             <div class="wine-icons">
               ${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}
               ${w.cert?`<span class="cert-badge">${certLabel(w.cert)}</span>`:''}
@@ -363,15 +363,15 @@ function render() {
           <div class="wine-right">${w.btg && w.bottle_price ? `
             <div>
               <div class="wine-price">$${w.btg_price || w.price}</div>
-              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">glass</div>
-              <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold-dim);margin-top:3px;">$${w.bottle_price}</div>
-              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">bottle</div>
+              <div style="font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">glass</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--gold-dim);margin-top:3px;">$${w.bottle_price}</div>
+              <div style="font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">bottle</div>
             </div>` : w.coravin ? `
             <div>
               <div class="wine-price">$${w.price}</div>
-              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">bottle</div>
-              <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:#b894e0;margin-top:3px;">$${w.coravin_price}</div>
-              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">glass</div>
+              <div style="font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">bottle</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:15px;color:#b894e0;margin-top:3px;">$${w.coravin_price}</div>
+              <div style="font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">glass</div>
             </div>` : `<div class="wine-price">$${w.price}</div>`}
           <div class="chevron">▾</div></div>
         </div>
