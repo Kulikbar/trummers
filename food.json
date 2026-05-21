@@ -78,7 +78,7 @@
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "Grüner's signature white pepper and green herb notes are a natural match for a cold vegetable soup with lemon oil.",
+        "note": "Grüner's white pepper and green herb character mirrors the lemon oil and herb base of the gazpacho directly.",
         "price": 16
       }
     ],
@@ -173,7 +173,7 @@
       {
         "id": "543",
         "name": "Familie Reinisch Ried Lores, Tattendorf, Thermenregion",
-        "note": "The weight and minerality of this Austrian Chardonnay handles the richness of carrot cream beautifully.",
+        "note": "The weight and minerality of this Austrian Chardonnay holds up to carrot cream without reading heavy.",
         "price": 29,
         "coravin": true,
         "file": "whites"
@@ -261,13 +261,13 @@
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Sauvignon Blanc's herbaceous, citrus-driven character is a classic match for goat cheese and vinaigrette-dressed salads.",
+        "note": "Sauvignon Blanc's citrus and cut acidity lifts goat cheese and pulls the vinaigrette into focus.",
         "price": 15
       },
       {
         "id": "BTG-011",
         "name": "Hillinger Secco Pinot Noir Rosé",
-        "note": "The candied pecans and creamy balsamic call for something with light fruit — a dry rosé works well without overwhelming the delicate gem lettuce.",
+        "note": "The candied pecans and creamy balsamic need some fruit — a dry rosé gives that without adding weight.",
         "price": 15
       }
     ],
@@ -275,7 +275,7 @@
       {
         "id": "317",
         "name": "Tement Ried Zieregg, Südsteiermark 2018",
-        "note": "One of the finest Sauvignon Blancs on the list, with enough complexity to elevate the goat cheese and apple combination.",
+        "note": "A serious Styrian Sauvignon Blanc with the depth and mineral precision to hold its own against aged goat cheese and apple.",
         "price": 140,
         "file": "whites"
       }
@@ -362,13 +362,13 @@
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "Grüner's peppery, mineral character is a textbook pairing for arugula and shaved asparagus.",
+        "note": "Grüner's white pepper and mineral backbone cuts through bitter arugula and pulls the honey mustard into focus.",
         "price": 16
       },
       {
         "id": "337",
         "name": "Lauverjat Sancerre, Loire Valley",
-        "note": "Sancerre's crisp citrus and mineral character is a classic pairing for bitter greens and honey mustard.",
+        "note": "Sancerre's citrus edge and mineral finish sharpens the honey mustard and keeps the bitter greens from going flat.",
         "price": 23,
         "coravin": true,
         "file": "whites"
@@ -461,13 +461,13 @@
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Another strong option if the guest prefers white — the citrus and herb notes in Loire Sauvignon Blanc complement both the beets and the goat cheese.",
+        "note": "If the guest prefers white — Loire Sauvignon Blanc's citrus and herb notes thread through the beets and lemon vinaigrette.",
         "price": 15
       },
       {
         "id": "707",
         "name": "Heidi Schröck & Söhne Weissburgunder, Burgenland",
-        "note": "The Weissburgunder's stone fruit and gentle texture bridges roasted beets and creamy goat cheese beautifully.",
+        "note": "Weissburgunder's stone fruit and soft texture bridges the earthiness of roasted beets and the tang of goat cheese.",
         "price": 24,
         "coravin": true,
         "file": "whites"
@@ -558,7 +558,7 @@
       {
         "id": "BTG-009",
         "name": "Ontañon Tempranillo/Garnacha, Rioja",
-        "note": "If the guest wants red, a lighter Rioja works with the boar ragu without overwhelming the hummus base.",
+        "note": "A lighter Rioja keeps the boar ragu in check without overwhelming the hummus base — the red fruit absorbs the fat.",
         "price": 16
       }
     ],
@@ -732,13 +732,13 @@
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "White asparagus and Grüner Veltliner is one of the great classic pairings in Austrian cuisine. The wine's white pepper and mineral notes are made for this dish.",
+        "note": "White asparagus dulls tannin and amplifies bitterness in most wines — Grüner's white pepper and acidity are built for it.",
         "price": 16
       },
       {
         "id": "BTG-003",
         "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
-        "note": "Lugana's delicate stone fruit and mineral character works beautifully with mousseline sauce and the subtle salinity of the salmon roe.",
+        "note": "Lugana's stone fruit and mineral lift works against mousseline and the salinity of salmon roe without competing.",
         "price": 17
       }
     ],
@@ -746,7 +746,7 @@
       {
         "id": "875",
         "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC 2023",
-        "note": "A benchmark Grüner Veltliner from one of Kamptal's greatest producers. This is the bottle pairing for the white asparagus.",
+        "note": "Premier cru Kamptal Grüner — the depth and precision here match the delicacy of white asparagus and mousseline at the bottle level.",
         "price": 96,
         "file": "whites"
       }
@@ -826,7 +826,7 @@
       {
         "id": "BTG-001",
         "name": "Szigeti Blanc de Blancs, Burgenland NV",
-        "note": "Sparkling wine with baked brie in puff pastry is a classic — the bubbles cut the richness and the fruit complements the cherry jam.",
+        "note": "The bubbles cut the puff pastry fat and the stone fruit in the Blanc de Blancs threads through the cherry jam.",
         "price": 16
       },
       {
@@ -926,7 +926,7 @@
       {
         "id": "BTG-010",
         "name": "Black Stallion Cabernet, North Coast",
-        "note": "Cabernet's tannin structure and dark fruit character is a natural match for the fat and richness of BBQ bone marrow with apricot jam.",
+        "note": "Cabernet's tannin structure binds to the fat in bone marrow — the dark fruit and the apricot jam pull in the same direction.",
         "price": 18
       }
     ],
@@ -943,7 +943,7 @@
     "wine_pairings_whisky": [
       {
         "name": "Weller Antique 107",
-        "note": "High-proof wheated bourbon alongside bone marrow is a genuinely great combination — the sweetness of the wheat matches the richness of the marrow, and the proof cuts the fat.",
+        "note": "High-proof wheated bourbon alongside bone marrow — the wheat sweetness matches the fat, the proof cuts through it.",
         "price": 35,
         "whisky_id": "35"
       }
@@ -1023,7 +1023,7 @@
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "The apple vinegar and mustard seed gastrique in this dish call for something with crisp acidity — Loire Sauvignon Blanc is a natural match.",
+        "note": "The apple vinegar and mustard seed gastrique need high acidity to stay in balance — Loire Sauvignon Blanc has both.",
         "price": 15
       },
       {
@@ -1349,13 +1349,13 @@
       {
         "id": "BTG-009",
         "name": "Ontañon Tempranillo/Garnacha, Rioja",
-        "note": "If the guest wants more structure, a Rioja blend with the bacon lardons and steak elements works well.",
+        "note": "The bacon lardons and steak elements in the salad need some tannin — Rioja's structure holds without overwhelming the creme fraiche.",
         "price": 16
       },
       {
         "id": "1525",
         "name": "Patricia Green Cellars 'Anklebreaker Block,' Corrine Vineyard",
-        "note": "Willamette Valley Pinot Noir against spit-roasted chicken and steak is a natural — elegant red fruit, silky tannins.",
+        "note": "Willamette Valley Pinot Noir's red fruit and silky tannins thread through spit-roasted chicken and steak without fighting the dressing.",
         "price": 32,
         "coravin": true,
         "file": "reds"
@@ -1446,13 +1446,13 @@
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "Rotisserie chicken with truffle orzo and garlic honey jus is a natural for Grüner Veltliner — the wine's minerality and spice are made for poultry dishes with herbal elements.",
+        "note": "Rotisserie chicken with truffle orzo and garlic honey jus pulls toward Grüner — the minerality handles the truffle and the acidity cuts the jus.",
         "price": 16
       },
       {
         "id": "BTG-007",
         "name": "Maison de la Villette Pinot Noir, Loire Valley",
-        "note": "A light red works beautifully with rotisserie chicken — the fruit and earthiness of Loire Pinot complement the garlic honey jus without overpowering the bird.",
+        "note": "Loire Pinot's earthiness and red fruit complement the garlic honey jus and hold against the richness of the truffle orzo.",
         "price": 15
       }
     ],
@@ -1467,7 +1467,7 @@
       {
         "id": "809",
         "name": "Bründlmayer Ried Loiserberg Grüner Veltliner 2022",
-        "note": "A premier cru Grüner from one of Kamptal's iconic producers — the bottle choice for a whole Joyce Farm Chicken.",
+        "note": "Premier cru Kamptal Grüner from the same producer as the BTG, with the depth to match a whole Joyce Farm Chicken.",
         "price": 103,
         "file": "whites"
       }
@@ -1560,7 +1560,7 @@
       {
         "id": "733",
         "name": "Botanica Chenin Blanc 'Mary Delany,' Citrusdal Mountains",
-        "note": "Chenin Blanc's tropical fruit and waxy texture is one of the few whites that genuinely handles coconut curry.",
+        "note": "Chenin Blanc's waxy texture and tropical fruit don't fight coconut curry — most whites do.",
         "price": 28,
         "coravin": true,
         "file": "whites"
@@ -1658,7 +1658,7 @@
       {
         "id": "BTG-009",
         "name": "Ontañon Tempranillo/Garnacha, Rioja",
-        "note": "Ibérico pork and Spanish Tempranillo is one of the great natural pairings — the wine's red fruit and earthiness complement the pork's exceptional marbling.",
+        "note": "Ibérico pork's fat and the aleppo heat pull toward Tempranillo — the red fruit absorbs the spice and the acidity cuts the fat.",
         "price": 16
       },
       {
@@ -1764,7 +1764,7 @@
       {
         "id": "BTG-007",
         "name": "Maison de la Villette Pinot Noir, Loire Valley",
-        "note": "Loire Pinot Noir with rack of lamb is a classic French pairing — the earthiness and red fruit of the wine complement the pesto without competing with the lamb.",
+        "note": "Loire Pinot's earthiness and red fruit sit alongside lamb's gaminess without amplifying it.",
         "price": 15
       }
     ],
@@ -1772,7 +1772,7 @@
       {
         "id": "5047",
         "name": "Castello di Verduno Nebbiolo, Monvigliero Reserva, Barolo DOCG 2019",
-        "note": "Barolo with rack of lamb is one of the great red meat pairings in all of wine — the tannin, acidity, and complexity of Nebbiolo are made for this.",
+        "note": "Barolo's tannin grips lamb fat and its acidity keeps the basil pesto from going heavy — the structure here is load-bearing.",
         "price": 135,
         "file": "reds"
       }
@@ -1781,7 +1781,7 @@
     "wine_pairings_whisky": [
       {
         "name": "Russell's Reserve 13 Year",
-        "note": "A bold, aged Wild Turkey rye alongside rack of lamb is an unexpected but genuinely excellent pairing — the rye spice echoes the herbal pesto and the proof stands up to the richness of the lamb.",
+        "note": "Rye spice echoes the herb crust on the lamb directly — the age on this bottle softens the edges enough to let the food lead.",
         "price": 23,
         "whisky_id": "67"
       }
@@ -1875,7 +1875,7 @@
       {
         "id": "2009",
         "name": "Château Montelena Cabernet, Calistoga 2022",
-        "note": "One of Napa's most historic producers, producing structured Cabernet that is built for aged beef. The right bottle for a tomahawk.",
+        "note": "Structured Napa Cabernet built for aged beef — the tannin grip and dark fruit are the right counterweight to a 32 oz ribeye.",
         "price": 170,
         "file": "reds"
       }
@@ -1884,7 +1884,7 @@
     "wine_pairings_whisky": [
       {
         "name": "Stagg Batch 25D",
-        "note": "George T. Stagg alongside a tomahawk ribeye is one of the most serious pairings on the menu — the full-proof, unfiltered bourbon's intensity matches the boldness of the cut.",
+        "note": "Full-proof, unfiltered bourbon alongside a tomahawk — the proof cuts the fat and the oak gives you a second char note alongside the rotisserie.",
         "price": 28,
         "whisky_id": "69"
       }
@@ -1968,7 +1968,7 @@
       {
         "id": "3030",
         "name": "Château La Louvière Cab Sauv/Merlot, Pessac-Léognan",
-        "note": "Pessac-Léognan Bordeaux by the glass alongside prime rib is a genuine moment — structured, earthy, long.",
+        "note": "Pessac-Léognan's earthiness and Cabernet-Merlot structure hold against prime rib — the oak and the beef fat are in the same register.",
         "price": 29,
         "coravin": true,
         "file": "reds"
@@ -1978,7 +1978,7 @@
       {
         "id": "3007",
         "name": "Château Grand-Puy Ducasse, Pauillac 2016",
-        "note": "A classified Pauillac Bordeaux with the structure and longevity to make a prime rib service feel genuinely special.",
+        "note": "Classified Pauillac with the tannin structure and longevity to stand alongside slow-roasted prime rib — the Bordeaux acid keeps each bite fresh.",
         "price": 177,
         "file": "reds"
       }
@@ -1987,7 +1987,7 @@
     "wine_pairings_whisky": [
       {
         "name": "Eagle Rare 10 Year",
-        "note": "One of the best value bourbons on the list alongside one of the most straightforward beef preparations — clean, approachable, and genuinely complementary.",
+        "note": "Buffalo Trace mash with ten years of age — approachable proof, vanilla and caramel notes that pull toward the horseradish cream.",
         "price": 20,
         "whisky_id": "10"
       }
@@ -2072,7 +2072,7 @@
       {
         "id": "BTG-007",
         "name": "Maison de la Villette Pinot Noir, Loire Valley",
-        "note": "Salmon is one of the few fish that genuinely works with a light red — the earthiness of Loire Pinot complements the richness of the fish without fighting it.",
+        "note": "Salmon's fat content holds against a light red — Loire Pinot's earthiness and low tannin don't overpower the cauliflower preparation.",
         "price": 15
       }
     ],
@@ -2080,14 +2080,14 @@
       {
         "id": "459",
         "name": "Bergström 'Old Stones,' Chardonnay, Willamette Valley 2020",
-        "note": "Oregon Chardonnay is a classic salmon pairing — the minerality and acidity of Willamette Valley Chardonnay complements pan-seared salmon with cauliflower beautifully.",
+        "note": "Willamette Valley Chardonnay's minerality and acidity complement pan-seared salmon and cauliflower puree without adding weight.",
         "price": 126,
         "file": "whites"
       },
       {
         "id": "950",
         "name": "Babs 'Dial Tone,' Pinot Noir, Sta. Rita Hills 2021",
-        "note": "Santa Barbara Pinot Noir with salmon is a natural — the lighter body and red fruit work with the richness of the fish.",
+        "note": "Sta. Rita Hills Pinot has the acidity to cut salmon fat and the red fruit to hold against the richness of the pan sauce.",
         "price": 70,
         "file": "reds"
       }
@@ -2166,7 +2166,7 @@
       {
         "id": "BTG-001",
         "name": "Szigeti Blanc de Blancs, Burgenland NV",
-        "note": "Sparkling wine with seared scallops is a classic pairing — the bubbles and acidity cut through the richness of the blood orange risotto.",
+        "note": "The bubbles and acidity in Blanc de Blancs cut through the sear on the scallops and the richness of blood orange risotto.",
         "price": 16
       },
       {
@@ -2178,7 +2178,7 @@
       {
         "id": "337",
         "name": "Lauverjat Sancerre, Loire Valley",
-        "note": "Sancerre's mineral precision and citrus lift is a classic match for seared scallops and blood orange.",
+        "note": "Sancerre's mineral finish and citrus precision sharpens the blood orange and keeps the scallop's sweetness from reading flat.",
         "price": 23,
         "coravin": true,
         "file": "whites"
@@ -2188,7 +2188,7 @@
       {
         "id": "611",
         "name": "Bründlmayer Heiligenstein 1ÖTW 'Lyra' Reserve Riesling 2015",
-        "note": "A grand cru Kamptal Riesling with the acidity, minerality, and complexity to elevate seared scallops with blood orange risotto to a genuinely special pairing.",
+        "note": "Grand cru Kamptal Riesling with the acidity and mineral precision to hold against seared scallops and blood orange risotto at the bottle level.",
         "price": 150,
         "file": "whites"
       }
@@ -2374,7 +2374,7 @@
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "The butter-braised turnips and dill crema call for something fresh and citrus-driven — Loire Sauvignon Blanc is a natural for delicate white fish with cream-based accompaniments.",
+        "note": "Butter-braised turnips and dill crema pull toward citrus acidity — Loire Sauvignon Blanc's cut keeps the richness in check.",
         "price": 15
       },
       {
@@ -2386,7 +2386,7 @@
       {
         "id": "875",
         "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC",
-        "note": "Grüner Veltliner with white fish and dill is textbook Austria — white pepper, mineral, clean finish.",
+        "note": "Grüner's white pepper and mineral finish runs parallel to dill and butter — the acidity keeps the turnips and crema from sitting heavy.",
         "price": 26,
         "coravin": true,
         "file": "whites"
@@ -2498,7 +2498,7 @@
       {
         "id": "5047",
         "name": "Castello di Verduno Nebbiolo, Monvigliero Reserva, Barolo DOCG 2019",
-        "note": "Barolo's tannin, acidity, and complexity make it one of the great pairings for braised short rib — the wine's structure evolves alongside the richness of the dish.",
+        "note": "Barolo's tannin grips braised short rib fat the same way it does lamb — the acidity and structure are what this dish needs.",
         "price": 135,
         "file": "reds"
       }
@@ -2507,7 +2507,7 @@
     "wine_pairings_whisky": [
       {
         "name": "Michter's 10 Year",
-        "note": "A decade-aged Michter's rye alongside braised short rib with truffle Madeira jus is a genuinely exceptional pairing — the dried fruit and leather complexity of an aged rye echoes the jus without competing with it.",
+        "note": "Decade-aged rye alongside truffle Madeira jus — the rye spice and the Madeira are in the same oxidative register, and the age smooths the proof.",
         "price": 60,
         "whisky_id": "81"
       }
@@ -2585,13 +2585,13 @@
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "Wienerschnitzel and Grüner Veltliner is one of the iconic Austrian pairings. The wine's white pepper and mineral character cut through the fried pork cleanly and the match feels completely natural.",
+        "note": "Grüner's white pepper and acidity cut the schnitzel breading and the fat — the mineral finish pulls the dill potato salad into focus.",
         "price": 16
       },
       {
         "id": "7037",
         "name": "Glatzer Blaufränkisch, Göttlesbrunn DAC",
-        "note": "Blaufränkisch with schnitzel is a classic Burgenland pairing — dark cherry, pepper, bright acidity.",
+        "note": "Blaufränkisch's dark cherry and pepper give the schnitzel a red option with enough acidity to handle the breading fat.",
         "price": 27,
         "coravin": true,
         "file": "reds"
@@ -2705,7 +2705,7 @@
       {
         "id": "7037",
         "name": "Glatzer Blaufränkisch, Göttlesbrunn DAC",
-        "note": "Blaufränkisch's dark fruit and peppery backbone works with the smoked puttanesca and kalamata olives.",
+        "note": "Blaufränkisch's dark fruit and pepper backbone thread through smoked puttanesca and kalamata olives without getting lost.",
         "price": 27,
         "coravin": true,
         "file": "reds"
@@ -2796,19 +2796,19 @@
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "The asparagus, English peas, and cured egg yolk in this dish are fresh spring flavors that work beautifully with Loire Sauvignon Blanc's citrus and herbal character.",
+        "note": "Asparagus, English peas, and cured egg yolk are spring flavors that Loire Sauvignon Blanc's citrus and herb notes run alongside cleanly.",
         "price": 15
       },
       {
         "id": "BTG-007",
         "name": "Maison de la Villette Pinot Noir, Loire Valley",
-        "note": "A light Loire Pinot Noir works with chicken cavatelli if the guest prefers red — the earthiness of the wine complements the spring vegetables without overpowering the pasta.",
+        "note": "Loire Pinot's earthiness and low tannin sit alongside chicken cavatelli if the guest prefers red — the cured egg yolk absorbs the fruit.",
         "price": 15
       },
       {
         "id": "713",
         "name": "Clementine Carter Roussanne, Santa Barbara County",
-        "note": "Roussanne's waxy texture and stone fruit character plays beautifully against asparagus, peas, and cured egg yolk.",
+        "note": "Roussanne's waxy texture and stone fruit character sit against asparagus, peas, and cured egg yolk without the wine going sharp.",
         "price": 26,
         "coravin": true,
         "file": "whites"
@@ -2917,7 +2917,7 @@
       {
         "id": "5053",
         "name": "Ceretto Nebbiolo, Barbaresco DOCG 2020",
-        "note": "Barbaresco with risotto is a classic Piedmontese pairing — the wine's earthy, floral complexity complements the pesto and Pecorino without fighting the delicacy of the rice.",
+        "note": "Nebbiolo's tannin and acidity hold against pesto's fat and Pecorino's salt — the earthiness in the wine mirrors the tomato confit.",
         "price": 132,
         "file": "reds"
       }
@@ -3328,18 +3328,18 @@
         "afters_page": "afters.html"
       },
       {
-        "name": "Hennessy VS",
-        "why": "The light fruit and vanilla of Hennessy VS echoes the ice cream and hot fudge. Easy, approachable, and a natural after-dinner pour for guests who want something simple.",
-        "price": 12,
-        "afters_id": "164",
-        "afters_page": "afters.html"
-      },
-      {
         "name": "Graham's 10 Year Tawny",
         "why": "The dried fruit and caramel notes of the 10 Year Tawny mirror the dark chocolate and coffee elements in the sundae. A classic dessert pairing.",
         "price": 12,
         "afters_id": "160",
         "afters_page": "afters.html"
+      },
+      {
+        "name": "Espresso Martini",
+        "why": "The espresso's bitterness cuts the sweetness of the hot fudge and ice cream — the vodka base keeps it clean rather than adding another layer of sweetness.",
+        "price": 14,
+        "afters_id": 181,
+        "afters_page": "cocktails.html"
       }
     ],
     "file": "dessert"
@@ -3507,14 +3507,14 @@
     "afters_pairings": [
       {
         "name": "Ardbeg Uigeadail",
-        "why": "The peated Scotch against smoked chocolate is one of the more unexpected and genuinely impressive pairings on the menu. The peat and smoke echo each other, while Uigeadail's dark fruit and sherry notes play off the torte's sweetness. For adventurous guests only.",
+        "why": "Uigeadail's peat mirrors the smoked chocolate directly, and the sherry cask influence brings dried fruit and dark caramel that echo the torte's sweetness. Smoke on smoke, sweetness on sweetness.",
         "price": 27,
         "afters_id": "99",
         "afters_page": "whisky.html"
       },
       {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "The nutty, oxidative character of the 20 Year Tawny plays beautifully against dark chocolate. A classic pairing with real logic behind it.",
+        "why": "The 20 Year's nutty, oxidative character and dried fruit sit in the same register as dark chocolate — the tannin in the port holds against the cremeux.",
         "price": 19,
         "afters_id": "161",
         "afters_page": "afters.html"
@@ -3609,7 +3609,7 @@
     "afters_pairings": [
       {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "The 20 Year's dried fruit, walnut, and orange peel character mirrors the port cherry reduction in the strudel. A natural pairing — the same flavor language on both sides of the plate.",
+        "why": "The 20 Year's dried fruit, walnut, and orange peel mirror the port cherry reduction directly — the oxidative character runs alongside the Callebaut chocolate.",
         "price": 19,
         "afters_id": "161",
         "afters_page": "afters.html"
@@ -3688,14 +3688,14 @@
     "afters_pairings": [
       {
         "name": "Doisey-Vedrines Sauternes",
-        "why": "Sauternes with cheese board is one of the great classic pairings in all of gastronomy. The botrytized sweetness and acidity cuts through the richness of the cheese while honey and apricot notes complement aged and blue varieties especially well.",
+        "why": "Sauternes' botrytized sweetness and acidity hold against salty, funky cheese — the sugar pulls the salt into focus rather than competing with it.",
         "price": 17,
         "afters_id": "159",
         "afters_page": "afters.html"
       },
       {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "Tawny port and cheese is a classic British pairing. The 20 Year's dried fruit and nut character works with a wide range of cheese styles, from aged cheddar to blue.",
+        "why": "Tawny port's dried fruit and nut character hold against a wide range of cheese styles — the oxidative finish keeps the palate clean between bites.",
         "price": 19,
         "afters_id": "161",
         "afters_page": "afters.html"
@@ -3777,13 +3777,6 @@
         "why": "The Moscato's tropical peach and orange blossom character mirrors the mango and pineapple sorbets. Light, sweet, and dairy-free — works on every level for this pairing.",
         "price": 14,
         "afters_id": "158",
-        "afters_page": "afters.html"
-      },
-      {
-        "name": "Montenegro Amaro",
-        "why": "The orange and light bitterness of Montenegro acts as a digestive bridge between the sweet sorbet and the end of the meal. A gentle, approachable finish.",
-        "price": 13,
-        "afters_id": "140",
         "afters_page": "afters.html"
       }
     ],

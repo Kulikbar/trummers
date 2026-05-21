@@ -400,7 +400,7 @@ function buildExpand(d) {
           ${(d.afters_pairings||[]).map(p => {
             const tag = p.afters_id ? 'a' : 'div';
             const page = p.afters_page || 'afters.html';
-            const href = p.afters_id ? `href="${page}#card-${p.afters_id}"` : '';
+            const href = p.afters_id ? `href="${page}${page === 'cocktails.html' ? '?open=' : '#card-'}${p.afters_id}"` : '';
             return `<${tag} class="afters-pairing-card" ${href} onclick="event.stopPropagation()" style="${p.afters_id ? 'text-decoration:none;' : ''}">
               <div style="flex:1;min-width:0;">
                 <div class="afters-pairing-name">${p.name || p}</div>
@@ -408,7 +408,7 @@ function buildExpand(d) {
               </div>
               <div style="flex-shrink:0;margin-left:12px;text-align:right;">
                 ${p.price ? `<div style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--gold);">$${p.price}</div>` : ''}
-                ${p.afters_id ? `<div style="font-size:15px;color:var(--gold-dim);margin-top:2px;">${page === 'whisky.html' ? 'Whisky →' : 'Afters →'}</div>` : ''}
+                ${p.afters_id ? `<div style="font-size:15px;color:var(--gold-dim);margin-top:2px;">${page === 'whisky.html' ? 'Whisky →' : page === 'cocktails.html' ? 'Cocktails →' : 'Afters →'}</div>` : ''}
               </div>
             </${tag}>`;
           }).join('')}
