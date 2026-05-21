@@ -119,8 +119,8 @@
     background: var(--gold); border: 2px solid var(--bg); cursor: pointer; }
   .price-slider-label { font-size: 11px; color: var(--gold); white-space: nowrap;
     font-family: 'Outfit', sans-serif; min-width: 52px; text-align: right; }
-  [id^='sec-'] { scroll-margin-top: 280px; }
-  [id^='card-'] { scroll-margin-top: 280px; }
+  [id^='sec-'] { scroll-margin-top: 360px; }
+  [id^='card-'] { scroll-margin-top: 360px; }
 </style>
 </head>
 <body>
@@ -327,13 +327,19 @@ function render() {
   list.innerHTML=html;
 }
 
-function toggleCard(id){openId=openId===id?null:id;render();if(openId)setTimeout(()=>{const el=document.getElementById('card-'+id);if(el)el.scrollIntoView({behavior:'smooth',block:'nearest'});},50);}
+function toggleCard(id){openId=openId===id?null:id;render();if(openId)setTimeout(()=>{ scrollToEl(document.getElementById('card-'+id)); }, 50);}
 function toggleSec(e,secId){e.stopPropagation();const sec=document.getElementById('sec-'+secId),arr=document.getElementById('arr-'+secId);if(!sec)return;const hidden=sec.style.display==='none';sec.style.display=hidden?'':'none';if(arr)arr.textContent=hidden?'▾':'▸';}
 
 
 
 
 
+function scrollToEl(el) {
+  if (!el) return;
+  const h = document.querySelector('.controls')?.offsetHeight || 0;
+  el.style.scrollMarginTop = (h + 24) + 'px';
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 function scrollToHash() {
   if (!window.location.hash) return;
   const id = window.location.hash.slice(1);
@@ -345,12 +351,12 @@ function scrollToHash() {
     render();
     setTimeout(() => {
       const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      scrollToEl(el);
     }, 300);
   } else {
     const el = document.getElementById(id);
     if (!el) return;
-    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 150);
+    setTimeout(() => scrollToEl(el), 150);
   }
 }
 fetch('wines.json')
@@ -368,7 +374,7 @@ fetch('wines.json')
       render();
       setTimeout(() => {
         const el = document.getElementById('card-' + openParam);
-        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        scrollToEl(el);
       }, 150);
     } else {
       scrollToHash();

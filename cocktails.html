@@ -29,8 +29,8 @@
   .toc-pill { flex-shrink: 0; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 11px; text-decoration: none; transition: all 0.15s; white-space: nowrap; display: inline-block; margin-bottom: 0.75rem; }
   .toc-pill:hover { border-color: var(--gold-dim); color: var(--gold); }
   .controls { padding: 0.75rem 1.25rem 0.75rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
-  [id^='sec-'] { scroll-margin-top: 280px; }
-  [id^='card-'] { scroll-margin-top: 280px; }
+  [id^='sec-'] { scroll-margin-top: 360px; }
+  [id^='card-'] { scroll-margin-top: 360px; }
   .search-wrap { position: relative; margin-bottom: 0.75rem; }
   .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 14px; pointer-events: none; }
   #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 14px; font-weight: 300; outline: none; transition: border-color 0.2s; }
@@ -181,6 +181,12 @@ function applyScrollMargins() {
     });
   }
 }
+function scrollToEl(el) {
+  if (!el) return;
+  const h = document.querySelector('.controls')?.offsetHeight || 0;
+  el.style.scrollMarginTop = (h + 24) + 'px';
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
 
 function setCat(c) { activeCat = c; openId = null; buildFilters(); render(); requestAnimationFrame(applyScrollMargins); }
 function toggleIcon(e) { activeIcons.has(e) ? activeIcons.delete(e) : activeIcons.add(e); openId = null; buildFilters(); render(); requestAnimationFrame(applyScrollMargins); }
@@ -297,10 +303,7 @@ function toggleCard(id) {
   requestAnimationFrame(() => {
     applyScrollMargins();
     if (openId) {
-      setTimeout(() => {
-        const el = document.getElementById('card-'+id);
-        if (el) el.scrollIntoView({ behavior:'smooth', block:'start' });
-      }, 50);
+      setTimeout(() => { scrollToEl(document.getElementById('card-'+id)); }, 50);
     }
   });
 }
@@ -330,10 +333,7 @@ fetch('bar.json')
         render();
         requestAnimationFrame(() => {
           applyScrollMargins();
-          setTimeout(() => {
-            const el = document.getElementById('card-' + openParam);
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 100);
+          setTimeout(() => { scrollToEl(document.getElementById('card-' + openParam)); }, 100);
         });
       }
     });
