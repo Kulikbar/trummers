@@ -122,6 +122,12 @@
     font-family: 'Outfit', sans-serif; min-width: 52px; text-align: right; }
   [id^='sec-'] { scroll-margin-top: 360px; }
   [id^='card-'] { scroll-margin-top: 360px; }
+
+  .controls-collapsible { overflow: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; max-height: 600px; opacity: 1; }
+  .controls.collapsed .controls-collapsible { max-height: 0; opacity: 0; }
+  .filters-toggle { display: none; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); background: transparent; color: #c9a96e; font-size: 12px; cursor: pointer; white-space: nowrap; font-family: 'Outfit', sans-serif; }
+  .controls.collapsed .filters-toggle { display: block; }
+  .search-row-wrap { display: flex; align-items: center; gap: 8px; }
 </style>
 </head>
 <body>
@@ -148,10 +154,13 @@
 </nav>
 
 <div class="controls">
-  <div class="search-wrap">
+  <div class="search-row-wrap"><div class="search-wrap" style="flex:1;">
     <span class="search-icon">⌕</span>
     <input id="search" type="text" placeholder="Search producer, grape, region, descriptor…" oninput="render()">
   </div>
+  <button class="filters-toggle" onclick="toggleFilters()">Filters ↑</button>
+</div>
+  <div class="controls-collapsible">
   <div class="filter-row" id="cat-filters"></div>
   <div class="filter-row" id="icon-filters"></div>
   <div class="filter-row"><button id="btg-filter" class="icon-btn" onclick="toggleBtg()">🍷 By the glass</button><button id="coravin-filter" class="icon-btn" onclick="toggleCoravin()">⚗️ Coravin</button></div>
@@ -174,6 +183,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
   <div class="active-summary" id="active-summary"></div>
 </div>
@@ -406,6 +416,29 @@ fetch('wines.json')
     document.getElementById('wine-list').innerHTML = '<p style="color:#8a7e6e;padding:2rem;text-align:center">Could not load wine data. Make sure wines.json is in the same folder.</p>';
   });
 
+
+(function() {
+  let lastScroll = 0;
+  let manualExpand = false;
+  window.addEventListener('scroll', function() {
+    const controls = document.querySelector('.controls');
+    if (!controls) return;
+    const y = window.scrollY;
+    if (y > 60 && !manualExpand) {
+      controls.classList.add('collapsed');
+    } else if (y <= 60) {
+      controls.classList.remove('collapsed');
+      manualExpand = false;
+    }
+    lastScroll = y;
+  }, { passive: true });
+  window.toggleFilters = function() {
+    const controls = document.querySelector('.controls');
+    if (!controls) return;
+    manualExpand = true;
+    controls.classList.remove('collapsed');
+  };
+})();
 </script>
 </body>
 </html>

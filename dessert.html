@@ -141,6 +141,12 @@
   .loading-spinner { width: 20px; height: 20px; border: 2px solid var(--border2); border-top-color: var(--gold); border-radius: 50%; animation: spin 0.8s linear infinite; }
   .loading-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 0.95rem; color: var(--muted); }
   @keyframes spin { to { transform: rotate(360deg); } }
+
+  .controls-collapsible { overflow: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; max-height: 600px; opacity: 1; }
+  .controls.collapsed .controls-collapsible { max-height: 0; opacity: 0; }
+  .filters-toggle { display: none; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); background: transparent; color: #c9a96e; font-size: 12px; cursor: pointer; white-space: nowrap; font-family: 'Outfit', sans-serif; }
+  .controls.collapsed .filters-toggle { display: block; }
+  .search-row-wrap { display: flex; align-items: center; gap: 8px; }
 </style>
 </head>
 <body>
@@ -158,11 +164,15 @@
 </div>
 
 <div class="controls">
-  <div class="search-wrap">
+  <div class="search-row-wrap"><div class="search-wrap" style="flex:1;">
     <span class="search-icon">⌕</span>
     <input id="search" type="search" placeholder="Search desserts, ingredients, techniques…" autocomplete="off" oninput="render()">
   </div>
+  <button class="filters-toggle" onclick="toggleFilters()">Filters ↑</button>
+</div>
+  <div class="controls-collapsible">
   <div class="allergen-row" id="allergen-filters"></div>
+  </div>
   <div class="active-summary" id="active-summary"></div>
 </div>
 
@@ -506,6 +516,29 @@ fetch('food.json')
     document.getElementById('dish-list').innerHTML =
       '<p style="color:#8a7e6e;padding:2rem;text-align:center;">Could not load food.json. Make sure it is in the same folder as this file.</p>';
   });
+
+(function() {
+  let lastScroll = 0;
+  let manualExpand = false;
+  window.addEventListener('scroll', function() {
+    const controls = document.querySelector('.controls');
+    if (!controls) return;
+    const y = window.scrollY;
+    if (y > 60 && !manualExpand) {
+      controls.classList.add('collapsed');
+    } else if (y <= 60) {
+      controls.classList.remove('collapsed');
+      manualExpand = false;
+    }
+    lastScroll = y;
+  }, { passive: true });
+  window.toggleFilters = function() {
+    const controls = document.querySelector('.controls');
+    if (!controls) return;
+    manualExpand = true;
+    controls.classList.remove('collapsed');
+  };
+})();
 </script>
 </body>
 </html>
