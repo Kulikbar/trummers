@@ -183,8 +183,8 @@ function applyScrollMargins() {
 function scrollToEl(el) {
   if (!el) return;
   const h = document.querySelector('.controls')?.offsetHeight || 0;
-  el.style.scrollMarginTop = (h + 24) + 'px';
-  el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const top = el.getBoundingClientRect().top + window.scrollY - (h + 24);
+  window.scrollTo({ top, behavior: 'smooth' });
 }
 
 function toggleIcon(emoji) {
@@ -333,6 +333,8 @@ fetch('bar.json')
   .then(r => r.json())
   .then(data => {
     BEERS = data.filter(b => b.cat === 'Beer & Cider');
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('local') === 'true') activeIcons.add('📍');
     buildFilters();
     render();
     requestAnimationFrame(() => {
