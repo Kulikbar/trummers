@@ -25,7 +25,7 @@
   .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
   .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
   .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
-  .header-chef { font-size: 15px; color: var(--muted); margin-top: 0.4rem; letter-spacing: 0.05em; }
+  .header-chef { font-size: 13px; color: var(--muted); margin-top: 0.4rem; letter-spacing: 0.05em; }
   .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
   .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: #8a6e42; text-decoration: none; transition: all 0.15s; }
   .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
@@ -41,7 +41,7 @@
   #search:focus { border-color: var(--gold-dim); }
   .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-top: 5px; padding-bottom: 2px; margin-bottom: 4px; }
   .allergen-row::-webkit-scrollbar { display: none; }
-  .allergen-btn { position: relative; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 15px; cursor: pointer; transition: all 0.2s; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
+  .allergen-btn { position: relative; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 13px; cursor: pointer; transition: all 0.2s; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
   .allergen-btn.strict { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 500; }
   .allergen-btn.modifiable { background: transparent; border-color: var(--gold); color: var(--gold); border-style: dashed; }
   .allergen-btn.strict::after { content: ''; position: absolute; top: -3px; right: -3px; width: 7px; height: 7px; border-radius: 50%; background: var(--green); border: 1px solid var(--bg); }
@@ -87,10 +87,10 @@
   .dish-name { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.2; }
   .dish-desc { font-size: 15px; color: var(--muted); margin-top: 3px; line-height: 1.4; }
   .badge-row { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 7px; align-items: center; }
-  .veg-badge { font-size: 15px; padding: 2px 8px; border-radius: 10px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); }
-  .vegan-badge { font-size: 15px; padding: 2px 8px; border-radius: 10px; background: rgba(90,154,106,0.2); border: 1px solid rgba(90,154,106,0.4); color: var(--green); }
+  .veg-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); }
+  .vegan-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: rgba(90,154,106,0.2); border: 1px solid rgba(90,154,106,0.4); color: var(--green); }
   .allergen-dots { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 7px; }
-  .a-dot { font-size: 15px; padding: 2px 7px; border-radius: 10px; white-space: nowrap; }
+  .a-dot { font-size: 13px; padding: 2px 7px; border-radius: 10px; white-space: nowrap; }
   .a-dot.safe { background: var(--green-dim); color: var(--green); border: 1px solid rgba(90,154,106,0.25); }
   .a-dot.contains { background: var(--red-dim); color: var(--red); border: 1px solid rgba(201,74,74,0.25); }
   .a-dot.modifiable { background: var(--yellow-dim); color: var(--yellow); border: 1px solid rgba(201,160,32,0.25); }
@@ -106,17 +106,17 @@
   .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
   .detail-label { font-size: 15px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
   .ingredient-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
-  .ingredient-tag { font-size: 15px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
+  .ingredient-tag { font-size: 13px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
   .allergen-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 4px; }
   .allergen-item { padding: 8px 10px; border-radius: 8px; }
   .allergen-item.safe { background: var(--green-dim); border: 1px solid rgba(90,154,106,0.2); }
   .allergen-item.contains { background: var(--red-dim); border: 1px solid rgba(201,74,74,0.2); }
   .allergen-item.modifiable { background: var(--yellow-dim); border: 1px solid rgba(201,160,32,0.2); }
-  .allergen-item-name { font-size: 15px; font-weight: 500; margin-bottom: 2px; }
+  .allergen-item-name { font-size: 13px; font-weight: 500; margin-bottom: 2px; }
   .allergen-item.safe .allergen-item-name { color: var(--green); }
   .allergen-item.contains .allergen-item-name { color: var(--red); }
   .allergen-item.modifiable .allergen-item-name { color: var(--yellow); }
-  .allergen-item-note { font-size: 15px; color: var(--muted); line-height: 1.4; }
+  .allergen-item-note { font-size: 13px; color: var(--muted); line-height: 1.4; }
   .expand-section { border-top: 1px solid var(--border); padding-top: 12px; margin-top: 12px; }
   .expand-section-title { font-size: 13px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; }
   .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.7; }
@@ -124,16 +124,16 @@
   .term-name { font-size: 15px; color: var(--cream); font-weight: 500; margin-bottom: 2px; }
   .term-def { font-size: 15px; color: var(--muted); line-height: 1.5; }
   .sourcing-item { padding: 10px 12px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); margin-bottom: 8px; }
-  .sourcing-name { font-size: 15px; color: var(--cream); font-weight: 500; margin-bottom: 4px; }
-  .sourcing-desc { font-size: 15px; color: var(--muted); line-height: 1.5; }
-  .chef-note { padding: 10px 12px; background: rgba(201,169,110,0.05); border-radius: 8px; border: 1px solid var(--border2); font-size: 15px; color: var(--muted); line-height: 1.6; }
-  .chef-note-label { font-size: 15px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 4px; }
+  .sourcing-name { font-size: 13px; color: var(--cream); font-weight: 500; margin-bottom: 4px; }
+  .sourcing-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+  .chef-note { padding: 10px 12px; background: rgba(201,169,110,0.05); border-radius: 8px; border: 1px solid var(--border2); font-size: 13px; color: var(--muted); line-height: 1.6; }
+  .chef-note-label { font-size: 13px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 4px; }
 
   /* ── AFTERS PAIRINGS ── */
   .afters-pairing-cards { display: flex; flex-direction: column; gap: 6px; }
   .afters-pairing-card { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); text-decoration: none; color: inherit; transition: border-color 0.15s; cursor: pointer; }
   .afters-pairing-card:hover { border-color: var(--border2); }
-  .afters-pairing-name { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--cream); }
+  .afters-pairing-name { font-family: 'Cormorant Garamond', serif; font-size: 13px; color: var(--cream); }
   .afters-pairing-arrow { color: var(--gold-dim); font-size: 15px; }
 
   /* ── LOADING ── */
