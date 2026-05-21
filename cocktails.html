@@ -358,24 +358,25 @@ fetch('bar.json')
   });
 
 (function() {
-  let lastScroll = 0;
-  let manualExpand = false;
+  let manualExpandAt = -1;
   window.addEventListener('scroll', function() {
     const controls = document.querySelector('.controls');
     if (!controls) return;
     const y = window.scrollY;
-    if (y > 60 && !manualExpand) {
-      controls.classList.add('collapsed');
-    } else if (y <= 60) {
+    if (y <= 60) {
       controls.classList.remove('collapsed');
-      manualExpand = false;
+      manualExpandAt = -1;
+    } else if (manualExpandAt >= 0 && y > manualExpandAt + 80) {
+      controls.classList.add('collapsed');
+      manualExpandAt = -1;
+    } else if (manualExpandAt < 0) {
+      controls.classList.add('collapsed');
     }
-    lastScroll = y;
   }, { passive: true });
   window.toggleFilters = function() {
     const controls = document.querySelector('.controls');
     if (!controls) return;
-    manualExpand = true;
+    manualExpandAt = window.scrollY;
     controls.classList.remove('collapsed');
   };
 })();
