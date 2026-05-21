@@ -313,7 +313,14 @@ function render() {
             <div class="wine-name-line" style="font-size:11px;margin-top:1px;">${w.region}</div>
             <div class="wine-icons">${w.icons.map(i=>`<span class="wine-icon-badge">${i}</span>`).join('')}${w.cert?`<span class="cert-badge">${w.cert==='Co/b'?'Organic/Bio':w.cert==='CS'?'Sustainable':'Practicing'}</span>`:''}${w.btg?'<span class="btg-badge">🍷</span>':''}</div>
           </div>
-          <div class="wine-right"><div class="wine-price">$${w.price}</div><div class="chevron">▾</div></div>
+          <div class="wine-right">${w.btg && w.bottle_price ? `
+            <div>
+              <div class="wine-price">$${w.price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-dim);text-align:right;">glass</div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--gold-dim);margin-top:3px;">$${w.bottle_price}</div>
+              <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right;">bottle</div>
+            </div>` : `<div class="wine-price">$${w.btg_price || w.price}</div>`}
+          <div class="chevron">▾</div></div>
         </div>
         ${isOpen?`<div class="wine-expand">
           <div class="tableside-line">${w.tableside}</div>
@@ -364,7 +371,18 @@ fetch('wines.json')
     if(li) li.remove();
     buildFilters();
     render();
-    scrollToHash();
+    const params = new URLSearchParams(window.location.search);
+    const openParam = params.get('open');
+    if (openParam) {
+      openId = openParam;
+      render();
+      setTimeout(() => {
+        const el = document.getElementById('card-' + openParam);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 150);
+    } else {
+      scrollToHash();
+    }
   })
   .catch(err => {
     console.error('Could not load wines.json:', err);

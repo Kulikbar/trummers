@@ -1525,7 +1525,7 @@
     "region": "Burgenland, Austria",
     "vintage": "NV",
     "abv": "11.5%",
-    "price": 56,
+    "price": 15,
     "cert": "PR",
     "icons": [
       "☁️",
@@ -1552,7 +1552,8 @@
       "Hillinger's organic certification means no synthetic pesticides, herbicides, or fertilizers — unusual for a producer at this price and volume level.",
       "Burgenland's warm Pannonian climate makes it one of Austria's most reliable regions for ripe, fruit-forward wines — the same warmth that produces great Blaufränkisch reds gives this rosé its generous strawberry character."
     ],
-    "file": "sparkling"
+    "file": "sparkling",
+    "bottle_price": 60
   },
   {
     "id": "BTG-012",
@@ -1564,7 +1565,7 @@
     "region": "Wachau, Austria",
     "vintage": "2024",
     "abv": "12.5%",
-    "price": 56,
+    "price": 13,
     "cert": "CS",
     "icons": [
       "☁️",
@@ -1591,7 +1592,8 @@
       "The Vinea Wachau Codex is a voluntary but rigorous set of standards that member estates commit to — it prohibits chapitalization (adding sugar to boost alcohol), limits yields, and requires estate-grown fruit. It's one of the strictest self-regulatory codes in European wine.",
       "The Wachau is better known for white wine, but Zweigelt rosé is a regional tradition — the grape's natural acidity and red fruit character translate beautifully into the style."
     ],
-    "file": "sparkling"
+    "file": "sparkling",
+    "bottle_price": 52
   },
   {
     "id": "P1",
@@ -14829,7 +14831,7 @@
     "abv": "13.5%",
     "price": 47,
     "cert": "",
-    "btg": false,
+    "btg": true,
     "icons": [
       "⚖️",
       "🍑",
@@ -14854,7 +14856,9 @@
       "The Leithaberg DAC designation was created specifically for wines from the limestone and schist soils on the western shore of Lake Neusiedl — a distinct terroir that produces more mineral, structured reds than the eastern lake shore.",
       "Leo Hillinger is one of Austria's most internationally recognized wine producers, as much for his design aesthetic and marketing as for the wines themselves.",
       "Lake Neusiedl — Europe's largest steppe lake — moderates temperatures across the entire Burgenland wine region, reducing the risk of frost and enabling consistent ripening even in difficult vintages."
-    ]
+    ],
+    "btg_price": 17,
+    "bottle_price": 47
   },
   {
     "id": "627",
@@ -14904,7 +14908,7 @@
     "region": "Burgenland, Austria",
     "vintage": "NV",
     "abv": 12.0,
-    "price": 64,
+    "price": 16,
     "cert": "",
     "btg": true,
     "icons": [
@@ -14933,7 +14937,8 @@
       "Welschriesling — despite the name — has no genetic relation to German Riesling. It's an entirely separate variety that thrives in Austria and produces wines of bright acidity and clean citrus character, ideal for sparkling wine production.",
       "Burgenland's proximity to Lake Neusiedl — Europe's largest steppe lake — moderates temperatures and creates ideal conditions for slow, even ripening of grapes destined for sparkling wine."
     ],
-    "file": "sparkling"
+    "file": "sparkling",
+    "bottle_price": 64
   },
   {
     "id": "BTG-002",
@@ -14984,7 +14989,7 @@
     "region": "Lugana, Lombardy, Italy",
     "vintage": "2025",
     "abv": 12.7,
-    "price": 68,
+    "price": 17,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15013,7 +15018,8 @@
       "Lugana DOC spans the border between Lombardy and Veneto — the appellation's unique position on glacial moraine soils left by the retreating Garda glacier gives the wines their characteristic saline, mineral quality.",
       "Allegrini purchased their Lugana estate in 2018 after years of searching — the property surrounds a small protected lake called Mantellina, which gives the wine its full name, Oasi Mantellina."
     ],
-    "file": "whites"
+    "file": "whites",
+    "bottle_price": 68
   },
   {
     "id": "BTG-004",
@@ -15024,7 +15030,7 @@
     "region": "Napa Valley, California",
     "vintage": "2025",
     "abv": 14.2,
-    "price": 72,
+    "price": 18,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15053,7 +15059,8 @@
       "Malolactic fermentation — converting sharp malic acid to softer lactic acid — is standard practice in Napa Chardonnay production and is responsible for much of the buttery, creamy character guests associate with the style.",
       "The Vice's red wines appear three times on the bottle list — the Chardonnay is exclusively a BTG offering, making it a unique expression from a producer guests may already know."
     ],
-    "file": "whites"
+    "file": "whites",
+    "bottle_price": 72
   },
   {
     "id": "BTG-005",
@@ -15064,7 +15071,7 @@
     "region": "Kamptal, Austria",
     "vintage": "2025",
     "abv": 12.5,
-    "price": 64,
+    "price": 16,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15093,7 +15100,8 @@
       "Kamptal's name comes from the Kamp River, whose valley creates the temperature variation that gives the region's wines their freshness and precision.",
       "Steininger's sparkling wines appear multiple times on the sparkling list — having their still Grüner on the BTG list gives guests a way to explore the producer's range beyond the bubbles."
     ],
-    "file": "whites"
+    "file": "whites",
+    "bottle_price": 64
   },
   {
     "id": "BTG-006",
@@ -15104,7 +15112,7 @@
     "region": "Loire Valley, France",
     "vintage": "2025",
     "abv": 12.5,
-    "price": 60,
+    "price": 15,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15133,7 +15141,8 @@
       "The Loire is France's longest river, stretching over 600 miles from the Massif Central to the Atlantic — the wines along its length vary dramatically from the mineral whites of the upper Loire to the sweeter expressions near the coast.",
       "Sauvignon Blanc's characteristic aromas — grapefruit, gooseberry, cut grass, fresh herbs — come from a group of compounds called thiols, which are released during fermentation and give the variety its instantly recognizable profile."
     ],
-    "file": "whites"
+    "file": "whites",
+    "bottle_price": 60
   },
   {
     "id": "BTG-007",
@@ -15144,7 +15153,7 @@
     "region": "Loire Valley, France",
     "vintage": "2025",
     "abv": 12.5,
-    "price": 60,
+    "price": 15,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15173,7 +15182,8 @@
       "The Loire Valley's cool climate is ideal for preserving Pinot Noir's natural acidity and freshness — the wines typically run 12-13% alcohol, making them significantly lighter than California or Burgundy expressions.",
       "Sancerre Rouge — the Loire's most famous Pinot Noir — is made from the same grape variety as the white, grown on the same chalk and flint soils, producing wines with a distinctive mineral quality unique to the region."
     ],
-    "file": "reds"
+    "file": "reds",
+    "bottle_price": 60
   },
   {
     "id": "BTG-008",
@@ -15184,7 +15194,7 @@
     "region": "Tuscany, Italy",
     "vintage": "2025",
     "abv": 13.5,
-    "price": 60,
+    "price": 15,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15213,7 +15223,8 @@
       "Arezzo — the province where this producer is based — sits in eastern Tuscany between Florence and Rome, a historically important area for both art and agriculture. Piero della Francesca's famous frescoes are in Arezzo.",
       "The IGT (Indicazione Geografica Tipica) designation, created in 1992, gave legal identity to Super Tuscan wines that had been classified as table wine — allowing producers to use non-traditional varieties while still indicating geographic origin."
     ],
-    "file": "reds"
+    "file": "reds",
+    "bottle_price": 60
   },
   {
     "id": "BTG-009",
@@ -15224,7 +15235,7 @@
     "region": "Rioja, Spain",
     "vintage": "2025",
     "abv": 13.5,
-    "price": 64,
+    "price": 16,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15253,7 +15264,8 @@
       "Garnacha (Grenache) has been blended with Tempranillo in Rioja for centuries — it adds roundness, red fruit, and body to the more structured, tannic Tempranillo base.",
       "Ontañon's Gran Reserva appears elsewhere on the bottle list — having the Crianza as a BTG pour gives guests an opportunity to explore the same producer at different aging levels and price points."
     ],
-    "file": "reds"
+    "file": "reds",
+    "bottle_price": 64
   },
   {
     "id": "BTG-010",
@@ -15264,7 +15276,7 @@
     "region": "North Coast, California",
     "vintage": "2025",
     "abv": 14.5,
-    "price": 72,
+    "price": 18,
     "cert": "",
     "btg": true,
     "icons": [
@@ -15293,6 +15305,7 @@
       "Black Stallion's two Cabernets on the list — this North Coast BTG pour and the Sam Jasper Napa Valley on the bottle list — illustrate how dramatically appellation specificity affects both character and price in California wine.",
       "The winery building was originally constructed as an equestrian center before being converted to wine production — the stable aesthetic and horse imagery throughout the brand references that history."
     ],
-    "file": "reds"
+    "file": "reds",
+    "bottle_price": 72
   }
 ]

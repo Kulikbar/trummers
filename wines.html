@@ -328,7 +328,7 @@ function handleSearch() {
   meta.textContent = matches.length + ' wine' + (matches.length !== 1 ? 's' : '') + ' found';
 
   results.innerHTML = matches.map(w => {
-    const url = FILE_URLS[w.file] + '#card-' + w.id;
+    const url = FILE_URLS[w.file] + '?open=' + w.id;
     return `<a class="result-card" href="${url}">
       <div class="result-top">
         <div class="result-producer">${w.producer}</div>

@@ -545,24 +545,42 @@ function buildExpand(d) {
       <div id="sec-${d.id}-wine">
         ${btgPairings.length ? `
           <div class="detail-label" style="margin-bottom:6px;">By the Glass</div>
-          <div class="pairing-cards">${btgPairings.map(p => `
-            <div class="pairing-item" onclick="event.stopPropagation()">
+          <div class="pairing-cards">${btgPairings.map(p => {
+            const page = p.id ? (p.id.toString().startsWith('BTG') ? 'whites.html' : 'whites.html') : null;
+            const wineFile = {'BTG-001':'sparkling','BTG-002':'sparkling','BTG-003':'whites','BTG-004':'whites','BTG-005':'whites','BTG-006':'whites','BTG-007':'reds','BTG-008':'reds','BTG-009':'reds','BTG-010':'reds','BTG-011':'sparkling','BTG-012':'sparkling'};
+            const fileMap = {'sparkling':'sparkling.html','whites':'whites.html','reds':'reds.html'};
+            const wPage = p.id && wineFile[p.id] ? fileMap[wineFile[p.id]] : null;
+            const tag = wPage ? 'a' : 'div';
+            const href = wPage ? `href="${wPage}?open=${p.id}"` : '';
+            return `<${tag} class="pairing-item" ${href} onclick="event.stopPropagation()" style="${wPage ? 'text-decoration:none;' : ''}">
               <div style="flex:1;min-width:0;">
                 <div class="pairing-item-name">${p.name}</div>
                 <div class="pairing-item-note">${p.note}</div>
               </div>
-              ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
-            </div>`).join('')}</div>` : ''}
+              <div style="flex-shrink:0;margin-left:12px;text-align:right;">
+                ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+                ${wPage ? `<div style="font-size:10px;color:var(--gold-dim);margin-top:2px;">Wine →</div>` : ''}
+              </div>
+            </${tag}>`;
+          }).join('')}</div>` : ''}
         ${bottlePairings.length ? `
           <div class="detail-label" style="margin-top:10px;margin-bottom:6px;">Bottle</div>
-          <div class="pairing-cards">${bottlePairings.map(p => `
-            <div class="pairing-item" onclick="event.stopPropagation()">
+          <div class="pairing-cards">${bottlePairings.map(p => {
+            const fileMap = {'sparkling':'sparkling.html','whites':'whites.html','reds':'reds.html'};
+            const wPage = p.id && p.file ? fileMap[p.file] : null;
+            const tag = wPage ? 'a' : 'div';
+            const href = wPage ? `href="${wPage}?open=${p.id}"` : '';
+            return `<${tag} class="pairing-item" ${href} onclick="event.stopPropagation()" style="${wPage ? 'text-decoration:none;' : ''}">
               <div style="flex:1;min-width:0;">
                 <div class="pairing-item-name">${p.name}</div>
                 <div class="pairing-item-note">${p.note}</div>
               </div>
-              ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
-            </div>`).join('')}</div>` : ''}
+              <div style="flex-shrink:0;margin-left:12px;text-align:right;">
+                ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+                ${wPage ? `<div style="font-size:10px;color:var(--gold-dim);margin-top:2px;">Wine →</div>` : ''}
+              </div>
+            </${tag}>`;
+          }).join('')}</div>` : ''}
         ${whiskyPairings.length ? `
           <div class="detail-label" style="margin-top:10px;margin-bottom:6px;">Whisky</div>
           <div class="pairing-cards">${whiskyPairings.map(p => {
