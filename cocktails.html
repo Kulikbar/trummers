@@ -184,7 +184,7 @@ function applyScrollMargins() {
 function scrollToEl(el) {
   if (!el) return;
   const h = document.querySelector('.controls')?.offsetHeight || 0;
-  const top = el.getBoundingClientRect().top + window.scrollY - (h + 24);
+  const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
