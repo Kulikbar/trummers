@@ -169,17 +169,17 @@
         "name": "The Vice Chardonnay, Napa Valley",
         "note": "The body and oak of a Napa Chardonnay complements the richness of the chipotle cream while holding up to the ginger spice.",
         "price": 18
-      }
-    ],
-    "wine_pairings_bottle": [
+      },
       {
-        "id": "435",
-        "name": "The Calling Chardonnay, Sonoma Coast 2019",
-        "note": "Sonoma Chardonnay with enough weight for a cream soup and enough acidity to keep the pairing from feeling heavy.",
-        "price": 72,
+        "id": "543",
+        "name": "Familie Reinisch Ried Lores, Tattendorf, Thermenregion",
+        "note": "The weight and minerality of this Austrian Chardonnay handles the richness of carrot cream beautifully.",
+        "price": 29,
+        "coravin": true,
         "file": "whites"
       }
     ],
+    "wine_pairings_bottle": [],
     "file": "dinner"
   },
   {
@@ -364,6 +364,14 @@
         "name": "Steininger Grüner Veltliner, Kamptal",
         "note": "Grüner's peppery, mineral character is a textbook pairing for arugula and shaved asparagus.",
         "price": 16
+      },
+      {
+        "id": "337",
+        "name": "Lauverjat Sancerre, Loire Valley",
+        "note": "Sancerre's crisp citrus and mineral character is a classic pairing for bitter greens and honey mustard.",
+        "price": 23,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [],
@@ -455,6 +463,14 @@
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
         "note": "Another strong option if the guest prefers white — the citrus and herb notes in Loire Sauvignon Blanc complement both the beets and the goat cheese.",
         "price": 15
+      },
+      {
+        "id": "707",
+        "name": "Heidi Schröck & Söhne Weissburgunder, Burgenland",
+        "note": "The Weissburgunder's stone fruit and gentle texture bridges roasted beets and creamy goat cheese beautifully.",
+        "price": 24,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [],
@@ -921,13 +937,6 @@
         "note": "The plush, approachable tannins of Paso Merlot complement the unctuousness of bone marrow without the austerity of a bigger Cabernet.",
         "price": 75,
         "file": "reds"
-      },
-      {
-        "id": "3043",
-        "name": "Château Haut-Colombier, Blaye 2022",
-        "note": "A right bank Bordeaux blend with the fruit and structure to handle the boldness of BBQ-sauced marrow.",
-        "price": 60,
-        "file": "reds"
       }
     ],
     "file": "dinner",
@@ -1122,17 +1131,17 @@
         "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
         "note": "A lighter white option — Lugana's mineral and stone fruit character complements the shrimp without fighting the aleppo chili crisp.",
         "price": 17
-      }
-    ],
-    "wine_pairings_bottle": [
+      },
       {
-        "id": "459",
-        "name": "Bergström 'Old Stones,' Chardonnay, Willamette Valley 2020",
-        "note": "Oregon Chardonnay with the richness to handle whiskey cream and grits and the acidity to keep the pairing from feeling heavy.",
-        "price": 126,
+        "id": "439",
+        "name": "Kistler 'Sonoma Mountain,' Sonoma Coast",
+        "note": "Premium Sonoma Chardonnay has the body and oak to stand up to whiskey cream and caramelized onion.",
+        "price": 39,
+        "coravin": true,
         "file": "whites"
       }
     ],
+    "wine_pairings_bottle": [],
     "file": "dinner"
   },
   {
@@ -1342,6 +1351,14 @@
         "name": "Ontañon Tempranillo/Garnacha, Rioja",
         "note": "If the guest wants more structure, a Rioja blend with the bacon lardons and steak elements works well.",
         "price": 16
+      },
+      {
+        "id": "1525",
+        "name": "Patricia Green Cellars 'Anklebreaker Block,' Corrine Vineyard",
+        "note": "Willamette Valley Pinot Noir against spit-roasted chicken and steak is a natural — elegant red fruit, silky tannins.",
+        "price": 32,
+        "coravin": true,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [],
@@ -1539,15 +1556,23 @@
         "name": "The Vice Chardonnay, Napa Valley",
         "note": "A fuller-bodied white that can stand up to the richness of peanut and coconut curry alongside a whole roasted fish.",
         "price": 18
+      },
+      {
+        "id": "733",
+        "name": "Botanica Chenin Blanc 'Mary Delany,' Citrusdal Mountains",
+        "note": "Chenin Blanc's tropical fruit and waxy texture is one of the few whites that genuinely handles coconut curry.",
+        "price": 28,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [
       {
-        "id": "413",
-        "name": "Château Montelena Chardonnay, Calistoga 2023",
-        "note": "A classic Napa Chardonnay with the body and complexity to hold its own against a boldly spiced whole fish preparation.",
-        "price": 154,
-        "file": "whites"
+        "id": "2009",
+        "name": "Château Montelena Cabernet, Calistoga 2022",
+        "note": "A structured Napa Cabernet that can stand up to the boldness of a coconut curry preparation — dark fruit, firm tannins, long finish.",
+        "price": 170,
+        "file": "reds"
       }
     ],
     "file": "dinner"
@@ -1750,13 +1775,6 @@
         "note": "Barolo with rack of lamb is one of the great red meat pairings in all of wine — the tannin, acidity, and complexity of Nebbiolo are made for this.",
         "price": 135,
         "file": "reds"
-      },
-      {
-        "id": "7039",
-        "name": "Heidi Schröck Blaufränkisch, Ried Kulm 2023",
-        "note": "An Austrian Blaufränkisch with the structure and dark fruit to complement rotisserie lamb with arugula pesto.",
-        "price": 77,
-        "file": "reds"
       }
     ],
     "file": "dinner",
@@ -1845,10 +1863,12 @@
         "price": 18
       },
       {
-        "id": "BTG-008",
-        "name": "Cantina Super Tuscan, Tuscany",
-        "note": "The salsa verde introduces herbal brightness that the Sangiovese-based Super Tuscan handles particularly well alongside beef.",
-        "price": 15
+        "id": "2005",
+        "name": "Acumen 'Mountainside,' Atlas Peak, Napa Valley",
+        "note": "Atlas Peak elevation gives this Cabernet a freshness that cuts through the richness of a 32 oz ribeye.",
+        "price": 43,
+        "coravin": true,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
@@ -1857,13 +1877,6 @@
         "name": "Château Montelena Cabernet, Calistoga 2022",
         "note": "One of Napa's most historic producers, producing structured Cabernet that is built for aged beef. The right bottle for a tomahawk.",
         "price": 170,
-        "file": "reds"
-      },
-      {
-        "id": "2005",
-        "name": "Acumen 'Mountainside,' Atlas Peak 2019",
-        "note": "Atlas Peak Cabernet with the elevation-driven freshness and tannic backbone to match a 32 oz bone-in ribeye.",
-        "price": 165,
         "file": "reds"
       }
     ],
@@ -1874,12 +1887,6 @@
         "note": "George T. Stagg alongside a tomahawk ribeye is one of the most serious pairings on the menu — the full-proof, unfiltered bourbon's intensity matches the boldness of the cut.",
         "price": 28,
         "whisky_id": "69"
-      },
-      {
-        "name": "Thomas Handy Sazerac",
-        "note": "The most allocated rye on the list alongside the most dramatic cut of beef — both are rare, both are worth the conversation.",
-        "price": 70,
-        "whisky_id": "85"
       }
     ]
   },
@@ -1959,20 +1966,15 @@
         "price": 18
       },
       {
-        "id": "BTG-009",
-        "name": "Ontañon Tempranillo/Garnacha, Rioja",
-        "note": "A lighter red option — Rioja's earthy, red-fruit character complements slow-roasted beef without the grip of a full Cabernet.",
-        "price": 16
+        "id": "3030",
+        "name": "Château La Louvière Cab Sauv/Merlot, Pessac-Léognan",
+        "note": "Pessac-Léognan Bordeaux by the glass alongside prime rib is a genuine moment — structured, earthy, long.",
+        "price": 29,
+        "coravin": true,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
-      {
-        "id": "2061",
-        "name": "Black Stallion Winery 'Sam Jasper,' Napa Valley 2019",
-        "note": "The premium expression from the same producer as the BTG option — a step up in complexity and depth for a 16 oz prime rib.",
-        "price": 230,
-        "file": "reds"
-      },
       {
         "id": "3007",
         "name": "Château Grand-Puy Ducasse, Pauillac 2016",
@@ -2172,6 +2174,14 @@
         "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
         "note": "Lugana's delicate mineral and stone fruit character is a precise match for seared scallops with blood orange and sesame.",
         "price": 17
+      },
+      {
+        "id": "337",
+        "name": "Lauverjat Sancerre, Loire Valley",
+        "note": "Sancerre's mineral precision and citrus lift is a classic match for seared scallops and blood orange.",
+        "price": 23,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [
@@ -2372,6 +2382,14 @@
         "name": "Allegrini Turbiana 'Oasi Mantellina,' Lugana",
         "note": "Lugana's gentle mineral and stone fruit character complements rockfish with root vegetables and dill without overwhelming the delicacy of the fish.",
         "price": 17
+      },
+      {
+        "id": "875",
+        "name": "Bründlmayer Ried Berg Vogelsang 1ÖTW DAC",
+        "note": "Grüner Veltliner with white fish and dill is textbook Austria — white pepper, mineral, clean finish.",
+        "price": 26,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [
@@ -2478,13 +2496,6 @@
     ],
     "wine_pairings_bottle": [
       {
-        "id": "2500",
-        "name": "DAOU 'Sequentis,' Merlot, Paso Robles 2020",
-        "note": "The plush tannins of Paso Merlot are a natural match for braised short rib — enough structure to complement the truffle Madeira jus without austerity.",
-        "price": 75,
-        "file": "reds"
-      },
-      {
         "id": "5047",
         "name": "Castello di Verduno Nebbiolo, Monvigliero Reserva, Barolo DOCG 2019",
         "note": "Barolo's tannin, acidity, and complexity make it one of the great pairings for braised short rib — the wine's structure evolves alongside the richness of the dish.",
@@ -2578,10 +2589,12 @@
         "price": 16
       },
       {
-        "id": "BTG-012",
-        "name": "Tegernseerhof Zweigelt Rosé 2024",
-        "note": "An Austrian rosé with schnitzel is a lighter, equally authentic pairing — the red fruit and acidity complement the lingonberry jam and the richness of the fried cutlet.",
-        "price": 13
+        "id": "7037",
+        "name": "Glatzer Blaufränkisch, Göttlesbrunn DAC",
+        "note": "Blaufränkisch with schnitzel is a classic Burgenland pairing — dark cherry, pepper, bright acidity.",
+        "price": 27,
+        "coravin": true,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
@@ -2688,6 +2701,14 @@
         "name": "Cantina Super Tuscan, Tuscany",
         "note": "The Italian-inspired preparation with olives and basil calls for a Tuscan-adjacent wine — the Super Tuscan blend echoes the puttanesca character of the dish.",
         "price": 15
+      },
+      {
+        "id": "7037",
+        "name": "Glatzer Blaufränkisch, Göttlesbrunn DAC",
+        "note": "Blaufränkisch's dark fruit and peppery backbone works with the smoked puttanesca and kalamata olives.",
+        "price": 27,
+        "coravin": true,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
@@ -2783,6 +2804,14 @@
         "name": "Maison de la Villette Pinot Noir, Loire Valley",
         "note": "A light Loire Pinot Noir works with chicken cavatelli if the guest prefers red — the earthiness of the wine complements the spring vegetables without overpowering the pasta.",
         "price": 15
+      },
+      {
+        "id": "713",
+        "name": "Clementine Carter Roussanne, Santa Barbara County",
+        "note": "Roussanne's waxy texture and stone fruit character plays beautifully against asparagus, peas, and cured egg yolk.",
+        "price": 26,
+        "coravin": true,
+        "file": "whites"
       }
     ],
     "wine_pairings_bottle": [

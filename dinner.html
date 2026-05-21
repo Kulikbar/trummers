@@ -546,19 +546,20 @@ function buildExpand(d) {
         ${btgPairings.length ? `
           <div class="detail-label" style="margin-bottom:6px;">By the Glass</div>
           <div class="pairing-cards">${btgPairings.map(p => {
-            const page = p.id ? (p.id.toString().startsWith('BTG') ? 'whites.html' : 'whites.html') : null;
-            const wineFile = {'BTG-001':'sparkling','BTG-002':'sparkling','BTG-003':'whites','BTG-004':'whites','BTG-005':'whites','BTG-006':'whites','BTG-007':'reds','BTG-008':'reds','BTG-009':'reds','BTG-010':'reds','BTG-011':'sparkling','BTG-012':'sparkling'};
+            const btgFileMap = {'BTG-001':'sparkling','BTG-002':'sparkling','BTG-003':'whites','BTG-004':'whites','BTG-005':'whites','BTG-006':'whites','BTG-007':'reds','BTG-008':'reds','BTG-009':'reds','BTG-010':'reds','BTG-011':'sparkling','BTG-012':'sparkling'};
             const fileMap = {'sparkling':'sparkling.html','whites':'whites.html','reds':'reds.html'};
-            const wPage = p.id && wineFile[p.id] ? fileMap[wineFile[p.id]] : null;
+            const fileSrc = p.file ? p.file : (p.id && btgFileMap[p.id] ? btgFileMap[p.id] : null);
+            const wPage = fileSrc ? fileMap[fileSrc] : null;
             const tag = wPage ? 'a' : 'div';
             const href = wPage ? `href="${wPage}?open=${p.id}"` : '';
+            const priceColor = p.coravin ? '#b894e0' : 'var(--gold)';
             return `<${tag} class="pairing-item" ${href} onclick="event.stopPropagation()" style="${wPage ? 'text-decoration:none;' : ''}">
               <div style="flex:1;min-width:0;">
                 <div class="pairing-item-name">${p.name}</div>
                 <div class="pairing-item-note">${p.note}</div>
               </div>
               <div style="flex-shrink:0;margin-left:12px;text-align:right;">
-                ${p.price ? `<div class="pairing-item-price">$${p.price}</div>` : ''}
+                ${p.price ? `<div class="pairing-item-price" style="color:${priceColor};">$${p.price}</div>` : ''}
                 ${wPage ? `<div style="font-size:15px;color:var(--gold-dim);margin-top:2px;">Wine →</div>` : ''}
               </div>
             </${tag}>`;
