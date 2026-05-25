@@ -118,7 +118,7 @@
     </div>
   </div>
 
-  <div id="tonight-wrap"></div>
+  <div id="tasting-wrap"></div>
 
   <div class="search-section">
     <div class="search-wrap">
@@ -175,7 +175,7 @@
         <div class="card-pills">
           <span class="pill">Cheese Board</span>
           <span class="pill">Sorbets</span>
-          <span class="pill pill-count">6 desserts</span>
+          <span class="pill pill-count">7 desserts</span>
         </div>
       </a>
 
@@ -216,52 +216,27 @@
 <script>
 let ALL_FOOD = [];
 
-const DAILY_FEATURES = {
-  2: { name: 'Ibérico Rack of Pork', detail: 'with aleppo chili crisp', id: 'd18' },
-  3: { name: 'Rack of Lamb', detail: 'with basil & pine nut-arugula pesto', id: 'd19' },
-  4: { name: 'Tomahawk Ribeye', detail: 'with salsa verde', id: 'd20' },
-  5: { name: 'Prime Rib', detail: 'with horseradish cream', id: 'd21' },
-  6: { name: 'Prime Rib', detail: 'with horseradish cream', id: 'd21' }
-};
-
 const MENU_LABELS = { dinner: 'Dinner', dessert: 'Dessert' };
 
-function buildBanner() {
-  const day = new Date().getDay();
-  const wrap = document.getElementById('tonight-wrap');
-  const feature = DAILY_FEATURES[day];
-  if (feature) {
-    wrap.innerHTML = `<div class="tonight-banner" style="margin-bottom:0;">
-      <div class="tonight-dot"></div>
-      <div>
-        <div class="tonight-label">Tonight from the Rotisserie</div>
-        <div class="tonight-name">${feature.name}</div>
-        <div class="tonight-detail">${feature.detail} · served with duck fat potatoes · limited availability</div>
-        <a class="tonight-link" href="dinner.html?open=${feature.id}">View dish details →</a>
-      </div>
-    </div>`;
-
-    // Update quick access tile
-    const qt = document.getElementById('quick-tonight');
-    if (qt) qt.textContent = feature.name;
-
-    // Update dinner pills
-    const dp = document.getElementById('dinner-pills');
-    if (dp) {
-      const existing = dp.innerHTML;
-      dp.innerHTML = `<span class="pill pill-tonight">⭐ ${feature.name} tonight</span>` + existing;
-    }
-  } else {
-    wrap.innerHTML = `<div class="tonight-banner" style="margin-bottom:0;">
-      <div class="tonight-dot" style="background:var(--muted);animation:none;"></div>
-      <div>
-        <div class="tonight-label">Rotisserie</div>
-        <div class="tonight-name" style="color:var(--muted);">No feature tonight</div>
-        <div class="tonight-detail">Sunday &amp; Monday — regular dinner menu available</div>
-      </div>
-    </div>`;
-  }
+function buildTastingPanel(data) {
+  const wrap = document.getElementById('tasting-wrap');
+  wrap.innerHTML = `<div class="tonight-banner" style="margin-bottom:0;">
+    <div class="tonight-dot"></div>
+    <div style="flex:1;">
+      <div class="tonight-label">Tasting Menu</div>
+      <div class="tonight-name">${data.theme}</div>
+      <div class="tonight-detail">${data.date} · ${data.courses.length} courses · $${data.price}/person · +$${data.pairing_price} wine pairing</div>
+      <a class="tonight-link" href="tasting.html">View full menu &amp; pairings →</a>
+    </div>
+  </div>`;
 }
+
+fetch('tasting.json')
+  .then(r => r.json())
+  .then(data => buildTastingPanel(data))
+  .catch(() => {
+    document.getElementById('tasting-wrap').innerHTML = '';
+  });
 
 fetch('food.json')
   .then(r => r.json())
@@ -271,12 +246,10 @@ fetch('food.json')
     const dinner = data.filter(d => d.menu === 'dinner').length;
     const dessert = data.filter(d => d.menu === 'dessert').length;
     if (badge) badge.textContent = `${data.length} dishes · ${dinner} dinner · ${dessert} dessert`;
-    buildBanner();
   })
   .catch(() => {
     const badge = document.getElementById('count-badge');
     if (badge) badge.textContent = 'Could not load food data';
-    buildBanner();
   });
 
 function normalize(str) {

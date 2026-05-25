@@ -1,99 +1,5 @@
 [
   {
-    "id": "d1",
-    "menu": "dinner",
-    "cat": "Soups & Salads",
-    "name": "Green Goddess Gazpacho",
-    "price": 12,
-    "description": "Whipped crema, lemon oil, quick pickles",
-    "tableside": "A cold soup built for the season, bright, herbaceous, and refreshing. The whipped crema adds richness and the quick pickles cut right through it. A great lighter starter for a guest who wants something clean before a heavier main.",
-    "ingredients": [
-      "Green vegetables",
-      "Whipped crema",
-      "Lemon oil",
-      "Quick pickles",
-      "Fresh herbs"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "safe",
-        "note": "No shellfish."
-      },
-      "dairy": {
-        "status": "contains",
-        "note": "Whipped crema contains dairy. Can be omitted on request."
-      },
-      "nuts": {
-        "status": "safe",
-        "note": "No nuts."
-      },
-      "gluten": {
-        "status": "safe",
-        "note": "No gluten."
-      },
-      "eggs": {
-        "status": "safe",
-        "note": "No eggs in the crema."
-      },
-      "soy": {
-        "status": "safe",
-        "note": "No soy."
-      },
-      "vegetarian": {
-        "status": "yes",
-        "note": "Vegetarian."
-      },
-      "vegan": {
-        "status": "modifiable",
-        "note": "Can be made vegan by omitting the crema."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Gazpacho",
-        "definition": "A cold Spanish soup traditionally made from raw blended vegetables. Originally from Andalusia, it is served chilled and works as a palate opener before a rich meal."
-      },
-      {
-        "term": "Green Goddess",
-        "definition": "A classic American dressing style from the 1920s, traditionally made with tarragon, chives, parsley, and mayonnaise. This version focuses on the herbal, green character."
-      },
-      {
-        "term": "Quick Pickles",
-        "definition": "Vegetables briefly cured in vinegar and salt rather than fermented. Bright, acidic, and crunchy. They provide contrast to the smooth, rich gazpacho base."
-      }
-    ],
-    "sourcing": [],
-    "chef_notes": "Served chilled. Worth mentioning to guests who may be surprised by a cold soup.",
-    "wine_pairings_btg": [
-      {
-        "id": "BTG-006",
-        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "The herbaceous, citrus character of Loire Sauvignon Blanc mirrors the green goddess profile and cuts through the crema cleanly.",
-        "price": 15
-      },
-      {
-        "id": "BTG-005",
-        "name": "Steininger Grüner Veltliner, Kamptal",
-        "note": "Grüner's white pepper and green herb character mirrors the lemon oil and herb base of the gazpacho directly.",
-        "price": 16
-      }
-    ],
-    "wine_pairings_bottle": [
-      {
-        "id": "309",
-        "name": "Strauss/Tscherne '18,' Südsteiermark DAC 2024",
-        "note": "A lively Styrian Sauvignon Blanc with the green and citrus character to echo the soup without overpowering it.",
-        "price": 40,
-        "file": "whites"
-      }
-    ],
-    "file": "dinner"
-  },
-  {
     "id": "d2",
     "menu": "dinner",
     "cat": "Soups & Salads",
@@ -286,12 +192,12 @@
     "id": "d4",
     "menu": "dinner",
     "cat": "Soups & Salads",
-    "name": "Arugula Salad",
+    "name": "Baby Kale Salad",
     "price": 14,
     "description": "Shaved asparagus, radish, pecans, puffed quinoa, honey mustard vinaigrette",
-    "tableside": "A lighter salad with some substance to it. Arugula and quinoa with candied pecans, cherry tomatoes, and honey mustard vinaigrette. The pecans add crunch and sweetness, the arugula keeps it from being bland. A good option for guests who want a salad that actually fills them up a bit.",
+    "tableside": "A lighter salad with some substance to it. Baby kale and quinoa with shaved asparagus, radish, pecans, and honey mustard vinaigrette. The pecans add crunch and sweetness, the kale keeps it from being bland. A good option for guests who want a salad that actually fills them up a bit.",
     "ingredients": [
-      "Arugula",
+      "Baby kale",
       "Shaved asparagus",
       "Radish",
       "Pecans",
@@ -338,8 +244,8 @@
     },
     "key_terms": [
       {
-        "term": "Arugula",
-        "definition": "A peppery salad green native to the Mediterranean. Its bitter, slightly spicy character pairs naturally with sweet and acidic dressings. A honey mustard vinaigrette is a classic complement."
+        "term": "Baby Kale",
+        "definition": "A younger, more tender harvest of kale with smaller leaves and a milder flavor than mature kale. Less bitter than arugula, with a slight earthiness. Sturdy enough to hold a dressing without wilting, and substantial enough to make a salad feel satisfying."
       },
       {
         "term": "Puffed Quinoa",
@@ -3437,16 +3343,14 @@
     "id": "ds3",
     "menu": "dessert",
     "cat": "Dessert",
-    "name": "S'mores Chocolate Torte",
-    "price": 15,
-    "description": "Toasted meringue, smoked chocolate cremeux, devil's food, peanut butter, smoked salt",
-    "tableside": "A composed take on s'mores. Toasted meringue, smoked chocolate cremeux, devil's food cake, peanut butter, and smoked salt. Every component is intentional and the smoked salt is the detail that makes the chocolate more intense and the sweetness more balanced.",
+    "name": "GF Chocolate Torte",
+    "price": 14,
+    "description": "Orange creme anglaise, chocolate-raspberry ice cream",
+    "tableside": "A gluten-free chocolate torte with orange creme anglaise and chocolate-raspberry ice cream. The orange pulls the chocolate in a brighter direction than you'd expect. Worth mentioning to guests with gluten restrictions — it's genuinely good, not a concession.",
     "ingredients": [
-      "Toasted meringue",
-      "Smoked chocolate cremeux",
-      "Devil's food cake",
-      "Peanut butter",
-      "Smoked salt"
+      "Chocolate torte",
+      "Orange creme anglaise",
+      "Chocolate-raspberry ice cream"
     ],
     "allergens": {
       "shellfish": {
@@ -3455,19 +3359,19 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Contains chocolate and cremeux. Cannot be made dairy-free."
+        "note": "Contains cream anglaise and ice cream. Cannot be made dairy-free."
       },
       "nuts": {
-        "status": "contains",
-        "note": "Contains peanut butter. Cannot be made nut-free."
+        "status": "safe",
+        "note": "No nuts."
       },
       "gluten": {
-        "status": "contains",
-        "note": "Devil's food cake contains gluten."
+        "status": "safe",
+        "note": "Gluten-free."
       },
       "eggs": {
         "status": "contains",
-        "note": "Meringue and cremeux contain eggs."
+        "note": "Creme anglaise and torte contain eggs."
       },
       "soy": {
         "status": "check",
@@ -3482,46 +3386,42 @@
         "note": "Contains dairy and eggs."
       },
       "peanuts": {
-        "status": "contains",
-        "note": "Contains peanuts. Cannot be modified."
+        "status": "safe",
+        "note": "No peanuts."
       }
     },
     "key_terms": [
       {
-        "term": "Cremeux",
-        "definition": "A smooth, dense, creamy pastry preparation made from cream, egg yolks, and chocolate. Richer than mousse and less set than ganache. The texture is like the inside of a very good truffle."
+        "term": "Torte",
+        "definition": "A dense, rich cake made with little or no flour, relying instead on eggs, butter, and ground nuts or chocolate for structure. The result is more fudge-like and intense than a standard layer cake."
       },
       {
-        "term": "Smoked Chocolate",
-        "definition": "Chocolate cold-smoked to add a subtle woody character. The smoke enhances the chocolate's bitter notes and adds complexity."
-      },
-      {
-        "term": "Devil's Food",
-        "definition": "An intensely chocolatey American cake. Darker, moister, and more deeply flavored than standard chocolate cake, typically made with hot water or coffee to bloom the cocoa."
+        "term": "Creme Anglaise",
+        "definition": "A classic French custard sauce made from egg yolks, sugar, and cream. Poured rather than sliced — it coats the plate and acts as both sauce and counterpoint to the dense torte. The orange version is infused with orange zest."
       }
     ],
     "sourcing": [],
-    "chef_notes": "Peanut allergy is non-negotiable. Cannot be modified. Confirm before ordering.",
+    "chef_notes": "One of the few gluten-free dessert options. Know this and offer it proactively to GF guests. No nuts.",
     "wine_pairings_btg": [],
     "wine_pairings_bottle": [],
     "afters_pairings": [
       {
-        "name": "Ardbeg Uigeadail",
-        "why": "Uigeadail's peat mirrors the smoked chocolate directly, and the sherry cask influence brings dried fruit and dark caramel that echo the torte's sweetness. Smoke on smoke, sweetness on sweetness.",
-        "price": 27,
-        "afters_id": "99",
-        "afters_page": "whisky.html"
-      },
-      {
         "name": "Graham's 20 Year Tawny Port",
-        "why": "The 20 Year's nutty, oxidative character and dried fruit sit in the same register as dark chocolate — the tannin in the port holds against the cremeux.",
+        "why": "The 20 Year's dried orange peel and caramel notes run alongside both the chocolate and the orange creme anglaise directly. The oxidative character of tawny port is one of the most reliable pairings for dark chocolate.",
         "price": 19,
         "afters_id": "161",
         "afters_page": "afters.html"
       },
       {
+        "name": "Nonino Amaro",
+        "why": "Nonino's honey and saffron character sits alongside the orange creme anglaise without competing with the chocolate. A lighter choice for guests who want complexity without additional sweetness.",
+        "price": 20,
+        "afters_id": "141",
+        "afters_page": "afters.html"
+      },
+      {
         "name": "Hennessy VSOP",
-        "why": "The warm spice and dried fruit of the VSOP complement the smoked chocolate and meringue. A more approachable pairing for guests who want something familiar.",
+        "why": "Cognac and dark chocolate is a classic combination. The dried fruit and warm spice in the VSOP echo the orange and pull the torte's richness into focus.",
         "price": 20,
         "afters_id": "165",
         "afters_page": "afters.html"
@@ -3631,9 +3531,11 @@
     "name": "Cheese Board",
     "price": 18,
     "description": "Chef's selection of three cheeses, seasonal jam, crostini",
-    "tableside": "Three cheeses selected by Pastry Chef Amanda Siever, with seasonal jam and crostini. The selection rotates based on what's best at the moment. Always ask the kitchen for tonight's cheeses before describing the board. The pairing with Sauternes is one of the great classics on this menu.",
+    "tableside": "Three cheeses from Pastry Chef Amanda Siever: Drunken Goat, truffle cheese, and Gran Cru, with seasonal jam and crostini. The Drunken Goat is mild and approachable, the truffle cheese is the showpiece, and the Gran Cru adds the aged, crystalline finish. The pairing with Sauternes is one of the best combinations on this menu.",
     "ingredients": [
-      "Three house-selected cheeses",
+      "Drunken Goat",
+      "Truffle cheese",
+      "Gran Cru",
       "Seasonal jam",
       "Crostini"
     ],
@@ -3677,12 +3579,24 @@
     },
     "key_terms": [
       {
+        "term": "Drunken Goat",
+        "definition": "A semi-firm Spanish goat's milk cheese from Murcia, aged in red wine, which gives the rind a distinctive purple color and adds a subtle fruity depth to the mild, creamy interior. Approachable for guests who are hesitant about goat cheese."
+      },
+      {
+        "term": "Truffle Cheese",
+        "definition": "A cow's milk cheese layered or blended with black truffle. The truffle's earthy, musky character permeates the paste and makes it the most aromatic and dramatic cheese on the board."
+      },
+      {
+        "term": "Gran Cru",
+        "definition": "A washed-rind cow's milk cheese from Switzerland, aged to develop a firm, crystalline texture and complex, savory flavor with notes of roasted nuts and browned butter. A classic Alpine cheese and a strong finish to a cheese course."
+      },
+      {
         "term": "Crostini",
         "definition": "Small slices of toasted or grilled bread, lighter and crispier than bruschetta. Used as a vehicle for cheese and accompaniments. No GF substitute is available."
       }
     ],
     "sourcing": [],
-    "chef_notes": "Always check with the kitchen for tonight's cheese selection before describing this dish. No GF cracker substitute available.",
+    "chef_notes": "Current selection: Drunken Goat, truffle cheese, Gran Cru. Confirm with kitchen if the selection has changed. No GF cracker substitute available.",
     "wine_pairings_btg": [],
     "wine_pairings_bottle": [],
     "afters_pairings": [
@@ -3777,6 +3691,85 @@
         "why": "The Moscato's tropical peach and orange blossom character mirrors the mango and pineapple sorbets. Light, sweet, and dairy-free — works on every level for this pairing.",
         "price": 14,
         "afters_id": "158",
+        "afters_page": "afters.html"
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds7",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Ice Cream Trio",
+    "price": 11,
+    "description": "Banana-coconut, popcorn, chocolate raspberry",
+    "tableside": "Three house-made ice creams: banana-coconut, popcorn, and chocolate raspberry. A straightforward, crowd-pleasing finish. Good for guests who want something sweet without committing to a composed dessert.",
+    "ingredients": [
+      "Banana-coconut ice cream",
+      "Popcorn ice cream",
+      "Chocolate raspberry ice cream"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "No shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Ice cream contains dairy. Cannot be made dairy-free. For dairy-free guests, see the Sorbet Trio."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No nuts."
+      },
+      "gluten": {
+        "status": "check",
+        "note": "Popcorn ice cream may contain trace gluten. Confirm with kitchen for GF guests."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Ice cream base contains eggs."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "Vegetarian."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Contains dairy and eggs. For vegan guests, see the Sorbet Trio."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Popcorn Ice Cream",
+        "definition": "Ice cream infused with the flavor of popcorn. Typically made by steeping popcorn in warm cream before straining. The result is a savory-sweet, buttery flavor that reads familiar and surprising at the same time."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "For guests who want dairy-free or vegan, redirect to the Sorbet Trio. Both are $11.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "afters_pairings": [
+      {
+        "name": "Di Majo Norante Apianae Moscato",
+        "why": "The Moscato's tropical and peach character runs alongside the banana-coconut and chocolate raspberry without competing. Light enough not to overwhelm any of the three flavors.",
+        "price": 14,
+        "afters_id": "158",
+        "afters_page": "afters.html"
+      },
+      {
+        "name": "Graham's 10 Year Tawny",
+        "why": "The caramel and dried fruit in the 10 Year Tawny mirror the chocolate raspberry and banana-coconut. An easy, unfussy after-dinner pairing.",
+        "price": 12,
+        "afters_id": "160",
         "afters_page": "afters.html"
       }
     ],

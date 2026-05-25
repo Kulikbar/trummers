@@ -5092,26 +5092,67 @@
     "file": "bar"
   },
   {
+    "id": "194",
+    "cat": "Beer & Cider",
+    "type": "beer",
+    "producer": "Scrimshaw",
+    "name": "German Style Pilsner",
+    "detail": "Fort Bragg, CA · 4.7% · German Style Pilsner",
+    "abv": 4.7,
+    "price": 7,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": true,
+    "icons": [
+      "🫧",
+      "🍋"
+    ],
+    "notes": [
+      "Crisp",
+      "Light hop",
+      "Clean",
+      "Floral",
+      "Dry finish"
+    ],
+    "tableside": "A German-style pilsner brewed on the Northern California coast by North Coast Brewing. Crisp, clean, and dry with a gentle floral hop character. The go-to recommendation for a guest who just wants a cold beer without much complexity.",
+    "pairings": [
+      "Lighter fare",
+      "Salads",
+      "Shellfish",
+      "Mild cheeses",
+      "Pretzels"
+    ],
+    "story": "Scrimshaw Pilsner is brewed by North Coast Brewing Company in Fort Bragg, California — a coastal town on the Mendocino coast whose fishing and maritime heritage inspired the name. Scrimshaw refers to the engraving art practiced by sailors and whalers on whale bone and ivory. North Coast is one of the pioneering craft breweries of the American craft beer movement, founded in 1988, and Scrimshaw is their take on the German Pilsner tradition: light, dry, and built for drinking rather than contemplation.",
+    "trivia": [
+      "The German Pilsner style originated in the 19th century as a cleaner, drier evolution of the Czech Pilsner developed in Plzeň in 1842. Where Czech Pilsner is rounder and maltier, German Pils is crisper, drier, and more hop-forward — particularly in the floral, herbal Hallertau hop character.",
+      "Scrimshaw — the art of engraving detailed scenes on whale bone, ivory, or shells — was practiced by sailors during long voyages as a way to pass time. The tradition is most closely associated with American whalers of the 18th and 19th centuries, particularly those from New England ports.",
+      "North Coast Brewing in Fort Bragg is also known for Brother Thelonious Belgian Abbey Ale and Old Rasputin Russian Imperial Stout, both considered American craft benchmarks in their respective styles."
+    ],
+    "file": "bar"
+  },
+  {
     "id": "130",
     "cat": "Beer & Cider",
     "type": "beer",
     "producer": "Weihenstephaner",
-    "name": "Hefeweissbier",
-    "detail": "Freising, Germany · 5.4% · Hefeweizen",
-    "abv": 5.4,
+    "name": "Kellerbier",
+    "detail": "Freising, Germany · 4.8% · Kellerbier",
+    "abv": 4.8,
     "price": 7,
     "allocated": false,
     "icons": [
-      "🌾"
+      "🌾",
+      "🫧"
     ],
     "notes": [
-      "Banana",
-      "Clove",
-      "Soft wheat",
-      "Light citrus",
-      "Creamy"
+      "Fresh bread",
+      "Light hop",
+      "Soft malt",
+      "Crisp",
+      "Clean finish"
     ],
-    "tableside": "Weihenstephaner is the world's oldest brewery — over a thousand years old. This is the definitive Hefeweizen: banana and clove from the yeast, soft wheat body, cloudy and beautiful. The benchmark every other wheat beer is measured against.",
+    "tableside": "Weihenstephaner is the world's oldest brewery — over a thousand years old. Their Kellerbier is unfiltered and unpasteurized, served naturally cloudy straight from the tank. Fresher and crisper than the Hefeweizen, with a soft malt character and a gentle hop presence. The style that Munich beer halls have been pouring for centuries.",
     "pairings": [
       "Pretzels",
       "Weisswurst",
@@ -5119,10 +5160,10 @@
       "Mild cheeses",
       "Lemon chicken"
     ],
-    "story": "Weihenstephan Brewery in Freising, Bavaria holds a continuous brewing record dating to 1040 AD , over a thousand years of uninterrupted production on the same site, making it the oldest brewery in the world by a significant margin. The Hefeweissbier is their flagship expression of the Bavarian wheat beer tradition: unfiltered, bottle-conditioned, and fermented with the proprietary yeast strain that produces the characteristic banana and clove esters that define the style. It is the reference point against which every other Hefeweizen in the world is measured.",
+    "story": "Weihenstephan Brewery in Freising, Bavaria holds a continuous brewing record dating to 1040 AD — over a thousand years of uninterrupted production on the same site, making it the oldest brewery in the world by a significant margin. Kellerbier — literally cellar beer — is an unfiltered, unpasteurized lager style traditionally served directly from the lagering cellar. The style predates modern filtration and represents how Bavarian lager was consumed before industrial brewing methods standardized the clear, shelf-stable product most people associate with German beer today.",
     "trivia": [
       "Weihenstephan's brewing history is documented to 1040 AD, when Benedictine monks at the monastery on the hill above Freising received a license to brew and sell beer — making it the oldest brewery in the world with a documented continuous history.",
-      "The banana and clove character in Hefeweizen comes entirely from the yeast, not from any added ingredients — the specific ester compounds isoamyl acetate (banana) and 4-vinylguaiacol (clove) are produced during fermentation at carefully controlled temperatures.",
+      "Kellerbier translates directly to cellar beer — the name refers to its origin in the lagering cellars where Bavarian brewers stored beer at cold temperatures to condition it. Serving it unfiltered and unpasteurized directly from the cellar was standard practice before refrigerated distribution made shelf-stable filtered lager the norm.",
       "Weihenstephan is now owned by the State of Bavaria and operates as part of the Technical University of Munich's brewing and food technology program — making it simultaneously the world's oldest brewery and an active academic research institution."
     ],
     "file": "bar"
@@ -6333,6 +6374,47 @@
     "file": "bar"
   },
   {
+    "id": "191",
+    "cat": "Afters",
+    "type": "dessert_wine",
+    "producer": "Bertola",
+    "name": "Cream Sherry",
+    "detail": "Jerez, Spain · Cream Sherry · NV · Palomino & Pedro Ximénez",
+    "abv": 17.5,
+    "price": 14,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": true,
+    "icons": [
+      "🍯",
+      "🌑",
+      "🛢️"
+    ],
+    "notes": [
+      "Dried fig",
+      "Salty caramel",
+      "Walnut",
+      "Cinnamon",
+      "Christmas cake"
+    ],
+    "tableside": "A Cream Sherry from Jerez — Palomino and Pedro Ximénez blended and aged in the solera system. Dried fig, salty caramel, Christmas cake spice, walnut character, and a soufflé-like finish. Rich, oxidative, and deeply complex. The category that serious wine drinkers are rediscovering.",
+    "pairings": [
+      "Caramelized Shallot Cake",
+      "Cheese Board",
+      "Dark chocolate",
+      "Dried fruits and nuts",
+      "Blue cheese"
+    ],
+    "story": "Bertola is produced by Bodegas Internacionales in the Jerez DO of Andalusia, Spain. Cream Sherry is a blend of dry Palomino-based sherry sweetened with Pedro Ximénez, then aged in the solera system — a fractional blending process where wine moves through a series of barrels, each containing progressively older wine. The NV designation reflects this blending across vintages. Sherry is one of the most misunderstood wine categories in the world, long associated with grandmothers and dusty bottles. That reputation is now actively reversing, driven by sommeliers and chefs who have rediscovered its extraordinary versatility with food.",
+    "trivia": [
+      "The solera system — from the Spanish word for floor — involves stacking barrels on top of each other. Wine is drawn from the bottom row (the solera itself) for bottling, and topped up from the row above (the criadera). This fractional blending means no solera is ever fully emptied, and every bottle contains wine from multiple vintages stretching back generations.",
+      "Pedro Ximénez grapes are sun-dried on mats after harvest to concentrate their sugars to extraordinary levels before pressing. The resulting wine can reach over 400 grams of residual sugar per liter — among the sweetest wines produced anywhere.",
+      "Jerez has been producing wine for over 3,000 years, making it one of the oldest continuous wine-producing regions in the world. The Phoenicians, Romans, and Moors all passed through the region, each leaving their mark on its agricultural heritage."
+    ],
+    "file": "bar"
+  },
+  {
     "id": "164",
     "cat": "Afters",
     "type": "brandy",
@@ -6447,7 +6529,7 @@
     "cat": "House Cocktails",
     "type": "Cocktail",
     "producer": "",
-    "name": "The Titanic",
+    "name": "Titanic",
     "detail": "Signature · Martini glass",
     "abv": 0,
     "price": 15,
@@ -6717,6 +6799,84 @@
       "Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly - which produces immediate, hard-to-control heat - the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."
     ],
     "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "192",
+    "cat": "House Cocktails",
+    "type": "cocktail",
+    "producer": "",
+    "name": "Off Ramp",
+    "detail": "Tito's · Yellow Chartreuse · Pickled Ramp",
+    "abv": 0,
+    "price": 14,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": true,
+    "icons": [
+      "🌿",
+      "🍋",
+      "🌸"
+    ],
+    "notes": [
+      "Herbal",
+      "Vegetal",
+      "Citrus",
+      "Bright"
+    ],
+    "tableside": "A seasonal cocktail built around ramps — Tito's infused with ramp greens, Yellow Chartreuse, and a pickled ramp garnish. The Chartreuse brings herbal complexity, the ramp infusion adds a green, garlicky edge that you won't find in anything else on the menu. A genuine seasonal window.",
+    "ingredients": [
+      "Ramp green-infused Tito's vodka",
+      "Yellow Chartreuse",
+      "Pickled ramp garnish"
+    ],
+    "story": "Off Ramp is a cocktail that exists only because ramp season exists. Ramps — wild spring onions foraged from Appalachian forests — appear for a few weeks each spring and disappear just as quickly. Infusing vodka with ramp greens captures that aromatic, garlicky-herbaceous character in a form that works in a glass. Yellow Chartreuse, made by Carthusian monks in France from 130 plant extracts, adds a honeyed herbal complexity that runs alongside the ramp rather than competing with it.",
+    "trivia": [
+      "Yellow Chartreuse is sweeter and milder than Green Chartreuse, with honey and saffron notes alongside the herb character. Both versions are made by Carthusian monks at the Grande Chartreuse monastery in the French Alps from a recipe that has remained secret since 1737.",
+      "Ramps (Allium tricoccum) are one of the first wild edibles to emerge after winter in eastern North America. Their season is so short that restaurants that feature them often use the entire plant — bulb, stem, and leaf — in multiple preparations to maximize the window.",
+      "Tito's Handmade Vodka is distilled in Austin, Texas from corn rather than grain or potato, giving it a naturally slightly sweet base that works well with herbal infusions."
+    ],
+    "file": "cocktails"
+  },
+  {
+    "id": "193",
+    "cat": "House Cocktails",
+    "type": "cocktail",
+    "producer": "",
+    "name": "Between the Sheets",
+    "detail": "Rhum J.M. · Cognac · Lime · Vanilla · Saline",
+    "abv": 0,
+    "price": 14,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": true,
+    "icons": [
+      "🍋",
+      "🌸",
+      "🥃"
+    ],
+    "notes": [
+      "Tropical",
+      "Citrus",
+      "Rich",
+      "Balanced"
+    ],
+    "tableside": "A riff on the classic Between the Sheets cocktail. Rhum J.M. agricole from Martinique, Cognac, fresh lime, vanilla, and a saline solution that sharpens everything and keeps it from reading sweet. The agricole and Cognac together cover a lot of ground — sugarcane funk meets aged grape brandy.",
+    "ingredients": [
+      "Rhum J.M. agricole",
+      "Cognac",
+      "Fresh lime juice",
+      "Vanilla",
+      "Saline solution"
+    ],
+    "story": "The original Between the Sheets dates to the 1920s and 1930s, typically made with rum, Cognac, Cointreau, and lemon. This version strips it back and rebuilds it with Rhum J.M. — an agricole rhum from Martinique made from fresh sugarcane juice rather than molasses — paired with Cognac and fresh lime. The saline addition is a modern bartending technique: a few drops of salt solution amplifies aroma and rounds the perception of sweetness without making the drink taste salty.",
+    "trivia": [
+      "Rhum agricole is produced from fresh sugarcane juice, while most rum is made from molasses — a byproduct of sugar refining. The difference in raw material produces a greener, more vegetal, more aromatic spirit that tastes markedly different from standard rum. Martinique's AOC designation for its agricole is one of the only rum appellations in the world.",
+      "Rhum J.M. is produced in the Macouba region of northern Martinique, one of the most volcanic and mineral-rich parts of the island. The distillery has been in operation since 1845.",
+      "Saline solution in cocktails — typically a 20% salt-to-water ratio used in drops — was popularized by bartenders in the 2010s. Salt suppresses bitterness, enhances sweetness perception, and amplifies aroma without adding a salty flavor at the concentrations used."
+    ],
     "file": "cocktails"
   },
   {

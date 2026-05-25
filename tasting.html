@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasting Menu — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3);
+    --red: #c94a4a; --red-dim: rgba(201,74,74,0.12);
+    --green: #5a9a6a; --green-dim: rgba(90,154,106,0.12);
+    --yellow: #c9a020; --yellow-dim: rgba(201,160,32,0.12);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+  /* ── HEADER ── */
+  .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.06) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
+  .header-theme { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 11vw, 3.8rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; margin-bottom: 0.5rem; }
+  .header-meta { font-size: 13px; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+  .header-pricing { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; padding: 5px 16px; border-radius: 20px; background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); letter-spacing: 0.04em; margin-bottom: 0.25rem; }
+  .header-pricing span { color: var(--gold-dim); }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(201,169,110,0.3); color: var(--gold-dim); text-decoration: none; transition: all 0.15s; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  /* ── INTRO ── */
+  .intro-block { margin: 1.25rem 1rem 0; padding: 14px 16px; background: rgba(201,169,110,0.05); border: 1px solid var(--border); border-radius: 10px; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1rem; color: var(--muted); line-height: 1.7; }
+
+  /* ── CONTROLS ── */
+  .controls { padding: 0.75rem 1.25rem 0.5rem; position: sticky; top: 0; z-index: 100; background: var(--bg); border-bottom: 1px solid var(--border); }
+  [id^='card-'] { scroll-margin-top: 360px; }
+  .search-wrap { position: relative; margin-bottom: 0.5rem; }
+  .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold-dim); font-size: 13px; pointer-events: none; }
+  #search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px 10px 38px; color: var(--cream); font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 300; outline: none; transition: border-color 0.2s; }
+  #search::placeholder { color: var(--muted); }
+  #search:focus { border-color: var(--gold-dim); }
+
+  /* Allergen filter row */
+  .allergen-row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+  .allergen-row::-webkit-scrollbar { display: none; }
+  .allergen-btn { position: relative; flex-shrink: 0; padding: 4px 10px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-size: 13px; cursor: pointer; transition: all 0.2s; white-space: nowrap; -webkit-tap-highlight-color: transparent; }
+  .allergen-btn.strict { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 500; }
+  .allergen-btn.modifiable { background: transparent; border-color: var(--gold); color: var(--gold); border-style: dashed; }
+  .allergen-btn.strict::after { content: ''; position: absolute; top: -3px; right: -3px; width: 7px; height: 7px; border-radius: 50%; background: var(--green); border: 1px solid var(--bg); }
+  .allergen-btn.modifiable::after { content: ''; position: absolute; top: -3px; right: -3px; width: 7px; height: 7px; border-radius: 50%; background: var(--yellow); border: 1px solid var(--bg); }
+
+  .active-summary { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 4px 0 2px; min-height: 1.6em; }
+  .active-tag { display: flex; align-items: center; gap: 4px; font-size: 13px; padding: 2px 8px; border-radius: 12px; background: rgba(201,169,110,0.1); border: 1px solid var(--border2); color: var(--gold); }
+  .active-tag button { background: none; border: none; color: var(--gold-dim); cursor: pointer; font-size: 13px; padding: 0; line-height: 1; margin-left: 2px; }
+  .clear-all { font-size: 13px; color: var(--muted); background: none; border: none; cursor: pointer; padding: 2px 6px; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; }
+
+  /* Collapsed controls */
+  .controls.collapsed .allergen-row { display: none; }
+  .controls.collapsed .active-summary { display: flex; }
+  .expand-filters-btn { display: none; font-size: 13px; color: var(--gold-dim); background: none; border: none; cursor: pointer; font-family: 'Outfit', sans-serif; padding: 0 4px; }
+  .controls.collapsed .expand-filters-btn { display: inline-block; }
+
+  /* ── ALLERGEN LEGEND ── */
+  .allergen-legend { margin: 0.75rem 1.25rem 0; padding: 10px 14px; background: var(--bg3); border-radius: 8px; border: 1px solid var(--border); }
+  .legend-title { font-size: 15px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; cursor: pointer; display: flex; align-items: center; justify-content: space-between; }
+  .legend-body { display: none; }
+  .legend-body.open { display: block; }
+  .legend-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 15px; color: var(--muted); }
+  .legend-swatch { width: 50px; height: 20px; border-radius: 10px; font-size: 15px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .legend-swatch.strict { background: var(--gold); color: var(--bg); font-weight: 500; }
+  .legend-swatch.mod { border: 1px dashed var(--gold); color: var(--gold); }
+
+  /* ── RESULT COUNT ── */
+  .result-count { font-size: 13px; color: var(--muted); padding: 0.6rem 1.25rem 0; font-style: italic; font-family: 'Cormorant Garamond', serif; }
+
+  /* ── COURSE LIST ── */
+  .course-list { padding: 0.75rem 1rem 5rem; display: flex; flex-direction: column; gap: 8px; }
+  .empty { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; font-style: italic; color: var(--gold-dim); }
+
+  /* ── COURSE CARD ── */
+  .course-card { border: 1px solid var(--border); border-radius: 10px; background: var(--card); overflow: hidden; cursor: pointer; transition: border-color 0.2s; }
+  .course-card:hover { border-color: var(--border2); }
+  .course-card.open { border-color: var(--gold-dim); }
+  .course-card.filtered-out { display: none; }
+  .card-top { display: flex; align-items: flex-start; padding: 14px 16px; gap: 12px; }
+  .course-num { font-family: 'Cormorant Garamond', serif; font-size: 13px; color: var(--gold-dim); flex-shrink: 0; margin-top: 5px; letter-spacing: 0.06em; }
+  .card-main { flex: 1; min-width: 0; }
+  .course-section-label { font-family: 'Cormorant Garamond', serif; font-size: 13px; font-style: italic; color: var(--gold-dim); letter-spacing: 0.1em; margin-bottom: 1px; }
+  .course-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 400; color: var(--cream); line-height: 1.2; }
+  .course-desc { font-size: 13px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
+  .card-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 7px; }
+  .veg-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); }
+  .no-pairing-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.06); border: 1px solid var(--border); color: var(--gold-dim); }
+  .chevron { color: var(--gold-dim); font-size: 13px; margin-top: 5px; flex-shrink: 0; transition: transform 0.25s; }
+  .course-card.open .chevron { transform: rotate(180deg); }
+
+  /* ── EXPAND ── */
+  .card-expand { display: none; padding: 0 16px 16px; border-top: 1px solid var(--border); animation: fadeIn 0.2s ease; }
+  .course-card.open .card-expand { display: block; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+  .tableside-line { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-style: italic; font-weight: 300; color: var(--gold2); line-height: 1.5; padding: 14px 0 12px; border-bottom: 1px solid var(--border); margin-bottom: 14px; }
+
+  .detail-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 6px; }
+
+  .ingredient-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+  .tag { font-size: 13px; padding: 3px 10px; border-radius: 6px; background: var(--bg3); color: var(--muted); border: 1px solid var(--border); }
+
+  /* Allergen grid */
+  .allergen-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 4px; }
+  .allergen-item { padding: 7px 10px; border-radius: 8px; font-size: 13px; }
+  .allergen-item.safe { background: var(--green-dim); border: 1px solid rgba(90,154,106,0.2); }
+  .allergen-item.contains { background: var(--red-dim); border: 1px solid rgba(201,74,74,0.2); }
+  .allergen-item.modifiable { background: var(--yellow-dim); border: 1px solid rgba(201,160,32,0.2); }
+  .allergen-item.check { background: var(--yellow-dim); border: 1px solid rgba(201,160,32,0.2); }
+  .allergen-name { font-weight: 500; margin-bottom: 1px; }
+  .allergen-item.safe .allergen-name { color: var(--green); }
+  .allergen-item.contains .allergen-name { color: var(--red); }
+  .allergen-item.modifiable .allergen-name, .allergen-item.check .allergen-name { color: var(--yellow); }
+  .allergen-note { font-size: 12px; color: var(--muted); line-height: 1.3; }
+
+  /* Expand sections */
+  .expand-section { margin-top: 0; }
+  .expand-section-title { font-size: 13px; color: var(--gold-dim); letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 7px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; margin-top: 10px; }
+  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.6; padding: 8px 0 4px; display: none; }
+  .expand-section-body.open { display: block; }
+
+  .key-term { margin-bottom: 10px; }
+  .key-term-name { color: var(--cream); font-weight: 500; font-size: 15px; margin-bottom: 2px; }
+
+  .sourcing-item { margin-bottom: 10px; }
+  .sourcing-name { color: var(--cream); font-weight: 500; font-size: 15px; margin-bottom: 2px; }
+
+  .chef-note { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+  .chef-note-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 5px; }
+
+  /* ── PAIRING CARD ── */
+  .pairing-card { background: var(--bg3); border: 1px solid var(--border2); border-radius: 8px; overflow: hidden; margin-top: 8px; }
+  .pairing-top { padding: 14px 16px 12px; border-bottom: 1px solid var(--border); }
+  .pairing-top-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
+  .pairing-wine-name { font-family: 'Cormorant Garamond', serif; font-size: 19px; color: var(--cream); line-height: 1.2; margin-bottom: 4px; }
+  .pairing-producer { font-family: 'Cormorant Garamond', serif; font-size: 15px; font-style: italic; color: var(--gold2); letter-spacing: 0.04em; }
+  .bin-link { display: flex; align-items: center; gap: 5px; text-decoration: none; flex-shrink: 0; margin-top: 2px; }
+  .bin-link-nodest { display: flex; align-items: center; gap: 5px; flex-shrink: 0; margin-top: 2px; }
+  .bin-number { font-family: 'Cormorant Garamond', serif; font-size: 24px; color: var(--gold); line-height: 1; }
+  .bin-arrow { font-size: 14px; color: var(--gold-dim); }
+  .bin-exclusive { font-size: 11px; color: var(--gold-dim); letter-spacing: 0.08em; text-transform: uppercase; margin-top: 2px; text-align: right; }
+  .pairing-detail-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; }
+  .pairing-detail-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 2px; }
+  .pairing-detail-value { font-size: 13px; color: var(--cream); line-height: 1.3; }
+  .pairing-bottom { padding: 12px 16px 14px; }
+  .pairing-note { font-size: 14px; color: var(--muted); line-height: 1.65; }
+  .pairing-exclusive-note { font-size: 12px; color: var(--gold-dim); font-style: italic; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
+
+  /* ── AMUSE NOTE ── */
+  .amuse-note { font-size: 13px; color: var(--gold-dim); font-style: italic; font-family: 'Cormorant Garamond', serif; padding: 10px 0 2px; }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-theme" id="header-theme">Tasting Menu</div>
+  <div class="header-title">Tasting Menu</div>
+  <div class="header-meta" id="header-meta">Loading…</div>
+  <div class="header-pricing" id="header-pricing" style="display:none;">
+    <span>$85 / person</span> · <span>+$55 wine pairing</span>
+  </div>
+  <div class="header-nav">
+    <a href="food.html">← Kitchen</a>
+    <a href="index.html">Home</a>
+  </div>
+</div>
+
+<div class="intro-block" id="intro-block" style="display:none;"></div>
+
+<div class="controls" id="controls">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input id="search" type="text" placeholder="Search courses…" oninput="handleSearch()" autocomplete="off">
+    <button class="expand-filters-btn" onclick="expandFilters()">Filters ↑</button>
+  </div>
+  <div class="allergen-row" id="allergen-row">
+    <button class="allergen-btn" data-allergen="shellfish" onclick="cycleAllergen(this)">🦐 Shellfish-free</button>
+    <button class="allergen-btn" data-allergen="dairy" onclick="cycleAllergen(this)">🥛 Dairy-free</button>
+    <button class="allergen-btn" data-allergen="nuts" onclick="cycleAllergen(this)">🌰 Nut-free</button>
+    <button class="allergen-btn" data-allergen="peanuts" onclick="cycleAllergen(this)">🥜 Peanut-free</button>
+    <button class="allergen-btn" data-allergen="gluten" onclick="cycleAllergen(this)">🌾 Gluten-free</button>
+    <button class="allergen-btn" data-allergen="eggs" onclick="cycleAllergen(this)">🥚 Egg-free</button>
+    <button class="allergen-btn" data-allergen="soy" onclick="cycleAllergen(this)">🫘 Soy-free</button>
+    <button class="allergen-btn" data-allergen="vegetarian" onclick="cycleAllergen(this)">🌿 Vegetarian</button>
+    <button class="allergen-btn" data-allergen="vegan" onclick="cycleAllergen(this)">🌱 Vegan</button>
+  </div>
+  <div class="active-summary" id="active-summary"></div>
+</div>
+
+<div class="allergen-legend">
+  <div class="legend-title" onclick="toggleLegend()">Allergen Key <span id="legend-arr">▸</span></div>
+  <div class="legend-body" id="legend-body">
+    <div class="legend-row"><div class="legend-swatch strict">ON</div>Strict — shows only safe courses</div>
+    <div class="legend-row"><div class="legend-swatch mod">ON</div>Modifiable — shows safe + can-modify courses</div>
+    <div class="legend-row" style="font-size:13px;color:var(--muted);padding-left:58px;">Tap once for strict, twice for modifiable, three times to clear.</div>
+  </div>
+</div>
+
+<div class="result-count" id="result-count"></div>
+<div class="course-list" id="course-list">
+  <div class="empty">Loading…</div>
+</div>
+
+<script>
+let COURSES = [];
+let openId = null;
+let allergenState = {};
+let searchQuery = '';
+let manualExpand = false;
+let scrollAfterExpand = 0;
+
+const ALLERGEN_LABELS = {
+  shellfish: '🦐 Shellfish-free', dairy: '🥛 Dairy-free', nuts: '🌰 Nut-free',
+  peanuts: '🥜 Peanut-free', gluten: '🌾 Gluten-free', eggs: '🥚 Egg-free',
+  soy: '🫘 Soy-free', vegetarian: '🌿 Vegetarian', vegan: '🌱 Vegan'
+};
+
+const ALLERGEN_KEYS = ['shellfish','dairy','nuts','gluten','eggs','soy','peanuts','vegetarian','vegan'];
+
+function scrollToEl(el) {
+  if (!el) return;
+  const controls = document.getElementById('controls');
+  const h = controls ? controls.offsetHeight : 0;
+  const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
+function applyScrollMargins() {
+  const controls = document.getElementById('controls');
+  const h = controls ? controls.offsetHeight : 0;
+  const margin = (h + 48) + 'px';
+  document.querySelectorAll('[id^="card-"]').forEach(el => el.style.scrollMarginTop = margin);
+}
+
+// Controls collapse
+window.addEventListener('scroll', () => {
+  const controls = document.getElementById('controls');
+  const y = window.scrollY;
+  if (y > 60) {
+    if (manualExpand) {
+      if (y > scrollAfterExpand + 80) { controls.classList.add('collapsed'); manualExpand = false; }
+    } else {
+      controls.classList.add('collapsed');
+    }
+  } else {
+    controls.classList.remove('collapsed');
+    manualExpand = false;
+  }
+});
+
+function expandFilters() {
+  const controls = document.getElementById('controls');
+  controls.classList.remove('collapsed');
+  manualExpand = true;
+  scrollAfterExpand = window.scrollY;
+}
+
+// Allergen filter
+function cycleAllergen(btn) {
+  const key = btn.dataset.allergen;
+  const current = allergenState[key] || 0;
+  const next = (current + 1) % 3;
+  allergenState[key] = next;
+  btn.classList.remove('strict', 'modifiable');
+  if (next === 1) btn.classList.add('strict');
+  else if (next === 2) btn.classList.add('modifiable');
+  renderActiveSummary();
+  render();
+}
+
+function renderActiveSummary() {
+  const summary = document.getElementById('active-summary');
+  const active = Object.entries(allergenState).filter(([,v]) => v > 0);
+  if (!active.length) { summary.innerHTML = ''; return; }
+  summary.innerHTML = active.map(([key, val]) => `
+    <span class="active-tag">
+      ${ALLERGEN_LABELS[key]}${val === 2 ? ' ±' : ''}
+      <button onclick="clearAllergen('${key}')" aria-label="Remove filter">×</button>
+    </span>
+  `).join('') + (active.length > 1 ? `<button class="clear-all" onclick="clearAllAllergens()">Clear all</button>` : '');
+}
+
+function clearAllergen(key) {
+  allergenState[key] = 0;
+  const btn = document.querySelector(`.allergen-btn[data-allergen="${key}"]`);
+  if (btn) btn.classList.remove('strict', 'modifiable');
+  renderActiveSummary();
+  render();
+}
+
+function clearAllAllergens() {
+  allergenState = {};
+  document.querySelectorAll('.allergen-btn').forEach(b => b.classList.remove('strict', 'modifiable'));
+  renderActiveSummary();
+  render();
+}
+
+function passesAllergen(course, key, mode) {
+  const status = course.allergens?.[key]?.status;
+  if (mode === 1) return status === 'safe' || status === 'yes';
+  if (mode === 2) return status === 'safe' || status === 'yes' || status === 'modifiable' || status === 'check';
+  return true;
+}
+
+function courseVisible(course) {
+  for (const [key, mode] of Object.entries(allergenState)) {
+    if (mode === 0) continue;
+    if (!passesAllergen(course, key, mode)) return false;
+  }
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    const haystack = [course.name, course.section, course.description].join(' ').toLowerCase();
+    if (!haystack.includes(q)) return false;
+  }
+  return true;
+}
+
+function handleSearch() {
+  searchQuery = document.getElementById('search').value.trim();
+  render();
+}
+
+function render() {
+  const list = document.getElementById('course-list');
+  const visible = COURSES.filter(courseVisible);
+  document.getElementById('result-count').textContent =
+    visible.length < COURSES.length ? `${visible.length} of ${COURSES.length} courses shown` : '';
+
+  if (!COURSES.length) return;
+
+  list.innerHTML = COURSES.map(course => {
+    const isOpen = openId === course.id;
+    const isVisible = courseVisible(course);
+    const veg = course.allergens?.vegetarian?.status === 'yes';
+    const vegan = course.allergens?.vegan?.status === 'yes';
+
+    return `
+    <div class="course-card${isOpen ? ' open' : ''}${!isVisible ? ' filtered-out' : ''}"
+         id="card-${course.id}" onclick="toggleCard('${course.id}')">
+      <div class="card-top">
+        <div class="course-num">${String(course.course).padStart(2,'0')}</div>
+        <div class="card-main">
+          <div class="course-section-label">${course.section}</div>
+          <div class="course-name">${course.name}</div>
+          <div class="course-desc">${course.description}</div>
+          <div class="card-badges">
+            ${vegan ? '<span class="veg-badge">🌱 Vegan</span>' : veg ? '<span class="veg-badge">🌿 Vegetarian</span>' : ''}
+            ${!course.pairing ? '<span class="no-pairing-badge">Amuse — no pairing</span>' : ''}
+          </div>
+        </div>
+        <div class="chevron">▾</div>
+      </div>
+      ${isOpen ? `<div class="card-expand">${buildExpand(course)}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  applyScrollMargins();
+}
+
+function buildAllergenGrid(course) {
+  const items = [
+    { key: 'shellfish', label: '🦐 Shellfish' },
+    { key: 'dairy',     label: '🥛 Dairy' },
+    { key: 'nuts',      label: '🌰 Nuts' },
+    { key: 'gluten',    label: '🌾 Gluten' },
+    { key: 'eggs',      label: '🥚 Eggs' },
+    { key: 'soy',       label: '🫘 Soy' },
+    { key: 'peanuts',   label: '🥜 Peanuts' },
+    { key: 'vegetarian',label: '🌿 Vegetarian' },
+    { key: 'vegan',     label: '🌱 Vegan' },
+  ];
+  return items.map(({ key, label }) => {
+    const a = course.allergens?.[key];
+    if (!a) return '';
+    const statusMap = { safe: 'safe', yes: 'safe', modifiable: 'modifiable', check: 'check', contains: 'contains', no: 'contains' };
+    const cls = statusMap[a.status] || 'contains';
+    const display = (a.status === 'safe' || a.status === 'yes') ? label + '-free' : label;
+    return `<div class="allergen-item ${cls}">
+      <div class="allergen-name">${display}</div>
+      <div class="allergen-note">${a.note}</div>
+    </div>`;
+  }).join('');
+}
+
+function buildPairingCard(pairing) {
+  if (!pairing) return `<div class="amuse-note">No wine pairing for this course.</div>`;
+
+  const hashPages = ['afters', 'whisky'];
+  const binEl = pairing.in_list
+    ? (() => {
+        const href = hashPages.includes(pairing.file)
+          ? `${pairing.file}.html#card-${pairing.wine_id}`
+          : `${pairing.file}.html?open=${pairing.wine_id}`;
+        return `<a class="bin-link" href="${href}" onclick="event.stopPropagation()">
+          <div class="bin-number">#${pairing.bin}</div>
+          <div class="bin-arrow">→</div>
+         </a>`;
+      })()
+    : `<div class="bin-link-nodest">
+        <div class="bin-number" style="color:var(--gold-dim);">—</div>
+       </div>`;
+
+  return `<div class="pairing-card">
+    <div class="pairing-top">
+      <div class="pairing-top-row">
+        <div>
+          <div class="pairing-wine-name">${pairing.name}</div>
+          <div class="pairing-producer">${pairing.producer}</div>
+        </div>
+        ${binEl}
+      </div>
+      <div class="pairing-detail-row">
+        <div>
+          <div class="pairing-detail-label">Grapes</div>
+          <div class="pairing-detail-value">${pairing.grapes}</div>
+        </div>
+        <div>
+          <div class="pairing-detail-label">Region</div>
+          <div class="pairing-detail-value">${pairing.region}</div>
+        </div>
+        <div>
+          <div class="pairing-detail-label">Vintage</div>
+          <div class="pairing-detail-value">${pairing.vintage}</div>
+        </div>
+      </div>
+    </div>
+    <div class="pairing-bottom">
+      <div class="pairing-note">${pairing.note}</div>
+      ${!pairing.in_list ? `<div class="pairing-exclusive-note">This wine is exclusive to the tasting menu pairing and is not on the regular wine list.</div>` : ''}
+    </div>
+  </div>`;
+}
+
+function buildExpand(course) {
+  const ingredients = course.ingredients.map(i => `<span class="tag">${i}</span>`).join('');
+
+  const allergenGrid = buildAllergenGrid(course);
+
+  const keyTermsHtml = course.key_terms?.length
+    ? course.key_terms.map(t => `<div class="key-term"><div class="key-term-name">${t.term}</div>${t.definition}</div>`).join('')
+    : '';
+
+  const sourcingHtml = course.sourcing?.length
+    ? course.sourcing.map(s => `<div class="sourcing-item"><div class="sourcing-name">${s.name}</div>${s.description}</div>`).join('')
+    : '';
+
+  const chefHtml = course.chef_notes
+    ? `<div class="chef-note"><div class="chef-note-label">From the kitchen</div>${course.chef_notes}</div>`
+    : '';
+
+  const pairingCard = buildPairingCard(course.pairing);
+
+  return `
+    <div class="tableside-line">${course.tableside}</div>
+
+    <div class="detail-label">Ingredients</div>
+    <div class="ingredient-tags">${ingredients}</div>
+
+    <div class="detail-label">Allergens</div>
+    <div class="allergen-grid">${allergenGrid}</div>
+
+    ${keyTermsHtml ? `
+    <div class="expand-section">
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-terms')">Key Terms <span id="arr-${course.id}-terms">▸</span></div>
+      <div class="expand-section-body" id="sec-${course.id}-terms">${keyTermsHtml}</div>
+    </div>` : ''}
+
+    ${sourcingHtml ? `
+    <div class="expand-section">
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-sourcing')">Sourcing &amp; Provenance <span id="arr-${course.id}-sourcing">▸</span></div>
+      <div class="expand-section-body" id="sec-${course.id}-sourcing">${sourcingHtml}</div>
+    </div>` : ''}
+
+    ${chefHtml ? `
+    <div class="expand-section">
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-chef')">Chef &amp; Service Notes <span id="arr-${course.id}-chef">▸</span></div>
+      <div class="expand-section-body" id="sec-${course.id}-chef">${chefHtml}</div>
+    </div>` : ''}
+
+    <div class="expand-section">
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-pairing')">Wine Pairing <span id="arr-${course.id}-pairing">▸</span></div>
+      <div class="expand-section-body" id="sec-${course.id}-pairing">${pairingCard}</div>
+    </div>
+  `;
+}
+
+function toggleCard(id) {
+  openId = openId === id ? null : id;
+  render();
+  requestAnimationFrame(() => {
+    applyScrollMargins();
+    if (openId) {
+      setTimeout(() => scrollToEl(document.getElementById('card-' + id)), 50);
+    }
+  });
+}
+
+function toggleSec(e, secId) {
+  e.stopPropagation();
+  const sec = document.getElementById('sec-' + secId);
+  const arr = document.getElementById('arr-' + secId);
+  if (!sec) return;
+  const isOpen = sec.classList.contains('open');
+  sec.classList.toggle('open', !isOpen);
+  if (arr) arr.textContent = isOpen ? '▸' : '▾';
+}
+
+function toggleLegend() {
+  const body = document.getElementById('legend-body');
+  const arr = document.getElementById('legend-arr');
+  const isOpen = body.classList.contains('open');
+  body.classList.toggle('open', !isOpen);
+  arr.textContent = isOpen ? '▸' : '▾';
+}
+
+fetch('tasting.json')
+  .then(r => r.json())
+  .then(data => {
+    COURSES = data.courses;
+
+    document.getElementById('header-theme').textContent = data.theme;
+    document.getElementById('header-meta').textContent = `${data.date} · ${data.courses.length} courses`;
+    const pricing = document.getElementById('header-pricing');
+    pricing.innerHTML = `<span>$${data.price} / person</span> · <span style="color:var(--gold-dim);">+$${data.pairing_price} wine pairing</span>`;
+    pricing.style.display = 'inline-flex';
+
+    const intro = document.getElementById('intro-block');
+    if (data.intro) { intro.textContent = data.intro; intro.style.display = 'block'; }
+
+    render();
+
+    requestAnimationFrame(() => {
+      applyScrollMargins();
+      const params = new URLSearchParams(window.location.search);
+      const openParam = params.get('open');
+      if (openParam) {
+        openId = openParam;
+        render();
+        requestAnimationFrame(() => {
+          applyScrollMargins();
+          setTimeout(() => scrollToEl(document.getElementById('card-' + openParam)), 100);
+        });
+      }
+    });
+  })
+  .catch(err => {
+    console.error('Could not load tasting.json:', err);
+    document.getElementById('course-list').innerHTML = '<div class="empty">Could not load tasting.json.</div>';
+    document.getElementById('header-meta').textContent = 'Error loading data';
+  });
+</script>
+</body>
+</html>
