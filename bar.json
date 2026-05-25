@@ -5142,7 +5142,6 @@
     "price": 7,
     "allocated": false,
     "icons": [
-      "🌾",
       "🫧"
     ],
     "notes": [
@@ -6815,23 +6814,24 @@
     "star": false,
     "glass": true,
     "icons": [
+      "🥃",
       "🌿",
-      "🍋",
-      "🌸"
+      "🧂"
     ],
     "notes": [
+      "Savory",
       "Herbal",
       "Vegetal",
-      "Citrus",
-      "Bright"
+      "Dry",
+      "Clean"
     ],
-    "tableside": "A seasonal cocktail built around ramps — Tito's infused with ramp greens, Yellow Chartreuse, and a pickled ramp garnish. The Chartreuse brings herbal complexity, the ramp infusion adds a green, garlicky edge that you won't find in anything else on the menu. A genuine seasonal window.",
+    "tableside": "A savory martini built around ramps. Tito's infused with ramp greens, Yellow Chartreuse, and a pickled ramp garnish. Served up, cold, and dry. The ramp infusion brings a garlicky, green edge you won't find in anything else on the menu — the Chartreuse keeps it herbal rather than sharp. For the guest who wants something unusual and savory before dinner.",
     "ingredients": [
       "Ramp green-infused Tito's vodka",
       "Yellow Chartreuse",
       "Pickled ramp garnish"
     ],
-    "story": "Off Ramp is a cocktail that exists only because ramp season exists. Ramps — wild spring onions foraged from Appalachian forests — appear for a few weeks each spring and disappear just as quickly. Infusing vodka with ramp greens captures that aromatic, garlicky-herbaceous character in a form that works in a glass. Yellow Chartreuse, made by Carthusian monks in France from 130 plant extracts, adds a honeyed herbal complexity that runs alongside the ramp rather than competing with it.",
+    "story": "Off Ramp is a riff on the savory martini format, built around one of the most fleeting ingredients of the spring season. Ramps — wild spring onions foraged from Appalachian forests — appear for a few weeks each year and disappear just as quickly. Infusing vodka with ramp greens captures their aromatic, garlicky-herbaceous character in a form that holds up in a stirred, spirit-forward drink. Yellow Chartreuse, made by Carthusian monks in France from 130 plant extracts, adds honeyed herbal complexity that runs alongside the ramp without competing with it. The pickled ramp garnish echoes the base spirit and provides the brine a savory martini needs.",
     "trivia": [
       "Yellow Chartreuse is sweeter and milder than Green Chartreuse, with honey and saffron notes alongside the herb character. Both versions are made by Carthusian monks at the Grande Chartreuse monastery in the French Alps from a recipe that has remained secret since 1737.",
       "Ramps (Allium tricoccum) are one of the first wild edibles to emerge after winter in eastern North America. Their season is so short that restaurants that feature them often use the entire plant — bulb, stem, and leaf — in multiple preparations to maximize the window.",
@@ -6854,16 +6854,17 @@
     "glass": true,
     "icons": [
       "🍋",
-      "🌸",
-      "🥃"
+      "🥃",
+      "🌸"
     ],
     "notes": [
-      "Tropical",
       "Citrus",
-      "Rich",
-      "Balanced"
+      "Tropical",
+      "Bright",
+      "Balanced",
+      "Clean finish"
     ],
-    "tableside": "A riff on the classic Between the Sheets cocktail. Rhum J.M. agricole from Martinique, Cognac, fresh lime, vanilla, and a saline solution that sharpens everything and keeps it from reading sweet. The agricole and Cognac together cover a lot of ground — sugarcane funk meets aged grape brandy.",
+    "tableside": "A daiquiri built on two base spirits instead of one. Rhum J.M. agricole from Martinique, Cognac, fresh lime, vanilla, and a saline solution that sharpens the acidity and keeps the drink from reading sweet. Served up. The agricole brings sugarcane funk, the Cognac adds richness and age — together they cover more ground than either would alone.",
     "ingredients": [
       "Rhum J.M. agricole",
       "Cognac",
@@ -6871,7 +6872,7 @@
       "Vanilla",
       "Saline solution"
     ],
-    "story": "The original Between the Sheets dates to the 1920s and 1930s, typically made with rum, Cognac, Cointreau, and lemon. This version strips it back and rebuilds it with Rhum J.M. — an agricole rhum from Martinique made from fresh sugarcane juice rather than molasses — paired with Cognac and fresh lime. The saline addition is a modern bartending technique: a few drops of salt solution amplifies aroma and rounds the perception of sweetness without making the drink taste salty.",
+    "story": "Between the Sheets is a classic cocktail format — essentially a daiquiri split between rum and Cognac — that dates to the 1920s. This version uses Rhum J.M. agricole from Martinique, which is made from fresh sugarcane juice rather than molasses, giving it a greener and more aromatic character than standard rum. Paired with Cognac and brightened with fresh lime and vanilla, the result is a daiquiri with significantly more complexity than the three-ingredient original. The saline finish is a modern bartending technique: a few drops of salt solution amplifies aroma and rounds sweetness perception without making the drink taste salty.",
     "trivia": [
       "Rhum agricole is produced from fresh sugarcane juice, while most rum is made from molasses — a byproduct of sugar refining. The difference in raw material produces a greener, more vegetal, more aromatic spirit that tastes markedly different from standard rum. Martinique's AOC designation for its agricole is one of the only rum appellations in the world.",
       "Rhum J.M. is produced in the Macouba region of northern Martinique, one of the most volcanic and mineral-rich parts of the island. The distillery has been in operation since 1845.",
