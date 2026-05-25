@@ -126,8 +126,8 @@
   /* Expand sections */
   .expand-section { margin-top: 0; }
   .expand-section-title { font-size: 13px; color: var(--gold-dim); letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 7px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; margin-top: 10px; }
-  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.6; padding: 8px 0 4px; display: none; }
-  .expand-section-body.open { display: block; }
+  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.6; padding: 8px 0 4px; }
+  
 
   .key-term { margin-bottom: 10px; }
   .key-term-name { color: var(--cream); font-weight: 500; font-size: 15px; margin-bottom: 2px; }
@@ -472,24 +472,24 @@ function buildExpand(course) {
 
     ${keyTermsHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-terms')">Key Terms <span id="arr-${course.id}-terms">▸</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-terms')">Key Terms <span id="arr-${course.id}-terms">▾</span></div>
       <div class="expand-section-body" id="sec-${course.id}-terms">${keyTermsHtml}</div>
     </div>` : ''}
 
     ${sourcingHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-sourcing')">Sourcing &amp; Provenance <span id="arr-${course.id}-sourcing">▸</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-sourcing')">Sourcing &amp; Provenance <span id="arr-${course.id}-sourcing">▾</span></div>
       <div class="expand-section-body" id="sec-${course.id}-sourcing">${sourcingHtml}</div>
     </div>` : ''}
 
     ${chefHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-chef')">Chef &amp; Service Notes <span id="arr-${course.id}-chef">▸</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-chef')">Chef &amp; Service Notes <span id="arr-${course.id}-chef">▾</span></div>
       <div class="expand-section-body" id="sec-${course.id}-chef">${chefHtml}</div>
     </div>` : ''}
 
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-pairing')">Wine Pairing <span id="arr-${course.id}-pairing">▸</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-pairing')">Wine Pairing <span id="arr-${course.id}-pairing">▾</span></div>
       <div class="expand-section-body" id="sec-${course.id}-pairing">${pairingCard}</div>
     </div>
   `;
@@ -511,9 +511,9 @@ function toggleSec(e, secId) {
   const sec = document.getElementById('sec-' + secId);
   const arr = document.getElementById('arr-' + secId);
   if (!sec) return;
-  const isOpen = sec.classList.contains('open');
-  sec.classList.toggle('open', !isOpen);
-  if (arr) arr.textContent = isOpen ? '▸' : '▾';
+  const isHidden = sec.style.display === 'none';
+  sec.style.display = isHidden ? '' : 'none';
+  if (arr) arr.textContent = isHidden ? '▾' : '▸';
 }
 
 function toggleLegend() {
