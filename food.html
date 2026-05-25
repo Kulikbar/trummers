@@ -225,7 +225,7 @@ function buildTastingPanel(data) {
     <div style="flex:1;">
       <div class="tonight-label">Tasting Menu</div>
       <div class="tonight-name">${data.theme}</div>
-      <div class="tonight-detail">${data.date} · ${data.courses.length} courses · $${data.price}/person · +$${data.pairing_price} wine pairing</div>
+      <div class="tonight-detail">${data.date.split(' ')[0]}</div>
       <a class="tonight-link" href="tasting.html">View full menu &amp; pairings →</a>
     </div>
   </div>`;
