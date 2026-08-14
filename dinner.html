@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dinner — Staff Reference</title>
+<title>Dinner · Staff Reference</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -185,7 +185,7 @@
   <div class="header-eyebrow">Staff Reference</div>
   <div class="header-title">Dinner</div>
   <div class="header-subtitle">Trummer's on Main · An American Bistro</div>
-  <div class="header-chef">Executive Chef: Zack Ridenour</div>
+  <div class="header-chef">Executive Chef: Zack Ridenhour</div>
   <div class="header-nav">
     <a href="index.html">← Home</a>
     <a href="food.html">← Kitchen</a>
@@ -194,8 +194,7 @@
 </div>
 
 <nav class="toc-pills">
-  <a class="toc-pill" href="#sec-soups">Soups &amp; Salads</a>
-  <a class="toc-pill" href="#sec-starters">Starters</a>
+  <a class="toc-pill" href="#sec-apps">Appetizers</a>
   <a class="toc-pill" href="#sec-bread">Bread</a>
   <a class="toc-pill" href="#sec-spit">Spit Roasted</a>
   <a class="toc-pill" href="#sec-daily">Daily Offerings</a>
@@ -230,11 +229,11 @@
     <div style="height:8px;"></div>
     <div class="legend-row">
       <div class="legend-swatch strict">solid</div>
-      <span><strong style="color:var(--cream);">Strict</strong> — contains none. Safe for severe allergies. Tap once.</span>
+      <span><strong style="color:var(--cream);">Strict</strong>: contains none. Safe for severe allergies. Tap once.</span>
     </div>
     <div class="legend-row">
       <div class="legend-swatch mod">dashed</div>
-      <span><strong style="color:var(--cream);">Modifiable</strong> — can be made safe. Confirm with kitchen. Tap twice.</span>
+      <span><strong style="color:var(--cream);">Modifiable</strong>: can be made safe. Confirm with kitchen. Tap twice.</span>
     </div>
     <div class="legend-row" style="margin-bottom:0;">
       <div class="legend-swatch" style="border:1px solid var(--border);color:var(--muted);font-size:15px;">off</div>
@@ -269,23 +268,22 @@ const ALLERGENS = [
   { key: 'vegan',     label: '🌱 Vegan' },
 ];
 
-const CAT_ORDER = ['Soups & Salads','Starters','Bread Service','Spit Roasted','Daily Offerings','Sea','Land','Pasta & Rice','To Accompany'];
+const CAT_ORDER = ['Appetizers','Bread Service','Spit Roasted','Daily Offerings','Sea','Land','Pasta & Rice','To Accompany'];
 const CAT_ANCHORS = {
-  'Soups & Salads': 'sec-soups', 'Starters': 'sec-starters',
+  'Appetizers': 'sec-apps',
   'Bread Service': 'sec-bread', 'Spit Roasted': 'sec-spit',
   'Daily Offerings': 'sec-daily', 'Sea': 'sec-sea',
   'Land': 'sec-land', 'Pasta & Rice': 'sec-pasta', 'To Accompany': 'sec-sides'
 };
 const SECTION_INTROS = {
-  'Soups & Salads': 'Know which dressings and toppings can be modified — guests ask more often than you\'d think. Most salads can be made dairy-free or nut-free with simple changes.',
-  'Starters': 'The bone marrow and poached asparagus are the strongest wine pairing opportunities in this section. Lead with the tableside description — the ingredients sell themselves once guests understand what they\'re looking at.',
-  'Bread Service': 'The Parker House Rolls and GF Skillet Cornbread. Both worth mentioning at the start of service. The cornbread is baked in a cast iron skillet — warn guests before placing it on the table.',
-  'Spit Roasted': 'These dishes come off our French rotisserie, and it is one of the things Trummer\'s is most recognized for. The rotation, the heat, and the self-basting nature of the spit produces results you simply cannot replicate any other way. Know these dishes well.',
-  'Daily Offerings': 'The rotisserie feature changes by night. Limited availability each evening. Know what is on and when it is running low.',
-  'Sea': 'This section covers four distinct fish and seafood preparations. Know your cooking temperatures — salmon is chef\'s preference medium rare, always confirm with the guest. The Belgian Seafood Stew changes nightly based on the market fish — ask the kitchen before service.',
-  'Land': 'A range that reflects both the American and Austrian sides of the menu — from a braised Demkota short rib to a traditional Wienerschnitzel. The short rib and the schnitzel are the anchor dishes here. Know both well.',
-  'Pasta & Rice': 'Both pasta dishes are full mains. The risotto is the strongest vegetarian option on the dinner menu and works as a premium shared side for larger tables alongside the spit roasted mains.',
-  'To Accompany': 'These sides are worth recommending on their own merits. The rotisserie carrots cook beneath the meats on the spit and absorb the fat and juices as they roast. The Brussels are one of the most frequently reordered items on the menu. Do not undersell any of them.'
+  'Appetizers': 'Ten dishes, and the allergens are the thing to know here. The prawn chips on the Buffalo Chicken Dip are genuinely shellfish, the escargot are molluscs, and the chili crisp on the Shrimp and Grits may carry wheat and soy. Ask before you clear anything.',
+  'Bread Service': 'Focaccia and GF Skillet Cornbread. The cornbread is the gluten free option and is baked in a cast iron skillet, so warn guests before it goes on the table. There is no gluten free version of the focaccia.',
+  'Spit Roasted': 'These come off our French rotisserie, and it is one of the things Trummer\'s is most recognized for. The rotation and the self-basting nature of the spit produces results you cannot replicate any other way. Confirm the Joyce Farm portion size and ask the kitchen what meat is on the Butcher Salad.',
+  'Daily Offerings': 'The rotisserie feature changes by night and all of them come with duck fat potatoes, which means the sides are not vegetarian either. Limited availability each evening, so know what is on and when it is running low.',
+  'Sea': 'Four preparations. The Whole Roasted Fish is the highest risk dish on the menu for nut allergies, since the curry is peanut and coconut based and cannot be modified. Market fish in the Summer Seafood Stew changes, so ask the kitchen before service.',
+  'Land': 'A range that reflects both sides of the menu, from Snake River Farms Wagyu to a traditional Wienerschnitzel. The Zucchiolo is the vegetarian main, though the feta and honey vinaigrette mean it is not vegan as written.',
+  'Pasta & Rice': 'Both are full mains. Whether the Tomato Water Risotto can be made vegetarian or vegan depends entirely on the stock and the butter finish, so ask rather than assuming a vegetable risotto is safe.',
+  'To Accompany': 'Three sides, all worth recommending on their own merits. The Watermelon Salad is the easiest to modify, since the feta and cashews are both removable garnishes. The Brussels are one of the most frequently reordered items on the menu.'
 };
 
 const DAILY_FEATURES = {
@@ -319,7 +317,7 @@ function buildBanner() {
       <div>
         <div class="tonight-label">Rotisserie</div>
         <div class="tonight-name" style="color:var(--muted);">No feature tonight</div>
-        <div class="tonight-detail">Sunday &amp; Monday — regular menu only</div>
+        <div class="tonight-detail">Sunday &amp; Monday · regular menu only</div>
       </div>
     </div>`;
   }
@@ -468,7 +466,7 @@ function render() {
       const veg = getAllergenStatus(d,'vegetarian');
       const vegan = getAllergenStatus(d,'vegan');
 
-      // Allergen dot display — show the key ones on closed card
+      // Allergen dot display: show the key ones on closed card
       const keyAllergens = ['shellfish','dairy','nuts','gluten'];
       const dotHtml = keyAllergens.map(key => {
         const status = getAllergenStatus(d, key);

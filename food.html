@@ -111,7 +111,7 @@
     <div class="eyebrow">Staff Reference</div>
     <div class="title">The Kitchen</div>
     <div class="subtitle">Dinner · Brunch · Dessert</div>
-    <div class="chefs">Executive Chef: Zack Ridenour &nbsp;·&nbsp; Pastry Chef: Amanda Siever</div>
+    <div class="chefs">Executive Chef: Zack Ridenhour &nbsp;·&nbsp; Pastry Chef: Amanda Siever</div>
     <div class="count-badge" id="count-badge">Loading…</div>
     <div class="header-nav">
       <a href="index.html">← Home</a>
@@ -225,7 +225,7 @@ function buildTastingPanel(data) {
     <div style="flex:1;">
       <div class="tonight-label">Tasting Menu</div>
       <div class="tonight-name">${data.theme}</div>
-      <div class="tonight-detail">${data.date.split(' ')[0]}</div>
+      <div class="tonight-detail">${data.date} · ${data.courses.length} courses · $${data.price}/person · +$${data.pairing_price} wine pairing</div>
       <a class="tonight-link" href="tasting.html">View full menu &amp; pairings →</a>
     </div>
   </div>`;
