@@ -6382,7 +6382,7 @@
   "name": "Main Street",
   "detail": "Coupe",
   "abv": 0,
-  "price": 14,
+  "price": 15,
   "allocated": false,
   "na": false,
   "star": false,
@@ -6409,45 +6409,6 @@
    "Both the honey and cinnamon syrups in Main Street are house-made. The cinnamon syrup uses whole cinnamon sticks steeped in simple syrup rather than ground cinnamon, which produces a cleaner, more aromatic flavor.",
    "Fresh-pressed lime juice behaves differently from bottled lime juice in cocktails - it has more volatile aromatic compounds that evaporate quickly, which is why freshly pressed citrus is considered non-negotiable in serious cocktail programs.",
    "Bourbon's sweetness comes primarily from the corn mash bill and the vanilla and caramel compounds extracted from new charred oak barrels. It pairs naturally with honey and cinnamon because those flavors echo what's already in the spirit."
-  ],
-  "pairings": [],
-  "file": "cocktails"
- },
- {
-  "id": "169",
-  "cat": "House Cocktails",
-  "type": "Cocktail",
-  "producer": "",
-  "name": "Trummer's Sour",
-  "detail": "Coupe",
-  "abv": 0,
-  "price": 15,
-  "allocated": false,
-  "na": false,
-  "star": false,
-  "glass": "Coupe",
-  "ingredients": [
-   "Jägermeister",
-   "Strawberry vermouth",
-   "Glühwein reduction",
-   "Egg white"
-  ],
-  "icons": [
-   "🥚",
-   "🍓"
-  ],
-  "notes": [
-   "Herbal",
-   "Red fruit",
-   "Warm spice",
-   "Silky foam"
-  ],
-  "tableside": "An egg white sour built around Jägermeister. The strawberry vermouth and house-made glühwein reduction serve as the sweetener - warm spice and red fruit rather than simple sugar. Served in a coupe with the silky foam top that an egg white gives.",
-  "story": "The sour template - spirit, citrus, sweetener - is one of the oldest structures in cocktail making. The Trummer's Sour takes that template and swaps in Jägermeister as the spirit and the glühwein reduction as the sweetener, which gives it a deeply herbal, wintery character unlike a standard sour.",
-  "trivia": [
-   "Jägermeister is made from 56 herbs, fruits, roots, and spices including cinnamon bark, star anise, ginger root, and bitter orange peel. It is aged in oak for a year before bottling.",
-   "The glühwein reduction is made in house by reducing spiced red wine - removing the alcohol while concentrating the warm spice, red fruit, and body of mulled wine into a syrup.",
-   "Dry shaking - shaking without ice before adding ice - is the technique used to build foam in egg white cocktails. The absence of ice means the egg white gets more mechanical agitation, producing a denser, more stable foam."
   ],
   "pairings": [],
   "file": "cocktails"
@@ -6492,84 +6453,6 @@
   "file": "cocktails"
  },
  {
-  "id": "171",
-  "cat": "House Cocktails",
-  "type": "Cocktail",
-  "producer": "",
-  "name": "Ye Who Enter Here",
-  "detail": "Martini glass",
-  "abv": 0,
-  "price": 22,
-  "allocated": false,
-  "na": false,
-  "star": false,
-  "glass": "Martini glass",
-  "ingredients": [
-   "Buffalo Trace bourbon",
-   "Di9Dante Inferno Rosso vermouth",
-   "Don Ciccio Don Fernet"
-  ],
-  "icons": [
-   "🥃"
-  ],
-  "notes": [
-   "Dark",
-   "Bitter",
-   "Herbal",
-   "Spirit-forward"
-  ],
-  "tableside": "A house Manhattan served up. Buffalo Trace stirred with Di9Dante Inferno Rosso and Don Ciccio Don Fernet in place of standard sweet vermouth and bitters. Dark, complex, spirit-forward. Named after the inscription above the gate of Hell in Dante's Inferno.",
-  "story": "The Di9Dante Inferno Rosso vermouth references Dante's Divine Comedy directly. As a house Manhattan, it takes the classic structure - bourbon, sweet vermouth, bitters - and uses two intensely bitter, herbal Italian products in place of the standard versions. The result is darker and more challenging than a standard Manhattan.",
-  "trivia": [
-   "Di9Dante Inferno Rosso is the most intensely bitter sweet red vermouth on the menu, named after the first canticle of Dante's Divine Comedy.",
-   "Don Ciccio Don Fernet is made in Washington DC by Francesco Amodeo, a Neapolitan distiller who brought traditional Italian liqueur-making techniques to the American capital.",
-   "The Manhattan cocktail was reportedly created at the Manhattan Club in New York City in the 1870s and is one of the oldest American cocktails still widely ordered."
-  ],
-  "pairings": [],
-  "file": "cocktails"
- },
- {
-  "id": "172",
-  "cat": "House Cocktails",
-  "type": "Cocktail",
-  "producer": "",
-  "name": "Floral Smoke",
-  "detail": "Rocks glass",
-  "abv": 0,
-  "price": 16,
-  "allocated": false,
-  "na": false,
-  "star": false,
-  "glass": "Rocks glass",
-  "ingredients": [
-   "Orange-infused tequila",
-   "Mezcal",
-   "Lavender simple syrup",
-   "Angostura bitters"
-  ],
-  "icons": [
-   "🏔️",
-   "🌸",
-   "🍋",
-   "🥃"
-  ],
-  "notes": [
-   "Smoky",
-   "Floral",
-   "Citrus",
-   "Spirit-forward"
-  ],
-  "tableside": "Equal parts orange-infused tequila and mezcal, lavender simple syrup, and Angostura bitters, stirred and served on a large rock. The tequila is infused in house with orange peel. Floral and smoky at the same time - the lavender comes through on the nose, the mezcal on the finish.",
-  "story": "Floral Smoke sits in Old Fashioned territory - spirit-forward, stirred, served on a single large rock. The 50/50 split between orange-infused tequila and mezcal means neither dominates. The tequila carries the citrus and brightness, the mezcal brings smoke and depth, and the lavender syrup ties them together without making the drink feel sweet.",
-  "trivia": [
-   "Orange-infused tequila is made by macerating orange peel directly in blanco tequila - the oils from the peel extract into the spirit over time, adding citrus character without adding juice or sweetness.",
-   "Lavender simple syrup is made by steeping dried lavender flowers in warm simple syrup. The key is restraint - too long and the floral note tips from elegant to soapy.",
-   "Angostura bitters were created in 1824 in Venezuela by Dr. Johann Gottlieb Benjamin Siegert. Despite containing over 40 botanicals, the exact recipe remains a closely held family secret."
-  ],
-  "pairings": [],
-  "file": "cocktails"
- },
- {
   "id": "173",
   "cat": "House Cocktails",
   "type": "Cocktail",
@@ -6609,86 +6492,6 @@
    "Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly - which produces immediate, hard-to-control heat - the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."
   ],
   "pairings": [],
-  "file": "cocktails"
- },
- {
-  "id": "192",
-  "cat": "House Cocktails",
-  "type": "cocktail",
-  "producer": "",
-  "name": "Off Ramp",
-  "detail": "Tito's · Yellow Chartreuse · Pickled Ramp",
-  "abv": 0,
-  "price": 14,
-  "allocated": false,
-  "na": false,
-  "star": false,
-  "glass": true,
-  "icons": [
-   "🥃",
-   "🌿",
-   "🧂"
-  ],
-  "notes": [
-   "Savory",
-   "Herbal",
-   "Vegetal",
-   "Dry",
-   "Clean"
-  ],
-  "tableside": "A savory martini built around ramps. Tito's infused with ramp greens, Yellow Chartreuse, and a pickled ramp garnish. Served up, cold, and dry. The ramp infusion brings a garlicky, green edge you won't find in anything else on the menu — the Chartreuse keeps it herbal rather than sharp. For the guest who wants something unusual and savory before dinner.",
-  "ingredients": [
-   "Ramp green-infused Tito's vodka",
-   "Yellow Chartreuse",
-   "Pickled ramp garnish"
-  ],
-  "story": "Off Ramp is a riff on the savory martini format, built around one of the most fleeting ingredients of the spring season. Ramps — wild spring onions foraged from Appalachian forests — appear for a few weeks each year and disappear just as quickly. Infusing vodka with ramp greens captures their aromatic, garlicky-herbaceous character in a form that holds up in a stirred, spirit-forward drink. Yellow Chartreuse, made by Carthusian monks in France from 130 plant extracts, adds honeyed herbal complexity that runs alongside the ramp without competing with it. The pickled ramp garnish echoes the base spirit and provides the brine a savory martini needs.",
-  "trivia": [
-   "Yellow Chartreuse is sweeter and milder than Green Chartreuse, with honey and saffron notes alongside the herb character. Both versions are made by Carthusian monks at the Grande Chartreuse monastery in the French Alps from a recipe that has remained secret since 1737.",
-   "Ramps (Allium tricoccum) are one of the first wild edibles to emerge after winter in eastern North America. Their season is so short that restaurants that feature them often use the entire plant — bulb, stem, and leaf — in multiple preparations to maximize the window.",
-   "Tito's Handmade Vodka is distilled in Austin, Texas from corn rather than grain or potato, giving it a naturally slightly sweet base that works well with herbal infusions."
-  ],
-  "file": "cocktails"
- },
- {
-  "id": "193",
-  "cat": "House Cocktails",
-  "type": "cocktail",
-  "producer": "",
-  "name": "Between the Sheets",
-  "detail": "Rhum J.M. · Cognac · Lime · Vanilla · Saline",
-  "abv": 0,
-  "price": 14,
-  "allocated": false,
-  "na": false,
-  "star": false,
-  "glass": true,
-  "icons": [
-   "🍋",
-   "🥃",
-   "🌸"
-  ],
-  "notes": [
-   "Citrus",
-   "Tropical",
-   "Bright",
-   "Balanced",
-   "Clean finish"
-  ],
-  "tableside": "A daiquiri built on two base spirits instead of one. Rhum J.M. agricole from Martinique, Cognac, fresh lime, vanilla, and a saline solution that sharpens the acidity and keeps the drink from reading sweet. Served up. The agricole brings sugarcane funk, the Cognac adds richness and age — together they cover more ground than either would alone.",
-  "ingredients": [
-   "Rhum J.M. agricole",
-   "Cognac",
-   "Fresh lime juice",
-   "Vanilla",
-   "Saline solution"
-  ],
-  "story": "Between the Sheets is a classic cocktail format — essentially a daiquiri split between rum and Cognac — that dates to the 1920s. This version uses Rhum J.M. agricole from Martinique, which is made from fresh sugarcane juice rather than molasses, giving it a greener and more aromatic character than standard rum. Paired with Cognac and brightened with fresh lime and vanilla, the result is a daiquiri with significantly more complexity than the three-ingredient original. The saline finish is a modern bartending technique: a few drops of salt solution amplifies aroma and rounds sweetness perception without making the drink taste salty.",
-  "trivia": [
-   "Rhum agricole is produced from fresh sugarcane juice, while most rum is made from molasses — a byproduct of sugar refining. The difference in raw material produces a greener, more vegetal, more aromatic spirit that tastes markedly different from standard rum. Martinique's AOC designation for its agricole is one of the only rum appellations in the world.",
-   "Rhum J.M. is produced in the Macouba region of northern Martinique, one of the most volcanic and mineral-rich parts of the island. The distillery has been in operation since 1845.",
-   "Saline solution in cocktails — typically a 20% salt-to-water ratio used in drops — was popularized by bartenders in the 2010s. Salt suppresses bitterness, enhances sweetness perception, and amplifies aroma without adding a salty flavor at the concentrations used."
-  ],
   "file": "cocktails"
  },
  {
