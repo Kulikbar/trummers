@@ -1,44 +1,5 @@
 [
  {
-  "id": "1",
-  "cat": "Bourbon",
-  "type": "bourbon",
-  "producer": "Angel's Envy",
-  "name": "",
-  "detail": "Kentucky · 43.3% · Port Cask Finish",
-  "abv": 43.3,
-  "price": 17,
-  "allocated": false,
-  "icons": [
-   "🍯",
-   "🍎",
-   "🛢️"
-  ],
-  "notes": [
-   "Caramel",
-   "Dark cherry",
-   "Vanilla",
-   "Toasted oak",
-   "Dried fruit"
-  ],
-  "tableside": "Angel's Envy finishes in ruby port wine casks, which gives it a sweetness and fruit character that makes it one of the easiest entry points on the list. Great for a guest who thinks they don't like bourbon.",
-  "pairings": [
-   "Dark chocolate",
-   "Dried cherries",
-   "Aged gouda",
-   "Pecan pie"
-  ],
-  "story": "Angel's Envy was founded in Louisville by master distiller Lincoln Henderson, who spent 40 years at Brown-Forman developing some of America's most celebrated bourbons before leaving to build something of his own. The port wine cask finish was his idea, inspired by Scotch finishing traditions applied to the American whiskey he knew better than almost anyone. He passed away in 2013, but his son Wes and the distillery he built in Louisville's NuLu neighborhood carry his vision forward. The name refers to the angel's share, the portion of whiskey lost to evaporation during aging, with the twist that what remains is so good the angels are envious.",
-  "trivia": [
-   "Angel's Envy was one of the first American distilleries to popularize the cask finishing technique, which is now widespread across the industry.",
-   "Lincoln Henderson was the master distiller behind Woodford Reserve and Gentleman Jack before founding Angel's Envy in retirement.",
-   "The distillery on Main Street in Louisville is open for tours and is one of the most visited on the Urban Bourbon Trail."
-  ],
-  "file": "spirits",
-  "mash_bill": "72% corn, 18% rye, 10% malted barley",
-  "why": "Finished in port wine casks, which softens the rye spice and adds a distinctive red fruit sweetness. One of the most approachable high-rye bourbons on the market at any price."
- },
- {
   "id": "2",
   "cat": "Bourbon",
   "type": "bourbon",
@@ -234,46 +195,6 @@
   "file": "spirits",
   "mash_bill": "Undisclosed blend — sourced from multiple distilleries",
   "why": "Pact 10 marks a decade of releases with a double finish: Cabernet Franc barrels first, then Merlot casks. One of the more ambitious cask-finish bourbons released in 2024."
- },
- {
-  "id": "7",
-  "cat": "Bourbon",
-  "type": "bourbon",
-  "producer": "Blood Oath",
-  "name": "Pact 11",
-  "detail": "Kentucky · 49.3% · Añejo Tequila Finish",
-  "abv": 49.3,
-  "price": 45,
-  "allocated": false,
-  "icons": [
-   "🌶️",
-   "🛢️",
-   "🍯",
-   "🍎"
-  ],
-  "notes": [
-   "Agave",
-   "Caramel",
-   "Citrus zest",
-   "Vanilla",
-   "Warm spice"
-  ],
-  "tableside": "Añejo tequila barrels finish this one — agave sweetness, a hint of citrus, warm spice underneath the classic bourbon base. For the guest who drinks both bourbon and tequila, this is a fun meeting point.",
-  "pairings": [
-   "Spiced chocolate",
-   "Grilled citrus",
-   "Pepper-crusted meats",
-   "Churros"
-  ],
-  "story": "Pact 11 takes the Blood Oath series in a direction no previous release has, using anejo tequila casks that previously held agave spirit aged at least one year in small oak barrels. The result is a bourbon with a distinctly Mexican-American character: agave sweetness and citrus lift sitting on top of Kentucky corn and oak. The blend itself combines 14-year ryed bourbon, 10-year wheated bourbon, and 7-year ryed bourbon, making it one of the more structurally complex releases in the series. It works because both spirits share a fondness for caramel and vanilla, with the tequila cask adding brightness rather than fighting the base.",
-  "trivia": [
-   "Añejo tequila must be aged between one and three years in barrels no larger than 600 liters, concentrating flavors significantly before the wood is repurposed.",
-   "The agave plant used to make tequila takes 7–10 years to mature before harvest, making it one of the slowest raw materials in the spirits world.",
-   "Blood Oath Pact 11 is the first in the series to use a tequila cask, opening a new direction for future releases."
-  ],
-  "file": "spirits",
-  "mash_bill": "Undisclosed blend — sourced from multiple distilleries",
-  "why": "Pact 11 finishes in Anejo tequila barrels , a relatively rare combination that adds citrus and agave notes to a blend of 14-year ryed, 10-year wheated, and 7-year ryed bourbon."
  },
  {
   "id": "8",
@@ -1062,46 +983,6 @@
   "why": "The 1897 commemorates the year Old Forester first introduced bottled-in-bond standards. It remains one of the best value bottled-in-bond bourbons available today."
  },
  {
-  "id": "28",
-  "cat": "Bourbon",
-  "type": "bourbon",
-  "producer": "Old Forester",
-  "name": "1924",
-  "detail": "Kentucky · 50% · 10 Year",
-  "abv": 50,
-  "price": 38,
-  "allocated": false,
-  "icons": [
-   "🍯",
-   "🪵",
-   "🍫",
-   "🌶️"
-  ],
-  "notes": [
-   "Dark caramel",
-   "Rich oak",
-   "Dried cherry",
-   "Chocolate",
-   "Baking spice"
-  ],
-  "tableside": "1924 is Old Forester's 10 year expression — named for the year Prohibition ended Brown-Forman's medicinal license. A decade in the barrel takes this well beyond the standard Old Forester, with noticeably more oak and depth.",
-  "pairings": [
-   "Dark chocolate",
-   "Cherry desserts",
-   "Smoked brisket",
-   "Aged gouda"
-  ],
-  "story": "Old Forester 1924 is named for the year Prohibition effectively ended Brown-Forman's ability to produce whiskey for medicinal sale, forcing a pause in what had been an unbroken run of production since 1870. The 10 year age statement represents the most patient expression in the Old Forester Whiskey Row series, producing a bourbon with the depth and developed oak character that only time in Kentucky's climate can create. Brown-Forman's historic Shively distillery produces the spirit from the same mash bill used across the Old Forester lineup, with aging and barrel selection doing the heavy lifting.",
-  "trivia": [
-   "During Prohibition, Brown-Forman held one of only six licenses issued to distilleries to produce whiskey for medicinal purposes — a significant competitive advantage when it ended.",
-   "Old Forester's Whiskey Row series is named for the block of Main Street in Louisville where many historic bourbon producers had their offices in the late 1800s.",
-   "At 10 years old and 100 proof, the 1924 sits in a sweet spot for Kentucky bourbon aging — old enough for real complexity, young enough to avoid over-oaking."
-  ],
-  "file": "spirits",
-  "mash_bill": "72% corn, 18% rye, 10% malted barley",
-  "why": "The 1924 is Old Forester's most premium regular expression, named for the year master distiller William LaRue Weller joined the company. Uses the same Brown-Forman mash bill aged to full maturity."
- },
- {
   "id": "29",
   "cat": "Bourbon",
   "type": "bourbon",
@@ -1180,46 +1061,6 @@
   "file": "spirits",
   "mash_bill": "Undisclosed sourced blend — MGP high rye recipe",
   "why": "Penelope is a Washington DC-based brand that sources and finishes bourbon. The Rio expression is finished in Oloroso sherry casks, adding a rich dried fruit sweetness to the MGP base."
- },
- {
-  "id": "31",
-  "cat": "Bourbon",
-  "type": "bourbon",
-  "producer": "Van Winkle",
-  "name": "Special Reserve 12 Year",
-  "detail": "Kentucky · 45.2%",
-  "abv": 45.2,
-  "price": 90,
-  "allocated": true,
-  "icons": [
-   "🍯",
-   "🪵",
-   "🌶️",
-   "🍎"
-  ],
-  "notes": [
-   "Caramel",
-   "Vanilla",
-   "Toasted oak",
-   "Dried fruit",
-   "Soft spice"
-  ],
-  "tableside": "Pappy Van Winkle's family reserve — the 12 year is the most accessible expression in the Van Winkle line, and at $90 a glass it's still a rare opportunity. Wheated mashbill, Buffalo Trace distillery, and one of the most recognized names in American whiskey.",
-  "pairings": [
-   "Fine dark chocolate",
-   "Dried fig",
-   "Aged parmesan",
-   "Honey and walnut"
-  ],
-  "story": "The Van Winkle family has been associated with fine Kentucky bourbon for over a century. Julian 'Pappy' Van Winkle Sr. ran the Stitzel-Weller Distillery in Louisville for decades, producing wheated bourbons that became legendary. After the distillery closed in 1992, his grandson Julian Van Winkle III partnered with Buffalo Trace to continue production, using the family's original wheated mashbill. Today, Van Winkle releases are among the most sought-after spirits in the world , the 12 Year is the most approachable entry point into the family's lineup.",
-  "trivia": [
-   "Pappy Van Winkle's Family Reserve releases are allocated by a lottery system in many states, with some bottles selling for thousands of dollars on the secondary market.",
-   "The Van Winkle wheated mashbill — using wheat instead of rye as the secondary grain — is the same recipe used for W.L. Weller and Old Fitzgerald, all descendants of the Stitzel-Weller tradition.",
-   "Julian Van Winkle III is said to have told his distillery workers that he wanted to make bourbon 'the old fashioned, time-honored way' — a philosophy that prioritizes aging over volume."
-  ],
-  "file": "spirits",
-  "mash_bill": "~76% corn, ~20% wheat, ~4% malted barley (BT wheated mash bill, undisclosed)",
-  "why": "The Van Winkle Special Reserve Lot B is considered the most accessible entry point into the Pappy Van Winkle family. Wheated mash bill, 12 years old, and among the most sought-after bourbons in America."
  },
  {
   "id": "32",
@@ -2531,46 +2372,6 @@
   "why": "The Wood Finishing Series is Maker's Mark's platform for exploring different types of wood staves during finishing. The 2025 release uses a specific wood configuration chosen by the Maker's Mark sensory team."
  },
  {
-  "id": "65",
-  "cat": "Single Barrel & Barrel Proof",
-  "type": "bourbon",
-  "producer": "Michter's",
-  "name": "10 Year",
-  "detail": "Kentucky · 47.2% · Single Barrel",
-  "abv": 47.2,
-  "price": 55,
-  "allocated": true,
-  "icons": [
-   "🍯",
-   "🪵",
-   "🍫",
-   "🍎"
-  ],
-  "notes": [
-   "Rich caramel",
-   "Dark fruit",
-   "Toasted oak",
-   "Vanilla",
-   "Dried spice"
-  ],
-  "tableside": "Michter's 10 Year is one of the most decorated single barrel bourbons in production — decade of aging, carefully selected barrels, and Michter's climate-controlled warehouse philosophy. At $55 it earns its place at the top of the list.",
-  "pairings": [
-   "Dark chocolate",
-   "Dried fruit plate",
-   "Aged gouda",
-   "Walnut tart"
-  ],
-  "story": "Michter's 10 Year Single Barrel is released in very limited quantities and consistently earns critical acclaim that places it among the finest aged bourbons produced anywhere. Each barrel is individually selected after tasting by the production team, ensuring that only barrels that have developed real complexity make the cut. Michter's climate-controlled warehouses slow the aging process compared to traditional rick houses, producing more consistent development across different barrel positions , an approach that pays dividends particularly at the 10-year mark.",
-  "trivia": [
-   "Michter's climate-controlled warehouses are designed to eliminate the dramatic temperature swings that characterize traditional rick house aging — a deliberate choice to slow and even out the extraction process.",
-   "Michter's 10 Year Single Barrel has won the title of 'World Whisky of the Year' from multiple major publications, placing it in the company of elite Scotch expressions.",
-   "Each bottle of Michter's 10 Year displays the barrel number it came from — a transparency that allows enthusiasts to identify and compare their experiences across different barrels."
-  ],
-  "file": "spirits",
-  "mash_bill": "Undisclosed — Kentucky rye bourbon, approximately 79% corn, 11% rye, 10% malted barley",
-  "why": "Michter's 10 Year Rye is released in very limited quantities and has spent at least 11.5 years in barrel , master distiller Joe Magliocco has confirmed no barrel is released under that threshold."
- },
- {
   "id": "66",
   "cat": "Single Barrel & Barrel Proof",
   "type": "bourbon",
@@ -3045,46 +2846,6 @@
   "file": "spirits",
   "mash_bill": "Undisclosed blend — sourced from multiple distilleries, 11 year",
   "why": "Kentucky Owl is a blending house that sources exceptional aged whiskey and assembles it without releasing the sources. The Mardi Gras XO 11 Year is a blend of aged ryes finished in XO Cognac barrels."
- },
- {
-  "id": "78",
-  "cat": "Rye",
-  "type": "rye",
-  "producer": "Knob Creek",
-  "name": "",
-  "detail": "Kentucky · 57.5% · Single Barrel · VA Select",
-  "abv": 57.5,
-  "price": 20,
-  "allocated": true,
-  "icons": [
-   "🌶️",
-   "🔥",
-   "🪵",
-   "🍯"
-  ],
-  "notes": [
-   "Bold rye spice",
-   "Toasted oak",
-   "Caramel",
-   "Black pepper",
-   "Dried grain"
-  ],
-  "tableside": "Knob Creek Rye at single barrel, full proof, Virginia select. At 57.5% the rye spice is genuinely intense — this is for guests who want to taste what rye is actually about. Great value for the proof and provenance.",
-  "pairings": [
-   "Smoked charcuterie",
-   "Sharp aged cheddar",
-   "Dark chocolate",
-   "Spiced nuts"
-  ],
-  "story": "Knob Creek Rye Single Barrel applies the same high-proof, full-flavored philosophy that defines the bourbon line to Kentucky rye whiskey. Jim Beam's distillery in Clermont has been producing Knob Creek since 1992, when master distiller Booker Noe created the brand as a reaction against the trend toward lighter, lower-proof American whiskey. The Virginia ABC select designation means state buyers hand-picked this specific barrel from the rye inventory. At barrel proof it is among the most intense expressions in the rye category, with the grain's natural spice amplified significantly by the proof level.",
-  "trivia": [
-   "Knob Creek Rye uses a mashbill of 51% rye — the legal minimum to be called rye whiskey — combined with corn and malted barley, producing a less intensely spicy rye than MGP's 95% rye mashbill.",
-   "The lower rye percentage in Knob Creek's mashbill allows more corn sweetness to balance the rye spice, creating a more approachable profile than pure high-rye expressions despite the high proof.",
-   "Virginia ABC select barrel programs for rye are less common than for bourbon, making VA Select rye expressions like this one particularly noteworthy for Virginia whiskey enthusiasts."
-  ],
-  "file": "spirits",
-  "mash_bill": "51% rye, 37% corn, 12% malted barley",
-  "why": "Knob Creek Rye uses Jim Beam's 51% rye mash bill at 9 years old and 100 proof , the same standards Knob Creek applies to its bourbon. A full-flavored, approachable rye that works well in cocktails."
  },
  {
   "id": "79",
@@ -3877,86 +3638,6 @@
   "why": "Ardbeg 10 Year is the entry point into one of Islay's most iconic distilleries. Peated at approximately 55 PPM , among the highest levels of any standard expression , it is the benchmark heavily peated Scotch whisky."
  },
  {
-  "id": "99",
-  "cat": "Single Malt Scotch",
-  "type": "scotch",
-  "producer": "Ardbeg",
-  "name": "Uigeadail",
-  "detail": "Islay · 54.2% · Single Malt Scotch · Oloroso Sherry Finish",
-  "abv": 54.2,
-  "price": 27,
-  "allocated": false,
-  "icons": [
-   "🏔️",
-   "🍫",
-   "🍎",
-   "🔥"
-  ],
-  "notes": [
-   "Peat smoke",
-   "Dark chocolate",
-   "Dried fruit",
-   "Coffee",
-   "Rich vanilla"
-  ],
-  "tableside": "Uigeadail — pronounced 'oog-a-dal' — adds Oloroso sherry cask maturation to Ardbeg's peat smoke. The result is the most complex Ardbeg expression: smoke and chocolate and dried fruit simultaneously. Named after the loch that supplies Ardbeg's water.",
-  "pairings": [
-   "Dark chocolate 80%+",
-   "Espresso",
-   "Dried figs",
-   "Smoked meats"
-  ],
-  "story": "Ardbeg Uigeadail is named after Loch Uigeadail, the remote mountain loch that supplies the distillery's water , a fitting name for an expression that feels like it comes from a particularly dramatic and uncompromising place. The combination of Ardbeg's heavily peated distillate with Oloroso sherry cask maturation is one of the great pairings in Scotch whisky: the smoke and the dark fruit amplify each other rather than competing, producing a complexity that makes it one of the most awarded whiskies in the world. At cask strength and $27, it is among the best values on the list.",
-  "trivia": [
-   "Ardbeg Uigeadail has won 'World Whisky of the Year' from Jim Murray's Whisky Bible — the industry's most widely read annual guide — earning it global recognition that drove significant demand.",
-   "Oloroso sherry is a dry, oxidatively aged sherry that has been exposed to air throughout maturation — the resulting complex dried fruit, nut, and dark spice character makes it the most commonly used sherry cask type in Scotch whisky production.",
-   "Loch Uigeadail sits in remote moorland above the distillery — the water that flows from it through peat bogs picks up the same compounds that define Islay's whisky character before it reaches the distillery."
-  ],
-  "file": "spirits",
-  "mash_bill": "100% malted barley (heavily peated, ~55 PPM, distilled at Ardbeg, Islay)",
-  "why": "Named after the loch that supplies Ardbeg's water. Uigeadail blends heavily peated spirit from different ages with whisky matured in oloroso sherry casks, producing a rare combination of smoke and dried fruit. Consistently rated among the world's best whiskies."
- },
- {
-  "id": "100",
-  "cat": "Single Malt Scotch",
-  "type": "scotch",
-  "producer": "Ardbeg",
-  "name": "Spectacular",
-  "detail": "Islay · 46% · Single Malt Scotch · Port Cask Finish",
-  "abv": 46,
-  "price": 38,
-  "allocated": false,
-  "icons": [
-   "🏔️",
-   "🍎",
-   "🛢️",
-   "🍫"
-  ],
-  "notes": [
-   "Peat smoke",
-   "Dark cherry",
-   "Chocolate",
-   "Brine",
-   "Rich fruit"
-  ],
-  "tableside": "Ardbeg Spectacular finishes in port casks — dark fruit and red berry character laid over the classic Ardbeg smoke and brine. The contrast between Islay peat and port wine sweetness is dramatic and genuinely surprising. The most approachable Ardbeg on the list for guests new to peated Scotch.",
-  "pairings": [
-   "Dark chocolate with cherry",
-   "Smoked duck",
-   "Aged manchego",
-   "Dried fruit"
-  ],
-  "story": "Ardbeg Spectacular is a port cask finished expression that takes the distillery's signature heavily peated character and adds the sweetness and dark fruit of port wine maturation. The result softens Ardbeg's most challenging edges while preserving the smoke and maritime character that defines the distillery , making it the most accessible entry point into heavily peated Islay Scotch for guests who might find the 10 Year overwhelming. The port cask finish creates a dramatic contrast that works precisely because both elements are strong enough to coexist without either overwhelming the other.",
-  "trivia": [
-   "Port cask finishing is relatively uncommon for heavily peated Islay whiskies — the conventional wisdom is that delicate cask finishes are overwhelmed by intense peat, but Ardbeg's high phenol levels are robust enough to hold their own against port's sweetness.",
-   "The Ardbeg Spectacular name is a departure from the distillery's usual naming conventions — most Ardbeg expressions are named after geographical features of Islay or Gaelic terms related to the distillery.",
-   "Ardbeg releases several annual limited editions alongside the core range, and Spectacular represents a newer addition to the permanent lineup after beginning as a limited release."
-  ],
-  "file": "spirits",
-  "mash_bill": "100% malted barley (heavily peated, ~55 PPM, distilled at Ardbeg, Islay)",
-  "why": "Ardbeg Spectacular is a limited release blending new make from Ardbeg's recently commissioned second still with mature whisky from the original still. A rare opportunity to taste two generations of Ardbeg production side by side."
- },
- {
   "id": "101",
   "cat": "Single Malt Scotch",
   "type": "scotch",
@@ -4317,7 +3998,7 @@
   "name": "",
   "detail": "Tennessee · 40% · Double Mellowed",
   "abv": 40,
-  "price": 9,
+  "price": 13,
   "allocated": false,
   "icons": [
    "🍯",
@@ -7287,5 +6968,695 @@
    "The Weihenstephan brewing faculty has trained brewers from around the world for well over a century."
   ],
   "file": "bar"
+ },
+ {
+  "id": "200",
+  "cat": "Single Barrel & Barrel Proof",
+  "type": "bourbon",
+  "producer": "Rare Character",
+  "name": "Ltd Release Batch #2",
+  "detail": "59.57% · Barrel Proof · Blended Straight Bourbon",
+  "abv": 59.57,
+  "price": 40,
+  "allocated": true,
+  "mash_bill": "Undisclosed. Rare Character sources mature stock from multiple distilleries and does not publish the recipes.",
+  "why": "A blend of straight bourbons bottled at full barrel proof without chill filtration. The house style leans toward older sourced stock rather than young high-proof heat.",
+  "icons": [
+   "🔥",
+   "🪵",
+   "🍯",
+   "⭐"
+  ],
+  "notes": [
+   "Dark caramel",
+   "Toasted oak",
+   "Baking spice",
+   "Dried cherry"
+  ],
+  "tableside": "Barrel proof at just under 60 percent, so it takes water well. Rare Character sources and blends rather than distilling, and they have built a reputation for finding genuinely old barrels.",
+  "pairings": [
+   "BBQ bone marrow",
+   "Tomahawk ribeye",
+   "Chocolate torte",
+   "Banana walnut cake"
+  ],
+  "story": "Rare Character is a Louisville blending house founded by Pablo Moix and Peter Wier, who buy mature barrels from multiple distilleries and bottle them at cask strength. The model is closer to Scottish independent bottling than to conventional American whiskey.",
+  "trivia": [
+   "Independent bottlers rarely distil anything, and the skill sits in barrel selection and blending rather than production.",
+   "Barrel proof means bottled at the strength the whiskey came out of the barrel, with no water added.",
+   "Batch numbering rather than vintage dating lets a blender keep a house style consistent across different source stock."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "201",
+  "cat": "Rye",
+  "type": "rye",
+  "producer": "Rare Character",
+  "name": "Ltd Release Batch #2",
+  "detail": "60.2% · Barrel Proof · Blended Straight Rye",
+  "abv": 60.2,
+  "price": 40,
+  "allocated": true,
+  "mash_bill": "Undisclosed. Sourced straight ryes, recipes not published.",
+  "why": "The rye counterpart to the bourbon batch, bottled slightly higher at just over 60 percent. Rye's pepper reads sharper at this proof, so it rewards a few drops of water.",
+  "icons": [
+   "🔥",
+   "🌶️",
+   "🪵",
+   "⭐"
+  ],
+  "notes": [
+   "Black pepper",
+   "Dill",
+   "Toasted oak",
+   "Dark honey"
+  ],
+  "tableside": "Same blending house as the bourbon batch and the same barrel proof approach, but rye rather than bourbon. Good comparison pour if a guest is trying both.",
+  "pairings": [
+   "BBQ bone marrow",
+   "Wagyu flat iron",
+   "Chocolate torte",
+   "Cheese board"
+  ],
+  "story": "Rare Character applies the same sourcing and blending model to rye as to bourbon, buying mature barrels and bottling without chill filtration. Rye stock is harder to source in quantity than bourbon, which is part of why these releases stay limited.",
+  "trivia": [
+   "American rye must be at least 51 percent rye grain, and the remainder is usually corn and malted barley.",
+   "Rye was the dominant American whiskey style before Prohibition, and its recovery only really began in the 2000s.",
+   "Higher proof carries more of rye's volatile aromatic compounds, which is why cask strength rye reads so much more herbal."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "202",
+  "cat": "Bourbon",
+  "type": "bourbon",
+  "producer": "Pendleton",
+  "name": "1910",
+  "detail": "45% · Canadian Rye Whisky · 12 Year",
+  "abv": 45.0,
+  "price": 20,
+  "allocated": false,
+  "mash_bill": "100 percent rye, distilled in Canada. Not a bourbon despite its placement on the list.",
+  "why": "A 12 year Canadian rye at 45 percent, softer and rounder than American rye of comparable age. Named for the 1910 founding of the Pendleton Round-Up rodeo.",
+  "icons": [
+   "🍯",
+   "🍎",
+   "🪵"
+  ],
+  "notes": [
+   "Vanilla",
+   "Baked apple",
+   "Soft spice",
+   "Light oak"
+  ],
+  "tableside": "Canadian rather than American, and 100 percent rye but much softer than that suggests, because Canadian production methods differ. Easy pour for someone who finds American rye too sharp.",
+  "pairings": [
+   "Wienerschnitzel",
+   "Apricot tart",
+   "Banana walnut cake",
+   "Cheese board"
+  ],
+  "story": "Pendleton is named for the Pendleton Round-Up, an Oregon rodeo running since 1910. The whisky is distilled in Canada and bottled in Oregon using glacial spring water from Mount Hood.",
+  "trivia": [
+   "Canadian whisky is often called rye regardless of its actual grain content, a naming habit that predates modern labelling rules.",
+   "Canadian producers usually distil each grain separately and blend afterwards, where American distillers ferment a mixed mash.",
+   "The Pendleton Round-Up has run every September since 1910 and is one of the oldest rodeos in the United States."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "203",
+  "cat": "Bourbon",
+  "type": "bourbon",
+  "producer": "Pure Kentucky",
+  "name": "XO",
+  "detail": "53.5% · Small Batch",
+  "abv": 53.5,
+  "price": 18,
+  "allocated": false,
+  "mash_bill": "Undisclosed. Kentucky Bourbon Distillers does not publish recipes for its sourced brands.",
+  "why": "107 proof for $18, which is among the best value on the list for anyone who wants strength without paying allocation prices.",
+  "icons": [
+   "🔥",
+   "🍯",
+   "🪵"
+  ],
+  "notes": [
+   "Brown sugar",
+   "Vanilla",
+   "Oak",
+   "Warm spice"
+  ],
+  "tableside": "107 proof and priced like a standard pour, so it is the value play for a guest who wants something with real strength behind it.",
+  "pairings": [
+   "BBQ bone marrow",
+   "Prime rib",
+   "Chocolate torte",
+   "Ice cream trio"
+  ],
+  "story": "Pure Kentucky XO comes from Kentucky Bourbon Distillers in Bardstown, the Willett family operation. The brand is part of a group of labels KBD built on sourced and blended stock while its own distillate matured.",
+  "trivia": [
+   "XO is borrowed from cognac grading, where it means extra old, and it carries no legal meaning in bourbon.",
+   "Kentucky Bourbon Distillers spent decades bottling sourced whiskey before restarting its own distillation in 2012.",
+   "Proof is exactly double the alcohol percentage in the American system, so 53.5 percent is 107 proof."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "204",
+  "cat": "Bourbon",
+  "type": "bourbon",
+  "producer": "Wild Turkey",
+  "name": "101",
+  "detail": "50.5% · 8 Year",
+  "abv": 50.5,
+  "price": 15,
+  "allocated": false,
+  "mash_bill": "75 percent corn, 13 percent rye, 12 percent malted barley.",
+  "why": "The benchmark high-proof workhorse bourbon. 101 proof, aged around 8 years, and priced at $15, which makes it the most reliable cocktail-strength pour on the list.",
+  "icons": [
+   "🔥",
+   "🌶️",
+   "🍯",
+   "🪵"
+  ],
+  "notes": [
+   "Vanilla",
+   "Baking spice",
+   "Toasted oak",
+   "Orange peel"
+  ],
+  "tableside": "One of the great value bourbons. 101 proof means it holds up in a cocktail instead of disappearing, which is exactly what it is built for.",
+  "pairings": [
+   "BBQ bone marrow",
+   "Prime rib",
+   "Buffalo chicken dip",
+   "Chocolate torte"
+  ],
+  "story": "Jimmy Russell has worked at Wild Turkey since 1954 and is the longest tenured master distiller in the industry. He resisted lowering the proof of 101 through the 1980s when nearly every competitor was cutting strength to chase a lighter market.",
+  "trivia": [
+   "Jimmy Russell's son Eddie joined in 1981, and the two work as co-master distillers.",
+   "Wild Turkey enters its barrels at a lower proof than most producers, which means less water is added at bottling.",
+   "The name came from a 1940s distillery executive who shared samples on a wild turkey hunting trip."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "205",
+  "cat": "Bourbon",
+  "type": "bourbon",
+  "producer": "Maker's Mark",
+  "name": "Wood Finishing Series 2026 'The Steward's Release'",
+  "detail": "56.65% · Wood Finishing Series",
+  "abv": 56.65,
+  "price": 23,
+  "allocated": false,
+  "mash_bill": "70 percent corn, 16 percent red winter wheat, 14 percent malted barley. Wheated rather than rye.",
+  "why": "Maker's finishes this by adding toasted virgin oak staves to the barrel for a second maturation. Each annual release uses a different stave profile, so no two years taste the same.",
+  "icons": [
+   "🔥",
+   "🍯",
+   "🪵",
+   "🛢️"
+  ],
+  "notes": [
+   "Baked bread",
+   "Caramel",
+   "Toasted oak",
+   "Dark fruit"
+  ],
+  "tableside": "The 2026 release in Maker's annual finishing series. They drop toasted oak staves into the barrel for a second maturation, so it is richer and woodier than standard Maker's without losing the soft wheated core.",
+  "pairings": [
+   "Prime rib",
+   "Chocolate torte",
+   "Banana walnut cake",
+   "Apricot tart"
+  ],
+  "story": "Maker's Mark developed stave finishing at its Star Hill Farm cellar, working with independent wood scientists to profile how different toast levels affect flavour. Each Wood Finishing Series release uses a different stave recipe and is released once a year.",
+  "trivia": [
+   "Wheat replaces rye as the flavouring grain in the Maker's mash bill, which is why it reads softer and sweeter.",
+   "The finishing staves are seasoned outdoors for months before being toasted rather than charred.",
+   "Every bottle is still hand dipped in red wax at the Loretto distillery."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "206",
+  "cat": "Single Barrel & Barrel Proof",
+  "type": "bourbon",
+  "producer": "Filibuster",
+  "name": "8 Year",
+  "detail": "57% · Single Barrel",
+  "abv": 57.0,
+  "price": 20,
+  "allocated": false,
+  "mash_bill": "Undisclosed. Filibuster sources and finishes rather than distilling its own.",
+  "why": "A single barrel at 114 proof for $20. Filibuster is a Virginia operation, which makes it one of the more local whiskeys on the list.",
+  "icons": [
+   "🔥",
+   "🪵",
+   "🍯"
+  ],
+  "notes": [
+   "Caramel",
+   "Oak",
+   "Dried fruit",
+   "Black pepper"
+  ],
+  "tableside": "Single barrel at 114 proof, and Virginia based. Every barrel differs slightly, so this will not taste identical to the last one we poured.",
+  "pairings": [
+   "BBQ bone marrow",
+   "Wagyu flat iron",
+   "Prime rib",
+   "Chocolate torte"
+  ],
+  "story": "Filibuster began in Maurertown, Virginia, sourcing mature whiskey and finishing it in French oak wine barrels. The name and the political branding lean on its proximity to Washington.",
+  "trivia": [
+   "A single barrel bottling comes from one cask only, so bottle-to-bottle variation is expected rather than a flaw.",
+   "Virginia has a longer whiskey history than Kentucky, and George Washington ran one of the largest distilleries in the country at Mount Vernon.",
+   "French oak is tighter grained than American white oak and gives spice and tannin rather than sweetness."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "207",
+  "cat": "Single Barrel & Barrel Proof",
+  "type": "bourbon",
+  "producer": "Four Roses",
+  "name": "OBSK 9 Year 1 Month",
+  "detail": "56.7% · Single Barrel · Barrel Proof · VA Select",
+  "abv": 56.7,
+  "price": 33,
+  "allocated": false,
+  "mash_bill": "OBSK is one of Four Roses' ten recipes. B is the high-rye mash of 60 percent corn, 35 percent rye, 5 percent malted barley. K is the yeast strain, which contributes spice.",
+  "why": "A Virginia ABC select barrel, meaning the state picked this specific cask. OBSK is the high-rye, spice-forward end of the Four Roses range.",
+  "icons": [
+   "🔥",
+   "🌶️",
+   "🍎",
+   "🪵"
+  ],
+  "notes": [
+   "Clove",
+   "Red apple",
+   "Rye spice",
+   "Vanilla oak"
+  ],
+  "tableside": "Four Roses uses a code for each recipe, and OBSK is the high-rye mash with their spiciest yeast. This is a Virginia ABC select barrel, so the state chose this exact cask.",
+  "pairings": [
+   "Wagyu flat iron",
+   "BBQ bone marrow",
+   "Rack of lamb",
+   "Chocolate torte"
+  ],
+  "story": "Four Roses is unusual in running two mash bills and five proprietary yeast strains, which produce ten distinct recipes blended in varying proportions. Single barrel releases isolate one recipe, which is why the four letter code matters.",
+  "trivia": [
+   "In the code, the first and third letters are always O and S, marking the Lawrenceburg distillery and straight whiskey.",
+   "The five yeast strains are labelled V, K, O, Q, and F, and each contributes a distinct aromatic signature.",
+   "Four Roses was owned by Seagram for decades and sold only overseas in the United States market until 2002."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "208",
+  "cat": "Single Barrel & Barrel Proof",
+  "type": "bourbon",
+  "producer": "King of Kentucky",
+  "name": "",
+  "detail": "52.5% · 12 Year · Small Batch · Single Barrel",
+  "abv": 52.5,
+  "price": 80,
+  "allocated": true,
+  "mash_bill": "79 percent corn, 11 percent rye, 10 percent malted barley. The standard Brown-Forman recipe.",
+  "why": "The most expensive whiskey pour on the list. A 12 year single barrel released in very small annual quantities, and each barrel is bottled at its own individual proof.",
+  "icons": [
+   "🔥",
+   "🪵",
+   "🍫",
+   "⭐"
+  ],
+  "notes": [
+   "Dark chocolate",
+   "Leather",
+   "Charred oak",
+   "Dried cherry"
+  ],
+  "tableside": "Our top whiskey pour at $80. Brown-Forman revived the name in 2018 and releases only a few thousand bottles a year, each barrel bottled at its own proof.",
+  "pairings": [
+   "Tomahawk ribeye",
+   "Wagyu flat iron",
+   "Chocolate torte",
+   "Cheese board"
+  ],
+  "story": "King of Kentucky was a Brown-Forman brand discontinued in 1968 and revived in 2018 as an annual limited single barrel release. The modern version bears no relation to the original beyond the name, and it sells out on release each year.",
+  "trivia": [
+   "Each barrel is bottled at its own strength, so proof varies bottle to bottle within the same release.",
+   "The original King of Kentucky was a blended whiskey, a very different product from today's single barrel.",
+   "Twelve years is unusually old for Kentucky bourbon, where summer heat drives faster extraction than in Scotland."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "209",
+  "cat": "Single Barrel & Barrel Proof",
+  "type": "bourbon",
+  "producer": "New Riff",
+  "name": "6 Year",
+  "detail": "56.9% · Single Barrel · Barrel Proof · VA Select",
+  "abv": 56.9,
+  "price": 20,
+  "allocated": false,
+  "mash_bill": "65 percent corn, 30 percent rye, 5 percent malted barley. High rye, and bottled in bond standards are the house norm.",
+  "why": "New Riff bottles without chill filtration at full barrel proof, and this is a Virginia ABC select cask. High rye content makes it noticeably spicier than most bourbon at this price.",
+  "icons": [
+   "🔥",
+   "🌶️",
+   "🪵"
+  ],
+  "notes": [
+   "Rye spice",
+   "Mint",
+   "Toasted oak",
+   "Caramel"
+  ],
+  "tableside": "A Kentucky distillery that started from scratch in 2014 rather than sourcing, which is rare. High rye mash, barrel proof, and a Virginia select barrel.",
+  "pairings": [
+   "Wagyu flat iron",
+   "BBQ bone marrow",
+   "Rack of lamb",
+   "Cheese board"
+  ],
+  "story": "New Riff was founded in Newport, Kentucky in 2014 by Ken Lewis, who committed to distilling everything in house rather than sourcing while waiting. The distillery bottles most of its range in bond and without chill filtration.",
+  "trivia": [
+   "Bottled in bond requires one distilling season, one distillery, at least four years in a federally supervised warehouse, and exactly 100 proof.",
+   "The 1897 Bottled-in-Bond Act was among the first consumer protection laws in the United States, predating the FDA.",
+   "Chill filtration removes compounds that cloud whiskey when cold, and skipping it keeps more texture and flavour."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "210",
+  "cat": "Single Malt Scotch",
+  "type": "scotch",
+  "producer": "Glenmorangie",
+  "name": "12 Year",
+  "detail": "40% · Highlands · Ex-bourbon casks",
+  "abv": 40.0,
+  "price": 14,
+  "allocated": false,
+  "mash_bill": "100 percent malted barley, as required for single malt Scotch.",
+  "why": "Matured in ex-bourbon casks in the tallest stills in Scotland, which produces a notably light and floral spirit. The gentlest entry point on our Scotch list.",
+  "icons": [
+   "🍎",
+   "🍯",
+   "🍞"
+  ],
+  "notes": [
+   "Citrus",
+   "Peach",
+   "Vanilla",
+   "Honey"
+  ],
+  "tableside": "The easiest Scotch on our list for someone new to it. No peat smoke at all, just soft fruit and vanilla from bourbon casks. Their stills are the tallest in Scotland, which is what makes it so light.",
+  "pairings": [
+   "Apricot tart",
+   "Cheese board",
+   "Ice cream trio",
+   "Baked brie"
+  ],
+  "story": "Glenmorangie sits in Tain in the northern Highlands and has used unusually tall stills since 1843. Height matters because only the lightest vapour reaches the top, so heavier compounds fall back and the spirit that carries over is delicate.",
+  "trivia": [
+   "The stills stand over five metres, roughly the height of an adult giraffe, which the distillery has leaned on in its own marketing.",
+   "Glenmorangie manages its own American oak forests to control the wood going into its casks.",
+   "Highland is the largest Scotch region by area, and its wines range from delicate to heavily peated depending on the distillery."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "211",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Pendleton",
+  "name": "Midnight",
+  "detail": "45% · American & Canadian blend · Brandy finish",
+  "abv": 45.0,
+  "price": 11,
+  "allocated": false,
+  "mash_bill": "Undisclosed blend of American and Canadian whiskies, finished in brandy barrels.",
+  "why": "A brandy cask finish, which is uncommon and pushes it toward dark fruit rather than the usual oak and vanilla.",
+  "icons": [
+   "🍯",
+   "🍎",
+   "🛢️"
+  ],
+  "notes": [
+   "Dark cherry",
+   "Plum",
+   "Vanilla",
+   "Soft spice"
+  ],
+  "tableside": "Finished in brandy barrels, so it picks up stewed dark fruit that you do not get from bourbon casks. Cheapest pour on the list at $11.",
+  "pairings": [
+   "Banana walnut cake",
+   "Apricot tart",
+   "Ice cream trio",
+   "Cheese board"
+  ],
+  "story": "Midnight is the darker sibling to Pendleton's standard bottling, blending American and Canadian whiskey and finishing it in brandy casks. Like the rest of the range it is bottled in Oregon with Mount Hood water.",
+  "trivia": [
+   "Cask finishing means moving whiskey into a second barrel that previously held something else for the last months of maturation.",
+   "Brandy barrels contribute stone fruit and raisin character that bourbon and sherry casks do not.",
+   "Blending across the American and Canadian border means the result cannot legally be called either a bourbon or a Canadian whisky."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "212",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Star Hill Farm",
+  "name": "(Maker's Mark)",
+  "detail": "58.2% · Wheat whiskey",
+  "abv": 58.2,
+  "price": 33,
+  "allocated": false,
+  "mash_bill": "70 percent soft red winter wheat, with malted barley. Wheat is the primary grain, not a flavouring grain.",
+  "why": "A wheat whiskey rather than a wheated bourbon, meaning wheat dominates the mash instead of corn. Maker's first release under its own farm name.",
+  "icons": [
+   "🔥",
+   "🍞",
+   "🍯"
+  ],
+  "notes": [
+   "Fresh bread",
+   "Honey",
+   "Soft spice",
+   "Vanilla"
+  ],
+  "tableside": "Not a bourbon. Wheat is the main grain rather than corn, so it reads softer and more bread-like. This is Maker's Mark releasing under their farm name for the first time.",
+  "pairings": [
+   "Apricot tart",
+   "Banana walnut cake",
+   "Cheese board",
+   "Baked brie"
+  ],
+  "story": "Star Hill Farm is the name of the land the Maker's Mark distillery sits on in Loretto, Kentucky. The release marks a shift toward estate identity, using wheat grown on regenerative farmland around the distillery.",
+  "trivia": [
+   "A wheated bourbon still has corn as its dominant grain, while a wheat whiskey is at least 51 percent wheat.",
+   "Maker's Mark became the first distillery in the world certified regenerative by Regenified, in 2024.",
+   "Soft red winter wheat is the same variety Maker's has used in its bourbon mash since the 1950s."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "213",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Stranahan's",
+  "name": "",
+  "detail": "47% · American Single Malt",
+  "abv": 47.0,
+  "price": 19,
+  "allocated": false,
+  "mash_bill": "100 percent malted barley, distilled in Colorado.",
+  "why": "The flagship of the American single malt category, which received its own federal definition in 2024. Aged at Denver altitude in new American oak rather than used casks.",
+  "icons": [
+   "🍞",
+   "🍯",
+   "🪵"
+  ],
+  "notes": [
+   "Malted barley",
+   "Caramel",
+   "Toffee",
+   "Baking spice"
+  ],
+  "tableside": "American single malt, which only became a legally defined category in 2024. All malted barley like Scotch, but aged in new charred oak like bourbon, so it lands between the two.",
+  "pairings": [
+   "Cheese board",
+   "Apricot tart",
+   "Ice cream trio",
+   "Prime rib"
+  ],
+  "story": "Stranahan's was founded in Denver in 2004 after Jess Graber met George Stranahan while responding to a barn fire on his property. It is among the oldest continuously operating craft distilleries in the country.",
+  "trivia": [
+   "American single malt was formally defined by the TTB in 2024, requiring 100 percent malted barley from a single distillery.",
+   "Denver's altitude means lower boiling points and faster barrel interaction than at sea level.",
+   "Unlike Scotch, American single malt is typically matured in new charred oak, which is why it reads sweeter and woodier."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "214",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Stranahan's",
+  "name": "Blue Peak",
+  "detail": "43% · American Single Malt · Solera finish",
+  "abv": 43.0,
+  "price": 14,
+  "allocated": false,
+  "mash_bill": "100 percent malted barley, finished through a solera system.",
+  "why": "Solera finishing means it passes through a stacked cask system where older and younger whiskey continually blend, so every bottling carries a fraction of much older spirit.",
+  "icons": [
+   "🍞",
+   "🍯",
+   "🍎"
+  ],
+  "notes": [
+   "Honey",
+   "Orchard fruit",
+   "Malt",
+   "Light oak"
+  ],
+  "tableside": "Finished in a solera, a stacked cask system borrowed from sherry production. Whiskey is drawn from the bottom and topped from above, so a little of every previous batch stays in the blend.",
+  "pairings": [
+   "Apricot tart",
+   "Cheese board",
+   "Baked brie",
+   "Ice cream trio"
+  ],
+  "story": "Blue Peak takes its name from a Colorado summit and is the solera finished expression in the Stranahan's range. The system was adapted from sherry bodegas in Jerez, where it has been used for centuries.",
+  "trivia": [
+   "Solera means floor level in Spanish, referring to the bottom row of casks from which the finished product is drawn.",
+   "Because casks are never fully emptied, a solera never fully turns over and traces of the original fill remain indefinitely.",
+   "The system produces consistency across batches, which is the opposite goal of single barrel bottling."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "215",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Stranahan's",
+  "name": "Sherry Cask",
+  "detail": "45% · American Single Malt · PX Sherry finish",
+  "abv": 45.0,
+  "price": 24,
+  "allocated": false,
+  "mash_bill": "100 percent malted barley, finished in Pedro Ximénez sherry casks.",
+  "why": "Pedro Ximénez is the sweetest sherry style, and its casks push raisin and dark sugar into the whiskey more aggressively than oloroso or fino would.",
+  "icons": [
+   "🍯",
+   "🍫",
+   "🛢️",
+   "🍎"
+  ],
+  "notes": [
+   "Raisin",
+   "Fig",
+   "Dark chocolate",
+   "Toffee"
+  ],
+  "tableside": "Finished in Pedro Ximénez sherry casks, which is the sweetest sherry there is. Expect raisin and figs rather than the caramel and oak of the standard bottling.",
+  "pairings": [
+   "Chocolate torte",
+   "Banana walnut cake",
+   "Cheese board",
+   "Apricot tart"
+  ],
+  "story": "PX casks are sought after across the whiskey world for the concentrated dried fruit character they impart. Stranahan's uses them to finish its malt after primary maturation in new American oak.",
+  "trivia": [
+   "Pedro Ximénez grapes are dried in the sun before pressing, which concentrates sugar to extreme levels.",
+   "Sherry casks are now often seasoned specifically for the whisky trade rather than genuinely used for ageing sherry.",
+   "PX sherry itself can exceed 400 grams of residual sugar per litre, several times a dessert wine."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "216",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Stranahan's",
+  "name": "Diamond Peak",
+  "detail": "45% · American Single Malt · Extra Añejo tequila cask finish",
+  "abv": 45.0,
+  "price": 27,
+  "allocated": false,
+  "mash_bill": "100 percent malted barley, finished in extra añejo tequila casks.",
+  "why": "An unusual finish. Extra añejo tequila casks bring a vegetal, agave-sweet edge that no wine or sherry cask produces.",
+  "icons": [
+   "🍯",
+   "🌶️",
+   "🛢️"
+  ],
+  "notes": [
+   "Agave",
+   "Honey",
+   "Cooked pepper",
+   "Toffee"
+  ],
+  "tableside": "Finished in extra añejo tequila barrels, which is genuinely unusual. There is an agave note underneath the malt that surprises people. Good pour for a guest who thinks they have tried everything.",
+  "pairings": [
+   "Chocolate torte",
+   "Cheese board",
+   "Wagyu flat iron",
+   "Ice cream trio"
+  ],
+  "story": "Diamond Peak is the tequila cask finished expression in the Stranahan's range. Extra añejo tequila must age at least three years, so those barrels carry more oak influence than reposado or añejo casks would.",
+  "trivia": [
+   "Extra añejo is the oldest tequila category and was only created in 2006.",
+   "Tequila casks are usually ex-bourbon barrels themselves, so a whiskey finished in one has passed through American oak twice.",
+   "Agave sugars produce aromatic compounds unlike any grain spirit, which is why the finish reads so distinctly."
+  ],
+  "file": "spirits"
+ },
+ {
+  "id": "217",
+  "cat": "Other",
+  "type": "other",
+  "producer": "Caribou Crossing",
+  "name": "",
+  "detail": "40% · Canadian Whisky · Single Barrel",
+  "abv": 40.0,
+  "price": 18,
+  "allocated": false,
+  "mash_bill": "Undisclosed. Canadian whisky is typically blended from separately distilled grain spirits.",
+  "why": "Marketed as the first single barrel Canadian whisky, selected from a large stock of aged Canadian barrels. Softer and lighter than any American equivalent at the price.",
+  "icons": [
+   "🍯",
+   "🍎"
+  ],
+  "notes": [
+   "Honey",
+   "Apple",
+   "Vanilla",
+   "Light oak"
+  ],
+  "tableside": "Billed as the first single barrel Canadian whisky. Light and soft, which makes it an easy pour for someone who finds bourbon too heavy.",
+  "pairings": [
+   "Apricot tart",
+   "Cheese board",
+   "Ice cream trio",
+   "Baked brie"
+  ],
+  "story": "Caribou Crossing was launched by Sazerac in 2010, drawing on a large inventory of aged Canadian whisky barrels. Each bottling comes from a single cask, which was unusual for a category built almost entirely on blending.",
+  "trivia": [
+   "Canadian whisky must be aged at least three years in wood, a requirement stricter than the American minimum for straight whiskey.",
+   "The category's light style comes from blending high proof base spirit with a small proportion of flavouring whisky.",
+   "The bottle is topped with a pewter caribou, which is how most guests remember it."
+  ],
+  "file": "spirits"
  }
 ]
