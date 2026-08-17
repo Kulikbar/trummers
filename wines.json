@@ -1560,8 +1560,7 @@
    "Practicing sustainable viticulture (PR) means Bründlmayer follows organic and sustainable principles without pursuing formal certification — common among top European estates."
   ],
   "file": "whites",
-  "coravin": true,
-  "coravin_price": 26
+  "coravin": false
  },
  {
   "id": "883",
@@ -2593,7 +2592,9 @@
    "At 12.5% alcohol, the Fass 4 is noticeably lighter than Der Ott or the Ried Stein — a deliberate choice to make an approachable everyday wine rather than a powerful statement.",
    "The 2024 vintage is the freshest wine in the Wagram section — released recently, with all the primary freshness of a young Grüner intact."
   ],
-  "file": "whites"
+  "file": "whites",
+  "coravin": true,
+  "coravin_price": 26
  },
  {
   "id": "611",
@@ -3551,8 +3552,7 @@
    "Sancerre's reputation was built almost entirely in the second half of the 20th century."
   ],
   "file": "whites",
-  "coravin": true,
-  "coravin_price": 23,
+  "coravin": false,
   "_offlist": true
  },
  {
@@ -3667,7 +3667,9 @@
    "Each 100 meters of altitude reduces average temperature by approximately 0.6°C — giving winemakers extraordinary flexibility.",
    "The region was part of the Austro-Hungarian Empire until 1919."
   ],
-  "file": "whites"
+  "file": "whites",
+  "coravin": true,
+  "coravin_price": 20
  },
  {
   "id": "459",
@@ -4059,8 +4061,7 @@
    "The Sonoma Mountain AVA sits above the fog line on the eastern slope of Sonoma Mountain — warmer than the Sonoma Coast but cooler than the Valley floor, which gives Kistler's wines from this site their particular richness."
   ],
   "file": "whites",
-  "coravin": true,
-  "coravin_price": 39
+  "coravin": false
  },
  {
   "id": "405",
@@ -7630,7 +7631,9 @@
    "The Sonoma Coast AVA covers an enormous geographic area, which is why sub-appellations like Freestone-Occidental were created to provide more geographic precision.",
    "The name 'Royal St. Robert' references the town of Occidental, California, which sits in a redwood forest near RAEN's vineyards."
   ],
-  "file": "reds"
+  "file": "reds",
+  "coravin": true,
+  "coravin_price": 42
  },
  {
   "id": "951",
@@ -8227,8 +8230,7 @@
    "Oregon requires that wines labeled with a specific appellation contain at least 95% of their fruit from that appellation — stricter than California's 85% minimum."
   ],
   "file": "reds",
-  "coravin": true,
-  "coravin_price": 32
+  "coravin": false
  },
  {
   "id": "1519",
@@ -11622,8 +11624,7 @@
    "Graves (the broader appellation that encompasses Pessac-Léognan) takes its name from the gravelly soils that define the region — 'graves' simply means 'gravel' in French."
   ],
   "file": "reds",
-  "coravin": true,
-  "coravin_price": 29,
+  "coravin": false,
   "_offlist": true
  },
  {
@@ -11822,7 +11823,9 @@
    "The contrast between this Bordeaux Malbec and the Alta Vista Argentine Malbec on the list illustrates how dramatically terroir can transform a single variety — same grape, entirely different wine.",
    "Blaye's right-bank soils are better suited to Malbec than the Médoc's gravel — the variety prefers clay and limestone, which Blaye has in abundance."
   ],
-  "file": "reds"
+  "file": "reds",
+  "coravin": true,
+  "coravin_price": 29
  },
  {
   "id": "3034",
@@ -14606,5 +14609,89 @@
    "At $402, Mon Chevalier sits in the same price tier as some classified Bordeaux châteaux — a comparison Morlet embraces, arguing that Knight's Valley terroir merits the same serious treatment."
   ],
   "file": "reds"
+ },
+ {
+  "id": "8017",
+  "cat": "Spanish Reds",
+  "type": "red",
+  "file": "reds",
+  "producer": "Bodegas Emilio Moro",
+  "name": "Tempranillo, 'Malleolus,' Ribera del Duero, 2022",
+  "region": "Ribera del Duero, Spain",
+  "vintage": "2022",
+  "abv": "14.5%",
+  "price": 120,
+  "cert": "",
+  "btg": false,
+  "icons": [
+   "💪",
+   "🍑",
+   "🪵",
+   "🧂"
+  ],
+  "notes": [
+   "Dark plum",
+   "Blackberry",
+   "Graphite",
+   "Dried herb",
+   "Iron mineral"
+  ],
+  "tableside": "Emilio Moro's flagship from old-vine Tempranillo in the Ribera del Duero, where high altitude and extreme continental climate produce wines darker and more structured than Rioja. Dark plum, blackberry, graphite, and an iron mineral note that sets it apart. More muscular than anything in the Rioja section.",
+  "pairings": [
+   "Roast lamb",
+   "Cochinillo",
+   "Aged cheese"
+  ],
+  "story": "Bodegas Emilio Moro is a family estate that has farmed the Ribera del Duero for three generations, with the Malleolus vineyard being their most prized holding. The name comes from the Latin for 'hammer' — a reference to the rounded river stones that characterize the vineyard's soils.",
+  "trivia": [
+   "Ribera del Duero sits at elevations of 750-900 meters above sea level — significantly higher than Rioja, producing wines with higher natural acidity and more mineral character despite the extreme continental heat.",
+   "The Tempranillo clone grown in Ribera del Duero is called Tinto Fino — genetically identical to Rioja's Tempranillo but producing noticeably different wines due to climate and soil differences.",
+   "Emilio Moro pioneered single-vineyard Tempranillo in Ribera del Duero at a time when most producers blended across multiple vineyards — Malleolus was one of the first single-site wines to achieve international recognition from the appellation."
+  ],
+  "coravin": true,
+  "coravin_price": 41
+ },
+ {
+  "id": "CV-01",
+  "cat": "Chardonnay",
+  "type": "White",
+  "producer": "Drouhin",
+  "name": "Roserock, Eola-Amity Hills",
+  "region": "Eola-Amity Hills, Oregon",
+  "vintage": "2021",
+  "abv": 13.5,
+  "price": 132,
+  "cert": "",
+  "btg": false,
+  "coravin": true,
+  "coravin_price": 33,
+  "icons": [
+   "⚖️",
+   "🍋",
+   "🧂",
+   "🪵"
+  ],
+  "notes": [
+   "Lemon curd",
+   "White peach",
+   "Flint",
+   "Toasted oak",
+   "Sea salt"
+  ],
+  "tableside": "Roserock is the Drouhin family's Eola-Amity Hills estate, and this is the Chardonnay rather than the Pinot. Cooler site, so it comes out taut and mineral rather than broad. Our most expensive Coravin white pour and worth the step up.",
+  "pairings": [
+   "Rainbow trout",
+   "Scallops",
+   "Joyce Farm chicken",
+   "Spring chicken cavatelli"
+  ],
+  "story": "The Drouhin family of Burgundy planted in Oregon's Dundee Hills in 1987 and later added the Roserock estate in the Eola-Amity Hills, where the Van Duzer Corridor funnels cool Pacific air inland. That wind is what keeps acidity high and ripening slow, and it is the reason Oregon Chardonnay has come to be taken seriously.",
+  "trivia": [
+   "The Van Duzer Corridor is a gap in the Coast Range that pulls cool marine air into the valley on summer afternoons, dropping temperatures sharply.",
+   "Roserock takes its name from the red volcanic Jory soil and the basalt that underlies the site.",
+   "Domaine Drouhin Oregon was among the first serious Burgundian investments in the state, at a point when few in France took Oregon seriously."
+  ],
+  "file": "whites",
+  "_verify": "On the premium by the glass sheet as Chardonnay, but not on the printed cellar list. Bottle price is an estimate. Confirm with the somm."
  }
 ]

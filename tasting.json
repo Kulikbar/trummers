@@ -1,417 +1,381 @@
 {
-  "theme": "Allium",
-  "date": "May 2026",
-  "price": 85,
-  "pairing_price": 55,
-  "intro": "A five-course exploration of the allium family — ramps, spring garlic, vidalia onions, shallots, and more — at the peak of their spring season. Each course is built around a different preparation and a different member of the family.",
-  "courses": [
-    {
-      "id": "t1",
-      "course": 1,
-      "section": "amuse",
-      "name": "Ramp Tart",
-      "description": "Whipped ramp fromage, trout roe",
-      "tableside": "A one-bite amuse to open the menu. Whipped ramp fromage in a tart shell, finished with trout roe. The ramp is at the center — garlicky, green, and intensely seasonal. The roe adds salinity and a clean finish.",
-      "ingredients": [
-        "Tart shell",
-        "Whipped ramp fromage",
-        "Trout roe"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "Trout roe is fish roe, not shellfish. Safe for shellfish allergies."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Fromage contains dairy. Cannot be removed."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No nuts."
-        },
-        "gluten": {
-          "status": "contains",
-          "note": "Tart shell contains gluten. Cannot be made GF."
-        },
-        "eggs": {
-          "status": "contains",
-          "note": "Tart shell and fromage may contain eggs."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "vegetarian": {
-          "status": "modifiable",
-          "note": "Trout roe can be removed to make vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Contains dairy and fish roe."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Ramp",
-          "definition": "A wild spring onion (Allium tricoccum) native to eastern North America, foraged rather than farmed, and available for only a few weeks each spring. The flavor is a cross between garlic and green onion, intensely aromatic and more complex than either. The entire plant is edible — bulb, stem, and leaf."
-        },
-        {
-          "term": "Fromage",
-          "definition": "French for cheese. Used here to describe a whipped, spreadable fresh cheese preparation made from or infused with ramps. Light, creamy, and savory."
-        },
-        {
-          "term": "Trout Roe",
-          "definition": "The cured eggs of trout. Smaller than salmon roe, with a delicate briny pop and a cleaner, less assertive flavor. A lighter finishing element than sturgeon caviar."
-        }
-      ],
-      "sourcing": [
-        {
-          "name": "Ramps",
-          "description": "Foraged from the Appalachian region. One of the first wild edibles to appear after winter, with a peak season of three to five weeks in spring. The short window makes them a genuine seasonal event."
-        }
-      ],
-      "chef_notes": "One bite. Set the table for the menu by briefly describing the allium theme before it arrives. Ramp season is short — this dish exists for a few weeks only.",
-      "pairing": null
+ "theme": "Stone Fruit",
+ "date": "August 2026",
+ "price": 85,
+ "pairing_price": 55,
+ "intro": "A five course menu built around stone fruit at the height of summer. Peaches, plumcots, cherries and apricots run through every course, savoury and sweet, and each one uses the fruit differently: chutney, flatbread, pickle, braise and tart. The optional wine pairing adds $55.",
+ "courses": [
+  {
+   "id": "t1",
+   "course": 1,
+   "section": "amuse",
+   "name": "Peaches & Cream Tart",
+   "description": "Purple Haze goat cheese, peach chutney",
+   "tableside": "A one bite amuse to open the menu. Purple Haze is a Cypress Grove goat cheese flavoured with lavender and fennel pollen, and the peach chutney sits against it. Sets up the stone fruit theme before you describe the rest of the menu.",
+   "ingredients": [
+    "Tart shell",
+    "Purple Haze goat cheese",
+    "Peach chutney"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
     },
-    {
-      "id": "t2",
-      "course": 2,
-      "section": "melted",
-      "name": "French Onion Bruschetta",
-      "description": "Caramelized vidalia onions, black garlic soubise, gruyere crisp",
-      "tableside": "The French onion soup concept reimagined as a bruschetta. Vidalia onions caramelized low and slow until deeply sweet, a black garlic soubise underneath, and a gruyere crisp on top. Everything you expect from French onion, in a format you can eat with your hands.",
-      "ingredients": [
-        "Bruschetta base",
-        "Caramelized vidalia onions",
-        "Black garlic soubise",
-        "Gruyere crisp"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Soubise and gruyere contain dairy. Cannot be removed."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No nuts."
-        },
-        "gluten": {
-          "status": "contains",
-          "note": "Bruschetta base contains gluten. Cannot be made GF."
-        },
-        "eggs": {
-          "status": "check",
-          "note": "Soubise may contain eggs. Confirm with kitchen."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "vegetarian": {
-          "status": "yes",
-          "note": "Vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Contains dairy."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Vidalia Onion",
-          "definition": "A sweet onion variety grown in a specific region of Georgia, where the low sulfur content of the soil produces onions with notably less pungency and more natural sweetness than standard yellow onions. One of the few vegetables with a federally protected geographic designation in the US."
-        },
-        {
-          "term": "Black Garlic",
-          "definition": "Whole garlic heads fermented at low heat and high humidity for several weeks until the cloves turn black and develop a deeply complex, molasses-like sweetness with hints of balsamic and tamarind. All the sharpness of raw garlic is gone — what remains is mellow and umami-rich."
-        },
-        {
-          "term": "Soubise",
-          "definition": "A classic French sauce made from onions cooked down in butter and cream until completely soft, then pureed. Named after the Maréchal de Soubise, an 18th-century French nobleman. Silky, sweet, and rich."
-        },
-        {
-          "term": "Gruyere",
-          "definition": "A firm Swiss cow's milk cheese with a rich, slightly nutty flavor that melts exceptionally well. The classic choice for French onion soup and its natural companion to caramelized onions."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "The bruschetta format means this is finger food. Worth mentioning so guests are prepared.",
-      "pairing": {
-        "wine_id": "369",
-        "name": "Semillon/Chenin Blanc/Pedro Gimenez, Mendoza 2024",
-        "producer": "Altos las Hormigas",
-        "grapes": "Semillon, Chenin Blanc, Pedro Gimenez",
-        "region": "Mendoza, Argentina",
-        "vintage": "2024",
-        "bin": "369",
-        "file": "whites",
-        "in_list": true,
-        "note": "An unusual Argentine white blend with an orchard-fruit nose, elevated floral highlights, and a soft, lively palate finishing on a round note sharpened by tangy acidity. The wine's orchard fruit and floral character sit alongside the sweetness of the caramelized vidalia onions, while the tangy acidity cuts through the richness of the gruyere and black garlic soubise. A white with enough aromatic complexity to hold against a dish that could overwhelm a simpler pour."
-      }
+    "dairy": {
+     "status": "contains",
+     "note": "Goat cheese is the dish."
     },
-    {
-      "id": "t3",
-      "course": 3,
-      "section": "braised",
-      "name": "Bucatini Pasta & Allium Ragu",
-      "description": "Ramp greens, spring garlic, morel mushroom, chicken liver sausage, brie fonduta, pickled ramps",
-      "tableside": "Rich braised pasta with layers of allium. The brie fonduta melts into the sauce, the pickled ramps cut through it, and the morel mushroom and chicken liver sausage give the dish its depth and weight. One of the most complex courses on the menu.",
-      "ingredients": [
-        "Bucatini",
-        "Ramp greens",
-        "Spring garlic",
-        "Morel mushroom",
-        "Chicken liver sausage",
-        "Brie fonduta",
-        "Pickled ramps"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Brie fonduta contains dairy. Cannot be removed."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No nuts."
-        },
-        "gluten": {
-          "status": "contains",
-          "note": "Bucatini is wheat pasta. Cannot be made GF."
-        },
-        "eggs": {
-          "status": "contains",
-          "note": "Pasta contains eggs."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "vegetarian": {
-          "status": "no",
-          "note": "Contains chicken liver sausage."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Contains meat and dairy."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Bucatini",
-          "definition": "A thick spaghetti-like pasta with a hollow center running through it. The hollow captures sauce differently than solid pasta, and the extra thickness holds up to a heavy braise like this ragu."
-        },
-        {
-          "term": "Spring Garlic",
-          "definition": "Garlic harvested before the bulb has fully formed, when the plant is still young and the flavor is milder and more herbal than cured garlic. The entire stalk is usable, similar to a green onion."
-        },
-        {
-          "term": "Morel Mushroom",
-          "definition": "A wild spring mushroom with a distinctive honeycomb cap and a deep, earthy, nutty flavor. One of the most prized foraged ingredients in American cooking, with a very short spring season. Cannot be cultivated commercially."
-        },
-        {
-          "term": "Fonduta",
-          "definition": "An Italian fondue made from melted cheese with milk or cream. Brie fonduta is silkier and more delicate than a Swiss-style fondue — it becomes a sauce rather than a thick dip."
-        }
-      ],
-      "sourcing": [
-        {
-          "name": "Morel Mushrooms",
-          "description": "Foraged wild mushrooms available for a short window in spring. The flavor is impossible to replicate with cultivated varieties — deeply savory, earthy, and complex. Their presence on a menu is a genuine seasonal marker."
-        }
-      ],
-      "chef_notes": "The chicken liver sausage is house-made. Worth mentioning to guests who ask about the depth of flavor in the ragu.",
-      "pairing": {
-        "wine_id": "5067",
-        "name": "Valpolicella Ripasso Marogne DOC 2023",
-        "producer": "Zeni",
-        "grapes": "Corvina, Corvinone, Rondinella",
-        "region": "Veneto, Italy",
-        "vintage": "2023",
-        "bin": "5067",
-        "file": "reds",
-        "in_list": true,
-        "note": "A Ripasso made by re-passing standard Valpolicella over the dried skins from Amarone production, picking up extra tannin, color, and concentration without the full weight of Amarone itself. Zeni's version is vinous and full-bodied, with dark cherry, dried herbs, and a rounded, velvety finish. The dried cherry and rounded tannin absorb the richness of the brie fonduta while the wine's acidity sharpens the pickled ramps. The chicken liver sausage needs the weight of a second-pass wine — a standard Valpolicella wouldn't hold here."
-      }
+    "nuts": {
+     "status": "safe",
+     "note": "No tree nuts expected. Confirm the chutney."
     },
-    {
-      "id": "t4",
-      "course": 4,
-      "section": "roasted",
-      "name": "Spring Lamb Striploin",
-      "description": "Spring onion whipped potatoes, garlic asparagus, ramp gremolata",
-      "tableside": "Lamb striploin roasted to order, served with spring onion whipped potatoes and garlic asparagus, finished with a ramp gremolata. The gremolata ties the whole menu together — ramp, parsley, lemon — bright and herbal against the richness of the lamb.",
-      "ingredients": [
-        "Spring lamb striploin",
-        "Spring onion whipped potatoes",
-        "Garlic asparagus",
-        "Ramp gremolata"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Whipped potatoes contain butter and cream. Can potentially be modified — confirm with kitchen."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No nuts."
-        },
-        "gluten": {
-          "status": "safe",
-          "note": "No gluten."
-        },
-        "eggs": {
-          "status": "safe",
-          "note": "No eggs."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "vegetarian": {
-          "status": "no",
-          "note": "Contains lamb."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Contains meat and dairy."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Striploin",
-          "definition": "A lean, tender cut from the short loin of the animal, with a firm texture and clean, direct flavor. Less fatty than a ribeye, more flavorful than a tenderloin. Lamb striploin is the rack equivalent without the bone."
-        },
-        {
-          "term": "Gremolata",
-          "definition": "An Italian condiment made from fresh herb, garlic, and lemon zest. The classic version uses parsley. This version substitutes ramp, keeping the preparation within the menu's theme while adding the garlic note the ramp naturally provides."
-        },
-        {
-          "term": "Spring Onion",
-          "definition": "A young onion harvested before the bulb fully matures. Milder and sweeter than a full onion, with a delicate flavor that holds up well when cooked into whipped potatoes without overpowering the dish."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "Ask kitchen for preferred temperature on the lamb. Strong pairing opportunity — the Bordeaux is worth describing in detail for guests who order the pairing.",
-      "pairing": {
-        "wine_id": "3047",
-        "name": "Merlot/Cab Sauv/Petit Verdot, Listrac-Médoc 2016",
-        "producer": "Château Ducluzeau",
-        "grapes": "Merlot, Cabernet Sauvignon, Petit Verdot",
-        "region": "Bordeaux, France",
-        "vintage": "2016",
-        "bin": "3047",
-        "file": "reds",
-        "in_list": true,
-        "note": "A Listrac-Médoc from the 2016 vintage — widely considered one of the great Bordeaux years of the century — now a decade old and drinking at its best. Clean blackberry and bilberry fruit, a light estuarine character that emerges with time, medium body with crunchy dark fruit tinged with tobacco and sea salt, and a vivid finish of black olive. The structure of the Bordeaux holds the lamb striploin firmly, and the ramp gremolata's brightness finds an echo in the wine's herbal edge and acidity. Classic Bordeaux logic with a spring dish."
-      }
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
     },
-    {
-      "id": "t5",
-      "course": 5,
-      "section": "baked",
-      "name": "Caramelized Shallot Cake",
-      "description": "Onion-apple caramel, blue cheese ice cream",
-      "tableside": "A savory-leaning dessert that closes the allium menu on its own terms. Caramelized shallot cake with onion-apple caramel and blue cheese ice cream. The blue cheese reads as an unexpected but deliberate choice — funky against sweet, cold against warm. It works.",
-      "ingredients": [
-        "Caramelized shallot cake",
-        "Onion-apple caramel",
-        "Blue cheese ice cream"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Blue cheese ice cream contains dairy. Cannot be removed."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No nuts."
-        },
-        "gluten": {
-          "status": "contains",
-          "note": "Cake contains gluten. Cannot be made GF."
-        },
-        "eggs": {
-          "status": "contains",
-          "note": "Cake and ice cream base contain eggs."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "vegetarian": {
-          "status": "yes",
-          "note": "Vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Contains dairy and eggs."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Shallot",
-          "definition": "A member of the allium family, smaller and more delicate than a standard onion, with a flavor that blends onion sweetness with a hint of garlic. When caramelized, the natural sugars concentrate into a deep, complex sweetness that works unusually well in a dessert context."
-        },
-        {
-          "term": "Caramel",
-          "definition": "Sugar cooked past the melting point until it develops complex bitter, nutty, and toasty flavors. The onion-apple version adds savory and fruit elements that keep the caramel from being purely sweet."
-        },
-        {
-          "term": "Blue Cheese Ice Cream",
-          "definition": "Ice cream made with blue cheese incorporated into the base. The funky, salty character of the blue cuts through the sweetness of the caramel and cake, and the cold temperature contrasts with the warmth of the baked element."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "The savory-sweet character of this dessert may need a brief setup for guests who aren't expecting it. Lead with the shallot caramel before mentioning the blue cheese ice cream.",
-      "pairing": {
-        "wine_id": "191",
-        "name": "Cream Sherry NV",
-        "producer": "Bertola",
-        "grapes": "Palomino, Pedro Ximénez",
-        "region": "Jerez, Spain",
-        "vintage": "NV",
-        "bin": "191",
-        "file": "afters",
-        "in_list": true,
-        "note": "A Cream Sherry from Jerez — Palomino and Pedro Ximénez blended and aged in the solera system, producing a wine with dried fig, salty caramel, Christmas cake spice, cloves, cinnamon, walnut character, and a soufflé-like finish. Not a wine on our regular list — this bottle is exclusive to the tasting menu pairing. The oxidative, nutty character of the sherry runs alongside the caramelized shallot directly, and the Pedro Ximénez sweetness finds the apple caramel without tipping into excess. The blue cheese ice cream and the salty caramel are the details that make this pairing genuinely interesting."
-      }
+    "gluten": {
+     "status": "contains",
+     "note": "Tart shell is wheat based."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Confirm the tart pastry."
+    },
+    "soy": {
+     "status": "safe",
+     "note": "No soy expected."
+    },
+    "vegetarian": {
+     "status": "yes",
+     "note": "No meat or fish. Confirm rennet if the guest is strict."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains goat cheese."
     }
-  ]
+   },
+   "key_terms": [
+    {
+     "term": "Purple Haze",
+     "definition": "A fresh goat cheese from Cypress Grove in Humboldt County, California, blended with culinary lavender buds and hand-harvested fennel pollen. Named as a nod to the 1967 Jimi Hendrix song. Soft, floral and bright rather than sharp."
+    },
+    {
+     "term": "Chutney",
+     "definition": "A category of piquant condiments from the Indian subcontinent. The word comes from the Hindi chaatna, meaning to lick. Western versions are usually sweet and sour fruit preserves, but authentic South Asian chutneys span fresh herbs, roasted lentils, raw vegetables and nuts."
+    }
+   ],
+   "sourcing": [
+    {
+     "name": "Cypress Grove",
+     "description": "A Humboldt County, California creamery, and the same producer whose Purple Haze appears on the Wagyu flat iron on the dinner menu."
+    }
+   ],
+   "chef_notes": "One bite. Introduce the stone fruit theme as this lands so the table understands the arc of the menu. Same cheese as the Wagyu flat iron, which is a nice detail if the guest has had it.",
+   "pairing": null
+  },
+  {
+   "id": "t2",
+   "course": 2,
+   "section": "baked",
+   "name": "Phoenix Suns Mottled Plumcot Flat Bread",
+   "description": "Basil pesto, stracciatella, prosciutto, hot honey",
+   "tableside": "Phoenix Suns Mottled is a named plumcot variety, and a plumcot is a plum and apricot cross. The fruit goes on a flatbread with basil pesto, stracciatella and prosciutto, finished with hot honey. Savoury, sweet and salty all at once.",
+   "ingredients": [
+    "Flatbread",
+    "Phoenix Suns Mottled plumcot",
+    "Basil pesto",
+    "Stracciatella",
+    "Prosciutto",
+    "Hot honey"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "contains",
+     "note": "Stracciatella. Confirm whether the pesto also contains cheese."
+    },
+    "nuts": {
+     "status": "check",
+     "note": "Pesto commonly contains pine nuts. Confirm this version."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Flatbread is wheat based."
+    },
+    "eggs": {
+     "status": "safe",
+     "note": "No eggs expected."
+    },
+    "soy": {
+     "status": "safe",
+     "note": "No soy expected."
+    },
+    "vegetarian": {
+     "status": "modifiable",
+     "note": "Prosciutto can be left off. Confirm the pesto and stracciatella rennet."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains dairy, honey and cured pork."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Plumcot",
+     "definition": "A first generation hybrid stone fruit, an even cross between a plum and an apricot. Luther Burbank bred the first of them in the late nineteenth century. Entirely natural and non-GMO, created by hand cross-pollination rather than in a lab."
+    },
+    {
+     "term": "Stracciatella",
+     "definition": "The soft shredded interior of burrata, made of fresh mozzarella curd torn into strands and folded through cream. Richer and looser than mozzarella, and it should be served at room temperature to taste of anything."
+    },
+    {
+     "term": "Hot Honey",
+     "definition": "Honey infused with chili. The sweetness carries the heat further across the palate than a dry spice would, and it is what ties the fruit to the prosciutto here."
+    }
+   ],
+   "sourcing": [
+    {
+     "name": "Phoenix Suns Mottled Plumcot",
+     "description": "A named plumcot variety. Stone fruit varieties are bred for specific flavour and texture, and naming the variety rather than just saying plumcot is worth doing at the table."
+    }
+   ],
+   "chef_notes": "Confirm whether the basil pesto contains pine nuts, since that is the likeliest hidden allergen in this course. Prosciutto can come off for a vegetarian but the pesto and stracciatella still need checking.",
+   "pairing": {
+    "wine": "Szigeti, Blanc de Blancs, Burgenland, Austria, 2019",
+    "note": "Austrian sparkling. The bubbles and acidity cut the stracciatella and the hot honey, and it keeps a rich savoury course from sitting heavy."
+   }
+  },
+  {
+   "id": "t3",
+   "course": 3,
+   "section": "poached",
+   "name": "Shrimp Cocktail",
+   "description": "U12 shrimp, pickled peaches, habanero-peach cocktail, lollipop kale sprouts, crispy shallot",
+   "tableside": "A shrimp cocktail rebuilt around peach. U12 shrimp are the large grade, poached, with pickled peaches and a habanero peach cocktail sauce in place of the usual horseradish. The habanero brings real heat, so mention it.",
+   "ingredients": [
+    "U12 shrimp",
+    "Pickled peaches",
+    "Habanero peach cocktail sauce",
+    "Lollipop kale sprouts",
+    "Crispy shallot"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "contains",
+     "note": "Shrimp is the dish. Cannot be modified."
+    },
+    "dairy": {
+     "status": "safe",
+     "note": "No dairy expected."
+    },
+    "nuts": {
+     "status": "safe",
+     "note": "No tree nuts."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "check",
+     "note": "Crispy shallots are often dusted in flour. Confirm with the kitchen."
+    },
+    "eggs": {
+     "status": "safe",
+     "note": "No eggs expected."
+    },
+    "soy": {
+     "status": "check",
+     "note": "Confirm the frying oil for the shallots."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains shrimp."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains shrimp."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "U12",
+     "definition": "Under twelve shrimp per pound. The U grade means the count is under that number, so a lower number is a larger shrimp. U12 is a substantial shrimp, and it poaches better than a smaller grade because the exterior does not overcook before the centre is done."
+    },
+    {
+     "term": "Habanero",
+     "definition": "One of the hotter chilies in common kitchen use, with a distinctly fruity, almost apricot-like aroma underneath the heat. That fruitiness is why it works against peach rather than fighting it."
+    },
+    {
+     "term": "Lollipop Kale Sprouts",
+     "definition": "Trademarked as Lollipops and broadly known as Kalettes, a cross between Red Russian kale and Brussels sprouts. Small open rosettes with frilly leaves, milder and sweeter than either parent."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "The habanero is genuinely hot and guests do not expect heat in a shrimp cocktail, so flag it. Shellfish cannot be worked around, which makes this the course that decides whether the menu is possible for a given guest.",
+   "pairing": {
+    "wine": "Luli, Chardonnay, Sta. Lucia Highlands, Monterey, CA, 2024",
+    "note": "Restrained California Chardonnay with enough weight for poached shrimp and enough acid to reset against the habanero."
+   }
+  },
+  {
+   "id": "t4",
+   "course": 4,
+   "section": "braised",
+   "name": "Cherry Braised Short Ribs",
+   "description": "Chestnut spaetzle, glazed carrots, cherry demi",
+   "tableside": "Short ribs braised with cherries, served over chestnut spaetzle with glazed carrots and a cherry demi. The chestnut in the spaetzle is worth flagging for nut allergies, since chestnuts are treated as tree nuts.",
+   "ingredients": [
+    "Beef short rib",
+    "Cherries",
+    "Chestnut spaetzle",
+    "Glazed carrots",
+    "Cherry demi-glace"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "check",
+     "note": "Spaetzle and glazed carrots are commonly finished with butter. Confirm."
+    },
+    "nuts": {
+     "status": "contains",
+     "note": "Chestnut in the spaetzle. Chestnuts are treated as tree nuts for allergy purposes."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Spaetzle is a wheat flour dough."
+    },
+    "eggs": {
+     "status": "contains",
+     "note": "Egg is structural in spaetzle dough."
+    },
+    "soy": {
+     "status": "check",
+     "note": "Confirm the demi-glace."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains beef."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains beef, egg and wheat."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Spaetzle",
+     "definition": "A soft egg noodle from southern Germany and Austria, scraped or pressed into boiling water so the shape is irregular by nature. Egg and flour are both structural, so it cannot be made gluten free or egg free."
+    },
+    {
+     "term": "Chestnut",
+     "definition": "Treated as a tree nut for allergy purposes even though it behaves more like a starch in the kitchen. Milder and sweeter than most nuts, with a soft, floury texture rather than a crunch."
+    },
+    {
+     "term": "Demi-Glace",
+     "definition": "A classical French sauce built by reducing veal or beef stock with wine until it is glossy and coats a spoon. Long, slow and labour intensive, and the reason the sauce has the body it does."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "Chestnut in the spaetzle is the allergen most likely to be missed, since nothing about the dish name suggests nuts. Gluten and egg are both structural in the spaetzle and neither can be removed.",
+   "pairing": {
+    "wine": "Schwartz, Shiraz, Nitschke Block, Barossa Valley, Australia, 2020",
+    "note": "Barossa Shiraz has the density for a braise and the dark fruit runs alongside the cherry rather than competing with it."
+   }
+  },
+  {
+   "id": "t5",
+   "course": 5,
+   "section": "baked",
+   "name": "Plum Galette",
+   "description": "Candied orange walnuts, apricot kernel ice cream, Goldberry Hill honey, cherry compote",
+   "tableside": "A free-form plum tart with candied orange walnuts, apricot kernel ice cream, Goldberry Hill honey and cherry compote. Walnuts are on the plate, and the ice cream is made from apricot kernels, which taste of almond. Both are worth naming for a nut allergy table.",
+   "ingredients": [
+    "Plum galette",
+    "Candied orange walnuts",
+    "Apricot kernel ice cream",
+    "Goldberry Hill honey",
+    "Cherry compote"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "contains",
+     "note": "Ice cream and pastry."
+    },
+    "nuts": {
+     "status": "contains",
+     "note": "Candied walnuts. The apricot kernel ice cream is a stone fruit seed rather than a tree nut, but it tastes of almond and some nut allergic guests react."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Galette pastry is wheat based."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Confirm the pastry and the ice cream base."
+    },
+    "soy": {
+     "status": "safe",
+     "note": "No soy expected."
+    },
+    "vegetarian": {
+     "status": "yes",
+     "note": "No meat or gelatin expected."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains dairy and honey."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Galette",
+     "definition": "A free-form tart baked flat on a sheet rather than in a tin, with the pastry folded roughly over the edge of the filling. Rustic by design, and the shape is the point."
+    },
+    {
+     "term": "Apricot Kernel",
+     "definition": "The seed inside the apricot pit. It tastes intensely of almond and marzipan because it shares the same aromatic compound, and it is the basis of amaretto and much Italian pastry. Not a tree nut, but worth naming to a nut allergic guest anyway."
+    },
+    {
+     "term": "Goldberry Hill",
+     "definition": "A small family apiary on Clifton Road in Clifton, Virginia, harvesting honey from wildflowers within a three mile radius of the property. The same honey appears on the roasted zucchiolo on the dinner menu."
+    }
+   ],
+   "sourcing": [
+    {
+     "name": "Goldberry Hill Farm",
+     "description": "Clifton, Virginia. A hyper-local apiary operating for over five years, roughly ten minutes from the restaurant."
+    }
+   ],
+   "chef_notes": "Two nut considerations in one course: walnuts are on the plate and can presumably be left off, while the apricot kernel is in the ice cream and is structural. Give a nut allergic guest both facts and let them decide.",
+   "pairing": {
+    "wine": "Poli, Bianco Vermouth of Vespaiola, Bassano, Veneto, Italy, NV",
+    "note": "An unusual dessert pairing. Aromatic vermouth rather than a sweet wine, so it lifts the fruit without adding more sugar to an already sweet plate."
+   }
+  }
+ ]
 }

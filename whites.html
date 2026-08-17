@@ -399,6 +399,7 @@ fetch('wines.json')
     buildFilters();
     render();
     const params = new URLSearchParams(window.location.search);
+    if (params.get('coravin') === 'true') { coravinOnly = true; buildFilters(); render(); }
     const openParam = params.get('open');
     if (openParam) {
       openId = openParam;
