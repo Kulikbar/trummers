@@ -193,28 +193,36 @@ function applyScrollMargins() {
 function scrollToEl(el) {
   if (!el) return;
   const controls = document.querySelector('.controls');
+  const GAP = 48;
+  const barH = () => (controls ? controls.offsetHeight : 0);
 
-  // Measure and scroll. Only called once the layout is settled.
-  const go = () => {
-    const h = controls ? controls.offsetHeight : 0;
-    const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
+  // Scroll so the card sits GAP px below the controls bar.
+  const place = () => {
+    const top = el.getBoundingClientRect().top + window.scrollY - (barH() + GAP);
     window.scrollTo({ top, behavior: 'smooth' });
   };
 
-  // The controls bar is position:sticky, so it occupies real space in the
-  // document. When it auto-collapses past 60px of scroll, every card below it
-  // shifts UP by the height of the collapsed rows. If that happens mid-scroll
-  // the landing point is wrong. So collapse it first, let the 0.3s transition
-  // finish, then measure the real positions and scroll once.
-  if (!controls || controls.classList.contains('collapsed')) return go();
+  // Two things move the page AFTER we scroll. The controls bar is
+  // position:sticky, so collapsing it takes real height out of the document and
+  // shifts every card up. And webfonts load with display=swap, so when they
+  // land every card reflows. Rather than try to predict either, scroll, then
+  // check where the card actually ended up and correct until it is right.
+  const settle = (tries) => {
+    if (tries <= 0) return;
+    const off = (el.getBoundingClientRect().top - barH()) - GAP;
+    if (Math.abs(off) > 4) {
+      window.scrollBy({ top: off, behavior: 'auto' });
+      setTimeout(() => settle(tries - 1), 120);
+    }
+  };
 
-  const willScrollPastThreshold =
-    el.getBoundingClientRect().top + window.scrollY - (controls.offsetHeight + 48) > 60;
+  const run = () => { place(); setTimeout(() => settle(5), 420); };
 
-  if (!willScrollPastThreshold) return go();
-
-  controls.classList.add('collapsed');
-  setTimeout(go, 340);
+  // If webfonts are still loading, wait: no point aiming at a layout that is
+  // about to change. Falls straight through once they are cached.
+  if (document.fonts && document.fonts.status !== 'loaded' && document.fonts.ready) {
+    document.fonts.ready.then(run).catch(run);
+  } else { run(); }
 }
 
 function toggleIcon(emoji) {

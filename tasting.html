@@ -23,9 +23,9 @@
   .site-header { padding: 3rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
   .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.06) 0%, transparent 70%); pointer-events: none; }
   .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
-  .header-theme { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 8vw, 3.2rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
-  .header-title { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; margin-bottom: 0.4rem; }
-  .header-meta { font-size: 13px; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.4rem; }
+  .header-theme { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 11vw, 3.8rem); font-weight: 300; color: var(--cream); line-height: 1; letter-spacing: 0.02em; margin-bottom: 0.3rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; margin-bottom: 0.5rem; }
+  .header-meta { font-size: 13px; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.75rem; }
   .header-pricing { display: inline-flex; align-items: center; gap: 10px; font-size: 13px; padding: 5px 16px; border-radius: 20px; background: rgba(201,169,110,0.08); border: 1px solid var(--border2); color: var(--gold); letter-spacing: 0.04em; margin-bottom: 0.25rem; }
   .header-pricing span { color: var(--gold-dim); }
   .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
@@ -90,8 +90,8 @@
   .course-num { font-family: 'Cormorant Garamond', serif; font-size: 13px; color: var(--gold-dim); flex-shrink: 0; margin-top: 5px; letter-spacing: 0.06em; }
   .card-main { flex: 1; min-width: 0; }
   .course-section-label { font-family: 'Cormorant Garamond', serif; font-size: 13px; font-style: italic; color: var(--gold-dim); letter-spacing: 0.1em; margin-bottom: 1px; }
-  .course-name { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 500; color: var(--cream); line-height: 1.2; }
-  .course-desc { font-size: 15px; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+  .course-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-weight: 400; color: var(--cream); line-height: 1.2; }
+  .course-desc { font-size: 13px; color: var(--muted); margin-top: 4px; line-height: 1.4; }
   .card-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 7px; }
   .veg-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: var(--green-dim); border: 1px solid rgba(90,154,106,0.3); color: var(--green); }
   .no-pairing-badge { font-size: 13px; padding: 2px 8px; border-radius: 10px; background: rgba(201,169,110,0.06); border: 1px solid var(--border); color: var(--gold-dim); }
@@ -126,8 +126,8 @@
   /* Expand sections */
   .expand-section { margin-top: 0; }
   .expand-section-title { font-size: 13px; color: var(--gold-dim); letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; padding: 7px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; margin-top: 10px; }
-  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.6; padding: 8px 0 4px; }
-  
+  .expand-section-body { font-size: 15px; color: var(--muted); line-height: 1.6; padding: 8px 0 4px; display: none; }
+  .expand-section-body.open { display: block; }
 
   .key-term { margin-bottom: 10px; }
   .key-term-name { color: var(--cream); font-weight: 500; font-size: 15px; margin-bottom: 2px; }
@@ -153,7 +153,7 @@
   .pairing-detail-label { font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 2px; }
   .pairing-detail-value { font-size: 13px; color: var(--cream); line-height: 1.3; }
   .pairing-bottom { padding: 12px 16px 14px; }
-  .pairing-note { font-size: 15px; color: var(--muted); line-height: 1.65; }
+  .pairing-note { font-size: 14px; color: var(--muted); line-height: 1.65; }
   .pairing-exclusive-note { font-size: 12px; color: var(--gold-dim); font-style: italic; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border); }
 
   /* ── AMUSE NOTE ── */
@@ -230,10 +230,37 @@ const ALLERGEN_KEYS = ['shellfish','dairy','nuts','gluten','eggs','soy','peanuts
 
 function scrollToEl(el) {
   if (!el) return;
-  const controls = document.getElementById('controls');
-  const h = controls ? controls.offsetHeight : 0;
-  const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
-  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+  const controls = document.querySelector('.controls');
+  const GAP = 48;
+  const barH = () => (controls ? controls.offsetHeight : 0);
+
+  // Scroll so the card sits GAP px below the controls bar.
+  const place = () => {
+    const top = el.getBoundingClientRect().top + window.scrollY - (barH() + GAP);
+    window.scrollTo({ top, behavior: 'smooth' });
+  };
+
+  // Two things move the page AFTER we scroll. The controls bar is
+  // position:sticky, so collapsing it takes real height out of the document and
+  // shifts every card up. And webfonts load with display=swap, so when they
+  // land every card reflows. Rather than try to predict either, scroll, then
+  // check where the card actually ended up and correct until it is right.
+  const settle = (tries) => {
+    if (tries <= 0) return;
+    const off = (el.getBoundingClientRect().top - barH()) - GAP;
+    if (Math.abs(off) > 4) {
+      window.scrollBy({ top: off, behavior: 'auto' });
+      setTimeout(() => settle(tries - 1), 120);
+    }
+  };
+
+  const run = () => { place(); setTimeout(() => settle(5), 420); };
+
+  // If webfonts are still loading, wait: no point aiming at a layout that is
+  // about to change. Falls straight through once they are cached.
+  if (document.fonts && document.fonts.status !== 'loaded' && document.fonts.ready) {
+    document.fonts.ready.then(run).catch(run);
+  } else { run(); }
 }
 
 function applyScrollMargins() {
@@ -472,24 +499,24 @@ function buildExpand(course) {
 
     ${keyTermsHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-terms')">Key Terms <span id="arr-${course.id}-terms">▾</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-terms')">Key Terms <span id="arr-${course.id}-terms">▸</span></div>
       <div class="expand-section-body" id="sec-${course.id}-terms">${keyTermsHtml}</div>
     </div>` : ''}
 
     ${sourcingHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-sourcing')">Sourcing &amp; Provenance <span id="arr-${course.id}-sourcing">▾</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-sourcing')">Sourcing &amp; Provenance <span id="arr-${course.id}-sourcing">▸</span></div>
       <div class="expand-section-body" id="sec-${course.id}-sourcing">${sourcingHtml}</div>
     </div>` : ''}
 
     ${chefHtml ? `
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-chef')">Chef &amp; Service Notes <span id="arr-${course.id}-chef">▾</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-chef')">Chef &amp; Service Notes <span id="arr-${course.id}-chef">▸</span></div>
       <div class="expand-section-body" id="sec-${course.id}-chef">${chefHtml}</div>
     </div>` : ''}
 
     <div class="expand-section">
-      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-pairing')">Wine Pairing <span id="arr-${course.id}-pairing">▾</span></div>
+      <div class="expand-section-title" onclick="toggleSec(event,'${course.id}-pairing')">Wine Pairing <span id="arr-${course.id}-pairing">▸</span></div>
       <div class="expand-section-body" id="sec-${course.id}-pairing">${pairingCard}</div>
     </div>
   `;
@@ -511,9 +538,9 @@ function toggleSec(e, secId) {
   const sec = document.getElementById('sec-' + secId);
   const arr = document.getElementById('arr-' + secId);
   if (!sec) return;
-  const isHidden = sec.style.display === 'none';
-  sec.style.display = isHidden ? '' : 'none';
-  if (arr) arr.textContent = isHidden ? '▾' : '▸';
+  const isOpen = sec.classList.contains('open');
+  sec.classList.toggle('open', !isOpen);
+  if (arr) arr.textContent = isOpen ? '▸' : '▾';
 }
 
 function toggleLegend() {
