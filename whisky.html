@@ -276,20 +276,28 @@ function applyScrollMargins() {
 function scrollToEl(el) {
   if (!el) return;
   const controls = document.querySelector('.controls');
-  let h = controls ? controls.offsetHeight : 0;
-  // The controls bar auto-collapses once the page scrolls past 60px. If we are
-  // still at the top with the bar expanded, measure the height it will SHRINK to,
-  // otherwise the card lands too low and the previous card shows above it.
-  if (controls && !controls.classList.contains('collapsed')) {
-    const provisional = el.getBoundingClientRect().top + window.scrollY - (h + 48);
-    if (provisional > 60) {
-      const collapsible = controls.querySelector('.controls-collapsible');
-      if (collapsible) h = h - collapsible.offsetHeight;
-      controls.classList.add('collapsed');
-    }
-  }
-  const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
-  window.scrollTo({ top, behavior: 'smooth' });
+
+  // Measure and scroll. Only called once the layout is settled.
+  const go = () => {
+    const h = controls ? controls.offsetHeight : 0;
+    const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
+    window.scrollTo({ top, behavior: 'smooth' });
+  };
+
+  // The controls bar is position:sticky, so it occupies real space in the
+  // document. When it auto-collapses past 60px of scroll, every card below it
+  // shifts UP by the height of the collapsed rows. If that happens mid-scroll
+  // the landing point is wrong. So collapse it first, let the 0.3s transition
+  // finish, then measure the real positions and scroll once.
+  if (!controls || controls.classList.contains('collapsed')) return go();
+
+  const willScrollPastThreshold =
+    el.getBoundingClientRect().top + window.scrollY - (controls.offsetHeight + 48) > 60;
+
+  if (!willScrollPastThreshold) return go();
+
+  controls.classList.add('collapsed');
+  setTimeout(go, 340);
 }
 
 function setCat(cat) {
