@@ -63,7 +63,10 @@
    }
   ],
   "sourcing": [
-   "Wegmeyer Farms (when possible)"
+   {
+    "name": "Wegmeyer Farms",
+    "description": "A Loudoun County, Virginia farm best known for pick-your-own strawberries. The kitchen uses their fruit when the season and supply allow, which is noted on the binder page as 'when possible' rather than guaranteed. Worth mentioning to a guest who asks where the strawberries come from, with the caveat that it varies."
+   }
   ],
   "chef_notes": "Served cold. Guests who expect a hot soup should be told before it lands. Kitchen confirms this is not bread thickened, so it is gluten free unlike a traditional gazpacho.",
   "wine_pairings_btg": [
@@ -160,7 +163,12 @@
     "definition": "Dark green, thick, and strongly nutty. A Styrian specialty in Austria, where it is a regional staple rather than a garnish."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Styrian Pumpkin Seed Oil",
+    "description": "Pressed from the dark green hull-less seeds of the Styrian oil pumpkin, a variety grown almost exclusively in the Styria region of Austria. Cold pressed and unfiltered, which preserves the intense nutty flavour and the deep green colour that earned it the nickname green gold. It is a protected regional product and a genuine Austrian specialty."
+   }
+  ],
   "chef_notes": "Pepitas and pumpkin seed oil are both seeds. They do not trigger tree nut protocols, but say so plainly rather than just answering no to a nut question.",
   "wine_pairings_btg": [
    {
@@ -256,7 +264,10 @@
    }
   ],
   "sourcing": [
-   "Burgundy, France (arrive without shells)"
+   {
+    "name": "Burgundy Escargot",
+    "description": "The snails arrive from Burgundy, France, already removed from their shells, which is why the dish is served out of the shell rather than in it. Helix pomatia from Burgundy is the benchmark culinary snail and is what the classic Escargots de Bourgogne is built on."
+   }
   ],
   "chef_notes": "The kitchen classifies escargot as shellfish, so treat it as a yes for any shellfish allergy rather than getting into the mollusc distinction.",
   "wine_pairings_btg": [
@@ -447,7 +458,10 @@
    }
   ],
   "sourcing": [
-   "Local corn"
+   {
+    "name": "Local Corn",
+    "description": "Corn sourced locally through the summer, which is what makes this a seasonal dish rather than a year-round one. The corn rib technique depends on fresh cobs, since the kernels need to be full enough to curl properly when the strip cooks."
+   }
   ],
   "chef_notes": "Eaten by hand. Warn tables who might not expect that. The dipping sauce comes on the side, which makes the dairy easy to hold.",
   "wine_pairings_btg": [
@@ -546,7 +560,16 @@
     "definition": "Japanese breadcrumb made from crustless bread baked without crust browning. The flakes are larger and airier than standard crumb, so it absorbs less oil and stays crisp considerably longer."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Old Bay",
+    "description": "A Mid-Atlantic spice blend invented in Baltimore in 1939 by Gustav Brunn, a German-Jewish refugee, combining 18 herbs and spices. Sold in its distinctive yellow tin, it is the defining seasoning of Chesapeake crab country."
+   },
+   {
+    "name": "Prawn Chips",
+    "description": "Also known as prawn crackers, krupuk udang in Indonesia or bánh phồng tôm in Vietnam. A puffed snack popular across Southeast and East Asia, made from real shrimp and tapioca starch, deeply savoury with a distinct ocean-sweet flavour. They contain genuine shellfish protein."
+   }
+  ],
   "chef_notes": "Kitchen confirms neither the dairy nor the gluten can be removed. The shellfish is in the chips rather than the dip, but the dip itself still cannot be made dairy or gluten free.",
   "wine_pairings_btg": [
    {
@@ -1016,7 +1039,10 @@
    }
   ],
   "sourcing": [
-   "Made in house"
+   {
+    "name": "Made in House",
+    "description": "The focaccia is baked in house, as is the strawberry balsamic served alongside it. Focaccia originates in Liguria, and the name comes from the Latin panis focacius, meaning hearth bread, a reference to baking it directly over coals."
+   }
   ],
   "chef_notes": "Kitchen confirms this contains dairy, which surprises people since focaccia is usually made with olive oil alone. Not vegan and not dairy free.",
   "file": "dinner"
@@ -1243,7 +1269,12 @@
     "definition": "Ground sesame seed paste. Sesame is a top-nine allergen in the United States and is not a tree nut."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Joyce Farms",
+    "description": "A family owned operation in North Carolina raising slower growing heritage birds without antibiotics. The longer growing cycle produces firmer texture and more developed flavour than commodity chicken, which is why the half bird holds up to the rotisserie without drying out."
+   }
+  ],
   "chef_notes": "Half is $32, whole is $60. Always confirm before firing. Sesame is a declarable allergen in its own right, so name it rather than clearing the dish as nut free and stopping there.",
   "wine_pairings_btg": [
    {
@@ -1338,7 +1369,12 @@
     "definition": "Classified as a tree nut by the FDA for labeling, though botanically a drupe. Most tree nut allergic guests tolerate it, but never assume on their behalf."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Whole Roasted Fish",
+    "description": "Cooked whole on the rotisserie. The binder titles this dish Branzino, the Italian name for European sea bass, though the description text refers to sea bream. Those are different fish, so confirm the species with the kitchen before quoting it to a guest."
+   }
+  ],
   "chef_notes": "Peanut is structural in the green curry and cannot be removed. Cashews are a garnish and can be. The binder titles this Branzino but the description text says Sea Bream, so confirm the species with the kitchen before quoting it to a guest.",
   "wine_pairings_btg": [
    {
@@ -1433,7 +1469,10 @@
    }
   ],
   "sourcing": [
-   "D'Artagnan"
+   {
+    "name": "D'Artagnan",
+    "description": "A New York based purveyor founded in 1985 that supplies restaurants with game, duck and charcuterie. Rohan duck is their proprietary crossbreed, developed from heritage lines including Heritage Mallard and Pekin. It carries deep rose coloured flesh and a milder flavour than most wild waterfowl, and is bred deliberately leaner than a traditional Pekin, so it renders with less unrendered fat under the skin."
+   }
   ],
   "chef_notes": "The chili crisp contains pine nuts and is also where the gluten sits. Removing it addresses both. Kitchen confirms no dairy, so the duck fat potatoes are not buttered.",
   "wine_pairings_btg": [
@@ -1831,7 +1870,16 @@
     "definition": "The cured roe of flying fish, prized in sushi for its crunch and the pop it gives when bitten. The spheres run half a millimetre to one millimetre, larger than capelin roe and smaller than salmon roe."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Tobiko",
+    "description": "The cured roe of marine flying fish, prized in sushi for its crunch and the pop it gives when bitten. The individual spheres measure half a millimetre to one millimetre, larger and crisper than capelin roe but significantly smaller than salmon roe."
+   },
+   {
+    "name": "Pearl Couscous",
+    "description": "A machine-made toasted pasta formed into small uniform spheres, also called Israeli couscous or ptitim. Invented in Israel in the 1950s as a wheat-based substitute for scarce rice. Entirely distinct from Moroccan couscous, which is smaller, irregular and steamed rather than boiled."
+   }
+  ],
   "chef_notes": "The printed menu describes a cauliflower preparation. The kitchen build is pearl couscous with shrimp, mango and squash in coconut milk with tobiko butter. Go by the kitchen. Three of the four major allergens are present and none can be removed.",
   "wine_pairings_btg": [
    {
@@ -2028,7 +2076,12 @@
     "definition": "The Belgian stew this dish evolved from. That name is internal only and does not appear on the printed menu."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "PEI Mussels",
+    "description": "Blue mussels native to Prince Edward Island, Canada, sustainably rope grown in the cold Atlantic waters off the coast. Known for a sweet, rich flavour and jet-black shells, and cleaner than wild harvested mussels because rope cultivation keeps them off the seabed."
+   }
+  ],
   "chef_notes": "Kitchen confirms the broth is tomato based with no dairy, so the only modification needed is holding the bread. Seasonal fish changes, so confirm what it is each evening.",
   "wine_pairings_btg": [
    {
@@ -2125,7 +2178,14 @@
    }
   ],
   "sourcing": [
-   "Smoke in Chimney, New Castle, Virginia (James River)"
+   {
+    "name": "Smoke in Chimney",
+    "description": "A revitalised 1930s trout hatchery and regenerative farm in New Castle, Virginia, on the James River, owned and operated by Ty and Shannon Walker. The farm is known across the Mid-Atlantic for raising rainbow trout that eat like wild stream-caught fish, and it is the most local protein on the menu."
+   },
+   {
+    "name": "Rainbow Trout",
+    "description": "A member of the salmon family, which gives it a rich, buttery mouthfeel, but with a milder, sweeter and markedly less fishy flavour than Atlantic salmon. One of the more sustainable farmed fish available."
+   }
   ],
   "chef_notes": "Both allergens here are removable: the sauce carries the dairy and the pine nuts are a garnish. That makes it one of the easier mains to modify.",
   "wine_pairings_btg": [
@@ -2227,7 +2287,14 @@
    }
   ],
   "sourcing": [
-   "Snake River Farms American Wagyu, Idaho"
+   {
+    "name": "Snake River Farms",
+    "description": "A family owned ranching operation based in Idaho and Washington, and the pioneer of American Wagyu. Founded over half a century ago, the brand crossbreeds fullblooded Japanese Wagyu, primarily the Kuroge Washu breed, with high quality American Black Angus. The result bridges Japanese marbling with the beefier flavour an American palate expects."
+   },
+   {
+    "name": "Purple Haze",
+    "description": "An award-winning fresh goat cheese from Cypress Grove in Humboldt County, California, blended with culinary lavender buds and hand-harvested fennel pollen. Named as a nod to the 1967 Jimi Hendrix song. The same cheese appears on the tasting menu amuse."
+   }
   ],
   "chef_notes": "Kitchen cooks this medium rare as standard. Confirm with the guest if they want otherwise. Almondine means almonds and the sauce is built on them, so the name itself is the allergy warning.",
   "wine_pairings_btg": [
@@ -2425,7 +2492,14 @@
    }
   ],
   "sourcing": [
-   "Goldberry Hill Farm honey, Clifton Road, Clifton, Virginia"
+   {
+    "name": "Goldberry Hill Farm",
+    "description": "A small family apiary on Clifton Road in Clifton, Virginia, roughly ten minutes from the restaurant. Operating for over five years, they harvest artisanal honey from wildflowers blooming within a strict three mile radius of the property. This is the most local ingredient on the entire menu, and the honey also appears on the tasting menu."
+   },
+   {
+    "name": "Preserved Lemon",
+    "description": "A cornerstone of North African and Moroccan cooking. Whole lemons are packed tightly in coarse salt and their own juice for several weeks or months. Only the softened rind is used, and it reads floral and savoury rather than sharp, since the salt draws out most of the acidity."
+   }
   ],
   "chef_notes": "This is the vegetarian main. Kitchen confirms it is gluten free. A vegan guest needs both the feta and the honey vinaigrette addressed, so check what the kitchen can do rather than just pulling the cheese.",
   "wine_pairings_btg": [
@@ -2518,7 +2592,12 @@
     "definition": "A yolk buried in salt and sugar until firm enough to grate. Behaves like a hard cheese with a deeper savory note."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Cured Egg Yolk",
+    "description": "Raw yolks buried in a dense mixture of salt and sugar for several days, then dehydrated until firm. The cure draws out moisture and concentrates the yolk's fats and proteins, turning a liquid egg into a hard, grateable wedge with a velvety texture and a flavour close to a deeply savoury Parmesan."
+   }
+  ],
   "chef_notes": "Kitchen confirms this can be made neither dairy free nor gluten free, because the cheese and flour are both in the dough. Egg is in the dough as well as on top.",
   "wine_pairings_btg": [
    {
@@ -2615,7 +2694,12 @@
     "definition": "Tomatoes fully submerged in olive oil with garlic and aromatics, then baked slowly at low temperature. From the French confire, to preserve. The slow poach draws out water and concentrates the sugars while the flesh takes on the oil."
    }
   ],
-  "sourcing": [],
+  "sourcing": [
+   {
+    "name": "Carnaroli Rice",
+    "description": "A high-starch Italian white rice often called the king of rices. The long plump grains hold a firm al dente core while releasing enough starch for a creamy result, and they resist overcooking better than Arborio, which is why it is preferred for risotto at service pace."
+   }
+  ],
   "chef_notes": "Kitchen confirms it is finished with butter and parmesan, so it is not dairy free. Parmesan rennet is the open question for a strict vegetarian.",
   "wine_pairings_btg": [
    {
@@ -2907,7 +2991,14 @@
    }
   ],
   "sourcing": [
-   "Local apricots"
+   {
+    "name": "Local Apricots",
+    "description": "The tart is built on local apricots at the peak of stone fruit season, which makes it a genuinely seasonal dessert rather than a fixture."
+   },
+   {
+    "name": "Apricot Kernel",
+    "description": "The small almond-shaped seed inside the hard woody pit of the apricot. Used across global cuisines as a flavouring, it delivers an intensely aromatic profile reminiscent of marzipan, roasted almonds and cherry blossom. It is a stone fruit seed rather than a tree nut, but the resemblance is close enough that a nut allergic guest should be told what it is."
+   }
   ],
   "chef_notes": "Kitchen classifies the apricot kernel as not a nut, which is technically correct since it is a stone fruit seed. It tastes of almond because it shares the same aromatic compound, and some tree nut allergic guests do react. Tell the guest what it is and let them decide rather than simply clearing it.",
   "afters_pairings": [

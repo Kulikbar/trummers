@@ -227,7 +227,16 @@
      "definition": "Trademarked as Lollipops and broadly known as Kalettes, a cross between Red Russian kale and Brussels sprouts. Small open rosettes with frilly leaves, milder and sweeter than either parent."
     }
    ],
-   "sourcing": [],
+   "sourcing": [
+    {
+     "name": "U12 Shrimp",
+     "description": "Under twelve shrimp per pound, the large grade. A lower number means a bigger shrimp. The size matters for poaching, because a larger shrimp holds its texture while the centre comes up to temperature, where a smaller grade would go rubbery first."
+    },
+    {
+     "name": "Lollipop Kale Sprouts",
+     "description": "Trademarked as Lollipops and broadly known as Kalettes, a hybrid created by crossbreeding Red Russian kale with Brussels sprouts. Small open rosettes with frilly silver-green leaves and crimson-purple veins, milder and sweeter than either parent."
+    }
+   ],
    "chef_notes": "The habanero is genuinely hot and guests do not expect heat in a shrimp cocktail, so flag it. Shellfish cannot be worked around, which makes this the course that decides whether the menu is possible for a given guest.",
    "pairing": {
     "wine_id": "421",
@@ -308,7 +317,16 @@
      "definition": "A classical French sauce built by reducing veal or beef stock with wine until it is glossy and coats a spoon. Long, slow and labour intensive, and the reason the sauce has the body it does."
     }
    ],
-   "sourcing": [],
+   "sourcing": [
+    {
+     "name": "Chestnut Spaetzle",
+     "description": "Spaetzle is a soft egg noodle from southern Germany and Austria, scraped or pressed into boiling water so no two pieces match. Chestnut flour gives it a sweeter, softer character than plain wheat. Chestnuts are treated as tree nuts for allergy purposes, which is the thing to flag on this course."
+    },
+    {
+     "name": "Cherry Demi",
+     "description": "A demi-glace is built by reducing beef or veal stock with wine over hours until it is glossy enough to coat a spoon. Cherry carries the stone fruit theme into the savoury course and its acidity cuts the fat off the short rib."
+    }
+   ],
    "chef_notes": "Chestnut in the spaetzle is the allergen most likely to be missed, since nothing about the dish name suggests nuts. Gluten and egg are both structural in the spaetzle and neither can be removed.",
    "pairing": {
     "wine_id": null,
