@@ -191,36 +191,60 @@ function applyScrollMargins() {
     });
   }
 }
+let _scrollSettleAbort = null;
 function scrollToEl(el) {
   if (!el) return;
+  if (_scrollSettleAbort) _scrollSettleAbort();   // cancel any run still in flight
+
   const controls = document.querySelector('.controls');
   const GAP = 48;
   const barH = () => (controls ? controls.offsetHeight : 0);
+  const INPUT = ['wheel', 'touchstart', 'pointerdown', 'mousedown', 'keydown'];
 
-  // Scroll so the card sits GAP px below the controls bar.
+  let cancelled = false, timer = null, intended = null;
+
+  const stop = () => {
+    cancelled = true;
+    if (timer) { clearTimeout(timer); timer = null; }
+    INPUT.forEach(ev => window.removeEventListener(ev, stop));
+    if (_scrollSettleAbort === stop) _scrollSettleAbort = null;
+  };
+  INPUT.forEach(ev => window.addEventListener(ev, stop, { passive: true }));
+  _scrollSettleAbort = stop;
+
   const place = () => {
-    const top = el.getBoundingClientRect().top + window.scrollY - (barH() + GAP);
-    window.scrollTo({ top, behavior: 'smooth' });
+    intended = el.getBoundingClientRect().top + window.scrollY - (barH() + GAP);
+    window.scrollTo({ top: intended, behavior: 'smooth' });
   };
 
-  // Two things move the page AFTER we scroll. The controls bar is
-  // position:sticky, so collapsing it takes real height out of the document and
-  // shifts every card up. And webfonts load with display=swap, so when they
-  // land every card reflows. Rather than try to predict either, scroll, then
-  // check where the card actually ended up and correct until it is right.
-  const settle = (tries) => {
-    if (tries <= 0) return;
+  // Wait until scrolling has actually stopped before touching anything. Polling
+  // for a stable position works whether the scroll came from us, a wheel, a
+  // dragged scrollbar or a finger, which matters because a dragged scrollbar
+  // fires no pointer events on the page at all.
+  const whenIdle = (cb, checks, last) => {
+    if (cancelled) return;
+    const y = window.scrollY;
+    if (y === last) { checks++; } else { checks = 0; }
+    if (checks >= 2) return cb();
+    timer = setTimeout(() => whenIdle(cb, checks, y), 60);
+  };
+
+  // One correction, only if the page is still roughly where we put it. If the
+  // guest has scrolled somewhere else, leave them alone.
+  const correctOnce = () => {
+    if (cancelled) return stop();
+    if (intended !== null && Math.abs(window.scrollY - intended) > 200) return stop();
     const off = (el.getBoundingClientRect().top - barH()) - GAP;
-    if (Math.abs(off) > 4) {
-      window.scrollBy({ top: off, behavior: 'auto' });
-      setTimeout(() => settle(tries - 1), 120);
-    }
+    if (Math.abs(off) > 4) window.scrollBy({ top: off, behavior: 'auto' });
+    stop();
   };
 
-  const run = () => { place(); setTimeout(() => settle(5), 420); };
+  const run = () => {
+    if (cancelled) return;
+    place();
+    timer = setTimeout(() => whenIdle(correctOnce, 0, null), 200);
+  };
 
-  // If webfonts are still loading, wait: no point aiming at a layout that is
-  // about to change. Falls straight through once they are cached.
   if (document.fonts && document.fonts.status !== 'loaded' && document.fonts.ready) {
     document.fonts.ready.then(run).catch(run);
   } else { run(); }
