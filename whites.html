@@ -367,7 +367,19 @@ function toggleSec(e,secId){e.stopPropagation();const sec=document.getElementByI
 
 function scrollToEl(el) {
   if (!el) return;
-  const h = document.querySelector('.controls')?.offsetHeight || 0;
+  const controls = document.querySelector('.controls');
+  let h = controls ? controls.offsetHeight : 0;
+  // The controls bar auto-collapses once the page scrolls past 60px. If we are
+  // still at the top with the bar expanded, measure the height it will SHRINK to,
+  // otherwise the card lands too low and the previous card shows above it.
+  if (controls && !controls.classList.contains('collapsed')) {
+    const provisional = el.getBoundingClientRect().top + window.scrollY - (h + 48);
+    if (provisional > 60) {
+      const collapsible = controls.querySelector('.controls-collapsible');
+      if (collapsible) h = h - collapsible.offsetHeight;
+      controls.classList.add('collapsed');
+    }
+  }
   const top = el.getBoundingClientRect().top + window.scrollY - (h + 48);
   window.scrollTo({ top, behavior: 'smooth' });
 }
