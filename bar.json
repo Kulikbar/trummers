@@ -6850,20 +6850,21 @@
    "Cracker malt",
    "Floral hops",
    "Soft bitterness",
-   "Clean finish"
+   "Clean finish",
+   "Lemon"
   ],
-  "tableside": "A Czech style pilsner from Riverdale, Maryland. Crisp and low alcohol, which makes it the easiest beer on the list to hand someone who just wants a cold beer.",
+  "tableside": "A Czech style pilsner from Riverdale, just up the road in Maryland. Crisp, low alcohol, and clean, which makes it the easiest beer on the list to hand someone who just wants a cold beer without a conversation about it.",
   "pairings": [
    "Wienerschnitzel",
    "Loaded pierogies",
    "Buffalo chicken dip",
    "Cajun corn ribs"
   ],
-  "story": "Denizens Brewing was founded in Silver Spring in 2014 by three partners and has since expanded to a production facility in Riverdale Park. Czech pilsner is a harder style than it looks, because a light beer hides nothing, and the category is where brewers tend to prove technical control.",
+  "story": "Denizens Brewing was founded in Silver Spring in 2014 by Julie Verratti, Emily Bruno, and Jeff Ramirez, and later added a production brewery in Riverdale Park. Czech pilsner is a harder style than it looks, because a light beer hides nothing.",
   "trivia": [
    "Pilsner originated in Plzeň in 1842 and was the first pale lager, made possible by malting techniques that produced light coloured grain.",
    "Czech pilsner uses Saaz hops, a noble variety with floral, spicy character rather than the citrus of American hops.",
-   "Denizens was one of the first women-majority-owned breweries in Maryland."
+   "Co-founders Julie Verratti and Emily Bruno are a married couple and have been long-standing advocates for the queer community in craft beer."
   ],
   "file": "bar"
  },
@@ -6884,19 +6885,20 @@
    "Citrus",
    "Stone fruit",
    "Pine",
-   "Soft bitterness"
+   "Soft bitterness",
+   "Mango"
   ],
-  "tableside": "Ocelot is in Dulles, so this is about as local as beer gets for us. A modern IPA, leaning juicy and aromatic rather than aggressively bitter.",
+  "tableside": "Ocelot is in Dulles, so this is about as local as beer gets for us. A modern IPA leaning juicy and aromatic rather than aggressively bitter. Worth knowing they have no flagship, so what they send changes constantly.",
   "pairings": [
    "Buffalo chicken dip",
    "BBQ bone marrow",
    "Cajun corn ribs",
    "Crispy brussels sprouts"
   ],
-  "story": "Ocelot Brewing opened in Dulles in 2015 and built its reputation on hop-forward beers and a music-referencing naming habit. The brewery has become one of Northern Virginia's most respected names among people who follow the craft scene closely.",
+  "story": "Ocelot opened in Dulles in 2015, founded by three friends from engineering, banking, and bar backgrounds. The brewery deliberately has no flagship beer, releasing new ones constantly and rotating through IPAs, lagers, mixed fermentation, and barrel aged styles.",
   "trivia": [
-   "Most Ocelot beer names reference songs or albums, a running theme since the brewery opened.",
-   "Modern IPAs are often dry hopped after fermentation, which extracts aroma without the bitterness that boil hopping adds.",
+   "Every Ocelot beer is named after a song lyric, which is a running theme since the brewery opened.",
+   "The brewery has no flagship. The tap list turns over constantly by design, so what is pouring changes week to week.",
    "Loudoun County has grown one of the densest concentrations of breweries in Virginia over the past decade."
   ],
   "file": "bar"
@@ -6918,9 +6920,10 @@
    "Roasted malt",
    "Coffee",
    "Dark chocolate",
-   "Light smoke"
+   "Light smoke",
+   "Caramel"
   ],
-  "tableside": "A porter from Maryland's Eastern Shore. Roasty and dark but not heavy, so it works through a meal rather than only at the end of one.",
+  "tableside": "A porter from Maryland's Eastern Shore. Roasty and dark but not heavy, so it works through a meal rather than only at the end of one. Good bridge beer for a guest moving from dinner into dessert.",
   "pairings": [
    "BBQ bone marrow",
    "Prime rib",
@@ -6952,16 +6955,17 @@
    "Banana",
    "Clove",
    "Soft wheat",
-   "Light citrus"
+   "Light citrus",
+   "Bubblegum"
   ],
-  "tableside": "From the oldest working brewery in the world. The banana and clove notes come from the yeast, not from anything added, which surprises most guests when you tell them.",
+  "tableside": "From the oldest brewery in the world, brewing on the same hill since 1040. The banana and clove notes come from the yeast rather than anything added, which surprises most guests when you tell them. The natural partner to the schnitzel.",
   "pairings": [
    "Wienerschnitzel",
    "Buttermilk spätzle",
    "Loaded pierogies",
    "Salmon belly"
   ],
-  "story": "Weihenstephan traces brewing on its site in Freising to 1040, which makes it the oldest continuously operating brewery in the world. It sits alongside the Technical University of Munich's brewing faculty, where much of modern brewing science was formalised.",
+  "story": "Benedictine monks founded a monastery on the Weihenstephan hill at Freising in 725. In 1040 Abbot Arnold obtained a licence from the city to brew and sell beer, which is the date the brewery counts as its founding and which makes it the oldest continuously operating brewery in the world. Between 1085 and 1463 the monastery burned down four times and was hit by plague, famine and earthquake, and the monks rebuilt every time. The brewery is now state owned and sits alongside the Technical University of Munich's brewing faculty, where much of modern brewing science was formalised.",
   "trivia": [
    "The banana and clove character comes from compounds the wheat beer yeast produces during fermentation, isoamyl acetate and 4-vinyl guaiacol.",
    "Hefe means yeast, and the beer is unfiltered, which is why it pours cloudy.",
@@ -6991,20 +6995,21 @@
    "Dark caramel",
    "Toasted oak",
    "Baking spice",
-   "Dried cherry"
+   "Dried cherry",
+   "Leather"
   ],
-  "tableside": "Barrel proof at just under 60 percent, so it takes water well. Rare Character sources and blends rather than distilling, and they have built a reputation for finding genuinely old barrels.",
+  "tableside": "Barrel proof at just under 60 percent, so it takes water well and rewards a few drops. Rare Character does not distil anything. They buy mature barrels and bottle them one at a time at cask strength, which is a model borrowed from Scotland and still unusual in American whiskey.",
   "pairings": [
    "BBQ bone marrow",
    "Tomahawk ribeye",
    "Chocolate torte",
    "Banana walnut cake"
   ],
-  "story": "Rare Character is a Louisville blending house founded by Pablo Moix and Peter Wier, who buy mature barrels from multiple distilleries and bottle them at cask strength. The model is closer to Scottish independent bottling than to conventional American whiskey.",
+  "story": "Rare Character was founded in 2021 by Pablo Moix and Peter Nevenglosky, after the 2020 hospitality shutdown idled Moix's Los Angeles bars. Moix, a restaurateur behind Scopa Italian Roots and the rare spirits bar Old Lightning, selects the barrels; Nevenglosky built brands including Avuá Cachaça. They buy mature casks from distilleries across Kentucky, Tennessee, and Indiana and bottle at cask strength.",
   "trivia": [
-   "Independent bottlers rarely distil anything, and the skill sits in barrel selection and blending rather than production.",
-   "Barrel proof means bottled at the strength the whiskey came out of the barrel, with no water added.",
-   "Batch numbering rather than vintage dating lets a blender keep a house style consistent across different source stock."
+   "Independent bottlers rarely distil anything. The skill sits in barrel selection and blending, a model long established in Scotland but new to American whiskey.",
+   "Whisky Advocate has called Rare Character America's hottest whiskey company, and bottles regularly resell for many times their retail price.",
+   "The house has released more than 500 single barrels since 2021, most selected with the retailers and bars whose names appear on the labels."
   ],
   "file": "spirits"
  },
@@ -7030,20 +7035,21 @@
    "Black pepper",
    "Dill",
    "Toasted oak",
-   "Dark honey"
+   "Dark honey",
+   "Mint"
   ],
-  "tableside": "Same blending house as the bourbon batch and the same barrel proof approach, but rye rather than bourbon. Good comparison pour if a guest is trying both.",
+  "tableside": "Same blending house as the bourbon batch and the same barrel proof approach, but rye rather than bourbon. Bottled slightly higher at just over 60 percent, and rye's pepper reads sharper at that strength. Good comparison pour if a guest is trying both.",
   "pairings": [
    "BBQ bone marrow",
    "Wagyu flat iron",
    "Chocolate torte",
    "Cheese board"
   ],
-  "story": "Rare Character applies the same sourcing and blending model to rye as to bourbon, buying mature barrels and bottling without chill filtration. Rye stock is harder to source in quantity than bourbon, which is part of why these releases stay limited.",
+  "story": "Rare Character was founded in 2021 by Pablo Moix and Peter Nevenglosky, after the 2020 hospitality shutdown idled Moix's Los Angeles bars. Moix, a restaurateur behind Scopa Italian Roots and the rare spirits bar Old Lightning, selects the barrels; Nevenglosky built brands including Avuá Cachaça. They buy mature casks from distilleries across Kentucky, Tennessee, and Indiana and bottle at cask strength.",
   "trivia": [
-   "American rye must be at least 51 percent rye grain, and the remainder is usually corn and malted barley.",
-   "Rye was the dominant American whiskey style before Prohibition, and its recovery only really began in the 2000s.",
-   "Higher proof carries more of rye's volatile aromatic compounds, which is why cask strength rye reads so much more herbal."
+   "Independent bottlers rarely distil anything. The skill sits in barrel selection and blending, a model long established in Scotland but new to American whiskey.",
+   "Whisky Advocate has called Rare Character America's hottest whiskey company, and bottles regularly resell for many times their retail price.",
+   "The house has released more than 500 single barrels since 2021, most selected with the retailers and bars whose names appear on the labels."
   ],
   "file": "spirits"
  },
@@ -7068,22 +7074,24 @@
    "Vanilla",
    "Baked apple",
    "Soft spice",
-   "Light oak"
+   "Light oak",
+   "Dried cherry"
   ],
-  "tableside": "Canadian rather than American, and 100 percent rye but much softer than that suggests, because Canadian production methods differ. Easy pour for someone who finds American rye too sharp.",
+  "tableside": "Canadian rather than American, and 100 percent rye but far softer than that suggests, because Canadian production methods differ. Twelve years of age at $20 is unusual. Easy steer for someone who finds American rye too sharp.",
   "pairings": [
    "Wienerschnitzel",
    "Apricot tart",
    "Banana walnut cake",
    "Cheese board"
   ],
-  "story": "Pendleton is named for the Pendleton Round-Up, an Oregon rodeo running since 1910. The whisky is distilled in Canada and bottled in Oregon using glacial spring water from Mount Hood.",
+  "story": "Pendleton is named for the Pendleton Round-Up, an Oregon rodeo that has run every September since 1910. The whisky is distilled and aged in Canada for a minimum of twelve years, then shipped to Hood River Distillers in Oregon, where it is cut to proof with glacial spring water from Mount Hood and bottled. Canadian producers typically distil each grain separately and blend afterwards, where American distillers ferment a mixed mash, which is a large part of why a 100 percent rye from Canada tastes nothing like a 100 percent rye from Kentucky.",
   "trivia": [
    "Canadian whisky is often called rye regardless of its actual grain content, a naming habit that predates modern labelling rules.",
    "Canadian producers usually distil each grain separately and blend afterwards, where American distillers ferment a mixed mash.",
    "The Pendleton Round-Up has run every September since 1910 and is one of the oldest rodeos in the United States."
   ],
-  "file": "spirits"
+  "file": "spirits",
+  "_verify": "Menu prints 45%. Producer and retailers list Pendleton 1910 at 40% ABV / 80 proof. Confirm the bottle."
  },
  {
   "id": "203",
@@ -7145,16 +7153,17 @@
    "Vanilla",
    "Baking spice",
    "Toasted oak",
-   "Orange peel"
+   "Orange peel",
+   "Brown sugar"
   ],
-  "tableside": "One of the great value bourbons. 101 proof means it holds up in a cocktail instead of disappearing, which is exactly what it is built for.",
+  "tableside": "One of the great value bourbons and the most reliable cocktail-strength pour on the list. 101 proof means it holds its shape in a drink instead of disappearing, which is exactly what it was built for. Also perfectly good neat.",
   "pairings": [
    "BBQ bone marrow",
    "Prime rib",
    "Buffalo chicken dip",
    "Chocolate torte"
   ],
-  "story": "Jimmy Russell has worked at Wild Turkey since 1954 and is the longest tenured master distiller in the industry. He resisted lowering the proof of 101 through the 1980s when nearly every competitor was cutting strength to chase a lighter market.",
+  "story": "Wild Turkey has been made in Lawrenceburg since the Ripy family built on the site in 1891. Jimmy Russell joined in 1954 and is the longest tenured master distiller in the industry, working alongside his son Eddie, who joined in 1981. Russell held 101 at full proof through the 1980s when nearly every competitor cut strength to chase a lighter market, and that decision is much of why the brand still has the following it does. The distillery runs only two mash bills, one bourbon and one rye, and gets its range from age and warehouse position rather than recipe.",
   "trivia": [
    "Jimmy Russell's son Eddie joined in 1981, and the two work as co-master distillers.",
    "Wild Turkey enters its barrels at a lower proof than most producers, which means less water is added at bottling.",
@@ -7173,7 +7182,7 @@
   "price": 23,
   "allocated": false,
   "mash_bill": "70 percent corn, 16 percent red winter wheat, 14 percent malted barley. Wheated rather than rye.",
-  "why": "Maker's finishes this by adding toasted virgin oak staves to the barrel for a second maturation. Each annual release uses a different stave profile, so no two years taste the same.",
+  "why": "The third of five releases in the second volume of the Wood Finishing Series, which began in 2019. This one honors the distillery's operations teams and is finished with ten toasted new white oak staves added to fully mature cask strength bourbon.",
   "icons": [
    "🔥",
    "🍯",
@@ -7184,20 +7193,21 @@
    "Baked bread",
    "Caramel",
    "Toasted oak",
-   "Dark fruit"
+   "Dark fruit",
+   "Cherry"
   ],
-  "tableside": "The 2026 release in Maker's annual finishing series. They drop toasted oak staves into the barrel for a second maturation, so it is richer and woodier than standard Maker's without losing the soft wheated core.",
+  "tableside": "The 2026 release in the Wood Finishing Series. Maker's drops ten toasted oak staves into fully mature barrels for a second maturation, so it comes out richer and woodier than standard Maker's without losing the soft wheated core.",
   "pairings": [
    "Prime rib",
    "Chocolate torte",
    "Banana walnut cake",
    "Apricot tart"
   ],
-  "story": "Maker's Mark developed stave finishing at its Star Hill Farm cellar, working with independent wood scientists to profile how different toast levels affect flavour. Each Wood Finishing Series release uses a different stave recipe and is released once a year.",
+  "story": "Maker's Mark began the Wood Finishing Series in 2019, using a stave finishing technique that grew out of the development of Maker's 46. The first volume explored production variables like barrel entry proof. A second volume of five releases started in 2024 with The Heart Release, followed by The Keeper's Release in 2025. The Steward's Release is the third, honouring the operations teams who run the distillery from fermentation through bottling. Each release uses a different stave recipe and cellar time, and is made once a year.",
   "trivia": [
-   "Wheat replaces rye as the flavouring grain in the Maker's mash bill, which is why it reads softer and sweeter.",
-   "The finishing staves are seasoned outdoors for months before being toasted rather than charred.",
-   "Every bottle is still hand dipped in red wax at the Loretto distillery."
+   "Stave finishing grew out of the development of Maker's 46, where seared virgin oak staves are added to the barrel for a second maturation.",
+   "Maker's enters its barrels at 110 proof, lower than most competitors, which the distillery credits with keeping bitterness out.",
+   "Maker's is one of the few American distilleries to spell whisky without the e, a nod to the Samuels family's Scottish roots."
   ],
   "file": "spirits"
  },
@@ -7283,13 +7293,13 @@
   "cat": "Single Barrel & Barrel Proof",
   "type": "bourbon",
   "producer": "King of Kentucky",
-  "name": "",
+  "name": "12 Year Small Batch",
   "detail": "52.5% · 12 Year · Small Batch · Single Barrel",
   "abv": 52.5,
   "price": 80,
   "allocated": true,
   "mash_bill": "79 percent corn, 11 percent rye, 10 percent malted barley. The standard Brown-Forman recipe.",
-  "why": "The most expensive whiskey pour on the list. A 12 year single barrel released in very small annual quantities, and each barrel is bottled at its own individual proof.",
+  "why": "Brown-Forman's prestige bourbon, drawn from the oldest barrels at the Old Forester distillery. The 12 year small batch is the first batched release since the brand's 2018 revival, which until then had been single barrel only.",
   "icons": [
    "🔥",
    "🪵",
@@ -7300,22 +7310,24 @@
    "Dark chocolate",
    "Leather",
    "Charred oak",
-   "Dried cherry"
+   "Dried cherry",
+   "Tobacco"
   ],
-  "tableside": "Our top whiskey pour at $80. Brown-Forman revived the name in 2018 and releases only a few thousand bottles a year, each barrel bottled at its own proof.",
+  "tableside": "Our top whiskey pour at $80. King of Kentucky is drawn from Brown-Forman's oldest barrel stock and released in very small quantities each year. Worth telling a guest the history before they commit, because the price makes more sense with the story attached.",
   "pairings": [
    "Tomahawk ribeye",
    "Wagyu flat iron",
    "Chocolate torte",
    "Cheese board"
   ],
-  "story": "King of Kentucky was a Brown-Forman brand discontinued in 1968 and revived in 2018 as an annual limited single barrel release. The modern version bears no relation to the original beyond the name, and it sells out on release each year.",
+  "story": "King of Kentucky was founded in 1881 by John Roach, a distiller and horse racing enthusiast who named it for the sport of kings. Brown-Forman acquired the brand in 1936 from Selected Kentucky Distillers and, by 1940, converted it from straight bourbon to a blended whiskey, which is what it remained until it was discontinued in 1968 as American whiskey collapsed. The name sat dormant for fifty years. Brown-Forman revived it in 2018 as an ultra-premium annual release drawn from the oldest barrels at the Old Forester distillery in Louisville, and it has sold out on release ever since.",
   "trivia": [
-   "Each barrel is bottled at its own strength, so proof varies bottle to bottle within the same release.",
-   "The original King of Kentucky was a blended whiskey, a very different product from today's single barrel.",
-   "Twelve years is unusually old for Kentucky bourbon, where summer heat drives faster extraction than in Scotland."
+   "The brand was a blended whiskey for most of its original life, and only returned to straight bourbon on its 2018 revival.",
+   "Releases are drawn from Brown-Forman's oldest barrel stock and have ranged from 12 to 18 years.",
+   "Every bottle is hand filled, wax dipped, and hand numbered, and single barrel releases list the warehouse and barrel number."
   ],
-  "file": "spirits"
+  "file": "spirits",
+  "_verify": "Menu says both Small Batch and Single Barrel. The 12 Year is the 2026 Small Batch Collection; single barrel releases are older. Confirm which bottle."
  },
  {
   "id": "209",
@@ -7338,20 +7350,21 @@
    "Rye spice",
    "Mint",
    "Toasted oak",
-   "Caramel"
+   "Caramel",
+   "Vanilla"
   ],
-  "tableside": "A Kentucky distillery that started from scratch in 2014 rather than sourcing, which is rare. High rye mash, barrel proof, and a Virginia select barrel.",
+  "tableside": "A Kentucky distillery that started from scratch in 2014 rather than buying its way in, which is rare. High rye mash, barrel proof, and this one is a Virginia ABC select cask, meaning the state chose this exact barrel. Serious value at $20.",
   "pairings": [
    "Wagyu flat iron",
    "BBQ bone marrow",
    "Rack of lamb",
    "Cheese board"
   ],
-  "story": "New Riff was founded in Newport, Kentucky in 2014 by Ken Lewis, who committed to distilling everything in house rather than sourcing while waiting. The distillery bottles most of its range in bond and without chill filtration.",
+  "story": "New Riff was founded in 2014 in Newport, Kentucky by Ken Lewis and Jay Erisman, who had worked together at the Party Source across the river. Like most new distilleries it sold sourced whiskey while its own distillate matured, but its own production is bottled in bond and without chill filtration across the entire range, which is an unusually strict standard to hold to. The house mash is genuinely high rye at 30 percent. Their flagship Bottled-in-Bond bourbon was named World's Best Bourbon at the 2026 World Whiskies Awards, at a suggested price of about $40.",
   "trivia": [
    "Bottled in bond requires one distilling season, one distillery, at least four years in a federally supervised warehouse, and exactly 100 proof.",
-   "The 1897 Bottled-in-Bond Act was among the first consumer protection laws in the United States, predating the FDA.",
-   "Chill filtration removes compounds that cloud whiskey when cold, and skipping it keeps more texture and flavour."
+   "New Riff's Bottled-in-Bond bourbon was named World's Best Bourbon at the 2026 World Whiskies Awards, at a suggested price of about $40.",
+   "The distillery is known for unusual grain recipes including balboa rye, red turkey wheat, and 100 percent malted rye."
   ],
   "file": "spirits"
  },
@@ -7360,7 +7373,7 @@
   "cat": "Single Malt Scotch",
   "type": "scotch",
   "producer": "Glenmorangie",
-  "name": "12 Year",
+  "name": "The Original 12 Year",
   "detail": "40% · Highlands · Ex-bourbon casks",
   "abv": 40.0,
   "price": 14,
@@ -7376,22 +7389,24 @@
    "Citrus",
    "Peach",
    "Vanilla",
-   "Honey"
+   "Honey",
+   "Almond"
   ],
-  "tableside": "The easiest Scotch on our list for someone new to it. No peat smoke at all, just soft fruit and vanilla from bourbon casks. Their stills are the tallest in Scotland, which is what makes it so light.",
+  "tableside": "The easiest Scotch on our list for a guest new to the category. No peat smoke at all, just soft orchard fruit and vanilla off the bourbon casks. Their stills are the tallest in Scotland, which is genuinely why it tastes this light.",
   "pairings": [
    "Apricot tart",
    "Cheese board",
    "Ice cream trio",
    "Baked brie"
   ],
-  "story": "Glenmorangie sits in Tain in the northern Highlands and has used unusually tall stills since 1843. Height matters because only the lightest vapour reaches the top, so heavier compounds fall back and the spirit that carries over is delicate.",
+  "story": "Glenmorangie has distilled in Tain in the northern Highlands since 1843, using stills over five metres tall, the tallest in Scotland. Height matters because only the lightest vapour reaches the top of the still, so heavier compounds fall back and the spirit that carries over is delicate. The distillery has long been unusually focused on wood, managing its own American oak supply to control the casks going into maturation. The Original was a ten year old for decades and was recently reworked as a twelve, adding depth without changing the house character.",
   "trivia": [
    "The stills stand over five metres, roughly the height of an adult giraffe, which the distillery has leaned on in its own marketing.",
    "Glenmorangie manages its own American oak forests to control the wood going into its casks.",
    "Highland is the largest Scotch region by area, and its wines range from delicate to heavily peated depending on the distillery."
   ],
-  "file": "spirits"
+  "file": "spirits",
+  "_verify": "Menu says 40%. US bottlings are commonly 43%. Confirm the bottle."
  },
  {
   "id": "211",
@@ -7441,8 +7456,8 @@
   "abv": 58.2,
   "price": 33,
   "allocated": false,
-  "mash_bill": "70 percent soft red winter wheat, with malted barley. Wheat is the primary grain, not a flavouring grain.",
-  "why": "A wheat whiskey rather than a wheated bourbon, meaning wheat dominates the mash instead of corn. Maker's first release under its own farm name.",
+  "mash_bill": "Two mash bills blended: one entirely malted wheat, one 70 percent wheat and 30 percent malted barley. The final 2026 blend is 27 percent wheat, 62 percent malted wheat, and 11 percent malted barley. No corn at all.",
+  "why": "A wheat whiskey rather than a wheated bourbon, meaning there is no corn in it at all. The 2026 release blends seven and eight year whiskies at cask strength and adds hard red and hard white wheat alongside the soft red winter wheat used in the bourbon.",
   "icons": [
    "🔥",
    "🍞",
@@ -7452,20 +7467,21 @@
    "Fresh bread",
    "Honey",
    "Soft spice",
-   "Vanilla"
+   "Vanilla",
+   "Golden raisin"
   ],
-  "tableside": "Not a bourbon. Wheat is the main grain rather than corn, so it reads softer and more bread-like. This is Maker's Mark releasing under their farm name for the first time.",
+  "tableside": "Not a bourbon. Wheat is the main grain here rather than corn, so it reads softer and more bread-like than anything else on the list. This is Maker's Mark releasing under their farm name for the first time in seventy years.",
   "pairings": [
    "Apricot tart",
    "Banana walnut cake",
    "Cheese board",
    "Baked brie"
   ],
-  "story": "Star Hill Farm is the name of the land the Maker's Mark distillery sits on in Loretto, Kentucky. The release marks a shift toward estate identity, using wheat grown on regenerative farmland around the distillery.",
+  "story": "Star Hill Farm is the 1,100 acre property the Maker's Mark distillery sits on in Loretto, Kentucky. The whisky is the distillery's first new mash bill and first wheat whisky in roughly 70 years, released annually with the grain make-up changing each year. It was the first product to carry Estate Whiskey Alliance certification.",
   "trivia": [
-   "A wheated bourbon still has corn as its dominant grain, while a wheat whiskey is at least 51 percent wheat.",
-   "Maker's Mark became the first distillery in the world certified regenerative by Regenified, in 2024.",
-   "Soft red winter wheat is the same variety Maker's has used in its bourbon mash since the 1950s."
+   "A wheated bourbon still has corn as its dominant grain. A wheat whiskey has no corn requirement, and this one contains none.",
+   "Estate Whiskey certification, an initiative involving the University of Kentucky, requires production on site and at least two thirds of grain grown on distillery-controlled land.",
+   "The bottle does not carry the red wax seal. Maker's has said the wax is reserved for its bourbon only."
   ],
   "file": "spirits"
  },
@@ -7490,20 +7506,21 @@
    "Malted barley",
    "Caramel",
    "Toffee",
-   "Baking spice"
+   "Baking spice",
+   "Dried apricot"
   ],
-  "tableside": "American single malt, which only became a legally defined category in 2024. All malted barley like Scotch, but aged in new charred oak like bourbon, so it lands between the two.",
+  "tableside": "American single malt, a category that only received a legal federal definition in 2024. All malted barley like Scotch, but matured in new charred oak like bourbon, so it sits between the two. Good pour for a Scotch drinker who wants something different.",
   "pairings": [
    "Cheese board",
    "Apricot tart",
    "Ice cream trio",
    "Prime rib"
   ],
-  "story": "Stranahan's was founded in Denver in 2004 after Jess Graber met George Stranahan while responding to a barn fire on his property. It is among the oldest continuously operating craft distilleries in the country.",
+  "story": "Stranahan's was founded in Denver in 2004 by Jess Graber and George Stranahan, and is among the oldest continuously operating craft distilleries in the country. Graber distilled the first batch using beer mash from Stranahan's own Flying Dog Brewery, a connection the distillery still references. Everything is distilled at altitude in Colorado and matured in new charred American oak rather than the used casks a Scottish distillery would use, which is the main reason it reads sweeter and woodier than a comparable Highland malt.",
   "trivia": [
    "American single malt was formally defined by the TTB in 2024, requiring 100 percent malted barley from a single distillery.",
    "Denver's altitude means lower boiling points and faster barrel interaction than at sea level.",
-   "Unlike Scotch, American single malt is typically matured in new charred oak, which is why it reads sweeter and woodier."
+   "Jess Graber distilled his first batch of American single malt using beer mash from George Stranahan's Flying Dog Brewery."
   ],
   "file": "spirits"
  },
@@ -7528,16 +7545,17 @@
    "Honey",
    "Orchard fruit",
    "Malt",
-   "Light oak"
+   "Light oak",
+   "Butterscotch"
   ],
-  "tableside": "Finished in a solera, a stacked cask system borrowed from sherry production. Whiskey is drawn from the bottom and topped from above, so a little of every previous batch stays in the blend.",
+  "tableside": "Finished in a solera, a system borrowed from sherry production. Here it runs through large new American oak foeders that are never fully emptied, so a little of every previous batch stays in the blend. Softer and rounder than the standard bottling.",
   "pairings": [
    "Apricot tart",
    "Cheese board",
    "Baked brie",
    "Ice cream trio"
   ],
-  "story": "Blue Peak takes its name from a Colorado summit and is the solera finished expression in the Stranahan's range. The system was adapted from sherry bodegas in Jerez, where it has been used for centuries.",
+  "story": "Blue Peak is named for a 13,000 foot peak near Aspen. The whiskey spends four years in new charred American oak at Denver altitude, then passes through a solera of new American oak foeders, which are never fully drained.",
   "trivia": [
    "Solera means floor level in Spanish, referring to the bottom row of casks from which the finished product is drawn.",
    "Because casks are never fully emptied, a solera never fully turns over and traces of the original fill remain indefinitely.",
@@ -7567,9 +7585,10 @@
    "Raisin",
    "Fig",
    "Dark chocolate",
-   "Toffee"
+   "Toffee",
+   "Orange peel"
   ],
-  "tableside": "Finished in Pedro Ximénez sherry casks, which is the sweetest sherry there is. Expect raisin and figs rather than the caramel and oak of the standard bottling.",
+  "tableside": "Finished in Pedro Ximénez casks, which is the sweetest sherry there is. Expect raisin and figs rather than the caramel and oak of the standard bottling. The obvious pour alongside the chocolate torte or the banana walnut cake.",
   "pairings": [
    "Chocolate torte",
    "Banana walnut cake",
@@ -7595,7 +7614,7 @@
   "price": 27,
   "allocated": false,
   "mash_bill": "100 percent malted barley, finished in extra añejo tequila casks.",
-  "why": "An unusual finish. Extra añejo tequila casks bring a vegetal, agave-sweet edge that no wine or sherry cask produces.",
+  "why": "Diamond Peak is an annual release and the finish changes every year. This bottling used extra anejo tequila casks. Tell guests the finish rather than the name, since next year's will be different.",
   "icons": [
    "🍯",
    "🌶️",
@@ -7605,9 +7624,10 @@
    "Agave",
    "Honey",
    "Cooked pepper",
-   "Toffee"
+   "Toffee",
+   "Green herbs"
   ],
-  "tableside": "Finished in extra añejo tequila barrels, which is genuinely unusual. There is an agave note underneath the malt that surprises people. Good pour for a guest who thinks they have tried everything.",
+  "tableside": "Finished in extra añejo tequila barrels, which is genuinely unusual, and there is an agave note underneath the malt that surprises people. Diamond Peak is an annual release and the finish changes every year, so describe the finish rather than the name.",
   "pairings": [
    "Chocolate torte",
    "Cheese board",
@@ -7633,7 +7653,7 @@
   "price": 18,
   "allocated": false,
   "mash_bill": "Undisclosed. Canadian whisky is typically blended from separately distilled grain spirits.",
-  "why": "Marketed as the first single barrel Canadian whisky, selected from a large stock of aged Canadian barrels. Softer and lighter than any American equivalent at the price.",
+  "why": "Billed by Sazerac as the world's first single barrel Canadian whisky. Barrels are chosen from an inventory of more than 200,000 by master blender Drew Mayville, and bottling happens at Buffalo Trace in Kentucky.",
   "icons": [
    "🍯",
    "🍎"
@@ -7642,20 +7662,21 @@
    "Honey",
    "Apple",
    "Vanilla",
-   "Light oak"
+   "Light oak",
+   "Cinnamon"
   ],
-  "tableside": "Billed as the first single barrel Canadian whisky. Light and soft, which makes it an easy pour for someone who finds bourbon too heavy.",
+  "tableside": "Billed as the world's first single barrel Canadian whisky. Light and soft, which makes it an easy pour for a guest who finds bourbon too heavy. Distilled and aged in Canada, then bottled at Buffalo Trace in Kentucky.",
   "pairings": [
    "Apricot tart",
    "Cheese board",
    "Ice cream trio",
    "Baked brie"
   ],
-  "story": "Caribou Crossing was launched by Sazerac in 2010, drawing on a large inventory of aged Canadian whisky barrels. Each bottling comes from a single cask, which was unusual for a category built almost entirely on blending.",
+  "story": "Caribou Crossing is Sazerac's premium Canadian bottling, drawn from a very large inventory of aged Canadian barrels. It is selected by Drew Mayville, formerly the last master blender of the Seagram operation, who spent over twenty years working on Crown Royal. Each bottling comes from a single cask, unusual in a category built almost entirely on blending.",
   "trivia": [
-   "Canadian whisky must be aged at least three years in wood, a requirement stricter than the American minimum for straight whiskey.",
-   "The category's light style comes from blending high proof base spirit with a small proportion of flavouring whisky.",
-   "The bottle is topped with a pewter caribou, which is how most guests remember it."
+   "Canadian whisky must be aged at least three years in wood, stricter than the American minimum for straight whiskey.",
+   "The whisky is distilled and aged in Canada but bottled at Buffalo Trace in Frankfort, Kentucky, in the same place as Blanton's.",
+   "The bottle is topped with a caribou figurine, which is how most guests remember it."
   ],
   "file": "spirits"
  }
