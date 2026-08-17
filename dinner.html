@@ -554,7 +554,9 @@ function buildExpand(d) {
         ${btgPairings.length ? `
           <div class="detail-label" style="margin-bottom:6px;">By the Glass</div>
           <div class="pairing-cards">${btgPairings.map(p => {
-            const btgFileMap = {'BTG-001':'sparkling','BTG-002':'sparkling','BTG-003':'whites','BTG-004':'whites','BTG-005':'whites','BTG-006':'whites','BTG-007':'reds','BTG-008':'reds','BTG-009':'reds','BTG-010':'reds','BTG-011':'sparkling','BTG-012':'sparkling'};
+            // Fallback only. Every pairing in food.json now carries its own "file" field,
+            // which is authoritative. This map exists so older data still routes.
+            const btgFileMap = {'BTG-001':'sparkling','BTG-002':'sparkling','BTG-004':'whites','BTG-005':'whites','BTG-006':'whites','BTG-007':'reds','BTG-009':'reds','BTG-010':'reds','BTG-011':'sparkling','BTG-013':'whites','BTG-014':'sparkling','BTG-015':'reds'};
             const fileMap = {'sparkling':'sparkling.html','whites':'whites.html','reds':'reds.html'};
             const fileSrc = p.file ? p.file : (p.id && btgFileMap[p.id] ? btgFileMap[p.id] : null);
             const wPage = fileSrc ? fileMap[fileSrc] : null;
