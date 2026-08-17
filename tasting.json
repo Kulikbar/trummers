@@ -149,8 +149,16 @@
    ],
    "chef_notes": "Confirm whether the basil pesto contains pine nuts, since that is the likeliest hidden allergen in this course. Prosciutto can come off for a vegetarian but the pesto and stracciatella still need checking.",
    "pairing": {
-    "wine": "Szigeti, Blanc de Blancs, Burgenland, Austria, 2019",
-    "note": "Austrian sparkling. The bubbles and acidity cut the stracciatella and the hot honey, and it keeps a rich savoury course from sitting heavy."
+    "wine_id": "BTG-001",
+    "name": "Blanc de Blancs, Burgenland NV",
+    "producer": "Szigeti",
+    "grapes": "Chardonnay",
+    "region": "Burgenland, Austria",
+    "vintage": "2019",
+    "bin": "BTG-001",
+    "file": "sparkling",
+    "in_list": true,
+    "note": "Austrian traditional method sparkling from 100 percent Chardonnay, made by a house that does nothing but Sekt. Green apple and citrus with a fine, persistent bead and a bone dry finish. The bubbles and acidity scrub the stracciatella off the palate between bites, which a still white would not manage against that much fat. The hot honey needs a wine with no residual sugar of its own or the course tips sweet, and the prosciutto salt pulls the wine's fruit forward. This is also our least expensive by the glass sparkling, so a guest who likes it can carry on with it after the course."
    }
   },
   {
@@ -222,8 +230,16 @@
    "sourcing": [],
    "chef_notes": "The habanero is genuinely hot and guests do not expect heat in a shrimp cocktail, so flag it. Shellfish cannot be worked around, which makes this the course that decides whether the menu is possible for a given guest.",
    "pairing": {
-    "wine": "Luli, Chardonnay, Sta. Lucia Highlands, Monterey, CA, 2024",
-    "note": "Restrained California Chardonnay with enough weight for poached shrimp and enough acid to reset against the habanero."
+    "wine_id": "421",
+    "name": "Chardonnay, Sta. Lucia Highlands",
+    "producer": "Luli",
+    "grapes": "Chardonnay",
+    "region": "Monterey, California",
+    "vintage": "2024",
+    "bin": "421",
+    "file": "whites",
+    "in_list": true,
+    "note": "Santa Lucia Highlands sits in a wind tunnel that runs off Monterey Bay, so the fruit ripens slowly and the acidity survives. Restrained rather than buttery, with lemon curd, white peach and a saline edge. The weight matches poached U12 shrimp without flattening them, and the acidity resets the palate against the habanero, which builds over the course rather than hitting at once. Pickled peaches pick up the wine's own stone fruit. A rounder, oakier Chardonnay would smother the shrimp and amplify the chili heat instead of cooling it."
    }
   },
   {
@@ -295,8 +311,16 @@
    "sourcing": [],
    "chef_notes": "Chestnut in the spaetzle is the allergen most likely to be missed, since nothing about the dish name suggests nuts. Gluten and egg are both structural in the spaetzle and neither can be removed.",
    "pairing": {
-    "wine": "Schwartz, Shiraz, Nitschke Block, Barossa Valley, Australia, 2020",
-    "note": "Barossa Shiraz has the density for a braise and the dark fruit runs alongside the cherry rather than competing with it."
+    "wine_id": null,
+    "name": "Shiraz, Nitschke Block, Barossa Valley",
+    "producer": "Schwartz",
+    "grapes": "Shiraz",
+    "region": "Barossa Valley, Australia",
+    "vintage": "2020",
+    "bin": "",
+    "file": "reds",
+    "in_list": false,
+    "note": "Old vine Barossa Shiraz from a single block, dense and dark with blackberry, licorice and a savoury undertow that keeps it from reading as jammy. The concentration is what a braise needs: a lighter red would disappear under the cherry demi. The wine's dark fruit runs alongside the cherry rather than competing with it, and its tannin cuts the fat that comes off a short rib. Not on our regular list. This bottle is poured for the tasting menu only, so a guest who wants more of it cannot order it by the bottle."
    }
   },
   {
@@ -373,8 +397,16 @@
    ],
    "chef_notes": "Two nut considerations in one course: walnuts are on the plate and can presumably be left off, while the apricot kernel is in the ice cream and is structural. Give a nut allergic guest both facts and let them decide.",
    "pairing": {
-    "wine": "Poli, Bianco Vermouth of Vespaiola, Bassano, Veneto, Italy, NV",
-    "note": "An unusual dessert pairing. Aromatic vermouth rather than a sweet wine, so it lifts the fruit without adding more sugar to an already sweet plate."
+    "wine_id": "151",
+    "name": "Bianco Vermouth of Vespaiola NV",
+    "producer": "Poli",
+    "grapes": "Vespaiola",
+    "region": "Bassano, Veneto, Italy",
+    "vintage": "NV",
+    "bin": "151",
+    "file": "afters",
+    "in_list": true,
+    "note": "An aromatic white vermouth built on Vespaiola, a Veneto grape most often used for sweet Torcolato. Botanicals sit over honeyed fruit, and the bitterness on the finish is what makes this work where a dessert wine would not. The galette, the honey and the cherry compote are already carrying plenty of sugar, so the pairing lifts the fruit rather than adding to it. The vermouth's own almond and herb notes track the apricot kernel ice cream directly. Also on our afters list, so it is an easy suggestion for a guest who wants a second glass."
    }
   }
  ]
