@@ -7419,32 +7419,32 @@
   "abv": 45.0,
   "price": 11,
   "allocated": false,
-  "mash_bill": "Undisclosed blend of American and Canadian whiskies, finished in brandy barrels.",
-  "why": "A brandy cask finish, which is uncommon and pushes it toward dark fruit rather than the usual oak and vanilla.",
+  "mash_bill": "Undisclosed. A blended Canadian whisky distilled in Canada from northern grains, then finished and bottled in Oregon.",
+  "why": "A portion of the blend spends over six years in American brandy barrels, which is where the dark fruit comes from. Brandy casks are uncommon in whisky finishing and push it somewhere neither a bourbon nor a sherry cask can.",
   "icons": [
    "🍯",
    "🍎",
    "🛢️"
   ],
   "notes": [
-   "Dark cherry",
-   "Plum",
-   "Vanilla",
-   "Soft spice",
-   "Toasted oak"
+   "Leather",
+   "Cinnamon",
+   "Candied fig",
+   "Caramelized banana",
+   "Walnut"
   ],
-  "tableside": "Finished in brandy barrels, so it picks up stewed dark fruit that you do not get from bourbon casks. Cheapest pour on the list at $11.",
+  "tableside": "Canadian whisky, distilled in Canada and finished in Oregon with glacier water off Mount Hood. Part of the blend sits over six years in American brandy barrels, which is why it reads dark fruit and nuts rather than the vanilla you expect. At $11 it is the cheapest pour on the list and punches well above that.",
   "pairings": [
    "Roast duck",
    "Stone fruit desserts",
    "Soft ripened cheese",
    "Almond cake"
   ],
-  "story": "Pendleton is named for the Pendleton Round-Up, an Oregon rodeo that has run every September since 1910. The whisky is distilled and aged in Canada, then shipped to Hood River Distillers in Oregon, where it is proofed with glacial spring water from Mount Hood and bottled. Midnight is the darker expression in the range, blending American and Canadian whiskey and finishing it in brandy casks, which pushes it toward stewed dark fruit rather than the vanilla and oak of a bourbon cask. Because it crosses the border, it can legally be called neither a bourbon nor a Canadian whisky.",
+  "story": "Hood River Distillers was founded in 1934 and holds the first distiller's permit ever issued by the State of Oregon. It began by making wine and brandy from the apples, pears and berries grown in the Hood River Valley, which makes the brandy barrel finish here a return to the company's own origins rather than a gimmick. Pendleton Midnight launched in September 2015 as the premium step up from the standard bottling, at 90 proof against the original's 80. The whisky itself is distilled in Canada and shipped to Oregon, where it is proofed with glacier-fed spring water from Mount Hood before bottling. The Ultimate Spirits Challenge has rated it 96 points.",
   "trivia": [
-   "Cask finishing means moving whiskey into a second barrel that previously held something else for the last months of maturation.",
-   "Brandy barrels contribute stone fruit and raisin character that bourbon and sherry casks do not.",
-   "Blending across the American and Canadian border means the result cannot legally be called either a bourbon or a Canadian whisky."
+   "Hood River Distillers received the first distiller's permit the State of Oregon ever issued, in 1934, and started out making fruit brandy.",
+   "Only a portion of the blend goes into brandy barrels, and the percentage has never been disclosed.",
+   "Because the spirit is distilled in Canada and finished in the United States, it can legally be called neither a bourbon nor a straight Canadian whisky."
   ],
   "file": "spirits"
  },
@@ -7575,8 +7575,8 @@
   "abv": 45.0,
   "price": 24,
   "allocated": false,
-  "mash_bill": "100 percent malted barley, finished in Pedro Ximénez sherry casks.",
-  "why": "Pedro Ximénez is the sweetest sherry style, and its casks push raisin and dark sugar into the whiskey more aggressively than oloroso or fino would.",
+  "mash_bill": "100 percent malted barley, double distilled in Denver, matured in virgin American white oak and finished in Pedro Ximenez sherry casks.",
+  "why": "The finish has changed over the run. Early batches used 500 litre ex-Oloroso casks from Andalusia that had held sherry for over forty years. Pedro Ximenez was blended in about three years ago, which pushed it toward raisin and fig.",
   "icons": [
    "🍯",
    "🍫",
@@ -7586,22 +7586,22 @@
   "notes": [
    "Raisin",
    "Fig",
-   "Dark chocolate",
-   "Toffee",
-   "Orange peel"
+   "Montmorency cherry",
+   "Walnut",
+   "Brown sugar"
   ],
-  "tableside": "Finished in Pedro Ximénez casks, which is the sweetest sherry there is. Expect raisin and figs rather than the caramel and oak of the standard bottling. The obvious pour alongside the chocolate torte or the banana walnut cake.",
+  "tableside": "Finished in Pedro Ximenez casks, the sweetest sherry there is, so expect raisin and figs rather than the caramel and oak of the standard bottling. Worth knowing the recipe has shifted over its run: it used to be Oloroso and used to be bottled at 94 proof. It now sits at 90, which the distillery says lets the sherry show more clearly.",
   "pairings": [
    "Christmas pudding",
    "Blue cheese",
    "Dark chocolate",
    "Dried fruit"
   ],
-  "story": "Stranahan's finishes this in Pedro Ximénez casks, the sweetest of the sherry styles. PX grapes are laid out in the sun to raisin before pressing, which concentrates the sugar to extraordinary levels, and casks that held it carry that character into whatever follows. The malt underneath is the same Colorado spirit as the standard bottling, matured at Denver altitude in new charred American oak, so this is the house style with a layer of dried fruit over the top rather than a different whiskey. Sherry casks are now often seasoned specifically for the whisky trade rather than genuinely used for ageing sherry, a distinction worth knowing.",
+  "story": "Stranahan's built the Sherry Cask around 500 litre casks procured from Andalusia in southern Spain, the region known to wine drinkers as the Sherry Triangle. Those barrels had been ageing sherry for over forty years before the whiskey ever touched them, which is a far longer seasoning than most casks in the whisky trade get. The expression has evolved across sixteen or more batches: the early ones were finished purely in ex-Oloroso, Pedro Ximenez was blended in around three years ago, and the bottling proof came down from 94 to 90 because the distillery felt the lower strength let the sherry character show without heat. The base is the same Colorado single malt as the standard bottling, double distilled from 100 percent malted barley and matured in virgin American white oak.",
   "trivia": [
-   "Pedro Ximénez grapes are dried in the sun before pressing, which concentrates sugar to extreme levels.",
-   "Sherry casks are now often seasoned specifically for the whisky trade rather than genuinely used for ageing sherry.",
-   "PX sherry itself can exceed 400 grams of residual sugar per litre, several times a dessert wine."
+   "Pedro Ximenez grapes are dried in the sun before pressing, which concentrates the sugar to levels several times that of a dessert wine.",
+   "The casks are 500 litres, considerably larger than a standard barrel, so the spirit has less wood contact per volume and the finish stays measured.",
+   "The bottling proof dropped from 94 to 90 partway through the run, a deliberate choice to let the sherry notes come forward."
   ],
   "file": "spirits"
  },
