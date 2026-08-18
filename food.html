@@ -179,6 +179,8 @@
         </div>
       </a>
 
+      <div id="tasting-card-wrap"></div>
+
     </div>
 
     <div class="divider"></div>
@@ -215,8 +217,13 @@
 
 <script>
 let ALL_FOOD = [];
+let TASTING_ITEMS = [];
 
-const MENU_LABELS = { dinner: 'Dinner', dessert: 'Dessert' };
+const MENU_LABELS = { dinner: 'Dinner', dessert: 'Dessert', tasting: 'Tasting Menu' };
+
+// Fallback accent, used when the month's tasting.json does not set one. Keeping
+// the palette in the data means a menu change never touches this file.
+const TASTING_ACCENT = ['#c9a96e', '#8a6e42', '#e8c98a'];
 
 function buildTastingPanel(data) {
   const wrap = document.getElementById('tasting-wrap');
@@ -229,6 +236,50 @@ function buildTastingPanel(data) {
       <a class="tonight-link" href="tasting.html">View full menu &amp; pairings →</a>
     </div>
   </div>`;
+
+  buildTastingCard(data);
+
+  // Flatten the courses into the same shape the hub search already expects, so
+  // a dish on the tasting menu is findable from the kitchen hub like any other.
+  TASTING_ITEMS = data.courses.map(c => ({
+    id: c.id,
+    menu: 'tasting',
+    cat: c.section,
+    name: c.name,
+    description: c.description,
+    badge: `Course ${String(c.course).padStart(2,'0')}`,
+    allergens: c.allergens
+  }));
+}
+
+function buildTastingCard(data) {
+  const wrap = document.getElementById('tasting-card-wrap');
+  if (!wrap) return;
+
+  const accent = Array.isArray(data.accent) && data.accent.length === 3 ? data.accent : TASTING_ACCENT;
+  const dots = accent.map(c => `<div class="dot" style="background:${c};"></div>`).join('');
+
+  // Pills describe the shape of the menu, not the theme, so they hold up month
+  // to month without editing.
+  const pours = data.courses.filter(c => c.pairing).length;
+
+  wrap.outerHTML = `
+    <a class="card" href="tasting.html">
+      <div class="card-meta">Monthly Menu</div>
+      <div class="card-top">
+        <div>
+          <div class="dot-row">${dots}</div>
+          <div class="card-title">Tasting Menu</div>
+        </div>
+        <div class="card-arrow">›</div>
+      </div>
+      <div class="card-desc">${data.theme} <span style="font-style:normal;font-size:15px;letter-spacing:0.05em;color:var(--gold-dim);">— ${data.date}</span></div>
+      <div class="card-pills">
+        <span class="pill">$${data.price} per person</span>
+        <span class="pill">${pours} wine pours</span>
+        <span class="pill pill-count">${data.courses.length} courses</span>
+      </div>
+    </a>`;
 }
 
 fetch('tasting.json')
@@ -277,7 +328,7 @@ function handleSearch() {
   }
 
   const terms = normalize(q).split(/\s+/).filter(Boolean);
-  const matches = ALL_FOOD.filter(item => {
+  const matches = ALL_FOOD.concat(TASTING_ITEMS).filter(item => {
     const haystack = normalize([
       item.name, item.cat, item.menu
     ].join(' '));
@@ -292,7 +343,7 @@ function handleSearch() {
 
   meta.textContent = `${matches.length} result${matches.length!==1?'s':''} found`;
 
-  const pageUrls = { dinner: 'dinner.html', dessert: 'dessert.html' };
+  const pageUrls = { dinner: 'dinner.html', dessert: 'dessert.html', tasting: 'tasting.html' };
 
   results.innerHTML = matches.map(item => {
     const baseUrl = pageUrls[item.menu] || 'dinner.html';
@@ -300,7 +351,7 @@ function handleSearch() {
     const menuLabel = MENU_LABELS[item.menu] || item.menu;
     const veg = item.allergens?.vegetarian?.status;
     const vegan = item.allergens?.vegan?.status;
-    const priceDisplay = item.price ? `$${item.price}` : item.day ? item.day : '';
+    const priceDisplay = item.price ? `$${item.price}` : item.badge ? item.badge : item.day ? item.day : '';
 
     return `<a class="result-card" href="${url}">
       <div class="result-top">
