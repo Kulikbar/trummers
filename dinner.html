@@ -505,6 +505,9 @@ function render() {
   }
 
   list.innerHTML = html;
+  // List length just changed, so re-evaluate whether the controls bar still
+  // has room to collapse before the next scroll event fires.
+  if (window.recheckControls) window.recheckControls();
   updateActiveSummary();
 }
 
@@ -774,21 +777,86 @@ fetch('food.json')
   });
 
 (function() {
+  // The controls bar sits in normal flow, so collapsing it removes its height
+  // from the document. On a short list (a filter that returns two or three
+  // wines) that shrink can drop scrollY back under the collapse threshold, which
+  // re-expands the bar, which restores the height, which lets the page scroll
+  // past the threshold again. That loop runs every frame and reads as a stutter
+  // that bounces you off the last card. Two guards below: separate collapse and
+  // expand thresholds so a small clamp cannot flip the state, and a runway check
+  // so the bar never collapses when there is not enough page left to absorb it.
+
+  const COLLAPSE_AT = 60;
+  const EXPAND_AT = 24;
+  const RUNWAY = 80;
+
   let manualExpandAt = -1;
-  window.addEventListener('scroll', function() {
+  let ticking = false;
+
+  function collapsibleHeight(controls) {
+    const el = controls.querySelector('.controls-collapsible');
+    return el ? el.scrollHeight : 0;
+  }
+
+  // Would the page still be scrollable past COLLAPSE_AT once the bar collapses?
+  // If not, collapsing guarantees a clamp back into expand territory.
+  function hasRunway(controls) {
+    const shrink = collapsibleHeight(controls);
+    if (!shrink) return true;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    const expandedMax = controls.classList.contains('collapsed') ? maxScroll + shrink : maxScroll;
+    return (expandedMax - shrink) > COLLAPSE_AT + RUNWAY;
+  }
+
+  function update() {
+    ticking = false;
     const controls = document.querySelector('.controls');
     if (!controls) return;
     const y = window.scrollY;
-    if (y <= 60) {
+
+    if (y <= EXPAND_AT) {
       controls.classList.remove('collapsed');
       manualExpandAt = -1;
-    } else if (manualExpandAt >= 0 && y > manualExpandAt + 80) {
-      controls.classList.add('collapsed');
-      manualExpandAt = -1;
-    } else if (manualExpandAt < 0) {
+      return;
+    }
+
+    if (!hasRunway(controls)) {
+      controls.classList.remove('collapsed');
+      return;
+    }
+
+    if (y <= COLLAPSE_AT) return;
+
+    if (manualExpandAt >= 0) {
+      if (y > manualExpandAt + 80) {
+        controls.classList.add('collapsed');
+        manualExpandAt = -1;
+      }
+    } else {
       controls.classList.add('collapsed');
     }
+  }
+
+  window.addEventListener('scroll', function() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(update);
   }, { passive: true });
+
+  // A filter change alters list length, so re-check the runway rather than
+  // waiting for the next scroll event to notice the page got shorter.
+  window.addEventListener('resize', function() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(update);
+  }, { passive: true });
+
+  window.recheckControls = function() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(update);
+  };
+
   window.toggleFilters = function() {
     const controls = document.querySelector('.controls');
     if (!controls) return;
