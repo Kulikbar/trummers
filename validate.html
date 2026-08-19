@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Check — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e; --border: rgba(201,169,110,0.15);
+    --border2: rgba(201,169,110,0.3);
+    --red: #c94a4a; --red-dim: rgba(201,74,74,0.12);
+    --green: #5a9a6a; --green-dim: rgba(90,154,106,0.12);
+    --yellow: #c9a020; --yellow-dim: rgba(201,160,32,0.12);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+  .site-header { padding: 2.25rem 1.5rem 1.5rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.06) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 15px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.75rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.1rem, 9vw, 3.1rem); font-weight: 300; color: var(--cream); line-height: 1; margin-bottom: 0.4rem; }
+  .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold-dim); text-decoration: none; }
+  .header-nav a:hover { border-color: var(--gold-dim); color: var(--gold); }
+
+  .verdict { margin: 1.25rem 1rem 0; padding: 1.5rem 1.25rem; border-radius: 12px; text-align: center; border: 1px solid var(--border); background: var(--bg2); }
+  .verdict.pass { border-color: rgba(90,154,106,0.4); background: var(--green-dim); }
+  .verdict.warn { border-color: rgba(201,160,32,0.4); background: var(--yellow-dim); }
+  .verdict.fail { border-color: rgba(201,74,74,0.4); background: var(--red-dim); }
+  .verdict-mark { font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; line-height: 1; margin-bottom: 0.4rem; }
+  .verdict.pass .verdict-mark { color: var(--green); }
+  .verdict.warn .verdict-mark { color: var(--yellow); }
+  .verdict.fail .verdict-mark { color: var(--red); }
+  .verdict-line { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; color: var(--cream); }
+  .verdict-sub { font-size: 13px; color: var(--muted); margin-top: 6px; letter-spacing: 0.03em; }
+
+  .counts { display: flex; flex-wrap: wrap; gap: 8px; padding: 1rem 1rem 0; }
+  .count-chip { flex: 1 1 auto; min-width: 90px; padding: 10px 12px; border-radius: 8px; background: var(--bg2); border: 1px solid var(--border); text-align: center; }
+  .count-num { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--gold); line-height: 1; }
+  .count-label { font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold-dim); margin-top: 5px; }
+
+  .section-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-dim); padding: 1.5rem 1.25rem 0.5rem; }
+
+  .check-list { padding: 0 1rem 4rem; display: flex; flex-direction: column; gap: 8px; }
+  .check { border: 1px solid var(--border); border-radius: 10px; background: var(--card); overflow: hidden; }
+  .check.error { border-color: rgba(201,74,74,0.35); }
+  .check.warning { border-color: rgba(201,160,32,0.3); }
+  .check-head { display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .check-icon { flex-shrink: 0; font-size: 15px; margin-top: 1px; }
+  .check-main { flex: 1; min-width: 0; }
+  .check-name { font-size: 15px; color: var(--cream); }
+  .check-result { font-size: 13px; color: var(--muted); margin-top: 3px; line-height: 1.4; }
+  .check.error .check-result { color: var(--red); }
+  .check.warning .check-result { color: var(--yellow); }
+  .check.pass .check-result { color: var(--green); }
+  .check-chevron { color: var(--gold-dim); font-size: 13px; flex-shrink: 0; margin-top: 3px; transition: transform 0.25s; }
+  .check.open .check-chevron { transform: rotate(180deg); }
+  .check-body { display: none; padding: 0 14px 14px; border-top: 1px solid var(--border); }
+  .check.open .check-body { display: block; }
+  .check-why { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 15px; color: var(--muted); line-height: 1.6; padding: 11px 0 4px; }
+  .issue { background: var(--bg3); border: 1px solid var(--border); border-radius: 8px; padding: 9px 11px; margin-top: 7px; font-size: 13px; line-height: 1.5; }
+  .issue-where { font-family: 'Cormorant Garamond', serif; font-size: 15px; color: var(--gold2); margin-bottom: 2px; }
+  .issue-what { color: var(--muted); }
+  .issue-fix { color: var(--cream); margin-top: 5px; font-size: 13px; }
+  .issue-fix::before { content: 'Fix  '; color: var(--gold-dim); font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; background: rgba(201,169,110,0.08); padding: 1px 5px; border-radius: 4px; color: var(--gold2); }
+
+  .loading { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--gold-dim); font-size: 1.1rem; }
+  .footer { padding: 0 1.25rem 3rem; text-align: center; font-size: 13px; color: var(--muted); line-height: 1.7; }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-title">Data Check</div>
+  <div class="header-subtitle">Run this after every upload</div>
+  <div class="header-nav">
+    <a href="index.html">← Home</a>
+  </div>
+</div>
+
+<div id="verdict-wrap"></div>
+<div id="counts-wrap"></div>
+<div id="results-wrap"><div class="loading">Loading data files…</div></div>
+
+<div class="footer" id="footer"></div>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// Trummer's data check
+//
+// Everything here is read-only. It fetches the same JSON the live pages fetch
+// and reports what would break, so a bad edit is caught before a server hits it
+// on the floor rather than after.
+//
+// Adding a check: push an object onto CHECKS with { name, why, severity, run }.
+// run(D) receives all parsed files and returns an array of issue objects
+// { where, what, fix }. An empty array means the check passed.
+// ─────────────────────────────────────────────────────────────
+
+const FILES = {
+  wines: 'wines.json',
+  bar: 'bar.json',
+  food: 'food.json',
+  tasting: 'tasting.json'
+};
+
+// Which `file` values actually have a page that renders them.
+const WINE_FILES = ['sparkling', 'whites', 'reds'];
+const BAR_FILES = ['spirits', 'bar', 'cocktails', 'beer'];
+
+// Documented exceptions, so a known-good record does not nag forever.
+const BTG_MULTIPLIER = 4;
+const BTG_NO_BOTTLE = ['BTG-002'];   // split only, sold by the glass and nothing else
+
+const PAIRING_CAP = 4;
+
+const idx = arr => Object.fromEntries(arr.map(x => [String(x.id), x]));
+const money = v => (v === null || v === undefined) ? 'none' : '$' + v;
+
+// A Coravin pour sitting in the bottle array carries a glass price, which the
+// price check would read as a mismatch and tell you to "correct" up to the
+// bottle price. That advice is wrong: the price is right, the array is wrong.
+// Detect the case once here so only the Coravin check reports it.
+function misfiledCoravin(pairing, source) {
+  if (!source) return false;
+  return !!(pairing.coravin || (source.coravin && pairing.price === source.coravin_price));
+}
+
+const CHECKS = [
+
+// ── REFERENCES ───────────────────────────────────────────────
+{
+  name: 'Pairing links resolve',
+  why: 'Every pairing on a dish links to a card on another page. A reference to an ID that no longer exists produces a dead link, and it happens whenever a wine is pulled from the list but its pairings are left behind.',
+  severity: 'error',
+  run(D) {
+    const wines = idx(D.wines), bar = idx(D.bar), out = [];
+    D.food.forEach(dish => {
+      ['wine_pairings_btg', 'wine_pairings_bottle'].forEach(field => {
+        (dish[field] || []).forEach(p => {
+          if (!wines[String(p.id)]) out.push({
+            where: `${dish.id} · ${dish.name}`,
+            what: `${field} points at wine <code>${p.id}</code> (${p.name || 'unnamed'}), which is not in wines.json.`,
+            fix: 'Remove the pairing, or restore the wine.'
+          });
+        });
+      });
+      (dish.wine_pairings_whisky || []).forEach(p => {
+        if (!bar[String(p.whisky_id)]) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `Whisky pairing points at bar entry <code>${p.whisky_id}</code> (${p.name || 'unnamed'}), which is not in bar.json.`,
+          fix: 'Remove the pairing, or restore the bottle.'
+        });
+      });
+      (dish.afters_pairings || []).forEach(p => {
+        if (!bar[String(p.afters_id)]) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `Afters pairing points at bar entry <code>${p.afters_id}</code> (${p.name || 'unnamed'}), which is not in bar.json.`,
+          fix: 'Remove the pairing, or restore the bottle.'
+        });
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Tasting menu pairings resolve',
+  why: 'The tasting menu changes monthly, so its pairings are the most likely to point at a wine that has since left the list.',
+  severity: 'error',
+  run(D) {
+    if (!D.tasting) return [];
+    const wines = idx(D.wines), bar = idx(D.bar), out = [];
+    (D.tasting.courses || []).forEach(c => {
+      const p = c.pairing;
+      if (!p) return;
+      if (!p.in_list) return;   // exclusive bottles are deliberately absent from the lists
+      const found = wines[String(p.wine_id)] || bar[String(p.wine_id)];
+      if (!found) out.push({
+        where: `Course ${String(c.course).padStart(2,'0')} · ${c.name}`,
+        what: `Pairing is flagged <code>in_list</code> but <code>${p.wine_id}</code> is in neither wines.json nor bar.json.`,
+        fix: 'Set in_list to false if it is a tasting-only bottle, or correct the wine_id.'
+      });
+      if (p.in_list && !p.bin) out.push({
+        where: `Course ${String(c.course).padStart(2,'0')} · ${c.name}`,
+        what: 'Flagged as on the list but has no bin number, so the flight panel cannot render a link.',
+        fix: 'Add the bin number, or set in_list to false.'
+      });
+    });
+    return out;
+  }
+},
+
+// ── PRICES ───────────────────────────────────────────────────
+{
+  name: 'Pre-baked prices match source',
+  why: 'Pairing prices are copied into food.json so pages do not have to cross-reference at render time. That speed comes at a cost: when a price changes at the source, every copy has to be updated by hand.',
+  severity: 'error',
+  run(D) {
+    const wines = idx(D.wines), bar = idx(D.bar), out = [];
+    D.food.forEach(dish => {
+      (dish.wine_pairings_bottle || []).forEach(p => {
+        const src = wines[String(p.id)];
+        if (!src || misfiledCoravin(p, src)) return;   // owned by the Coravin check
+        if (p.price !== src.price) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `Bottle pairing ${p.name} shows ${money(p.price)}, wines.json says ${money(src.price)}.`,
+          fix: `Set price to ${money(src.price)} in food.json.`
+        });
+      });
+      (dish.wine_pairings_btg || []).forEach(p => {
+        const src = wines[String(p.id)];
+        if (!src) return;
+        const expected = p.coravin ? src.coravin_price : (src.btg_price || src.price);
+        if (p.price !== expected) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `Glass pairing ${p.name} shows ${money(p.price)}, wines.json says ${money(expected)}.`,
+          fix: `Set price to ${money(expected)} in food.json.`
+        });
+      });
+      [...(dish.wine_pairings_whisky || []), ...(dish.afters_pairings || [])].forEach(p => {
+        const src = bar[String(p.whisky_id || p.afters_id)];
+        if (src && p.price !== src.price) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `${p.name} shows ${money(p.price)}, bar.json says ${money(src.price)}.`,
+          fix: `Set price to ${money(src.price)} in food.json.`
+        });
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Coravin pours filed as glass pours',
+  why: 'A Coravin pour is a glass, not a bottle. Filed under wine_pairings_bottle it renders beside bottle prices while carrying a glass price, which reads as a $43 Napa Cabernet.',
+  severity: 'error',
+  run(D) {
+    const wines = idx(D.wines), out = [];
+    D.food.forEach(dish => {
+      (dish.wine_pairings_bottle || []).forEach(p => {
+        const src = wines[String(p.id)];
+        if (misfiledCoravin(p, src)) out.push({
+          where: `${dish.id} · ${dish.name}`,
+          what: `${p.name} is a Coravin pour at ${money(p.price)} but sits in <code>wine_pairings_bottle</code>. The bottle is ${money(src && src.price)}.`,
+          fix: 'Move the entry into wine_pairings_btg.'
+        });
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'BTG bottle prices consistent',
+  why: 'By-the-glass bottles are priced at four times the glass. A glass price edited without its bottle price leaves the two out of step.',
+  severity: 'warning',
+  run(D) {
+    const out = [];
+    D.wines.forEach(w => {
+      if (!w.btg) return;
+      if (BTG_NO_BOTTLE.includes(String(w.id))) return;
+      if (!w.bottle_price) {
+        out.push({
+          where: `${w.id} · ${w.producer} ${w.name}`,
+          what: 'Sold by the glass but has no bottle_price, so section pages cannot render the dual price.',
+          fix: `Add bottle_price of ${money(w.price * BTG_MULTIPLIER)}, or add the ID to BTG_NO_BOTTLE if it is a split.`
+        });
+        return;
+      }
+      const expected = w.price * BTG_MULTIPLIER;
+      if (w.bottle_price !== expected) out.push({
+        where: `${w.id} · ${w.producer} ${w.name}`,
+        what: `Glass ${money(w.price)}, bottle ${money(w.bottle_price)}. Four times the glass would be ${money(expected)}.`,
+        fix: `Set bottle_price to ${money(expected)}, or confirm the exception is deliberate.`
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Coravin flags and prices paired',
+  why: 'The filter keys off the flag and the purple price keys off the price. One without the other means a wine either hides from the filter or renders a blank price.',
+  severity: 'error',
+  run(D) {
+    const out = [];
+    D.wines.forEach(w => {
+      if (w.coravin && !w.coravin_price) out.push({
+        where: `${w.id} · ${w.producer} ${w.name}`,
+        what: 'Flagged coravin but has no coravin_price.',
+        fix: 'Add coravin_price, or remove the flag.'
+      });
+      if (w.coravin_price && !w.coravin) out.push({
+        where: `${w.id} · ${w.producer} ${w.name}`,
+        what: `Has a coravin_price of ${money(w.coravin_price)} but is not flagged, so the Coravin filter will not show it.`,
+        fix: 'Set coravin to true, or remove the price.'
+      });
+    });
+    return out;
+  }
+},
+
+// ── ROUTING ──────────────────────────────────────────────────
+{
+  name: 'Every record has a page',
+  why: 'The file field decides which page renders a record and where search links to. An unrecognised value means the record exists in the data but appears nowhere on the site.',
+  severity: 'error',
+  run(D) {
+    const out = [];
+    D.wines.forEach(w => {
+      if (!WINE_FILES.includes(w.file)) out.push({
+        where: `${w.id} · ${w.producer || ''} ${w.name}`.trim(),
+        what: `file is <code>${w.file || 'missing'}</code>, which no wine page renders.`,
+        fix: `Set file to one of ${WINE_FILES.join(', ')}, or remove the record.`
+      });
+    });
+    D.bar.forEach(b => {
+      if (!BAR_FILES.includes(b.file)) out.push({
+        where: `${b.id} · ${b.producer || ''} ${b.name}`.trim(),
+        what: `file is <code>${b.file || 'missing'}</code>, which no bar page renders.`,
+        fix: `Set file to one of ${BAR_FILES.join(', ')}.`
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Beer records routed to beer',
+  why: 'Beer pages currently select on category, so a mislabelled file field is harmless today. It will stop being harmless the first time something routes on file instead.',
+  severity: 'warning',
+  run(D) {
+    return D.bar
+      .filter(b => b.cat === 'Beer & Cider' && b.file !== 'beer')
+      .map(b => ({
+        where: `${b.id} · ${b.producer} ${b.name}`,
+        what: `Category is Beer & Cider but file is <code>${b.file}</code>.`,
+        fix: 'Set file to beer.'
+      }));
+  }
+},
+
+// ── STRUCTURE ────────────────────────────────────────────────
+{
+  name: 'No duplicate IDs',
+  why: 'IDs drive every deep link on the site. Two records sharing one means ?open= reaches whichever the filter happens to hit first.',
+  severity: 'error',
+  run(D) {
+    const out = [];
+    [['wines.json', D.wines], ['bar.json', D.bar], ['food.json', D.food]].forEach(([label, arr]) => {
+      const seen = {};
+      arr.forEach(x => { (seen[String(x.id)] = seen[String(x.id)] || []).push(x); });
+      Object.entries(seen).filter(([, v]) => v.length > 1).forEach(([id, v]) => out.push({
+        where: `${label} · ${id}`,
+        what: `Used by ${v.length} records: ${v.map(r => r.name).join(', ')}.`,
+        fix: 'Give each record a unique ID.'
+      }));
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Allergen values recognised',
+  why: 'The three-state filter matches on exact strings. A typo does not throw an error, it silently drops the dish out of a filter a guest with an allergy is relying on.',
+  severity: 'error',
+  run(D) {
+    const valid = ['safe','yes','modifiable','check','contains','no'];
+    const out = [];
+    const scan = (label, id, name, allergens) => {
+      Object.entries(allergens || {}).forEach(([key, val]) => {
+        const status = val && val.status;
+        if (!valid.includes(status)) out.push({
+          where: `${label} ${id} · ${name}`,
+          what: `${key} has status <code>${status === undefined ? 'missing' : status}</code>.`,
+          fix: `Use one of ${valid.join(', ')}.`
+        });
+      });
+    };
+    D.food.forEach(d => scan('', d.id, d.name, d.allergens));
+    if (D.tasting) (D.tasting.courses || []).forEach(c => scan('Tasting', c.id, c.name, c.allergens));
+    return out;
+  }
+},
+
+{
+  name: 'Pairing count within cap',
+  why: 'Four pairings per dish is the soft cap. Beyond that the card stops being a recommendation and becomes a list to scroll past.',
+  severity: 'warning',
+  run(D) {
+    return D.food.map(dish => {
+      const n = (dish.wine_pairings_btg || []).length
+              + (dish.wine_pairings_bottle || []).length
+              + (dish.wine_pairings_whisky || []).length;
+      return n > PAIRING_CAP ? {
+        where: `${dish.id} · ${dish.name}`,
+        what: `${n} pairings across glass, bottle and whisky. The cap is ${PAIRING_CAP}.`,
+        fix: 'Drop the weakest pairing.'
+      } : null;
+    }).filter(Boolean);
+  }
+},
+
+{
+  name: 'Required fields present',
+  why: 'A missing field renders as the word undefined on a card in front of a guest.',
+  severity: 'error',
+  run(D) {
+    const out = [];
+    const need = (label, arr, fields) => arr.forEach(x => {
+      const missing = fields.filter(f => x[f] === undefined || x[f] === null || x[f] === '');
+      if (missing.length) out.push({
+        where: `${label} ${x.id} · ${x.name || x.producer || 'unnamed'}`,
+        what: `Missing ${missing.join(', ')}.`,
+        fix: 'Fill the field in, or copy the shape of a neighbouring record.'
+      });
+    });
+    need('wines.json', D.wines.filter(w => WINE_FILES.includes(w.file)), ['cat','name','price','file']);
+    need('bar.json', D.bar, ['cat','file']);
+    need('food.json', D.food, ['menu','cat','name','description']);
+
+    // Plenty of bottles are sold under the producer alone (Blanton's, Buffalo
+    // Trace) with no separate expression name, so neither field is required on
+    // its own. Having neither is the actual fault.
+    D.bar.filter(b => !b.name && !b.producer).forEach(b => out.push({
+      where: `bar.json ${b.id}`,
+      what: 'Has neither producer nor name, so the card renders blank.',
+      fix: 'Add a producer, a name, or both.'
+    }));
+    return out;
+  }
+}
+
+];
+
+// ─────────────────────────────────────────────────────────────
+function render(D) {
+  const results = CHECKS.map(c => {
+    let issues, crashed = null;
+    try { issues = c.run(D) || []; }
+    catch (e) { issues = []; crashed = e.message; }
+    return { ...c, issues, crashed };
+  });
+
+  const errors = results.filter(r => r.severity === 'error' && r.issues.length);
+  const warns = results.filter(r => r.severity === 'warning' && r.issues.length);
+  const errCount = errors.reduce((n, r) => n + r.issues.length, 0);
+  const warnCount = warns.reduce((n, r) => n + r.issues.length, 0);
+
+  // Verdict
+  const v = document.getElementById('verdict-wrap');
+  const level = errCount ? 'fail' : warnCount ? 'warn' : 'pass';
+  const mark = errCount ? '✕' : warnCount ? '!' : '✓';
+  const line = errCount ? `${errCount} thing${errCount === 1 ? '' : 's'} to fix`
+             : warnCount ? `${warnCount} thing${warnCount === 1 ? '' : 's'} to look at`
+             : 'Everything checks out';
+  const sub = errCount
+    ? 'These will show up on the floor. Fix before service.'
+    : warnCount ? 'Nothing is broken. Worth a look when there is time.'
+    : `${CHECKS.length} checks passed across ${Object.keys(FILES).length} files.`;
+  v.innerHTML = `<div class="verdict ${level}">
+    <div class="verdict-mark">${mark}</div>
+    <div class="verdict-line">${line}</div>
+    <div class="verdict-sub">${sub}</div>
+  </div>`;
+
+  // Counts, so the numbers never have to be maintained by hand anywhere else
+  const counts = [
+    ['Wines', D.wines.length],
+    ['Bar', D.bar.length],
+    ['Dishes', D.food.length],
+    ['Courses', D.tasting ? (D.tasting.courses || []).length : 0]
+  ];
+  document.getElementById('counts-wrap').innerHTML =
+    `<div class="counts">${counts.map(([l, n]) =>
+      `<div class="count-chip"><div class="count-num">${n}</div><div class="count-label">${l}</div></div>`
+    ).join('')}</div>`;
+
+  // Results, worst first
+  const rank = { error: 0, warning: 1 };
+  const sorted = [...results].sort((a, b) => {
+    const aBad = a.issues.length > 0, bBad = b.issues.length > 0;
+    if (aBad !== bBad) return aBad ? -1 : 1;
+    return (rank[a.severity] ?? 2) - (rank[b.severity] ?? 2);
+  });
+
+  document.getElementById('results-wrap').innerHTML =
+    `<div class="section-label">All Checks</div><div class="check-list">` +
+    sorted.map((r, i) => {
+      const state = r.crashed ? 'error' : r.issues.length ? r.severity : 'pass';
+      const icon = r.crashed ? '✕' : r.issues.length ? (r.severity === 'error' ? '✕' : '!') : '✓';
+      const result = r.crashed ? `Check could not run: ${r.crashed}`
+        : r.issues.length ? `${r.issues.length} found`
+        : 'Passed';
+      return `<div class="check ${state}${r.issues.length ? ' open' : ''}" id="chk-${i}">
+        <div class="check-head" onclick="toggleCheck(${i})">
+          <div class="check-icon">${icon}</div>
+          <div class="check-main">
+            <div class="check-name">${r.name}</div>
+            <div class="check-result">${result}</div>
+          </div>
+          <div class="check-chevron">▾</div>
+        </div>
+        <div class="check-body">
+          <div class="check-why">${r.why}</div>
+          ${r.issues.map(is => `<div class="issue">
+            <div class="issue-where">${is.where}</div>
+            <div class="issue-what">${is.what}</div>
+            ${is.fix ? `<div class="issue-fix">${is.fix}</div>` : ''}
+          </div>`).join('')}
+        </div>
+      </div>`;
+    }).join('') + `</div>`;
+
+  document.getElementById('footer').textContent =
+    'Read only. This page never changes your data.';
+}
+
+function toggleCheck(i) {
+  document.getElementById('chk-' + i).classList.toggle('open');
+}
+
+Promise.all(Object.entries(FILES).map(([key, path]) =>
+  fetch(path)
+    .then(r => { if (!r.ok) throw new Error(`${path} returned ${r.status}`); return r.json(); })
+    .then(data => [key, data])
+    .catch(err => [key, { __error: err.message }])
+)).then(pairs => {
+  const D = Object.fromEntries(pairs);
+  const broken = Object.entries(D).filter(([, v]) => v && v.__error);
+  if (broken.length) {
+    document.getElementById('verdict-wrap').innerHTML = `<div class="verdict fail">
+      <div class="verdict-mark">✕</div>
+      <div class="verdict-line">A file could not be read</div>
+      <div class="verdict-sub">${broken.map(([k, v]) => `${FILES[k]}: ${v.__error}`).join(' · ')}</div>
+    </div>`;
+    document.getElementById('results-wrap').innerHTML =
+      `<div class="loading">Usually a JSON syntax error, most often a trailing comma or a smart quote pasted in from a document.</div>`;
+    return;
+  }
+  render(D);
+});
+</script>
+</body>
+</html>
