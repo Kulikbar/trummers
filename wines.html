@@ -107,24 +107,6 @@
     color: var(--gold-dim); margin-bottom: 0.3rem; }
   .quick-title { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; color: var(--cream); }
 
-  .flight-card { margin: 0 1rem; background: var(--card); border: 1px solid var(--border2);
-    border-radius: 10px; padding: 1rem 1.1rem 0.9rem; }
-  .flight-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
-  .flight-eyebrow { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase;
-    color: var(--gold-dim); margin-bottom: 3px; }
-  .flight-name { font-family: "Cormorant Garamond", serif; font-size: 18px; color: var(--gold2); }
-  .flight-price { font-family: "Cormorant Garamond", serif; font-size: 18px;
-    color: var(--gold); white-space: nowrap; }
-  .flight-tableside { font-family: "Cormorant Garamond", serif; font-style: italic;
-    font-size: 15px; color: var(--cream); margin: 0.6rem 0 0.85rem; line-height: 1.45; }
-  .flight-pour { display: block; background: var(--card2); border: 1px solid var(--border);
-    border-radius: 8px; padding: 0.6rem 0.7rem; margin-bottom: 8px;
-    text-decoration: none; transition: border-color 0.15s; }
-  .flight-pour:hover, .flight-pour:focus-visible { border-color: var(--border2); }
-  .flight-pour-name { font-size: 15px; color: var(--cream); }
-  .flight-pour-note { font-size: 13px; color: var(--muted); margin-top: 2px; line-height: 1.4; }
-  .flight-pour-link { font-size: 13px; color: var(--gold-dim); margin-top: 4px; }
-
   /* ── FOOTER ── */
   .footer { padding: 2rem 1.5rem 1rem; text-align: center; margin-top: auto; }
   .footer-text { font-size: 15px; color: var(--gold-dim); font-style: italic;
@@ -171,10 +153,6 @@
   <div class="results-container" id="results"></div>
 
   <div class="browse-section" id="browse-section">
-
-    <div class="divider"></div>
-    <div class="section-label">Wine Flight</div>
-    <div id="flight-slot"></div>
 
     <div class="divider"></div>
     <div class="section-label">Browse by Section</div>
@@ -293,15 +271,12 @@
 </div><!-- end wrap -->
 <script>
 let ALL_WINES = [];
-let FLIGHTS = [];
 fetch('wines.json')
   .then(r => r.json())
   .then(data => {
-    ALL_WINES = data.filter(w => w.type !== 'flight');
-    FLIGHTS = data.filter(w => w.type === 'flight');
+    ALL_WINES = data;
     const badge = document.getElementById('wine-count-badge');
     if(badge) badge.textContent = ALL_WINES.length + ' wines · 3 sections';
-    renderFlights();
   })
   .catch(err => {
     const meta = document.getElementById('search-meta');
@@ -313,40 +288,6 @@ const FILE_URLS = {sparkling:'sparkling.html', whites:'whites.html', reds:'reds.
 
 let currentQuery = '';
 
-
-function escapeHtml(str) {
-  return (str || '').replace(/[&<>"']/g, c =>
-    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-
-function renderFlights() {
-  const slot = document.getElementById('flight-slot');
-  if (!slot) return;
-  slot.innerHTML = FLIGHTS.map(f => {
-    const pours = (f.components || []).map(c => {
-      const url = FILE_URLS[c.file];
-      const label = FILE_LABELS[c.file] || 'Wine';
-      const inner = `<div class="flight-pour-name">${escapeHtml(c.name)}</div>
-             <div class="flight-pour-note">${escapeHtml(c.note)}</div>`;
-      if (!url) return `<div class="flight-pour">${inner}</div>`;
-      return `<a class="flight-pour" href="${url}?open=${encodeURIComponent(c.id)}">
-             ${inner}
-             <div class="flight-pour-link">${escapeHtml(label)} →</div>
-           </a>`;
-    }).join('');
-    return `<div class="flight-card">
-        <div class="flight-head">
-          <div>
-            <div class="flight-eyebrow">Three pours</div>
-            <div class="flight-name">${escapeHtml(f.name)}</div>
-          </div>
-          <div class="flight-price">$${f.price}</div>
-        </div>
-        <div class="flight-tableside">${escapeHtml(f.tableside)}</div>
-        ${pours}
-      </div>`;
-  }).join('');
-}
 
 function normalize(str) {
   return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ß/g,'ss').toLowerCase();
