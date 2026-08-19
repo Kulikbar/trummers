@@ -311,11 +311,12 @@ const CHECKS = [
 // ── ROUTING ──────────────────────────────────────────────────
 {
   name: 'Every record has a page',
-  why: 'The file field decides which page renders a record and where search links to. An unrecognised value means the record exists in the data but appears nowhere on the site.',
+  why: 'The file field decides which page renders a record and where search links to. An unrecognised value means the record exists in the data but appears nowhere on the site. Flights are the exception: wines.html picks those up by type and renders them in its own slot, so they do not need a section page.',
   severity: 'error',
   run(D) {
     const out = [];
     D.wines.forEach(w => {
+      if (w.type === 'flight') return;   // rendered by wines.html on type, not file
       if (!WINE_FILES.includes(w.file)) out.push({
         where: `${w.id} · ${w.producer || ''} ${w.name}`.trim(),
         what: `file is <code>${w.file || 'missing'}</code>, which no wine page renders.`,
@@ -327,6 +328,30 @@ const CHECKS = [
         where: `${b.id} · ${b.producer || ''} ${b.name}`.trim(),
         what: `file is <code>${b.file || 'missing'}</code>, which no bar page renders.`,
         fix: `Set file to one of ${BAR_FILES.join(', ')}.`
+      });
+    });
+    return out;
+  }
+},
+
+{
+  name: 'Flight pours link to real wines',
+  why: 'A flight card links each of its pours to the wine underneath it. Those components are a second set of references that nothing else validates, so a wine pulled from the list leaves a dead link inside the flight.',
+  severity: 'error',
+  run(D) {
+    const wines = idx(D.wines), out = [];
+    D.wines.filter(w => w.type === 'flight').forEach(f => {
+      (f.components || []).forEach(c => {
+        if (!wines[String(c.id)]) out.push({
+          where: `${f.id} · ${f.name}`,
+          what: `Pour <code>${c.id}</code> (${c.name || 'unnamed'}) is not in wines.json.`,
+          fix: 'Swap the pour for a wine still on the list, or retire the flight.'
+        });
+        else if (!WINE_FILES.includes(c.file)) out.push({
+          where: `${f.id} · ${f.name}`,
+          what: `Pour ${c.name} has file <code>${c.file || 'missing'}</code>, so its link cannot be built.`,
+          fix: `Set file to one of ${WINE_FILES.join(', ')}.`
+        });
       });
     });
     return out;
