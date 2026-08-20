@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allergy Briefing — Staff Reference</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0e0c0a; --bg2: #161310; --bg3: #1e1a16; --card: #1a1612;
+    --gold: #c9a96e; --gold2: #e8c98a; --gold-dim: #8a6e42;
+    --cream: #f0e8d8; --muted: #8a7e6e;
+    --border: rgba(201,169,110,0.15); --border2: rgba(201,169,110,0.3);
+    --green: #5a9a6a; --green-dim: rgba(90,154,106,0.12);
+    --red: #c94a4a; --red-dim: rgba(201,74,74,0.12);
+    --yellow: #c9a020; --yellow-dim: rgba(201,160,32,0.12);
+  }
+  html { scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--cream); font-family: 'Outfit', sans-serif; font-weight: 300; min-height: 100vh; -webkit-font-smoothing: antialiased; }
+
+  .site-header { padding: 2.25rem 1.5rem 1.5rem; text-align: center; border-bottom: 1px solid var(--border); position: relative; overflow: hidden; }
+  .site-header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(139,100,32,0.06) 0%, transparent 70%); pointer-events: none; }
+  .header-eyebrow { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 0.7rem; }
+  .header-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.1rem, 9vw, 3.1rem); font-weight: 300; line-height: 1; margin-bottom: 0.4rem; }
+  .header-subtitle { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold-dim); font-style: italic; }
+  .header-nav { margin-top: 1.25rem; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .header-nav a { font-size: 13px; padding: 4px 14px; border-radius: 20px; border: 1px solid var(--border2); color: var(--gold-dim); text-decoration: none; }
+
+  /* ── PICKER ── */
+  .picker-wrap { position: sticky; top: 0; z-index: 20; background: rgba(14,12,10,0.97); backdrop-filter: blur(8px); border-bottom: 1px solid var(--border); padding: 0.85rem 1rem; }
+  .picker-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold-dim); margin-bottom: 8px; }
+  .picker { display: flex; gap: 6px; flex-wrap: wrap; }
+  .pick { font-size: 13px; padding: 5px 12px; border-radius: 20px; border: 1px solid var(--border); background: transparent; color: var(--muted); font-family: 'Outfit', sans-serif; font-weight: 300; cursor: pointer; -webkit-tap-highlight-color: transparent; transition: all 0.15s; }
+  .pick:hover { border-color: var(--border2); color: var(--gold-dim); }
+  .pick.on { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 500; }
+  .clear-pick { font-size: 13px; color: var(--muted); background: none; border: none; cursor: pointer; font-family: 'Outfit', sans-serif; text-decoration: underline; text-underline-offset: 2px; padding: 5px 4px; }
+
+  /* ── EMPTY STATE ── */
+  .empty-state { padding: 3.5rem 2rem; text-align: center; }
+  .empty-mark { font-family: 'Cormorant Garamond', serif; font-size: 2.5rem; color: var(--gold-dim); line-height: 1; margin-bottom: 0.75rem; }
+  .empty-text { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 1.1rem; color: var(--muted); line-height: 1.6; }
+
+  /* ── BRIEF ── */
+  .brief { padding: 1rem 1rem 4rem; }
+  .brief-head { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--cream); line-height: 1.15; margin-bottom: 2px; }
+  .brief-sub { font-size: 13px; color: var(--muted); }
+
+  .tallies { display: flex; gap: 6px; margin: 14px 0 4px; }
+  .tally { flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 10px 6px; text-align: center; }
+  .tally-num { font-family: 'Cormorant Garamond', serif; font-size: 1.55rem; line-height: 1; }
+  .tally-label { font-size: 11px; color: var(--muted); margin-top: 3px; line-height: 1.25; }
+
+  .menu-label { font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--gold-dim); margin: 1.75rem 0 0.6rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+  .menu-label:first-of-type { border-top: none; padding-top: 0; margin-top: 1.25rem; }
+
+  .group-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; margin: 14px 0 6px; }
+  .group { background: var(--card); border-radius: 0 8px 8px 0; padding: 4px 12px; }
+  .row { padding: 7px 0; border-top: 1px solid var(--border); }
+  .row:first-child { border-top: none; }
+  .row-name { font-size: 15px; color: var(--cream); line-height: 1.35; }
+  .row-why { font-size: 13px; color: var(--muted); line-height: 1.45; margin-top: 2px; }
+  .row-why b { font-weight: 400; color: var(--gold-dim); }
+  .row-link { color: inherit; text-decoration: none; display: block; }
+  .row-link:hover .row-name { color: var(--gold2); }
+
+  .fine-note { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 15px; color: var(--muted); line-height: 1.6; padding: 10px 2px 0; }
+  .fine-note a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--border2); }
+
+  .verdict-line { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; font-size: 15px; }
+  .verdict-line .k { color: var(--muted); font-size: 13px; }
+
+  .loading { text-align: center; padding: 4rem 2rem; font-family: 'Cormorant Garamond', serif; font-style: italic; color: var(--gold-dim); }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <div class="header-eyebrow">Staff Reference</div>
+  <div class="header-title">Allergy Briefing</div>
+  <div class="header-subtitle">Across dinner, dessert and the tasting menu</div>
+  <div class="header-nav">
+    <a href="index.html">← Home</a>
+    <a href="food.html">Kitchen →</a>
+  </div>
+</div>
+
+<div class="picker-wrap">
+  <div class="picker-label">Tap everything that applies</div>
+  <div class="picker" id="picker"></div>
+</div>
+
+<div id="out"><div class="loading">Loading menus…</div></div>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// Allergy Briefing
+//
+// The kitchen pages already filter by allergen. This page answers the question
+// a guest actually asks, which is the inverse: not "show me what I can have"
+// (24 of 31 dishes for a gluten free guest, a wall to scroll) but "what is off
+// limits" (7 dishes, a sentence).
+//
+// The two adaptable statuses in food.json carry a real distinction and this
+// page depends on it:
+//   modifiable — the kitchen can definitely do it. A server can promise it.
+//   check      — depends on tonight's prep. A server must ask first.
+// Collapsing those two back into one tier would make this page untrustworthy.
+// ─────────────────────────────────────────────────────────────
+
+const ALLERGENS = [
+  ['gluten',     '🌾 Gluten'],
+  ['shellfish',  '🦐 Shellfish'],
+  ['dairy',      '🥛 Dairy'],
+  ['nuts',       '🌰 Nuts'],
+  ['peanuts',    '🥜 Peanuts'],
+  ['eggs',       '🥚 Eggs'],
+  ['soy',        '🫘 Soy'],
+  ['vegetarian', '🌿 Vegetarian'],
+  ['vegan',      '🌱 Vegan']
+];
+const LABEL = Object.fromEntries(ALLERGENS);
+const DIETARY = ['vegetarian', 'vegan'];
+
+// Worst-wins ranking. With several allergens selected a dish is only as
+// available as its most restrictive one.
+const RANK = { safe: 0, contains: 3 };
+function tier(status) {
+  if (status === 'safe' || status === 'yes') return 'safe';
+  if (status === 'modifiable') return 'adapt';
+  if (status === 'check') return 'ask';
+  return 'no';
+}
+const TIER_RANK = { safe: 0, adapt: 1, ask: 2, no: 3 };
+
+let DINNER = [], DESSERT = [], COURSES = [];
+let selected = [];
+
+function trim(note, n) {
+  if (!note) return '';
+  let s = note.split(/(?<=\.)\s/)[0].trim();
+  if (s.endsWith('.')) s = s.slice(0, -1);
+  return s.length > n ? s.slice(0, n - 1) + '…' : s;
+}
+
+// For one dish across all selected allergens: the worst tier, plus the reasons
+// that produced it. With combinations the reason must name which allergen is
+// responsible, otherwise "cannot be served" is unactionable.
+function assess(item) {
+  let worst = 'safe';
+  const reasons = [];
+  selected.forEach(key => {
+    const a = item.allergens?.[key] || {};
+    const t = tier(a.status);
+    if (TIER_RANK[t] > TIER_RANK[worst]) worst = t;
+    if (t !== 'safe') reasons.push({ key, tier: t, note: a.note || '' });
+  });
+  const top = reasons.filter(r => r.tier === worst);
+  return { tier: worst, reasons: top };
+}
+
+function reasonText(reasons) {
+  if (!reasons.length) return '';
+  if (selected.length === 1) return trim(reasons[0].note, 72);
+  // Several allergens in play, so lead with which one.
+  return reasons.map(r => {
+    const name = LABEL[r.key].replace(/^\S+\s/, '').toLowerCase();
+    const note = trim(r.note, 44);
+    return note ? `<b>${name}</b> ${note}` : `<b>${name}</b>`;
+  }).join(' · ');
+}
+
+function bucket(items) {
+  const out = { no: [], adapt: [], ask: [], safe: [] };
+  items.forEach(it => {
+    const a = assess(it);
+    out[a.tier].push({ item: it, reasons: a.reasons });
+  });
+  return out;
+}
+
+function rowsHtml(entries, page) {
+  return entries.map(e => {
+    const why = reasonText(e.reasons);
+    const inner = `<div class="row-name">${e.item.name}</div>${why ? `<div class="row-why">${why}</div>` : ''}`;
+    return page
+      ? `<div class="row"><a class="row-link" href="${page}?open=${e.item.id}">${inner}</a></div>`
+      : `<div class="row">${inner}</div>`;
+  }).join('');
+}
+
+function groupHtml(label, color, entries, page) {
+  if (!entries.length) return '';
+  return `<div class="group-label" style="color:${color}">${label} · ${entries.length}</div>
+    <div class="group" style="border-left:2px solid ${color}">${rowsHtml(entries, page)}</div>`;
+}
+
+function render() {
+  const out = document.getElementById('out');
+
+  document.querySelectorAll('.pick').forEach(b => {
+    b.classList.toggle('on', selected.includes(b.dataset.key));
+  });
+
+  if (!selected.length) {
+    out.innerHTML = `<div class="empty-state">
+      <div class="empty-mark">◇</div>
+      <div class="empty-text">Tap an allergen above to see what the guest can and cannot be served, across all three menus.</div>
+    </div>`;
+    return;
+  }
+
+  const d = bucket(DINNER), s = bucket(DESSERT), t = bucket(COURSES);
+  const names = selected.map(k => LABEL[k].replace(/^\S+\s/, ''));
+  const heading = selected.length === 1
+    ? (DIETARY.includes(selected[0]) ? names[0] : names[0] + ' free')
+    : names.join(' + ');
+
+  let html = `<div class="brief">
+    <div class="brief-head">${heading}</div>
+    <div class="brief-sub">${DINNER.length} dinner dishes · ${DESSERT.length} desserts · ${COURSES.length} tasting courses</div>
+
+    <div class="tallies">
+      <div class="tally"><div class="tally-num" style="color:var(--red)">${d.no.length}</div><div class="tally-label">off limits</div></div>
+      <div class="tally"><div class="tally-num" style="color:var(--yellow)">${d.adapt.length + d.ask.length}</div><div class="tally-label">with a tweak</div></div>
+      <div class="tally"><div class="tally-num" style="color:var(--green)">${d.safe.length}</div><div class="tally-label">as written</div></div>
+    </div>
+
+    <div class="menu-label">Dinner</div>
+    ${groupHtml('Cannot be served', 'var(--red)', d.no, 'dinner.html')}
+    ${groupHtml('Kitchen can adapt', 'var(--green)', d.adapt, 'dinner.html')}
+    ${groupHtml('Ask the kitchen tonight', 'var(--yellow)', d.ask, 'dinner.html')}`;
+
+  html += d.safe.length
+    ? `<div class="fine-note">${d.safe.length} other ${d.safe.length === 1 ? 'dish is' : 'dishes are'} fine as written. <a href="dinner.html">Browse dinner →</a></div>`
+    : `<div class="fine-note">No dinner dish is safe as written.</div>`;
+
+  html += `<div class="menu-label">Dessert</div>
+    ${groupHtml('Cannot be served', 'var(--red)', s.no, 'dessert.html')}
+    ${groupHtml('Kitchen can adapt', 'var(--green)', s.adapt, 'dessert.html')}
+    ${groupHtml('Ask the kitchen tonight', 'var(--yellow)', s.ask, 'dessert.html')}`;
+  html += s.safe.length
+    ? `<div class="fine-note">${s.safe.length} other ${s.safe.length === 1 ? 'dessert is' : 'desserts are'} fine as written. <a href="dessert.html">Browse dessert →</a></div>`
+    : `<div class="fine-note">No dessert is safe as written.</div>`;
+
+  // The tasting menu is a fixed sequence, so it is all or nothing rather than a
+  // list to pick from.
+  const blocked = t.no.length, needs = t.ask.length + t.adapt.length;
+  const verdict = blocked
+    ? `<span style="color:var(--red)">Not available</span>`
+    : needs
+      ? `<span style="color:var(--yellow)">Possible with kitchen notice</span>`
+      : `<span style="color:var(--green)">Available as written</span>`;
+  const detail = blocked
+    ? `${blocked} of ${COURSES.length} courses cannot be served`
+    : needs
+      ? `${needs} of ${COURSES.length} courses need a modification`
+      : `all ${COURSES.length} courses clear`;
+
+  html += `<div class="menu-label">Tasting menu</div>
+    <div class="verdict-line">
+      <div><div>${verdict}</div><div class="k">${detail}</div></div>
+      <a href="tasting.html?allergen=${selected[0]}" style="color:var(--gold);text-decoration:none;font-size:13px;white-space:nowrap;">Details →</a>
+    </div>`;
+
+  html += `</div>`;
+  out.innerHTML = html;
+}
+
+function toggle(key) {
+  selected = selected.includes(key) ? selected.filter(k => k !== key) : [...selected, key];
+  const url = new URL(window.location);
+  selected.length ? url.searchParams.set('a', selected.join(',')) : url.searchParams.delete('a');
+  history.replaceState(null, '', url);
+  render();
+}
+
+function clearAll() {
+  selected = [];
+  const url = new URL(window.location);
+  url.searchParams.delete('a');
+  history.replaceState(null, '', url);
+  render();
+}
+
+document.getElementById('picker').innerHTML =
+  ALLERGENS.map(([k, label]) => `<button class="pick" data-key="${k}" onclick="toggle('${k}')">${label}</button>`).join('')
+  + `<button class="clear-pick" onclick="clearAll()">Clear</button>`;
+
+Promise.all([
+  fetch('food.json').then(r => r.json()),
+  fetch('tasting.json').then(r => r.json())
+]).then(([food, tasting]) => {
+  DINNER = food.filter(x => x.menu === 'dinner');
+  DESSERT = food.filter(x => x.menu === 'dessert');
+  COURSES = tasting.courses || [];
+
+  const param = new URLSearchParams(window.location.search).get('a');
+  if (param) selected = param.split(',').filter(k => LABEL[k]);
+  render();
+}).catch(err => {
+  document.getElementById('out').innerHTML =
+    `<div class="loading">Could not load the menus. ${err.message}</div>`;
+});
+</script>
+</body>
+</html>
