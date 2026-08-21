@@ -7064,7 +7064,7 @@
     "price": 20,
     "allocated": false,
     "mash_bill": "100 percent rye, distilled in Canada. Not a bourbon despite its placement on the list.",
-    "why": "A 12 year Canadian rye at 45 percent, softer and rounder than American rye of comparable age. Named for the 1910 founding of the Pendleton Round-Up rodeo.",
+    "why": "A 12 year Canadian rye at 40 percent, softer and rounder than American rye of comparable age. Named for the 1910 founding of the Pendleton Round-Up rodeo.",
     "icons": [
       "🍯",
       "🍎",
@@ -7090,8 +7090,7 @@
       "Canadian producers usually distil each grain separately and blend afterwards, where American distillers ferment a mixed mash.",
       "The Pendleton Round-Up has run every September since 1910 and is one of the oldest rodeos in the United States."
     ],
-    "file": "spirits",
-    "_verify": "Menu prints 45%. Hood River Distillers and all retail sources list Pendleton 1910 at 40% ABV / 80 proof. Data follows the sources; the printed menu needs correcting."
+    "file": "spirits"
   },
   {
     "id": "203",
