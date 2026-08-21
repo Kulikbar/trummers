@@ -13023,8 +13023,7 @@
       "Leo Hillinger is one of Austria's most internationally recognized wine producers, as much for his design aesthetic and marketing as for the wines themselves.",
       "Lake Neusiedl — Europe's largest steppe lake — moderates temperatures across the entire Burgenland wine region, reducing the risk of frost and enabling consistent ripening even in difficult vintages."
     ],
-    "bottle_price": 47,
-    "flight": "Austrian Wine Flight"
+    "bottle_price": 47
   },
   {
     "id": "627",
@@ -14198,8 +14197,8 @@
     "cat": "Rosé",
     "type": "rosé",
     "producer": "Tement",
-    "name": "Zweigelt Rosé, Niederösterreich",
-    "region": "Niederösterreich, Austria",
+    "name": "Zweigelt Rosé, Südsteiermark",
+    "region": "Südsteiermark, Austria",
     "vintage": "2024",
     "abv": 12.0,
     "price": 19,
@@ -14231,8 +14230,7 @@
       "Pale rosé colour is a choice, not an accident. It comes from limiting how long the juice sits on the skins after pressing."
     ],
     "file": "sparkling",
-    "bottle_price": 76,
-    "_verify": "Menu prints Niederösterreich, but Tement is a Südsteiermark (Styria) estate based in Ehrenhausen. Either the menu region is wrong, the fruit is sourced from Niederösterreich, or this is a different producer. Confirm before staff quote the region."
+    "bottle_price": 76
   },
   {
     "id": "BTG-015",

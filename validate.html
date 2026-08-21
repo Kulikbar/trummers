@@ -335,6 +335,50 @@ const CHECKS = [
 },
 
 {
+  name: 'Open verification flags',
+  why: 'A _verify field is a question someone wrote down for the somm or the kitchen and has not answered yet. Nothing on the site displays them, so without this check they sit in the data indefinitely while staff quote the unverified detail to guests every night.',
+  severity: 'warning',
+  run(D) {
+    const out = [];
+    const scan = (label, arr) => (arr || []).forEach(x => {
+      if (!x._verify) return;
+      const who = [x.producer, x.name].filter(Boolean).join(' ').trim();
+      out.push({
+        where: `${label} ${x.id} · ${who || 'unnamed'}`,
+        what: x._verify,
+        fix: 'Confirm the detail, correct the record, then delete the _verify field.'
+      });
+    });
+    scan('wines.json', D.wines);
+    scan('bar.json', D.bar);
+    scan('food.json', D.food);
+    if (D.tasting) scan('tasting.json', D.tasting.courses);
+    return out;
+  }
+},
+
+{
+  name: 'No dangling feature fields',
+  why: 'Removing a feature leaves fields behind on records that used it. They render nowhere, so nothing breaks, but the next person reading the data believes a feature exists that does not.',
+  severity: 'warning',
+  run(D) {
+    // Fields belonging to features that have been removed from the site.
+    const RETIRED = { flight: 'the wine flight feature, removed August 2026' };
+    const out = [];
+    D.wines.forEach(w => {
+      Object.keys(RETIRED).forEach(f => {
+        if (w[f] !== undefined && w.type !== 'flight') out.push({
+          where: `${w.id} · ${w.producer || ''} ${w.name}`.trim(),
+          what: `Carries a <code>${f}</code> field left over from ${RETIRED[f]}.`,
+          fix: `Delete the ${f} field from this record.`
+        });
+      });
+    });
+    return out;
+  }
+},
+
+{
   name: 'Flight pours link to real wines',
   why: 'A flight card links each of its pours to the wine underneath it. Those components are a second set of references that nothing else validates, so a wine pulled from the list leaves a dead link inside the flight.',
   severity: 'error',
