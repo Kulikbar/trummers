@@ -6,7 +6,7 @@
     "name": "Strawberry Gazpacho",
     "price": 12,
     "description": "Pickled red onion, strawberries, goat cheese, basil oil",
-    "tableside": "A chilled summer soup built on strawberries rather than the usual all-tomato base. It comes out cold, so say that when you drop it, because guests who hear soup expect hot. The goat cheese and basil oil are what keep it savoury rather than reading like a dessert.",
+    "tableside": "Strawberries stand in for tomatoes here, and the basil oil and goat cheese pull it back savory.",
     "ingredients": [
       "Strawberries",
       "Pickled red onion",
@@ -17,15 +17,15 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "contains",
-        "note": "Goat cheese. Kitchen confirms dairy."
+        "note": "Goat cheese. dairy."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -33,7 +33,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten. Our version is not bread thickened, unlike traditional gazpacho."
+        "note": "no gluten. Our version is not bread thickened, unlike traditional gazpacho."
       },
       "eggs": {
         "status": "safe",
@@ -48,8 +48,8 @@
         "note": "No meat or fish."
       },
       "vegan": {
-        "status": "no",
-        "note": "Contains goat cheese."
+        "status": "modifiable",
+        "note": "Goat cheese is a garnish and can be left off."
       }
     },
     "key_terms": [
@@ -65,10 +65,10 @@
     "sourcing": [
       {
         "name": "Wegmeyer Farms",
-        "description": "A Loudoun County, Virginia farm best known for pick-your-own strawberries. The kitchen uses their fruit when the season and supply allow, which is noted on the binder page as 'when possible' rather than guaranteed. Worth mentioning to a guest who asks where the strawberries come from, with the caveat that it varies."
+        "description": "A Loudoun County, Virginia farm best known for pick-your-own strawberries. The kitchen uses their fruit when the season and supply allow, which is noted on the printed menu as 'when possible' rather than guaranteed. Worth mentioning to a guest who asks where the strawberries come from, with the caveat that it varies."
       }
     ],
-    "chef_notes": "Served cold. Guests who expect a hot soup should be told before it lands. Kitchen confirms this is not bread thickened, so it is gluten free unlike a traditional gazpacho.",
+    "chef_notes": "Served cold. Guests who expect a hot soup should be told before it lands. this is not bread thickened, so it is gluten free unlike a traditional gazpacho.",
     "wine_pairings_btg": [
       {
         "id": "BTG-011",
@@ -103,7 +103,7 @@
     "name": "Baby Kale Salad",
     "price": 14,
     "description": "Plumcot, goat cheese, pepita, pumpkin seed oil",
-    "tableside": "Baby kale, so it's tender rather than the tough curly kind. Plumcot is a plum and apricot cross, and it carries the sweetness here.",
+    "tableside": "Tender baby kale rather than the tough curly kind, with plumcot for sweetness and pepitas for crunch.",
     "ingredients": [
       "Baby kale",
       "Plumcot",
@@ -114,7 +114,7 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "modifiable",
@@ -122,7 +122,7 @@
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts. Pepitas are pumpkin seeds, so tell seed-avoidant guests directly."
+        "note": "no tree nuts. Pepitas are pumpkin seeds, so tell seed-avoidant guests directly."
       },
       "peanuts": {
         "status": "safe",
@@ -130,7 +130,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -204,7 +204,7 @@
     "name": "Burgundy Escargot",
     "price": 15,
     "description": "Chipotle Buffalo Trace butter, toast points, chives",
-    "tableside": "Classic Burgundy snails baked in a chipotle and Buffalo Trace butter and served out of the shell with garlic toast. The snails arrive from Burgundy already shelled. Most of the pleasure is in the butter, which is worth saying to a hesitant guest.",
+    "tableside": "Snails baked in chipotle and Buffalo Trace butter, served bubbling so you can spoon the butter onto the toast.",
     "ingredients": [
       "Burgundy escargot",
       "Chipotle Buffalo Trace butter",
@@ -222,7 +222,7 @@
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -304,7 +304,7 @@
     "name": "Shrimp and Grits",
     "price": 18,
     "description": "Whiskey cream, spinach, caramelized onion, aleppo chili crisp",
-    "tableside": "Whiskey goes into the cream sauce. Aleppo chili crisp on top brings a mild, fruity heat rather than a sharp one.",
+    "tableside": "Whiskey goes into the cream, and the aleppo crisp on top brings a slow fruity heat rather than a sharp one.",
     "ingredients": [
       "Shrimp",
       "Grits",
@@ -331,8 +331,8 @@
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "check",
-        "note": "Chili crisp often contains wheat and the cream may be flour thickened. Confirm both with the kitchen."
+        "status": "modifiable",
+        "note": "From the aleppo chili crisp, which can be left off."
       },
       "eggs": {
         "status": "safe",
@@ -401,7 +401,7 @@
     "name": "Cajun Corn Ribs",
     "price": 14,
     "description": "Cilantro, lime, parmesan cream dipping sauce",
-    "tableside": "Corn on the cob cut lengthwise into strips, which curl as they cook and end up looking like ribs. Eaten with your hands, so warn a table that might not expect that. The parmesan cream comes on the side, which makes the dairy easy to hold.",
+    "tableside": "Corn cut lengthwise so it curls as it roasts, built for dragging through the parmesan cream.",
     "ingredients": [
       "Corn",
       "Cajun spice",
@@ -412,7 +412,7 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "modifiable",
@@ -420,7 +420,7 @@
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -428,7 +428,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "check",
@@ -498,7 +498,7 @@
     "name": "Buffalo Chicken Dip",
     "price": 16,
     "description": "Old Bay prawn chips, panko, chives",
-    "tableside": "The chicken is shredded off our own rotisserie, then mixed with mayo, cream cheese, yogurt, blue cheese and cheddar and baked. Served with Old Bay prawn chips, which are genuinely shellfish rather than shrimp flavoured. Worth raising before an allergy table digs in.",
+    "tableside": "Chicken pulled off our own rotisserie, baked under panko until the top browns and the edges bubble.",
     "ingredients": [
       "Rotisserie chicken",
       "Mayonnaise",
@@ -510,16 +510,16 @@
     ],
     "allergens": {
       "shellfish": {
-        "status": "contains",
-        "note": "The prawn chips are shrimp based. Kitchen confirms."
+        "status": "modifiable",
+        "note": "The prawn chips are shrimp based. Crostini can be served in their place."
       },
       "dairy": {
         "status": "contains",
-        "note": "Cream cheese, yogurt, blue cheese and cheddar. Kitchen says it cannot be made without."
+        "note": "Cream cheese, yogurt, blue cheese and cheddar. It cannot be made without."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -527,7 +527,7 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Kitchen says it cannot be made without."
+        "note": "It cannot be made without."
       },
       "eggs": {
         "status": "contains",
@@ -570,7 +570,7 @@
         "description": "Also known as prawn crackers, krupuk udang in Indonesia or bánh phồng tôm in Vietnam. A puffed snack popular across Southeast and East Asia, made from real shrimp and tapioca starch, deeply savoury with a distinct ocean-sweet flavour. They contain genuine shellfish protein."
       }
     ],
-    "chef_notes": "Kitchen confirms neither the dairy nor the gluten can be removed. The shellfish is in the chips rather than the dip, but the dip itself still cannot be made dairy or gluten free.",
+    "chef_notes": "neither the dairy nor the gluten can be removed. The shellfish is in the chips rather than the dip, but the dip itself still cannot be made dairy or gluten free.",
     "wine_pairings_btg": [
       {
         "id": "BTG-011",
@@ -605,7 +605,7 @@
     "name": "Baked Brie",
     "price": 17,
     "description": "Cherry jam, candied pecans",
-    "tableside": "Baked until it runs. Cherry jam and candied pecans on top. Meant for sharing.",
+    "tableside": "Baked in puff pastry until it runs, with cherry jam and candied pecans over the top.",
     "ingredients": [
       "Brie",
       "Cherry jam",
@@ -629,8 +629,8 @@
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "check",
-        "note": "Served with bread or crostini. Confirm whether a gluten free vehicle is available."
+        "status": "contains",
+        "note": "Wrapped in puff pastry. Cannot be modified."
       },
       "eggs": {
         "status": "safe",
@@ -642,7 +642,7 @@
       },
       "vegetarian": {
         "status": "yes",
-        "note": "Confirm rennet with the kitchen if the guest is strict."
+        "note": "Suitable as written."
       },
       "vegan": {
         "status": "no",
@@ -695,7 +695,7 @@
     "name": "BBQ Bone Marrow",
     "price": 19,
     "description": "Apricot jam, mint gremolata, ciabatta",
-    "tableside": "Roasted marrow bones, scooped and spread on the ciabatta. Rich, so it works better shared than solo.",
+    "tableside": "Scoop it straight from the bone onto the ciabatta and let the apricot jam and mint cut through the richness.",
     "ingredients": [
       "Beef marrow bones",
       "BBQ glaze",
@@ -713,16 +713,16 @@
         "note": "Confirm whether butter is used in roasting or in the gremolata."
       },
       "nuts": {
-        "status": "check",
-        "note": "Gremolata is classically parsley, garlic, and lemon zest with no nuts, but confirm this version."
+        "status": "safe",
+        "note": "No nuts in the gremolata."
       },
       "peanuts": {
         "status": "safe",
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "modifiable",
-        "note": "From the ciabatta. Can be served with a gluten free substitute or without bread."
+        "status": "contains",
+        "note": "Served on ciabatta and there is no gluten free substitute."
       },
       "eggs": {
         "status": "safe",
@@ -795,7 +795,7 @@
     "name": "Salmon Belly",
     "price": 16,
     "description": "Bourbon cured and baked, apple vin., radish, arugula, mustard seed gastrique",
-    "tableside": "The belly is the fattiest cut of the salmon. Cured in bourbon, then baked, so it is served warm rather than as a cold cure.",
+    "tableside": "The fattiest cut of the salmon, cured in bourbon and baked, with a mustard seed gastrique to sharpen it.",
     "ingredients": [
       "Salmon belly",
       "Bourbon cure",
@@ -807,7 +807,7 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Salmon is finfish, not shellfish. Guests avoiding all seafood should still avoid it."
+        "note": "Salmon only."
       },
       "dairy": {
         "status": "safe",
@@ -822,8 +822,8 @@
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "check",
-        "note": "Confirm the bourbon cure and gastrique components with the kitchen."
+        "status": "safe",
+        "note": "No gluten in the cure or the gastrique."
       },
       "eggs": {
         "status": "safe",
@@ -892,7 +892,7 @@
     "name": "Loaded Pierogies",
     "price": 18,
     "description": "Cheddar, bacon crumble, dill crema, crispy shallots",
-    "tableside": "Potato pierogi finished like a loaded baked potato. Filling and easy to share.",
+    "tableside": "Potato pierogi finished like a loaded baked potato, cheddar and bacon crumble down into the folds.",
     "ingredients": [
       "Pierogi",
       "Cheddar",
@@ -922,12 +922,12 @@
         "note": "Pierogi dough is wheat."
       },
       "eggs": {
-        "status": "check",
-        "note": "Pierogi dough commonly contains egg. Confirm this recipe."
+        "status": "contains",
+        "note": "Egg is in the pierogi dough. Cannot be made without."
       },
       "soy": {
-        "status": "check",
-        "note": "Confirm the frying oil and bacon cure."
+        "status": "safe",
+        "note": "Fried in canola oil."
       },
       "vegetarian": {
         "status": "modifiable",
@@ -983,8 +983,8 @@
     "cat": "Bread Service",
     "name": "Focaccia",
     "price": 10,
-    "description": "Strawberry basil balsamic & olive oil",
-    "tableside": "House made focaccia with a house strawberry balsamic and olive oil. This replaced the Parker House rolls. It contains dairy and there is no gluten free version, so a celiac or dairy allergy guest should be pointed at the skillet cornbread instead.",
+    "description": "Peach basil balsamic & olive oil",
+    "tableside": "House focaccia, torn and dipped, with peach and olive oil doing the work of butter.",
     "ingredients": [
       "Focaccia",
       "Strawberry basil balsamic",
@@ -996,8 +996,8 @@
         "note": "No shellfish."
       },
       "dairy": {
-        "status": "contains",
-        "note": "Kitchen confirms dairy in the focaccia."
+        "status": "safe",
+        "note": "No dairy in the focaccia."
       },
       "nuts": {
         "status": "safe",
@@ -1025,7 +1025,7 @@
       },
       "vegan": {
         "status": "no",
-        "note": "Kitchen confirms dairy."
+        "note": "dairy."
       }
     },
     "key_terms": [
@@ -1044,7 +1044,7 @@
         "description": "The focaccia is baked in house, as is the strawberry balsamic served alongside it. Focaccia originates in Liguria, and the name comes from the Latin panis focacius, meaning hearth bread, a reference to baking it directly over coals."
       }
     ],
-    "chef_notes": "Kitchen confirms this contains dairy, which surprises people since focaccia is usually made with olive oil alone. Not vegan and not dairy free.",
+    "chef_notes": "this contains dairy, which surprises people since focaccia is usually made with olive oil alone. Not vegan and not dairy free.",
     "file": "dinner"
   },
   {
@@ -1054,7 +1054,7 @@
     "name": "GF Skillet Cornbread",
     "price": 10,
     "description": "Watermelon jam",
-    "tableside": "Gluten free cornbread baked in a skillet, served with watermelon jam. This is the gluten free bread option.",
+    "tableside": "Cornbread baked and served in the skillet so the edges stay crisp, with watermelon jam alongside.",
     "ingredients": [
       "Cornmeal",
       "Watermelon jam"
@@ -1065,8 +1065,8 @@
         "note": "No shellfish."
       },
       "dairy": {
-        "status": "check",
-        "note": "Cornbread is usually made with butter or buttermilk. Confirm before clearing a dairy allergy."
+        "status": "contains",
+        "note": "The cornbread contains dairy."
       },
       "nuts": {
         "status": "safe",
@@ -1118,7 +1118,7 @@
     "name": "Butcher Salad",
     "price": 25,
     "description": "Creme fraiche vin., tomato, cucumber, bacon, spit roasted meat",
-    "tableside": "Whatever is on the rotisserie that night goes on this salad. Ask the kitchen what the meat is before you promise anything.",
+    "tableside": "Whatever came off the rotisserie that night, laid over cucumber and tomato in a creme fraiche vinaigrette.",
     "ingredients": [
       "Spit roasted meat",
       "Tomato",
@@ -1144,8 +1144,8 @@
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "check",
-        "note": "Depends on the rotisserie meat's rub and any jus. Confirm nightly."
+        "status": "safe",
+        "note": "No gluten in the salad or the vinaigrette."
       },
       "eggs": {
         "status": "safe",
@@ -1210,7 +1210,7 @@
     "name": "Joyce Farm Chicken",
     "price": 32,
     "description": "Roasted root vegetables, patty pan squash, lemon herb tahini",
-    "tableside": "Half or whole. Always confirm which one the guest wants, since the whole bird is a serious amount of food.",
+    "tableside": "Roasted on the spit until the skin tightens, served over root vegetables with a lemon herb tahini.",
     "ingredients": [
       "Joyce Farm chicken",
       "Root vegetables",
@@ -1310,7 +1310,7 @@
     "name": "Whole Roasted Fish",
     "price": 42,
     "description": "Carrot, ginger, red pepper, peanut & coconut curry, peanut, smoked cashews",
-    "tableside": "A whole fish roasted on the rotisserie and served with a carrot, ginger and red pepper slaw, green coconut curry and smoked cashews. The cashews can come off, but the curry itself contains peanuts and cannot be changed. This is the highest risk dish on the menu for nut allergies.",
+    "tableside": "A whole fish off the rotisserie, dressed in a peanut and coconut curry with smoked cashews scattered over.",
     "ingredients": [
       "Whole branzino",
       "Roasted carrot ginger and red pepper slaw",
@@ -1320,11 +1320,11 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish in the curry."
+        "note": "no shellfish in the curry."
       },
       "dairy": {
         "status": "safe",
-        "note": "Kitchen confirms no dairy. Coconut milk, not cream."
+        "note": "no dairy. Coconut milk, not cream."
       },
       "nuts": {
         "status": "contains",
@@ -1336,7 +1336,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -1372,10 +1372,10 @@
     "sourcing": [
       {
         "name": "Whole Roasted Fish",
-        "description": "Cooked whole on the rotisserie. The binder titles this dish Branzino, the Italian name for European sea bass, though the description text refers to sea bream. Those are different fish, so confirm the species with the kitchen before quoting it to a guest."
+        "description": "Cooked whole on the rotisserie. The printed menu titles this dish Branzino, the Italian name for European sea bass, though the description text refers to sea bream. Those are different fish, so confirm the species with the kitchen before quoting it to a guest."
       }
     ],
-    "chef_notes": "Peanut is structural in the green curry and cannot be removed. Cashews are a garnish and can be. The binder titles this Branzino but the description text says Sea Bream, so confirm the species with the kitchen before quoting it to a guest.",
+    "chef_notes": "Peanut is structural in the green curry and cannot be removed. Cashews are a garnish and can be. The printed menu titles this Branzino but the description text says Sea Bream, so confirm the species with the kitchen before quoting it to a guest.",
     "wine_pairings_btg": [
       {
         "id": "BTG-013",
@@ -1410,7 +1410,7 @@
     "name": "Rohan Duck Breast",
     "price": 0,
     "description": "Aleppo chili crisp, duck fat potatoes",
-    "tableside": "Tuesday's rotisserie feature. Rohan duck is a D'Artagnan breed, leaner than Pekin and milder than most heritage duck. Served with aleppo chili crisp and duck fat potatoes. The chili crisp contains pine nuts, which is easy to miss.",
+    "tableside": "Rohan duck is leaner and milder than Pekin, seared and finished with aleppo crisp over duck fat potatoes.",
     "ingredients": [
       "Rohan duck breast",
       "Aleppo chili crisp",
@@ -1419,11 +1419,11 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "safe",
-        "note": "Kitchen confirms no dairy."
+        "note": "no dairy."
       },
       "nuts": {
         "status": "contains",
@@ -1474,7 +1474,7 @@
         "description": "A New York based purveyor founded in 1985 that supplies restaurants with game, duck and charcuterie. Rohan duck is their proprietary crossbreed, developed from heritage lines including Heritage Mallard and Pekin. It carries deep rose coloured flesh and a milder flavour than most wild waterfowl, and is bred deliberately leaner than a traditional Pekin, so it renders with less unrendered fat under the skin."
       }
     ],
-    "chef_notes": "The chili crisp contains pine nuts and is also where the gluten sits. Removing it addresses both. Kitchen confirms no dairy, so the duck fat potatoes are not buttered.",
+    "chef_notes": "The chili crisp contains pine nuts and is also where the gluten sits. Removing it addresses both. no dairy, so the duck fat potatoes are not buttered.",
     "wine_pairings_btg": [
       {
         "id": "BTG-007",
@@ -1509,7 +1509,7 @@
     "name": "Whole Rack of Lamb",
     "price": 0,
     "description": "Basil & pine nut-arugula pesto, duck fat potatoes",
-    "tableside": "Wednesday's rotisserie feature. About 25 ounces with 8 bones, cooked whole on the rotisserie, served with a basil, pine nut and arugula pesto and duck fat potatoes. Large enough to share, and worth saying so.",
+    "tableside": "Eight bones cooked whole on the rotisserie, carved to order, with a basil and pine nut pesto.",
     "ingredients": [
       "Rack of lamb",
       "Basil pine nut arugula pesto",
@@ -1518,11 +1518,11 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "safe",
-        "note": "Kitchen confirms no dairy. The pesto is made without cheese."
+        "note": "no dairy. The pesto is made without cheese."
       },
       "nuts": {
         "status": "modifiable",
@@ -1534,7 +1534,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -1568,7 +1568,7 @@
       }
     ],
     "sourcing": [],
-    "chef_notes": "About 25 oz with 8 bones. Kitchen confirms the pesto contains no cheese, so this is dairy free as plated. Pine nuts are the only allergen and the pesto can be held.",
+    "chef_notes": "About 25 oz with 8 bones. the pesto contains no cheese, so this is dairy free as plated. Pine nuts are the only allergen and the pesto can be held.",
     "wine_pairings_btg": [
       {
         "id": "BTG-015",
@@ -1611,7 +1611,7 @@
     "name": "Tomahawk Ribeye",
     "price": 0,
     "description": "Salsa verde, duck fat potatoes",
-    "tableside": "Thursday's rotisserie feature. About 32 ounces of bone-in ribeye with the long frenched bone left on, served with salsa verde and duck fat potatoes. Easily shared between two, and it presents well at the table.",
+    "tableside": "Thirty two ounces of bone-in ribeye with the long frenched bone, big enough that a table should share it.",
     "ingredients": [
       "Tomahawk ribeye",
       "Salsa verde",
@@ -1620,15 +1620,15 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish. No anchovy in the salsa verde."
+        "note": "no shellfish. No anchovy in the salsa verde."
       },
       "dairy": {
         "status": "safe",
-        "note": "Kitchen confirms no dairy."
+        "note": "no dairy."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -1636,7 +1636,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -1709,7 +1709,7 @@
     "name": "Prime Rib",
     "price": 0,
     "description": "Horseradish cream, duck fat potatoes",
-    "tableside": "Friday and Saturday. Ten ounce or sixteen ounce, always confirm which. Comes with horseradish cream on the side.",
+    "tableside": "Slow roasted and carved to order, with horseradish cream and potatoes cooked in duck fat.",
     "ingredients": [
       "Prime rib",
       "Horseradish cream",
@@ -1801,120 +1801,13 @@
     "file": "dinner"
   },
   {
-    "id": "d41",
-    "menu": "dinner",
-    "cat": "Sea",
-    "name": "Pan Seared Mahi-Mahi",
-    "price": 32,
-    "description": "Pearl couscous, shrimp, mango, summer squash, coconut milk, tobiko butter",
-    "tableside": "Mahi is a firm, meaty white fish, served over pearl couscous with shrimp, mango and summer squash in coconut milk, finished with a tobiko butter. Note there is shrimp in the couscous, so this is not a safe dish for a shellfish allergy.",
-    "ingredients": [
-      "Mahi-mahi",
-      "Pearl couscous",
-      "Shrimp",
-      "Mango",
-      "Summer squash",
-      "Coconut milk",
-      "Tobiko butter"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "contains",
-        "note": "Shrimp in the couscous. Kitchen confirms. Cannot be modified."
-      },
-      "dairy": {
-        "status": "contains",
-        "note": "Tobiko butter. Kitchen confirms."
-      },
-      "nuts": {
-        "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      },
-      "gluten": {
-        "status": "contains",
-        "note": "Pearl couscous is wheat based. Kitchen confirms."
-      },
-      "eggs": {
-        "status": "check",
-        "note": "Tobiko is fish roe rather than egg, but confirm if a guest asks specifically."
-      },
-      "soy": {
-        "status": "safe",
-        "note": "No soy expected."
-      },
-      "vegetarian": {
-        "status": "no",
-        "note": "Contains fish and shellfish."
-      },
-      "vegan": {
-        "status": "no",
-        "note": "Contains fish, shellfish and dairy."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Mahi-Mahi",
-        "definition": "Also called dorado or dolphinfish, and unrelated to marine mammals, which is worth clarifying if a guest hesitates. Firm, meaty and dense enough that it holds together in the pan, with large moist flakes and a clean, subtly sweet flavour."
-      },
-      {
-        "term": "Pearl Couscous",
-        "definition": "A machine-made toasted pasta rolled into small uniform spheres, also called Israeli couscous or ptitim. Invented in Israel in the 1950s as a wheat substitute for scarce rice. Entirely distinct from Moroccan couscous, which is much smaller and steamed rather than boiled."
-      },
-      {
-        "term": "Tobiko",
-        "definition": "The cured roe of flying fish, prized in sushi for its crunch and the pop it gives when bitten. The spheres run half a millimetre to one millimetre, larger than capelin roe and smaller than salmon roe."
-      }
-    ],
-    "sourcing": [
-      {
-        "name": "Tobiko",
-        "description": "The cured roe of marine flying fish, prized in sushi for its crunch and the pop it gives when bitten. The individual spheres measure half a millimetre to one millimetre, larger and crisper than capelin roe but significantly smaller than salmon roe."
-      },
-      {
-        "name": "Pearl Couscous",
-        "description": "A machine-made toasted pasta formed into small uniform spheres, also called Israeli couscous or ptitim. Invented in Israel in the 1950s as a wheat-based substitute for scarce rice. Entirely distinct from Moroccan couscous, which is smaller, irregular and steamed rather than boiled."
-      }
-    ],
-    "chef_notes": "The printed menu describes a cauliflower preparation. The kitchen build is pearl couscous with shrimp, mango and squash in coconut milk with tobiko butter. Go by the kitchen. Three of the four major allergens are present and none can be removed.",
-    "wine_pairings_btg": [
-      {
-        "id": "BTG-006",
-        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Loire Sauvignon's acidity meets the pickled cauliflower and keeps a lean fish bright.",
-        "price": 15,
-        "file": "whites"
-      },
-      {
-        "id": "BTG-004",
-        "name": "The Vice Chardonnay, Napa Valley",
-        "note": "Chardonnay's weight matches the cauliflower puree if the guest wants something rounder.",
-        "price": 18,
-        "file": "whites"
-      },
-      {
-        "id": "733",
-        "name": "Botanica Chenin Blanc 'Mary Delany,' Citrusdal",
-        "note": "Chenin has the texture for the puree and the acid for the pickle, available by the glass through Coravin.",
-        "price": 28,
-        "coravin": true,
-        "file": "whites"
-      }
-    ],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
-  },
-  {
     "id": "d23",
     "menu": "dinner",
     "cat": "Sea",
     "name": "Pan Seared U12 Scallops",
     "price": 38,
     "description": "Summer succotash, okra, heirloom tomato, lima bean, pickled garlic, achiote jus",
-    "tableside": "Six ounces of U12 scallops seared to order. U12 means under twelve scallops per pound, so each one is large.",
+    "tableside": "U12 means fewer than twelve to a pound, so these are large, seared hard and set on summer succotash.",
     "ingredients": [
       "U12 scallops",
       "Summer succotash",
@@ -2012,7 +1905,7 @@
     "name": "Summer Seafood Stew",
     "price": 34,
     "description": "PEI mussels, shrimp, mkt fish, tomato, corn, toasted ciabatta",
-    "tableside": "Mussels, shrimp, and whatever the market fish is that day, in a tomato and corn broth. Confirm the fish with the kitchen.",
+    "tableside": "Mussels, shrimp and the market fish in a tomato and corn broth, with ciabatta for the bottom of the bowl.",
     "ingredients": [
       "PEI mussels",
       "Shrimp",
@@ -2024,15 +1917,15 @@
     "allergens": {
       "shellfish": {
         "status": "contains",
-        "note": "PEI mussels and shrimp. Kitchen confirms. Cannot be modified."
+        "note": "PEI mussels and shrimp. Cannot be modified."
       },
       "dairy": {
         "status": "safe",
-        "note": "Kitchen confirms no dairy. Tomato based broth."
+        "note": "no dairy. Tomato based broth."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -2079,7 +1972,7 @@
         "description": "Blue mussels native to Prince Edward Island, Canada, sustainably rope grown in the cold Atlantic waters off the coast. Known for a sweet, rich flavour and jet-black shells, and cleaner than wild harvested mussels because rope cultivation keeps them off the seabed."
       }
     ],
-    "chef_notes": "Kitchen confirms the broth is tomato based with no dairy, so the only modification needed is holding the bread. Seasonal fish changes, so confirm what it is each evening.",
+    "chef_notes": "the broth is tomato based with no dairy, so the only modification needed is holding the bread. Seasonal fish changes, so confirm what it is each evening.",
     "wine_pairings_btg": [
       {
         "id": "BTG-013",
@@ -2114,7 +2007,7 @@
     "name": "Smoke in Chimneys Seared Rainbow Trout",
     "price": 46,
     "description": "Lollipop kale sprouts, pine nuts, capers, lemon",
-    "tableside": "Pan seared skin on, served with lollipop kale, a lemon caper sauce and pine nuts. Smoke in Chimney is a revitalised 1930s hatchery in New Castle, Virginia, owned by Ty and Shannon Walker. This is the most local protein on the menu and the sourcing is worth leading with.",
+    "tableside": "Seared skin on so it crisps, finished with lemon, capers and pine nuts over lollipop kale.",
     "ingredients": [
       "Rainbow trout",
       "Lollipop kale sprouts",
@@ -2125,7 +2018,7 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "modifiable",
@@ -2141,7 +2034,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -2219,7 +2112,7 @@
     "name": "8oz Snake River Farms Wagyu Flat Iron Steak",
     "price": 54,
     "description": "Mixed bean almondine, purple haze goat cheese, rosemary garlic butter",
-    "tableside": "American Wagyu from Snake River Farms. Flat iron is a shoulder cut that eats far more tender than its price suggests. Served medium rare with mixed beans in an almondine sauce, Purple Haze goat cheese, and a black garlic butter on the steak.",
+    "tableside": "American wagyu from Snake River Farms, a shoulder cut that eats far more tender than it sounds, under rosemary garlic butter.",
     "ingredients": [
       "Snake River Farms Wagyu flat iron",
       "Mixed beans",
@@ -2230,11 +2123,11 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
-        "status": "contains",
-        "note": "Purple Haze goat cheese and black garlic butter. Kitchen confirms."
+        "status": "check",
+        "note": "Rosemary garlic butter and goat cheese can both come off. Confirm with the kitchen."
       },
       "nuts": {
         "status": "contains",
@@ -2296,13 +2189,6 @@
     "chef_notes": "Kitchen cooks this medium rare as standard. Confirm with the guest if they want otherwise. Almondine means almonds and the sauce is built on them, so the name itself is the allergy warning.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-010",
-        "name": "Black Stallion Cabernet Sauvignon, North Coast",
-        "note": "Cabernet tannin against Wagyu marbling, with enough fruit to meet the rosemary butter.",
-        "price": 18,
-        "file": "reds"
-      },
-      {
         "id": "BTG-015",
         "name": "Steindorfer Blaufränkisch, Burgenland",
         "note": "Blaufränkisch for a guest who wants acidity rather than tannin against a fatty cut.",
@@ -2318,8 +2204,24 @@
         "file": "reds"
       }
     ],
-    "wine_pairings_bottle": [],
-    "file": "dinner"
+    "wine_pairings_bottle": [
+      {
+        "id": "7005",
+        "name": "Netzl Zweigelt/Merlot/Cab Sauv 'Anna-Christina,' Carnuntum",
+        "note": "A Bordeaux shaped Austrian blend, so the tannin has enough grip for the wagyu without burying the goat cheese.",
+        "price": 125,
+        "file": "reds"
+      }
+    ],
+    "file": "dinner",
+    "wine_pairings_whisky": [
+      {
+        "name": "Michter's Toasted Barrel Finish",
+        "note": "The second barrel pushes char and caramel, which reads straight through the rosemary garlic butter.",
+        "price": 35,
+        "whisky_id": "23"
+      }
+    ]
   },
   {
     "id": "d27",
@@ -2328,7 +2230,7 @@
     "name": "Wienerschnitzel from Pork",
     "price": 22,
     "description": "Dill potato salad, lingonberry jam",
-    "tableside": "Pounded thin, breaded, and fried. Ours is pork rather than veal, which is the standard Viennese distinction worth naming.",
+    "tableside": "Pounded thin and fried until the crust blisters away from the pork, with lingonberry and dill potato salad alongside.",
     "ingredients": [
       "Pork cutlet",
       "Breadcrumb",
@@ -2341,8 +2243,8 @@
         "note": "No shellfish."
       },
       "dairy": {
-        "status": "check",
-        "note": "Confirm the frying medium and the potato salad dressing."
+        "status": "contains",
+        "note": "Dairy is used in the breading. Cannot be made without."
       },
       "nuts": {
         "status": "safe",
@@ -2361,8 +2263,8 @@
         "note": "Egg is part of the breading standard. Confirm the potato salad dressing as well."
       },
       "soy": {
-        "status": "check",
-        "note": "Confirm the frying oil."
+        "status": "safe",
+        "note": "Fried in canola oil."
       },
       "vegetarian": {
         "status": "no",
@@ -2398,10 +2300,11 @@
         "file": "whites"
       },
       {
-        "id": "BTG-013",
-        "name": "Michael-Eppan Pinot Grigio, Alto Adige",
-        "note": "Pinot Grigio if the guest wants something lighter, clean enough not to fight the lingonberry.",
-        "price": 15,
+        "id": "819",
+        "name": "Bernhard Ott Grüner Veltliner 'Fass 4,' Wagram",
+        "note": "Peppery enough to cut the fried crust, with the weight to stand up to the pork.",
+        "price": 26,
+        "coravin": true,
         "file": "whites"
       }
     ],
@@ -2423,7 +2326,7 @@
     "name": "Roasted Zucchiolo",
     "price": 22,
     "description": "Sheep milk feta, zatar spiced pistachio, preserved lemon, Goldberry Hill honey vin.",
-    "tableside": "This is the vegetarian main. Zucchiolo sits between a zucchini and a marrow, so it holds up to roasting where a regular zucchini would collapse. Honey in the vinaigrette means it is not vegan as written, which catches people out.",
+    "tableside": "Zucchiolo sits between a zucchini and a marrow, so it holds its shape roasted, dressed with feta and zatar pistachio.",
     "ingredients": [
       "Zucchiolo squash",
       "Sheep milk feta",
@@ -2434,15 +2337,15 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
-        "status": "contains",
-        "note": "Sheep milk feta. Kitchen confirms."
+        "status": "modifiable",
+        "note": "Sheep milk feta can be left off."
       },
       "nuts": {
-        "status": "contains",
-        "note": "Za'atar spiced pistachios. Kitchen confirms."
+        "status": "modifiable",
+        "note": "Pistachio is a garnish and can be left off."
       },
       "peanuts": {
         "status": "safe",
@@ -2450,7 +2353,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -2497,7 +2400,7 @@
         "description": "A cornerstone of North African and Moroccan cooking. Whole lemons are packed tightly in coarse salt and their own juice for several weeks or months. Only the softened rind is used, and it reads floral and savoury rather than sharp, since the salt draws out most of the acidity."
       }
     ],
-    "chef_notes": "This is the vegetarian main. Kitchen confirms it is gluten free. A vegan guest needs both the feta and the honey vinaigrette addressed, so check what the kitchen can do rather than just pulling the cheese.",
+    "chef_notes": "This is the vegetarian main. it is gluten free. A vegan guest needs both the feta and the honey vinaigrette addressed, so check what the kitchen can do rather than just pulling the cheese.",
     "wine_pairings_btg": [
       {
         "id": "BTG-006",
@@ -2532,7 +2435,7 @@
     "name": "Spring Chicken Cavatelli",
     "price": 29,
     "description": "Asparagus, English peas, radish, cured egg yolk",
-    "tableside": "The cavatelli is made with ricotta and boursin, which is what gives it that light, pillowy texture. Served with shredded chicken, English peas and asparagus, finished with finely grated cured egg yolk. The cheese is in the pasta itself, so it cannot be made dairy free.",
+    "tableside": "Ricotta and boursin go into the cavatelli, which is what makes it pillowy, tossed with asparagus and English peas.",
     "ingredients": [
       "Ricotta and boursin cavatelli",
       "Shredded chicken",
@@ -2543,15 +2446,15 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "contains",
-        "note": "Ricotta and boursin are in the pasta dough itself. Kitchen says it cannot be made dairy free."
+        "note": "Ricotta and boursin are in the pasta dough itself. It cannot be made dairy free."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -2559,7 +2462,7 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Kitchen says it cannot be made gluten free."
+        "note": "It cannot be made gluten free."
       },
       "eggs": {
         "status": "contains",
@@ -2570,8 +2473,8 @@
         "note": "No soy."
       },
       "vegetarian": {
-        "status": "no",
-        "note": "Contains chicken."
+        "status": "check",
+        "note": "Chicken may be able to come out. Confirm with the kitchen."
       },
       "vegan": {
         "status": "no",
@@ -2594,7 +2497,7 @@
         "description": "Raw yolks buried in a dense mixture of salt and sugar for several days, then dehydrated until firm. The cure draws out moisture and concentrates the yolk's fats and proteins, turning a liquid egg into a hard, grateable wedge with a velvety texture and a flavour close to a deeply savoury Parmesan."
       }
     ],
-    "chef_notes": "Kitchen confirms this can be made neither dairy free nor gluten free, because the cheese and flour are both in the dough. Egg is in the dough as well as on top.",
+    "chef_notes": "this can be made neither dairy free nor gluten free, because the cheese and flour are both in the dough. Egg is in the dough as well as on top.",
     "wine_pairings_btg": [
       {
         "id": "BTG-004",
@@ -2629,7 +2532,7 @@
     "name": "Tomato Water Risotto",
     "price": 28,
     "description": "Tomato confit, garlic chip, tomato salad",
-    "tableside": "Built on tomato water rather than stock, so it comes out pale and clear rather than as a red sauce. Carnaroli rice, finished with butter and parmesan, topped with confit tomatoes and an heirloom tomato salad. Tomato in three forms across one plate.",
+    "tableside": "Built on tomato water rather than stock, so it comes out pale and clear with the tomato flavor still there.",
     "ingredients": [
       "Carnaroli rice",
       "Tomato water",
@@ -2641,15 +2544,15 @@
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "Kitchen confirms no shellfish."
+        "note": "no shellfish."
       },
       "dairy": {
         "status": "contains",
-        "note": "Finished with butter and parmesan. Kitchen confirms."
+        "note": "Finished with butter and parmesan."
       },
       "nuts": {
         "status": "safe",
-        "note": "Kitchen confirms no tree nuts."
+        "note": "no tree nuts."
       },
       "peanuts": {
         "status": "safe",
@@ -2657,7 +2560,7 @@
       },
       "gluten": {
         "status": "safe",
-        "note": "Kitchen confirms no gluten."
+        "note": "no gluten."
       },
       "eggs": {
         "status": "safe",
@@ -2668,12 +2571,12 @@
         "note": "No soy."
       },
       "vegetarian": {
-        "status": "check",
-        "note": "No meat, but parmesan is often made with animal rennet. Confirm if the guest is strict."
+        "status": "yes",
+        "note": "Suitable as written."
       },
       "vegan": {
-        "status": "no",
-        "note": "Finished with butter and parmesan."
+        "status": "check",
+        "note": "Can be made vegan. Confirm with the kitchen."
       }
     },
     "key_terms": [
@@ -2696,7 +2599,7 @@
         "description": "A high-starch Italian white rice often called the king of rices. The long plump grains hold a firm al dente core while releasing enough starch for a creamy result, and they resist overcooking better than Arborio, which is why it is preferred for risotto at service pace."
       }
     ],
-    "chef_notes": "Kitchen confirms it is finished with butter and parmesan, so it is not dairy free. Parmesan rennet is the open question for a strict vegetarian.",
+    "chef_notes": "it is finished with butter and parmesan, so it is not dairy free. Parmesan rennet is the open question for a strict vegetarian.",
     "wine_pairings_btg": [
       {
         "id": "BTG-013",
@@ -2731,7 +2634,7 @@
     "name": "Watermelon Salad",
     "price": 12,
     "description": "Charred cucumber, feta, cashew, mint",
-    "tableside": "Cold and sharp, which makes it the best foil on the menu for anything off the rotisserie. Both the feta and the cashews are removable garnishes, so it is one of the easiest sides to modify for an allergy table.",
+    "tableside": "Cold and sharp, the best foil on the menu for anything that came off the rotisserie.",
     "ingredients": [
       "Watermelon",
       "Charred cucumber",
@@ -2794,7 +2697,7 @@
     "name": "Crispy Brussels Sprouts",
     "price": 12,
     "description": "Smoked blue cheese, fried shallots, honey mustard vinaigrette",
-    "tableside": "Fried until the outer leaves crisp. Smoked blue cheese is assertive, so mention it to guests who are unsure about blue.",
+    "tableside": "Fried until the outer leaves shatter, then tossed in honey mustard with smoked blue cheese.",
     "ingredients": [
       "Brussels sprouts",
       "Smoked blue cheese",
@@ -2819,8 +2722,8 @@
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "check",
-        "note": "Fried shallots are often dusted in flour, and fryer sharing is a factor. Confirm before clearing a celiac guest."
+        "status": "modifiable",
+        "note": "From the fried shallots, which can be left off."
       },
       "eggs": {
         "status": "safe",
@@ -2860,7 +2763,7 @@
     "name": "Buttermilk Spätzle",
     "price": 12,
     "description": "Cheese, caramelized onion",
-    "tableside": "Austrian egg noodle, closer to a dumpling than a pasta. This version is essentially the Austrian answer to macaroni and cheese.",
+    "tableside": "Austrian egg noodle closer to a dumpling than a pasta, folded with cheese and caramelized onion.",
     "ingredients": [
       "Spätzle",
       "Buttermilk",
@@ -2941,7 +2844,7 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Butter crust and ice cream. Kitchen says it cannot be made without."
+        "note": "Butter crust and ice cream. It cannot be made without."
       },
       "nuts": {
         "status": "safe",
@@ -2953,7 +2856,7 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Tart crust and cornbread crumble. Kitchen confirms."
+        "note": "Tart crust and cornbread crumble."
       },
       "eggs": {
         "status": "check",
@@ -3123,11 +3026,11 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Cream cheese frosting and ice cream. Kitchen says it cannot be made without."
+        "note": "Cream cheese frosting and ice cream. It cannot be made without."
       },
       "nuts": {
         "status": "contains",
-        "note": "Walnuts are in the cake. The binder lists nuts as N/A, which appears to be an error given the name of the dish. Do not clear this for a nut allergy until the kitchen confirms."
+        "note": "Walnuts are in the cake. The printed menu lists nuts as N/A, which appears to be an error given the name of the dish. Do not clear this for a nut allergy until you confirm with the kitchen."
       },
       "peanuts": {
         "status": "safe",
@@ -3135,7 +3038,7 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Kitchen says it cannot be made without."
+        "note": "It cannot be made without."
       },
       "eggs": {
         "status": "check",
@@ -3165,7 +3068,7 @@
       }
     ],
     "sourcing": [],
-    "chef_notes": "The binder lists nuts as N/A on a cake with walnuts in the name. Treat that as a binder error and do not clear this dish for a nut allergy until the kitchen says otherwise. Also contains alcohol in the Buffalo Trace ice cream, so it should not go to a child without the parent knowing.",
+    "chef_notes": "The printed menu lists nuts as N/A on a cake with walnuts in the name. Treat that as a printed menu error and do not clear this dish for a nut allergy until you confirm with the kitchen. Also contains alcohol in the Buffalo Trace ice cream, so it should not go to a child without the parent knowing.",
     "afters_pairings": [
       {
         "name": "Graham's 10 Year Tawny Port",
