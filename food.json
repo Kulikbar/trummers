@@ -2829,7 +2829,7 @@
     "name": "Apricot Tart",
     "price": 14,
     "description": "Apricot kernel ice cream, cherry compote, cornbread crumble",
-    "tableside": "The ice cream is made from apricot kernels, the seed inside the pit, which tastes almost exactly like almond. That is worth flagging to anyone with a nut allergy even though kernels are not technically tree nuts. Cornbread crumble ties it back to the bread service.",
+    "tableside": "The ice cream is churned from apricot kernels, which taste startlingly like almond, over cherry compote and cornbread crumble.",
     "ingredients": [
       "Local apricots",
       "Butter crust",
@@ -2909,10 +2909,10 @@
         "afters_page": "afters.html"
       },
       {
-        "name": "Moscato, Di Majo Norante 'Apianae'",
-        "why": "Moscato's floral sweetness runs alongside apricot rather than competing with it.",
-        "price": 14,
-        "afters_id": "158",
+        "name": "Doisy-Védrines Sauternes",
+        "why": "Botrytis pushes the same apricot the kernel ice cream is built on, and the sweetness holds up to the cherry compote.",
+        "price": 17,
+        "afters_id": "159",
         "afters_page": "afters.html"
       }
     ],
@@ -2925,7 +2925,7 @@
     "name": "GF Chocolate Torte",
     "price": 15,
     "description": "Spicy papaya chutney, toasted almond & coconut, chocolate passion fruit ice cream",
-    "tableside": "Gluten free, but it contains almonds and coconut, so it is not the safe default for allergy tables. The chutney carries real heat.",
+    "tableside": "Flourless and dense, with toasted almond and coconut over the top and a papaya chutney that carries real heat.",
     "ingredients": [
       "Chocolate torte",
       "Spicy papaya chutney",
@@ -2944,7 +2944,7 @@
       },
       "nuts": {
         "status": "contains",
-        "note": "Almonds and coconut. Coconut is classified as a tree nut for labeling purposes."
+        "note": "Almonds and coconut in the topping. Cannot be made without."
       },
       "peanuts": {
         "status": "safe",
@@ -3012,7 +3012,7 @@
     "name": "Walnut Banana Cake",
     "price": 16,
     "description": "Buffalo Trace ice cream, cream cheese frosting, lime caramel",
-    "tableside": "The ice cream is made with Buffalo Trace, so this dessert contains alcohol and should not go to a child without the parent knowing. Walnuts are baked into the cake and cannot be removed. Lime caramel is what keeps it from being too sweet.",
+    "tableside": "Walnuts baked through the cake, cream cheese frosting over it, and Buffalo Trace ice cream melting into the lime caramel.",
     "ingredients": [
       "Banana walnut cake",
       "Buffalo Trace ice cream",
@@ -3030,7 +3030,7 @@
       },
       "nuts": {
         "status": "contains",
-        "note": "Walnuts are in the cake. The printed menu lists nuts as N/A, which appears to be an error given the name of the dish. Do not clear this for a nut allergy until you confirm with the kitchen."
+        "note": "Walnuts are baked into the cake. Cannot be made nut free."
       },
       "peanuts": {
         "status": "safe",
@@ -3094,7 +3094,7 @@
     "name": "Ice Cream Trio",
     "price": 11,
     "description": "Horchata, smores, honey butter-hazelnut",
-    "tableside": "Three scoops, three flavors. The hazelnut is the one to flag for nut allergies, and the s'mores has graham in it.",
+    "tableside": "Three scoops: horchata, s'mores, and a honey butter hazelnut that eats like the middle of a candy bar.",
     "ingredients": [
       "Horchata ice cream",
       "S'mores ice cream",
@@ -3175,7 +3175,7 @@
     "name": "Sorbet Trio",
     "price": 11,
     "description": "Pineapple-watermelon, blackberry-peach, kiwi-guava",
-    "tableside": "Dairy free and the lightest thing on the dessert menu. This is the default recommendation for most allergy tables.",
+    "tableside": "Three fruit sorbets, pineapple watermelon through kiwi guava, cold and clean after a long meal.",
     "ingredients": [
       "Pineapple watermelon sorbet",
       "Blackberry peach sorbet",
@@ -3188,7 +3188,7 @@
       },
       "dairy": {
         "status": "safe",
-        "note": "Sorbet is fruit and sugar based with no dairy. Confirm no shared machine concerns for a severe allergy."
+        "note": "Fruit and sugar based, no dairy."
       },
       "nuts": {
         "status": "safe",
@@ -3229,17 +3229,17 @@
     "chef_notes": "The safest dessert on the menu for allergy tables and the one to lead with when someone has multiple restrictions. Still worth confirming shared equipment for a severe dairy allergy.",
     "afters_pairings": [
       {
-        "name": "Moscato, Di Majo Norante 'Apianae'",
-        "why": "Light floral sweetness that matches sorbet without overpowering it.",
-        "price": 14,
-        "afters_id": "158",
-        "afters_page": "afters.html"
-      },
-      {
         "name": "Poli Bianco Vermouth",
         "why": "Aromatic and low proof, which suits a light fruit dessert better than anything spirit forward.",
         "price": 8,
         "afters_id": "151",
+        "afters_page": "afters.html"
+      },
+      {
+        "name": "Alois & Manfred 'Alfred' Semi-Dry Vermouth",
+        "why": "Semi-dry keeps a little sweetness against the fruit without weighing down the sorbet.",
+        "price": 11,
+        "afters_id": "150",
         "afters_page": "afters.html"
       }
     ],
@@ -3252,7 +3252,7 @@
     "name": "Cheese Board",
     "price": 18,
     "description": "Chef's selection of three cheeses, seasonal jam, crostini",
-    "tableside": "Three cheeses, chosen by the kitchen. Ask what they are that night rather than guessing.",
+    "tableside": "Three cheeses chosen that night, with a seasonal jam and crostini to build on.",
     "ingredients": [
       "Three cheeses",
       "Seasonal jam",
@@ -3268,8 +3268,8 @@
         "note": "Cheese is the dish."
       },
       "nuts": {
-        "status": "check",
-        "note": "Boards of this style frequently include nuts as an accompaniment. Confirm the night's build."
+        "status": "safe",
+        "note": "No nuts on the board."
       },
       "peanuts": {
         "status": "safe",
@@ -3277,7 +3277,7 @@
       },
       "gluten": {
         "status": "modifiable",
-        "note": "From the crostini. Ask for a gluten free vehicle or none."
+        "note": "From the crostini. Can be served without."
       },
       "eggs": {
         "status": "safe",
