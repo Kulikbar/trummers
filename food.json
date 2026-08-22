@@ -2075,7 +2075,7 @@
         "description": "Our tile fish comes from the Gulf of Mexico. Tile fish live on the outer continental shelf in burrows along the mud bottom, which is why the fishery is line caught rather than trawled."
       }
     ],
-    "chef_notes": "Cooked all the way through, not to temperature. There is no raw or undercooked advisory on this dish and no reason to ask the guest how they want it. The shrimp can be taken off for a shellfish allergy.",
+    "chef_notes": "Cooked all the way through. The shrimp can be taken off for a shellfish allergy.",
     "wine_pairings_btg": [
       {
         "id": "BTG-005",
@@ -2085,14 +2085,23 @@
         "file": "whites"
       },
       {
-        "id": "BTG-004",
-        "name": "The Vice Chardonnay, Napa Valley",
-        "note": "Chardonnay matches the weight of the butter and the couscous rather than fighting it, and rounds the shrimp.",
-        "price": 18,
+        "id": "733",
+        "name": "Botanica Chenin Blanc 'Mary Delany,' Citrusdal Mountains",
+        "note": "Chenin carries enough texture to sit with the couscous and enough acid to reset the palate after the butter, poured by the glass through Coravin.",
+        "price": 28,
+        "coravin": true,
         "file": "whites"
       }
     ],
-    "wine_pairings_bottle": [],
+    "wine_pairings_bottle": [
+      {
+        "id": "725",
+        "name": "Mosbach Gewürztraminer, Alsace",
+        "note": "Lychee and ginger run alongside the coconut and mango instead of against them, and the wine's weight holds up to the shrimp.",
+        "price": 42,
+        "file": "whites"
+      }
+    ],
     "file": "dinner"
   },
   {
