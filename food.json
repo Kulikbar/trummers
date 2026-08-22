@@ -2001,6 +2001,101 @@
     "file": "dinner"
   },
   {
+    "id": "d46",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Pan Seared Tile Fish",
+    "price": 34,
+    "description": "Coconut, shrimp, pearled couscous, mango, summer squash, tobiko butter",
+    "tableside": "Tile fish is a firm white fish that holds up to a hard sear, set on pearled couscous with coconut, shrimp and mango. Rich from the tobiko butter, cut by the mango.",
+    "ingredients": [
+      "Tile fish",
+      "Coconut",
+      "Shrimp",
+      "Pearled couscous",
+      "Mango",
+      "Summer squash",
+      "Tobiko butter"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "modifiable",
+        "note": "Shrimp, and the kitchen can take it off."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Tobiko butter."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No tree nuts. Coconut is a drupe and is not a tree nut allergen, but ask the guest."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Pearled couscous is wheat. Confirm whether the kitchen can swap the grain."
+      },
+      "eggs": {
+        "status": "safe",
+        "note": "Tobiko is fish roe, not chicken egg."
+      },
+      "soy": {
+        "status": "check",
+        "note": "Tobiko is often cured with soy. Confirm."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Fish and shrimp."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Fish, shrimp and butter."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Tile fish",
+        "definition": "A firm, mild white fish from the Atlantic and Gulf. Dense enough to sear hard without falling apart, closer to halibut than to snapper."
+      },
+      {
+        "term": "Tobiko",
+        "definition": "Flying fish roe. Small, crunchy and salty, most familiar from sushi. Whisked into butter it adds salinity and a light pop rather than a strong fish flavor."
+      },
+      {
+        "term": "Pearled couscous",
+        "definition": "Toasted wheat pasta rolled into small spheres, larger than standard couscous. Also called Israeli or ptitim. It is pasta, not a grain, so it is wheat."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Gulf of Mexico",
+        "description": "Our tile fish comes from the Gulf of Mexico. Tile fish live on the outer continental shelf in burrows along the mud bottom, which is why the fishery is line caught rather than trawled."
+      }
+    ],
+    "chef_notes": "Cooked all the way through, not to temperature. There is no raw or undercooked advisory on this dish and no reason to ask the guest how they want it. The shrimp can be taken off for a shellfish allergy.",
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-005",
+        "name": "Steininger Grüner Veltliner, Ried Loisium, Kamptal",
+        "note": "Grüner's acidity cuts the coconut and the tobiko butter, and its white pepper edge keeps the mango from reading as sweet.",
+        "price": 16,
+        "file": "whites"
+      },
+      {
+        "id": "BTG-004",
+        "name": "The Vice Chardonnay, Napa Valley",
+        "note": "Chardonnay matches the weight of the butter and the couscous rather than fighting it, and rounds the shrimp.",
+        "price": 18,
+        "file": "whites"
+      }
+    ],
+    "wine_pairings_bottle": [],
+    "file": "dinner"
+  },
+  {
     "id": "d42",
     "menu": "dinner",
     "cat": "Sea",

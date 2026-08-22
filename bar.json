@@ -4809,37 +4809,37 @@
     "file": "beer"
   },
   {
-    "id": "133",
+    "id": "218",
     "cat": "Beer & Cider",
     "type": "beer",
-    "producer": "Crooked Run",
-    "name": "Sticky Rice Sour",
-    "detail": "Leesburg, VA · 5% · Sour with Mango, Rice Milk & Toasted Coconut",
-    "abv": 5,
-    "price": 10,
+    "producer": "Aslin",
+    "name": "Daddy Juice",
+    "detail": "Herndon, VA · 6% · Sour with Blueberry, Mango, Vanilla & Milk Sugar",
+    "abv": 6,
+    "price": 7,
     "allocated": false,
     "icons": [
       "🍋"
     ],
     "notes": [
+      "Blueberry",
       "Mango",
-      "Coconut",
+      "Vanilla",
       "Tart",
-      "Rice",
-      "Tropical"
+      "Creamy"
     ],
-    "tableside": "This is the most adventurous beer on the list — a sour ale brewed with sticky rice, mango, rice milk, and toasted coconut. Tropical, tart, and unlike anything else. Perfect for a guest who says they don't drink beer, or for someone who wants something genuinely different.",
+    "tableside": "A fruited sour conditioned on blueberry and mango, with vanilla and milk sugar for body. Tart up front, creamy underneath, closer to a smoothie than a classic sour. Contains lactose, so it is not dairy free. Good for a guest who says they don't like beer.",
     "pairings": [
-      "Spicy Asian cuisine",
-      "Grilled fish tacos",
-      "Tropical fruit desserts",
-      "Light cheeses"
+      "Spicy dishes",
+      "Grilled fish",
+      "Fruit desserts",
+      "Fresh cheeses"
     ],
-    "story": "Crooked Run Fermentation is a Leesburg, Virginia brewery known for creative, ingredient-forward sour ales that draw on global flavor traditions. The Sticky Rice Sour is their most celebrated expression of this philosophy: a kettle sour base brewed with actual sticky rice for texture and body, then conditioned on mango puree, rice milk, and toasted coconut. The result is a beer that tastes like a tropical dessert while maintaining the tartness and refreshment that makes sour beer genuinely thirst-quenching. It's a Virginia craft beer that has earned national attention.",
+    "story": "Aslin started in 2015 as a small Herndon operation run by Andrew Kelley, Kai Leszkowicz and Richard Thompson, selling cans out of the production facility with no tasting room. Word of mouth did the rest, and the brewery now runs taprooms in Herndon, Alexandria, DC, Pittsburgh and Virginia Beach, with Alexandria as the main production site. Fruited sours are one of the two things they are best known for, alongside hazy IPAs.",
     "trivia": [
-      "Kettle sours like Crooked Run's Sticky Rice Sour are acidified before fermentation by introducing lactobacillus bacteria to the warm wort — a faster process than traditional barrel souring that produces a clean, consistent tartness.",
-      "Sticky rice (glutinous rice) contains different starch compounds than regular brewing rice — when used in beer production it adds a distinctive silky body and subtle sweetness that standard barley malt cannot replicate.",
-      "Crooked Run has become one of Virginia's most decorated craft breweries, winning awards at national competitions for their sour and mixed-fermentation programs — putting Leesburg on the map as a serious craft beer destination."
+      "Daddy Juice is named for what co-founder Kai Leszkowicz's son called his father's beer.",
+      "The milk sugar is lactose, which brewer's yeast cannot ferment. It stays in the finished beer as unfermented sweetness and body, which is what gives the style its creamy texture.",
+      "Aslin built its early following without a taproom at all. The Herndon tasting room was closed for a stretch and the brewery sold cans directly from the production facility, with lines forming outside for limited releases."
     ],
     "file": "beer"
   },
@@ -6171,6 +6171,163 @@
       "Dry curaçao is made from dried bitter orange peel from the island of Curaçao in the Dutch Caribbean. More complex and less sweet than standard triple sec, it adds orange depth and a slight bitterness that prevents the drink from tipping into sweetness.",
       "Blanco tequila is unaged or minimally aged - the agave flavor comes through most cleanly in blanco expressions because it hasn't been modified by oak.",
       "Infusing ice with jalapeño and cilantro controls heat delivery in a cocktail. Rather than muddling jalapeño directly - which produces immediate, hard-to-control heat - the ice method releases capsaicin gradually, making the spice more nuanced and the cocktail more predictable."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "219",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Mai Old Ways",
+    "detail": "Tiki · Tiki mug",
+    "abv": 0,
+    "price": 16,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "Tiki mug",
+    "ingredients": [
+      "House spiced rum",
+      "Dry curaçao",
+      "Pistachio orgeat",
+      "Fresh lime juice"
+    ],
+    "icons": [
+      "🍋",
+      "🍯"
+    ],
+    "notes": [
+      "Nutty",
+      "Orange",
+      "Lime",
+      "Rich"
+    ],
+    "tableside": "House spiced rum shaken with dry curaçao, pistachio orgeat and fresh lime, served in a tiki mug with no garnish. Built on the Mai Tai template, with pistachio in place of the usual almond. Nutty and rich rather than sweet and tropical. Contains pistachio.",
+    "story": "The Mai Tai is rum, lime, orange curaçao and orgeat, and this follows that structure with two substitutions: house spiced rum for the aged rum blend, and pistachio orgeat for almond. Pistachio is greener and less confectionary than almond, which keeps the drink from reading as dessert.",
+    "trivia": [
+      "Orgeat is an almond syrup with orange flower water, used in French and Mediterranean drinks long before tiki bars existed. Trader Vic's 1944 Mai Tai is what made it standard behind an American bar.",
+      "Dry curaçao is made from the dried peel of bitter laraha oranges grown on Curaçao. It is less sweet and more bitter than standard triple sec, which is why it works in a drink already carrying a rich nut syrup.",
+      "Spiced rum is rum infused after distillation, most often with vanilla, cinnamon, clove and allspice. Those flavors sit alongside nut syrup naturally, which is why the swap from aged rum changes the drink less than it sounds."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "220",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Bad Sneakers",
+    "detail": "Tiki · Tiki mug · Shaken or blended",
+    "abv": 0,
+    "price": 16,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "Tiki mug",
+    "ingredients": [
+      "Rum blend #4",
+      "House Coco Lopez",
+      "Pineapple"
+    ],
+    "icons": [
+      "🍓",
+      "🍯"
+    ],
+    "notes": [
+      "Coconut",
+      "Pineapple",
+      "Creamy",
+      "Sweet"
+    ],
+    "tableside": "Rum blend #4 with house Coco Lopez and pineapple, garnished with pineapple, and the guest chooses shaken or blended. Shaken is lighter and colder, blended is thicker and closer to what most people picture. Ask which they want when they order. Rum blend #4 is a house secret, so say that rather than guessing at what is in it. On the sweeter side.",
+    "story": "This is the Piña Colada template with a house rum blend and house made cream of coconut. Making the Coco Lopez in house is the difference: commercial cream of coconut is heavily sweetened and flat, and a house version lets the coconut read as coconut rather than sugar. The rum is a proprietary blend the bar does not disclose.",
+    "trivia": [
+      "Cream of coconut is coconut cream with sugar added, not the same product as coconut milk or coconut cream on their own. Coco Lopez was developed in Puerto Rico in the 1950s and is the reason the Piña Colada exists in its current form.",
+      "Blending a drink adds air and ice at the same time, so a blended version is colder, thicker and more diluted than the shaken one. The two are different drinks made from the same recipe.",
+      "Blending pineapple with rum shows up in Caribbean bartending well before tiki. Pineapple contains bromelain, an enzyme that breaks down protein, which is why fresh pineapple juice behaves differently in a drink than canned."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "221",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Meleni Smash",
+    "detail": "Tiki · Tiki mug",
+    "abv": 0,
+    "price": 18,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "Tiki mug",
+    "ingredients": [
+      "Michter's bourbon",
+      "Basil",
+      "Fresh lemon juice",
+      "Watermelon",
+      "Tajín"
+    ],
+    "icons": [
+      "🍓",
+      "🍋",
+      "🌶️"
+    ],
+    "notes": [
+      "Watermelon",
+      "Basil",
+      "Lemon",
+      "Chili salt"
+    ],
+    "tableside": "Michter's bourbon smashed with basil, watermelon and fresh lemon, finished with Tajín and garnished with a watermelon slice dusted in Tajín. The chili lime salt is what makes it work, since watermelon on its own is mostly water and sugar and the salt pulls the fruit forward. Savory and herbal rather than sweet.",
+    "story": "A smash is fruit and herb muddled in the shaker with spirit and citrus, one of the oldest structures behind a bar. The Tajín is the part that separates this from a standard bourbon smash: chili, lime and salt is how watermelon is eaten across Mexico, and it is a seasoning trick rather than a cocktail one.",
+    "trivia": [
+      "Tajín is a Mexican seasoning of chili peppers, dehydrated lime juice and sea salt, made since 1985 and used on fresh fruit far more often than on cooked food.",
+      "Watermelon is roughly 92 percent water, so its flavor is concentrated in a small amount of sugar and aroma compounds. Salt suppresses bitterness and lets that sweetness read more clearly, which is why salted watermelon tastes sweeter than unsalted.",
+      "Basil and mint are both in the mint family, and basil carries eugenol and linalool where mint carries menthol. That is why basil reads warm and peppery in a smash while mint reads cooling."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "222",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Ye Who Enter Here",
+    "detail": "House Manhattan · Martini glass",
+    "abv": 0,
+    "price": 22,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "Martini glass",
+    "ingredients": [
+      "Buffalo Trace bourbon",
+      "9 di Dante Inferno rosso vermouth",
+      "Don Ciccio Don Fernet",
+      "Luxardo cherries"
+    ],
+    "icons": [
+      "🥃"
+    ],
+    "notes": [
+      "Cherry",
+      "Bitter orange",
+      "Mint",
+      "Cocoa",
+      "Spice"
+    ],
+    "tableside": "The house Manhattan. Buffalo Trace with 9 di Dante Inferno rosso vermouth and a measure of Don Ciccio Don Fernet, stirred and served up in a martini glass with Luxardo cherries. The fernet replaces the bitters and takes it drier and more bitter than a standard Manhattan. The most spirit forward drink on the cocktail list.",
+    "story": "Both modifiers are on our afters list, so a guest who likes this can drink either one on its own after dinner. 9 di Dante Inferno is a Vermouth di Torino Superiore from Piedmont built on equal parts Dolcetto and Cortese wine with 27 botanicals. Don Ciccio & Figli is a Washington DC distillery in Ivy City run by Francesco Amodeo, whose family made liqueurs on the Amalfi Coast.",
+    "trivia": [
+      "The name comes from the inscription over the gate of hell in Dante's Inferno, which is also what the vermouth is named for.",
+      "Nine of the 27 botanicals in 9 di Dante Inferno are matched to the nine circles: wormwood for Limbo, cardamom for lust, bitter orange peel for gluttony, cumin for greed, basil for anger, nettle for heresy, tansy for violence, fennel for fraud and caraway for treachery.",
+      "Don Fernet is barrel aged 12 months in French oak from the Marisa Cuomo winery on the Amalfi Coast and infuses 25 roots and herbs, leaning on mint, dark chocolate, ginger and saffron. Amodeo makes it without menthol or glycerin, which is what most fernet gets its mouthwash edge from."
     ],
     "pairings": [],
     "file": "cocktails"
