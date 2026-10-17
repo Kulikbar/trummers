@@ -1,102 +1,5 @@
 [
   {
-    "id": "d36",
-    "menu": "dinner",
-    "cat": "Appetizers",
-    "name": "Strawberry Gazpacho",
-    "price": 12,
-    "description": "Pickled red onion, strawberries, goat cheese, basil oil",
-    "tableside": "Strawberries stand in for tomatoes here, and the basil oil and goat cheese pull it back savory.",
-    "ingredients": [
-      "Strawberries",
-      "Pickled red onion",
-      "Goat cheese",
-      "Fresh strawberries",
-      "Basil oil"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "safe",
-        "note": "no shellfish."
-      },
-      "dairy": {
-        "status": "contains",
-        "note": "Goat cheese. dairy."
-      },
-      "nuts": {
-        "status": "safe",
-        "note": "no tree nuts."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      },
-      "gluten": {
-        "status": "safe",
-        "note": "no gluten. Our version is not bread thickened, unlike traditional gazpacho."
-      },
-      "eggs": {
-        "status": "safe",
-        "note": "No eggs."
-      },
-      "soy": {
-        "status": "safe",
-        "note": "No soy."
-      },
-      "vegetarian": {
-        "status": "yes",
-        "note": "No meat or fish."
-      },
-      "vegan": {
-        "status": "modifiable",
-        "note": "Goat cheese is a garnish and can be left off."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Gazpacho",
-        "definition": "A cold raw-vegetable soup from Andalusia in southern Spain, traditionally thickened with stale bread and built on tomato. Eaten through the summer as a way of using ripe produce without cooking. This version leads with strawberry instead."
-      },
-      {
-        "term": "Basil Oil",
-        "definition": "Basil blanched briefly in boiling water, shocked cold, then blended with oil and strained. The blanching sets the chlorophyll so the oil stays bright green rather than browning within the hour."
-      }
-    ],
-    "sourcing": [
-      {
-        "name": "Wegmeyer Farms",
-        "description": "A Loudoun County, Virginia farm best known for pick-your-own strawberries. The kitchen uses their fruit when the season and supply allow, which is noted on the printed menu as 'when possible' rather than guaranteed. Worth mentioning to a guest who asks where the strawberries come from, with the caveat that it varies."
-      }
-    ],
-    "chef_notes": "Served cold. Guests who expect a hot soup should be told before it lands. this is not bread thickened, so it is gluten free unlike a traditional gazpacho.",
-    "wine_pairings_btg": [
-      {
-        "id": "BTG-011",
-        "name": "Hillinger Secco, Burgenland NV",
-        "note": "Secco's light bubble and low sweetness lifts the strawberry without pushing the soup toward dessert.",
-        "price": 15,
-        "file": "sparkling"
-      },
-      {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
-        "note": "Zweigelt rosé picks up the strawberry directly and its acidity resets the palate against the goat cheese.",
-        "price": 19,
-        "file": "sparkling"
-      }
-    ],
-    "wine_pairings_bottle": [
-      {
-        "id": "6013",
-        "name": "Arianna Occhipinti SP68 White, Sicily 2024",
-        "note": "Skin contact gives it enough grip to stand up to pickled onion, and the aromatics run alongside the basil oil.",
-        "price": 60,
-        "file": "whites"
-      }
-    ],
-    "file": "dinner"
-  },
-  {
     "id": "d4",
     "menu": "dinner",
     "cat": "Appetizers",
@@ -376,10 +279,10 @@
         "file": "whites"
       },
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé handles the aleppo heat better than a white and stays clean against the shrimp.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       }
     ],
@@ -395,100 +298,88 @@
     "file": "dinner"
   },
   {
-    "id": "d38",
+    "id": "d47",
     "menu": "dinner",
     "cat": "Appetizers",
-    "name": "Cajun Corn Ribs",
-    "price": 14,
-    "description": "Cilantro, lime, parmesan cream dipping sauce",
-    "tableside": "Corn cut lengthwise so it curls as it roasts, built for dragging through the parmesan cream.",
+    "name": "Butternut Squash Soup",
+    "price": 12,
+    "description": "Chipotle crema, lemon oil, chives",
+    "tableside": "Smooth butternut squash soup with smoky chipotle crema swirled through and a few drops of lemon oil to brighten it.",
     "ingredients": [
-      "Corn",
-      "Cajun spice",
-      "Cilantro",
-      "Lime",
-      "Parmesan cream sauce"
+      "Butternut squash soup",
+      "Chipotle crema",
+      "Lemon oil",
+      "Chives"
     ],
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "no shellfish."
+        "note": "No shellfish."
       },
       "dairy": {
-        "status": "modifiable",
-        "note": "Parmesan cream is a dipping sauce. Kitchen can serve without it."
+        "status": "check",
+        "note": "The crema is dairy and is the easy part to hold. Confirm whether the soup itself has cream or butter."
       },
       "nuts": {
         "status": "safe",
-        "note": "no tree nuts."
+        "note": "No tree nuts expected."
       },
       "peanuts": {
         "status": "safe",
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "safe",
-        "note": "no gluten."
+        "status": "check",
+        "note": "Confirm the soup is not thickened with flour."
       },
       "eggs": {
-        "status": "check",
-        "note": "Confirm whether the parmesan cream has a mayonnaise base."
+        "status": "safe",
+        "note": "No eggs expected."
       },
       "soy": {
         "status": "safe",
         "note": "No soy expected."
       },
       "vegetarian": {
-        "status": "yes",
-        "note": "No meat or fish. Confirm parmesan rennet if the guest is strict."
+        "status": "check",
+        "note": "Confirm the stock is vegetable rather than chicken."
       },
       "vegan": {
-        "status": "modifiable",
-        "note": "Without the parmesan cream."
+        "status": "check",
+        "note": "Possible without the crema, depending on the stock and any cream in the base."
       }
     },
     "key_terms": [
       {
-        "term": "Corn Ribs",
-        "definition": "Corn on the cob quartered lengthwise down the cob. Heat makes the kernels contract faster than the cob, so the strip curls into a rib shape. Entirely a texture play, and it has to be eaten by hand."
+        "term": "Crema",
+        "definition": "Mexican cultured cream, thinner and milder than sour cream. Here blended with chipotle."
       },
       {
-        "term": "Cajun Seasoning",
-        "definition": "A Louisiana blend built on paprika, cayenne, garlic, onion, black pepper and dried herbs. Warm and savoury more than sharply hot, and distinct from Creole seasoning, which leans more heavily on herbs."
+        "term": "Chipotle",
+        "definition": "A ripe jalapeño that has been smoke dried. Brings smoke and moderate heat rather than sharp spice."
       }
     ],
-    "sourcing": [
-      {
-        "name": "Local Corn",
-        "description": "Corn sourced locally through the summer, which is what makes this a seasonal dish rather than a year-round one. The corn rib technique depends on fresh cobs, since the kernels need to be full enough to curl properly when the strip cooks."
-      }
-    ],
-    "chef_notes": "Eaten by hand. Warn tables who might not expect that. The dipping sauce comes on the side, which makes the dairy easy to hold.",
+    "sourcing": [],
+    "chef_notes": "Confirm the stock and whether the base uses cream before clearing the soup for a vegetarian, vegan or dairy free guest.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-013",
-        "name": "Michael-Eppan Pinot Grigio, Alto Adige",
-        "note": "Pinot Grigio's clean citrus keeps up with the lime and does not compete with the Cajun spice.",
-        "price": 15,
+        "id": "BTG-017",
+        "name": "Château O'Brien Viognier, Markham",
+        "note": "Viognier's apricot and peach match the sweetness of the squash, and its soft acidity doesn't fight the chipotle heat.",
+        "price": 13,
         "file": "whites"
-      },
-      {
-        "id": "BTG-011",
-        "name": "Hillinger Secco, Burgenland NV",
-        "note": "Bubbles cut the parmesan cream and reset between bites of a spiced, hand-eaten dish.",
-        "price": 15,
-        "file": "sparkling"
       }
     ],
     "wine_pairings_bottle": [
       {
-        "id": "751",
-        "name": "Elk Cove Pinot Blanc, Willamette Valley 2024",
-        "note": "Round enough for the cream sauce, dry enough to stay out of the way of the spice.",
-        "price": 48,
+        "id": "063",
+        "name": "Paradise Springs Petit Manseng, Clifton 2023",
+        "note": "Petit Manseng's high acidity cuts the crema, and its tropical fruit holds up to the smoke in the chipotle. Grown in Clifton.",
+        "price": 55,
         "file": "whites"
       }
     ],
+    "wine_pairings_whisky": [],
     "file": "dinner"
   },
   {
@@ -867,10 +758,10 @@
         "file": "whites"
       },
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé has the weight for an oily fish and enough acid for the vinegar.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       }
     ],
@@ -886,19 +777,20 @@
     "file": "dinner"
   },
   {
-    "id": "d7",
+    "id": "d48",
     "menu": "dinner",
     "cat": "Appetizers",
-    "name": "Loaded Pierogies",
+    "name": "Sausage and Sauerkraut Pierogies",
     "price": 18,
-    "description": "Cheddar, bacon crumble, dill crema, crispy shallots",
-    "tableside": "Potato pierogi finished like a loaded baked potato, cheddar and bacon crumble down into the folds.",
+    "description": "Mustard crumble, fire roasted peppers, dill crema",
+    "tableside": "Sausage and sauerkraut pierogies with fire roasted peppers, a mustard crumble over the top and dill crema alongside.",
     "ingredients": [
-      "Pierogi",
-      "Cheddar",
-      "Bacon",
-      "Dill crema",
-      "Crispy shallots"
+      "Pierogi dough",
+      "Sausage",
+      "Sauerkraut",
+      "Mustard crumble",
+      "Fire roasted peppers",
+      "Dill crema"
     ],
     "allergens": {
       "shellfish": {
@@ -907,11 +799,11 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Cheddar and crema. Central to the dish."
+        "note": "Dill crema is dairy, and pierogi dough often includes sour cream or butter."
       },
       "nuts": {
         "status": "safe",
-        "note": "No tree nuts."
+        "note": "No tree nuts expected."
       },
       "peanuts": {
         "status": "safe",
@@ -919,76 +811,69 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Pierogi dough is wheat."
+        "note": "Wheat dough and a breadcrumb style crumble."
       },
       "eggs": {
-        "status": "contains",
-        "note": "Egg is in the pierogi dough. Cannot be made without."
+        "status": "check",
+        "note": "Pierogi dough often contains egg. Confirm."
       },
       "soy": {
         "status": "safe",
-        "note": "Fried in canola oil."
+        "note": "No soy expected."
       },
       "vegetarian": {
-        "status": "modifiable",
-        "note": "Bacon can be left off. Confirm the dough and any stock used."
+        "status": "no",
+        "note": "Sausage."
       },
       "vegan": {
         "status": "no",
-        "note": "Dough, cheese, and crema all contain animal product."
+        "note": "Sausage and dairy."
       }
     },
     "key_terms": [
       {
         "term": "Pierogi",
-        "definition": "A filled dumpling from Poland and across Central Europe. Boiled, then usually pan fried. Potato and cheese is the standard filling."
+        "definition": "Polish filled dumplings, boiled and then often pan fried. Pierogi is already plural in Polish."
       },
       {
-        "term": "Crema",
-        "definition": "A cultured cream, thinner and less sour than sour cream, so it pours rather than sits."
+        "term": "Sauerkraut",
+        "definition": "Finely cut cabbage fermented by lactic acid bacteria. The sourness comes from fermentation, not vinegar."
       }
     ],
     "sourcing": [],
-    "chef_notes": "Substantial for an appetizer. Worth flagging to a table ordering several starters plus mains.",
+    "chef_notes": "Mustard is a declarable allergen in some countries though not on our list. Name it for a guest who asks about seeds or spices.",
     "wine_pairings_btg": [
       {
         "id": "BTG-005",
         "name": "Steininger Grüner Veltliner, Ried Loisium, Kamptal",
-        "note": "Grüner is the regional answer to a Central European dumpling and its acidity handles cheddar and bacon fat.",
+        "note": "Grüner's white pepper and acidity cut the sausage fat and line up with the sour of the kraut.",
         "price": 16,
         "file": "whites"
-      },
-      {
-        "id": "BTG-015",
-        "name": "Steindorfer Blaufränkisch, Burgenland",
-        "note": "Blaufränkisch has the acidity for the fat without tannin that would fight the potato.",
-        "price": 17,
-        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
       {
-        "id": "801",
-        "name": "Jurtschitsch Grüner Veltliner Terrassen 2023",
-        "note": "More concentration than the glass pour while staying in the same regional register as the dish.",
-        "price": 47,
+        "id": "607",
+        "name": "Anton Bauer Riesling, Feuersbrunn 2021",
+        "note": "Dry Austrian Riesling's acidity matches the sauerkraut, and its fruit softens the mustard heat.",
+        "price": 50,
         "file": "whites"
       }
     ],
+    "wine_pairings_whisky": [],
     "file": "dinner"
   },
   {
-    "id": "d40",
+    "id": "d49",
     "menu": "dinner",
     "cat": "Bread Service",
-    "name": "Focaccia",
+    "name": "Pumpernickel",
     "price": 10,
-    "description": "Peach basil balsamic & olive oil",
-    "tableside": "House focaccia, torn and dipped, with peach and olive oil doing the work of butter.",
+    "description": "Coffee butter",
+    "tableside": "Dark pumpernickel with a whipped coffee butter.",
     "ingredients": [
-      "Focaccia",
-      "Strawberry basil balsamic",
-      "Olive oil"
+      "Pumpernickel",
+      "Coffee butter"
     ],
     "allergens": {
       "shellfish": {
@@ -996,12 +881,12 @@
         "note": "No shellfish."
       },
       "dairy": {
-        "status": "safe",
-        "note": "No dairy in the focaccia."
+        "status": "contains",
+        "note": "Butter."
       },
       "nuts": {
         "status": "safe",
-        "note": "No tree nuts."
+        "note": "No tree nuts expected."
       },
       "peanuts": {
         "status": "safe",
@@ -1009,11 +894,11 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "Wheat bread. Cannot be modified."
+        "note": "Rye and usually wheat flour."
       },
       "eggs": {
-        "status": "safe",
-        "note": "No eggs expected."
+        "status": "check",
+        "note": "Confirm the bread."
       },
       "soy": {
         "status": "safe",
@@ -1025,26 +910,24 @@
       },
       "vegan": {
         "status": "no",
-        "note": "dairy."
+        "note": "Butter."
       }
     },
     "key_terms": [
       {
-        "term": "Focaccia",
-        "definition": "A flat oven-baked Italian bread, dimpled with the fingertips and generous with olive oil. Softer and considerably thicker than pizza dough, and the dimples exist to hold oil and salt rather than for looks."
+        "term": "Pumpernickel",
+        "definition": "A dense dark rye bread from Westphalia in Germany. The traditional version bakes slowly at low heat for many hours, which caramelises the sugars and darkens the crumb. American versions usually get their colour from molasses, cocoa or coffee instead."
       },
       {
-        "term": "Balsamic",
-        "definition": "Aged grape must vinegar from Modena, cooked down and aged in wood. Sweet and syrupy rather than sharp, which is why it works alongside fruit instead of fighting it."
+        "term": "Coffee Butter",
+        "definition": "Butter whipped with coffee. Worth mentioning to a guest avoiding caffeine."
       }
     ],
-    "sourcing": [
-      {
-        "name": "Made in House",
-        "description": "The focaccia is baked in house, as is the strawberry balsamic served alongside it. Focaccia originates in Liguria, and the name comes from the Latin panis focacius, meaning hearth bread, a reference to baking it directly over coals."
-      }
-    ],
-    "chef_notes": "this contains dairy, which surprises people since focaccia is usually made with olive oil alone. Not vegan and not dairy free.",
+    "sourcing": [],
+    "chef_notes": "Not gluten free. The GF Skillet Cornbread is the gluten free bread option.",
+    "wine_pairings_btg": [],
+    "wine_pairings_bottle": [],
+    "wine_pairings_whisky": [],
     "file": "dinner"
   },
   {
@@ -1053,11 +936,11 @@
     "cat": "Bread Service",
     "name": "GF Skillet Cornbread",
     "price": 10,
-    "description": "Watermelon jam",
-    "tableside": "Cornbread baked and served in the skillet so the edges stay crisp, with watermelon jam alongside.",
+    "description": "Plum jam",
+    "tableside": "Cornbread baked and served in the skillet so the edges stay crisp, with plum jam alongside.",
     "ingredients": [
       "Cornmeal",
-      "Watermelon jam"
+      "Plum jam"
     ],
     "allergens": {
       "shellfish": {
@@ -1103,8 +986,8 @@
         "definition": "Cornbread baked in a preheated cast iron pan, which sets a crust on the bottom and edges."
       },
       {
-        "term": "Watermelon Jam",
-        "definition": "Watermelon cooked down with sugar and pectin. Milder and more floral than a berry jam."
+        "term": "Plum Jam",
+        "definition": "Plums cooked down with sugar. Tart skins and sweet flesh, so it reads less sugary than a berry jam."
       }
     ],
     "sourcing": [],
@@ -1178,10 +1061,10 @@
     "chef_notes": "The meat changes with the rotisserie. Typically shredded chicken and steak, but confirm each evening rather than assuming. Allergen answers depend on what is on the spit that night.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé handles both the smoke on the meat and the acidity of the vinaigrette.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       },
       {
@@ -1385,10 +1268,10 @@
         "file": "whites"
       },
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé has the fruit to meet the ginger and red pepper without adding tannin.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       }
     ],
@@ -1578,10 +1461,10 @@
         "file": "reds"
       },
       {
-        "id": "BTG-010",
-        "name": "Black Stallion Cabernet Sauvignon, North Coast",
+        "id": "BTG-019",
+        "name": "Two Mountain Cabernet Sauvignon, Yakima Valley",
         "note": "Cabernet tannin handles lamb richness, and the herbal edge in the wine runs with the basil.",
-        "price": 18,
+        "price": 16,
         "file": "reds"
       }
     ],
@@ -1669,10 +1552,10 @@
     "chef_notes": "About 32 oz. Kitchen clears this for all four major allergens, which makes it one of the few large plates that is straightforward for an allergy table.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-010",
-        "name": "Black Stallion Cabernet Sauvignon, North Coast",
+        "id": "BTG-019",
+        "name": "Two Mountain Cabernet Sauvignon, Yakima Valley",
         "note": "Cabernet tannin against ribeye fat is the most direct pairing on the menu.",
-        "price": 18,
+        "price": 16,
         "file": "reds"
       },
       {
@@ -1767,10 +1650,10 @@
     "chef_notes": "Ten ounce is $45, sixteen ounce is $60. Always confirm the size before firing. Sells out on busy Fridays and Saturdays, so check availability with the kitchen through service.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-010",
-        "name": "Black Stallion Cabernet Sauvignon, North Coast",
+        "id": "BTG-019",
+        "name": "Two Mountain Cabernet Sauvignon, Yakima Valley",
         "note": "Cabernet is the default against prime rib, with tannin for the fat and fruit for the crust.",
-        "price": 18,
+        "price": 16,
         "file": "reds"
       },
       {
@@ -1801,21 +1684,118 @@
     "file": "dinner"
   },
   {
+    "id": "d50",
+    "menu": "dinner",
+    "cat": "Sea",
+    "name": "Pan Seared Mahi Mahi",
+    "price": 34,
+    "description": "Honeynut squash mousse, pomegranate chimichurri, Earl Grey pumpkin seeds",
+    "tableside": "Seared mahi mahi on a honeynut squash mousse, with a pomegranate chimichurri and pumpkin seeds toasted with Earl Grey tea.",
+    "ingredients": [
+      "Mahi mahi",
+      "Honeynut squash mousse",
+      "Pomegranate chimichurri",
+      "Earl Grey pumpkin seeds"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "safe",
+        "note": "Mahi mahi is a finfish, not shellfish."
+      },
+      "dairy": {
+        "status": "check",
+        "note": "A squash mousse can carry cream or butter. Confirm."
+      },
+      "nuts": {
+        "status": "safe",
+        "note": "No tree nuts. Pumpkin seeds are seeds, so tell seed-avoidant guests directly."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts."
+      },
+      "gluten": {
+        "status": "check",
+        "note": "Confirm the fish is not dusted in flour."
+      },
+      "eggs": {
+        "status": "check",
+        "note": "Confirm whether the mousse uses egg."
+      },
+      "soy": {
+        "status": "safe",
+        "note": "No soy expected."
+      },
+      "vegetarian": {
+        "status": "no",
+        "note": "Fish."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Fish."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Mahi Mahi",
+        "definition": "Hawaiian for very strong. Also sold as dorado or dolphinfish, no relation to the mammal. Firm and mild."
+      },
+      {
+        "term": "Honeynut Squash",
+        "definition": "A small butternut type squash bred at Cornell by Michael Mazourek at the urging of chef Dan Barber. Sweeter and more concentrated than butternut."
+      },
+      {
+        "term": "Chimichurri",
+        "definition": "An uncooked Argentine and Uruguayan sauce of parsley, garlic, oil and vinegar. Pomegranate adds sweet and sour pops."
+      },
+      {
+        "term": "Earl Grey",
+        "definition": "Black tea scented with oil of bergamot, a bitter Italian citrus."
+      }
+    ],
+    "sourcing": [],
+    "chef_notes": "Pumpkin seeds are seeds, not tree nuts, but say so plainly rather than just answering no to a nut question.",
+    "wine_pairings_btg": [
+      {
+        "id": "BTG-006",
+        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
+        "note": "Sauvignon's acidity and green herb edge line up with the parsley and vinegar in the chimichurri.",
+        "price": 15,
+        "file": "whites"
+      },
+      {
+        "id": "BTG-017",
+        "name": "Château O'Brien Viognier, Markham",
+        "note": "Viognier's stone fruit and round texture sit with the sweet squash mousse.",
+        "price": 13,
+        "file": "whites"
+      }
+    ],
+    "wine_pairings_bottle": [
+      {
+        "id": "459",
+        "name": "Bergström Chardonnay 'Old Stones,' Willamette Valley 2020",
+        "note": "Oregon Chardonnay with the weight for a meaty fish and enough acidity for the pomegranate.",
+        "price": 126,
+        "file": "whites"
+      }
+    ],
+    "wine_pairings_whisky": [],
+    "file": "dinner"
+  },
+  {
     "id": "d23",
     "menu": "dinner",
     "cat": "Sea",
     "name": "Pan Seared U12 Scallops",
     "price": 38,
-    "description": "Summer succotash, okra, heirloom tomato, lima bean, pickled garlic, achiote jus",
-    "tableside": "U12 means fewer than twelve to a pound, so these are large, seared hard and set on summer succotash.",
+    "description": "Spinach hummus, rhubarb confit, rutabaga",
+    "tableside": "U12 means fewer than twelve to a pound, so these are large, seared hard and set on a spinach hummus with rhubarb confit and rutabaga.",
     "ingredients": [
       "U12 scallops",
-      "Summer succotash",
-      "Okra",
-      "Heirloom tomato",
-      "Lima bean",
-      "Pickled garlic",
-      "Achiote jus"
+      "Spinach hummus",
+      "Rhubarb confit",
+      "Rutabaga"
     ],
     "allergens": {
       "shellfish": {
@@ -1824,23 +1804,23 @@
       },
       "dairy": {
         "status": "check",
-        "note": "Succotash is frequently finished with butter. Confirm."
+        "note": "Confirm whether the rutabaga is finished with butter."
       },
       "nuts": {
         "status": "safe",
-        "note": "No tree nuts."
+        "note": "No tree nuts expected."
       },
       "peanuts": {
         "status": "safe",
         "note": "No peanuts."
       },
       "gluten": {
-        "status": "safe",
-        "note": "No gluten expected. Confirm the jus."
+        "status": "check",
+        "note": "No gluten expected. Confirm."
       },
       "eggs": {
         "status": "safe",
-        "note": "No eggs."
+        "note": "No eggs expected."
       },
       "soy": {
         "status": "safe",
@@ -1861,35 +1841,39 @@
         "definition": "Under twelve scallops per pound. Larger scallops sear better because the crust sets before the center overcooks. Each guest gets six ounces regardless of count."
       },
       {
-        "term": "Succotash",
-        "definition": "A dish of corn and beans, originally from the Narragansett. Summer versions add whatever else is at peak."
+        "term": "Hummus",
+        "definition": "A Levantine purée built on chickpeas and tahini. Tahini is ground sesame, so this one carries sesame."
       },
       {
-        "term": "Achiote",
-        "definition": "Annatto seed, which gives a deep red-orange color and a mild earthy, peppery flavor. Used widely in Latin American and Filipino cooking."
+        "term": "Rhubarb Confit",
+        "definition": "Rhubarb cooked slowly in sugar until soft. Rhubarb is a vegetable, the leaf stalk of the plant, and very sour on its own."
+      },
+      {
+        "term": "Rutabaga",
+        "definition": "A cross between a turnip and a cabbage, sweeter and denser than a turnip. Called swede in Britain."
       }
     ],
     "sourcing": [],
-    "chef_notes": "Six ounces per guest regardless of individual scallop count. Scallops cannot be modified out of the dish.",
+    "chef_notes": "Six ounces per guest regardless of individual scallop count. Scallops cannot be modified out of the dish. The hummus means sesame, so name it for any seed allergy rather than clearing the dish as nut free.",
     "wine_pairings_btg": [
       {
         "id": "BTG-004",
         "name": "The Vice Chardonnay, Napa Valley",
-        "note": "Chardonnay's weight matches a seared scallop and the succotash without flattening the achiote.",
+        "note": "Chardonnay's weight matches a seared scallop, and its roundness softens the sour edge of the rhubarb.",
         "price": 18,
         "file": "whites"
       },
       {
         "id": "BTG-006",
         "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Sauvignon's acidity lifts the tomato and pickled garlic and keeps the scallop sweetness defined.",
+        "note": "Sauvignon's acidity matches the rhubarb and its green edge runs with the spinach.",
         "price": 15,
         "file": "whites"
       },
       {
         "id": "713",
         "name": "Clementine Carter Roussanne, Santa Barbara County",
-        "note": "Roussanne has the body for seared scallops and enough texture for the succotash, poured by the glass through Coravin.",
+        "note": "Roussanne has the body for seared scallops and a nutty texture that sits with the tahini in the hummus, poured by the glass through Coravin.",
         "price": 26,
         "coravin": true,
         "file": "whites"
@@ -1902,16 +1886,15 @@
     "id": "d24",
     "menu": "dinner",
     "cat": "Sea",
-    "name": "Summer Seafood Stew",
+    "name": "Seafood Stew",
     "price": 34,
-    "description": "PEI mussels, shrimp, mkt fish, tomato, corn, toasted ciabatta",
-    "tableside": "Mussels, shrimp and the market fish in a tomato and corn broth, with ciabatta for the bottom of the bowl.",
+    "description": "PEI mussels, shrimp, mkt fish, tomato, toasted ciabatta",
+    "tableside": "Mussels, shrimp and the market fish in a tomato broth, with ciabatta for the bottom of the bowl.",
     "ingredients": [
       "PEI mussels",
       "Shrimp",
       "Market fish",
       "Tomato",
-      "Corn",
       "Toasted ciabatta"
     ],
     "allergens": {
@@ -1982,10 +1965,10 @@
         "file": "whites"
       },
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé is the southern French move on a seafood stew and handles the tomato acidity.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       }
     ],
@@ -1993,112 +1976,8 @@
       {
         "id": "737",
         "name": "Domaine Berthet-Rayne Côtes du Rhône Blanc 2020",
-        "note": "Rhône white has the body for a brothy stew and enough weight for the corn sweetness.",
+        "note": "Rhône white has the body for a brothy stew and enough acidity for the tomato.",
         "price": 49,
-        "file": "whites"
-      }
-    ],
-    "file": "dinner"
-  },
-  {
-    "id": "d46",
-    "menu": "dinner",
-    "cat": "Sea",
-    "name": "Pan Seared Tile Fish",
-    "price": 34,
-    "description": "Coconut, shrimp, pearled couscous, mango, summer squash, tobiko butter",
-    "tableside": "Tile fish is a firm white fish that holds up to a hard sear, set on pearled couscous with coconut, shrimp and mango. Rich from the tobiko butter, cut by the mango.",
-    "ingredients": [
-      "Tile fish",
-      "Coconut",
-      "Shrimp",
-      "Pearled couscous",
-      "Mango",
-      "Summer squash",
-      "Tobiko butter"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "modifiable",
-        "note": "Shrimp, and the kitchen can take it off."
-      },
-      "dairy": {
-        "status": "contains",
-        "note": "Tobiko butter."
-      },
-      "nuts": {
-        "status": "safe",
-        "note": "No tree nuts. Coconut is a drupe and is not a tree nut allergen, but ask the guest."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      },
-      "gluten": {
-        "status": "contains",
-        "note": "Pearled couscous is wheat. Confirm whether the kitchen can swap the grain."
-      },
-      "eggs": {
-        "status": "safe",
-        "note": "Tobiko is fish roe, not chicken egg."
-      },
-      "soy": {
-        "status": "check",
-        "note": "Tobiko is often cured with soy. Confirm."
-      },
-      "vegetarian": {
-        "status": "no",
-        "note": "Fish and shrimp."
-      },
-      "vegan": {
-        "status": "no",
-        "note": "Fish, shrimp and butter."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Tile fish",
-        "definition": "A firm, mild white fish from the Atlantic and Gulf. Dense enough to sear hard without falling apart, closer to halibut than to snapper."
-      },
-      {
-        "term": "Tobiko",
-        "definition": "Flying fish roe. Small, crunchy and salty, most familiar from sushi. Whisked into butter it adds salinity and a light pop rather than a strong fish flavor."
-      },
-      {
-        "term": "Pearled couscous",
-        "definition": "Toasted wheat pasta rolled into small spheres, larger than standard couscous. Also called Israeli or ptitim. It is pasta, not a grain, so it is wheat."
-      }
-    ],
-    "sourcing": [
-      {
-        "name": "Gulf of Mexico",
-        "description": "Our tile fish comes from the Gulf of Mexico. Tile fish live on the outer continental shelf in burrows along the mud bottom, which is why the fishery is line caught rather than trawled."
-      }
-    ],
-    "chef_notes": "Cooked all the way through. The shrimp can be taken off for a shellfish allergy.",
-    "wine_pairings_btg": [
-      {
-        "id": "BTG-005",
-        "name": "Steininger Grüner Veltliner, Ried Loisium, Kamptal",
-        "note": "Grüner's acidity cuts the coconut and the tobiko butter, and its white pepper edge keeps the mango from reading as sweet.",
-        "price": 16,
-        "file": "whites"
-      },
-      {
-        "id": "733",
-        "name": "Botanica Chenin Blanc 'Mary Delany,' Citrusdal Mountains",
-        "note": "Chenin carries enough texture to sit with the couscous and enough acid to reset the palate after the butter, poured by the glass through Coravin.",
-        "price": 28,
-        "coravin": true,
-        "file": "whites"
-      }
-    ],
-    "wine_pairings_bottle": [
-      {
-        "id": "725",
-        "name": "Mosbach Gewürztraminer, Alsace",
-        "note": "Lychee and ginger run alongside the coconut and mango instead of against them, and the wine's weight holds up to the shrimp.",
-        "price": 42,
         "file": "whites"
       }
     ],
@@ -2424,141 +2303,32 @@
     "file": "dinner"
   },
   {
-    "id": "d44",
-    "menu": "dinner",
-    "cat": "Land",
-    "name": "Roasted Zucchiolo",
-    "price": 22,
-    "description": "Sheep milk feta, zatar spiced pistachio, preserved lemon, Goldberry Hill honey vin.",
-    "tableside": "Zucchiolo sits between a zucchini and a marrow, so it holds its shape roasted, dressed with feta and zatar pistachio.",
-    "ingredients": [
-      "Zucchiolo squash",
-      "Sheep milk feta",
-      "Za'atar spiced pistachio",
-      "Preserved lemon",
-      "Goldberry Hill honey vinaigrette"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "safe",
-        "note": "no shellfish."
-      },
-      "dairy": {
-        "status": "modifiable",
-        "note": "Sheep milk feta can be left off."
-      },
-      "nuts": {
-        "status": "modifiable",
-        "note": "Pistachio is a garnish and can be left off."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      },
-      "gluten": {
-        "status": "safe",
-        "note": "no gluten."
-      },
-      "eggs": {
-        "status": "safe",
-        "note": "No eggs."
-      },
-      "soy": {
-        "status": "safe",
-        "note": "No soy."
-      },
-      "vegetarian": {
-        "status": "yes",
-        "note": "No meat or fish. Confirm feta rennet if the guest is strict."
-      },
-      "vegan": {
-        "status": "no",
-        "note": "Contains feta and honey."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Zucchiolo",
-        "definition": "A newer vegetable variety developed in southern Spain, functioning as a cross between a zucchini and a cucumber. The name blends the Italian zucchini and cetriolo, meaning cucumber. It looks like a small flattened kabocha squash, three to five inches across."
-      },
-      {
-        "term": "Za'atar",
-        "definition": "An ancient Middle Eastern staple. The word means both a specific wild mountain herb native to the Levant and the herb and spice blend built around it, typically with sumac, sesame and salt."
-      },
-      {
-        "term": "Preserved Lemon",
-        "definition": "A cornerstone of North African and Moroccan cooking. Lemons are packed tightly in coarse salt and their own juice for weeks or months, which softens the rind and turns the flavour floral and savoury rather than sharp."
-      },
-      {
-        "term": "Goldberry Hill",
-        "definition": "A small family apiary on Clifton Road in Clifton, Virginia, operating for over five years. Their honey comes from wildflowers blooming within a three mile radius of the property, which makes this the most local ingredient on the menu."
-      }
-    ],
-    "sourcing": [
-      {
-        "name": "Goldberry Hill Farm",
-        "description": "A small family apiary on Clifton Road in Clifton, Virginia, roughly ten minutes from the restaurant. Operating for over five years, they harvest artisanal honey from wildflowers blooming within a strict three mile radius of the property. This is the most local ingredient on the entire menu, and the honey also appears on the tasting menu."
-      },
-      {
-        "name": "Preserved Lemon",
-        "description": "A cornerstone of North African and Moroccan cooking. Whole lemons are packed tightly in coarse salt and their own juice for several weeks or months. Only the softened rind is used, and it reads floral and savoury rather than sharp, since the salt draws out most of the acidity."
-      }
-    ],
-    "chef_notes": "This is the vegetarian main. it is gluten free. A vegan guest needs both the feta and the honey vinaigrette addressed, so check what the kitchen can do rather than just pulling the cheese.",
-    "wine_pairings_btg": [
-      {
-        "id": "BTG-006",
-        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Sauvignon's herbal edge runs with the za'atar and the acidity meets the preserved lemon.",
-        "price": 15,
-        "file": "whites"
-      },
-      {
-        "id": "BTG-005",
-        "name": "Steininger Grüner Veltliner, Ried Loisium, Kamptal",
-        "note": "Grüner's pepper and citrus handle the honey sweetness without turning cloying.",
-        "price": 16,
-        "file": "whites"
-      }
-    ],
-    "wine_pairings_bottle": [
-      {
-        "id": "6013",
-        "name": "Arianna Occhipinti SP68 White, Sicily 2024",
-        "note": "Skin contact texture stands up to roasted squash and the wine's savory edge tracks the za'atar.",
-        "price": 60,
-        "file": "whites"
-      }
-    ],
-    "file": "dinner"
-  },
-  {
-    "id": "d29",
+    "id": "d51",
     "menu": "dinner",
     "cat": "Pasta & Rice",
-    "name": "Spring Chicken Cavatelli",
+    "name": "Housemade Cavatelli",
     "price": 29,
-    "description": "Asparagus, English peas, radish, cured egg yolk",
-    "tableside": "Ricotta and boursin go into the cavatelli, which is what makes it pillowy, tossed with asparagus and English peas.",
+    "description": "Caramelized onions, braised pork, broccolini, red chili",
+    "tableside": "Housemade cavatelli with braised pork, caramelized onions and broccolini, with a little red chili heat.",
     "ingredients": [
-      "Ricotta and boursin cavatelli",
-      "Shredded chicken",
-      "English peas",
-      "Asparagus",
-      "Cured egg yolk"
+      "Cavatelli",
+      "Braised pork",
+      "Caramelized onions",
+      "Broccolini",
+      "Red chili"
     ],
     "allergens": {
       "shellfish": {
         "status": "safe",
-        "note": "no shellfish."
+        "note": "No shellfish."
       },
       "dairy": {
-        "status": "contains",
-        "note": "Ricotta and boursin are in the pasta dough itself. It cannot be made dairy free."
+        "status": "check",
+        "note": "Confirm whether the pasta or sauce is finished with cheese or butter."
       },
       "nuts": {
         "status": "safe",
-        "note": "no tree nuts."
+        "note": "No tree nuts expected."
       },
       "peanuts": {
         "status": "safe",
@@ -2566,67 +2336,63 @@
       },
       "gluten": {
         "status": "contains",
-        "note": "It cannot be made gluten free."
+        "note": "Wheat pasta."
       },
       "eggs": {
-        "status": "contains",
-        "note": "Egg is in the cavatelli dough, and the cured yolk is grated over the top."
+        "status": "check",
+        "note": "Confirm whether the cavatelli dough uses egg."
       },
       "soy": {
         "status": "safe",
-        "note": "No soy."
+        "note": "No soy expected."
       },
       "vegetarian": {
-        "status": "check",
-        "note": "Chicken may be able to come out. Confirm with the kitchen."
+        "status": "no",
+        "note": "Braised pork."
       },
       "vegan": {
         "status": "no",
-        "note": "Contains chicken, dairy, wheat and egg."
+        "note": "Braised pork."
       }
     },
     "key_terms": [
       {
         "term": "Cavatelli",
-        "definition": "A small shell-shaped pasta from southern Italy, rolled so it curls. The hollow holds sauce better than a smooth shape."
+        "definition": "Small ridged pasta from southern Italy, shaped by dragging a piece of dough with a finger or two so it curls into a little hollow shell that holds sauce."
       },
       {
-        "term": "Cured Egg Yolk",
-        "definition": "A yolk buried in salt and sugar until firm enough to grate. Behaves like a hard cheese with a deeper savory note."
+        "term": "Broccolini",
+        "definition": "A cross between broccoli and Chinese broccoli (gai lan), developed in Japan in 1993. Longer stems and smaller florets than broccoli, milder and sweeter."
       }
     ],
-    "sourcing": [
-      {
-        "name": "Cured Egg Yolk",
-        "description": "Raw yolks buried in a dense mixture of salt and sugar for several days, then dehydrated until firm. The cure draws out moisture and concentrates the yolk's fats and proteins, turning a liquid egg into a hard, grateable wedge with a velvety texture and a flavour close to a deeply savoury Parmesan."
-      }
-    ],
-    "chef_notes": "this can be made neither dairy free nor gluten free, because the cheese and flour are both in the dough. Egg is in the dough as well as on top.",
+    "sourcing": [],
+    "chef_notes": "Pork is braised into the dish, so it cannot be made vegetarian.",
     "wine_pairings_btg": [
       {
-        "id": "BTG-004",
-        "name": "The Vice Chardonnay, Napa Valley",
-        "note": "Chardonnay's weight matches a cream-adjacent pasta and the cured yolk richness.",
-        "price": 18,
-        "file": "whites"
+        "id": "BTG-018",
+        "name": "Cantina dei Vini Tipici dell'Aretino Super Tuscan, Toscana IGT",
+        "note": "Tuscan red cherry and acidity cut the braised pork and stand up to the chili.",
+        "price": 15,
+        "file": "reds"
       },
       {
-        "id": "BTG-006",
-        "name": "Paris-Simoneau Sauvignon Blanc, Val de Loire",
-        "note": "Sauvignon keeps the asparagus and peas bright, which a heavier white would flatten.",
-        "price": 15,
-        "file": "whites"
+        "id": "BTG-009",
+        "name": "Ontañon Tempranillo/Garnacha Crianza, Rioja",
+        "note": "Crianza's soft tannin and spice suit braised pork and caramelized onion.",
+        "price": 16,
+        "file": "reds"
       }
     ],
     "wine_pairings_bottle": [
       {
-        "id": "421",
-        "name": "Luli Chardonnay, Sta. Lucia Highlands, Monterey 2024",
-        "note": "Restrained Chardonnay that supports the pasta without burying spring vegetables.",
-        "price": 57,
-        "file": "whites"
+        "id": "5079",
+        "name": "Coppo Barbera 'Pomorosso,' Nizza 2019",
+        "note": "Barbera's high acidity and low tannin cut the pork fat without clashing with the chili.",
+        "price": 154,
+        "file": "reds"
       }
     ],
+    "wine_pairings_whisky": [],
     "file": "dinner"
   },
   {
@@ -2713,10 +2479,10 @@
         "file": "whites"
       },
       {
-        "id": "BTG-014",
-        "name": "Tement Zweigelt Rosé, Südsteiermark",
+        "id": "BTG-016",
+        "name": "Mittelbach Rosé of Zweigelt, Kremstal",
         "note": "Zweigelt rosé picks up the tomato acidity and adds fruit without weight.",
-        "price": 19,
+        "price": 14,
         "file": "sparkling"
       }
     ],
@@ -2729,69 +2495,6 @@
         "file": "whites"
       }
     ],
-    "file": "dinner"
-  },
-  {
-    "id": "d45",
-    "menu": "dinner",
-    "cat": "To Accompany",
-    "name": "Watermelon Salad",
-    "price": 12,
-    "description": "Charred cucumber, feta, cashew, mint",
-    "tableside": "Cold and sharp, the best foil on the menu for anything that came off the rotisserie.",
-    "ingredients": [
-      "Watermelon",
-      "Charred cucumber",
-      "Feta",
-      "Cashews",
-      "Mint"
-    ],
-    "allergens": {
-      "shellfish": {
-        "status": "safe",
-        "note": "No shellfish."
-      },
-      "dairy": {
-        "status": "modifiable",
-        "note": "Feta can be left off."
-      },
-      "nuts": {
-        "status": "modifiable",
-        "note": "Cashews can be left off."
-      },
-      "peanuts": {
-        "status": "safe",
-        "note": "No peanuts."
-      },
-      "gluten": {
-        "status": "safe",
-        "note": "No gluten."
-      },
-      "eggs": {
-        "status": "safe",
-        "note": "No eggs."
-      },
-      "soy": {
-        "status": "safe",
-        "note": "No soy."
-      },
-      "vegetarian": {
-        "status": "yes",
-        "note": "No meat or fish. Confirm feta rennet if the guest is strict."
-      },
-      "vegan": {
-        "status": "modifiable",
-        "note": "Without the feta."
-      }
-    },
-    "key_terms": [
-      {
-        "term": "Charred Cucumber",
-        "definition": "Quick high heat applied to a vegetable normally served raw. The surface takes on smoke and softens while the centre stays crisp, which gives you two textures in one slice."
-      }
-    ],
-    "sourcing": [],
-    "chef_notes": "Both allergens here are removable garnishes, which makes this one of the easier sides to modify. Good foil for the fattier rotisserie plates.",
     "file": "dinner"
   },
   {
@@ -2927,19 +2630,18 @@
     "file": "dinner"
   },
   {
-    "id": "ds8",
+    "id": "ds10",
     "menu": "dessert",
     "cat": "Dessert",
-    "name": "Apricot Tart",
-    "price": 14,
-    "description": "Apricot kernel ice cream, cherry compote, cornbread crumble",
-    "tableside": "The ice cream is churned from apricot kernels, which taste startlingly like almond, over cherry compote and cornbread crumble.",
+    "name": "Pumpkin Basque Cheesecake",
+    "price": 15,
+    "description": "Sea buckthorn Hennessy sauce, ginger spice crumble, spiced pepita & pomegranate seed granola",
+    "tableside": "A crustless pumpkin cheesecake baked hot so the top caramelises dark, with a sea buckthorn and Hennessy sauce, ginger spice crumble and a pepita and pomegranate granola.",
     "ingredients": [
-      "Local apricots",
-      "Butter crust",
-      "Apricot kernel ice cream",
-      "Cherry compote",
-      "Crumbled cornbread"
+      "Pumpkin Basque cheesecake",
+      "Sea buckthorn Hennessy sauce",
+      "Ginger spice crumble",
+      "Spiced pepita and pomegranate seed granola"
     ],
     "allergens": {
       "shellfish": {
@@ -2948,23 +2650,23 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Butter crust and ice cream. It cannot be made without."
+        "note": "Cream cheese and cream."
       },
       "nuts": {
-        "status": "safe",
-        "note": "Kitchen classifies apricot kernels as not a nut. They are stone fruit seeds, but they taste of almond and some tree nut allergic guests react, so give the guest the information."
+        "status": "check",
+        "note": "Pepitas are seeds. Confirm the granola has no tree nuts."
       },
       "peanuts": {
         "status": "safe",
-        "note": "No peanuts."
+        "note": "No peanuts expected."
       },
       "gluten": {
-        "status": "contains",
-        "note": "Tart crust and cornbread crumble."
+        "status": "check",
+        "note": "Basque cheesecake usually has a little flour, and the crumble is likely wheat. Confirm."
       },
       "eggs": {
-        "status": "check",
-        "note": "Confirm the pastry and ice cream base."
+        "status": "contains",
+        "note": "Basque cheesecake is egg based."
       },
       "soy": {
         "status": "safe",
@@ -2976,66 +2678,56 @@
       },
       "vegan": {
         "status": "no",
-        "note": "Contains dairy."
+        "note": "Dairy and egg."
       }
     },
     "key_terms": [
       {
-        "term": "Apricot Kernel",
-        "definition": "The seed found inside the apricot pit. It tastes strongly of almond because it contains the same aromatic compound, benzaldehyde, and it is what amaretto and much Italian pastry are built on."
+        "term": "Basque Cheesecake",
+        "definition": "A crustless cheesecake baked at very high heat so the outside caramelises almost black while the centre stays soft. It comes from La Viña in San Sebastián."
       },
       {
-        "term": "Compote",
-        "definition": "Fruit cooked gently in syrup so the pieces stay whole and recognisable, rather than being broken down into a jam or a smooth puree."
+        "term": "Sea Buckthorn",
+        "definition": "A small orange berry from a hardy coastal shrub. Very sour, with a passion fruit like tropical note."
       },
       {
-        "term": "Noyaux",
-        "definition": "The French term for stone fruit kernels used as a flavouring. The same principle behind this ice cream, and the reason a peach pit and an almond smell related."
+        "term": "Pepita",
+        "definition": "A hulled pumpkin seed. A seed, not a tree nut."
       }
     ],
-    "sourcing": [
-      {
-        "name": "Local Apricots",
-        "description": "The tart is built on local apricots at the peak of stone fruit season, which makes it a genuinely seasonal dessert rather than a fixture."
-      },
-      {
-        "name": "Apricot Kernel",
-        "description": "The small almond-shaped seed inside the hard woody pit of the apricot. Used across global cuisines as a flavouring, it delivers an intensely aromatic profile reminiscent of marzipan, roasted almonds and cherry blossom. It is a stone fruit seed rather than a tree nut, but the resemblance is close enough that a nut allergic guest should be told what it is."
-      }
-    ],
-    "chef_notes": "Kitchen classifies the apricot kernel as not a nut, which is technically correct since it is a stone fruit seed. It tastes of almond because it shares the same aromatic compound, and some tree nut allergic guests do react. Tell the guest what it is and let them decide rather than simply clearing it.",
+    "sourcing": [],
+    "chef_notes": "The sauce contains Hennessy cognac, so the dish carries some alcohol. Tell a parent before it goes to a child.",
     "afters_pairings": [
       {
-        "name": "Di9dante 'Purgatorio' Extra-Dry Vermouth",
-        "why": "Dry vermouth's bitter herbal edge keeps a sweet stone fruit tart from sitting heavy.",
-        "price": 9,
-        "afters_id": "147",
+        "name": "Doisey-Védrines Sauternes",
+        "why": "Sauternes' apricot and honey ride with the pumpkin, and its acidity matches the sour sea buckthorn.",
+        "price": 17,
+        "afters_id": "159",
         "afters_page": "afters.html"
       },
       {
-        "name": "Doisy-Védrines Sauternes",
-        "why": "Botrytis pushes the same apricot the kernel ice cream is built on, and the sweetness holds up to the cherry compote.",
-        "price": 17,
-        "afters_id": "159",
+        "name": "Hennessy VSOP Privilege",
+        "why": "The same cognac house as the sauce, so the brandy's dried fruit and oak repeat what is on the plate.",
+        "price": 20,
+        "afters_id": "165",
         "afters_page": "afters.html"
       }
     ],
     "file": "dessert"
   },
   {
-    "id": "ds3",
+    "id": "ds11",
     "menu": "dessert",
     "cat": "Dessert",
-    "name": "GF Chocolate Torte",
-    "price": 15,
-    "description": "Spicy papaya chutney, toasted almond & coconut, chocolate passion fruit ice cream",
-    "tableside": "Flourless and dense, with toasted almond and coconut over the top and a papaya chutney that carries real heat.",
+    "name": "Honey Creme Brulee",
+    "price": 14,
+    "description": "Brown butter pecan biscotti, apple butter, Gold Berry Hill honey",
+    "tableside": "Honey custard under a crackled burnt sugar top, made with honey from Goldberry Hill in Clifton, with apple butter and a brown butter pecan biscotti.",
     "ingredients": [
-      "Chocolate torte",
-      "Spicy papaya chutney",
-      "Toasted almonds",
-      "Coconut",
-      "Chocolate passion fruit ice cream"
+      "Honey crème brûlée",
+      "Brown butter pecan biscotti",
+      "Apple butter",
+      "Goldberry Hill honey"
     ],
     "allergens": {
       "shellfish": {
@@ -3044,27 +2736,27 @@
       },
       "dairy": {
         "status": "contains",
-        "note": "Ice cream and torte."
+        "note": "Cream custard and brown butter."
       },
       "nuts": {
-        "status": "contains",
-        "note": "Almonds and coconut in the topping. Cannot be made without."
+        "status": "modifiable",
+        "note": "Pecans are in the biscotti, which can be held. Confirm the custard has no nuts."
       },
       "peanuts": {
         "status": "safe",
-        "note": "No peanuts."
+        "note": "No peanuts expected."
       },
       "gluten": {
-        "status": "safe",
-        "note": "Made gluten free. Confirm prep surface separation for a celiac guest."
+        "status": "modifiable",
+        "note": "Hold the biscotti. Confirm the custard has no flour."
       },
       "eggs": {
-        "status": "check",
-        "note": "Flourless chocolate tortes are usually egg based. Confirm."
+        "status": "contains",
+        "note": "Custard is egg yolk based."
       },
       "soy": {
-        "status": "check",
-        "note": "Chocolate frequently contains soy lecithin. Confirm for a strict soy allergy."
+        "status": "safe",
+        "note": "No soy expected."
       },
       "vegetarian": {
         "status": "yes",
@@ -3072,36 +2764,127 @@
       },
       "vegan": {
         "status": "no",
-        "note": "Contains dairy and likely egg."
+        "note": "Dairy, egg and honey."
       }
     },
     "key_terms": [
       {
-        "term": "Flourless Torte",
-        "definition": "A dense chocolate cake using ground nuts or nothing at all in place of flour. Structure comes from egg and chocolate rather than gluten."
+        "term": "Crème Brûlée",
+        "definition": "Baked cream and egg yolk custard with sugar caramelised on top with a torch just before serving."
       },
       {
-        "term": "Coconut",
-        "definition": "Classified as a tree nut by the FDA for labeling even though it is botanically a drupe. Most tree nut allergic guests tolerate it, but never decide that for them."
+        "term": "Biscotti",
+        "definition": "Twice baked Italian biscuits, baked as a log, sliced and baked again until dry and crisp."
       },
       {
-        "term": "Passion Fruit",
-        "definition": "Sharply acidic tropical fruit. The acidity is what keeps a heavy chocolate dessert from sitting flat."
+        "term": "Apple Butter",
+        "definition": "Apples cooked down slowly until the sugars caramelise into a dark spread. No dairy despite the name."
+      }
+    ],
+    "sourcing": [
+      {
+        "name": "Goldberry Hill Farm",
+        "description": "A small family apiary on Clifton Road in Clifton, Virginia, roughly ten minutes from the restaurant. They harvest honey from wildflowers within a three mile radius of the property, which makes it the most local ingredient on the menu."
+      }
+    ],
+    "chef_notes": "Hold the biscotti for a nut or gluten allergy, then confirm the custard itself. The honey is the most local ingredient on the menu, worth naming at the table.",
+    "afters_pairings": [
+      {
+        "name": "Di Majo Norante Apianae Moscato",
+        "why": "Moscato's honey and orange blossom echo the honey custard without being heavier than the dessert.",
+        "price": 14,
+        "afters_id": "158",
+        "afters_page": "afters.html"
+      },
+      {
+        "name": "Graham's 20 Year Tawny Port",
+        "why": "Twenty years of oak brings out nut and toffee notes that match the brown butter pecan biscotti.",
+        "price": 19,
+        "afters_id": "161",
+        "afters_page": "afters.html"
+      }
+    ],
+    "file": "dessert"
+  },
+  {
+    "id": "ds12",
+    "menu": "dessert",
+    "cat": "Dessert",
+    "name": "Fried Chocolate Bread Pudding",
+    "price": 15,
+    "description": "Orange marmalade, toasted meringue, graham cracker IC",
+    "tableside": "Chocolate bread pudding fried for a crisp outside, with orange marmalade, toasted meringue and graham cracker ice cream.",
+    "ingredients": [
+      "Chocolate bread pudding",
+      "Orange marmalade",
+      "Toasted meringue",
+      "Graham cracker ice cream"
+    ],
+    "allergens": {
+      "shellfish": {
+        "status": "check",
+        "note": "Fried. Confirm whether the fryer is shared with shellfish."
+      },
+      "dairy": {
+        "status": "contains",
+        "note": "Custard, chocolate and ice cream."
+      },
+      "nuts": {
+        "status": "check",
+        "note": "No nuts expected. Confirm."
+      },
+      "peanuts": {
+        "status": "safe",
+        "note": "No peanuts expected."
+      },
+      "gluten": {
+        "status": "contains",
+        "note": "Bread and graham cracker."
+      },
+      "eggs": {
+        "status": "contains",
+        "note": "Custard and meringue are egg based."
+      },
+      "soy": {
+        "status": "check",
+        "note": "Confirm the chocolate."
+      },
+      "vegetarian": {
+        "status": "yes",
+        "note": "No meat or gelatin expected."
+      },
+      "vegan": {
+        "status": "no",
+        "note": "Dairy, egg and wheat."
+      }
+    },
+    "key_terms": [
+      {
+        "term": "Bread Pudding",
+        "definition": "Bread soaked in custard and baked. Here it is chocolate and then fried, which crisps the outside."
+      },
+      {
+        "term": "Meringue",
+        "definition": "Egg white whipped with sugar. Toasted with a torch so it browns like a marshmallow."
+      },
+      {
+        "term": "IC",
+        "definition": "Ice cream, as written on the printed menu."
       }
     ],
     "sourcing": [],
-    "chef_notes": "Gluten free is not the same as allergy friendly. This dish contains almonds, coconut, dairy, and likely egg and soy. The chutney is genuinely spicy, which surprises guests on a dessert, so mention it.",
+    "chef_notes": "Contains egg in three components and gluten in two, so it cannot be modified for either.",
     "afters_pairings": [
       {
-        "name": "Graham's 20 Year Tawny Port",
-        "why": "Tawny's nuttiness and dried fruit run directly with the almond and papaya.",
-        "price": 19,
-        "afters_id": "161",
+        "name": "Graham's 10 Year Tawny Port",
+        "why": "Tawny's nutty caramel and dried fruit sit with dark chocolate, and its acidity handles the marmalade.",
+        "price": 12,
+        "afters_id": "160",
         "afters_page": "afters.html"
       },
       {
         "name": "Espresso Martini",
-        "why": "Coffee against chocolate, and the passion fruit acidity keeps it from doubling up as too rich.",
+        "why": "Coffee and vanilla vodka against chocolate and orange.",
         "price": 14,
         "afters_id": "181",
         "afters_page": "cocktails.html"
@@ -3113,13 +2896,13 @@
     "id": "ds9",
     "menu": "dessert",
     "cat": "Dessert",
-    "name": "Walnut Banana Cake",
+    "name": "Banana Walnut Cake",
     "price": 16,
-    "description": "Buffalo Trace ice cream, cream cheese frosting, lime caramel",
-    "tableside": "Walnuts baked through the cake, cream cheese frosting over it, and Buffalo Trace ice cream melting into the lime caramel.",
+    "description": "Vanilla ice cream, cream cheese frosting, lime caramel",
+    "tableside": "Walnuts baked through the cake, cream cheese frosting over it, and vanilla ice cream melting into the lime caramel.",
     "ingredients": [
       "Banana walnut cake",
-      "Buffalo Trace ice cream",
+      "Vanilla ice cream",
       "Cream cheese frosting",
       "Lime caramel"
     ],
@@ -3163,16 +2946,12 @@
     },
     "key_terms": [
       {
-        "term": "Buffalo Trace Ice Cream",
-        "definition": "Bourbon churned into an ice cream base. Alcohol lowers the freezing point, so the scoop stays noticeably softer and melts faster than a standard ice cream."
-      },
-      {
         "term": "Lime Caramel",
         "definition": "Caramel finished with lime juice rather than cream. The acid cuts the sugar directly and stops a very sweet dessert from flattening out on the palate."
       }
     ],
     "sourcing": [],
-    "chef_notes": "The printed menu lists nuts as N/A on a cake with walnuts in the name. Treat that as a printed menu error and do not clear this dish for a nut allergy until you confirm with the kitchen. Also contains alcohol in the Buffalo Trace ice cream, so it should not go to a child without the parent knowing.",
+    "chef_notes": "Walnuts are baked into the cake, so it cannot be made nut free. The ice cream is now plain vanilla, so unlike the earlier version there is no alcohol in the dish.",
     "afters_pairings": [
       {
         "name": "Graham's 10 Year Tawny Port",
@@ -3197,12 +2976,12 @@
     "cat": "Dessert",
     "name": "Ice Cream Trio",
     "price": 11,
-    "description": "Horchata, smores, honey butter-hazelnut",
-    "tableside": "Three scoops: horchata, s'mores, and a honey butter hazelnut that eats like the middle of a candy bar.",
+    "description": "Spiced apple, horchata, chocolate-passion fruit",
+    "tableside": "Three scoops: spiced apple, horchata, and a chocolate passion fruit that is bitter, rich and tart at once.",
     "ingredients": [
+      "Spiced apple ice cream",
       "Horchata ice cream",
-      "S'mores ice cream",
-      "Honey butter hazelnut ice cream"
+      "Chocolate passion fruit ice cream"
     ],
     "allergens": {
       "shellfish": {
@@ -3214,16 +2993,16 @@
         "note": "Ice cream base."
       },
       "nuts": {
-        "status": "modifiable",
-        "note": "Hazelnut is one of the three flavors. Ask the kitchen to substitute a different scoop."
+        "status": "check",
+        "note": "No nuts expected in these three flavours. Confirm."
       },
       "peanuts": {
         "status": "safe",
-        "note": "No peanuts. Confirm the s'mores components."
+        "note": "No peanuts expected."
       },
       "gluten": {
-        "status": "modifiable",
-        "note": "Graham cracker in the s'mores flavor. Ask for a substitute scoop."
+        "status": "check",
+        "note": "Confirm the spiced apple has no crumble or cookie mixed in."
       },
       "eggs": {
         "status": "check",
@@ -3231,11 +3010,11 @@
       },
       "soy": {
         "status": "check",
-        "note": "Confirm chocolate and marshmallow components."
+        "note": "Confirm the chocolate."
       },
       "vegetarian": {
-        "status": "check",
-        "note": "Marshmallow in the s'mores flavor usually contains gelatin. Confirm."
+        "status": "yes",
+        "note": "No meat or gelatin expected."
       },
       "vegan": {
         "status": "no",
@@ -3248,16 +3027,16 @@
         "definition": "A Latin American drink of soaked rice, cinnamon, and sugar. Traditionally nut free in the Mexican version, though the Spanish original uses tiger nuts."
       },
       {
-        "term": "S'mores",
-        "definition": "Graham cracker, chocolate, and toasted marshmallow. The graham is where the gluten sits and the marshmallow is where gelatin may sit."
+        "term": "Passion Fruit",
+        "definition": "A tropical vine fruit with very high acidity and an intensely perfumed pulp. Against chocolate it works the way orange does, cutting the richness."
       }
     ],
     "sourcing": [],
-    "chef_notes": "The most modifiable dessert on the menu, since individual scoops can be swapped. That makes it the right suggestion for a difficult allergy table, but confirm which substitutions are actually available that night.",
+    "chef_notes": "Individual scoops can usually be swapped, which makes this a good suggestion for a difficult allergy table. Confirm which substitutions are available that night.",
     "afters_pairings": [
       {
         "name": "Artemisia Farms Nocino",
-        "why": "Walnut liqueur against the hazelnut scoop, doubling the nut character rather than contrasting it.",
+        "why": "Walnut liqueur's spice and bitterness sits with the spiced apple and the cinnamon in the horchata.",
         "price": 10,
         "afters_id": "142",
         "afters_page": "afters.html"
@@ -3278,11 +3057,11 @@
     "cat": "Dessert",
     "name": "Sorbet Trio",
     "price": 11,
-    "description": "Pineapple-watermelon, blackberry-peach, kiwi-guava",
-    "tableside": "Three fruit sorbets, pineapple watermelon through kiwi guava, cold and clean after a long meal.",
+    "description": "Mandarin-cherry, pom-cran-fig, kiwi-guava",
+    "tableside": "Three fruit sorbets, mandarin cherry, pomegranate cranberry fig and kiwi guava, cold and clean after a long meal.",
     "ingredients": [
-      "Pineapple watermelon sorbet",
-      "Blackberry peach sorbet",
+      "Mandarin cherry sorbet",
+      "Pomegranate cranberry fig sorbet",
       "Kiwi guava sorbet"
     ],
     "allergens": {

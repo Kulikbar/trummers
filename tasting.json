@@ -1,431 +1,395 @@
 {
- "theme": "Stone Fruit",
- "date": "August 2026",
- "price": 85,
- "pairing_price": 55,
- "intro": "A five course menu built around stone fruit at the height of summer. Peaches, plumcots, cherries and apricots run through every course, savoury and sweet, and each one uses the fruit differently: chutney, flatbread, pickle, braise and tart. The optional wine pairing adds $55.",
- "courses": [
-  {
-   "id": "t1",
-   "course": 1,
-   "section": "amuse",
-   "name": "Peaches & Cream Tart",
-   "description": "Purple Haze goat cheese, peach chutney",
-   "tableside": "A one bite amuse to open the menu. Purple Haze is a Cypress Grove goat cheese flavoured with lavender and fennel pollen, and the peach chutney sits against it. Sets up the stone fruit theme before you describe the rest of the menu.",
-   "ingredients": [
-    "Tart shell",
-    "Purple Haze goat cheese",
-    "Peach chutney"
-   ],
-   "allergens": {
-    "shellfish": {
-     "status": "safe",
-     "note": "No shellfish."
+  "theme": "Mushroom",
+  "date": "October 2026",
+  "price": 85,
+  "pairing_price": 55,
+  "intro": "A five course menu built around mushrooms, with each course labelled by how it is cooked: baked, sautéed, grilled and baked again for dessert. Trumpet, chanterelle, lion's mane, portabella and porcini all appear, and the last course puts porcini into chocolate. The optional wine pairing adds $55.",
+  "courses": [
+    {
+      "id": "t1",
+      "course": 1,
+      "section": "amuse",
+      "name": "Trumpet Mushroom Fritter",
+      "description": "Lemon aioli",
+      "tableside": "A one bite amuse to open the menu: king trumpet mushroom in a light fritter batter, with lemon aioli. The trumpet comes back again on the lion's mane course.",
+      "ingredients": [
+        "King trumpet mushroom",
+        "Fritter batter",
+        "Lemon aioli"
+      ],
+      "allergens": {
+        "shellfish": {
+          "status": "check",
+          "note": "Fried. Confirm whether the fryer is shared with shellfish."
+        },
+        "dairy": {
+          "status": "check",
+          "note": "Confirm the batter."
+        },
+        "nuts": {
+          "status": "safe",
+          "note": "No tree nuts expected."
+        },
+        "peanuts": {
+          "status": "safe",
+          "note": "No peanuts."
+        },
+        "gluten": {
+          "status": "check",
+          "note": "Fritter batter is usually wheat flour. Confirm."
+        },
+        "eggs": {
+          "status": "contains",
+          "note": "Aioli is egg yolk based, and batter often contains egg."
+        },
+        "soy": {
+          "status": "check",
+          "note": "Confirm the fry oil."
+        },
+        "vegetarian": {
+          "status": "yes",
+          "note": "No meat or fish. Confirm the fryer for a strict vegetarian."
+        },
+        "vegan": {
+          "status": "no",
+          "note": "Egg in the aioli."
+        }
+      },
+      "key_terms": [
+        {
+          "term": "King Trumpet",
+          "definition": "Pleurotus eryngii, the largest of the oyster mushrooms. The thick white stem is the main eating part and keeps a meaty, almost scallop like texture when cooked."
+        },
+        {
+          "term": "Aioli",
+          "definition": "A Provençal emulsion of garlic and oil. Modern versions are usually built on egg yolk like a mayonnaise."
+        }
+      ],
+      "sourcing": [],
+      "chef_notes": "One bite to open. Introduce the mushroom theme as it lands. Ask about the fryer for a shellfish or celiac guest.",
+      "pairing": null
     },
-    "dairy": {
-     "status": "contains",
-     "note": "Goat cheese is the dish."
+    {
+      "id": "t2",
+      "course": 2,
+      "section": "baked",
+      "name": "Chanterelle Terrine",
+      "description": "Spicy mustard, red wine poached prune, frisee",
+      "tableside": "A baked terrine of chanterelles, sliced and served with spicy mustard, a prune poached in red wine and a little frisée. Chanterelles are wild, so every one on the plate was foraged.",
+      "ingredients": [
+        "Chanterelle terrine",
+        "Spicy mustard",
+        "Red wine poached prune",
+        "Frisée"
+      ],
+      "allergens": {
+        "shellfish": {
+          "status": "safe",
+          "note": "No shellfish expected."
+        },
+        "dairy": {
+          "status": "check",
+          "note": "Terrines are often bound with cream. Confirm."
+        },
+        "nuts": {
+          "status": "check",
+          "note": "Pistachio is a common terrine garnish. Confirm none is used."
+        },
+        "peanuts": {
+          "status": "safe",
+          "note": "No peanuts expected."
+        },
+        "gluten": {
+          "status": "check",
+          "note": "Terrines are sometimes bound with breadcrumb. Confirm."
+        },
+        "eggs": {
+          "status": "check",
+          "note": "Terrines are often bound with egg. Confirm."
+        },
+        "soy": {
+          "status": "safe",
+          "note": "No soy expected."
+        },
+        "vegetarian": {
+          "status": "check",
+          "note": "Many terrines contain pork fat or are set with gelatin. Confirm this one is meat free."
+        },
+        "vegan": {
+          "status": "check",
+          "note": "Depends on the binder."
+        }
+      },
+      "key_terms": [
+        {
+          "term": "Chanterelle",
+          "definition": "A golden, funnel shaped wild mushroom with blunt ridges running down the stem instead of true gills. It cannot be reliably cultivated, so all chanterelles are foraged. Faint apricot aroma."
+        },
+        {
+          "term": "Terrine",
+          "definition": "A loaf pressed and cooked in a straight sided mould, also called a terrine, then sliced and served cold or at room temperature."
+        },
+        {
+          "term": "Frisée",
+          "definition": "Curly endive. Pale, crisp and bitter, used here to cut the richness."
+        }
+      ],
+      "sourcing": [],
+      "chef_notes": "Confirm the binder before clearing this course for a vegetarian, dairy, egg or gluten restriction. Mustard is on the plate, so name it for a guest who asks.",
+      "pairing": {
+        "wine_id": "727",
+        "name": "Viura/Garnacha Blanca/Maturana Blanca Gran Reserva Blanco, Rioja",
+        "producer": "Viña Otano",
+        "grapes": "Viura, Garnacha Blanca, Maturana Blanca",
+        "region": "Rioja, Spain",
+        "vintage": "2015",
+        "bin": "727",
+        "file": "whites",
+        "in_list": true,
+        "note": "A Gran Reserva white Rioja with ten years behind it, which means at least four years of ageing before release with six months in oak. That age turns the fruit nutty and savoury, and it sits right on top of the earthy chanterelle. Its acidity cuts the richness of the terrine and the spicy mustard, and the dried fruit character from long ageing links to the red wine poached prune. A young, fruity white would taste thin next to this course."
+      }
     },
-    "nuts": {
-     "status": "safe",
-     "note": "No tree nuts expected. Confirm the chutney."
+    {
+      "id": "t3",
+      "course": 3,
+      "section": "sautéed",
+      "name": "Wild Mushroom Tortellini",
+      "description": "Truffle cream, fried sage, parmesan tuille",
+      "tableside": "Tortellini filled with sautéed wild mushrooms, in a truffle cream with fried sage leaves and a crisp parmesan tuile on top.",
+      "ingredients": [
+        "Tortellini",
+        "Wild mushroom filling",
+        "Truffle cream",
+        "Fried sage",
+        "Parmesan tuile"
+      ],
+      "allergens": {
+        "shellfish": {
+          "status": "safe",
+          "note": "No shellfish expected."
+        },
+        "dairy": {
+          "status": "contains",
+          "note": "Truffle cream and parmesan."
+        },
+        "nuts": {
+          "status": "safe",
+          "note": "No tree nuts expected."
+        },
+        "peanuts": {
+          "status": "safe",
+          "note": "No peanuts."
+        },
+        "gluten": {
+          "status": "contains",
+          "note": "Wheat pasta."
+        },
+        "eggs": {
+          "status": "check",
+          "note": "Fresh pasta dough is normally made with egg. Confirm."
+        },
+        "soy": {
+          "status": "safe",
+          "note": "No soy expected."
+        },
+        "vegetarian": {
+          "status": "check",
+          "note": "No meat expected. Parmesan is traditionally made with animal rennet, which matters to a strict vegetarian."
+        },
+        "vegan": {
+          "status": "no",
+          "note": "Dairy."
+        }
+      },
+      "key_terms": [
+        {
+          "term": "Tortellini",
+          "definition": "Small ring shaped stuffed pasta from Emilia, around Bologna and Modena."
+        },
+        {
+          "term": "Tuile",
+          "definition": "French for tile. A thin, curved crisp wafer, here baked from parmesan alone."
+        },
+        {
+          "term": "Truffle Cream",
+          "definition": "Cream sauce flavoured with truffle. Truffles are underground fungi, cousins of the mushrooms on the rest of the menu."
+        }
+      ],
+      "sourcing": [],
+      "chef_notes": "Cannot be made gluten or dairy free. For a strict vegetarian, raise the parmesan rennet question rather than clearing the course outright.",
+      "pairing": {
+        "wine_id": "1035",
+        "name": "Vigna San Carlo, Pinot Nero",
+        "producer": "Saracco",
+        "grapes": "Pinot Noir",
+        "region": "Piedmont, Italy",
+        "vintage": "2019",
+        "bin": "1035",
+        "file": "reds",
+        "in_list": true,
+        "note": "Light bodied Pinot Noir with red fruit and an earthy, forest floor side that runs straight into the wild mushrooms. Low tannin means the truffle cream doesn't turn it bitter, and its acidity cuts through the cream and parmesan. Saracco is best known for Moscato d'Asti, which makes this single vineyard Pinot Nero an unusual bottle from them."
+      }
     },
-    "peanuts": {
-     "status": "safe",
-     "note": "No peanuts."
+    {
+      "id": "t4",
+      "course": 4,
+      "section": "grilled",
+      "name": "Lion's Mane Mushroom Steak",
+      "description": "Mushroom ketchup, grilled portabella, trumpet mushroom, blue Stilton",
+      "tableside": "Lion's mane cut thick and grilled like a steak, with grilled portabella, king trumpet, a house mushroom ketchup and blue Stilton. The main course, and meaty enough to stand in for one.",
+      "ingredients": [
+        "Lion's mane mushroom",
+        "Mushroom ketchup",
+        "Grilled portabella",
+        "King trumpet mushroom",
+        "Blue Stilton"
+      ],
+      "allergens": {
+        "shellfish": {
+          "status": "safe",
+          "note": "No shellfish expected."
+        },
+        "dairy": {
+          "status": "contains",
+          "note": "Blue Stilton. Ask whether it can be left off."
+        },
+        "nuts": {
+          "status": "safe",
+          "note": "No tree nuts expected."
+        },
+        "peanuts": {
+          "status": "safe",
+          "note": "No peanuts."
+        },
+        "gluten": {
+          "status": "check",
+          "note": "Mushroom ketchup recipes often include Worcestershire or soy sauce, which can carry wheat. Confirm."
+        },
+        "eggs": {
+          "status": "safe",
+          "note": "No eggs expected."
+        },
+        "soy": {
+          "status": "check",
+          "note": "Confirm the mushroom ketchup."
+        },
+        "vegetarian": {
+          "status": "check",
+          "note": "Traditional English mushroom ketchup sometimes includes anchovy. Confirm the house version, and Stilton rennet for a strict vegetarian."
+        },
+        "vegan": {
+          "status": "no",
+          "note": "Stilton."
+        }
+      },
+      "key_terms": [
+        {
+          "term": "Lion's Mane",
+          "definition": "Hericium erinaceus, a white mushroom that grows in shaggy cascading spines. Seared, it has a texture people compare to crab or lobster."
+        },
+        {
+          "term": "Mushroom Ketchup",
+          "definition": "An eighteenth century English condiment of salted mushrooms cooked down with spices. Ketchup originally meant a savoury sauce, and tomato came later."
+        },
+        {
+          "term": "Stilton",
+          "definition": "An English blue cheese with protected status. It can only be made in Derbyshire, Leicestershire and Nottinghamshire, which rules out the village of Stilton itself."
+        }
+      ],
+      "sourcing": [],
+      "chef_notes": "The vegetarian main of the menu in effect, but confirm the mushroom ketchup before calling it vegetarian.",
+      "pairing": {
+        "wine_id": "3003",
+        "name": "Merlot/Cab Franc/Cab Sauv/Malbec, St-Émilion",
+        "producer": "Château Haut-Rocher",
+        "grapes": "Merlot, Cabernet Franc, Cabernet Sauvignon, Malbec",
+        "region": "Bordeaux, France",
+        "vintage": "2019",
+        "bin": "3003",
+        "file": "reds",
+        "in_list": true,
+        "note": "Merlot-led Right Bank Bordeaux with soft tannin, plum fruit and an earthy side that suits a meaty mushroom course. The char from the grill wants a red with some structure, and the Stilton's salt and blue funk soften the tannin. Six years of age have turned the fruit toward savoury, which suits the mushroom ketchup."
+      }
     },
-    "gluten": {
-     "status": "contains",
-     "note": "Tart shell is wheat based."
-    },
-    "eggs": {
-     "status": "check",
-     "note": "Confirm the tart pastry."
-    },
-    "soy": {
-     "status": "safe",
-     "note": "No soy expected."
-    },
-    "vegetarian": {
-     "status": "yes",
-     "note": "No meat or fish. Confirm rennet if the guest is strict."
-    },
-    "vegan": {
-     "status": "no",
-     "note": "Contains goat cheese."
+    {
+      "id": "t5",
+      "course": 5,
+      "section": "baked",
+      "name": "Porcini Chocolate Truffle",
+      "description": "Porcini chocolate ganache, cocoa nib, porcini vanilla creme, toasted cashew",
+      "tableside": "Dessert keeps the theme: a chocolate truffle with porcini in the ganache, cocoa nib, a porcini and vanilla crème and toasted cashews. Dried porcini taste nutty and savoury, which works with dark chocolate the way salt does.",
+      "ingredients": [
+        "Porcini chocolate ganache",
+        "Cocoa nib",
+        "Porcini vanilla crème",
+        "Toasted cashew"
+      ],
+      "allergens": {
+        "shellfish": {
+          "status": "safe",
+          "note": "No shellfish."
+        },
+        "dairy": {
+          "status": "contains",
+          "note": "Ganache and crème are cream based."
+        },
+        "nuts": {
+          "status": "contains",
+          "note": "Toasted cashews are on the plate. Ask whether they can be left off."
+        },
+        "peanuts": {
+          "status": "safe",
+          "note": "No peanuts expected."
+        },
+        "gluten": {
+          "status": "check",
+          "note": "Confirm whether there is any biscuit or flour component."
+        },
+        "eggs": {
+          "status": "check",
+          "note": "Confirm whether the crème uses egg yolk."
+        },
+        "soy": {
+          "status": "check",
+          "note": "Chocolate often contains soy lecithin. Confirm."
+        },
+        "vegetarian": {
+          "status": "yes",
+          "note": "No meat or gelatin expected."
+        },
+        "vegan": {
+          "status": "no",
+          "note": "Dairy."
+        }
+      },
+      "key_terms": [
+        {
+          "term": "Porcini",
+          "definition": "Boletus edulis, the king bolete. Dried porcini have an intense nutty, savoury aroma."
+        },
+        {
+          "term": "Ganache",
+          "definition": "Chocolate melted into warm cream, the base of a truffle."
+        },
+        {
+          "term": "Cocoa Nib",
+          "definition": "Roasted, crushed cacao bean before it is ground into chocolate. Crunchy and bitter with no added sugar."
+        }
+      ],
+      "sourcing": [],
+      "chef_notes": "Cashew is a tree nut and is on the plate. Confirm whether it can be held before offering the course to a nut allergic guest.",
+      "pairing": {
+        "wine_id": null,
+        "name": "10 Year Old Tawny Port",
+        "producer": "Dow's",
+        "grapes": "Touriga Nacional, Touriga Franca and other Douro varieties",
+        "region": "Douro, Portugal",
+        "vintage": "NV",
+        "bin": "",
+        "file": "afters",
+        "in_list": false,
+        "note": "Ten year tawny, aged in small oak casks until the fruit turns to hazelnut, fig and dried cherry. Dow's makes a drier style of port than most houses, which keeps a chocolate dessert from tipping into too much sugar. The nutty character matches the toasted cashew and the savoury porcini, and the dried fruit sits with the cocoa nib. Our regular afters list carries Graham's tawnies instead, so this is a tasting menu pour."
+      }
     }
-   },
-   "key_terms": [
-    {
-     "term": "Purple Haze",
-     "definition": "A fresh goat cheese from Cypress Grove in Humboldt County, California, blended with culinary lavender buds and hand-harvested fennel pollen. Named as a nod to the 1967 Jimi Hendrix song. Soft, floral and bright rather than sharp."
-    },
-    {
-     "term": "Chutney",
-     "definition": "A category of piquant condiments from the Indian subcontinent. The word comes from the Hindi chaatna, meaning to lick. Western versions are usually sweet and sour fruit preserves, but authentic South Asian chutneys span fresh herbs, roasted lentils, raw vegetables and nuts."
-    }
-   ],
-   "sourcing": [
-    {
-     "name": "Cypress Grove",
-     "description": "A Humboldt County, California creamery, and the same producer whose Purple Haze appears on the Wagyu flat iron on the dinner menu."
-    }
-   ],
-   "chef_notes": "One bite. Introduce the stone fruit theme as this lands so the table understands the arc of the menu. Same cheese as the Wagyu flat iron, which is a nice detail if the guest has had it.",
-   "pairing": null
-  },
-  {
-   "id": "t2",
-   "course": 2,
-   "section": "baked",
-   "name": "Phoenix Suns Mottled Plumcot Flat Bread",
-   "description": "Basil pesto, stracciatella, prosciutto, hot honey",
-   "tableside": "Phoenix Suns Mottled is a named plumcot variety, and a plumcot is a plum and apricot cross. The fruit goes on a flatbread with basil pesto, stracciatella and prosciutto, finished with hot honey. Savoury, sweet and salty all at once.",
-   "ingredients": [
-    "Flatbread",
-    "Phoenix Suns Mottled plumcot",
-    "Basil pesto",
-    "Stracciatella",
-    "Prosciutto",
-    "Hot honey"
-   ],
-   "allergens": {
-    "shellfish": {
-     "status": "safe",
-     "note": "No shellfish."
-    },
-    "dairy": {
-     "status": "contains",
-     "note": "Stracciatella. Confirm whether the pesto also contains cheese."
-    },
-    "nuts": {
-     "status": "check",
-     "note": "Pesto commonly contains pine nuts. Confirm this version."
-    },
-    "peanuts": {
-     "status": "safe",
-     "note": "No peanuts."
-    },
-    "gluten": {
-     "status": "contains",
-     "note": "Flatbread is wheat based."
-    },
-    "eggs": {
-     "status": "safe",
-     "note": "No eggs expected."
-    },
-    "soy": {
-     "status": "safe",
-     "note": "No soy expected."
-    },
-    "vegetarian": {
-     "status": "modifiable",
-     "note": "Prosciutto can be left off. Confirm the pesto and stracciatella rennet."
-    },
-    "vegan": {
-     "status": "no",
-     "note": "Contains dairy, honey and cured pork."
-    }
-   },
-   "key_terms": [
-    {
-     "term": "Plumcot",
-     "definition": "A first generation hybrid stone fruit, an even cross between a plum and an apricot. Luther Burbank bred the first of them in the late nineteenth century. Entirely natural and non-GMO, created by hand cross-pollination rather than in a lab."
-    },
-    {
-     "term": "Stracciatella",
-     "definition": "The soft shredded interior of burrata, made of fresh mozzarella curd torn into strands and folded through cream. Richer and looser than mozzarella, and it should be served at room temperature to taste of anything."
-    },
-    {
-     "term": "Hot Honey",
-     "definition": "Honey infused with chili. The sweetness carries the heat further across the palate than a dry spice would, and it is what ties the fruit to the prosciutto here."
-    }
-   ],
-   "sourcing": [
-    {
-     "name": "Phoenix Suns Mottled Plumcot",
-     "description": "A named plumcot variety. Stone fruit varieties are bred for specific flavour and texture, and naming the variety rather than just saying plumcot is worth doing at the table."
-    }
-   ],
-   "chef_notes": "Confirm whether the basil pesto contains pine nuts, since that is the likeliest hidden allergen in this course. Prosciutto can come off for a vegetarian but the pesto and stracciatella still need checking.",
-   "pairing": {
-    "wine_id": "BTG-001",
-    "name": "Blanc de Blancs, Burgenland NV",
-    "producer": "Szigeti",
-    "grapes": "Chardonnay",
-    "region": "Burgenland, Austria",
-    "vintage": "2019",
-    "bin": "BTG-001",
-    "file": "sparkling",
-    "in_list": true,
-    "note": "Austrian traditional method sparkling from 100 percent Chardonnay, made by a house that does nothing but Sekt. Green apple and citrus with a fine, persistent bead and a bone dry finish. The bubbles and acidity scrub the stracciatella off the palate between bites, which a still white would not manage against that much fat. The hot honey needs a wine with no residual sugar of its own or the course tips sweet, and the prosciutto salt pulls the wine's fruit forward. This is also our least expensive by the glass sparkling, so a guest who likes it can carry on with it after the course."
-   }
-  },
-  {
-   "id": "t3",
-   "course": 3,
-   "section": "poached",
-   "name": "Shrimp Cocktail",
-   "description": "U12 shrimp, pickled peaches, habanero-peach cocktail, lollipop kale sprouts, crispy shallot",
-   "tableside": "A shrimp cocktail rebuilt around peach. U12 shrimp are the large grade, poached, with pickled peaches and a habanero peach cocktail sauce in place of the usual horseradish. The habanero brings real heat, so mention it.",
-   "ingredients": [
-    "U12 shrimp",
-    "Pickled peaches",
-    "Habanero peach cocktail sauce",
-    "Lollipop kale sprouts",
-    "Crispy shallot"
-   ],
-   "allergens": {
-    "shellfish": {
-     "status": "contains",
-     "note": "Shrimp is the dish. Cannot be modified."
-    },
-    "dairy": {
-     "status": "safe",
-     "note": "No dairy expected."
-    },
-    "nuts": {
-     "status": "safe",
-     "note": "No tree nuts."
-    },
-    "peanuts": {
-     "status": "safe",
-     "note": "No peanuts."
-    },
-    "gluten": {
-     "status": "check",
-     "note": "Crispy shallots are often dusted in flour. Confirm with the kitchen."
-    },
-    "eggs": {
-     "status": "safe",
-     "note": "No eggs expected."
-    },
-    "soy": {
-     "status": "check",
-     "note": "Confirm the frying oil for the shallots."
-    },
-    "vegetarian": {
-     "status": "no",
-     "note": "Contains shrimp."
-    },
-    "vegan": {
-     "status": "no",
-     "note": "Contains shrimp."
-    }
-   },
-   "key_terms": [
-    {
-     "term": "U12",
-     "definition": "Under twelve shrimp per pound. The U grade means the count is under that number, so a lower number is a larger shrimp. U12 is a substantial shrimp, and it poaches better than a smaller grade because the exterior does not overcook before the centre is done."
-    },
-    {
-     "term": "Habanero",
-     "definition": "One of the hotter chilies in common kitchen use, with a distinctly fruity, almost apricot-like aroma underneath the heat. That fruitiness is why it works against peach rather than fighting it."
-    },
-    {
-     "term": "Lollipop Kale Sprouts",
-     "definition": "Trademarked as Lollipops and broadly known as Kalettes, a cross between Red Russian kale and Brussels sprouts. Small open rosettes with frilly leaves, milder and sweeter than either parent."
-    }
-   ],
-   "sourcing": [
-    {
-     "name": "U12 Shrimp",
-     "description": "Under twelve shrimp per pound, the large grade. A lower number means a bigger shrimp. The size matters for poaching, because a larger shrimp holds its texture while the centre comes up to temperature, where a smaller grade would go rubbery first."
-    },
-    {
-     "name": "Lollipop Kale Sprouts",
-     "description": "Trademarked as Lollipops and broadly known as Kalettes, a hybrid created by crossbreeding Red Russian kale with Brussels sprouts. Small open rosettes with frilly silver-green leaves and crimson-purple veins, milder and sweeter than either parent."
-    }
-   ],
-   "chef_notes": "The habanero is genuinely hot and guests do not expect heat in a shrimp cocktail, so flag it. Shellfish cannot be worked around, which makes this the course that decides whether the menu is possible for a given guest.",
-   "pairing": {
-    "wine_id": "421",
-    "name": "Chardonnay, Sta. Lucia Highlands",
-    "producer": "Luli",
-    "grapes": "Chardonnay",
-    "region": "Monterey, California",
-    "vintage": "2024",
-    "bin": "421",
-    "file": "whites",
-    "in_list": true,
-    "note": "Santa Lucia Highlands sits in a wind tunnel that runs off Monterey Bay, so the fruit ripens slowly and the acidity survives. Restrained rather than buttery, with lemon curd, white peach and a saline edge. The weight matches poached U12 shrimp without flattening them, and the acidity resets the palate against the habanero, which builds over the course rather than hitting at once. Pickled peaches pick up the wine's own stone fruit. A rounder, oakier Chardonnay would smother the shrimp and amplify the chili heat instead of cooling it."
-   }
-  },
-  {
-   "id": "t4",
-   "course": 4,
-   "section": "braised",
-   "name": "Cherry Braised Short Ribs",
-   "description": "Chestnut spaetzle, glazed carrots, cherry demi",
-   "tableside": "Short ribs braised with cherries, served over chestnut spaetzle with glazed carrots and a cherry demi. The chestnut in the spaetzle is worth flagging for nut allergies, since chestnuts are treated as tree nuts.",
-   "ingredients": [
-    "Beef short rib",
-    "Cherries",
-    "Chestnut spaetzle",
-    "Glazed carrots",
-    "Cherry demi-glace"
-   ],
-   "allergens": {
-    "shellfish": {
-     "status": "safe",
-     "note": "No shellfish."
-    },
-    "dairy": {
-     "status": "check",
-     "note": "Spaetzle and glazed carrots are commonly finished with butter. Confirm."
-    },
-    "nuts": {
-     "status": "contains",
-     "note": "Chestnut in the spaetzle. Chestnuts are treated as tree nuts for allergy purposes."
-    },
-    "peanuts": {
-     "status": "safe",
-     "note": "No peanuts."
-    },
-    "gluten": {
-     "status": "contains",
-     "note": "Spaetzle is a wheat flour dough."
-    },
-    "eggs": {
-     "status": "contains",
-     "note": "Egg is structural in spaetzle dough."
-    },
-    "soy": {
-     "status": "check",
-     "note": "Confirm the demi-glace."
-    },
-    "vegetarian": {
-     "status": "no",
-     "note": "Contains beef."
-    },
-    "vegan": {
-     "status": "no",
-     "note": "Contains beef, egg and wheat."
-    }
-   },
-   "key_terms": [
-    {
-     "term": "Spaetzle",
-     "definition": "A soft egg noodle from southern Germany and Austria, scraped or pressed into boiling water so the shape is irregular by nature. Egg and flour are both structural, so it cannot be made gluten free or egg free."
-    },
-    {
-     "term": "Chestnut",
-     "definition": "Treated as a tree nut for allergy purposes even though it behaves more like a starch in the kitchen. Milder and sweeter than most nuts, with a soft, floury texture rather than a crunch."
-    },
-    {
-     "term": "Demi-Glace",
-     "definition": "A classical French sauce built by reducing veal or beef stock with wine until it is glossy and coats a spoon. Long, slow and labour intensive, and the reason the sauce has the body it does."
-    }
-   ],
-   "sourcing": [
-    {
-     "name": "Chestnut Spaetzle",
-     "description": "Spaetzle is a soft egg noodle from southern Germany and Austria, scraped or pressed into boiling water so no two pieces match. Chestnut flour gives it a sweeter, softer character than plain wheat. Chestnuts are treated as tree nuts for allergy purposes, which is the thing to flag on this course."
-    },
-    {
-     "name": "Cherry Demi",
-     "description": "A demi-glace is built by reducing beef or veal stock with wine over hours until it is glossy enough to coat a spoon. Cherry carries the stone fruit theme into the savoury course and its acidity cuts the fat off the short rib."
-    }
-   ],
-   "chef_notes": "Chestnut in the spaetzle is the allergen most likely to be missed, since nothing about the dish name suggests nuts. Gluten and egg are both structural in the spaetzle and neither can be removed.",
-   "pairing": {
-    "wine_id": null,
-    "name": "Shiraz, Nitschke Block, Barossa Valley",
-    "producer": "Schwartz",
-    "grapes": "Shiraz",
-    "region": "Barossa Valley, Australia",
-    "vintage": "2020",
-    "bin": "",
-    "file": "reds",
-    "in_list": false,
-    "note": "Old vine Barossa Shiraz from a single block, dense and dark with blackberry, licorice and a savoury undertow that keeps it from reading as jammy. The concentration is what a braise needs: a lighter red would disappear under the cherry demi. The wine's dark fruit runs alongside the cherry rather than competing with it, and its tannin cuts the fat that comes off a short rib. Not on our regular list. This bottle is poured for the tasting menu only, so a guest who wants more of it cannot order it by the bottle."
-   }
-  },
-  {
-   "id": "t5",
-   "course": 5,
-   "section": "baked",
-   "name": "Plum Galette",
-   "description": "Candied orange walnuts, apricot kernel ice cream, Goldberry Hill honey, cherry compote",
-   "tableside": "A free-form plum tart with candied orange walnuts, apricot kernel ice cream, Goldberry Hill honey and cherry compote. Walnuts are on the plate, and the ice cream is made from apricot kernels, which taste of almond. Both are worth naming for a nut allergy table.",
-   "ingredients": [
-    "Plum galette",
-    "Candied orange walnuts",
-    "Apricot kernel ice cream",
-    "Goldberry Hill honey",
-    "Cherry compote"
-   ],
-   "allergens": {
-    "shellfish": {
-     "status": "safe",
-     "note": "No shellfish."
-    },
-    "dairy": {
-     "status": "contains",
-     "note": "Ice cream and pastry."
-    },
-    "nuts": {
-     "status": "contains",
-     "note": "Candied walnuts. The apricot kernel ice cream is a stone fruit seed rather than a tree nut, but it tastes of almond and some nut allergic guests react."
-    },
-    "peanuts": {
-     "status": "safe",
-     "note": "No peanuts."
-    },
-    "gluten": {
-     "status": "contains",
-     "note": "Galette pastry is wheat based."
-    },
-    "eggs": {
-     "status": "check",
-     "note": "Confirm the pastry and the ice cream base."
-    },
-    "soy": {
-     "status": "safe",
-     "note": "No soy expected."
-    },
-    "vegetarian": {
-     "status": "yes",
-     "note": "No meat or gelatin expected."
-    },
-    "vegan": {
-     "status": "no",
-     "note": "Contains dairy and honey."
-    }
-   },
-   "key_terms": [
-    {
-     "term": "Galette",
-     "definition": "A free-form tart baked flat on a sheet rather than in a tin, with the pastry folded roughly over the edge of the filling. Rustic by design, and the shape is the point."
-    },
-    {
-     "term": "Apricot Kernel",
-     "definition": "The seed inside the apricot pit. It tastes intensely of almond and marzipan because it shares the same aromatic compound, and it is the basis of amaretto and much Italian pastry. Not a tree nut, but worth naming to a nut allergic guest anyway."
-    },
-    {
-     "term": "Goldberry Hill",
-     "definition": "A small family apiary on Clifton Road in Clifton, Virginia, harvesting honey from wildflowers within a three mile radius of the property. The same honey appears on the roasted zucchiolo on the dinner menu."
-    }
-   ],
-   "sourcing": [
-    {
-     "name": "Goldberry Hill Farm",
-     "description": "Clifton, Virginia. A hyper-local apiary operating for over five years, roughly ten minutes from the restaurant."
-    }
-   ],
-   "chef_notes": "Two nut considerations in one course: walnuts are on the plate and can presumably be left off, while the apricot kernel is in the ice cream and is structural. Give a nut allergic guest both facts and let them decide.",
-   "pairing": {
-    "wine_id": "151",
-    "name": "Bianco Vermouth of Vespaiola NV",
-    "producer": "Poli",
-    "grapes": "Vespaiola",
-    "region": "Bassano, Veneto, Italy",
-    "vintage": "NV",
-    "bin": "151",
-    "file": "afters",
-    "in_list": true,
-    "note": "An aromatic white vermouth built on Vespaiola, a Veneto grape most often used for sweet Torcolato. Botanicals sit over honeyed fruit, and the bitterness on the finish is what makes this work where a dessert wine would not. The galette, the honey and the cherry compote are already carrying plenty of sugar, so the pairing lifts the fruit rather than adding to it. The vermouth's own almond and herb notes track the apricot kernel ice cream directly. Also on our afters list, so it is an easy suggestion for a guest who wants a second glass."
-   }
-  }
- ]
+  ]
 }

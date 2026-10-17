@@ -13217,7 +13217,7 @@
       "Dried herbs",
       "Cocoa"
     ],
-    "tableside": "The 2021 of the same Hillside blend that pours in the Austrian Wine Flight, so a guest can try the flight and then order the bottle. Syrah leads with Zweigelt for acidity and Merlot for flesh. Medium bodied and peppery rather than heavy.",
+    "tableside": "Hillinger's international blend: Syrah leads, with Zweigelt for acidity and Merlot for flesh. Medium bodied and peppery rather than heavy.",
     "pairings": [
       "Lamb",
       "Duck",
@@ -13228,7 +13228,7 @@
     "trivia": [
       "Leithaberg DAC covers both red and white wines and requires them to reflect the limestone and schist soils of the Leitha mountains.",
       "Syrah is a relative newcomer in Austria and only ripens reliably in the warmest Burgenland sites.",
-      "The 2022 of this same wine is the one poured in the Austrian Wine Flight, so guests can compare vintages across formats."
+      "Zweigelt was bred in 1922 by Fritz Zweigelt, crossing Blaufränkisch with St. Laurent."
     ],
     "file": "reds"
   },
@@ -13999,47 +13999,6 @@
     "bottle_price": 64
   },
   {
-    "id": "BTG-010",
-    "cat": "Cabernet",
-    "type": "Red",
-    "producer": "Black Stallion Winery",
-    "name": "Cabernet Sauvignon, North Coast, CA",
-    "region": "North Coast, California",
-    "vintage": "2025",
-    "abv": 14.5,
-    "price": 18,
-    "cert": "",
-    "btg": true,
-    "icons": [
-      "💪",
-      "🍒",
-      "🍑",
-      "🪵"
-    ],
-    "notes": [
-      "Blackcurrant",
-      "Dark plum",
-      "Vanilla",
-      "Mocha",
-      "Smooth tannins"
-    ],
-    "tableside": "Black Stallion's North Coast Cabernet is the house pour — rich, approachable California Cab with the dark fruit and vanilla that guests expect from the style. The estate's Sam Jasper Napa Valley bottling on the bottle list is the prestige tier if they want to step up.",
-    "pairings": [
-      "Ribeye",
-      "Lamb",
-      "Hard aged cheese",
-      "Grilled meats"
-    ],
-    "story": "Black Stallion Winery occupies a former equestrian facility in Oakville, Napa Valley. Their portfolio spans from the North Coast Cabernet — the accessible BTG tier — to the single-vineyard Sam Jasper Napa Valley Cabernet on the bottle list. The North Coast designation allows fruit sourcing from across a broad region including Napa, Sonoma, Lake, and Mendocino counties.",
-    "trivia": [
-      "The North Coast AVA is one of California's broadest appellations, covering six counties north of San Francisco Bay — Napa, Sonoma, Mendocino, Lake, Marin, and Solano. It allows producers to blend across a wide area while still indicating a California origin.",
-      "Black Stallion's two Cabernets on the list — this North Coast BTG pour and the Sam Jasper Napa Valley on the bottle list — illustrate how dramatically appellation specificity affects both character and price in California wine.",
-      "The winery building was originally constructed as an equestrian center before being converted to wine production — the stable aesthetic and horse imagery throughout the brand references that history."
-    ],
-    "file": "reds",
-    "bottle_price": 72
-  },
-  {
     "id": "BTG-013",
     "cat": "Other Whites",
     "type": "White",
@@ -14081,46 +14040,6 @@
     "bottle_price": 60
   },
   {
-    "id": "BTG-014",
-    "cat": "Rosé",
-    "type": "rosé",
-    "producer": "Tement",
-    "name": "Zweigelt Rosé, Südsteiermark",
-    "region": "Südsteiermark, Austria",
-    "vintage": "2024",
-    "abv": 12.0,
-    "price": 19,
-    "cert": "",
-    "btg": true,
-    "icons": [
-      "☁️",
-      "🌸",
-      "🍋"
-    ],
-    "notes": [
-      "Wild strawberry",
-      "Red cherry",
-      "Rose petal",
-      "Citrus",
-      "Redcurrant"
-    ],
-    "tableside": "Austrian rosé from Zweigelt, the country's most planted red grape. Dry, pale, and built on acidity rather than sweetness. This is also one of the three pours in the Austrian Wine Flight, so it is an easy upsell into that.",
-    "pairings": [
-      "Aperitif",
-      "Charcuterie",
-      "Grilled fish",
-      "Summer salads"
-    ],
-    "story": "Tement is one of Austria's most respected white wine estates, based in Ehrenhausen in Südsteiermark, where its Ried Zieregg vineyard sits on coralline limestone right against the Slovenian border. The family farms both sides of that hill, the Slovenian half under the Domaine Ciringa name. The estate has been Demeter certified biodynamic since 2022.",
-    "trivia": [
-      "Zweigelt was bred in 1922 by Fritz Zweigelt, crossing Blaufränkisch with St. Laurent. It is now Austria's most widely planted red variety.",
-      "Tement's Ried Zieregg vineyard sits directly on the Slovenian border, and the estate farms land on both sides of it.",
-      "Pale rosé colour is a choice, not an accident. It comes from limiting how long the juice sits on the skins after pressing."
-    ],
-    "file": "sparkling",
-    "bottle_price": 76
-  },
-  {
     "id": "BTG-015",
     "cat": "Austrian Reds",
     "type": "Red",
@@ -14160,6 +14079,168 @@
     ],
     "file": "reds",
     "bottle_price": 68
+  },
+  {
+    "id": "BTG-016",
+    "cat": "Rosé",
+    "type": "rosé",
+    "producer": "Mittelbach",
+    "name": "Rosé of Zweigelt, Kremstal",
+    "region": "Kremstal, Austria",
+    "vintage": "2024",
+    "abv": 12.0,
+    "price": 14,
+    "cert": "",
+    "btg": true,
+    "icons": [
+      "☁️",
+      "🌸",
+      "🍋"
+    ],
+    "notes": [
+      "Wild strawberry",
+      "Red currant",
+      "Rose petal",
+      "Citrus",
+      "White pepper"
+    ],
+    "tableside": "Our rosé by the glass, and the middle pour of the Austrian Wine Flight. Pale, dry Zweigelt rosé made by pressing the grapes straight, with wild strawberry and citrus. The same wine is on the bottle list as bin 377.",
+    "pairings": [
+      "Charcuterie",
+      "Grilled fish",
+      "Summer salads",
+      "Soft cheeses"
+    ],
+    "story": "Mittelbach farms in the Wachau and Kremstal area of Niederösterreich, working mainly with Grüner Veltliner and Riesling. The Zweigelt rosé is a summer bottling made by direct press rather than by bleeding off a red fermentation.",
+    "trivia": [
+      "Direct press rosé means the grapes are pressed immediately like a white wine, which gives paler colour than the saignée method.",
+      "Zweigelt is Austria's most planted red variety and produces rosé with more red fruit than Provençal Grenache blends.",
+      "Niederösterreich is Austria's largest wine region by area and contains the Wachau, Kamptal, Kremstal, and Weinviertel."
+    ],
+    "file": "sparkling",
+    "bottle_price": 45
+  },
+  {
+    "id": "BTG-017",
+    "cat": "Virginia Whites",
+    "type": "white",
+    "producer": "Château O'Brien",
+    "name": "Viognier, Markham",
+    "region": "Virginia",
+    "vintage": "",
+    "abv": "",
+    "price": 13,
+    "cert": "",
+    "btg": true,
+    "icons": [
+      "⚖️",
+      "🍑",
+      "🌸"
+    ],
+    "notes": [
+      "Apricot",
+      "Peach",
+      "Honeysuckle",
+      "Orange blossom"
+    ],
+    "tableside": "Viognier is Virginia's official signature grape, and this one comes from Château O'Brien in Markham, about an hour west of us. Apricot, peach and honeysuckle with a soft, round texture. Our least expensive white by the glass.",
+    "pairings": [
+      "Butternut squash soup",
+      "Roast chicken",
+      "Spiced dishes",
+      "Soft cheeses"
+    ],
+    "story": "Howard O'Brien Jr. bought the Northpoint property in Markham in 2003, on steep, rocky slopes in the Blue Ridge foothills of Fauquier County, and the winery began producing wine in 2005. The estate is best known for Tannat, and the bottle list carries its Petit Manseng, Tannat Reserve and Mourvèdre.",
+    "trivia": [
+      "The Virginia Wine Board named Viognier the state's signature grape in 2011.",
+      "Viognier comes from the northern Rhône, where Condrieu is made entirely from it. By the 1960s only a few hectares were left there before a revival in the 1980s.",
+      "Viognier ripens to high sugar with naturally low acidity, which is why it reads round and perfumed rather than crisp."
+    ],
+    "file": "whites",
+    "bottle_price": 52,
+    "_verify": "Confirm vintage and ABV from the bottle."
+  },
+  {
+    "id": "BTG-018",
+    "cat": "Italian Reds",
+    "type": "red",
+    "producer": "Cantina dei Vini Tipici dell'Aretino",
+    "name": "Super Tuscan, Toscana IGT",
+    "region": "Tuscany, Italy",
+    "vintage": "",
+    "abv": "",
+    "price": 15,
+    "cert": "",
+    "btg": true,
+    "icons": [
+      "⚖️",
+      "🍒",
+      "🌿",
+      "🪵"
+    ],
+    "notes": [
+      "Dark cherry",
+      "Plum",
+      "Dried herbs",
+      "Oak spice"
+    ],
+    "tableside": "A Super Tuscan from a growers' cooperative outside Arezzo. Sangiovese-style red cherry and herbs with a little oak spice. A good by the glass match for the pork cavatelli.",
+    "pairings": [
+      "Braised pork",
+      "Pasta with red sauce",
+      "Grilled meats",
+      "Hard cheeses"
+    ],
+    "story": "Cantina dei Vini Tipici dell'Aretino is an agricultural cooperative at Ponte a Chiani, just outside Arezzo in eastern Tuscany. It was founded in 1971 and today gathers fruit from more than 350 member growers across roughly 800 hectares, bottling Chianti, Valdichiana and Toscana IGT wines.",
+    "trivia": [
+      "Super Tuscan is an informal name for Tuscan reds made outside the old DOC rules, often with Cabernet or Merlot alongside Sangiovese.",
+      "The Toscana IGT category, created in 1992, gave those wines an official home.",
+      "Antinori's Tignanello on our bottle list, first made in 1971, is one of the original Super Tuscans."
+    ],
+    "file": "reds",
+    "bottle_price": 60,
+    "_verify": "Confirm the exact label, blend, vintage and ABV. Tasting notes are typical of a Sangiovese-based Toscana IGT until checked."
+  },
+  {
+    "id": "BTG-019",
+    "cat": "Cabernet",
+    "type": "red",
+    "producer": "Two Mountain Winery",
+    "name": "Cabernet Sauvignon, Yakima Valley",
+    "region": "Yakima Valley, Washington",
+    "vintage": "",
+    "abv": "",
+    "price": 16,
+    "cert": "",
+    "btg": true,
+    "icons": [
+      "💪",
+      "🍑",
+      "🪵",
+      "☕"
+    ],
+    "notes": [
+      "Blackberry",
+      "Black cherry",
+      "Cocoa",
+      "Cedar"
+    ],
+    "tableside": "Our Cabernet by the glass, from a family estate in Washington's Yakima Valley. Dark fruit and cocoa with firm tannin, a little leaner than a Napa Cab. The pour for the rotisserie lamb, ribeye and prime rib.",
+    "pairings": [
+      "Prime rib",
+      "Ribeye",
+      "Lamb",
+      "Aged cheddar"
+    ],
+    "story": "Two Mountain Winery was established in 2002 in Zillah, in the Rattlesnake Hills of the Yakima Valley. Brothers Matthew and Patrick Rawn run it, Matthew making the wine and Patrick farming the estate Copeland Vineyard, and their family has farmed the valley for four generations.",
+    "trivia": [
+      "Yakima Valley became Washington's first AVA in 1983.",
+      "Rattlesnake Hills, where Two Mountain sits, was recognised as its own AVA within the Yakima Valley in 2006.",
+      "Washington's red wine country lies east of the Cascades in a rain shadow, so vineyards there depend on irrigation."
+    ],
+    "file": "reds",
+    "bottle_price": 64,
+    "_verify": "Confirm vintage and ABV from the bottle."
   },
   {
     "id": "2717",

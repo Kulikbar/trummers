@@ -4809,222 +4809,6 @@
     "file": "beer"
   },
   {
-    "id": "218",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "Aslin",
-    "name": "Daddy Juice",
-    "detail": "Herndon, VA · 6% · Sour with Blueberry, Mango, Vanilla & Milk Sugar",
-    "abv": 6,
-    "price": 7,
-    "allocated": false,
-    "icons": [
-      "🍋"
-    ],
-    "notes": [
-      "Blueberry",
-      "Mango",
-      "Vanilla",
-      "Tart",
-      "Creamy"
-    ],
-    "tableside": "A fruited sour conditioned on blueberry and mango, with vanilla and milk sugar for body. Tart up front, creamy underneath, closer to a smoothie than a classic sour. Contains lactose, so it is not dairy free. Good for a guest who says they don't like beer.",
-    "pairings": [
-      "Spicy dishes",
-      "Grilled fish",
-      "Fruit desserts",
-      "Fresh cheeses"
-    ],
-    "story": "Aslin started in 2015 as a small Herndon operation run by Andrew Kelley, Kai Leszkowicz and Richard Thompson, selling cans out of the production facility with no tasting room. Word of mouth did the rest, and the brewery now runs taprooms in Herndon, Alexandria, DC, Pittsburgh and Virginia Beach, with Alexandria as the main production site. Fruited sours are one of the two things they are best known for, alongside hazy IPAs.",
-    "trivia": [
-      "Daddy Juice is named for what co-founder Kai Leszkowicz's son called his father's beer.",
-      "The milk sugar is lactose, which brewer's yeast cannot ferment. It stays in the finished beer as unfermented sweetness and body, which is what gives the style its creamy texture.",
-      "Aslin built its early following without a taproom at all. The Herndon tasting room was closed for a stretch and the brewery sold cans directly from the production facility, with lines forming outside for limited releases."
-    ],
-    "file": "beer"
-  },
-  {
-    "id": "134",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "Westmalle",
-    "name": "Trappist Tripel",
-    "detail": "Malle, Belgium · 9.5% · Trappist Tripel",
-    "abv": 9.5,
-    "price": 12,
-    "allocated": false,
-    "icons": [
-      "⛪"
-    ],
-    "notes": [
-      "Fruity yeast",
-      "Spice",
-      "Golden malt",
-      "Floral",
-      "Warming alcohol"
-    ],
-    "tableside": "Westmalle Tripel is the original Trappist Tripel — this style was literally invented here. Brewed by monks inside a monastery, 9.5% but deceptively smooth. One of the most complex and rewarding beers in the world. Warn guests about the ABV.",
-    "pairings": [
-      "Aged gouda",
-      "Roasted chicken",
-      "Mild curries",
-      "Fruit desserts",
-      "Soft cheeses"
-    ],
-    "story": "The Abbey of Our Lady of the Sacred Heart in Malle, Belgium is one of only a handful of Trappist monasteries in the world that brew beer commercially , and Westmalle is among the most revered of all. The Tripel style was literally invented at Westmalle in 1934, when the monks developed a stronger, golden version of their existing ales to serve as a more substantial drink. The recipe has barely changed since. Today Westmalle Tripel is considered the benchmark Trappist Tripel against which all others are measured , complex, spicy, and dangerously smooth for its 9.5% ABV.",
-    "trivia": [
-      "To legally carry the 'Authentic Trappist Product' designation, a beer must be brewed within the walls of a Trappist monastery, under the supervision of monks, with profits going to the monastery or charitable causes — fewer than a dozen breweries worldwide qualify.",
-      "Westmalle first brewed this strong pale ale in 1934 to celebrate the opening of their new brewery hall — it was among the first golden strong ales of its kind, at a time when most Belgian abbey beers were dark. The recipe was refined and named Tripel in 1956 and has been essentially unchanged since.",
-      "The yeast strain used by Westmalle is proprietary and closely guarded — it produces the distinctive fruity and spicy ester profile that defines the Tripel style and has never been commercially released."
-    ],
-    "file": "beer"
-  },
-  {
-    "id": "135",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "De Ranke",
-    "name": "Noir de Dottignies",
-    "detail": "Dottignies, Belgium · 9% · Dark Strong Ale",
-    "abv": 9,
-    "price": 12,
-    "allocated": false,
-    "icons": [
-      "🌑"
-    ],
-    "notes": [
-      "Dark fruit",
-      "Roasted malt",
-      "Chocolate",
-      "Spice",
-      "Rich"
-    ],
-    "tableside": "De Ranke's dark expression — the same small Belgian brewery as the XX Bitter, but here going deep and rich. Dark fruit, chocolate, roasted malt, 9% ABV. For a guest who loves big red wines or bourbon, this is the bridge beer.",
-    "pairings": [
-      "Dark chocolate",
-      "Aged blue cheese",
-      "Braised meats",
-      "Smoked dishes",
-      "Walnut cake"
-    ],
-    "story": "Noir de Dottignies is De Ranke's dark strong ale , a completely different expression of the brewery's philosophy from the XX Bitter, but equally uncompromising. Where the XX Bitter uses aggressive hopping to achieve dryness and complexity, Noir de Dottignies achieves it through dark malt character: chocolate, roasted grain, and dried dark fruit at 9% ABV. It represents the full range of what De Ranke can do , from their lightest, hoppiest expressions to this deep, warming winter-style ale. Both are made in small quantities and both reward guests who take the time to explore them.",
-    "trivia": [
-      "Dottignies, the small Belgian town where De Ranke is located, is in the Hainaut province — a region with a long history of farmhouse and abbey brewing that predates the modern craft beer movement by centuries.",
-      "Dark strong ales like Noir de Dottignies are sometimes called 'Belgian quads' informally, though the style has no strict legal definition — they typically range from 8–12% ABV with complex dark malt and yeast-driven fruit character.",
-      "De Ranke produces both Noir de Dottignies and the XX Bitter with the same core production team and facilities — the dramatic difference between the two beers illustrates how much of a beer's character comes from recipe and ingredient choice rather than equipment."
-    ],
-    "file": "beer"
-  },
-  {
-    "id": "137",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "Brasserie Fantôme",
-    "name": "Pissenlit",
-    "detail": "Soy, Belgium · 8% · Saison with Dandelion · 750mL",
-    "abv": 8,
-    "price": 27,
-    "allocated": false,
-    "icons": [
-      "🌿",
-      "🍾"
-    ],
-    "notes": [
-      "Earthy",
-      "Floral",
-      "Funky yeast",
-      "Light bitterness",
-      "Wild"
-    ],
-    "tableside": "Fantôme is one of the most eccentric and celebrated saison breweries in the world — brewed in a tiny farmhouse in rural Belgium by essentially one person. Pissenlit means 'dandelion' in French and it's brewed with the plant. Wild, funky, earthy, and completely unlike anything else on the list. The 750mL is a sharing moment.",
-    "pairings": [
-      "Aged farmhouse cheeses",
-      "Charcuterie",
-      "Wild mushroom dishes",
-      "Bitter greens",
-      "Goat cheese"
-    ],
-    "story": "Brasserie Fantôme is operated almost entirely by Dany Prignon from a small farmhouse in Soy, a hamlet in the Ardennes region of Belgium. Fantôme produces some of the most eccentric and celebrated saisons in the world , each batch is slightly different, deliberately unpredictable, and deeply rooted in the farmhouse brewing tradition that originated in rural Wallonia centuries ago. Pissenlit (French for dandelion) is brewed with dandelion plants harvested locally, adding a wild, earthy bitterness that complements the funky Fantôme house yeast. It is a beer for guests who understand that not everything needs to be consistent , and who appreciate the romance of something made by hand in a Belgian farmhouse.",
-    "trivia": [
-      "Fantôme's brewery in Soy, Belgium is genuinely tiny — Dany Prignon operates it largely alone, which means production volumes are very small and each batch reflects the conditions and ingredients available at that specific moment.",
-      "Dandelion was historically used as a bittering agent in beer before hops became the dominant flavoring — it produces a different kind of bitterness than hops, more earthy and vegetal than floral and resinous.",
-      "Saison originated as a farmhouse beer style in Wallonia, the French-speaking region of Belgium, brewed by farmers to sustain agricultural workers through the summer — the style traditionally uses whatever local ingredients are available, which is why Fantôme's use of dandelion is historically appropriate."
-    ],
-    "file": "beer"
-  },
-  {
-    "id": "138",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "Solace Brewing",
-    "name": "Suns Out Hops Out",
-    "detail": "Dulles, VA · 4.7% · Session IPA",
-    "abv": 4.7,
-    "price": 8,
-    "allocated": false,
-    "icons": [
-      "🍺"
-    ],
-    "notes": [
-      "Citrus",
-      "Tropical fruit",
-      "Grapefruit",
-      "Light body",
-      "Crisp"
-    ],
-    "tableside": "Solace is a Northern Virginia brewery right down the road — Suns Out Hops Out is their flagship session IPA, brewed with Citra and Mosaic hops for citrus and tropical fruit character at a very sessionable 4.7%. The local easy-drinking option for guests who want a hop-forward beer without the weight.",
-    "pairings": [
-      "Burgers",
-      "Fish tacos",
-      "Light salads",
-      "Fried foods",
-      "Citrus dishes"
-    ],
-    "story": "Solace Brewing Company is based in Dulles, Virginia , about 20 miles from Trummer's , making it one of the most genuinely local beers on the list. Founded in 2016, Solace has built a strong regional following for their approachable, well-crafted ales and lagers that reflect the Northern Virginia beer landscape. Suns Out Hops Out is their flagship session IPA: brewed with Citra and Mosaic hops, two of the most aromatic hop varieties developed in the last two decades, producing the tropical fruit and citrus character that defines the modern American IPA style at a low enough ABV to drink comfortably through a meal.",
-    "trivia": [
-      "Citra hops, used in Suns Out Hops Out, were developed by the Hop Breeding Company and released in 2007 — they have become one of the most widely used hops in American craft brewing for their intense citrus and tropical fruit aroma.",
-      "Mosaic hops, the other variety in this beer, produce a more complex aromatic profile than Citra — described as simultaneously fruity, earthy, and herbal, which adds depth to the citrus-forward Citra character.",
-      "Session IPAs became a defined style category around 2010, as craft beer drinkers sought the hop flavor of IPAs without the high alcohol content — Suns Out Hops Out at 4.7% is a textbook example of the style done well."
-    ],
-    "file": "beer"
-  },
-  {
-    "id": "139",
-    "cat": "Beer & Cider",
-    "type": "beer",
-    "producer": "Honor Brewing",
-    "name": "Classic Lite",
-    "detail": "Sterling, VA · 4.3% · American Light Lager",
-    "abv": 4.3,
-    "price": 8,
-    "allocated": false,
-    "icons": [
-      "🫧"
-    ],
-    "notes": [
-      "Light grain",
-      "Clean",
-      "Subtle hops",
-      "Crisp",
-      "Refreshing"
-    ],
-    "tableside": "Honor Brewing is a veteran-owned brewery in Sterling, Virginia — right in our backyard. Classic Lite is their take on a light lager done properly: 99 calories, clean and crisp, brewed with noble hops for just enough character. The right answer when a guest wants something light and easy.",
-    "pairings": [
-      "Burgers",
-      "Grilled chicken",
-      "Light salads",
-      "Mild cheeses",
-      "Bar snacks"
-    ],
-    "story": "Honor Brewing Company was founded in Sterling, Virginia in 2014 by Allen Cage with a mission explicitly tied to honoring military service and sacrifice , every beer in their lineup is named in tribute to those who have served, and the brewery maintains strong ties to the veteran community in Northern Virginia. Classic Lite is their interpretation of the American light lager , a style they describe as 'a micro approach to a macro style,' using Bohemian Pilsner malt and Hallertauer noble hops to produce something cleaner and more flavorful than the mass-market light beers it references. At 99 calories and 4.3% it's the most approachable beer on the list, and the veteran-owned local story makes it worth mentioning.",
-    "trivia": [
-      "Honor Brewing's mission to honor military service is reflected in every aspect of their business — the brewery donates a portion of proceeds to veteran organizations and regularly hosts events for the military community in Northern Virginia.",
-      "Hallertauer hops, used in Classic Lite, are one of the oldest and most traditional noble hop varieties, originating in the Hallertau region of Bavaria — they produce a mild, floral bitterness that is the backbone of classic German lager styles.",
-      "Sterling, Virginia — where Honor Brewing is located — is home to a significant concentration of military and government employees given its proximity to Dulles Airport and several major federal facilities, making Honor's veteran-focused mission particularly resonant with the local community."
-    ],
-    "file": "beer"
-  },
-  {
     "id": "140",
     "cat": "Afters",
     "type": "amaro",
@@ -6176,158 +5960,233 @@
     "file": "cocktails"
   },
   {
-    "id": "219",
+    "id": "223",
     "cat": "House Cocktails",
     "type": "Cocktail",
     "producer": "",
-    "name": "Mai Old Ways",
-    "detail": "Tiki · Tiki mug",
-    "abv": 0,
-    "price": 16,
-    "allocated": false,
-    "na": false,
-    "star": false,
-    "glass": "Tiki mug",
-    "ingredients": [
-      "House spiced rum",
-      "Dry curaçao",
-      "Pistachio orgeat",
-      "Fresh lime juice"
-    ],
-    "icons": [
-      "🍋",
-      "🍯"
-    ],
-    "notes": [
-      "Nutty",
-      "Orange",
-      "Lime",
-      "Rich"
-    ],
-    "tableside": "House spiced rum shaken with dry curaçao, pistachio orgeat and fresh lime, served in a tiki mug with no garnish. Built on the Mai Tai template, with pistachio in place of the usual almond. Nutty and rich rather than sweet and tropical. Contains pistachio.",
-    "story": "The Mai Tai is rum, lime, orange curaçao and orgeat, and this follows that structure with two substitutions: house spiced rum for the aged rum blend, and pistachio orgeat for almond. Pistachio is greener and less confectionary than almond, which keeps the drink from reading as dessert.",
-    "trivia": [
-      "Orgeat is an almond syrup with orange flower water, used in French and Mediterranean drinks long before tiki bars existed. Trader Vic's 1944 Mai Tai is what made it standard behind an American bar.",
-      "Dry curaçao is made from the dried peel of bitter laraha oranges grown on Curaçao. It is less sweet and more bitter than standard triple sec, which is why it works in a drink already carrying a rich nut syrup.",
-      "Spiced rum is rum infused after distillation, most often with vanilla, cinnamon, clove and allspice. Those flavors sit alongside nut syrup naturally, which is why the swap from aged rum changes the drink less than it sounds."
-    ],
-    "pairings": [],
-    "file": "cocktails"
-  },
-  {
-    "id": "220",
-    "cat": "House Cocktails",
-    "type": "Cocktail",
-    "producer": "",
-    "name": "Bad Sneakers",
-    "detail": "Tiki · Tiki mug · Shaken or blended",
-    "abv": 0,
-    "price": 16,
-    "allocated": false,
-    "na": false,
-    "star": false,
-    "glass": "Tiki mug",
-    "ingredients": [
-      "Rum blend #4",
-      "House Coco Lopez",
-      "Pineapple"
-    ],
-    "icons": [
-      "🍓",
-      "🍯"
-    ],
-    "notes": [
-      "Coconut",
-      "Pineapple",
-      "Creamy",
-      "Sweet"
-    ],
-    "tableside": "Rum blend #4 with house Coco Lopez and pineapple, garnished with pineapple, and the guest chooses shaken or blended. Shaken is lighter and colder, blended is thicker and closer to what most people picture. Ask which they want when they order. Rum blend #4 is a house secret, so say that rather than guessing at what is in it. On the sweeter side.",
-    "story": "This is the Piña Colada template with a house rum blend and house made cream of coconut. Making the Coco Lopez in house is the difference: commercial cream of coconut is heavily sweetened and flat, and a house version lets the coconut read as coconut rather than sugar. The rum is a proprietary blend the bar does not disclose.",
-    "trivia": [
-      "Cream of coconut is coconut cream with sugar added, not the same product as coconut milk or coconut cream on their own. Coco Lopez was developed in Puerto Rico in the 1950s and is the reason the Piña Colada exists in its current form.",
-      "Blending a drink adds air and ice at the same time, so a blended version is colder, thicker and more diluted than the shaken one. The two are different drinks made from the same recipe.",
-      "Blending pineapple with rum shows up in Caribbean bartending well before tiki. Pineapple contains bromelain, an enzyme that breaks down protein, which is why fresh pineapple juice behaves differently in a drink than canned."
-    ],
-    "pairings": [],
-    "file": "cocktails"
-  },
-  {
-    "id": "221",
-    "cat": "House Cocktails",
-    "type": "Cocktail",
-    "producer": "",
-    "name": "Meleni Smash",
-    "detail": "Tiki · Tiki mug",
+    "name": "Punch.Smash",
+    "detail": "",
     "abv": 0,
     "price": 18,
     "allocated": false,
     "na": false,
     "star": false,
-    "glass": "Tiki mug",
+    "glass": "",
     "ingredients": [
-      "Michter's bourbon",
-      "Basil",
-      "Fresh lemon juice",
-      "Watermelon",
-      "Tajín"
+      "Buffalo Trace bourbon",
+      "Apple",
+      "Mint",
+      "Lemon"
     ],
     "icons": [
       "🍓",
       "🍋",
-      "🌶️"
+      "🥃"
     ],
     "notes": [
-      "Watermelon",
-      "Basil",
+      "Apple",
+      "Mint",
       "Lemon",
-      "Chili salt"
+      "Bourbon"
     ],
-    "tableside": "Michter's bourbon smashed with basil, watermelon and fresh lemon, finished with Tajín and garnished with a watermelon slice dusted in Tajín. The chili lime salt is what makes it work, since watermelon on its own is mostly water and sugar and the salt pulls the fruit forward. Savory and herbal rather than sweet.",
-    "story": "A smash is fruit and herb muddled in the shaker with spirit and citrus, one of the oldest structures behind a bar. The Tajín is the part that separates this from a standard bourbon smash: chili, lime and salt is how watermelon is eaten across Mexico, and it is a seasoning trick rather than a cocktail one.",
+    "tableside": "Buffalo Trace smashed with apple, fresh mint and lemon. Bright and fruity with the bourbon underneath, an autumn take on a whiskey smash.",
+    "story": "A smash is spirit, citrus, sugar and a fresh herb muddled together, a close relative of the julep. Apple stands in for the summer fruit a smash usually carries, and Buffalo Trace is the same bourbon in the chipotle butter on the escargot.",
     "trivia": [
-      "Tajín is a Mexican seasoning of chili peppers, dehydrated lime juice and sea salt, made since 1985 and used on fresh fruit far more often than on cooked food.",
-      "Watermelon is roughly 92 percent water, so its flavor is concentrated in a small amount of sugar and aroma compounds. Salt suppresses bitterness and lets that sweetness read more clearly, which is why salted watermelon tastes sweeter than unsalted.",
-      "Basil and mint are both in the mint family, and basil carries eugenol and linalool where mint carries menthol. That is why basil reads warm and peppery in a smash while mint reads cooling."
+      "Jerry Thomas printed a whiskey smash in his 1862 bartender's guide, the first American cocktail book.",
+      "Buffalo Trace Distillery in Frankfort, Kentucky kept operating through Prohibition under a license to make whiskey for medicinal use.",
+      "Mint should be pressed, not shredded. Pressing releases the aromatic oils, while tearing the leaves releases bitter chlorophyll."
     ],
     "pairings": [],
     "file": "cocktails"
   },
   {
-    "id": "222",
+    "id": "224",
     "cat": "House Cocktails",
     "type": "Cocktail",
     "producer": "",
-    "name": "Ye Who Enter Here",
-    "detail": "House Manhattan · Martini glass",
+    "name": "The North Fashioned",
+    "detail": "",
     "abv": 0,
-    "price": 22,
+    "price": 13,
     "allocated": false,
     "na": false,
     "star": false,
-    "glass": "Martini glass",
+    "glass": "",
     "ingredients": [
-      "Buffalo Trace bourbon",
-      "9 di Dante Inferno rosso vermouth",
-      "Don Ciccio Don Fernet",
-      "Luxardo cherries"
+      "Black pepper infused Crown Royal",
+      "Maple",
+      "Orange bitters"
+    ],
+    "icons": [
+      "🥃",
+      "🌶️"
+    ],
+    "notes": [
+      "Maple",
+      "Black pepper",
+      "Orange peel",
+      "Rye spice"
+    ],
+    "tableside": "An Old Fashioned built on black pepper infused Crown Royal, sweetened with maple and finished with orange bitters. Spirit-forward, with peppery warmth where the sugar would usually be.",
+    "story": "The North in the name is Canada: Canadian whisky in place of bourbon and maple syrup in place of the sugar cube. Black pepper gives a gentle heat that suits the maple.",
+    "trivia": [
+      "Crown Royal was created in 1939 for the royal visit of King George VI and Queen Elizabeth to Canada.",
+      "It takes roughly forty litres of maple sap to boil down one litre of syrup.",
+      "In Canada, whisky is often called rye regardless of how much rye is actually in the mash."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "225",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Honey Deuce",
+    "detail": "",
+    "abv": 0,
+    "price": 13,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "",
+    "ingredients": [
+      "Vodka",
+      "Lemonade",
+      "Honeydew melon"
+    ],
+    "icons": [
+      "🍓",
+      "🍋"
+    ],
+    "notes": [
+      "Honeydew",
+      "Lemon",
+      "Light sweetness"
+    ],
+    "tableside": "Vodka and lemonade with honeydew melon. Light, cold and easy, and modelled on the drink of the US Open tennis tournament.",
+    "story": "The Honey Deuce has been the signature cocktail of the US Open since the mid 2000s, made there with vodka, lemonade, raspberry liqueur and frozen honeydew balls scooped to look like tennis balls. Ours keeps the vodka, lemonade and honeydew.",
+    "trivia": [
+      "Deuce is the tennis term for a tie at forty all, and the honeydew balls stand in for tennis balls.",
+      "Honeydew and cantaloupe are the same species, Cucumis melo, bred into different types.",
+      "Lemonade cocktails are one of the oldest American serves, descended from the punches and sours of the eighteenth century."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "226",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Liquorice Liquor",
+    "detail": "",
+    "abv": 0,
+    "price": 14,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "",
+    "ingredients": [
+      "Arak",
+      "Black lime",
+      "Red wine reduction",
+      "Club soda"
+    ],
+    "icons": [
+      "🍋"
+    ],
+    "notes": [
+      "Anise",
+      "Black lime",
+      "Red wine",
+      "Savoury"
+    ],
+    "tableside": "Arak, the anise spirit of the Levant, with black lime, a red wine reduction and soda. Liquorice up front, tart and savoury from the black lime, long and dry with the soda.",
+    "story": "Arak is distilled from grapes and flavoured with aniseed, and is drunk across Lebanon, Syria, Jordan and Israel, usually cut with water and ice at the table. Black lime adds the sour, slightly smoky note that runs through Persian and Gulf cooking.",
+    "trivia": [
+      "Arak turns milky white when water is added. The anise oils dissolve in alcohol but not in water, so they come out of solution as tiny droplets.",
+      "Black lime, also called loomi, is a lime boiled in salt water and dried in the sun until it turns dark and hollow.",
+      "The menu spells it liquor, but the drink is built like a long highball rather than a sweet liqueur."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "227",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Terra'Tini",
+    "detail": "",
+    "abv": 0,
+    "price": 16,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "",
+    "ingredients": [
+      "Gray Whale gin",
+      "Vermouth",
+      "Tarragon",
+      "Cocktail onion"
     ],
     "icons": [
       "🥃"
     ],
     "notes": [
-      "Cherry",
-      "Bitter orange",
-      "Mint",
-      "Cocoa",
-      "Spice"
+      "Juniper",
+      "Tarragon",
+      "Dry vermouth",
+      "Savoury onion"
     ],
-    "tableside": "The house Manhattan. Buffalo Trace with 9 di Dante Inferno rosso vermouth and a measure of Don Ciccio Don Fernet, stirred and served up in a martini glass with Luxardo cherries. The fernet replaces the bitters and takes it drier and more bitter than a standard Manhattan. The most spirit forward drink on the cocktail list.",
-    "story": "Both modifiers are on our afters list, so a guest who likes this can drink either one on its own after dinner. 9 di Dante Inferno is a Vermouth di Torino Superiore from Piedmont built on equal parts Dolcetto and Cortese wine with 27 botanicals. Don Ciccio & Figli is a Washington DC distillery in Ivy City run by Francesco Amodeo, whose family made liqueurs on the Amalfi Coast.",
+    "tableside": "A gin martini with Gray Whale gin, good vermouth and tarragon, garnished with a cocktail onion, which technically makes it a Gibson. Dry, herbal and savoury.",
+    "story": "Gray Whale is a California gin whose botanicals are sourced along the route of the gray whale's migration down the Pacific coast. Tarragon adds a light anise note, and the onion brings it round to savoury.",
     "trivia": [
-      "The name comes from the inscription over the gate of hell in Dante's Inferno, which is also what the vermouth is named for.",
-      "Nine of the 27 botanicals in 9 di Dante Inferno are matched to the nine circles: wormwood for Limbo, cardamom for lust, bitter orange peel for gluttony, cumin for greed, basil for anger, nettle for heresy, tansy for violence, fennel for fraud and caraway for treachery.",
-      "Don Fernet is barrel aged 12 months in French oak from the Marisa Cuomo winery on the Amalfi Coast and infuses 25 roots and herbs, leaning on mint, dark chocolate, ginger and saffron. Amodeo makes it without menthol or glycerin, which is what most fernet gets its mouthwash edge from."
+      "A martini garnished with a cocktail onion rather than an olive or a twist is called a Gibson.",
+      "Gray Whale gin's botanicals include fir, mint, lime, almond and kombu sea kelp. Mention the almond to a nut allergic guest and let them decide.",
+      "Tarragon carries estragole, the same aromatic compound behind the liquorice note in anise and fennel."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "228",
+    "cat": "House Cocktails",
+    "type": "Cocktail",
+    "producer": "",
+    "name": "Big Popper",
+    "detail": "",
+    "abv": 0,
+    "price": 18,
+    "allocated": false,
+    "na": false,
+    "star": false,
+    "glass": "",
+    "ingredients": [
+      "Cognac",
+      "Curaçao",
+      "Vanilla",
+      "Lemon",
+      "Cream cheese foam"
+    ],
+    "icons": [
+      "🍋",
+      "🍯"
+    ],
+    "notes": [
+      "Cognac",
+      "Orange",
+      "Vanilla",
+      "Lemon",
+      "Cheesecake"
+    ],
+    "tableside": "A Sidecar riff: cognac, curaçao and lemon with vanilla, under a cream cheese foam. Rich and tart, close to cheesecake in a glass. Contains dairy.",
+    "story": "The base is the Sidecar, cognac with orange liqueur and lemon, a 1920s classic. Vanilla and a cream cheese foam turn it toward dessert without losing the sour backbone.",
+    "trivia": [
+      "The Sidecar dates to around the end of the First World War, with both Paris and London claiming it.",
+      "Curaçao is named for the Caribbean island where the bitter laraha orange used to flavour it grows.",
+      "Cognac must be distilled twice in copper pot stills and aged at least two years in French oak."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -6445,80 +6304,6 @@
     "file": "cocktails"
   },
   {
-    "id": "177",
-    "cat": "Alcohol Free",
-    "type": "Mocktail",
-    "producer": "",
-    "name": "Green Giant",
-    "detail": "Coupe",
-    "abv": 0,
-    "price": 10,
-    "allocated": false,
-    "na": true,
-    "star": false,
-    "glass": "Coupe",
-    "ingredients": [
-      "Elderflower syrup",
-      "Fresh sage leaves",
-      "Club soda"
-    ],
-    "icons": [
-      "🌸"
-    ],
-    "notes": [
-      "Floral",
-      "Herbal",
-      "Light",
-      "Elegant"
-    ],
-    "tableside": "The alcohol-free version of the Sage cocktail. Elderflower syrup shaken with fresh sage leaves and topped with club soda, served in a coupe. Floral and herbal - more sophisticated than most mocktail options.",
-    "story": "The Green Giant mirrors the Sage cocktail without the gin. The sage leaves still go into the shaker so the herbal oils infuse into the drink.",
-    "trivia": [
-      "Elderflower syrup is made from the flowers of Sambucus nigra, the same plant used to make St-Germain liqueur. The flowers bloom for a short window in late spring and have a delicate, almost honeyed floral aroma.",
-      "Non-alcoholic cocktails that use fresh herbs and botanicals rather than juice alone have become a defining category in contemporary bar programs."
-    ],
-    "pairings": [],
-    "file": "cocktails"
-  },
-  {
-    "id": "178",
-    "cat": "Alcohol Free",
-    "type": "Mocktail",
-    "producer": "",
-    "name": "Iceberg",
-    "detail": "Coupe",
-    "abv": 0,
-    "price": 10,
-    "allocated": false,
-    "na": true,
-    "star": false,
-    "glass": "Coupe",
-    "ingredients": [
-      "Muddled grapes",
-      "Elderflower syrup",
-      "Crushed ice",
-      "Club soda"
-    ],
-    "icons": [
-      "🍓",
-      "🌸"
-    ],
-    "notes": [
-      "Grape",
-      "Elderflower",
-      "Light",
-      "Refreshing"
-    ],
-    "tableside": "The alcohol-free version of the Titanic. Muddled grapes and elderflower syrup poured over crushed ice in a coupe and topped with club soda. Lighter and more refreshing than the original - the same grape and elderflower flavors without the vodka and sorbet.",
-    "story": "The Iceberg follows the same flavor logic as the Titanic - grape, elderflower, bubbles - without the vodka and prosecco sorbet. The crushed ice gives it a different texture and presentation than a standard mocktail.",
-    "trivia": [
-      "Muddling grapes releases both juice and the volatile aromatic compounds in the grape skin, producing a fresher, more complex flavor than using grape juice from a bottle.",
-      "Crushed ice melts faster than cubed ice, which means the drink dilutes more quickly. For a mocktail this is a feature - the water integration happens naturally as you drink."
-    ],
-    "pairings": [],
-    "file": "cocktails"
-  },
-  {
     "id": "179",
     "cat": "Alcohol Free",
     "type": "Non-Alcoholic Wine",
@@ -6591,6 +6376,38 @@
       "Rheinhessen is Germany's largest wine-growing region at over 26,000 hectares and is home to some of the country's most expressive Riesling vineyards.",
       "The spinning cones column de-alcoholization method uses centrifugal force and a vacuum to strip alcohol at low temperatures - more gentle than older heat-based methods, and it doesn't require added chemicals beyond standard wine preservatives.",
       "Riesling's hallmark qualities - high acidity, mineral character, and aromatic complexity - survive the de-alcoholization process better than most grape varieties, making it one of the most successful styles in the non-alcoholic wine category."
+    ],
+    "pairings": [],
+    "file": "cocktails"
+  },
+  {
+    "id": "229",
+    "cat": "Alcohol Free",
+    "type": "Non-Alcoholic Beer",
+    "producer": "Kit NA Brewing",
+    "name": "Blonde",
+    "detail": "Portland, Maine · Under 0.5%",
+    "abv": 0.5,
+    "price": 6,
+    "allocated": false,
+    "na": true,
+    "star": false,
+    "glass": "",
+    "ingredients": [
+      "Non-alcoholic blonde ale"
+    ],
+    "icons": [],
+    "notes": [
+      "Light malt",
+      "Crisp",
+      "Mild hops"
+    ],
+    "tableside": "A non-alcoholic blonde ale from a Portland, Maine brewery that makes nothing but NA beer. Light and crisp, for the guest who wants a beer without the alcohol.",
+    "story": "Kit NA Brewing was co-founded in Portland, Maine in 2021 by Will Fisher and Rob Barrett to brew only non-alcoholic beer. The blonde ale is their flagship, made from water, grain, hops and yeast.",
+    "trivia": [
+      "In the US a beer can be labelled non-alcoholic at under 0.5 percent ABV.",
+      "Kit brews exclusively non-alcoholic beer rather than making an NA version alongside regular beers.",
+      "Blonde ale is one of the lightest ale styles, built for easy drinking rather than hop intensity."
     ],
     "pairings": [],
     "file": "cocktails"
@@ -7026,13 +6843,49 @@
     "file": "beer"
   },
   {
-    "id": "196",
+    "id": "230",
+    "cat": "Beer & Cider",
+    "type": "wheat",
+    "producer": "Tucher",
+    "name": "Dunkelweizen",
+    "detail": "Nuremberg, Germany · 5.2% · Dunkelweizen · 500mL",
+    "abv": 5.2,
+    "price": 10,
+    "allocated": false,
+    "icons": [
+      "🌾",
+      "🌑"
+    ],
+    "notes": [
+      "Banana",
+      "Clove",
+      "Caramel",
+      "Toasted bread",
+      "Bubblegum"
+    ],
+    "tableside": "A dark wheat beer from Nuremberg. The same banana and clove yeast as a regular hefeweizen, with caramel and toast from darker malt. Unfiltered and full but not heavy. Good with the schnitzel.",
+    "pairings": [
+      "Wienerschnitzel",
+      "Roast pork",
+      "Sausage",
+      "Spätzle"
+    ],
+    "story": "Tucher traces its wheat beer back to 1672 in Nuremberg. The Tucher family, one of the city's old patrician families, took the brewery over in 1855, and although ownership has changed since, the name has stayed. The modern brewhouse sits right on the city line between Nuremberg and Fürth.",
+    "trivia": [
+      "Tucher's brewhouse straddles the border of Nuremberg and Fürth and is nicknamed the two city brewhouse.",
+      "The banana and clove in a weizen come from the yeast, which produces isoamyl acetate and 4-vinyl guaiacol.",
+      "Dunkel simply means dark. The colour comes from roasted malt, not from a different yeast."
+    ],
+    "file": "beer"
+  },
+  {
+    "id": "231",
     "cat": "Beer & Cider",
     "type": "ipa",
     "producer": "Ocelot Brewing Company",
-    "name": "Home",
-    "detail": "Dulles VA · 6.7% · IPA",
-    "abv": 6.7,
+    "name": "Wilderness of False Flowers",
+    "detail": "Dulles, VA · 6.8% · New England IPA",
+    "abv": 6.8,
     "price": 10,
     "allocated": false,
     "icons": [
@@ -7040,93 +6893,128 @@
     ],
     "notes": [
       "Citrus",
+      "Tropical fruit",
       "Stone fruit",
-      "Pine",
-      "Soft bitterness",
-      "Mango"
+      "Soft bitterness"
     ],
-    "tableside": "Ocelot is in Dulles, so this is about as local as beer gets for us. A modern IPA leaning juicy and aromatic rather than aggressively bitter. Worth knowing they have no flagship, so what they send changes constantly.",
+    "tableside": "A hazy New England IPA from Ocelot in Dulles, about as local as beer gets for us. Juicy and soft rather than bitter, with tropical and citrus fruit from late hopping.",
     "pairings": [
       "Spicy food",
-      "Burgers",
-      "Sharp cheddar",
-      "Fried appetizers"
+      "Fried appetizers",
+      "Buffalo chicken dip",
+      "Sharp cheddar"
     ],
-    "story": "Ocelot opened in Dulles in 2015, founded by three friends out of engineering, banking and bar backgrounds. The brewery deliberately has no flagship beer. Rather than build around a year-round core range, it releases new beers constantly and rotates through IPAs, lagers, mixed fermentation and barrel-aged styles, which means the tap list turns over week to week by design. Every beer is named after a song lyric. Loudoun County has grown one of the densest concentrations of breweries in Virginia over the past decade, and Ocelot is among the most respected of them.",
+    "story": "Ocelot opened in Dulles in 2015 and deliberately has no flagship. It releases new beers constantly across IPAs, lagers, mixed fermentation and barrel-aged styles, so the tap list turns over by design. Every beer is named after a song lyric.",
     "trivia": [
-      "Every Ocelot beer is named after a song lyric, which is a running theme since the brewery opened.",
-      "The brewery has no flagship. The tap list turns over constantly by design, so what is pouring changes week to week.",
-      "Loudoun County has grown one of the densest concentrations of breweries in Virginia over the past decade."
+      "Wilderness of False Flowers shares its title with a song by the Japanese psychedelic band Les Rallizes Dénudés, in keeping with Ocelot naming every beer after a song.",
+      "New England IPAs get their haze from heavy late and dry hopping, oats and wheat, and yeast left in suspension.",
+      "Most of the hop character in a hazy IPA comes from hops added after the boil, which keeps aroma high and bitterness low."
     ],
     "file": "beer"
   },
   {
-    "id": "197",
+    "id": "232",
+    "cat": "Beer & Cider",
+    "type": "beer",
+    "producer": "Aslin",
+    "name": "Volcano Sauce",
+    "detail": "Alexandria, VA · 6% · Sour with Blueberry, Blackberry, Vanilla & Milk Sugar",
+    "abv": 6,
+    "price": 7,
+    "allocated": false,
+    "icons": [
+      "🍋"
+    ],
+    "notes": [
+      "Blueberry",
+      "Blackberry",
+      "Vanilla",
+      "Tart",
+      "Creamy"
+    ],
+    "tableside": "A fruited smoothie-style sour with blueberry and blackberry, vanilla and milk sugar. Tart berry up front, creamy underneath. Contains lactose, so it is not dairy free. Good for a guest who says they don't like beer.",
+    "pairings": [
+      "Spicy dishes",
+      "Fruit desserts",
+      "Fresh cheeses",
+      "Grilled fish"
+    ],
+    "story": "Aslin started in 2015 as a small Herndon operation selling cans out of the production facility, and grew on word of mouth into taprooms across Northern Virginia, DC and beyond, with Alexandria now the main production site. Fruited sours are one of the two styles it is best known for, alongside hazy IPAs.",
+    "trivia": [
+      "The milk sugar is lactose, which brewer's yeast cannot ferment. It stays in the beer as body and sweetness.",
+      "Smoothie sours are loaded with fruit puree after fermentation, which is where the thick texture comes from.",
+      "Aslin built its early following without a proper taproom, with lines forming outside the production facility for can releases."
+    ],
+    "file": "beer"
+  },
+  {
+    "id": "233",
     "cat": "Beer & Cider",
     "type": "stout",
-    "producer": "Evolution Craft Brewing",
-    "name": "Lucky #7",
-    "detail": "Salisbury MD · 5.8% · Porter",
-    "abv": 5.8,
-    "price": 7,
+    "producer": "Solace Brewing",
+    "name": "Air Gourd'n",
+    "detail": "Dulles, VA · 6.3% · Pumpkin Porter",
+    "abv": 6.3,
+    "price": 9,
     "allocated": false,
     "icons": [
       "🌑"
     ],
     "notes": [
       "Roasted malt",
-      "Coffee",
       "Dark chocolate",
-      "Light smoke",
-      "Caramel"
+      "Cinnamon",
+      "Nutmeg",
+      "Pumpkin"
     ],
-    "tableside": "A porter from Maryland's Eastern Shore. Roasty and dark but not heavy, so it works through a meal rather than only at the end of one. Good bridge beer for a guest moving from dinner into dessert.",
+    "tableside": "A seasonal pumpkin porter from Solace in Dulles. Roasted malt and dark chocolate first, with cinnamon and nutmeg behind. Darker and drier than most pumpkin beers.",
     "pairings": [
-      "Barbecue",
-      "Roast meats",
-      "Chocolate desserts",
-      "Smoked cheeses"
+      "Pumpkin cheesecake",
+      "Braised pork",
+      "Butternut squash soup",
+      "Chocolate desserts"
     ],
-    "story": "Evolution Craft Brewing started in Delmar, Delaware in 2009 and moved across the line to Salisbury, Maryland in 2012, where it anchors the Eastern Shore beer scene. Lucky #7 has been in the core range for most of that time. Porter came first historically and stout was originally stout porter, meaning a stronger version of the same beer; the two names drifted apart over the nineteenth century until stout became its own category. The roast character in both comes from malt kilned at high temperature, the same principle that separates a dark coffee roast from a light one.",
+    "story": "Solace Brewing Company is based in Dulles, about twenty miles from Trummer's, and was founded in 2016. It is known for approachable ales and lagers, and Air Gourd'n is its autumn seasonal.",
     "trivia": [
-      "Porter came first and stout was originally 'stout porter', meaning a stronger version of the same beer.",
-      "The roasted character comes from malt kilned at high temperature, the same principle that separates dark and light coffee roasts.",
-      "Delmar sits directly on the Delaware and Maryland state line, which is where the town's name comes from."
+      "Porter came out of eighteenth century London and is named for the street and river porters who drank it.",
+      "Pumpkin beer goes back to colonial America, when brewers used pumpkin as a fermentable when malt was scarce.",
+      "Most pumpkin beers taste of the spice more than the squash, since cinnamon and nutmeg carry far more aroma than cooked pumpkin."
     ],
     "file": "beer"
   },
   {
-    "id": "198",
+    "id": "234",
     "cat": "Beer & Cider",
-    "type": "wheat",
-    "producer": "Weihenstephaner",
-    "name": "Hefeweissbier",
-    "detail": "Freising, Germany · 5.4% · Hefeweizen",
-    "abv": 5.4,
-    "price": 7,
+    "type": "beer",
+    "producer": "Brasserie de Blaugies & Hill Farmstead",
+    "name": "La Vermontoise",
+    "detail": "Blaugies, Belgium · 6% · Belgian Saison · 750mL",
+    "abv": 6,
+    "price": 27,
     "allocated": false,
     "icons": [
-      "🌾"
+      "🌿",
+      "🍾"
     ],
     "notes": [
-      "Banana",
-      "Clove",
-      "Soft wheat",
-      "Light citrus",
-      "Bubblegum"
+      "Lemongrass",
+      "Fresh cut grass",
+      "Citrus",
+      "Light funk",
+      "Earthy bitterness"
     ],
-    "tableside": "From the oldest brewery in the world, brewing on the same hill since 1040. The banana and clove notes come from the yeast rather than anything added, which surprises most guests when you tell them. The natural partner to the schnitzel.",
+    "tableside": "A spelt saison brewed in Belgium as a collaboration between Blaugies and Hill Farmstead of Vermont. Dry, rustic and lightly funky with citrus from American Amarillo hops. The 750mL is one to share.",
     "pairings": [
-      "Sausages",
-      "Roast pork",
-      "Soft pretzels",
-      "Apple desserts"
+      "Charcuterie",
+      "Goat cheese",
+      "Roast chicken",
+      "Wild mushroom dishes"
     ],
-    "story": "Benedictine monks founded a monastery on the Weihenstephan hill at Freising in 725. In 1040 Abbot Arnold obtained a licence from the city to brew and sell beer, which is the date the brewery counts as its founding and which makes it the oldest continuously operating brewery in the world. Between 1085 and 1463 the monastery burned down four times and was hit by plague, famine and earthquake, and the monks rebuilt every time. The brewery is now state owned and sits alongside the Technical University of Munich's brewing faculty, where much of modern brewing science was formalised.",
+    "story": "Brasserie de Blaugies is a small family farmhouse brewery run by the Carlier family in Wallonia, near the French border. Shaun Hill of Hill Farmstead in Vermont first visited in 2007, and the two agreed on this beer in 2012: an existing Blaugies spelt saison hopped with Amarillo, more hops than the brewery had ever used.",
     "trivia": [
-      "The banana and clove character comes from compounds the wheat beer yeast produces during fermentation, isoamyl acetate and 4-vinyl guaiacol.",
-      "Hefe means yeast, and the beer is unfiltered, which is why it pours cloudy.",
-      "The Weihenstephan brewing faculty has trained brewers from around the world for well over a century."
+      "The name means the Vermont one, a nod to Hill Farmstead's home state.",
+      "Spelt is an ancient relative of wheat, and Belgian farmhouse brewers used whatever grain the farm grew.",
+      "Saison means season in French. These beers were brewed in the cooler months for farmhands to drink through the summer."
     ],
     "file": "beer"
   },
