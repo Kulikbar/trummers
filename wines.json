@@ -437,6 +437,46 @@
     "file": "sparkling"
   },
   {
+    "id": "114",
+    "cat": "Champagne",
+    "type": "sparkling",
+    "producer": "Krug",
+    "name": "Grand Cuvée 173rd Edition, NV",
+    "region": "Champagne, France",
+    "vintage": "NV",
+    "abv": "12%",
+    "price": 440,
+    "cert": "",
+    "icons": [
+      "💪",
+      "🥐",
+      "🧈",
+      "🍑"
+    ],
+    "notes": [
+      "Brioche",
+      "Peach",
+      "Ripe citrus",
+      "Pine nut",
+      "Vanilla cream",
+      "Lemon"
+    ],
+    "tableside": "This is the 173rd Edition of Krug's Grande Cuvée, built around the 2017 harvest. Same house idea as the 172nd, a different set of wines behind it: toasty brioche, ripe peach and a crisp lemon finish.",
+    "pairings": [
+      "Lobster",
+      "Roast chicken",
+      "Wild mushrooms",
+      "Aged Comté"
+    ],
+    "story": "Krug reassembles the Grande Cuvée every year, starting from the newest harvest and drawing on a deep library of reserve wines from earlier years. The Edition number tells you which assembly you are drinking, so the 172nd and 173rd on the list are two different blends of the same house style.",
+    "trivia": [
+      "The 173rd Edition blends 150 wines from 13 different years, the oldest from 2001.",
+      "Reserve wines make up 31% of the blend, which is 44% Pinot Noir, 34% Chardonnay and 22% Meunier.",
+      "Every bottle carries a Krug ID code on the back label that can be entered on Krug's website to see that bottle's blend and history."
+    ],
+    "file": "sparkling"
+  },
+  {
     "id": "111",
     "cat": "Champagne",
     "type": "sparkling",
@@ -1321,45 +1361,6 @@
       "Franciacorta's name is thought to derive from 'Franzacurta' — a medieval designation meaning 'exempt from taxes,' referring to the monastic holdings that once dominated the area.",
       "The glacial moraine soils of Franciacorta were deposited by glaciers retreating from the Alps during the last ice age — they are geologically similar in structure (if not in composition) to the chalky soils of Champagne.",
       "Italy consumes roughly 75% of all Franciacorta produced — it has an intensely domestic market and relatively limited international distribution."
-    ],
-    "file": "sparkling"
-  },
-  {
-    "id": "256",
-    "cat": "Other Bubbles",
-    "type": "sparkling",
-    "producer": "Medici Ermete",
-    "name": "'Concerto' Lambrusco, Emilia-Romagna, 2021",
-    "region": "Emilia-Romagna, Italy",
-    "vintage": "2021",
-    "abv": "11.5%",
-    "price": 52,
-    "cert": "",
-    "icons": [
-      "⚖️",
-      "🍋",
-      "🌸"
-    ],
-    "notes": [
-      "Blackberry",
-      "Violet",
-      "Dried cherry",
-      "Earth",
-      "Dry tannic finish"
-    ],
-    "tableside": "The other Lambrusco on the list — from a different producer and subzone than the Chiarli. Medici Ermete's Concerto is considered one of the reference wines for serious dry Lambrusco: earthy, structured, and built to last the entire meal. For guests open to something genuinely unexpected.",
-    "pairings": [
-      "Prosciutto",
-      "Salumi",
-      "Tagliatelle",
-      "Braised meats",
-      "Strong cheeses"
-    ],
-    "story": "Medici Ermete farms in the Reggio Emilia hills — the Reggiano subzone of Lambrusco, which many consider the most structured and age-worthy of the appellation's sub-designations. The Concerto is their flagship and has won multiple international awards, doing more to rehabilitate Lambrusco's reputation internationally than almost any other wine. It's made from 100% Lambrusco Salamino di Santa Croce, one of the most structured varieties in the family.",
-    "trivia": [
-      "Medici Ermete's Concerto was listed in Wine Spectator's Top 100 Wines of the Year in 2004 — a moment that single-handedly changed many American wine professionals' perception of Lambrusco.",
-      "Lambrusco Reggiano — from the Reggio Emilia hills — is generally considered more structured and age-worthy than the flatter Modena versions, due to elevation and limestone soils.",
-      "The Medici family has been farming in Reggio Emilia since 1890, but the estate's international reputation was built largely by Alberto Medici, who took over in the 1980s."
     ],
     "file": "sparkling"
   },
@@ -2403,45 +2404,6 @@
     "file": "whites"
   },
   {
-    "id": "879",
-    "cat": "Grüner Veltliner",
-    "type": "white",
-    "producer": "Ingrid Groiss",
-    "name": "Weinviertel DAC",
-    "region": "Weinviertel, Austria",
-    "vintage": "2021",
-    "abv": "12.5%",
-    "price": 54,
-    "cert": "Co/b",
-    "icons": [
-      "☁️",
-      "🍋",
-      "🌿",
-      "🍑"
-    ],
-    "notes": [
-      "Green apple",
-      "White pepper",
-      "Citrus",
-      "Light herb",
-      "Fresh peppery finish"
-    ],
-    "tableside": "Ingrid Groiss makes biodynamic Grüner in the Weinviertel — Austria's largest wine region and the one most associated with everyday, peppery, food-friendly expressions of the variety. This is Grüner at its most honest: no premier cru pretension, no extended aging, just clean, precise, peppery white wine from certified biodynamic farming.",
-    "pairings": [
-      "Aperitif",
-      "Wiener schnitzel",
-      "Grilled fish",
-      "Salads"
-    ],
-    "story": "The Weinviertel DAC was created specifically to protect and promote the peppery, fresh style of Grüner that the region produces — wines that must be dry, varietal, and show that characteristic white pepper note. Ingrid Groiss farms biodynamically in the northern Weinviertel, producing wines that reflect the region's slightly cooler temperatures and the mix of loess and sand soils. At this price from a biodynamic producer, it's exceptional value.",
-    "trivia": [
-      "The Weinviertel DAC was Austria's first DAC designation, created in 2002 specifically around Grüner Veltliner — a bold declaration that the region's identity is defined by a single grape.",
-      "Weinviertel — 'wine quarter' — is named for the fact that the region has been defined by viticulture for centuries. It's the largest wine region in Austria by area, accounting for roughly a third of the country's total vineyard land.",
-      "Ingrid Groiss is one of a growing number of Weinviertel producers who have shifted to biodynamic farming — meaningful in a region where volume production has historically dominated."
-    ],
-    "file": "whites"
-  },
-  {
     "id": "853",
     "cat": "Grüner Veltliner",
     "type": "white",
@@ -3248,44 +3210,6 @@
     "file": "whites"
   },
   {
-    "id": "309",
-    "cat": "Sauvignon Blanc",
-    "type": "white",
-    "producer": "Strauss/Tscherne",
-    "name": "'18,' Südsteiermark DAC",
-    "region": "Styria, Austria",
-    "vintage": "2024",
-    "abv": "13%",
-    "price": 40,
-    "cert": "",
-    "icons": [
-      "☁️",
-      "🍋",
-      "🌿"
-    ],
-    "notes": [
-      "Lime",
-      "Green herbs",
-      "Citrus zest",
-      "Gooseberry",
-      "Bright dry finish"
-    ],
-    "tableside": "The most affordable Sauvignon Blanc on the list — a joint project between two Styrian producers, made for immediate pleasure. The right answer when someone wants a glass of something clean, bright, and not expensive.",
-    "pairings": [
-      "Aperitif",
-      "Salads",
-      "Light fish",
-      "Fresh goat cheese"
-    ],
-    "story": "'18' is a collaborative cuvée between producers Strauss and Tscherne, both based in the Gamlitz area. The name refers to the collaboration number. The 2024 is the freshest wine in the Sauvignon section: primary, aromatic, built for drinking now.",
-    "trivia": [
-      "Collaborative cuvées between independent producers are relatively uncommon in Austria — this one reflects the close-knit culture of the Südsteiermark wine community.",
-      "Südsteiermark DAC covers a wide range of varieties including Sauvignon Blanc, Welschriesling, Pinot Blanc, Morillon (Chardonnay), Pinot Gris, Riesling, Muskateller and Traminer — Sauvignon Blanc leads, but it is far from the only option.",
-      "The 2024 vintage in Styria was warm and abundant — wines with generous fruit and early accessibility."
-    ],
-    "file": "whites"
-  },
-  {
     "id": "317",
     "cat": "Sauvignon Blanc",
     "type": "white",
@@ -3478,44 +3402,6 @@
     "btg": false
   },
   {
-    "id": "331",
-    "cat": "Sauvignon Blanc",
-    "type": "white",
-    "producer": "Henri Bourgeois",
-    "name": "Pouilly-Fumé, Loire Valley",
-    "region": "Loire Valley, France",
-    "vintage": "2023",
-    "abv": "13%",
-    "price": 70,
-    "cert": "",
-    "icons": [
-      "☁️",
-      "🍋",
-      "🧂"
-    ],
-    "notes": [
-      "Flint",
-      "Grapefruit",
-      "White currant",
-      "Chalk",
-      "Smoky mineral finish"
-    ],
-    "tableside": "Classic Pouilly-Fumé from one of the Loire's most respected estates. The 'fumé' — smoky — in the name comes from the gunflint soils, and you can taste it: Sauvignon Blanc at its most mineral and precise.",
-    "pairings": [
-      "Oysters",
-      "Grilled fish",
-      "Chèvre",
-      "Clean shellfish preparations"
-    ],
-    "story": "Henri Bourgeois is a multi-generational Loire family that farms both in Sancerre and Pouilly-Fumé — the two great Sauvignon Blanc appellations on opposite banks of the Loire River. Pouilly-Fumé tends toward more immediate accessibility and a more pronounced smoky, flinty mineral quality from the region's famous silex (flint) soils.",
-    "trivia": [
-      "The 'Fumé' in Pouilly-Fumé refers to the smoke-like character of the wine, which comes from the silex (flint) soils rather than any winemaking technique.",
-      "Pouilly-Fumé and Sancerre face each other across the Loire River — only a few kilometers apart but with different soil compositions.",
-      "Henri Bourgeois also makes wines in Marlborough, New Zealand under the Clos Henri label."
-    ],
-    "file": "whites"
-  },
-  {
     "id": "327",
     "cat": "Sauvignon Blanc",
     "type": "white",
@@ -3554,7 +3440,7 @@
     "file": "whites"
   },
   {
-    "id": "H1",
+    "id": "337",
     "cat": "Sauvignon Blanc",
     "type": "white",
     "producer": "Tement",
@@ -4730,7 +4616,7 @@
     "cat": "Other Whites",
     "type": "white",
     "producer": "Gebeshuber",
-    "name": "Rotgipfler 'Liam'",
+    "name": "Rotgipfler, Lage Laim",
     "region": "Thermenregion, Austria",
     "vintage": "2012",
     "abv": "13.5%",
@@ -4749,14 +4635,14 @@
       "Dried herbs",
       "Long textured finish"
     ],
-    "tableside": "Rotgipfler is Zierfandler's equally obscure Thermenregion partner — two grapes found almost nowhere else on earth, grown side by side for centuries. At fourteen years this 'Liam' cuvée is showing exactly what rare Austrian whites do with time: warm, complex, and genuinely contemplative.",
+    "tableside": "Rotgipfler is Zierfandler's Thermenregion partner, two grapes found almost nowhere else, grown side by side for centuries. At fourteen years this single-site Laim bottling shows what rare Austrian whites do with time: ripe pear, warm spice and the beginning of honey.",
     "pairings": [
       "Roast pork",
       "Veal",
       "Aged cheeses",
       "Rich mushroom dishes"
     ],
-    "story": "Rotgipfler and Zierfandler are often spoken of as a pair — two indigenous Thermenregion varieties that have coexisted in the same vineyards for centuries and are sometimes blended together. Rotgipfler tends toward more body and spice than Zierfandler, with a warmth that reflects the Pannonian influence on the region's climate. Gebeshuber's 'Liam' designation refers to a specific barrel selection named for a family member — their most serious Rotgipfler expression.",
+    "story": "Rotgipfler and Zierfandler are often spoken of as a pair, two indigenous Thermenregion varieties that have coexisted in the same vineyards for centuries and are sometimes blended together. Rotgipfler tends toward more body and spice than Zierfandler, with a warmth that reflects the Pannonian influence on the region's climate. Laim is a single vineyard site, and this is Gebeshuber's most serious Rotgipfler expression.",
     "trivia": [
       "Rotgipfler's name means 'red tip' in German — a reference to the reddish tinge on the tips of the grape clusters at harvest.",
       "Like Zierfandler, Rotgipfler was nearly abandoned in the 20th century when producers switched to more productive varieties. Its survival is largely due to a handful of committed Thermenregion estates.",
@@ -9625,46 +9511,6 @@
     "file": "reds"
   },
   {
-    "id": "2079",
-    "cat": "Cabernet",
-    "producer": "Pahlmeyer",
-    "name": "'Jayson,' Napa Valley",
-    "region": "Napa Valley, California",
-    "vintage": "2018",
-    "abv": "14.5%",
-    "price": 200,
-    "cert": "",
-    "btg": false,
-    "icons": [
-      "💪",
-      "🍑",
-      "🪵",
-      "🧈"
-    ],
-    "notes": [
-      "Dark cherry",
-      "Cassis",
-      "Chocolate",
-      "Cedar",
-      "Vanilla",
-      "Long elegant finish"
-    ],
-    "tableside": "Jayson is Pahlmeyer's accessible Napa Cab — the estate's flagship Proprietary Red commands much higher prices. Named for the winemaker's son and made to be enjoyed rather than collected. Rich, polished, and crowd-pleasing without requiring a special occasion.",
-    "pairings": [
-      "Beef",
-      "Short rib",
-      "Lamb",
-      "Dark chocolate"
-    ],
-    "story": "Jayson Pahlmeyer founded his Napa label in the late 1980s and built a cult following through word of mouth and critical scores. The Jayson is produced from younger vines and lots that don't meet the standard for the flagship, offering access to the Pahlmeyer style at a more moderate price. The 2018 vintage was excellent — concentrated and polished despite the October wildfire complications that affected parts of the county.",
-    "trivia": [
-      "Jayson Pahlmeyer's legal background — he was a San Francisco attorney before becoming a vintner — gave him an unusual precision and attention to detail that he applied directly to wine production.",
-      "The Jayson label has been more commercially successful than the flagship in terms of volume — the estate's model uses the more affordable second label to build brand recognition that drives interest in the prestige tier.",
-      "Pahlmeyer sources from multiple high-profile Napa vineyard sites including the Caldwell Vineyard — one of Napa's more unconventional addresses on a remote hillside above Coombsville."
-    ],
-    "file": "reds"
-  },
-  {
     "id": "2077",
     "cat": "Cabernet",
     "producer": "Palmaz Vineyards",
@@ -9818,45 +9664,6 @@
       "Knight's Valley is technically in Sonoma County but shares soil and climate characteristics with Napa's mountain appellations — one of the clearest examples of how county lines don't align neatly with wine regions or quality tiers.",
       "Some of Sonoma's best Cabernet-producing sites (Knight's Valley, Alexander Valley) rival Napa in quality at lower prices — the zip code difference is real and worth pointing out to curious guests.",
       "At $240, Sky Devil positions itself as an alternative to comparable Napa bottlings at higher prices — the argument being that the terroir is similar but the appellation recognition is not."
-    ],
-    "file": "reds"
-  },
-  {
-    "id": "2703",
-    "cat": "Other Red Blends",
-    "producer": "Domaine de Beudon",
-    "name": "'Dôle,' Valais, Switzerland",
-    "region": "Valais, Switzerland",
-    "vintage": "2020",
-    "abv": "13%",
-    "price": 130,
-    "cert": "",
-    "btg": false,
-    "icons": [
-      "⚖️",
-      "🍒",
-      "🌸",
-      "🧂"
-    ],
-    "notes": [
-      "Red cherry",
-      "Strawberry",
-      "Rose petal",
-      "Mineral",
-      "Light structure"
-    ],
-    "tableside": "Swiss wine on a restaurant list is genuinely unusual — almost nothing gets exported. Dôle is the traditional blend of Pinot Noir and Gamay from the Valais, Switzerland's main wine region, carved into steep terraces above the Rhône Valley. A genuine rarity and a conversation piece for curious guests.",
-    "pairings": [
-      "Fondue",
-      "Light meats",
-      "Salmon",
-      "Charcuterie"
-    ],
-    "story": "Domaine de Beudon perches on steep terraces above the Rhône Valley — so steep the vineyards can only be accessed by cable car. The estate is entirely biodynamic and certified. Dôle is the traditional Valais blend: mostly Pinot Noir with a minority of Gamay, producing a wine with characteristic Alpine minerality and lightness.",
-    "trivia": [
-      "Beudon's steep vineyard terraces are served exclusively by cable car — the incline is too severe for any wheeled vehicle, so all vineyard work is done entirely by hand.",
-      "Switzerland is one of the world's most unusual wine countries: most of what it produces stays within the country, it has almost no export industry, and per-capita wine prices are among the highest in the world.",
-      "The Valais is home to over 40 indigenous Swiss grape varieties, many found nowhere else on earth — the focus on internationally recognized Pinot Noir and Gamay in Dôle represents the commercial tier."
     ],
     "file": "reds"
   },
@@ -10497,6 +10304,86 @@
       "Walsh Family's pairing of a serious tannic wine (Tannat) with an approachable everyday blend (Paeonia) gives the winery a wine for every type of guest and every price point.",
       "The peony (Paeonia) has been cultivated in China for over 2,000 years as both an ornamental flower and a medicinal plant — it arrived in Europe in the 18th century and has been a garden staple ever since.",
       "At $75, Paeonia sits just above the Paradise Springs Cab Franc as an easy recommendation for guests curious about local wine at an accessible price."
+    ],
+    "file": "reds"
+  },
+  {
+    "id": "069",
+    "cat": "Virginia Reds",
+    "type": "red",
+    "producer": "Château O'Brien",
+    "name": "Tannat Reserve, Markham",
+    "region": "Virginia",
+    "vintage": "2021",
+    "abv": "",
+    "price": 88,
+    "cert": "",
+    "btg": false,
+    "icons": [
+      "💪",
+      "🌶️",
+      "☕",
+      "🍄"
+    ],
+    "notes": [
+      "Blackberry",
+      "Dark plum",
+      "Black pepper",
+      "Cocoa",
+      "Leather"
+    ],
+    "tableside": "Tannat is the grape Château O'Brien is known for, and the Reserve is their top bottling of it. Dark fruit, pepper and big, grippy tannin, grown in Markham at the foot of the Blue Ridge.",
+    "pairings": [
+      "Short rib",
+      "Venison",
+      "Grilled lamb",
+      "Hard aged cheeses"
+    ],
+    "story": "Howard O'Brien Jr. bought the Northpoint property in Markham in 2003, on steep, rocky slopes in the Blue Ridge foothills of Fauquier County, and the winery began producing wine in 2005. Tannat has become the estate's calling card, made as a Limited Reserve, a late harvest wine and a rosé.",
+    "trivia": [
+      "Tannat is the signature grape of Madiran in southwest France and the national grape of Uruguay.",
+      "Tannat carries some of the highest tannin levels of any red grape, which is the trait its name is usually traced to.",
+      "Château O'Brien sits on the Fauquier County Wine Trail, about an hour west of Clifton."
+    ],
+    "file": "reds"
+  },
+  {
+    "id": "085a",
+    "cat": "Virginia Reds",
+    "type": "red",
+    "producer": "Château O'Brien",
+    "name": "Mourvèdre, Markham",
+    "region": "Virginia",
+    "vintage": "2022",
+    "abv": "",
+    "price": 67,
+    "cert": "",
+    "btg": false,
+    "icons": [
+      "⚖️",
+      "🍑",
+      "🌿",
+      "🌶️"
+    ],
+    "notes": [
+      "Blackberry",
+      "Plum",
+      "Dried herbs",
+      "Black pepper",
+      "Leather"
+    ],
+    "tableside": "Mourvèdre is a Rhône and Bandol grape you rarely see from Virginia. Château O'Brien grows it in Markham in the Blue Ridge foothills. Dark berry, dried herbs and a savory, peppery edge.",
+    "pairings": [
+      "Lamb",
+      "Duck",
+      "Grilled sausage",
+      "Mushroom dishes"
+    ],
+    "story": "Howard O'Brien Jr. bought the Northpoint property in Markham in 2003, on steep, rocky slopes in the Blue Ridge foothills of Fauquier County, and the winery began producing wine in 2005. Tannat has become the estate's calling card, made as a Limited Reserve, a late harvest wine and a rosé.",
+    "trivia": [
+      "Mourvèdre is the M in the Rhône GSM blend of Grenache, Syrah and Mourvèdre.",
+      "Red Bandol on the Provence coast must contain at least 50% Mourvèdre.",
+      "Spain calls the same grape Monastrell, and in Australia and California it has long been known as Mataro."
     ],
     "file": "reds"
   },
@@ -12991,8 +12878,8 @@
     "type": "red",
     "file": "reds",
     "producer": "Hillinger",
-    "name": "'Hillside' Syrah/Zweigelt/Merlot, Leithaberg DAC, 2022",
-    "region": "Leithaberg DAC, Burgenland, Austria",
+    "name": "'Small Hill' Merlot/Pinot Noir/St. Laurent, Leithaberg DAC, 2022",
+    "region": "Burgenland, Austria",
     "vintage": "2022",
     "abv": "13.5%",
     "price": 47,
@@ -13000,28 +12887,29 @@
     "btg": false,
     "icons": [
       "⚖️",
-      "🍑",
-      "🌶️",
-      "🍒"
+      "🍒",
+      "🧈",
+      "🌶️"
     ],
     "notes": [
-      "Red plum",
       "Dark cherry",
-      "Pepper",
-      "Light herb",
-      "Smooth tannin"
+      "Black raspberry",
+      "Boysenberry",
+      "Bitter chocolate",
+      "Oak spice"
     ],
-    "tableside": "Hillinger's entry-level red from the Leithaberg DAC on the western shore of Lake Neusiedl. Red plum, dark cherry, pepper, and a light herbal note. Accessible and food-friendly, built to show what Burgenland can do with a blend beyond Blaufränkisch alone.",
+    "tableside": "Hillinger's Small Hill is half Merlot, with Pinot Noir and St. Laurent making up the rest. Soft and juicy: dark cherry, black raspberry and a little chocolate. An easy red that won't overpower lighter food.",
     "pairings": [
-      "Grilled pork",
-      "Schnitzel",
-      "Light pasta"
+      "Roast chicken",
+      "Grilled sausage",
+      "Pasta",
+      "Charcuterie"
     ],
-    "story": "Leo Hillinger built his estate in the Leithaberg DAC into one of Burgenland's most modern and design-forward operations — the winery itself is an architectural statement. The Hillside blend reflects his philosophy of making wines that appeal beyond the traditional Austrian red wine audience, using international varieties alongside native Zweigelt.",
+    "story": "Leo Hillinger runs one of Burgenland's most modern estates near Lake Neusiedl, with a striking contemporary winery at Jois. Small Hill is the entry line of the range, built to be soft and approachable, with Merlot for flesh and Pinot Noir and St. Laurent for bright red fruit.",
     "trivia": [
-      "The Leithaberg DAC designation was created specifically for wines from the limestone and schist soils on the western shore of Lake Neusiedl — a distinct terroir that produces more mineral, structured reds than the eastern lake shore.",
-      "Leo Hillinger is one of Austria's most internationally recognized wine producers, as much for his design aesthetic and marketing as for the wines themselves.",
-      "Lake Neusiedl — Europe's largest steppe lake — moderates temperatures across the entire Burgenland wine region, reducing the risk of frost and enabling consistent ripening even in difficult vintages."
+      "St. Laurent is one of the two parents of Zweigelt, Austria's most widely planted red grape. The other is Blaufränkisch.",
+      "St. Laurent is closely related to Pinot Noir and shares its soft, cherry-led style.",
+      "Lake Neusiedl, a large shallow steppe lake on the Hungarian border, moderates the climate of the Burgenland vineyards around it."
     ],
     "bottle_price": 47
   },
@@ -14396,7 +14284,7 @@
     "producer": "Quinta do Vale Meão",
     "name": "Touriga Nacional/T. Franca/Tinta Barroca/Tinta Roriz, Douro",
     "region": "Douro Valley, Portugal",
-    "vintage": "2021",
+    "vintage": "2020",
     "abv": "14%",
     "price": 228,
     "cert": "",
@@ -14469,6 +14357,47 @@
       "Morlet named this wine 'Mon Chevalier' — 'My Knight' — as a play on Knight's Valley, the appellation, while evoking the chivalric tradition of personal honor he believes should guide winemaking.",
       "Luc Morlet's family Champagne house in France (Pierre Morlet) has operated since 1930 — the French tradition of precision and terroir expression is in his DNA and shows in everything he makes in California.",
       "At $402, Mon Chevalier sits in the same price tier as some classified Bordeaux châteaux — a comparison Morlet embraces, arguing that Knight's Valley terroir merits the same serious treatment."
+    ],
+    "file": "reds"
+  },
+  {
+    "id": "2707",
+    "cat": "Other Red Blends",
+    "type": "red",
+    "producer": "St. Supery",
+    "name": "'Élu,' Cab Sauv/Merlot/Cab Franc/Malbec/Petit Verdot, Napa Valley",
+    "region": "Napa Valley, California",
+    "vintage": "2019",
+    "abv": "14.5%",
+    "price": 180,
+    "cert": "",
+    "btg": false,
+    "icons": [
+      "💪",
+      "🍑",
+      "🪵",
+      "☕"
+    ],
+    "notes": [
+      "Blackberry",
+      "Blueberry",
+      "Black plum",
+      "Cassis",
+      "Mocha",
+      "Espresso"
+    ],
+    "tableside": "Élu is St. Supéry's Bordeaux-style blend, mostly Cabernet with Merlot and a little of the other three Bordeaux grapes. Blackberry, mocha and black plum with firm, fine tannins. If the table likes the estate Merlot, this is the house's bigger red.",
+    "pairings": [
+      "Ribeye",
+      "Braised short rib",
+      "Lamb chops",
+      "Aged cheddar"
+    ],
+    "story": "St. Supéry farms an estate vineyard around its Rutherford winery and the larger Dollarhide Ranch in the hills of eastern Napa. Since 2015 it has been owned by the Wertheimer family, owners of Chanel. Élu follows the Bordeaux model: Cabernet Sauvignon at the core, supported by the other four classic Bordeaux varieties.",
+    "trivia": [
+      "The 2019 is 71% Cabernet Sauvignon, 18% Merlot, 5% Cabernet Franc, 3% Malbec and 3% Petit Verdot.",
+      "Élu is French for 'chosen.'",
+      "The same owners hold Château Rauzan-Ségla in Margaux and Château Canon in St-Émilion."
     ],
     "file": "reds"
   },
@@ -14644,7 +14573,7 @@
     "producer": "Altos las Hormigas",
     "name": "Semillon/Chenin Blanc/Pedro Giménez, Mendoza",
     "region": "Mendoza, Argentina",
-    "vintage": "",
+    "vintage": "2024",
     "abv": 12.5,
     "price": 52,
     "cert": "",
@@ -14761,7 +14690,7 @@
     "coravin": false
   },
   {
-    "id": "743",
+    "id": "745",
     "cat": "Other Whites",
     "type": "White",
     "producer": "Mylonas",
