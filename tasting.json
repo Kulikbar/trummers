@@ -1,395 +1,417 @@
 {
-  "theme": "Mushroom",
-  "date": "October 2026",
-  "price": 85,
-  "pairing_price": 55,
-  "intro": "A five course menu built around mushrooms, with each course labelled by how it is cooked: baked, sautéed, grilled and baked again for dessert. Trumpet, chanterelle, lion's mane, portabella and porcini all appear, and the last course puts porcini into chocolate. The optional wine pairing adds $55.",
-  "courses": [
-    {
-      "id": "t1",
-      "course": 1,
-      "section": "amuse",
-      "name": "Trumpet Mushroom Fritter",
-      "description": "Lemon aioli",
-      "tableside": "A one bite amuse to open the menu: king trumpet mushroom in a light fritter batter, with lemon aioli. The trumpet comes back again on the lion's mane course.",
-      "ingredients": [
-        "King trumpet mushroom",
-        "Fritter batter",
-        "Lemon aioli"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "check",
-          "note": "Fried. Confirm whether the fryer is shared with shellfish."
-        },
-        "dairy": {
-          "status": "check",
-          "note": "Confirm the batter."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No tree nuts expected."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "gluten": {
-          "status": "check",
-          "note": "Fritter batter is usually wheat flour. Confirm."
-        },
-        "eggs": {
-          "status": "contains",
-          "note": "Aioli is egg yolk based, and batter often contains egg."
-        },
-        "soy": {
-          "status": "check",
-          "note": "Confirm the fry oil."
-        },
-        "vegetarian": {
-          "status": "yes",
-          "note": "No meat or fish. Confirm the fryer for a strict vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Egg in the aioli."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "King Trumpet",
-          "definition": "Pleurotus eryngii, the largest of the oyster mushrooms. The thick white stem is the main eating part and keeps a meaty, almost scallop like texture when cooked."
-        },
-        {
-          "term": "Aioli",
-          "definition": "A Provençal emulsion of garlic and oil. Modern versions are usually built on egg yolk like a mayonnaise."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "One bite to open. Introduce the mushroom theme as it lands. Ask about the fryer for a shellfish or celiac guest.",
-      "pairing": null
+ "theme": "Game",
+ "date": "November 2026",
+ "price": 95,
+ "pairing_price": 62,
+ "intro": "A five course menu built around game: wild boar, elk and duck. Each course is named for how it is cooked, raw, braised, seared and baked, and the menu runs from a one bite boar chop to a dessert made with duck fat. Japanese technique turns up early, with a yakitori glaze, furikake and a tataki, before the menu moves to Italy and the American South.",
+ "courses": [
+  {
+   "id": "t1",
+   "course": 1,
+   "section": "amuse",
+   "name": "Wild Boar Chop",
+   "description": "Yakitori BBQ glaze, cornbread furikake",
+   "tableside": "A one bite wild boar chop to open the menu. It's lacquered with a yakitori style barbecue glaze, sweet and salty from soy and mirin, and finished with a furikake made from cornbread. Japanese seasoning on a Southern base, which sets up the rest of the menu.",
+   "ingredients": [
+    "Wild boar chop",
+    "Yakitori BBQ glaze",
+    "Cornbread furikake"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "check",
+     "note": "No shellfish expected. Some furikake blends include dried shrimp. Confirm."
     },
-    {
-      "id": "t2",
-      "course": 2,
-      "section": "baked",
-      "name": "Chanterelle Terrine",
-      "description": "Spicy mustard, red wine poached prune, frisee",
-      "tableside": "A baked terrine of chanterelles, sliced and served with spicy mustard, a prune poached in red wine and a little frisée. Chanterelles are wild, so every one on the plate was foraged.",
-      "ingredients": [
-        "Chanterelle terrine",
-        "Spicy mustard",
-        "Red wine poached prune",
-        "Frisée"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish expected."
-        },
-        "dairy": {
-          "status": "check",
-          "note": "Terrines are often bound with cream. Confirm."
-        },
-        "nuts": {
-          "status": "check",
-          "note": "Pistachio is a common terrine garnish. Confirm none is used."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts expected."
-        },
-        "gluten": {
-          "status": "check",
-          "note": "Terrines are sometimes bound with breadcrumb. Confirm."
-        },
-        "eggs": {
-          "status": "check",
-          "note": "Terrines are often bound with egg. Confirm."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy expected."
-        },
-        "vegetarian": {
-          "status": "check",
-          "note": "Many terrines contain pork fat or are set with gelatin. Confirm this one is meat free."
-        },
-        "vegan": {
-          "status": "check",
-          "note": "Depends on the binder."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Chanterelle",
-          "definition": "A golden, funnel shaped wild mushroom with blunt ridges running down the stem instead of true gills. It cannot be reliably cultivated, so all chanterelles are foraged. Faint apricot aroma."
-        },
-        {
-          "term": "Terrine",
-          "definition": "A loaf pressed and cooked in a straight sided mould, also called a terrine, then sliced and served cold or at room temperature."
-        },
-        {
-          "term": "Frisée",
-          "definition": "Curly endive. Pale, crisp and bitter, used here to cut the richness."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "Confirm the binder before clearing this course for a vegetarian, dairy, egg or gluten restriction. Mustard is on the plate, so name it for a guest who asks.",
-      "pairing": {
-        "wine_id": "727",
-        "name": "Viura/Garnacha Blanca/Maturana Blanca Gran Reserva Blanco, Rioja",
-        "producer": "Viña Otano",
-        "grapes": "Viura, Garnacha Blanca, Maturana Blanca",
-        "region": "Rioja, Spain",
-        "vintage": "2015",
-        "bin": "727",
-        "file": "whites",
-        "in_list": true,
-        "note": "A Gran Reserva white Rioja with ten years behind it, which means at least four years of ageing before release with six months in oak. That age turns the fruit nutty and savoury, and it sits right on top of the earthy chanterelle. Its acidity cuts the richness of the terrine and the spicy mustard, and the dried fruit character from long ageing links to the red wine poached prune. A young, fruity white would taste thin next to this course."
-      }
+    "dairy": {
+     "status": "check",
+     "note": "Cornbread is usually made with butter or buttermilk. Confirm."
     },
-    {
-      "id": "t3",
-      "course": 3,
-      "section": "sautéed",
-      "name": "Wild Mushroom Tortellini",
-      "description": "Truffle cream, fried sage, parmesan tuille",
-      "tableside": "Tortellini filled with sautéed wild mushrooms, in a truffle cream with fried sage leaves and a crisp parmesan tuile on top.",
-      "ingredients": [
-        "Tortellini",
-        "Wild mushroom filling",
-        "Truffle cream",
-        "Fried sage",
-        "Parmesan tuile"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish expected."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Truffle cream and parmesan."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No tree nuts expected."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "gluten": {
-          "status": "contains",
-          "note": "Wheat pasta."
-        },
-        "eggs": {
-          "status": "check",
-          "note": "Fresh pasta dough is normally made with egg. Confirm."
-        },
-        "soy": {
-          "status": "safe",
-          "note": "No soy expected."
-        },
-        "vegetarian": {
-          "status": "check",
-          "note": "No meat expected. Parmesan is traditionally made with animal rennet, which matters to a strict vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Dairy."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Tortellini",
-          "definition": "Small ring shaped stuffed pasta from Emilia, around Bologna and Modena."
-        },
-        {
-          "term": "Tuile",
-          "definition": "French for tile. A thin, curved crisp wafer, here baked from parmesan alone."
-        },
-        {
-          "term": "Truffle Cream",
-          "definition": "Cream sauce flavoured with truffle. Truffles are underground fungi, cousins of the mushrooms on the rest of the menu."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "Cannot be made gluten or dairy free. For a strict vegetarian, raise the parmesan rennet question rather than clearing the course outright.",
-      "pairing": {
-        "wine_id": "1035",
-        "name": "Vigna San Carlo, Pinot Nero",
-        "producer": "Saracco",
-        "grapes": "Pinot Noir",
-        "region": "Piedmont, Italy",
-        "vintage": "2019",
-        "bin": "1035",
-        "file": "reds",
-        "in_list": true,
-        "note": "Light bodied Pinot Noir with red fruit and an earthy, forest floor side that runs straight into the wild mushrooms. Low tannin means the truffle cream doesn't turn it bitter, and its acidity cuts through the cream and parmesan. Saracco is best known for Moscato d'Asti, which makes this single vineyard Pinot Nero an unusual bottle from them."
-      }
+    "nuts": {
+     "status": "safe",
+     "note": "No tree nuts expected."
     },
-    {
-      "id": "t4",
-      "course": 4,
-      "section": "grilled",
-      "name": "Lion's Mane Mushroom Steak",
-      "description": "Mushroom ketchup, grilled portabella, trumpet mushroom, blue Stilton",
-      "tableside": "Lion's mane cut thick and grilled like a steak, with grilled portabella, king trumpet, a house mushroom ketchup and blue Stilton. The main course, and meaty enough to stand in for one.",
-      "ingredients": [
-        "Lion's mane mushroom",
-        "Mushroom ketchup",
-        "Grilled portabella",
-        "King trumpet mushroom",
-        "Blue Stilton"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish expected."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Blue Stilton. Ask whether it can be left off."
-        },
-        "nuts": {
-          "status": "safe",
-          "note": "No tree nuts expected."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts."
-        },
-        "gluten": {
-          "status": "check",
-          "note": "Mushroom ketchup recipes often include Worcestershire or soy sauce, which can carry wheat. Confirm."
-        },
-        "eggs": {
-          "status": "safe",
-          "note": "No eggs expected."
-        },
-        "soy": {
-          "status": "check",
-          "note": "Confirm the mushroom ketchup."
-        },
-        "vegetarian": {
-          "status": "check",
-          "note": "Traditional English mushroom ketchup sometimes includes anchovy. Confirm the house version, and Stilton rennet for a strict vegetarian."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Stilton."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Lion's Mane",
-          "definition": "Hericium erinaceus, a white mushroom that grows in shaggy cascading spines. Seared, it has a texture people compare to crab or lobster."
-        },
-        {
-          "term": "Mushroom Ketchup",
-          "definition": "An eighteenth century English condiment of salted mushrooms cooked down with spices. Ketchup originally meant a savoury sauce, and tomato came later."
-        },
-        {
-          "term": "Stilton",
-          "definition": "An English blue cheese with protected status. It can only be made in Derbyshire, Leicestershire and Nottinghamshire, which rules out the village of Stilton itself."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "The vegetarian main of the menu in effect, but confirm the mushroom ketchup before calling it vegetarian.",
-      "pairing": {
-        "wine_id": "3003",
-        "name": "Merlot/Cab Franc/Cab Sauv/Malbec, St-Émilion",
-        "producer": "Château Haut-Rocher",
-        "grapes": "Merlot, Cabernet Franc, Cabernet Sauvignon, Malbec",
-        "region": "Bordeaux, France",
-        "vintage": "2019",
-        "bin": "3003",
-        "file": "reds",
-        "in_list": true,
-        "note": "Merlot-led Right Bank Bordeaux with soft tannin, plum fruit and an earthy side that suits a meaty mushroom course. The char from the grill wants a red with some structure, and the Stilton's salt and blue funk soften the tannin. Six years of age have turned the fruit toward savoury, which suits the mushroom ketchup."
-      }
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
     },
-    {
-      "id": "t5",
-      "course": 5,
-      "section": "baked",
-      "name": "Porcini Chocolate Truffle",
-      "description": "Porcini chocolate ganache, cocoa nib, porcini vanilla creme, toasted cashew",
-      "tableside": "Dessert keeps the theme: a chocolate truffle with porcini in the ganache, cocoa nib, a porcini and vanilla crème and toasted cashews. Dried porcini taste nutty and savoury, which works with dark chocolate the way salt does.",
-      "ingredients": [
-        "Porcini chocolate ganache",
-        "Cocoa nib",
-        "Porcini vanilla crème",
-        "Toasted cashew"
-      ],
-      "allergens": {
-        "shellfish": {
-          "status": "safe",
-          "note": "No shellfish."
-        },
-        "dairy": {
-          "status": "contains",
-          "note": "Ganache and crème are cream based."
-        },
-        "nuts": {
-          "status": "contains",
-          "note": "Toasted cashews are on the plate. Ask whether they can be left off."
-        },
-        "peanuts": {
-          "status": "safe",
-          "note": "No peanuts expected."
-        },
-        "gluten": {
-          "status": "check",
-          "note": "Confirm whether there is any biscuit or flour component."
-        },
-        "eggs": {
-          "status": "check",
-          "note": "Confirm whether the crème uses egg yolk."
-        },
-        "soy": {
-          "status": "check",
-          "note": "Chocolate often contains soy lecithin. Confirm."
-        },
-        "vegetarian": {
-          "status": "yes",
-          "note": "No meat or gelatin expected."
-        },
-        "vegan": {
-          "status": "no",
-          "note": "Dairy."
-        }
-      },
-      "key_terms": [
-        {
-          "term": "Porcini",
-          "definition": "Boletus edulis, the king bolete. Dried porcini have an intense nutty, savoury aroma."
-        },
-        {
-          "term": "Ganache",
-          "definition": "Chocolate melted into warm cream, the base of a truffle."
-        },
-        {
-          "term": "Cocoa Nib",
-          "definition": "Roasted, crushed cacao bean before it is ground into chocolate. Crunchy and bitter with no added sugar."
-        }
-      ],
-      "sourcing": [],
-      "chef_notes": "Cashew is a tree nut and is on the plate. Confirm whether it can be held before offering the course to a nut allergic guest.",
-      "pairing": {
-        "wine_id": null,
-        "name": "10 Year Old Tawny Port",
-        "producer": "Dow's",
-        "grapes": "Touriga Nacional, Touriga Franca and other Douro varieties",
-        "region": "Douro, Portugal",
-        "vintage": "NV",
-        "bin": "",
-        "file": "afters",
-        "in_list": false,
-        "note": "Ten year tawny, aged in small oak casks until the fruit turns to hazelnut, fig and dried cherry. Dow's makes a drier style of port than most houses, which keeps a chocolate dessert from tipping into too much sugar. The nutty character matches the toasted cashew and the savoury porcini, and the dried fruit sits with the cocoa nib. Our regular afters list carries Graham's tawnies instead, so this is a tasting menu pour."
-      }
+    "gluten": {
+     "status": "contains",
+     "note": "Yakitori glaze is soy sauce based, and cornbread usually contains wheat flour."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Cornbread usually contains egg. Confirm."
+    },
+    "soy": {
+     "status": "contains",
+     "note": "Soy sauce in the glaze."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains wild boar."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains wild boar."
     }
-  ]
+   },
+   "key_terms": [
+    {
+     "term": "Yakitori",
+     "definition": "Japanese skewered chicken grilled over charcoal. The glaze, called tare, is a reduction of soy sauce, mirin, sake and sugar, brushed on repeatedly so it builds into a lacquer."
+    },
+    {
+     "term": "Furikake",
+     "definition": "A dry Japanese seasoning sprinkled over rice, usually built on toasted sesame, nori, salt and sugar, and often dried bonito. Here the base is crumbled cornbread."
+    },
+    {
+     "term": "Wild Boar",
+     "definition": "The wild ancestor of the domestic pig. Leaner and darker than pork, with a deeper, slightly nutty flavour because the animals forage and move far more."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "One bite. Introduce the game theme as it lands. Allergens the grid does not track: furikake is typically sesame based and often contains bonito, so ask the kitchen for a guest with a sesame or fish allergy.",
+   "pairing": null
+  },
+  {
+   "id": "t2",
+   "course": 2,
+   "section": "raw",
+   "name": "Elk Tataki",
+   "description": "Smoked ponzu, soy pearls, sriracha aioli, scallion",
+   "tableside": "Elk seared for a few seconds on the outside and left raw through the middle, then sliced thin. It sits in a smoked ponzu, a citrus soy sauce, with little pearls of soy, a sriracha aioli and scallion. Elk is lean and clean tasting, closer to beef than to venison.",
+   "ingredients": [
+    "Elk",
+    "Smoked ponzu",
+    "Soy pearls",
+    "Sriracha aioli",
+    "Scallion"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "safe",
+     "note": "No dairy expected."
+    },
+    "nuts": {
+     "status": "safe",
+     "note": "No tree nuts."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Ponzu and soy pearls are soy sauce based, which contains wheat unless made with tamari."
+    },
+    "eggs": {
+     "status": "contains",
+     "note": "Aioli is egg yolk based. Ask whether it can come off."
+    },
+    "soy": {
+     "status": "contains",
+     "note": "Ponzu and soy pearls."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains elk."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains elk and egg."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Tataki",
+     "definition": "A Japanese technique: meat or fish seared very briefly over high heat, chilled, then sliced thin so the outside is cooked and the inside raw. The word means pounded or hit."
+    },
+    {
+     "term": "Ponzu",
+     "definition": "A Japanese sauce of citrus juice, soy sauce, mirin and rice vinegar, traditionally steeped with kombu and bonito flakes. The name comes from the Dutch pons, meaning punch."
+    },
+    {
+     "term": "Soy Pearls",
+     "definition": "Soy sauce set into small beads, usually with a seaweed derived gelling agent, so they burst on the tongue. The same idea as caviar, with soy in place of roe."
+    },
+    {
+     "term": "Elk",
+     "definition": "A large North American deer. The meat is very lean and mild, with less of the iron edge people expect from venison, which is why it works served raw."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "Raw course, so give the undercooked meat advisory when a guest asks. Traditional ponzu contains bonito, which matters for a fish allergy even though the grid does not track fish. Confirm with the kitchen.",
+   "pairing": {
+    "wine_id": "102",
+    "name": "Cabernet Sauvignon Rosé Sekt Reserve",
+    "producer": "Steininger",
+    "grapes": "Cabernet Sauvignon",
+    "region": "Niederösterreich, Austria",
+    "vintage": "2024",
+    "bin": "102",
+    "file": "sparkling",
+    "in_list": true,
+    "note": "A dry Austrian rosé Sekt made from Cabernet Sauvignon, with strawberry, rose hip and light red cherry. Red fruit is what lets a sparkling wine sit next to raw red meat: lean elk has a faint iron edge that a white would sharpen and this softens. The bubbles and acidity scrub the sriracha aioli off the palate, and because the wine is fully dry it stays clean against the salt and citrus of the ponzu instead of turning sweet. Cabernet keeps a little savoury grip even as a rosé, which gives it enough body for meat rather than fish. Also on our sparkling list by the bottle."
+   },
+   "_verify": "Printed menu pours the 2024. wines.json #102 lists the 2023. Confirm which vintage is in the cellar and update one or the other."
+  },
+  {
+   "id": "t3",
+   "course": 3,
+   "section": "braised",
+   "name": "Wild Boar Ragu",
+   "description": "Okinawan sweet potato gnocchi, brie fonduta, trumpet mushroom, sage crumble",
+   "tableside": "Wild boar braised down into a ragu, served over gnocchi made from Okinawan sweet potato, which is purple inside. There's a brie fonduta, a melted cheese sauce, with trumpet mushrooms and a crumble of sage on top. The richest course on the menu.",
+   "ingredients": [
+    "Wild boar",
+    "Okinawan sweet potato gnocchi",
+    "Brie fonduta",
+    "Trumpet mushroom",
+    "Sage crumble"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "contains",
+     "note": "Brie fonduta is the sauce."
+    },
+    "nuts": {
+     "status": "check",
+     "note": "No tree nuts expected. Confirm the sage crumble."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Gnocchi is bound with wheat flour, and the crumble is likely bread or flour based."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Gnocchi dough and fonduta can both use egg. Confirm."
+    },
+    "soy": {
+     "status": "safe",
+     "note": "No soy expected."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains wild boar."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains wild boar and dairy."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Okinawan Sweet Potato",
+     "definition": "A sweet potato with pale skin and deep purple flesh, the colour coming from anthocyanins. Drier, denser and less sugary than an orange sweet potato, which makes it good for gnocchi."
+    },
+    {
+     "term": "Fonduta",
+     "definition": "The Italian cousin of fondue, from Piedmont and the Aosta Valley, traditionally Fontina melted with milk, butter and egg yolk. This one is made with brie."
+    },
+    {
+     "term": "Trumpet Mushroom",
+     "definition": "King trumpet, the largest of the oyster mushroom family. Thick white stem, small cap, and a meaty texture that holds up in a braise."
+    },
+    {
+     "term": "Ragu",
+     "definition": "An Italian meat sauce cooked slowly until the meat breaks down. Bolognese is the best known, but the word covers any long cooked meat sauce."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "Gluten and dairy are both structural here. Egg is the open question: ask whether the gnocchi and the fonduta use it before answering an egg allergy.",
+   "pairing": {
+    "wine_id": "5029",
+    "name": "'Basadone' Pelaverga, Verduno",
+    "producer": "Castello di Verduno",
+    "grapes": "Pelaverga",
+    "region": "Verduno, Piedmont, Italy",
+    "vintage": "2023",
+    "bin": "5029",
+    "file": "reds",
+    "in_list": true,
+    "note": "Pelaverga is light, silky and perfumed: rose petal, white cherry, cranberry and a distinct white pepper note, at about 13 percent alcohol. It works by contrast. The ragu, the brie fonduta and the sweet potato gnocchi are all soft and rich, and the wine's acidity and pepper cut through them where a heavier red would add more weight to an already heavy course. Low tannin means nothing clashes with the sweetness of the gnocchi, and the tart red fruit lifts the braised boar. The grape is grown almost only in the commune of Verduno, next to Barolo. The printed menu spells it Pelavagra. Also on our list by the bottle."
+   }
+  },
+  {
+   "id": "t4",
+   "course": 4,
+   "section": "seared",
+   "name": "Pistachio Crusted Duck Breast",
+   "description": "Crispy duck confit, collard greens, sour cherry demi-glace",
+   "tableside": "Duck two ways. A seared breast with a pistachio crust, served pink, alongside crispy duck confit, which is leg meat slow cooked in its own fat. Collard greens and a sour cherry demi-glace finish the plate. Pistachio is on the outside of the breast, so mention it.",
+   "ingredients": [
+    "Duck breast",
+    "Pistachio crust",
+    "Duck confit",
+    "Collard greens",
+    "Sour cherry demi-glace"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "check",
+     "note": "Collards and the demi are often finished with butter. Confirm."
+    },
+    "nuts": {
+     "status": "contains",
+     "note": "Pistachio crust on the breast."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "check",
+     "note": "Confirm whether the crust uses a flour or breadcrumb binder, and whether the confit is dusted before crisping."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Crusts are often bound with egg. Confirm."
+    },
+    "soy": {
+     "status": "check",
+     "note": "Confirm the demi-glace."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Contains duck."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Contains duck."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Confit",
+     "definition": "From the French confire, to preserve. Duck legs are salt cured, then cooked slowly submerged in duck fat until tender. Crisped before serving."
+    },
+    {
+     "term": "Demi-Glace",
+     "definition": "A classical French sauce built by reducing veal or beef stock with wine until it is glossy and coats a spoon. Sour cherry gives this one acidity to cut the duck fat."
+    },
+    {
+     "term": "Collard Greens",
+     "definition": "A sturdy leafy green in the cabbage family and a staple of Southern cooking, usually braised until tender. Slightly bitter, which balances rich meat."
+    }
+   ],
+   "sourcing": [],
+   "chef_notes": "Pistachio is the obvious nut allergen and cannot be hidden, since it is on the outside of the breast. Ask whether the breast can go out without the crust. Collards in Southern cooking are often braised with pork, so confirm for a guest avoiding pork.",
+   "pairing": {
+    "wine_id": "2527",
+    "name": "Petite Sirah, Lytton Estate, Sonoma County",
+    "producer": "Ridge Vineyards",
+    "grapes": "Petite Sirah",
+    "region": "Sonoma County, California",
+    "vintage": "2022",
+    "bin": "2527",
+    "file": "reds",
+    "in_list": true,
+    "note": "Inky and dense, with blackberry, dark chocolate and black pepper over firm tannin. Two kinds of duck fat on one plate, crisp confit and a rendered breast, need that much tannin to cut through them. The wine's dark fruit sits alongside the sour cherry demi rather than competing with it, and the pepper meets the bitterness of the collards. The printed menu says Petit Syrah. The grape is Petite Sirah, also called Durif, and it is not the same grape as Syrah. Also on our list by the bottle."
+   }
+  },
+  {
+   "id": "t5",
+   "course": 5,
+   "section": "baked",
+   "name": "Duck Fat Apple Tart",
+   "description": "Niman Ranch bacon, salted caramel, candied pecans, Buffalo Trace ice cream",
+   "tableside": "An apple tart with the pastry made with duck fat, which keeps the game theme running into dessert. It's topped with Niman Ranch bacon, salted caramel and candied pecans, with ice cream made with Buffalo Trace bourbon. Sweet and salty, and not one for a vegetarian.",
+   "ingredients": [
+    "Duck fat pastry",
+    "Apple",
+    "Niman Ranch bacon",
+    "Salted caramel",
+    "Candied pecans",
+    "Buffalo Trace ice cream"
+   ],
+   "allergens": {
+    "shellfish": {
+     "status": "safe",
+     "note": "No shellfish."
+    },
+    "dairy": {
+     "status": "contains",
+     "note": "Ice cream and salted caramel."
+    },
+    "nuts": {
+     "status": "contains",
+     "note": "Candied pecans."
+    },
+    "peanuts": {
+     "status": "safe",
+     "note": "No peanuts."
+    },
+    "gluten": {
+     "status": "contains",
+     "note": "Tart pastry is wheat based."
+    },
+    "eggs": {
+     "status": "check",
+     "note": "Ice cream is usually a custard base. Confirm the ice cream and pastry."
+    },
+    "soy": {
+     "status": "safe",
+     "note": "No soy expected."
+    },
+    "vegetarian": {
+     "status": "no",
+     "note": "Duck fat pastry and bacon."
+    },
+    "vegan": {
+     "status": "no",
+     "note": "Duck fat, bacon and dairy."
+    }
+   },
+   "key_terms": [
+    {
+     "term": "Duck Fat Pastry",
+     "definition": "Pastry made with rendered duck fat in place of some or all of the butter. It bakes up flaky the way lard pastry does, with a savoury edge that suits apple and bacon."
+    },
+    {
+     "term": "Ice Cider",
+     "definition": "A Quebec born dessert drink made from apple juice concentrated by freezing, either by pressing frozen apples or by leaving pressed juice outside in winter so the water freezes off. The pairing on this course."
+    }
+   ],
+   "sourcing": [
+    {
+     "name": "Niman Ranch",
+     "description": "A network of independent American family farms. Its pork is raised without antibiotics or added hormones."
+    },
+    {
+     "name": "Buffalo Trace",
+     "description": "Bourbon from the Buffalo Trace Distillery in Frankfort, Kentucky. The same bourbon is on our whisky list, which is an easy suggestion for a guest who wants a glass after dinner."
+    }
+   ],
+   "chef_notes": "Not vegetarian in two ways: duck fat in the pastry and bacon on top. Bacon can presumably come off but the pastry cannot change. The ice cream is made with bourbon, so flag it for a guest avoiding alcohol. Pecans are on the plate.",
+   "pairing": {
+    "wine_id": null,
+    "name": "Heirloom Blend Ice Cider",
+    "producer": "Eden Specialty Ciders",
+    "grapes": "Heirloom apples",
+    "region": "West Charleston, Vermont",
+    "vintage": "",
+    "bin": "",
+    "file": "",
+    "in_list": false,
+    "note": "Ice cider made from a blend of heirloom Vermont apples, with the juice concentrated by winter cold before fermentation. Very sweet but with high acidity, so it reads as concentrated baked apple rather than syrup. Apple against apple is the obvious link, but the acidity does the work: it cuts the duck fat pastry and the salted caramel so the course does not cloy, and it is sweet enough to match the dessert without tasting thin beside it. Eden was Vermont's first ice cider producer, started in 2007 by Eleanor and Albert Leger on a former dairy farm. Not on our regular list."
+   },
+   "_verify": "Printed menu gives no vintage for the Eden Heirloom Blend ice cider. Confirm with the somm and fill in pairing.vintage."
+  }
+ ]
 }
